@@ -1,0 +1,98 @@
+body{
+	background-image:url(../image/loginbg.gif);
+	background-repeat:repeat-x;
+	background-color:#dff0f8;
+	font-size:12px;
+}
+#Layer1 {
+	position:absolute;
+	left:500px;
+	top:187px;
+	width:496px;
+	height:292px;
+	background-image:url(../image/login_mainBg.jpg);
+	background-repeat:no-repeat;
+	z-index:1;
+}
+#Layer2 {
+	position:absolute;
+	left:37px;
+	top:87px;
+	width:76px;
+	height:67px;
+	z-index:2;
+}
+#Layer3 {
+	position:absolute;
+	left:150px;
+	top:93px;
+	width:164px;
+	height:115px;
+	font-size:12px;
+	z-index:2;
+}
+.login_input_style{
+	width:103px;
+	height:21px;
+	border:1px solid #9bc8e9;
+	
+}
+.login_input_style1{
+	width:103px;
+	height:21px;
+	border:1px solid #9bc8e9;
+	background-image:url(../image/errorbg.jpg);
+	
+}
+.login_checknum_style{
+	width:50px;
+	height:21px;
+	border:1px solid #9bc8e9;
+}
+.input_button_style{
+	width:50px;
+	height:20px;
+	border:1px solid #a3bfd4;
+	background-image:url(../image/login_button_bg.gif);
+	background-repeat:no-repeat;
+	font-size:12px;
+	color:#3f7eef;
+}
+#Layer4 {
+	position:absolute;
+	left:24px;
+	top:66px;
+	width:354px;
+	height:61px;
+	font-size:24px;
+	color:#FFFFFF;
+	z-index:5;
+}
+#Layer5 {
+	position:absolute;
+	left:26px;
+	top:67px;
+	width:354px;
+	height:61px;
+	font-size:24px;
+	color:#000000;
+	z-index:1;
+}
+#imgLayer{
+	position:absolute;
+	left:240px;
+	top:155px;
+	z-index:10;
+}
+#errLayer{
+	position:absolute;
+	left:160px;
+	top:60px;
+}
+.tdLabel{
+	font-size:12px;
+}
+.errorMessage{
+	font-size:12px;
+	color:#ff0000;
+}

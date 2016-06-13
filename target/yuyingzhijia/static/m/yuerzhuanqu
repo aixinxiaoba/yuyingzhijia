@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>育婴之家网</title>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta http-equiv="Cache-control" content="no-cache" />
+<meta name="format-detection" content="telephone=no">
+<meta name="applicable-device" content="mobile">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" href="/commons/css/mobile_ch.css">
+<LINK rel="stylesheet" href="/commons/css/swiper.min.css"  type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<script src="/commons/js/swiper.min.js"></script>
+<style type="text/css">
+.tabs a {
+	font-size: 1em;
+	font-weight: normal;
+	text-align: center;
+	float: left;
+	
+			width: 11.765%;
+	height: 38px;
+	line-height: 38px;
+	color: #2a70be;
+}
+
+.tabs a.active {
+	border-top: 2px solid #2a70be;
+	margin-top: -2px;
+	background: #FC6464;
+	background-repeat: no-repeat;
+	
+		-webkit-background-size: 11.765% 39px;
+	
+	-moz-background-size: 11.765% 39px;
+	
+	-o-background-size: 11.765% 39px;
+	
+	background-size: 11.765% 39px;
+	
+	
+	background-position: left top;
+	color: #fff;
+	filter: alpha(opacity = 50);
+	-moz-opacity: 0.5;
+/* 	opacity: 0.5; */
+	opacity: 0.8;
+}
+
+#e1 a {
+	background: #FC6464;
+	color: #fff;
+	display: inline-block;
+	border-radius: 10px;
+	border: 1px solid #f8f8f8;
+	padding: 2px 7px;
+	line-height: 20px;
+	filter: alpha(opacity = 50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}
+</style>
+</head>
+<body>
+	<header id="header">
+		<div id="top-line"></div>
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<a href="/static/m/index.html">首页</a>
+			</div>
+				 		<div class="swiper-slide" id='e1'>
+							<a href="/static/m/yuerzhuanqu">育儿</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/baomazhuanqu">宝妈</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/yunqian">孕前</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/yunzhong">孕中</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/yunhou">孕后</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/yinger">婴儿期</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/youer">幼儿期</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/xlq">学龄前</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/yerfs">婴儿辅食</a>
+						</div>
+		</div>
+	</header>
+	<div id="banner">
+		<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=49,959"
+						target="_blank">
+						<img src="http://y1.ifengimg.com/a/2015_27/5b4ccdefeb84d90_size24_w500_h333.jpg" alt="手足口病高发 爸妈必知这些事儿">
+					<h2 class="gallerytitle">手足口病高发 爸妈必知这些事儿</h2></a>
+				</div>
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=49,957"
+						target="_blank">
+						<img src="http://y1.ifengimg.com/a/2015_27/70dc733abebd67a_size20_w600_h399.jpg" alt="给宝宝捏鼻梁会变挺？">
+					<h2 class="gallerytitle">给宝宝捏鼻梁会变挺？</h2></a>
+				</div>
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=49,956"
+						target="_blank">
+						<img src="http://y0.ifengimg.com/a/2015_27/bb15ed3f97a626b_size14_w500_h375.jpg" alt="这些孩子智商极高 但常常被父母忽略">
+					<h2 class="gallerytitle">这些孩子智商极高 但常常被父母忽略</h2></a>
+				</div>
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=49,934"
+						target="_blank">
+						<img src="/upload/35/19300001049826130640308101361.jpg" alt="胎盘位置低还能顺产吗？">
+					<h2 class="gallerytitle">胎盘位置低还能顺产吗？</h2></a>
+				</div>
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=49,918"
+						target="_blank">
+						<img src="http://y2.ifengimg.com/a/2015_25/1e32f008c50f4f7_size58_w498_h345.jpg" alt="3岁真的能决定孩子一生吗？">
+					<h2 class="gallerytitle">3岁真的能决定孩子一生吗？</h2></a>
+				</div>
+		</div>
+		<div class="pagination"></div>
+	</div>
+	<div class="tabs">
+					<a href="#" class="active">育儿知识</a>
+					<a href="#">胎教常识</a>
+					<a href="#">育儿资讯</a>
+					<a href="#">新生儿</a>
+					<a href="#">婴儿期</a>
+					<a href="#">幼儿期</a>
+					<a href="#">儿童期</a>
+					<a href="#">健康</a>
+					<a href="#">早教</a>
+					<a href="#">疾病</a>
+					<a href="#">免疫接种</a>
+					<a href="#">母乳喂养 </a>
+					<a href="#">人工喂养</a>
+					<a href="#">早产儿</a>
+					<a href="#">成长</a>
+					<a href="#">潜能</a>
+					<a href="#">护理</a>
+	</div>
+	<div id="tabs-container" class="swiper-container">
+		<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,564"
+									target="_blank">
+										<img src="http://www.yyzj2001.com/editor/UploadFile/201111310548854.jpg" alt="新概念育儿经之说话方式的影响">
+									
+									<h2 class="lp-title">新概念育儿经之说话方式的影响</h2>
+									<p class="lp-sum">
+ &nbsp;&nbsp;  
+ &nbsp;&nbsp;&nbsp;&nbs</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,436"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">育儿嫂培训：辅食制作食谱</h2>
+									<p class="lp-sum">
+ 宝宝按月龄辅食制作 
+ 　　许多妈妈在宝宝到了该添加辅食的年龄，知道该给宝宝</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,435"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">育儿嫂培训：添加辅食的方法</h2>
+									<p class="lp-sum">
+  
+  辅食添加方法 
+  　　给宝宝添加辅食不只是宝宝该吃奶以外的东西了这</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,076"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">日本另类开发右脑 育儿新方法</h2>
+									<p class="lp-sum">
+  右脑主要负责控制感觉和想像力的发展，如果在孩子的幼儿期能有意识地加强对其右</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,071"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">儿童必须补充维生素A、D吗？</h2>
+									<p class="lp-sum">
+  红扑扑的脸蛋、粉嫩光滑的皮肤……刚出世的婴儿总是健康的。但据6月15日英国</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,028"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">儿童输液的护理原则</h2>
+									<p class="lp-sum">
+ (1) 妈妈须和宝宝在一起，便于经常喂奶或喂食。给孩子进食时须抬高上半身，有</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=980"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">高级育婴师透漏的88个育儿细节</h2>
+									<p class="lp-sum">新手妈妈们毫无经验，面对娇弱的宝宝更是手忙脚乱。所以，雇个专业月嫂就显得很有必要</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=484"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">婴儿能力培养：聪明儿童需要什么</h2>
+									<p class="lp-sum">　　父母能给予新生儿心理上最重要的恩惠就是爱的拥抱。这指的是站立着多抱抱婴儿，多</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,934"
+									target="_blank">
+										<img src="/upload/35/19300001049826130640308101361.jpg" alt="胎盘位置低还能顺产吗？">
+									
+									<h2 class="lp-title">胎盘位置低还能顺产吗？</h2>
+									<p class="lp-sum">　　妊娠28周后，胎盘附着于子宫下段，甚至胎盘下缘达到或覆盖宫颈内口，其位置低于</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=40,772"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">胎教的关键是母亲情绪和态度</h2>
+									<p class="lp-sum">我的丈夫经常对我说：“最理解母亲心情的是你腹中的胎儿。你要经常以一种安详、和蔼和</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=40,771"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">何为胎教</h2>
+									<p class="lp-sum">胎儿具有惊人的能力，为开发这一能力而施行胎儿教育，近年愈来愈引起人们的关注。美国</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=40,770"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">准爸爸的孕早期胎教</h2>
+									<p class="lp-sum">准爸爸的孕早期胎教：1.首先要戒烟,戒酒.尽可能到窗外吸烟,因为间接吸烟会对婴儿</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=40,769"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">进行音乐胎教时应注意些啥？</h2>
+									<p class="lp-sum">　　音乐胎教，是通过对胎儿不断地施以适当的乐声刺激，促使其神经元的轴突、树突及突</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=40,768"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">准妈妈应端正胎教心态</h2>
+									<p class="lp-sum">　　经过音乐胎教后，小凤的孩子虽然聪明活泼，但是精力过盛，总是不爱睡觉。医生在询</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=40,767"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">定时胎教勿干扰胎儿睡眠</h2>
+									<p class="lp-sum">　　怀孕4个月可进行声音胎教　　通常，4个月的胎儿就有听觉了，6个月时，胎儿的听</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=40,766"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">胎教：胎儿能分辨悲欢乐曲</h2>
+									<p class="lp-sum">　　美国研究人员发现，婴儿在5个月大时就能从一组音乐中辨别出欢快的乐曲；到9个月</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=11,293"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">让小宝宝牙齿健康的零食点心</h2>
+									<p class="lp-sum">　　不会让嘴巴变酸的
+　　蔬菜条
+　　可以让宝宝练习用手抓东西，根据宝宝的咬劲决</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=11,292"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">广西居民楼起火17人被困 含孕妇儿...</h2>
+									<p class="lp-sum">　　6月16日凌晨，广西北海市合浦县一栋六层居民楼突然起火，楼内包括2名儿童、1</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=11,290"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">尚雯婕一首歌三年三个版本 流行歌坛...</h2>
+									<p class="lp-sum">成都商报讯 一首歌推出两个版本，这在华语乐坛还很平常。可是一首歌居然有三个版本，</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=11,289"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">湖南两辍学高中生跨三省抢劫杀人七名...</h2>
+									<p class="lp-sum">　　“刘启智犯抢劫罪，判处死刑，剥夺政治权利终身，并处没收个人全部财产;付某犯抢</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=11,288"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">孩子驱蚊需谨慎，超威贝贝健以专业赢...</h2>
+									<p class="lp-sum">夏日正盛，防蚊驱蚊这个酷夏“必修课”一如往年成为街头巷尾的焦点话题。对于许多妈妈</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=11,287"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">儿童驱蚊产品评测 超威贝贝健受捧</h2>
+									<p class="lp-sum">&nbsp;炎炎夏日还会继续，蚊虫作恶也不会罢休，不管室内户外，白天黑夜，总会阴</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=11,286"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">倍护婴将亮相上海CBME婴童展 为...</h2>
+									<p class="lp-sum">　　第13届CBME孕婴童展将于2013年7月17日-19日在上海新国展中心举行</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=11,285"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">新西兰原装羊奶粉卡洛塔妮惊艳201...</h2>
+									<p class="lp-sum">　　恢弘大气的圆形展台，碧绿的草坪，覆着皑皑白雪的雪山，健壮的乳羊，让人禁不住联</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,905"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">这天出生的男害父女害母</h2>
+									<p class="lp-sum">&nbsp;　　诡异的是，如果我们不说迷信，只说巧合的话，那么所谓的“五月初五出</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,904"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">给新生儿喝水有哪些讲究</h2>
+									<p class="lp-sum">&nbsp;　　一岁以下的小儿每天水的需要量为每公斤体重120—160毫升，而成</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,903"
+									target="_blank">
+										<img src="http://y0.ifengimg.com/cmpp/2015/06/26/07/f5ad0d93-0101-435a-8f00-affe7ff248b6_size33_w506_h337.jpg" alt="生男孩会缩短妈妈的寿命吗？">
+									
+									<h2 class="lp-title">生男孩会缩短妈妈的寿命吗？</h2>
+									<p class="lp-sum">&nbsp;　　现代的社会现象就是家家户户都想生男孩，生不出男孩的家庭，女性就会</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,902"
+									target="_blank">
+										<img src="http://y2.ifengimg.com/a/2015_26/ebfd8ee04486cce_size18_w500_h333.jpg" alt="宝宝奶粉选购全攻略">
+									
+									<h2 class="lp-title">宝宝奶粉选购全攻略</h2>
+									<p class="lp-sum">&nbsp; 　　宝宝奶粉选购全攻略(东方IC供图) 　　婴儿奶粉哪家强?作为妈</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,901"
+									target="_blank">
+										<img src="http://y3.ifengimg.com/cmpp/2015/06/28/09/7b54e83e-4791-433d-a3c1-118732550d60_size66_w507_h338.jpg" alt="十二生肖啥时出生最好命(图)">
+									
+									<h2 class="lp-title">十二生肖啥时出生最好命(图)</h2>
+									<p class="lp-sum">&nbsp;　　各个十二生肖当中什么时候出生是最好命的呢?那个月份出生会好运的呢</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,900"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">小时看老 聪明孩子出生时有啥表现</h2>
+									<p class="lp-sum">&nbsp;　　爱笑是新生儿聪明的表现 　　在出生时，聪明的新生儿可能要比其他孩</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,899"
+									target="_blank">
+										<img src="http://y1.ifengimg.com/a/2015_27/9050acdf597b8c4_size20_w600_h399.jpg" alt="跟夜奶说拜拜,妈咪宝宝都轻松">
+									
+									<h2 class="lp-title">跟夜奶说拜拜,妈咪宝宝都轻松</h2>
+									<p class="lp-sum">&nbsp; 　　跟夜奶说拜拜,妈咪宝宝都轻松(东方IC供图) 　　核心提示：许</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,898"
+									target="_blank">
+										<img src="http://y0.ifengimg.com/a/2015_27/b6eca66dee1fcd6_size33_w600_h399.jpg" alt="喂养姿势不正确易导致宝宝吐奶">
+									
+									<h2 class="lp-title">喂养姿势不正确易导致宝宝吐奶</h2>
+									<p class="lp-sum">&nbsp; 　　喂养姿势不正确易导致宝宝吐奶(东方IC供图) 　　核心提示：新</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,953"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">辅食国产品牌突出重围 全渠道布局销...</h2>
+									<p class="lp-sum">&nbsp;　　2015年6月17日，贝斯美与爱力在深圳签订长达20年的战略合作</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,952"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">家里哪些东西在毒害宝宝</h2>
+									<p class="lp-sum">&nbsp;　　家里不是最安全的地方，到处都潜伏着有毒物质。”英国伦敦国王大学环</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,909"
+									target="_blank">
+										<img src="http://y1.ifengimg.com/a/2015_26/4e6e9edcc4566d6_size42_w600_h399.jpg" alt="满足宝宝好奇心的5种方式">
+									
+									<h2 class="lp-title">满足宝宝好奇心的5种方式</h2>
+									<p class="lp-sum">&nbsp; 　　满足宝宝好奇心的5种方式(东方IC供图) 　　从一出生开始，宝</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,908"
+									target="_blank">
+										<img src="http://y0.ifengimg.com/a/2015_27/5c7e2d159ad271b_size12_w500_h333.jpg" alt="宝宝得了尿布疹怎么办">
+									
+									<h2 class="lp-title">宝宝得了尿布疹怎么办</h2>
+									<p class="lp-sum">&nbsp; 　　宝宝得了尿布疹怎么办(东方IC供图) 　　现在的宝宝虽然已经基</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,907"
+									target="_blank">
+										<img src="http://y0.ifengimg.com/a/2015_27/77a4a822299a963_size19_w500_h332.jpg" alt="哪些迹象表明婴儿对奶粉过敏？">
+									
+									<h2 class="lp-title">哪些迹象表明婴儿对奶粉过敏？</h2>
+									<p class="lp-sum">&nbsp; 　　哪些迹象表明婴儿对奶粉过敏?(东方IC供图) 　　核心提示：有</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,906"
+									target="_blank">
+										<img src="http://y1.ifengimg.com/a/2015_27/01e58c9ae1d9806_size22_w500_h333.jpg" alt="宝宝长乳牙的六个常见问题">
+									
+									<h2 class="lp-title">宝宝长乳牙的六个常见问题</h2>
+									<p class="lp-sum">&nbsp; 　　宝宝长乳牙的六个常见问题(东方IC供图) 　　宝宝到了长牙期，</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=21,318"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">宝宝夜间入睡总是异常哭闹怎么回事</h2>
+									<p class="lp-sum">　　夜间入睡异常哭闹 　　我儿子28个月多3周，生长发育良好，平时一直补钙和吃里</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=21,317"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">开灯睡觉可能引起癌症 儿童易性早熟</h2>
+									<p class="lp-sum">　　指导专家/何迎春 杭州市中医院中内科主任、主任医师 　　夜幕降临，人会很自然</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,957"
+									target="_blank">
+										<img src="http://y1.ifengimg.com/a/2015_27/70dc733abebd67a_size20_w600_h399.jpg" alt="给宝宝捏鼻梁会变挺？">
+									
+									<h2 class="lp-title">给宝宝捏鼻梁会变挺？</h2>
+									<p class="lp-sum">&nbsp; 　　给宝宝捏鼻梁会变挺?(东方IC供图) 　　相信我们都有听说过给</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,956"
+									target="_blank">
+										<img src="http://y0.ifengimg.com/a/2015_27/bb15ed3f97a626b_size14_w500_h375.jpg" alt="这些孩子智商极高 但常常被父母忽略">
+									
+									<h2 class="lp-title">这些孩子智商极高 但常常被父母忽略</h2>
+									<p class="lp-sum">&nbsp; 　　这些孩子智商极高但常常被父母忽略(东方IC供图) 　　谁都希望</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,955"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">孩子的口味更多遗传自爷爷</h2>
+									<p class="lp-sum">&nbsp;　　核心提示：孙子和爷爷的口味更相似。据亚洲科学家网站2013年12</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,954"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">带孩子看病要做好4件事</h2>
+									<p class="lp-sum">&nbsp;　　核心提示：孩子生病了，家长赶紧急急忙忙地带孩子去医院，但常常忙中</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,911"
+									target="_blank">
+										<img src="http://y3.ifengimg.com/a/2015_26/aff0e504d9fbd6a_size48_w335_h500.jpg" alt="家长注意：这几种鱼不能给孩子吃">
+									
+									<h2 class="lp-title">家长注意：这几种鱼不能给孩子吃</h2>
+									<p class="lp-sum">&nbsp;　　身体正在发育的小朋友多吃鱼能补充营养、更加健康地成长，但有些鱼却</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,910"
+									target="_blank">
+										<img src="http://y0.ifengimg.com/a/2015_26/896a2149f343bbe_size39_w600_h399.jpg" alt="宝宝补钙九种饮食推荐">
+									
+									<h2 class="lp-title">宝宝补钙九种饮食推荐</h2>
+									<p class="lp-sum">&nbsp; 　　宝宝补钙九种饮食推荐(东方IC供图) 　　婴儿补钙就是给孩子补</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=24,286"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">不同时期孩子的阅读喜好不同</h2>
+									<p class="lp-sum">　　不同时期的孩子阅读喜好是不同的。 
+ 　　一岁以前——看图识物 
+ 　　在小</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=24,285"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">家长生活中如何正确管教孩子</h2>
+									<p class="lp-sum">　　家长对于生活中如何正确管教孩子一定很苦恼吧？现在就来看看管教孩子的小妙招吧。</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,959"
+									target="_blank">
+										<img src="http://y1.ifengimg.com/a/2015_27/5b4ccdefeb84d90_size24_w500_h333.jpg" alt="手足口病高发 爸妈必知这些事儿">
+									
+									<h2 class="lp-title">手足口病高发 爸妈必知这些事儿</h2>
+									<p class="lp-sum">&nbsp; 　　手足口病高发爸妈必知这些事儿(东方IC供图) 　　什么是手足口</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,958"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">教你5招应对孩子夏季挑食</h2>
+									<p class="lp-sum">&nbsp;　　核心提示：进入夏季，食欲减弱，孩子也变得更不爱吃饭。有调查表明，</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,918"
+									target="_blank">
+										<img src="http://y2.ifengimg.com/a/2015_25/1e32f008c50f4f7_size58_w498_h345.jpg" alt="3岁真的能决定孩子一生吗？">
+									
+									<h2 class="lp-title">3岁真的能决定孩子一生吗？</h2>
+									<p class="lp-sum">&nbsp;　　常言说：“3岁看大，7岁看老。”这句话并非空谈，科学研究显示，在</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,917"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">每个宝宝都需要午睡吗？</h2>
+									<p class="lp-sum">&nbsp;　　BabyCenter近日发表了一篇文章，讲述了儿童睡眠的问题。《</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,916"
+									target="_blank">
+										<img src="http://y2.ifengimg.com/cmpp/2015/06/05/08/46896ccf-277a-4967-aa4f-69b8cefe2485_size42_w600_h400.jpg" alt="父母必知：孩子长高有诀窍">
+									
+									<h2 class="lp-title">父母必知：孩子长高有诀窍</h2>
+									<p class="lp-sum">&nbsp; 　　父母必知：孩子长高有诀窍(东方IC供图) 　　如何让宝宝长高?</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,915"
+									target="_blank">
+										<img src="http://y0.ifengimg.com/a/2015_27/56286c5fa0541ee_size37_w600_h399.jpg" alt="哪些孩子可能会发展成同性恋">
+									
+									<h2 class="lp-title">哪些孩子可能会发展成同性恋</h2>
+									<p class="lp-sum">&nbsp; 　　哪些孩子可能会发展成同性恋(东方IC供图) 　　提示：当地时间</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,914"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">3岁以上的儿童暑期不妨去看看木偶剧...</h2>
+									<p class="lp-sum">&nbsp;　　7月3-5日，大型现代原创木偶剧《飞吧丹顶鹤—丹顶鹤的故事》将在</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,913"
+									target="_blank">
+										<img src="http://y1.ifengimg.com/a/2015_27/4bdb739d3ec05df_size38_w600_h399.jpg" alt="宝宝逆反心理的形成和应对方法">
+									
+									<h2 class="lp-title">宝宝逆反心理的形成和应对方法</h2>
+									<p class="lp-sum">&nbsp; 　　宝宝逆反心理的形成和应对方法(东方IC供图) 　　孩子逆反怎么</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=28,878"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">孕妇选择防晒霜不当 可能伤害胎宝宝</h2>
+									<p class="lp-sum">&nbsp; 由于激素分泌的影响，准妈妈容易长妊娠纹，如果再不注重防晒，紫外线就</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=28,871"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">产后祛斑方法 学小S做漂亮妈妈</h2>
+									<p class="lp-sum">　　很多女人都觉得做了妈妈就会成为黄脸婆，青春不再，但是看看小S，看看张柏芝，看</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=28,870"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">王芳自制肚膜除妊娠纹方法</h2>
+									<p class="lp-sum">　　这个方法每周做1次就可以。操作步骤为： 
+ 　　准备原料，蛋清、面粉和橄榄油</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=28,869"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">尼美舒利12岁以下禁服 康芝药业受...</h2>
+									<p class="lp-sum">　　一段时间以来，笼罩在无数儿童家长心头的“尼美舒利疑云”终于有了说法。昨天，国</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=28,868"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">港产保婴丹、猴枣散并非“神药”</h2>
+									<p class="lp-sum">　　近日，香港卫生署表示，发现一批“华佗牌”保婴丹汞含量超出限量标准，并下令回收</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=28,867"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">长个子保健品易催老儿童骨龄</h2>
+									<p class="lp-sum">　　“长个子”保健品易催老儿童骨龄 
+ 　　很多家长为了给孩子长个子，拼命给孩子</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=28,866"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">无糖食品须防甜蜜陷阱</h2>
+									<p class="lp-sum">　　近年来，为了减少身体的负担，许多市民特别是糖尿病患者开始选择食用无糖食品。何</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=28,865"
+									target="_blank">
+										<img src="http://www.qinbei.com/uploadfile/2011/0625/20110625093442790.jpg" alt="燕之屋牌血燕广州检出致癌亚硝酸盐">
+									
+									<h2 class="lp-title">燕之屋牌血燕广州检出致癌亚硝酸盐</h2>
+									<p class="lp-sum">　　长春“燕之屋”专卖店（亲贝网配图） 
+ 　　昨日，《广州日报》报道了“燕之屋</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=31,148"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">啥时候进行智力开发最合适</h2>
+									<p class="lp-sum">&nbsp;&nbsp; 现代科学认为人的极为丰富的脑力资源是远远没有得到开发的</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=31,147"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">用音乐改善孩子的不足</h2>
+									<p class="lp-sum">&nbsp; 　　欧洲的早期音乐教育，起源于著名的达尔克罗兹的节奏教学和奥尔夫的</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=31,146"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">完美早教班三大要素</h2>
+									<p class="lp-sum">&nbsp; &nbsp; 　　张思莱：著名儿科专家、育儿专家，新浪网亲子中心专</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=31,139"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">美育儿童音乐舞蹈国际机构官方介绍</h2>
+									<p class="lp-sum">　　据亲贝网了解，美育儿童音乐舞蹈国际机构1983年成 立于台湾，本着「我家的孩</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=31,134"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">幼儿园也涨价？涨幅50%赶超洋奶粉</h2>
+									<p class="lp-sum">　　“去年的新生每月收1000元，今年就要收1500元一个月？一下子涨了50%，</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=31,133"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">对孩子采用高压政策会适得其反</h2>
+									<p class="lp-sum">??在现实生活中，一些父母发现孩子有过错的言行时，常常不问缘由地大声呵斥，责骂，</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=31,132"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">富养育儿PK家庭动画早教</h2>
+									<p class="lp-sum">　　80后潮爸奉行“富养”育儿花费数万投资早教 　　现在的孩子都讲究“富养”，无</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=31,131"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">孩子爱顶嘴的原因剖析及应对策略</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp; 2-3岁孩子的自我意识开始萌芽，语言能力发</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,960"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">如何做“没味道”的健康女人</h2>
+									<p class="lp-sum">&nbsp;　　阴道炎是妇产科门诊常碰到的问题，其中细菌性阴道炎、霉菌性阴道炎、</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=32,118"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">研究称宝宝大脑过度生长会导致孤独症</h2>
+									<p class="lp-sum">　　一项研究显示，婴儿头一年里脑部的过度生长，有可能导致孤独症的发作。以往的研究</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=32,106"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">燕之屋燕窝浓缩血燕礼盒致癌 长春停...</h2>
+									<p class="lp-sum">　　新文化报《“燕之屋”牌血燕广州检出亚硝酸盐》报道续 
+ 　　以“现点、现吃、</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=32,104"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">儿童常用的抗生素药物</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp; 临床上应用的抗生素品种很多，儿童常用的抗生</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=32,102"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">宝宝使用抗生素产生耐药性的两种原因</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp; 很多人在感冒后常会服用抗生素，这些抗生素可</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=32,099"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">强化食品强壮宝宝身体</h2>
+									<p class="lp-sum">　　什么是强化食品 
+ 　　强化营养是指为增加营养而将一种或几种营养素添加在食品</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=32,097"
+									target="_blank">
+										<img src="http://www.qinzi.com.cn/attachment/cms_article/Mon_1205/1285_bedf1023307f0ef.jpg" alt="手足口病家庭护理是根本">
+									
+									<h2 class="lp-title">手足口病家庭护理是根本</h2>
+									<p class="lp-sum">手足口病是一种传染性很强的疾病。据专家分析，我国手足口病疫情正处于上升阶段，5月</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=32,096"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">飞鹤国际赎回红杉资本全部股份</h2>
+									<p class="lp-sum">　　亲贝网讯 5月1日消息，昨天飞鹤国际（NYSE:ADY)）宣布根据此前的赎回</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+						</ul>
+					</div>
+				</div>
+		</div>
+	</div>
+	<div class="th_title">人气排行榜</div>
+	<div class="home-article">
+		<ul class="ha-list list-pt">
+				<li><a href="/front/yuyingshi/detail.do?newsID=49,960"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">如何做“没味道”的健康女人</h2>
+					<p class="lp-sum">&nbsp;　　阴道炎是妇产科门诊常碰到的问题，其中细菌性阴道炎、霉菌性阴道炎、</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=49,959"
+				target="_blank">
+					<img src="http://y1.ifengimg.com/a/2015_27/5b4ccdefeb84d90_size24_w500_h333.jpg" alt="手足口病高发 爸妈必知这些事儿">
+				<h2 class="lp-title">手足口病高发 爸妈必知这些事儿</h2>
+					<p class="lp-sum">&nbsp; 　　手足口病高发爸妈必知这些事儿(东方IC供图) 　　什么是手足口</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=49,958"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">教你5招应对孩子夏季挑食</h2>
+					<p class="lp-sum">&nbsp;　　核心提示：进入夏季，食欲减弱，孩子也变得更不爱吃饭。有调查表明，</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=49,957"
+				target="_blank">
+					<img src="http://y1.ifengimg.com/a/2015_27/70dc733abebd67a_size20_w600_h399.jpg" alt="给宝宝捏鼻梁会变挺？">
+				<h2 class="lp-title">给宝宝捏鼻梁会变挺？</h2>
+					<p class="lp-sum">&nbsp; 　　给宝宝捏鼻梁会变挺?(东方IC供图) 　　相信我们都有听说过给</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=49,956"
+				target="_blank">
+					<img src="http://y0.ifengimg.com/a/2015_27/bb15ed3f97a626b_size14_w500_h375.jpg" alt="这些孩子智商极高 但常常被父母忽略">
+				<h2 class="lp-title">这些孩子智商极高 但常常被父母忽略</h2>
+					<p class="lp-sum">&nbsp; 　　这些孩子智商极高但常常被父母忽略(东方IC供图) 　　谁都希望</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=49,955"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">孩子的口味更多遗传自爷爷</h2>
+					<p class="lp-sum">&nbsp;　　核心提示：孙子和爷爷的口味更相似。据亚洲科学家网站2013年12</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=49,954"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">带孩子看病要做好4件事</h2>
+					<p class="lp-sum">&nbsp;　　核心提示：孩子生病了，家长赶紧急急忙忙地带孩子去医院，但常常忙中</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=49,953"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">辅食国产品牌突出重围 全渠道布局销...</h2>
+					<p class="lp-sum">&nbsp;　　2015年6月17日，贝斯美与爱力在深圳签订长达20年的战略合作</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=49,952"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">家里哪些东西在毒害宝宝</h2>
+					<p class="lp-sum">&nbsp;　　家里不是最安全的地方，到处都潜伏着有毒物质。”英国伦敦国王大学环</p></a></li>
+		</ul>
+	</div>
+	<div class="th_title">
+		<a href="/static/m/nav.html">查看更多</a>
+	</div>
+	<script type="text/javascript">
+		window.onload = function() {
+			var mySwiper1 = new Swiper('#header', {
+				freeMode : true,
+				slidesPerView : 'auto',
+			});
+			var mySwiper2 = new Swiper('#banner', {
+				autoplay : 5000,
+				visibilityFullFit : true,
+				loop : true,
+				pagination : '.pagination',
+			});
+
+			var tabsSwiper = new Swiper('#tabs-container', {
+				speed : 500,
+				onSlideChangeStart : function() {
+					$(".tabs .active").removeClass('active')
+					$(".tabs a").eq(tabsSwiper.activeIndex).addClass('active')
+				}
+			})
+			$(".tabs a").on('touchstart mousedown', function(e) {
+				e.preventDefault()
+				$(".tabs .active").removeClass('active')
+				$(this).addClass('active')
+				tabsSwiper.slideTo($(this).index())
+			})
+			$(".tabs a").click(function(e) {
+				e.preventDefault()
+			})
+			
+			$("#cnzz_stat_icon_1254920361").hide();
+		}
+	</script>
+	
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>
+	
+</body>
+</html>

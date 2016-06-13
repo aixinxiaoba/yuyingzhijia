@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <!-- 前台报名操作 -->
+    <package name="front" namespace="/front" extends="custom-default">
+    	<!--  -->
+    	<action name="customer/*" class="customerManageAction" method="{1}">
+    		<result name="customerRegister">/jsp/templateOne/register.jsp</result>
+    		<result name="customerLogin">/jsp/templateOne/login.jsp</result>
+    		<result name="customerRegisterSucc"  type="redirect">/</result>
+    	</action>
+    	<action name="index/*" class="indexManageAction" method="{1}">
+    		<result name="toIndex">/jsp/templateOne/index.jsp</result>
+    		<!-- 移动端访问 -->
+    		<result name="web_mobile">/m/index.jsp</result>
+    		
+    		<result name="projectNews">/jsp/templateOne/front/news.jsp</result>
+    		
+    		<result name="m_projectNews">/jsp/templateOne/front/m_news.jsp</result>
+    		
+    		<!-- 全新的阅读界面 -->
+    		<result name="detail">/jsp/templateOne/front/yuyingshi/detail.jsp</result>
+    		<!-- 移动端展示页面 -->
+    		<result name="m_detail">/m/detail.jsp</result>
+    		
+    		<!-- 显示菜单详细信息 -->
+    		<result name="toMenuShow">/jsp/templateOne/front/commonMenuDataList.jsp</result>
+    		
+    		<!-- 移动端列表显示 -->
+    		<result name="M_ToMenuShow">/jsp/templateOne/front/m_commonMenuDataList.jsp</result>
+    		
+    		<!-- 知识查询 -->
+    		<result name="search">/jsp/templateOne/front/news-search.jsp</result>
+    		
+    		<!-- 标签推荐 -->
+    		<result name="newsList">/jsp/templateOne/front/news-list.jsp</result>
+    		
+    	    <result name="list_search">/jsp/templateOne/front/search_list.jsp</result>
+    		<result name="aboutUs">/jsp/templateOne/front/aboutUs.jsp</result>
+    		
+    		
+    	</action>
+    	
+    	<!-- 移动端处理action -->
+    	<action name="m/*" class="mIndexManageAction" method="{1}">
+    		<result name="index">/m/index.jsp</result>
+    		<result name="subIndex">/m/subMenu.jsp</result>
+    		<result name="newsList">/m/m_list.jsp</result>
+    		<result name="newsListTag">/m/m_list_tag.jsp</result>
+    		<!-- 最新动态列表 -->
+    		<result name="newsestList">/m/newsestList.jsp</result>
+    		
+    		<result name="search">/m/searchResult.jsp</result>
+    		
+    		<result name="nav">/m/nav.jsp</result>
+    	</action>
+    	
+    	<!-- 移动端静态化action -->
+    	<action name="m/static/*" class="mStaticDisposalAction" method="{1}">
+    		<result name="success">/m/static/result.jsp</result>
+    	</action>
+    	
+    	<!-- 移动端静态化action -->
+    	<action name="m/statics/*" class="mStaticDisposal" method="{1}">
+    		<result name="success">/m/static/result.jsp</result>
+    	</action>
+    	
+    	<action name="yuyingshi/*" class="yuYingShiManageAction" method="{1}">
+    		<result name="index">/jsp/templateOne/front/yuyingshi/index.jsp</result>
+    		<!-- 信息展示页面 -->
+    		<result name="detail">/jsp/templateOne/front/yuyingshi/detail.jsp</result>
+    		<!-- 移动端展示页面 -->
+<!--     		<result name="m_detail">/jsp/templateOne/front/yuyingshi/m_detail.jsp</result> -->
+    		<!-- 移动端展示页面 -->
+    		<result name="m_detail">/m/detail.jsp</result>
+    		<!-- 菜单内容页面 -->
+    		<result name="newsList">/jsp/templateOne/front/yuyingshi/news-list.jsp</result>
+    		
+    		<!-- 菜单内容页面 -->
+    		<result name="search">/jsp/templateOne/front/yuyingshi/news-search.jsp</result>
+    		
+    		<!-- 显示菜单详细信息 -->
+    		<result name="toMenuShow">/jsp/templateOne/front/commonMenuDataList.jsp</result>
+    	    <result name="list_search">/jsp/templateOne/front/search_list.jsp</result>
+    		<result name="aboutUs">/jsp/templateOne/front/aboutUs.jsp</result>
+    	</action>
+    	
+    	<action name="suggestion/*" class="suggestionManageAction" method="{1}">
+    	</action>
+   </package>
+</struts>

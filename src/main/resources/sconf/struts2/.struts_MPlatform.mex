@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="mplatform" location="0,0" size="0,0">
+    <action name="project/*" location="0,0" size="0,0">
+      <result name="projectList">
+        <resourceEdge source="projectList" routing="0" target="projectList.jsp" />
+      </result>
+      <result name="projectDetial">
+        <resourceEdge source="projectDetial" routing="0" target="projectDetial.jsp" />
+      </result>
+      <result name="projectFiledInfoList">
+        <resourceEdge source="projectFiledInfoList" routing="0" target="projectFiledInfoList.jsp" />
+      </result>
+      <result name="userLogin">
+        <resourceEdge source="userLogin" routing="0" target="login.jsp" />
+      </result>
+      <result name="preProjectAdd">
+        <resourceEdge source="preProjectAdd" routing="0" target="projectDetial.jsp" />
+      </result>
+    </action>
+    <action name="projectMenu/*" location="0,0" size="0,0">
+      <result name="projectMenuList">
+        <resourceEdge source="projectMenuList" routing="0" target="projectMenuList.jsp" />
+      </result>
+    </action>
+    <action name="customerType/*" location="0,0" size="0,0">
+      <result name="customerTypeList">
+        <resourceEdge source="customerTypeList" routing="0" target="customerTypeList.jsp" />
+      </result>
+    </action>
+    <action name="users/*" location="0,0" size="0,0">
+      <result name="usersIndex">
+        <resourceEdge source="usersIndex" routing="0" target="main.jsp" />
+      </result>
+      <result name="userLogin">
+        <resourceEdge source="userLogin" routing="0" target="login.jsp" />
+      </result>
+    </action>
+    <action name="customer/*" location="0,0" size="0,0">
+      <result name="customerList">
+        <resourceEdge source="customerList" routing="0" target="customerList.jsp" />
+      </result>
+      <result name="customerDetial">
+        <resourceEdge source="customerDetial" routing="0" target="customerDetial.jsp" />
+      </result>
+      <result name="customerUpdate">
+        <resourceEdge source="customerUpdate" routing="0" target="customerUpdate.jsp" />
+      </result>
+      <result name="customerDownDetial">
+        <resourceEdge source="customerDownDetial" routing="0" target="customerDetial.jsp" />
+      </result>
+      <result name="customerDownUpdate">
+        <resourceEdge source="customerDownUpdate" routing="0" target="customerUpdate.jsp" />
+      </result>
+      <result name="customerLogin">
+        <resourceEdge source="customerLogin" routing="0" target="login.jsp" />
+      </result>
+      <result name="customerIndex">
+        <resourceEdge source="customerIndex" routing="0" target="main.jsp" />
+      </result>
+      <result name="customerLoginSuccess" />
+      <result name="customerDownList">
+        <resourceEdge source="customerDownList" routing="0" target="customerDownList.jsp" />
+      </result>
+      <result name="customerDownAllList">
+        <resourceEdge source="customerDownAllList" routing="0" target="allCustomerDown.jsp" />
+      </result>
+    </action>
+    <action name="email/*" location="0,0" size="0,0" />
+    <action name="news/*" location="0,0" size="0,0">
+      <result name="{1}">
+        <resourceEdge source="{1}" routing="0" target="{1}.jsp" />
+      </result>
+      <result name="newsRead">
+        <resourceEdge source="newsRead" routing="0" target="newsRead.jsp" />
+      </result>
+      <result name="projectNews">
+        <resourceEdge source="projectNews" routing="0" target="news.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="ori_org.jsp" path="/jsp/MPlatform/initialSetting/ori_org.jsp" location="0,0" size="0,0" />
+  <webResource name="ori_org_hzjg.jsp" path="/jsp/MPlatform/initialSetting/ori_org_hzjg.jsp" location="0,0" size="0,0" />
+  <webResource name="org_project_list.jsp" path="/jsp/MPlatform/initialSetting/org_project_list.jsp" location="0,0" size="0,0" />
+  <webResource name="ori_childori.jsp" path="/jsp/MPlatform/initialSetting/ori_childori.jsp" location="0,0" size="0,0" />
+  <webResource name="privilegeList.jsp" path="/jsp/MPlatform/privilegeAndRole/privilegeList.jsp" location="0,0" size="0,0" />
+  <webResource name="showRoleList.jsp" path="/jsp/MPlatform/privilegeAndRole/showRoleList.jsp" location="0,0" size="0,0" />
+  <webResource name="pro_setting_status.jsp" path="/jsp/MPlatform/initialSetting/pro_setting_status.jsp" location="0,0" size="0,0" />
+  <webResource name="pro_setting_sysfunction.jsp" path="/jsp/MPlatform/initialSetting/pro_setting_sysfunction.jsp" location="0,0" size="0,0" />
+  <webResource name="pro_setting_fieldinfo.jsp" path="/jsp/MPlatform/initialSetting/pro_setting_fieldinfo.jsp" location="0,0" size="0,0" />
+  <webResource name="projectList.jsp" path="/jsp/MPlatform/project/projectList.jsp" location="0,0" size="0,0" />
+  <webResource name="projectDetial.jsp" path="/jsp/MPlatform/project/projectDetial.jsp" location="0,0" size="0,0" />
+  <webResource name="projectFiledInfoList.jsp" path="/jsp/MPlatform/project/projectFiledInfoList.jsp" location="0,0" size="0,0" />
+  <webResource name="customerTypeList.jsp" path="/jsp/MPlatform/project/customerType/customerTypeList.jsp" location="0,0" size="0,0" />
+  <webResource name="projectList.jsp" path="/jsp/MPlatform/users/projectList.jsp" location="0,0" size="0,0" />
+  <webResource name="usersList.jsp" path="/jsp/MPlatform/users/usersList.jsp" location="0,0" size="0,0" />
+  <webResource name="projectList.jsp" path="/jsp/MPlatform/customer/projectList.jsp" location="0,0" size="0,0" />
+  <webResource name="customerList.jsp" path="/jsp/MPlatform/customer/customerList.jsp" location="0,0" size="0,0" />
+  <webResource name="customerDetial.jsp" path="/jsp/MPlatform/customer/customerDetial.jsp" location="0,0" size="0,0" />
+  <webResource name="customerUpdate.jsp" path="/jsp/MPlatform/customer/customerUpdate.jsp" location="0,0" size="0,0" />
+  <webResource name="login.jsp" path="/jsp/MPlatform/customer/login.jsp" location="0,0" size="0,0" />
+  <webResource name="main.jsp" path="/jsp/MPlatform/customer/main.jsp" location="0,0" size="0,0" />
+  <webResource name="customerDownList.jsp" path="/jsp/MPlatform/customer/customerDownList.jsp" location="0,0" size="0,0" />
+  <webResource name="login.jsp" path="/jsp/MPlatform/login.jsp" location="0,0" size="0,0" />
+  <webResource name="projectMenuList.jsp" path="/jsp/MPlatform/project/projectMenu/projectMenuList.jsp" location="0,0" size="0,0" />
+  <webResource name="main.jsp" path="/jsp/MPlatform/main.jsp" location="0,0" size="0,0" />
+  <webResource name="customerDetial.jsp" path="/jsp/MPlatform/customer/personManage/customerDetial.jsp" location="0,0" size="0,0" />
+  <webResource name="customerUpdate.jsp" path="/jsp/MPlatform/customer/personManage/customerUpdate.jsp" location="0,0" size="0,0" />
+  <webResource name="{1}.jsp" path="/jsp/MPlatform/news/{1}.jsp" location="0,0" size="0,0" />
+  <webResource name="newsRead.jsp" path="/jsp/MPlatform/news/newsRead.jsp" location="0,0" size="0,0" />
+  <webResource name="news.jsp" path="/jsp/templateOne/front/news.jsp" location="0,0" size="0,0" />
+  <webResource name="allCustomerDown.jsp" path="/jsp/MPlatform/customer/allCustomerDown.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+

@@ -1,0 +1,300 @@
+.register {
+	margin-top: 20px;
+}
+.reg_cont_wrap {
+	width: 100%; float: left; min-height: 1px;
+}
+.reg_cont {
+	margin-right: 220px; position: relative;
+}
+.reg_side {
+	width: 200px; padding-top: 30px; margin-left: -200px; float: left;
+}
+.reg_head {
+	padding: 10px 15px; color: rgb(102, 102, 102); font-size: 16px; font-weight: 700; border-bottom-color: rgb(237, 237, 237); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.reg_form {
+	padding: 25px 0px 50px 15px;
+}
+.reg_form dl {
+	padding: 15px 0px 15px 10px; width: 690px; position: relative; -ms-zoom: 1; min-height: 32px;
+}
+.reg_form dl.pick {
+	padding: 10px 0px 0px 10px; height: 24px;
+}
+.reg_form dl::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: "\20";
+}
+.reg_form dl.current {
+	background: rgb(239, 247, 254);
+}
+.reg_form dl.dl_cd {
+	height: 115px;
+}
+.reg_form dl.dl_cd img {
+	vertical-align: top;
+}
+.reg_form dl.dl_cd .tips_icon_error {
+	margin-top: 5px; margin-left: 5px; float: left;
+}
+.reg_form dl.dl_cd .tips_icon_success {
+	margin-top: 5px; margin-left: 5px; float: left;
+}
+.reg_form dl.dl_cd .dd_r .tips_icon_error {
+	margin-top: 0px; margin-left: 0px; float: inherit;
+}
+.reg_form dl.dl_cd .dd_r .tips_icon_success {
+	margin-top: 0px; margin-left: 0px; float: inherit;
+}
+.reg_form dt {
+	width: 110px; text-align: right; line-height: 25px; font-size: 14px; margin-right: 15px; float: left;
+}
+.reg_form dd {
+	width: 250px; float: left;
+}
+.reg_form dd .input {
+	vertical-align: top;
+}
+.reg_form dd.dd_r {
+	width: 308px; line-height: 26px;
+}
+.reg_form dd .reg_ddtext {
+	height: 26px; line-height: 26px; font-size: 14px;
+}
+.reg_form .input {
+	margin-right: 5px;
+}
+.reg_form textarea {
+	margin-right: 5px;
+}
+.reg_form dl.current .input {
+	border-color: rgb(123, 191, 242); outline: rgb(153, 216, 245) solid 2px;
+}
+.reg_form .input:focus {
+	border-color: rgb(123, 191, 242); outline: rgb(153, 216, 245) solid 2px;
+}
+.reg_form textarea:focus {
+	border-color: rgb(123, 191, 242); outline: rgb(153, 216, 245) solid 2px;
+}
+.reg_form .username {
+	line-height: 25px; font-size: 14px;
+}
+.reg_side_cont {
+	padding: 10px 20px 20px; border-left-color: rgb(204, 204, 204); border-left-width: 1px; border-left-style: dotted;
+}
+.reg_form .btn_submit {
+	padding-right: 25px; padding-left: 25px; position: relative;
+}
+.reg_form .tips {
+	padding: 5px 10px; line-height: 20px; margin-bottom: 10px;
+}
+.reg_form .tips_icon_error {
+	
+}
+.reg_form .tips_icon_success {
+	
+}
+.pwd_strength_1 {
+	background: url("../../images/register/pwd_strength.png") no-repeat; width: 84px; height: 9px; overflow: hidden; margin-right: 5px; display: inline-block;
+}
+.pwd_strength_2 {
+	background: url("../../images/register/pwd_strength.png") no-repeat; width: 84px; height: 9px; overflow: hidden; margin-right: 5px; display: inline-block;
+}
+.pwd_strength_3 {
+	background: url("../../images/register/pwd_strength.png") no-repeat; width: 84px; height: 9px; overflow: hidden; margin-right: 5px; display: inline-block;
+}
+.pwd_strength_4 {
+	background: url("../../images/register/pwd_strength.png") no-repeat; width: 84px; height: 9px; overflow: hidden; margin-right: 5px; display: inline-block;
+}
+.pwd_strength_2 {
+	background-position: 0px -9px;
+}
+.pwd_strength_3 {
+	background-position: 0px -18px;
+}
+.pwd_strength_4 {
+	background-position: 0px -27px;
+}
+.agreements {
+	margin: 10px 0px 0px 135px; width: 460px;
+}
+.agreements pre {
+	border: 1px solid rgb(228, 228, 228); border-image: none; height: 150px; -ms-overflow-x: hidden; -ms-overflow-y: scroll;
+}
+.reg_tips {
+	background: url("../../images/register/arrow_reg.png") no-repeat 0px 4px; padding: 5px 10px 5px 20px; color: rgb(153, 153, 153); line-height: 1.5; vertical-align: middle; display: inline-block;
+}
+.mail_down {
+	width: 240px; position: absolute; z-index: 11;
+}
+.mail_down ul {
+	background: rgb(255, 255, 255); padding: 1px; border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+.mail_down li {
+	height: 21px; line-height: 21px; overflow: hidden;
+}
+.mail_down li a {
+	padding: 0px 10px; color: rgb(153, 153, 153); text-decoration: none; display: block;
+}
+.mail_down li a:hover {
+	color: rgb(51, 51, 51); background-color: rgb(232, 244, 252);
+}
+.mail_down li.current a {
+	color: rgb(51, 51, 51); background-color: rgb(232, 244, 252);
+}
+.password_back_type {
+	padding: 0px 0px 0px 135px;
+}
+.password_back_type a {
+	background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255) 25%, rgb(240, 240, 240)) no-repeat rgb(255, 255, 255); border: 1px solid rgb(224, 224, 224); border-image: none; width: 160px; height: 100px; text-align: center; color: rgb(102, 102, 102); margin-right: 10px; display: inline-block;
+}
+.password_back_type a:hover {
+	background: rgb(255, 255, 157); border-color: rgb(255, 174, 18); color: rgb(0, 0, 0); text-decoration: none;
+}
+.password_back_type img {
+	margin: 7px auto 3px; vertical-align: top; display: block;
+}
+.invite_box_wrap {
+	background: rgb(255, 255, 255); margin: 5px 0px 10px 133px; padding: 1px; border: 1px solid rgb(238, 238, 238); border-image: none; width: 400px;
+}
+.invite_box {
+	background: rgb(246, 246, 246); padding: 5px 10px;
+}
+.invite_box .hd {
+	font-family: Simsun; margin-bottom: 8px;
+}
+.invite_box .hd a {
+	color: rgb(102, 102, 102);
+}
+.invite_box .ct ul {
+	padding: 10px 0px 10px 10px;
+}
+.invite_box .ct li {
+	padding: 10px 0px 0px; color: rgb(102, 102, 102);
+}
+.invite_box .ct li em {
+	width: 60px; display: inline-block;
+}
+.invite_box .ct .input {
+	padding: 2px; width: 140px;
+}
+.invite_box .tips {
+	padding: 5px 10px; text-align: left; line-height: 1.5;
+}
+.reg_message {
+	background: url("../../images/tips/big.png") no-repeat -100px 0px; margin: 40px auto 0px; padding: 0px 0px 40px 100px; width: 400px; line-height: 1.5; min-height: 100px; _height: 100px;
+}
+.reg_message h2 {
+	padding: 5px 0px 10px; font-size: 16px; font-weight: 100;
+}
+.reg_ignore {
+	background-position: 0px -100px;
+}
+.reg_ignore ul {
+	padding-top: 5px;
+}
+.reg_ignore .error_return {
+	padding-top: 10px; font-size: 14px;
+}
+.reg_activation {
+	margin: 0px auto; padding: 30px 0px; width: 610px;
+}
+.reg_activation h1 {
+	color: rgb(89, 132, 3); letter-spacing: 1px; font-family: "Microsoft Yahei"; font-size: 20px; font-weight: 100; margin-bottom: 30px;
+}
+.reg_activation p {
+	line-height: 1.8;
+}
+.reg_activation p.text {
+	line-height: 2; font-size: 14px;
+}
+.reg_activation_tip h2 {
+	padding: 10px 0px 5px; font-size: 12px; margin-top: 50px; border-top-color: rgb(208, 212, 215); border-top-width: 1px; border-top-style: solid;
+}
+.reg_activation_tip p {
+	padding-bottom: 30px;
+}
+.reg_push {
+	padding: 0px 10px;
+}
+.reg_push_forum {
+	background: rgb(247, 251, 254); padding: 15px; border: 1px solid rgb(234, 241, 247); border-image: none; margin-bottom: 20px;
+}
+.reg_push_user {
+	background: rgb(247, 251, 254); padding: 15px; border: 1px solid rgb(234, 241, 247); border-image: none; margin-bottom: 20px;
+}
+.reg_push_forum h3 {
+	color: rgb(51, 51, 51); line-height: 26px; padding-bottom: 10px; font-size: 12px; font-weight: 100; margin-bottom: 10px; border-bottom-color: rgb(194, 198, 201); border-bottom-width: 1px; border-bottom-style: dashed; display: block;
+}
+.reg_push_user h3 {
+	color: rgb(51, 51, 51); line-height: 26px; padding-bottom: 10px; font-size: 12px; font-weight: 100; margin-bottom: 10px; border-bottom-color: rgb(194, 198, 201); border-bottom-width: 1px; border-bottom-style: dashed; display: block;
+}
+.reg_push .ct {
+	overflow: hidden;
+}
+.reg_push .ct ul {
+	margin-left: -25px; position: relative;
+}
+.reg_push .ct ul li {
+	margin: 10px 0px 10px 26px; width: 270px; height: 70px; float: left;
+}
+.reg_push h4 {
+	margin-bottom: 5px;
+}
+.reg_push .face {
+	margin-right: 10px; float: left;
+}
+.reg_push .text {
+	overflow: hidden;
+}
+.pop_region_list {
+	padding-bottom: 10px;
+}
+.pop_region_list ul {
+	padding-left: 2px;
+}
+.pop_region_list ul li {
+	line-height: 20px; float: left;
+}
+.pop_region_list ul li a {
+	padding: 0px 5px; border-radius: 2px; color: rgb(51, 51, 51); display: block; white-space: nowrap;
+}
+.pop_region_list ul li span {
+	padding: 0px 5px; border-radius: 2px; color: rgb(51, 51, 51); display: block; white-space: nowrap;
+}
+.pop_region_list ul li a:hover {
+	background: rgb(224, 224, 224); text-decoration: none;
+}
+.pop_region_list ul li.current a {
+	background: rgb(38, 106, 174); color: rgb(255, 255, 255);
+}
+.pop_region_list ul li.current span {
+	background: rgb(38, 106, 174); color: rgb(255, 255, 255);
+}
+.pop_region_list .hr {
+	background: rgb(228, 228, 228); font: 0px/0 Arial; margin: 10px 0px; height: 1px; overflow: hidden; clear: both; font-size-adjust: none; font-stretch: normal;
+}
+.pop_region_list .filter {
+	padding: 10px 0px;
+}
+.pop_region_list .filter a {
+	margin-right: 12px;
+}
+.pop_region_list .filter a.current {
+	color: rgb(51, 51, 51); font-weight: 700;
+}
+.pop_region_list .list {
+	border: 1px solid rgb(204, 204, 204); border-image: none; height: 108px; -ms-overflow-x: hidden; -ms-overflow-y: auto;
+}
+.pop_region_list .list ul {
+	padding: 5px;
+}
+.pop_region_list .list li {
+	width: 33%; text-indent: 5px; float: left; cursor: pointer;
+}
+.pop_region_list .list li:hover {
+	background: rgb(247, 247, 247);
+}
+#J_verify_code #J_verify_update_img {
+	margin-right: 10px; float: left;
+}

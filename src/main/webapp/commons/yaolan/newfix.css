@@ -1,0 +1,495 @@
+* {
+	margin: 0px; padding: 0px; -ms-word-break: break-all;
+}
+.arrow {
+	border-style: solid; width: 0px; height: 0px; line-height: 0; overflow: hidden; font-size: 0px; cursor: pointer; background-color: transparent;
+}
+.arrow-bottom {
+	border-color: rgb(234, 234, 234) transparent transparent; _border-style: solid dashed dashed;
+}
+.arrow-up {
+	border-color: transparent transparent rgb(234, 234, 234); _border-style: dashed dashed solid;
+}
+.arrow-right {
+	border-color: transparent transparent transparent rgb(234, 234, 234); _border-style: dashed dashed dashed solid;
+}
+.arrow-left {
+	border-color: transparent rgb(234, 234, 234) transparent transparent; _border-style: dashed solid dashed dashed;
+}
+.text-ellipsis {
+	overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.new-expertOnlineOld * {
+	font: 12px/1.75 "Î¢ÈíÑÅºÚ", "ËÎÌå", Arial, sans-serif; color: rgb(153, 153, 153); font-size-adjust: none; font-stretch: normal;
+}
+.new-expertOnlinebg {
+	z-index: 998;
+}
+.new-expertOnline {
+	border-left-color: rgb(234, 234, 234); border-left-width: 1px; border-left-style: solid; z-index: 999;
+}
+.new-expertOnlinebg {
+	background: rgb(255, 255, 255); width: 45px;
+}
+.new-expertOnline {
+	background: rgb(255, 255, 255); width: 45px;
+}
+.new-expertOnlinebg {
+	margin: 0px; padding: 0px; top: 0px; height: 100%; right: 0px; position: fixed; z-index: 10000; _position: absolute;
+}
+.new-expertOnline {
+	margin: 0px; padding: 0px; top: 0px; height: 100%; right: 0px; position: fixed; z-index: 10000; _position: absolute;
+}
+.new-expert-signInBox {
+	margin: 0px; padding: 0px; top: 0px; height: 100%; right: 0px; position: fixed; z-index: 10000; _position: absolute;
+}
+.new-expOlClose {
+	width: 45px; height: 35px; text-align: center; color: rgb(204, 204, 204); line-height: 35px; overflow: hidden; font-family: "ËÎÌå"; font-size: 28px; margin-top: 48px; display: block; _width: 44px;
+}
+a.new-expOlClose:hover {
+	color: rgb(255, 171, 151); text-decoration: none;
+}
+.new-expertMidbox {
+	top: 50%; margin-top: -185px; position: relative;
+}
+.new-expertBotBox {
+	width: 45px; right: 0px; bottom: 0px; border-top-color: rgb(234, 234, 234); border-top-width: 1px; border-top-style: solid; position: fixed; z-index: 10001; _margin-bottom: 0; _bottom: auto; _position: absolute;
+}
+.new-emMidlink-top {
+	background: rgb(244, 244, 244); height: 47px; display: block; position: relative;
+}
+.new-emMidlink-top-box {
+	left: -7px; top: 0px; width: 52px; height: 47px; position: absolute;
+}
+.new-emlink {
+	background: rgb(255, 255, 255); width: 100%; height: 45px; border-bottom-color: rgb(234, 234, 234); border-bottom-width: 1px; border-bottom-style: solid; display: block; position: relative;
+}
+.new-emlink:hover {
+	text-decoration: none;
+}
+.new-expert-icon {
+	background-position: -10000px -10000px; background-image: url("new_expert_icon.png?13"); background-repeat: no-repeat; _background-image: url(new_expert_icon_ie6.png);
+}
+.new-expertOnline .new-expert-icon {
+	left: 50%; top: 50%; width: 30px; height: 30px; margin-top: -15px; margin-left: -15px; position: absolute;
+}
+.new-expertBotBox .new-expert-icon {
+	left: 50%; top: 50%; width: 30px; height: 30px; margin-top: -15px; margin-left: -15px; position: absolute;
+}
+.new-emMidlink-top-box {
+	background-color: rgb(255, 188, 173);
+}
+.new-emMidlink-top:hover .new-emMidlink-top-box {
+	background-color: rgb(244, 244, 244);
+}
+.new-emlink:hover {
+	background-color: rgb(244, 244, 244);
+}
+.new-emMidlink-top .new-expert-icon {
+	background-position: 0px 5px;
+}
+.new-emMidlink-top:hover .new-expert-icon {
+	background-position: -40px 5px;
+}
+.new-emMidlink-top .arrow {
+	border-width: 7px; left: -14px; bottom: -6px; position: absolute;
+}
+.new-expert-tip-box {
+	background: rgb(255, 255, 255); border: 1px solid rgb(237, 236, 230); border-image: none; top: 50%; display: none; position: absolute;
+}
+.new-expert-weixin-box {
+	background: rgb(255, 255, 255); border: 1px solid rgb(237, 236, 230); border-image: none; top: 50%; display: none; position: absolute;
+}
+.new-expert-form-box {
+	background: rgb(255, 255, 255); border: 1px solid rgb(237, 236, 230); border-image: none; top: 50%; display: none; position: absolute;
+}
+.new-expert-tip-box {
+	left: -85px;
+}
+.new-expert-weixin-box {
+	left: -85px;
+}
+.new-expert-tip-box {
+	border-color: rgb(243, 112, 83); width: 73px; margin-top: -15px; background-color: rgb(243, 112, 83);
+}
+.new-expert-tip-box .new-expert-tip-con {
+	color: rgb(255, 255, 255);
+}
+.new-expert-tip-con {
+	height: 30px; text-align: center; line-height: 30px; font-size: 14px; display: block; position: relative; cursor: default;
+}
+.new-expert-tip-con .arrow {
+	top: 50%; position: absolute;
+}
+.new-expert-weixin-con .arrow {
+	top: 50%; position: absolute;
+}
+.new-expert-form-con .arrow {
+	top: 50%; position: absolute;
+}
+.new-expert-tip-con .arrow-white {
+	border-width: 6px; right: -11px; margin-top: -6px; border-left-color: rgb(243, 112, 83);
+}
+.new-expert-form-con .arrow-white {
+	border-width: 6px; right: -11px; margin-top: -6px; border-left-color: rgb(243, 112, 83);
+}
+.new-expert-weixin-con .arrow-white {
+	border-width: 6px; right: -11px; margin-top: -6px; border-left-color: rgb(255, 255, 255);
+}
+.new-expert-tip-con .arrow-edec {
+	border-width: 7px; right: -14px; margin-top: -7px; border-left-color: rgb(243, 112, 83);
+}
+.new-expert-form-con .arrow-edec {
+	border-width: 7px; right: -14px; margin-top: -7px; border-left-color: rgb(243, 112, 83);
+}
+.new-expert-weixin-con .arrow-edec {
+	border-width: 7px; right: -14px; margin-top: -7px; border-left-color: rgb(255, 255, 255);
+}
+.new-emMidlink-top:hover .new-expert-tip-box {
+	color: rgb(117, 117, 117); display: block;
+}
+.new-emMidlink-top .new-expert-tip-box .arrow {
+	left: auto;
+}
+.new-emMidlink-top:hover .new-expert-tip-box {
+	left: -93px;
+}
+.new-emMidlink-1 .new-expert-icon {
+	background-position: 0px -40px;
+}
+.new-emMidlink-2 .new-expert-icon {
+	background-position: 0px -88px;
+}
+.new-emMidlink-3 .new-expert-icon {
+	background-position: 0px -133px;
+}
+.new-emBotlink-0 .new-expert-icon {
+	background-position: 0px -178px;
+}
+.new-emBotlink-1 .new-expert-icon {
+	background-position: 0px -224px;
+}
+.new-emBotlink-2 .new-expert-icon {
+	background-position: 1px -271px;
+}
+.new-emBotlink-3 .new-expert-icon {
+	background-position: 1px -320px;
+}
+.new-expert-weixin-box {
+	padding: 6px; margin-top: -38px;
+}
+.new-expert-weixin-con {
+	background: url("3g.jpg") no-repeat; width: 62px; height: 62px; display: block;
+}
+.new-expert-form-box {
+	padding: 15px; width: 245px; right: 70px; margin-top: -95px; position: fixed; z-index: 10000; cursor: default;
+}
+.new-expert-form-con {
+	width: 245px;
+}
+.new-expert-question {
+	display: block;
+}
+.new-expert-inp-title {
+	display: block;
+}
+.new-expert-inp-title {
+	padding: 20px 0px 5px; color: rgb(250, 125, 95);
+}
+input.new-expert-inp {
+	border: 1px solid rgb(213, 213, 213); border-image: none; width: 148px; height: 24px; color: rgb(213, 213, 213); line-height: 50%; text-indent: 5px;
+}
+.new-expert-sub {
+	background: rgb(250, 125, 95); border-radius: 3px; border: currentColor; border-image: none; width: 77px; height: 30px; color: rgb(255, 255, 255); margin-left: 10px; display: inline-block;
+}
+.new-expert-sub:hover {
+	background: rgb(255, 162, 140); color: rgb(255, 255, 255); text-decoration: none;
+}
+.new-expert-sub:active {
+	background: rgb(255, 136, 108); color: rgb(255, 255, 255);
+}
+.new-expert-signInBox {
+	background: rgb(255, 255, 255); width: 453px; border-left-color: rgb(234, 234, 234); border-left-width: 1px; border-left-style: solid; display: none; z-index: 1000;
+}
+.new-expert-signInTopBox {
+	height: 104px; position: relative;
+}
+.new-expert-signInTopCon {
+	background: rgb(246, 246, 246); left: -8px; top: 0px; width: 461px; height: 96px; border-bottom-color: rgb(231, 231, 231); border-bottom-width: 1px; border-bottom-style: solid; position: absolute; z-index: 5; box-shadow: 0px 2px 2px #aaa;
+}
+.new-expert-userImgBox {
+	background: rgb(246, 246, 246); padding: 7px; border-radius: 50%; left: -42px; top: 0px; width: 70px; height: 70px; overflow: hidden; position: absolute; z-index: 10;
+}
+.new-expert-userImgBox img {
+	border-radius: 50%; width: 70px; height: 70px;
+}
+.new-expert-signInTopBox .top-bg-arrow {
+	border-width: 8px; left: -16px; bottom: 0px; border-right-color: rgb(65, 65, 65); position: absolute;
+}
+.new-expert-sign-btn {
+	background-position: -120px 0px; top: 33px; width: 86px; height: 35px; text-align: center; right: 63px; color: rgb(255, 255, 255); line-height: 33px; position: absolute; z-index: 10;
+}
+.new-expert-sign-btn:hover {
+	background-position: -120px -56px; color: rgb(255, 255, 255); text-decoration: none;
+}
+.nesb-act {
+	background-position: -120px -112px; color: rgb(153, 153, 153); cursor: default;
+}
+.nesb-act:hover {
+	background-position: -120px -112px; color: rgb(153, 153, 153); cursor: default;
+}
+.new-expert-sign-user-box {
+	height: 50px; margin-top: 24px; margin-left: 55px;
+}
+.new-expert-user-chbox {
+	height: 20px; line-height: 24px; display: inline-block; -ms-zoom: 1;
+}
+.new-expert-user-name {
+	color: rgb(120, 198, 175); padding-right: 5px; font-size: 16px; max-width: 100px; _width: 100px;
+}
+.new-expert-user-age {
+	color: rgb(255, 115, 82); line-height: 26px; padding-right: 5px; max-width: 120px; _width: 120px;
+}
+.new-expert-user-edit {
+	background-position: -46px -56px; width: 14px;
+}
+.new-expert-user-edit:hover {
+	background-position: -46px -83px;
+}
+.new-expert-user-day-box {
+	background: rgb(120, 198, 175); border-radius: 3px 3px 0px 0px; border: currentColor; border-image: none; left: 57px; width: 55px; height: 26px; text-align: center; bottom: 6px; color: rgb(255, 255, 255); line-height: 26px; position: absolute; z-index: 100; cursor: pointer;
+}
+.new-expert-user-day-box:hover {
+	background: rgb(145, 229, 204); color: rgb(255, 255, 255); text-decoration: none;
+}
+.new-expert-user-day-btn {
+	background: none; border: currentColor; border-image: none; left: 0px; top: 0px; width: 55px; height: 26px; position: absolute;
+}
+.neud-act {
+	background: rgb(255, 255, 255); color: rgb(153, 153, 153);
+}
+.neud-act:hover {
+	background: rgb(255, 255, 255); color: rgb(153, 153, 153);
+}
+[disabled].new-expert-user-day-box {
+	cursor: default;
+}
+.new-expert-user-day-shadow {
+	background-position: -44px -26px; left: 98px; width: 22px; height: 25px; bottom: 6px; position: absolute; z-index: 10;
+}
+.new-expert-user-date-box {
+	left: 144px; width: 70px; height: 20px; text-align: center; bottom: 10px; color: rgb(120, 198, 175); line-height: 20px; font-size: 12px; position: absolute; z-index: 20;
+}
+.new-expert-date-btn {
+	border-width: 7px; bottom: 13px; position: absolute; z-index: 10;
+}
+.new-expert-toleft-btn {
+	left: 125px; border-right-color: rgb(120, 198, 175);
+}
+[disabled].new-expert-toleft-btn {
+	border-right-color: rgb(204, 204, 204); cursor: default;
+}
+.new-expert-toright-btn {
+	left: 219px; border-left-color: rgb(120, 198, 175);
+}
+[disabled].new-expert-toright-btn {
+	border-left-color: rgb(204, 204, 204); cursor: default;
+}
+.new-expert-sd-box {
+	top: 100px; width: 375px; bottom: 0px; overflow: auto; padding-top: 1px; margin-left: 25px; position: absolute;
+}
+.new-expert-state-box {
+	margin: 5px 0px 0px; width: 350px;
+}
+.new-expert-data-box {
+	margin: 5px 0px 0px; width: 350px;
+}
+.new-expert-state-note {
+	color: rgb(120, 198, 175); padding-left: 25px; display: inline; position: relative;
+}
+.new-expert-state-note .new-expert-icon {
+	background-position: -46px -109px; margin: 0px; left: 0px; top: 2px; width: 17px; height: 17px; position: absolute;
+}
+.new-expert-state-note:hover .new-expert-icon {
+	background-position: -46px -136px;
+}
+.new-expert-state-txt {
+	color: rgb(102, 102, 102); font-size: 12px; margin-top: 10px; min-height: 80px;
+}
+.new-expert-data-box {
+	padding: 20px 0px; margin-top: 30px; border-top-color: rgb(224, 224, 224); border-top-width: 1px; border-top-style: dashed; position: relative;
+}
+.new-expert-data-title {
+	background: rgb(255, 255, 255); left: 0px; top: -20px; width: 80px; height: 22px; color: rgb(255, 115, 82); line-height: 22px; font-size: 18px; position: absolute;
+}
+.new-expert-data-em {
+	background: rgb(255, 255, 255); top: -8px; width: 120px; height: 16px; text-align: center; right: -4px; color: rgb(120, 198, 175); line-height: 16px; position: absolute;
+}
+.new-expert-data-ul {
+	
+}
+.new-expert-data-ul li {
+	padding: 0px 50px; height: 34px; color: rgb(102, 102, 102); line-height: 32px; overflow: hidden; font-size: 14px; white-space: nowrap; position: relative; -ms-text-overflow: ellipsis;
+}
+.new-expert-data-icon {
+	left: 0px; top: 5px; width: 24px; height: 24px; position: absolute;
+}
+.new-expert-data-1 {
+	background-position: -86px 1px;
+}
+.new-expert-data-2 {
+	background-position: -86px -35px;
+}
+.new-expert-data-3 {
+	background-position: -86px -71px;
+}
+.new-expert-data-4 {
+	background-position: -90px -105px;
+}
+.new-expert-data-5 {
+	background-position: -86px -141px;
+}
+.new-expert-data-6 {
+	background-position: -90px -176px;
+}
+.new-expert-data-7 {
+	background-position: -87px -214px;
+}
+.new-expert-left-hand {
+	top: 9px; width: 16px; height: 16px; position: absolute;
+}
+.new-expert-right-hand {
+	top: 9px; width: 16px; height: 16px; position: absolute;
+}
+.new-expert-left-hand {
+	background-position: -44px -157px; right: 35px;
+}
+[disabled].new-expert-left-hand:hover {
+	background-position: -44px -157px; right: 35px;
+}
+.new-expert-left-hand:hover {
+	background-position: -44px -180px;
+}
+.nelh-act {
+	background-position: -44px -199px; cursor: default;
+}
+.nelh-act:hover {
+	background-position: -44px -199px; cursor: default;
+}
+[disabled].nelh-act:hover {
+	background-position: -44px -199px; cursor: default;
+}
+.new-expert-right-hand {
+	background-position: -68px -157px; right: 0px;
+}
+[disabled].new-expert-right-hand:hover {
+	background-position: -68px -157px; right: 0px;
+}
+.new-expert-right-hand:hover {
+	background-position: -68px -180px;
+}
+.nerh-act {
+	background-position: -68px -199px;
+}
+.nerh-act:hover {
+	background-position: -68px -199px;
+}
+[disabled].nerh-act:hover {
+	background-position: -68px -199px;
+}
+.new-expert-recommend-box {
+	margin-left: -14px; position: relative;
+}
+.new-expert-recommend-box a {
+	width: 168px; height: 30px; line-height: 30px; margin-left: 14px; float: left;
+}
+.new-expert-recommend-img-box {
+	position: relative;
+}
+.new-expert-recommend-box a.new-expert-recommend-img-box {
+	width: 168px; height: 112px;
+}
+.new-expert-recommend-img-box img {
+	width: 168px; height: 112px;
+}
+.new-expert-recommend-img-box {
+	margin-bottom: 10px;
+}
+.new-expert-recommend-bg {
+	left: 0px; width: 100%; height: 30px; bottom: 0px; position: absolute;
+}
+.new-expert-recommend-em {
+	left: 0px; width: 100%; height: 30px; bottom: 0px; position: absolute;
+}
+.new-expert-recommend-bg {
+	background: rgb(0, 0, 0); opacity: 0.6;
+}
+.new-expert-recommend-em {
+	text-align: center; color: rgb(255, 255, 255); line-height: 30px;
+}
+.new-expert-recommend-box a {
+	overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.new-expert-recommend-em {
+	overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.new-expert-recommend-left {
+	padding-right: 7px; border-right-color: rgb(234, 234, 234); border-right-width: 1px; border-right-style: solid;
+}
+.new-expert-recommend-right {
+	padding-left: 6px;
+}
+.new-expert-recommend-line {
+	background: rgb(221, 221, 221); left: 175px; top: 20px; width: 1px; height: 182px; position: absolute;
+}
+.new-expert-pop-box {
+	background: rgb(255, 255, 255); border-radius: 8px; border: 1px solid rgb(221, 221, 221); border-image: none; top: 5px; right: 160px; display: none; position: absolute; z-index: 1000; box-shadow: 0px 0px 3px 1px #ddd;
+}
+.new-expert-pop-con {
+	border-radius: 8px; width: 180px; height: 60px; position: relative;
+}
+.new-expert-pop-txt {
+	background: rgb(255, 255, 255); padding: 10px; border-radius: 8px; left: 0px; top: 0px; color: rgb(250, 125, 95); line-height: 20px; position: absolute;
+}
+.new-expert-pop-con .arrow {
+	border-width: 20px 10px; position: absolute;
+}
+.new-expert-pop-con .arrow-1 {
+	right: 20px; bottom: -20px; border-right-color: rgb(221, 221, 221);
+}
+.new-expert-pop-con .arrow-2 {
+	right: 23px; bottom: -15px; border-right-color: rgb(255, 255, 255);
+}
+.arrow-rotate {
+	transform: rotate(-20deg); -moz-transform: rotate(-20deg); -webkit-transform: rotate(-20deg); -o-transform: rotate(-20deg);
+}
+.new-expert-state-note-box {
+	display: none;
+}
+.new-expert-hand {
+	border: currentColor; border-image: none; cursor: pointer; background-color: transparent;
+}
+.cursor-default {
+	cursor: default;
+}
+@media screen and (max-width:1024px)
+{
+.new-expertOnlineOld {
+	display: none;
+}
+}
+@media screen and (max-height:768px)
+{
+.new-expert-sd-box {
+	-ms-overflow-x: hidden; -ms-overflow-y: auto;
+}
+}
+#bdshare_newfix {
+	left: -230px; width: 273px; position: relative;
+}
+.bdshare_popup_box {
+	margin-left: -190px;
+}
+body {
+	-ms-overflow-x: hidden;
+}

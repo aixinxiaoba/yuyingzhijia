@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>育婴之家网</title>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta http-equiv="Cache-control" content="no-cache" />
+<meta name="format-detection" content="telephone=no">
+<meta name="applicable-device" content="mobile">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" href="/commons/css/mobile_ch.css">
+<LINK rel="stylesheet" href="/commons/css/swiper.min.css"  type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<script src="/commons/js/swiper.min.js"></script>
+<style type="text/css">
+.tabs a {
+	font-size: 1em;
+	font-weight: normal;
+	text-align: center;
+	float: left;
+	
+			width: 20%;
+	height: 38px;
+	line-height: 38px;
+	color: #2a70be;
+}
+
+.tabs a.active {
+	border-top: 2px solid #2a70be;
+	margin-top: -2px;
+	background: #FC6464;
+	background-repeat: no-repeat;
+	
+		-webkit-background-size: 20% 39px;
+	
+	-moz-background-size: 20% 39px;
+	
+	-o-background-size: 20% 39px;
+	
+	background-size: 20% 39px;
+	
+	
+	background-position: left top;
+	color: #fff;
+	filter: alpha(opacity = 50);
+	-moz-opacity: 0.5;
+/* 	opacity: 0.5; */
+	opacity: 0.8;
+}
+
+#e1 a {
+	background: #FC6464;
+	color: #fff;
+	display: inline-block;
+	border-radius: 10px;
+	border: 1px solid #f8f8f8;
+	padding: 2px 7px;
+	line-height: 20px;
+	filter: alpha(opacity = 50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}
+</style>
+</head>
+<body>
+	<header id="header">
+		<div id="top-line"></div>
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<a href="/static/m/index.html">首页</a>
+			</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/yuerzhuanqu">育儿</a>
+						</div>
+				 		<div class="swiper-slide" id='e1'>
+							<a href="/static/m/baomazhuanqu">宝妈</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/yunqian">孕前</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/yunzhong">孕中</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/yunhou">孕后</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/yinger">婴儿期</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/youer">幼儿期</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/xlq">学龄前</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/yerfs">婴儿辅食</a>
+						</div>
+		</div>
+	</header>
+	<div id="banner">
+		<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=50,151"
+						target="_blank">
+						<img src="/upload/9/1d008121-6dbe-4f81-ac94-e179b10c82dc_size56_w480_h300.jpg" alt="a">
+					<h2 class="gallerytitle">a</h2></a>
+				</div>
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=49,383"
+						target="_blank">
+						<img src="http://www.qinbei.com/uploadfile/2012/0507/20120507023037791.jpg" alt="沈傲君产后复出 与儿子携手拍杂志封面">
+					<h2 class="gallerytitle">沈傲君产后复出 与儿子携手拍杂志封面</h2></a>
+				</div>
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=49,382"
+						target="_blank">
+						<img src="http://www.qinbei.com/uploadfile/2012/0517/20120517091942177.jpg" alt="巩俐小腹凸起疑似有孕 巴黎购物身材丰腴(图)">
+					<h2 class="gallerytitle">巩俐小腹凸起疑似有孕 巴黎购物身材丰腴(图)</h2></a>
+				</div>
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=49,380"
+						target="_blank">
+						<img src="http://upload.qinbei.com/2014/1015/1413341883163.jpg" alt="郭涛称石头学校咬人被投诉 森碟赞石头好帅">
+					<h2 class="gallerytitle">郭涛称石头学校咬人被投诉 森碟赞石头好帅</h2></a>
+				</div>
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=49,379"
+						target="_blank">
+						<img src="http://upload.qinbei.com/2014/1015/1413350782488.jpg" alt="林妙可童星变熟女 宫傲郝邵文童星长大惊人变化">
+					<h2 class="gallerytitle">林妙可童星变熟女 宫傲郝邵文童星长大惊人变化</h2></a>
+				</div>
+		</div>
+		<div class="pagination"></div>
+	</div>
+	<div class="tabs">
+					<a href="#" class="active">母婴常识</a>
+					<a href="#">宝妈知识</a>
+					<a href="#">怀孕知识</a>
+					<a href="#">优生知识</a>
+					<a href="#">明星</a>
+	</div>
+	<div id="tabs-container" class="swiper-container">
+		<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=50,151"
+									target="_blank">
+										<img src="/upload/9/1d008121-6dbe-4f81-ac94-e179b10c82dc_size56_w480_h300.jpg" alt="a">
+									
+									<h2 class="lp-title">a</h2>
+									<p class="lp-sum">a</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,577"
+									target="_blank">
+										<img src="/upload/9/300534011083133903222179556_950.jpg" alt="12-24个月宝宝营养辅食食谱">
+									
+									<h2 class="lp-title">12-24个月宝宝营养辅食食谱</h2>
+									<p class="lp-sum">12-24个月宝宝营养辅食食谱,让你的宝宝健康100分</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,576"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">8-12个月宝宝营养辅食食谱</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8-12个月宝宝营养</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,575"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">6-8个月宝宝营养辅食食谱</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp;&nbsp;6-8个月宝宝营养辅食食谱，让你</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,574"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">4-6个月宝宝营养辅食食谱</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp;4-6个月宝宝营养辅食食谱，让你的宝宝健康1</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,572"
+									target="_blank">
+										<img src="http://www.yyzj2001.com/editor/UploadFile/2011111145119646.jpg" alt="过敏体质的宝宝添加辅食要注意什么？">
+									
+									<h2 class="lp-title">过敏体质的宝宝添加辅食要注意什么？</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,571"
+									target="_blank">
+										<img src="http://www.yyzj2001.comhttp://bmw070399.chinaw3.com/editor/UploadFile/2011111171850941.jpg" alt="育婴之家产后月子餐之汤类食谱大全">
+									
+									<h2 class="lp-title">育婴之家产后月子餐之汤类食谱大全</h2>
+									<p class="lp-sum">&nbsp;花生猪脚汤&nbsp;材料:生花生半斤，猪脚1支，红枣12个，当归3</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,570"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">让你奶水充足的7个方法</h2>
+									<p class="lp-sum">让你奶水充足的7个方法　　很多新妈妈都会有奶水不足，以致宝宝不够吃的困扰，下面就</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=5,826"
+									target="_blank">
+										<img src="http://ww3.sinaimg.cn/large/67e24a36jw1eqcjzys4qgj20a006o3z6.jpg" alt="备孕、怀孕、产子、月子知识大全">
+									
+									<h2 class="lp-title">备孕、怀孕、产子、月子知识大全</h2>
+									<p class="lp-sum">做法：将若干黑豆用清水浸泡12小时左右，然后用清水煮至熟透，可少放一点盐。从月经</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,580"
+									target="_blank">
+										<img src="http://www.chinatat.com/upload/photo/4/news/1580.jpg" alt="孙俪不当“怪兽家长” 分享辣妈育儿心得">
+									
+									<h2 class="lp-title">孙俪不当“怪兽家长” 分享辣妈育儿...</h2>
+									<p class="lp-sum">早前，孙俪在香港迪士尼乐园拍摄网络亲子短片，为5岁小女孩Mia带来了两天的难忘假</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,573"
+									target="_blank">
+										<img src="http://www.yyzj2001.com/editor/UploadFile/2011111144416776.jpg" alt="爸爸妈妈可根据6点判断是否可以添加辅食">
+									
+									<h2 class="lp-title">爸爸妈妈可根据6点判断是否可以添加...</h2>
+									<p class="lp-sum">爸爸妈妈可根据6点判断是否可以添加辅食★体重：体重需要达到出生时的2</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,567"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">双胞胎妈妈的产前护理part.2</h2>
+									<p class="lp-sum">　Part2产检及生产方式　　双胞胎妊娠属高危险妊娠，在孕产过程中妈妈及胎儿可能</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,566"
+									target="_blank">
+										<img src="/upload/36/10567597_303951.jpg" alt="孕期准妈妈如何‘行走坐立’">
+									
+									<h2 class="lp-title">孕期准妈妈如何‘行走坐立’</h2>
+									<p class="lp-sum">★孕晚期如何俯身弯腰：　　六个月后婴儿</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,560"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">新妈妈必知的13个产后常见误区</h2>
+									<p class="lp-sum">★产后常见误区1：经常喝茶水　　多进汤汁固然可增加乳汁分泌，但茶叶中含有的鞣酸会</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,559"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">产后“妈妈病”排行榜及对策</h2>
+									<p class="lp-sum">　　分娩以后，除乳房外，产妇全身各器官和组织，尤其是生殖器官，都要回复到到妊娠前</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,556"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">准妈妈乳房保健第一课</h2>
+									<p class="lp-sum">乳房是女性曲线美的主要组成部分，但它不仅仅是女性特有健美的象征，还具有分泌乳汁及</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,466"
+									target="_blank">
+										<img src="http://www.yyzj2001.comhttp://bmw070399.chinaw3.com/editor/UploadFile/2012114143331924.jpg" alt="看看你属于那三类不适宜冬季怀孕的女性吗？">
+									
+									<h2 class="lp-title">看看你属于那三类不适宜冬季怀孕的女...</h2>
+									<p class="lp-sum">　专家倡议，以下几类这三类女性最好不要选择在冬天怀孕，能够选择在夏天或秋天非采卵</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,445"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">怀孕期间怎么防辐射？孕妇如何防辐射...</h2>
+									<p class="lp-sum">今天，当我们享受现代高科技带来便利的同时，也开始恐惧其不利的影响。手机、电脑、冰</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,394"
+									target="_blank">
+										<img src="http://www.yyzj2001.com/editor/UploadFile/2012229114529409.jpg" alt="怀孕的几种反应，怀孕有什么反应？">
+									
+									<h2 class="lp-title">怀孕的几种反应，怀孕有什么反应？</h2>
+									<p class="lp-sum">怀孕有哪些反应？？　怀孕的早期症状有哪些？　　部分新婚女性还沉浸幸福氛围中时，却</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,305"
+									target="_blank">
+										<img src="http://www.yyzj2001.com/editor/UploadFile/201231318259734.jpg" alt="怀孕3个月该吃什么？怀孕3个月的饮食方案！">
+									
+									<h2 class="lp-title">怀孕3个月该吃什么？怀孕3个月的饮...</h2>
+									<p class="lp-sum">怀孕三个月饮食方案：　　怀孕第三个月虽然是关键期，但由于胎儿体积尚小，所需的营养</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,282"
+									target="_blank">
+										<img src="http://www.yyzj2001.com/editor/UploadFile/2012326185120608.jpg" alt="怀孕初期症状：怀双胞胎的早期征兆">
+									
+									<h2 class="lp-title">怀孕初期症状：怀双胞胎的早期征兆</h2>
+									<p class="lp-sum">　随着社会观念的不断进步，孩子的性别在各个家庭中已经不重要了，但是受封建传统思想</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,281"
+									target="_blank">
+										<img src="http://www.yyzj2001.com/editor/UploadFile/2012326185225951.jpg" alt="想知道生男生女？从怀孕初期看男孩！">
+									
+									<h2 class="lp-title">想知道生男生女？从怀孕初期看男孩！</h2>
+									<p class="lp-sum">随着时代的发展，社会观念的不断进步，孩子的性别在各个家庭中已经不重要了，然而部分老辈的思</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,272"
+									target="_blank">
+										<img src="http://www.yyzj2001.comhttp://bmw070399.chinaw3.com/editor/UploadFile/201232818255374.jpg" alt="怀孕总是呕吐怎么办？怎么才能解决孕吐？6种果汁解决孕吐反应！">
+									
+									<h2 class="lp-title">怀孕总是呕吐怎么办？怎么才能解决孕...</h2>
+									<p class="lp-sum">　苹果柠檬汁　　材料：苹果、柠檬。比例：10∶1　　功效：柠檬有健脾消食之效，有</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,258"
+									target="_blank">
+										<img src="http://www.yyzj2001.com/editor/UploadFile/20124517127906.jpg" alt="怀孕需要向医院和医生了解的问题大全！总有你不知道的！">
+									
+									<h2 class="lp-title">怀孕需要向医院和医生了解的问题大全...</h2>
+									<p class="lp-sum">关于产前护理的x个问题为我做产前检查的医生，是不是就是以后要为我负责分娩护理的人</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=50,126"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">备孕夫妻要注意 7个错误要远离</h2>
+									<p class="lp-sum">　误区1：夫妻还年轻，等条件成熟再要宝宝
+  
+ 
+   &nbsp;
+  
+ </p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=50,125"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">珠海市单独二胎最新政策</h2>
+									<p class="lp-sum">　将珠海市“双方或一方为珠海市户籍且有一方为独生子女、双方合计已生育一个子女的夫</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=50,124"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">厦门市单独二胎最新政策</h2>
+									<p class="lp-sum">省十二届人大常委会第八次会议表决通过关于修改《福建省人口与计划生育条例》的决定，</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=50,123"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">准妈妈为什么爱发脾气？</h2>
+									<p class="lp-sum">　怀了胎宝宝，这本是件开心的事，可孕妈咪突如其来的暴躁脾气让一家人都措手不及。其</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=50,122"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">备孕二个月 成功好孕经验分享</h2>
+									<p class="lp-sum">我第一次备孕是六月，那个时候不知道要用排卵试纸，就是光靠计算排卵期安排功课，结果</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=50,121"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">准爸妈孕前准备工作 受孕倒计时12...</h2>
+									<p class="lp-sum">　受孕倒计时12个月&#x2014;&#x2014;孕前全面身体检查
+  
+ 
+</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=50,120"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">准爸妈孕前准备工作 受孕倒计时11...</h2>
+									<p class="lp-sum">　受孕倒计时11个月&#x2014;&#x2014;乙肝疫苗
+  
+ 
+   &</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=50,119"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">日常饮食均衡</h2>
+									<p class="lp-sum">怀孕前的准备工作1：补充叶酸
+  
+ 
+   &nbsp;
+  
+ 
+   　　</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,383"
+									target="_blank">
+										<img src="http://www.qinbei.com/uploadfile/2012/0507/20120507023037791.jpg" alt="沈傲君产后复出 与儿子携手拍杂志封面">
+									
+									<h2 class="lp-title">沈傲君产后复出 与儿子携手拍杂志封...</h2>
+									<p class="lp-sum">沈傲君产后复出 与儿子携手拍杂志封面（亲贝网配图） 　　亲贝网讯 5月7日消息，</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,382"
+									target="_blank">
+										<img src="http://www.qinbei.com/uploadfile/2012/0517/20120517091942177.jpg" alt="巩俐小腹凸起疑似有孕 巴黎购物身材丰腴(图)">
+									
+									<h2 class="lp-title">巩俐小腹凸起疑似有孕 巴黎购物身材...</h2>
+									<p class="lp-sum">巩俐亮相法国中国电影节开幕，频遮腹部 
+ 　　巩俐于5月14日亮相法国中国电影节</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,380"
+									target="_blank">
+										<img src="http://upload.qinbei.com/2014/1015/1413341883163.jpg" alt="郭涛称石头学校咬人被投诉 森碟赞石头好帅">
+									
+									<h2 class="lp-title">郭涛称石头学校咬人被投诉 森碟赞石...</h2>
+									<p class="lp-sum">cindy和石头前天一同现身代言活动 
+ 虽然《爸爸去哪儿》(在线观看)第一季已</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,379"
+									target="_blank">
+										<img src="http://upload.qinbei.com/2014/1015/1413350782488.jpg" alt="林妙可童星变熟女 宫傲郝邵文童星长大惊人变化">
+									
+									<h2 class="lp-title">林妙可童星变熟女 宫傲郝邵文童星长...</h2>
+									<p class="lp-sum">林妙可童星变熟女 宫傲郝邵文童星长大惊人变化 
+ 日前，林妙可母亲在微信上晒出林</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,378"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">三元奶粉冠名的《百变美人计》总决赛...</h2>
+									<p class="lp-sum">　　三元奶粉冠名的《百变美人计》总决赛暨美丽盛典19日晚落幕。什么是“百变美人”</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,377"
+									target="_blank">
+										<img src="http://upload.qinbei.com/2014/1209/1418114472862.jpg" alt="女神杰西卡阿尔芭携女儿看圣诞老人 场面温馨">
+									
+									<h2 class="lp-title">女神杰西卡阿尔芭携女儿看圣诞老人 ...</h2>
+									<p class="lp-sum">杰西卡-阿尔芭携女儿观圣诞老人 
+ 据英国媒体12月7日报道，好莱坞女星杰西卡-</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,376"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">王栎鑫婚礼现场图曝光 否认妻子吴雅...</h2>
+									<p class="lp-sum">&nbsp; 　　王栎鑫婚礼现场图曝光 否认妻子吴雅婷怀孕 　　王栎鑫婚礼现场图</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,375"
+									target="_blank">
+										<img src="http://upload.qinbei.com/2015/0429/1430282031194.jpg" alt="母亲节来临 孙莉鲍蕾带宝贝拍大片">
+									
+									<h2 class="lp-title">母亲节来临 孙莉鲍蕾带宝贝拍大片</h2>
+									<p class="lp-sum">&nbsp; 　　(孙莉母女) 　　母亲节快到了，孙莉、鲍蕾带着宝贝女儿欢乐大片</p></a></li>
+						</ul>
+					</div>
+				</div>
+		</div>
+	</div>
+	<div class="th_title">人气排行榜</div>
+	<div class="home-article">
+		<ul class="ha-list list-pt">
+				<li><a href="/front/yuyingshi/detail.do?newsID=50,151"
+				target="_blank">
+					<img src="/upload/9/1d008121-6dbe-4f81-ac94-e179b10c82dc_size56_w480_h300.jpg" alt="a">
+				<h2 class="lp-title">a</h2>
+					<p class="lp-sum">a</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=50,126"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">备孕夫妻要注意 7个错误要远离</h2>
+					<p class="lp-sum">　误区1：夫妻还年轻，等条件成熟再要宝宝
+  
+ 
+   &nbsp;
+  
+ </p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=50,125"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">珠海市单独二胎最新政策</h2>
+					<p class="lp-sum">　将珠海市“双方或一方为珠海市户籍且有一方为独生子女、双方合计已生育一个子女的夫</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=50,124"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">厦门市单独二胎最新政策</h2>
+					<p class="lp-sum">省十二届人大常委会第八次会议表决通过关于修改《福建省人口与计划生育条例》的决定，</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=50,123"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">准妈妈为什么爱发脾气？</h2>
+					<p class="lp-sum">　怀了胎宝宝，这本是件开心的事，可孕妈咪突如其来的暴躁脾气让一家人都措手不及。其</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=50,122"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">备孕二个月 成功好孕经验分享</h2>
+					<p class="lp-sum">我第一次备孕是六月，那个时候不知道要用排卵试纸，就是光靠计算排卵期安排功课，结果</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=50,121"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">准爸妈孕前准备工作 受孕倒计时12...</h2>
+					<p class="lp-sum">　受孕倒计时12个月&#x2014;&#x2014;孕前全面身体检查
+  
+ 
+</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=50,120"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">准爸妈孕前准备工作 受孕倒计时11...</h2>
+					<p class="lp-sum">　受孕倒计时11个月&#x2014;&#x2014;乙肝疫苗
+  
+ 
+   &</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=50,119"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">日常饮食均衡</h2>
+					<p class="lp-sum">怀孕前的准备工作1：补充叶酸
+  
+ 
+   &nbsp;
+  
+ 
+   　　</p></a></li>
+		</ul>
+	</div>
+	<div class="th_title">
+		<a href="/static/m/nav.html">查看更多</a>
+	</div>
+	<script type="text/javascript">
+		window.onload = function() {
+			var mySwiper1 = new Swiper('#header', {
+				freeMode : true,
+				slidesPerView : 'auto',
+			});
+			var mySwiper2 = new Swiper('#banner', {
+				autoplay : 5000,
+				visibilityFullFit : true,
+				loop : true,
+				pagination : '.pagination',
+			});
+
+			var tabsSwiper = new Swiper('#tabs-container', {
+				speed : 500,
+				onSlideChangeStart : function() {
+					$(".tabs .active").removeClass('active')
+					$(".tabs a").eq(tabsSwiper.activeIndex).addClass('active')
+				}
+			})
+			$(".tabs a").on('touchstart mousedown', function(e) {
+				e.preventDefault()
+				$(".tabs .active").removeClass('active')
+				$(this).addClass('active')
+				tabsSwiper.slideTo($(this).index())
+			})
+			$(".tabs a").click(function(e) {
+				e.preventDefault()
+			})
+			
+			$("#cnzz_stat_icon_1254920361").hide();
+		}
+	</script>
+	
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>
+	
+</body>
+</html>

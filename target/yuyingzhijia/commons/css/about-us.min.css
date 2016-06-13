@@ -1,0 +1,505 @@
+body {
+	margin: 0px; padding: 0px; font-weight: normal;
+}
+div {
+	margin: 0px; padding: 0px; font-weight: normal;
+}
+ul {
+	margin: 0px; padding: 0px; font-weight: normal;
+}
+li {
+	margin: 0px; padding: 0px; font-weight: normal;
+}
+p {
+	margin: 0px; padding: 0px; font-weight: normal;
+}
+dl {
+	margin: 0px; padding: 0px; font-weight: normal;
+}
+dt {
+	margin: 0px; padding: 0px; font-weight: normal;
+}
+dd {
+	margin: 0px; padding: 0px; font-weight: normal;
+}
+body {
+	color: rgb(51, 51, 51); font-family: "MicroSoft YaHei","verdana","Î¢ÈíÑÅºÚ"; font-size: 16px; background-color: rgb(230, 230, 230);
+}
+ul {
+	list-style: none;
+}
+li {
+	list-style: none;
+}
+a:link {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+a:visited {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+a:hover {
+	color: red; text-decoration: underline;
+}
+span {
+	margin: 0px; padding: 0px;
+}
+img {
+	border: 0px currentColor; border-image: none;
+}
+.clearfix::after {
+	clear: both; display: table; content: " ";
+}
+.clearfix {
+	
+}
+.bg-img {
+	background: url("images/bg.jpg") no-repeat right bottom;
+}
+.main {
+	margin: 0px auto; width: 1110px;
+}
+.navigation {
+	padding: 22px 0px 18px; border: 1px solid rgb(238, 238, 238); border-image: none; width: 168px; height: auto; background-color: rgb(255, 255, 255);
+}
+.nav-abs {
+	position: absolute;
+}
+.nav-fixed {
+	top: 0px; position: fixed;
+}
+.navigation li {
+	width: 168px; height: 34px; line-height: 34px; cursor: pointer;
+}
+.navigation li em {
+	background: url("images/icons.png") no-repeat -272px -59px; top: 0px; width: 8px; height: 15px; right: -63px; display: none; position: relative; _background: url(images/icons-8bit.png) -272px -59px no-repeat; _top: 4px;
+}
+.navigation li.pe em {
+	right: -49px; _top: 4px;
+}
+.navigation li.as em {
+	right: -26px; _top: 4px;
+}
+.navigation li.cur {
+	height: auto; font-weight: bold; background-color: rgb(255, 118, 2);
+}
+.navigation li.cur a:link {
+	color: rgb(255, 255, 255);
+}
+.navigation li.cur a:visited {
+	color: rgb(255, 255, 255);
+}
+.navigation li.cur em {
+	display: inline-block;
+}
+.navigation li i {
+	background: url("images/icons.png") no-repeat; vertical-align: middle; display: inline-block; _background: url(images/icons-8bit.png) no-repeat; _top: 5px; _position: relative;
+}
+.navigation li.cur i.list-icon {
+	background-position: -271px -16px; width: 9px; height: 6px; margin-left: 28px; _top: 10px; _position: relative;
+}
+.navigation li i.aui {
+	background-position: 0px 0px; margin: 0px 7px 0px 19px; width: 14px; height: 12px;
+}
+.navigation li i.bpi {
+	background-position: -41px 0px; margin: 0px 9px 0px 17px; width: 14px; height: 12px;
+}
+.navigation li i.pei {
+	background-position: -89px 0px; margin: 0px 9px 0px 19px; width: 11px; height: 13px;
+}
+.navigation li i.asi {
+	background-position: -126px 0px; margin: 0px 8px 0px 17px; width: 16px; height: 12px;
+}
+.navigation li i.cui {
+	background-position: -174px 0px; margin: 0px 6px 0px 18px; width: 16px; height: 10px;
+}
+.navigation li i.hpi {
+	background-position: 0px -38px; margin: 0px 7px 0px 19px; width: 14px; height: 12px;
+}
+.navigation li i.tosi {
+	background-position: -44px -40px; margin: 0px 10px 0px 17px; width: 13px; height: 10px;
+}
+.navigation li i.ppi {
+	background-position: -88px -37px; margin: 0px 10px 0px 18px; width: 12px; height: 13px;
+}
+.navigation li i.mri {
+	background-position: -127px -38px; margin: 0px 8px 0px 18px; width: 14px; height: 12px;
+}
+.navigation li i.whi {
+	background-position: -174px -34px; margin: 0px 8px 0px 17px; width: 16px; height: 16px;
+}
+.navigation li i.smi {
+	background-position: -234px 0px; margin: 0px 10px 0px 19px; width: 12px; height: 16px;
+}
+.navigation li i.fli {
+	background-position: -233px -36px; margin: 0px 7px 0px 19px; width: 14px; height: 14px;
+}
+.navigation li.cur i.aui {
+	background-position: 0px -80px;
+}
+.navigation li.cur.cur.cur.cur.cur i.bpi {
+	background-position: -41px -80px;
+}
+.navigation li.cur.cur.cur.cur.cur i.pei {
+	background-position: -89px -80px;
+}
+.navigation li.cur.cur.cur.cur.cur i.asi {
+	background-position: -126px -80px;
+}
+.navigation li.cur.cur.cur.cur i.cui {
+	background-position: -174px -80px;
+}
+.navigation li.cur.cur.cur.cur i.hpi {
+	background-position: 0px -119px;
+}
+.navigation li.cur.cur.cur i.tosi {
+	background-position: -44px -120px;
+}
+.navigation li.cur.cur.cur i.ppi {
+	background-position: -88px -117px;
+}
+.navigation li.cur.cur i.mri {
+	background-position: -127px -118px;
+}
+.navigation li.cur.cur i.whi {
+	background-position: -174px -114px;
+}
+.navigation li.cur i.smi {
+	background-position: -234px -80px;
+}
+.navigation li.cur i.fli {
+	background-position: -233px -116px;
+}
+.navigation li .asi-sub-list {
+	padding: 15px 0px 22px 30px; font-size: 14px; background-color: rgb(255, 255, 255);
+}
+.navigation li .asi-sub-list a:link {
+	color: rgb(0, 0, 0);
+}
+.navigation li .asi-sub-list a:visited {
+	color: rgb(0, 0, 0);
+}
+.navigation li .asi-sub-list li.on a {
+	font-weight: bold;
+}
+.navigation .asi-sub-list li {
+	width: 139px; height: 34px; color: rgb(51, 51, 51); line-height: 34px;
+}
+.navigation .asi-sub-list li i {
+	background-position: -275px 0px; width: 5px; height: 5px; margin-right: 8px;
+}
+.navigation .asi-sub-list li.on i {
+	background-position: -261px 0px;
+}
+.content {
+	padding: 50px 66px 40px; border: 1px solid rgb(238, 238, 238); border-image: none; auto; margin-top: 31px; margin-left: 190px; z-index: 10; min-height: 358px; background-color: rgb(255, 255, 255);
+}
+.content .orange-block {
+	width: 8px; height: 31px; margin-right: 15px; vertical-align: bottom; display: inline-block; background-color: rgb(255, 118, 2);
+}
+.content p {
+	line-height: 30px; margin-bottom: 28px;
+}
+.intro-nav {
+	margin: 16px 0px 34px 30px;
+}
+.intro-nav li {
+	list-style: square; line-height: 30px; font-size: 12px;
+}
+.intro-nav a {
+	color: rgb(40, 153, 238); font-size: 16px;
+}
+.intro-nav a:hover {
+	text-decoration: underline;
+}
+.subb-title {
+	background: rgb(239, 239, 239); height: 36px; color: rgb(255, 118, 2); line-height: 36px; margin-bottom: 12px;
+}
+.subb-title span {
+	padding-left: 9px; margin-left: 9px; border-left-color: rgb(255, 118, 2); border-left-width: 3px; border-left-style: solid;
+}
+.app-intro-tabs {
+	height: 34px; border-bottom-color: rgb(186, 186, 186); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.app-intro-tabs span {
+	background: rgb(239, 239, 239); width: 157px; height: 34px; text-align: center; line-height: 34px; margin-right: 2px; float: left; cursor: context-menu; _display: inline;
+}
+.app-intro-tabs .lst {
+	margin-right: 0px;
+}
+.app-intro-tabs span.cur {
+	border-width: 1px; border-style: solid; border-color: rgb(186, 186, 186) rgb(186, 186, 186) rgb(255, 255, 255); border-image: none;
+}
+.app-intro-box {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(186, 186, 186) rgb(186, 186, 186); padding: 22px; border-image: none; line-height: 30px; margin-bottom: 34px;
+}
+.app-intro-slogan {
+	margin-bottom: 12px;
+}
+.app-intro-slogan img {
+	margin-right: 15px; float: left; _display: inline;
+}
+.oc-content {
+	margin: 0px auto; width: 640px;
+}
+.af-content {
+	margin-left: 66px;
+}
+.content .title {
+	height: 31px; line-height: 31px; font-size: 28px; margin-bottom: 40px;
+}
+.oc-content ul {
+	margin-top: 40px;
+}
+.oc-content li {
+	margin: 0px 61px 20px 0px; float: left; cursor: pointer; _display: inline;
+}
+.oc-content li img {
+	border: 1px solid rgb(238, 238, 238); border-image: none; width: 148px; height: 62px;
+}
+.af-content ul {
+	margin-top: 33px;
+}
+.af-content li {
+	margin: 0px 27px 30px 0px; float: left; _display: inline;
+}
+.af-content li .img-box {
+	border: 1px solid rgb(229, 228, 228); border-image: none; width: 194px; height: 194px;
+}
+.af-content li img {
+	margin: 17px auto; display: block;
+}
+.af-content li .img-title {
+	text-align: center; line-height: 36px; font-size: 14px; display: block;
+}
+.af-content li .other-page {
+	text-align: center; font-size: 12px;
+}
+.af-content li .split-line {
+	background: url("images/af-split.jpg") no-repeat; margin: 0px 4px 0px 5px; width: 2px; height: 13px; vertical-align: bottom; display: inline-block;
+}
+.sc-content li {
+	padding: 30px 0px; height: 143px; border-bottom-color: rgb(202, 202, 202); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.sc-content li img {
+	width: 205px; height: 143px; margin-right: 18px; float: left;
+}
+.sc-content li .case-title {
+	height: 28px; line-height: 28px; font-weight: bold;
+}
+.sc-content li .case-subject {
+	height: 34px; line-height: 34px; margin-bottom: 3px;
+}
+.sc-content li p {
+	line-height: 24px; font-size: 14px;
+}
+.event-subtitle {
+	background: rgb(245, 245, 245); height: 40px; line-height: 40px; padding-left: 20px; font-size: 20px; font-weight: bold; margin-bottom: 28px;
+}
+.pe-content .time-axis {
+	margin: 48px 0px 0px 32px; width: 600px; height: 589px; border-left-color: rgb(248, 248, 248); border-left-width: 2px; border-left-style: solid;
+}
+.pe-content .year {
+	color: rgb(51, 51, 51); font-size: 20px; font-weight: bold;
+}
+.pe-content .year-2014 {
+	margin-top: 40px;
+}
+.pe-content i {
+	background: url("images/icons.png") no-repeat; vertical-align: baseline; display: inline-block; z-index: 20; _background: url(images/icons-8bit.png) no-repeat;
+}
+.pe-content .year i {
+	background-position: -301px 0px; width: 19px; height: 19px; margin-right: 17px; _top: -20px; _position: relative; _left: -1px;
+}
+.pe-content ul {
+	margin: 10px 0px 24px;
+}
+.pe-content li {
+	line-height: 22px; font-size: 14px; margin-bottom: 10px;
+}
+.pe-content li i {
+	background-position: -309px -64px; margin: 0px 17px 0px 5px; width: 11px; height: 11px; _top: -20px; _position: relative; _left: 0;
+}
+.pe-content li.cur i {
+	background-position: -309px -35px;
+}
+.cu-content {
+	line-height: 28px; font-size: 14px;
+}
+.cu-content .contact-method {
+	margin: 27px 0px 22px;
+}
+.cu-content li {
+	padding: 23px 0px; width: 258px; margin-right: 60px; border-top-color: rgb(202, 202, 202); border-top-width: 1px; border-top-style: dashed; float: left;
+}
+.cu-content li .other-name {
+	font-size: 16px; font-weight: bold;
+}
+.hp-content {
+	width: 630px; font-size: 14px; margin-left: 66px;
+}
+.hp-content .cv-send {
+	margin: 28px 0px 24px;
+}
+.hp-content .cv-send a:visited {
+	color: rgb(67, 143, 174);
+}
+.hp-content .cv-send a:link {
+	color: rgb(67, 143, 174);
+}
+.hp-content .job-item {
+	padding-bottom: 18px; margin-top: 40px;
+}
+.hp-content .job-item .job-name {
+	font-size: 16px; font-weight: bold; margin-bottom: 13px;
+}
+.hp-content .job-item .title {
+	font-size: 14px; font-weight: bold;
+}
+.hp-content .job-item .job-post {
+	margin-top: 20px;
+}
+.hp-content .bottom-line {
+	border-bottom-color: rgb(202, 202, 202); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.hp-content li {
+	width: 82px; height: 33px; text-align: center; line-height: 33px; font-size: 16px; margin-right: 3px; float: left; cursor: pointer; background-color: rgb(239, 239, 239);
+}
+.hp-content li.lw {
+	width: 114px;
+}
+.hp-content li.cur {
+	border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(186, 186, 186) rgb(186, 186, 186) currentColor; border-image: none; top: -1px; height: 36px; color: rgb(255, 118, 2); position: relative; z-index: 20; background-color: rgb(255, 255, 255);
+}
+.hp-content .tab-ul {
+	height: 35px; border-bottom-color: rgb(186, 186, 186); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.fl-content {
+	line-height: 24px; font-size: 14px;
+}
+.fl-content .sub-title {
+	margin: 30px 0px 23px; font-size: 16px; font-weight: bold;
+}
+.fl-content .web-corp {
+	margin-top: 44px;
+}
+.fl-content .web-corp-bd {
+	padding-bottom: 23px; border-bottom-color: rgb(202, 202, 202); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.fl-content .web-logo {
+	margin: 5px 0px;
+}
+.fl-content .logo-img {
+	vertical-align: middle;
+}
+.fl-content li img {
+	margin-right: 14px;
+}
+.fl-content li img.mr0 {
+	margin-right: 0px;
+}
+.fl-content li {
+	margin-bottom: 10px;
+}
+.fl-content ul.logo-link {
+	padding-bottom: 20px; border-bottom-color: rgb(202, 202, 202); border-bottom-width: 1px; border-bottom-style: dashed; display: block;
+}
+.fl-content ul.word-link li {
+	width: 100px; margin-right: 34px; float: left;
+}
+.fl-content ul.word-link li.mr0 {
+	margin-right: 0px;
+}
+.weihu {
+	margin: 118px auto 0px; display: block;
+}
+.footer {
+	color: rgb(136, 136, 136); font-size: 12px; margin-top: 30px;
+}
+.footer a:link {
+	color: rgb(136, 136, 136);
+}
+.footer a:visited {
+	color: rgb(136, 136, 136);
+}
+.footer .detail-wrap {
+	background-color: rgb(244, 243, 242);
+}
+.footer .detail {
+	margin: 0px auto; padding: 12px 20px; width: 896px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: dashed; position: relative;
+}
+.footer .ci123 {
+	background: url("images/ci123.png") no-repeat; left: 375px; top: 20px; width: 160px; height: 111px; display: block; position: absolute;
+}
+.footer .about {
+	width: 75px;
+}
+.footer .care {
+	width: 75px;
+}
+.footer .fl {
+	margin-right: 66px; float: left; display: inline;
+}
+.footer .fr {
+	margin-left: 50px; float: right; display: inline;
+}
+.footer dl {
+	text-align: left;
+}
+.footer dt {
+	height: 22px; color: rgb(85, 85, 85); font-weight: bold;
+}
+.footer dd {
+	line-height: 24px;
+}
+.footer .help {
+	width: 53px;
+}
+.footer .commuincation {
+	width: 53px;
+}
+.footer .else {
+	width: 53px;
+}
+.footer .phone {
+	width: 108px;
+}
+.footer .care dd {
+	background: url("images/footer.png") no-repeat; padding-left: 22px;
+}
+.footer .care .sina {
+	background-position: 0px -113px;
+}
+.footer .care .qq {
+	background-position: 0px -145px;
+}
+.footer .care .qzone {
+	background-position: 0px -180px;
+}
+.footer .phone dd {
+	background: url("images/footer.png") no-repeat; padding-left: 25px;
+}
+.footer .phone .ios {
+	background-position: 0px 2px;
+}
+.footer .phone .android {
+	background-position: 0px -36px;
+}
+.footer .phone .wap {
+	background-position: 0px -72px;
+}
+.friendlink {
+	margin: 12px auto; width: 926px; text-align: center;
+}
+.friendlink p {
+	margin: 0px auto; width: 910px; text-align: left; color: rgb(121, 121, 121); line-height: 24px;
+}
+.friendlink p a {
+	margin: 0px 5px;
+}
+.friendlink .banquan {
+	text-align: center; color: rgb(153, 153, 153);
+}
+
+.as-content p{
+	text-indent:2em;
+}

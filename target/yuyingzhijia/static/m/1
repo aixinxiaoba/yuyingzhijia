@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>育婴之家网</title>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta http-equiv="Cache-control" content="no-cache" />
+<meta name="format-detection" content="telephone=no">
+<meta name="applicable-device" content="mobile">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" href="/commons/css/mobile_ch.css">
+<LINK rel="stylesheet" href="/commons/css/swiper.min.css"  type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<script src="/commons/js/swiper.min.js"></script>
+<style type="text/css">
+.tabs a {
+	font-size: 1em;
+	font-weight: normal;
+	text-align: center;
+	float: left;
+	
+			width: 
