@@ -1,0 +1,529 @@
+* {
+	list-style: none; margin: 0px; padding: 0px;
+}
+li {
+	list-style: none;
+}
+body {
+	font: 12px/normal Verdana, Arial, Tahoma;
+	background: url("../images/bg.gif") repeat-x;  text-align: left; color: rgb(68, 68, 68); font-size-adjust: none; font-stretch: normal;
+}
+a {
+	color: rgb(68, 68, 68); text-decoration: none;
+}
+img {
+	border: currentColor; border-image: none;
+}
+input {
+	font: 12px/normal Verdana, Arial, Tahoma; vertical-align: middle; font-size-adjust: none; font-stretch: normal;
+}
+select {
+	font: 12px/normal Verdana, Arial, Tahoma; vertical-align: middle; font-size-adjust: none; font-stretch: normal;
+}
+button {
+	font: 12px/normal Verdana, Arial, Tahoma; vertical-align: middle; font-size-adjust: none; font-stretch: normal;
+}
+.line {
+	margin-left: 18px;
+}
+.search-keyword {
+	background: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); border-image: none; width: 180px; height: 20px; color: rgb(68, 68, 68); line-height: 20px; padding-left: 6px;
+}
+.search-submit {
+	background: url("../images/search-bt.gif") no-repeat; border: 0px currentColor; border-image: none; width: 68px; height: 22px; color: rgb(250, 250, 250); font-size: 0px; margin-left: 2px; cursor: pointer;
+}
+.search-option {
+	border: 1px solid rgb(186, 218, 161); border-image: none; height: 22px; margin-right: 3px; margin-left: 3px;
+}
+#no-border {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.box-top {
+	padding-top: 10px;
+}
+.box-top2 {
+	padding-top: 20px;
+}
+.lanren {
+	margin: 0px auto; width: 1110px; height: auto; overflow: hidden;
+}
+.lanren .list {
+	width: 355px; height: auto; overflow: hidden; float: left;
+}
+.lanren .content2 {
+	padding: 0px 8px; width: 339px; height: auto; overflow: hidden; margin-top: 15px; float: left;
+}
+.lanren .css3 {
+	border-width: 2px 1px 1px; border-style: solid; border-color: #FF8179 rgb(223, 223, 223) rgb(223, 223, 223); padding: 5px; width: 348px; height: auto; float: right;
+}
+.lanren .top {
+	width: 100%; height: 26px; line-height: 26px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; float: left;
+}
+.lanren .top span {
+	height: 26px; line-height: 26px; display: block;
+}
+.lanren .top span.l {
+	width: 150px; text-align: left; /*color: rgb(11, 114, 164)*/color: #ff7484; padding-left: 8px; font-size: 14px; font-weight: bold; float: left;
+}
+.lanren .top span.r {
+	text-align: right; padding-right: 8px; font-size: 12px; float: right;
+}
+.lanren .box {
+	width: 100%; height: auto; padding-top: 5px; padding-left: 0px; float: left;
+}
+.lanren .box li {
+	transition:0.2s; height: 22px; text-align: left; line-height: 22px; padding-right: 1%; padding-left: 5%; -moz-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -o-transition: all 0.2s ease;
+}
+.lanren .box li a {
+	transition:0.2s; width: 280px; height: 24px; color: rgb(68, 68, 68); line-height: 24px; overflow: hidden; text-decoration: none; float: left; display: block; white-space: nowrap; -ms-text-overflow: ellipsis; -moz-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -o-transition: all 0.2s ease; -o-text-overflow: ellipsis;
+}
+.lanren .box li em {
+	color: rgb(153, 153, 153); font-family: arial; font-size: 11px; float: right; display: block;
+}
+.lanren .left {
+	width: 728px; height: auto; float: left;
+}
+.lanren .left .ads {
+	background: rgb(204, 204, 204); width: 728px; height: 90px; margin-bottom: 6px;
+}
+.lanren .right {
+	background: rgb(245, 245, 245); padding: 5px; width: 350px; height: auto; float: right;
+}
+.lanren .right .column {
+	width: 100%; height: auto; overflow: hidden;
+}
+.lanren .right .column a {
+	background: rgb(208, 212, 219); margin: 8px 3px 0px 5px; width: 78px; height: 22px; text-align: center; color: rgb(28, 58, 71); line-height: 22px; border-right-color: rgb(136, 139, 146); border-bottom-color: rgb(136, 139, 146); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; float: left; display: block;
+}
+.lanren .right .column a:hover {
+	background: rgb(99, 104, 113); color: rgb(255, 255, 255); text-decoration: none;
+}
+.lanren .texiao {
+	/*border: 1px solid rgb(223, 222, 222);*/ border-image: none; width: 726px; height: auto; overflow: hidden;
+	border-width: 2px 1px 1px; border-style: solid; border-color: #38B8D9 rgb(223, 223, 223) rgb(223, 223, 223);
+	
+}
+.lanren .texiao .head {
+	background: rgb(238, 238, 238); padding: 0px 10px; width: 706px; height: 33px; line-height: 33px; border-bottom-color: rgb(223, 222, 222); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.lanren .texiao .head a.logo {
+	height: 20px; color: rgb(11, 114, 164); line-height: 20px; font-size: 14px; font-weight: bold; margin-top: 6px; float: left; display: block;
+}
+.lanren .texiao .head a.column {
+	background: rgb(224, 234, 241); padding: 0px 5px; height: 20px; color: rgb(62, 109, 142); line-height: 20px; margin-top: 7px; margin-left: 10px; border-right-color: rgb(62, 109, 142); border-bottom-color: rgb(62, 109, 142); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; float: right; display: block;
+}
+.lanren .texiao .head a.column:hover {
+	background: rgb(62, 109, 142); color: rgb(255, 255, 255); text-decoration: none;
+}
+.lanren .texiao .head a.more {
+	width: 40px; height: 20px; text-align: center; line-height: 20px; margin-top: 4px; float: right; display: block;
+}
+.lanren .texiao .container {
+	padding: 0px 12px 10px; width: 702px; height: auto; overflow: hidden;
+}
+.lanren .texiao .content {
+	width: 340px; height: auto; overflow: hidden; padding-top: 12px; float: left;
+}
+.lanren .texiao .content .top {
+	background: url("../images/list2.gif") no-repeat bottom;
+}
+.lanren .texiao .content .top a {
+	color: rgb(136, 136, 136);
+}
+.lanren .texiao .content .top a:hover {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+#all li {
+	background: url("../images/new_dot.gif") no-repeat 6px; height: 25px; line-height: 24px; padding-right: 2%;
+}
+#all li:hover {
+	background: url("../images/new_dot.gif") no-repeat 6px rgb(242, 242, 242);
+}
+#all2 li {
+	background: url("../images/list.png") no-repeat 6px; height: 24px; line-height: 24px; padding-right: 2%;
+}
+#all2 li:hover {
+	background: url("../images/list.png") no-repeat 6px rgb(242, 242, 242); transition:0.2s; -moz-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -o-transition: all 0.2s ease;
+}
+#all3 li {
+	background: url("../images/ddt.gif") no-repeat 6px; height: 22px; line-height: 22px; padding-right: 2%; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+#all3 li:hover {
+	background: url("../images/l_ico.gif") no-repeat 6px rgb(242, 242, 242); border-top-color: rgb(217, 217, 217); border-bottom-color: rgb(217, 217, 217); border-top-width: 1px; border-bottom-width: 1px; border-top-style: dashed; border-bottom-style: dashed;
+}
+#all4 li {
+	background: url("../images/ddt.gif") no-repeat 6px; height: 25px; line-height: 25px; padding-right: 2%;
+}
+#all4 li:hover {
+	background: url("../images/l_ico.gif") no-repeat 6px rgb(230, 230, 230);
+}
+#all5 li {
+	background: url("../images/new_dot.gif") no-repeat 6px; height: 25px; line-height: 25px; padding-right: 2%;
+}
+#all5 li:hover {
+	background: url("../images/new_dot.gif") no-repeat 6px rgb(237, 237, 237);
+}
+.top_bar {
+	margin: 0px auto; height: 30px; color: rgb(153, 153, 153); line-height: 30px; overflow: hidden;
+}
+.top_bar span {
+	height: 27px; text-align: left; line-height: 27px; float: left; display: block;
+}
+.top_bar .baidushare {
+	float: right;
+}
+.header {
+	margin: 0px auto; height: auto; overflow: hidden;
+}
+.header .logo {
+	padding-top: 20px; padding-left: 5px; float: left;
+}
+.header .ads {
+	padding: 15px 0px 8px; float: right;
+}
+#menu {
+	background: rgb(99, 104, 113); margin: 0px auto; width: 1110px; height: 33px; line-height: 33px; overflow: hidden;
+}
+#menu ul li {
+	float: left;
+}
+#menu ul li a {
+	padding: 0px 13px; height: 33px; color: rgb(255, 255, 255); line-height: 33px; display: block;
+}
+#menu ul li a:hover {
+	background: rgb(0, 0, 0); transition:0.2s; color: rgb(255, 255, 255); text-decoration: none; -moz-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -o-transition: all 0.2s ease;
+}
+.search {
+	margin: 0px auto; height: 35px; line-height: 35px; overflow: hidden; 
+	/**border-bottom-color: rgb(238, 238, 238); 
+	border-bottom-width: 1px; 
+	border-bottom-style: solid;*/
+}
+.search .ads {
+	padding-left: 5px; float: left;
+}
+.search .ads a {
+	color: rgb(51, 51, 51); text-decoration: underline; margin-right: 18px; float: left; display: block;
+}
+.search .ads a:hover {
+	text-decoration: underline;
+}
+.search .s {
+	padding-top: 5px; float: right;
+}
+.search .s a {
+	color: rgb(51, 51, 51); text-decoration: underline; margin-right: 15px; float: left; display: block;
+}
+.lanren .pleft {
+	width: 830px; overflow: hidden; padding-top: 3px; float: left;
+}
+.lanren .right {
+	width: 250px; overflow: hidden; float: right;
+}
+.viewbox .title {
+	height: auto; text-align: center; overflow: hidden; padding-top: 25px; padding-bottom: 10px;
+}
+.viewbox .infolist {
+	background: url("../images/b.jpg") no-repeat center; padding: 10px; width: 396px; height: 165px; text-align: left; margin-top: 40px; float: left;
+}
+
+.viewbox .content1 {
+	font:16px/20 Verdana, Arial, Helvetica, sans-serif, "楷体";
+	font-family:"Microsoft YaHei", Verdana, sans-serif, "SimSun";
+	font-size:12.5pt;
+	line-height:1.6;
+	background:;/*border:1px solid green;*/ padding: 5px; width: 98%; /*; color: rgb(51, 51, 51)*/line-height: 24px; /*border-left-color: rgb(64, 170, 83); border-left-width: 4px; border-left-style: solid;float: left;*/ 
+}
+
+/* 设置阅读界面 p元素需要空格 text-indent:2em; */
+.viewbox .content1 p{
+	/*text-indent:2em;*/
+}
+
+.viewbox .handle {
+	height: auto; overflow: hidden; padding-top: 12px; clear: both;
+}
+.viewbox .handle .digg .digg_num {
+	width: 56px; height: 34px; text-align: center; color: rgb(107, 145, 105); line-height: 34px; overflow: hidden; font-size: 20px;
+}
+.viewbox .handle .digg .digg_act {
+	width: 56px; height: 22px; line-height: 23px; overflow: hidden;
+}
+.viewbox .handle .digg .digg_act a {
+	color: rgb(102, 102, 102); margin-left: 11px; float: left;
+}
+.viewbox .handle .context {
+	float: left;
+}
+.viewbox .handle .context ul li {
+	color: rgb(136, 136, 136); line-height: 29px;
+}
+.viewbox .picview {
+	width: 340px; padding-left: 14px; float: right;
+}
+.viewbox .title h2 {
+	color: rgb(43, 43, 43); font-size: 24px;
+}
+.viewbox .title a {
+	color: rgb(102, 102, 102);
+}
+.viewbox .infolist img {
+	background: url("http://www.lanrenzhijia.com/demo/../images/loading.gif") no-repeat center;
+}
+.lanren .pleft .listbox img {
+	background: url("http://www.lanrenzhijia.com/demo/../images/loading.gif") no-repeat center; width: 396px; height: 165px;
+}
+.lanren .pleft .listbox img:hover {
+	transition:0.2s linear; opacity: 0.7; -moz-transition: all 0.2s linear; -webkit-transition: all 0.2s linear; -o-transition: all 0.2s linear;
+}
+.e2 li a.preview img {
+	background: url("http://www.lanrenzhijia.com/demo/../images/loading.gif") no-repeat center;
+}
+.f12 {
+	margin: 20px 0px; width: 100%; height: 24px; line-height: 24px; 
+	/*
+	border-top-color: rgb(221, 221, 221); 
+	border-bottom-color: rgb(221, 221, 221); 
+	border-top-width: 1px; 
+	border-bottom-width: 1px; 
+	border-top-style: dashed;
+	border-bottom-style: dashed; 
+	*/
+	float: left;
+}
+.f12 span {
+	height: 24px; color: rgb(102, 102, 102); line-height: 24px; display: block;
+}
+.f12 .l {
+	float: left;
+}
+.f12 .r {
+	float: right;
+}
+.viewbox .handle {
+	height: auto; overflow: hidden; padding-top: 12px; clear: both;
+}
+.viewbox .handle .context {
+	float: left;
+}
+.viewbox .actbox {
+	width: 260px; text-align: center; padding-right: 10px; float: right;
+}
+.viewbox .handle .context ul li {
+	color: rgb(136, 136, 136); line-height: 29px;
+}
+.viewbox .downurllist {
+	width: 100%; overflow: hidden; clear: both;
+}
+.viewbox .actbox ul li {
+	background: none; display: inline;
+}
+.viewbox .downurllist li {
+	height: 30px; overflow: hidden; margin-top: 10px; float: left;
+}
+.viewbox .actbox ul li a {
+	background: rgb(111, 186, 52); text-align: center; color: rgb(255, 255, 255);
+}
+.viewbox .downurllist li a {
+	width: 102px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-size: 14px; font-weight: bold; margin-right: 10px; float: left; display: block;
+}
+.adam a {
+	background: rgb(208, 212, 219); padding: 0px 10px; height: 26px; text-align: center; color: rgb(28, 58, 71); line-height: 26px; text-decoration: none; margin-top: 7px; margin-right: 8px; border-right-color: rgb(136, 139, 146); border-bottom-color: rgb(136, 139, 146); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; float: left; display: block;
+}
+.adam a:hover {
+	background: rgb(28, 58, 71); color: rgb(255, 255, 255);
+}
+.adam a.thisclass {
+	background: rgb(28, 58, 71); color: rgb(255, 255, 255);
+}
+.adam a #thisclass {
+	background: rgb(28, 58, 71); color: rgb(255, 255, 255);
+}
+.e2 {
+	float: left;
+}
+.e2 li {
+	width: 400px; color: rgb(170, 170, 170); overflow: hidden; padding-bottom: 10px; margin-right: 15px; float: left;
+}
+.newyear span.info {
+	padding: 5px 0px; float: right;
+}
+.e2 li span.left {
+	float: left; display: block;
+}
+.e2 li p.intro span.info {
+	width: 70px; text-align: right; float: right; display: block;
+}
+.e2 li b a {
+	color: rgb(85, 85, 85);
+}
+.e2 li a.preview {
+	border: 1px solid rgb(229, 229, 229); border-image: none; margin-bottom: 2px; float: left; display: block;
+}
+.e2 li a.preview:hover {
+	border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+.e2 li a.title {
+	width: 345px; height: 30px; color: rgb(68, 68, 68); line-height: 30px; overflow: hidden; font-size: 14px; float: left; display: block; white-space: nowrap; -ms-text-overflow: ellipsis; -o-text-overflow: ellipsis;
+}
+.e2 li a.title b {
+	font-weight: normal;
+}
+.e2 span.info small {
+	color: rgb(170, 170, 170); font-size: 12px; margin-left: 3px;
+}
+.e2 span.info a {
+	color: rgb(102, 153, 0);
+}
+.e2 p.intro {
+	width: 96%; color: rgb(119, 105, 85); line-height: 180%; padding-right: 10px; padding-left: 10px; margin-left: 5px; float: left; display: block;
+}
+.lanren .pleft .listbox {
+	width: 100%; float: left;
+}
+.lanren .pleft .dede_pages {
+	width: 100%; float: left;
+}
+.lanren .pleft .dede_pages .pagelist {
+	padding: 10px 18px 12px 16px; font-family: Tahoma; float: right;
+}
+.dede_pages ul li.thisclass {
+	background: rgb(165, 184, 40); color: rgb(255, 255, 255);
+}
+.dede_pages ul li.thisclass a {
+	background: rgb(165, 184, 40); color: rgb(255, 255, 255);
+}
+.pagebox ul li.thisclass a:hover {
+	background: rgb(165, 184, 40); color: rgb(255, 255, 255);
+}
+.dede_pages ul li.thisclass {
+	background: rgb(242, 242, 242); border-width: 1px; border-style: solid; border-color: rgb(221, 221, 221) rgb(153, 153, 153) rgb(153, 153, 153) rgb(221, 221, 221); padding: 0px 6px; color: rgb(102, 153, 0);
+}
+.dede_pages ul li #thisclass {
+	background: rgb(165, 184, 40); color: rgb(255, 255, 255);
+}
+.dede_pages ul li #thisclass a {
+	background: rgb(165, 184, 40); color: rgb(255, 255, 255);
+}
+.pagebox ul li #thisclass a:hover {
+	background: rgb(165, 184, 40); color: rgb(255, 255, 255);
+}
+.dede_pages ul li #thisclass {
+	background: rgb(102, 153, 0); padding: 0px 10px; border: 1px solid rgb(102, 153, 0); border-image: none; text-align: center; color: rgb(255, 255, 255);
+}
+.lanren .pleft .dede_pages .pagelist li {
+	background: rgb(242, 242, 242); border-width: 1px; border-style: solid; border-color: rgb(221, 221, 221) rgb(153, 153, 153) rgb(153, 153, 153) rgb(221, 221, 221); height: 25px; line-height: 25px; margin-right: 3px; float: left;
+}
+.lanren .pleft .dede_pages .pagelist li:hover {
+	background: rgb(242, 242, 242); border-width: 1px; border-style: solid; border-color: rgb(153, 153, 153) rgb(221, 221, 221) rgb(221, 221, 221) rgb(153, 153, 153);
+}
+.lanren .pleft .dede_pages a {
+	padding: 0px 10px; height: 25px; text-align: center; color: rgb(85, 85, 85); line-height: 25px; display: block;
+}
+.lanren .pleft .dede_pages a:hover {
+	color: rgb(102, 153, 0); text-decoration: none;
+}
+.dede_pages .pageinfo {
+	color: rgb(153, 153, 153); line-height: 22px;
+}
+.dede_pages .pageinfo strong {
+	margin: 0px 2px; color: rgb(85, 85, 85); font-weight: normal;
+}
+.list-js {
+	width: 250px; height: auto; overflow: hidden; float: right;
+}
+.list-js .nav-sub {
+	width: 100%; height: auto; overflow: hidden; float: left;
+}
+.list-js .nav-sub a {
+	background: rgb(208, 212, 219); padding: 0px 10px; height: 26px; text-align: center; color: rgb(28, 58, 71); line-height: 26px; text-decoration: none; margin-top: 7px; margin-right: 10px; border-right-color: rgb(136, 139, 146); border-bottom-color: rgb(136, 139, 146); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; float: left; display: block;
+}
+.list-js .nav-sub a:hover {
+	background: rgb(28, 58, 71); color: rgb(255, 255, 255);
+}
+.list-js .nav-sub a.thisclass {
+	background: rgb(28, 58, 71); color: rgb(255, 255, 255);
+}
+.list-js .ads_right {
+	padding: 10px 0px; width: 100%; height: auto; float: left;
+}
+.list-js .alipay {
+	width: 100%; text-align: center; line-height: 220%; overflow: hidden; font-family: "微软雅黑"; font-size: 14px; float: left;
+}
+.list-js .hot {
+	background: url("../images/hot_bg.jpg") no-repeat rgb(238, 238, 238); width: 100%; height: auto; overflow: hidden; padding-bottom: 4px; float: left;
+}
+.list-js .hot dt {
+	height: 25px; text-align: left; color: rgb(255, 255, 255); line-height: 25px; padding-left: 10px; font-size: 12px; font-weight: bold; margin-bottom: 8px;
+}
+.list-js .hot dd {
+	background: url("../images/ico-2.gif") no-repeat 7px 10px; padding: 0px 4px 0px 18px; height: 25px; line-height: 25px;
+}
+.list-js .hot dd a {
+	color: rgb(88, 88, 88); font-size: 12px; text-decoration: none;
+}
+.list-js .hot dd a:hover {
+	color: rgb(0, 0, 0); text-decoration: underline;
+}
+.links {
+	padding: 10px 0px;
+}
+.links a:hover {
+	color: rgb(0, 0, 0); text-decoration: underline;
+}
+.footer {
+	padding: 10px 0px 15px; text-align: center; border-top-color: rgb(223, 222, 222); border-top-width: 1px; border-top-style: solid;
+}
+
+.comments a {
+    font-size: 14px;
+    background: #ed6d46;
+    color: #fff;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 16px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+.comments a:hover {
+    background: #f45b2c;
+}
+
+.article-guide .t {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 22px;
+    background-color: #c36;
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+    margin-right: 14px;
+}
+
+.article-guide .sj {
+    position: absolute;
+    right: -8px;
+    top: 8px;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    line-height: 0;
+    font-size: 0px;
+    vertical-align: middle;
+    border-left: 4px solid #c36;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 4px solid transparent;
+    _color: #FF3FFF;
+    _filter: chroma(color=#FF3FFF);
+}
+
+.article_content h2 {
+    font-size: 20px;
+    text-align: center;
+}
+

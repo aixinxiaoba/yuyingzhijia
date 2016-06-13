@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>育婴之家网</title>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta http-equiv="Cache-control" content="no-cache" />
+<meta name="format-detection" content="telephone=no">
+<meta name="applicable-device" content="mobile">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" href="/commons/css/mobile_ch.css">
+<LINK rel="stylesheet" href="/commons/css/swiper.min.css"  type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<script src="/commons/js/swiper.min.js"></script>
+<style type="text/css">
+.tabs a {
+	font-size: 1em;
+	font-weight: normal;
+	text-align: center;
+	float: left;
+	
+			width: 25%;
+	height: 38px;
+	line-height: 38px;
+	color: #2a70be;
+}
+
+.tabs a.active {
+	border-top: 2px solid #2a70be;
+	margin-top: -2px;
+	background: #FC6464;
+	background-repeat: no-repeat;
+	
+		-webkit-background-size: 25% 39px;
+	
+	-moz-background-size: 25% 39px;
+	
+	-o-background-size: 25% 39px;
+	
+	background-size: 25% 39px;
+	
+	
+	background-position: left top;
+	color: #fff;
+	filter: alpha(opacity = 50);
+	-moz-opacity: 0.5;
+/* 	opacity: 0.5; */
+	opacity: 0.8;
+}
+
+#e1 a {
+	background: #FC6464;
+	color: #fff;
+	display: inline-block;
+	border-radius: 10px;
+	border: 1px solid #f8f8f8;
+	padding: 2px 7px;
+	line-height: 20px;
+	filter: alpha(opacity = 50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}
+</style>
+</head>
+<body>
+	<header id="header">
+		<div id="top-line"></div>
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<a href="/static/m/index.html">首页</a>
+			</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/yuerzhuanqu">育儿</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/baomazhuanqu">宝妈</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/yunqian">孕前</a>
+						</div>
+				 		<div class="swiper-slide" id='e1'>
+							<a href="/static/m/yunzhong">孕中</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/yunhou">孕后</a>
+						</div>
+		</div>
+	</header>
+	<div id="banner">
+		<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=49,963"
+						target="_blank">
+						<img src="http://y0.ifengimg.com/a/2015_27/e0972bfeba7203c_size27_w500_h354.jpg" alt="准妈妈的待产包">
+					<h2 class="gallerytitle">准妈妈的待产包</h2></a>
+				</div>
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=49,962"
+						target="_blank">
+						<img src="http://y2.ifengimg.com/a/2015_27/13f742df13fc914_size20_w600_h399.jpg" alt="孕期留长发会和胎儿抢营养吗">
+					<h2 class="gallerytitle">孕期留长发会和胎儿抢营养吗</h2></a>
+				</div>
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=49,935"
+						target="_blank">
+						<img src="http://y3.ifengimg.com/a/2015_26/34bcb6a0d2f79e8_size43_w600_h399.jpg" alt="“性别测试杯”网络热卖 验尿测胎儿性别不科学">
+					<h2 class="gallerytitle">“性别测试杯”网络热卖 验尿测胎儿性别不科学</h2></a>
+				</div>
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=49,933"
+						target="_blank">
+						<img src="/d/file/yunchuan/yunqi/2015-06-24/cacfbf137615d674656b4d2d80acb51e.jpg" alt="孕动的秘密：解密孕期运动">
+					<h2 class="gallerytitle">孕动的秘密：解密孕期运动</h2></a>
+				</div>
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=45,721"
+						target="_blank">
+						<img src="/uploadfile/2011/1006/20111006084820674.jpg" alt="交钱就发证 月嫂市场亟需加强监管">
+					<h2 class="gallerytitle">交钱就发证 月嫂市场亟需加强监管</h2></a>
+				</div>
+		</div>
+		<div class="pagination"></div>
+	</div>
+	<div class="tabs">
+					<a href="#" class="active">孕妇保健</a>
+					<a href="#">分娩方式</a>
+					<a href="#">分娩准备</a>
+					<a href="#">孕妇食谱</a>
+					<a href="#">综合</a>
+					<a href="#">生男生女</a>
+					<a href="#">不孕不育</a>
+					<a href="#">孕产服务</a>
+	</div>
+	<div id="tabs-container" class="swiper-container">
+		<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,965"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">怀孕前注意的十大问题</h2>
+									<p class="lp-sum">&nbsp;　　一、及时发现自己怀孕了 　　有些女性盼望自己早一点怀孕，但不知道</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,964"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">打响春季防“敏”保卫战</h2>
+									<p class="lp-sum">&nbsp;　　过敏原——无处不在的威胁 　　花粉过敏是春季过敏中较常见的一种。</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,963"
+									target="_blank">
+										<img src="http://y0.ifengimg.com/a/2015_27/e0972bfeba7203c_size27_w500_h354.jpg" alt="准妈妈的待产包">
+									
+									<h2 class="lp-title">准妈妈的待产包</h2>
+									<p class="lp-sum">&nbsp; 　　准妈妈的待产包(东方IC供图) 　　一般在怀孕最后三个月的时候</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,962"
+									target="_blank">
+										<img src="http://y2.ifengimg.com/a/2015_27/13f742df13fc914_size20_w600_h399.jpg" alt="孕期留长发会和胎儿抢营养吗">
+									
+									<h2 class="lp-title">孕期留长发会和胎儿抢营养吗</h2>
+									<p class="lp-sum">&nbsp; 　　孕期留长发会和胎儿抢营养吗(东方IC供图) 　　核心提示：5月</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,961"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">孕期错误补钙更易便秘</h2>
+									<p class="lp-sum">&nbsp;　　核心提示：钙质吃太多易便秘?对怀孕的妈咪来说，无论是提供胎儿骨骼</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,933"
+									target="_blank">
+										<img src="/d/file/yunchuan/yunqi/2015-06-24/cacfbf137615d674656b4d2d80acb51e.jpg" alt="孕动的秘密：解密孕期运动">
+									
+									<h2 class="lp-title">孕动的秘密：解密孕期运动</h2>
+									<p class="lp-sum">　　在很多孕妈妈心中都存在这样的疑问：孕期该不该运动?孕期要进行什么形式和强度的</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,932"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">女性如何延缓更年期的到来？</h2>
+									<p class="lp-sum">&nbsp;　　更年期是女性人生的一个重要转折点，面对这个转折点很多女性都表现出</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,931"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">孕1周：为准妈妈的孕前自检手册</h2>
+									<p class="lp-sum">&nbsp;　　怀孕是两个人的事，你最好和你的伴侣一同制订一个造人计划，并仔细填</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=7,746"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">自然分娩的好处</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp; 自然分娩即顺产，是指在有安全保障的前提下，</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=7,744"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">剖腹产的优点与缺点</h2>
+									<p class="lp-sum">剖腹产的好处与坏处各有哪些？如今，很多妈妈都选择剖腹产分娩，原因之一是因为胎儿过</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=7,742"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">自然分娩是否影响产后性生活</h2>
+									<p class="lp-sum">　　胎儿分娩主要是阴道自然分娩和剖腹产两种方式。这两种分娩方式哪种更好，对性生活</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=7,741"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">三种分娩方式 助你远离剖腹产</h2>
+									<p class="lp-sum">　　在分娩方式上，现代女性已经有了很大的选择权利，究竟是选择剖宫产、自然顺产还是</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=7,740"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">剖宫产手术步骤_剖宫产手术全过程</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp; 孕晚期开始，孕妈妈们要开始选择分娩方式了，</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=7,739"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">剖腹产手术时间</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp;&nbsp;　　由于很多女性朋友害怕产痛（产</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=7,738"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">剖腹产横切好还是竖切好</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp; 剖腹产是横切好还是竖切好？怀孕知识网小编在</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=7,737"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">无痛分娩技术为何被舍弃？</h2>
+									<p class="lp-sum">　　从去年底开始，无痛分娩在江城多家医院悄然消失了。这项技术成熟且又有着广阔市场</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=7,795"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">如何做好完善的分娩计划</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp; 分娩前，最好提早做一份详细的分娩计划，以便</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=7,794"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">孕妇什么时候去医院待产</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp; 孕妇真正分娩时机是出现腹部阵痛、阴道出血和</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=7,793"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">如何选择分娩的医院</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp; 在做决定之前，可以先做一个调查：问问身边刚</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=7,792"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">妈妈们应该如何选择分娩学习班</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp; 很多第一次做准妈妈的人都会有这样那样的担心</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=7,791"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">产程中可能会出现哪些意外事故</h2>
+									<p class="lp-sum">　　医药技术还不很发达的时候，分娩的过程被认为是“大命换小命”，可见在分娩时会发</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=7,790"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">孕妇分娩技巧</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 十月怀胎一朝分娩。</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=7,789"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">孕妇分娩前吃什么好</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp;&nbsp; 孕妇分娩前吃什么好是广大孕妇都</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=7,788"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">什么是产前焦虑_缓解产前焦虑症的方...</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp; 产前焦虑症不同于一般的害怕情绪，而是一种情</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=9,011"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">整个孕期的营养需求</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp; ‘一个人吃、两人补’，是说孕妇要注意摄取充</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=9,010"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">孕晚期准妈妈的配餐原则</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp; 孕晚期，母体基础代谢率至最高峰。另外，此时</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=9,009"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">孕中期准妈妈的配餐原则</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp; &nbsp;孕中期，胎宝宝增长速度很快同时</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=9,008"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">孕早期准妈妈的三餐配餐原则</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp; 孕早期是指怀孕前3个月，在这3个月间由于胚</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=9,007"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">孕早期准妈妈可选择的营养食物</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp; 从知道怀孕的第一天起，饮食就成为准妈妈准爸</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=9,006"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">孕晚期怎么补充营养</h2>
+									<p class="lp-sum">　　怀孕7～9个月，胎儿体内组织、器官迅速增长。脑细胞分裂增殖加快以及骨骼开始钙</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=9,005"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">孕中期孕妇所需营养</h2>
+									<p class="lp-sum">　　孕中期是妊娠13&#x2014;27周，这个时期胚胎发育阶段完成，胎盘已经形</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=9,004"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">孕期哪些东西不能吃_孕期孕妇不能吃...</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;怀孕的准妈妈们，随着</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,966"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">头胎剖宫产的妈妈 二胎也可以尝试水...</h2>
+									<p class="lp-sum">&nbsp;　　核心提示：水中分娩是自然分娩的一种，包含了自然分娩的所有好处。只</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=42,385"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">女人调理气血的食疗方</h2>
+									<p class="lp-sum">　　女性有食欲差、腰痛等症状时，饮食宜选用营养丰富、健脾开胃、易消化的食品，如大</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=42,384"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">剖腹产的男婴易致免疫力低</h2>
+									<p class="lp-sum">　　该院产科抽取刚刚出生的63名女婴和69名男婴的脐静脉血，将其中的免疫球蛋白进</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=42,383"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">做产前检查的内容</h2>
+									<p class="lp-sum">　　产前检查顾名思义为生产前的检查，又称“围产保健”，能及时了解孕妈咪、胎本情况</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=42,371"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">3个分娩方式如何选择？</h2>
+									<p class="lp-sum">　　当父母需要做出许多的决定，例如在宝宝出生之前就要帮他们取名、婴儿床等等。其中</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=42,370"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">产前必知 国外流行的分娩姿势</h2>
+									<p class="lp-sum">　　在整个分娩的过程中，准妈妈可能会有好几种分娩姿势。国外的的妇产医院在孕妇分娩</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=42,369"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">做健康女人必知的饮食奥义</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 不过多</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=42,368"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">四大绝招让新妈妈重塑傲挺双峰</h2>
+									<p class="lp-sum">　　绝招一：疏通，给健康加份“保险” 
+ 　　“产后妈妈”乳房出现变形、病变主要</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=50,150"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">生女儿后婆婆重男轻女原形毕露</h2>
+									<p class="lp-sum">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=50,149"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">生男还是生女，偏方真能左右？</h2>
+									<p class="lp-sum">　　改动酸碱体质就能挑选生男或生女？查查受孕时辰表就能事前猜测胎儿的性别？这些看</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=50,148"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">二胎，其实还想生女儿</h2>
+									<p class="lp-sum">&nbsp; &nbsp; 自从办了二胎证，咱们的二胎方案也紧跟着提上议程。鉴于</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=50,147"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">二胎求生个女儿</h2>
+									<p class="lp-sum">因为判定好要生二胎，迩来总在思考生命的价值，想和老公谈志向、谈人生、谈爱情，没承</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=50,146"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">生男生女的31个怀孕特征</h2>
+									<p class="lp-sum">小编为你揭秘生男生女的31个怀孕特征。
+  
+  
+ 生男生女特征大集合：
+  </p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=50,145"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">想生儿子？男人最关键</h2>
+									<p class="lp-sum">　 &nbsp; 据日本《科学》杂志的一篇文章报导，在老婆受孕前的一段时间内，丈</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=50,144"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">教你如何预测生男生女？</h2>
+									<p class="lp-sum">　　迪文&middot;麦吉尼斯是一个男孩和两个女孩的母亲。每次生产前，她都有一</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=50,143"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">生男孩的好处</h2>
+									<p class="lp-sum">　　都啥年代了，还封建残余未消，必老生儿子。非也，我不是重男轻女的人，即是喜欢男</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,967"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">了解女性荷尔蒙异常</h2>
+									<p class="lp-sum">&nbsp;　　病史和体检中发现有荷尔蒙异常或症状的患者，应进行彻底的内分泌检查</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,942"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">不孕不育检查项目3步走</h2>
+									<p class="lp-sum">&nbsp;　　由于导致女性不孕不育的原因有很多，所以说对女性不孕不育的检查也是</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,941"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">女性不孕要做哪些检查？</h2>
+									<p class="lp-sum">&nbsp;　　曾女士：和老公结婚两年没怀上，我想检查一下是不是自己患了不孕症，</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,940"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">卵泡监测对不孕不育的好处</h2>
+									<p class="lp-sum">&nbsp;　　卵巢最主要的功能是产生卵子。发育良好的卵泡和准确的排卵日期为优生</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,939"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">38岁绝经女还能怀孕吗？</h2>
+									<p class="lp-sum">&nbsp;　　有个女性对她不孕的问题提出了这样的问题。我今年38岁，断断续续闭</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,938"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">盆腔检查如何进行？</h2>
+									<p class="lp-sum">&nbsp;　　盆腔检查是确诊妇科疾病的重要依据和检查方法。检查前，必须排尿，以</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,937"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">钳夹术的手术步骤</h2>
+									<p class="lp-sum">&nbsp;　　(1)先将宫颈扩张到最少达9—10号，由于要在短时间内完成宫颈的</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=49,936"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">B超检查不孕症的价值</h2>
+									<p class="lp-sum">&nbsp;　　B超是目前妇产科常用的一种检查方法，有些不孕症患者需做B超检查，</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=45,726"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">轻松搞定产后4肥胖重灾区</h2>
+									<p class="lp-sum">　　胸部 
+ 　　胸部的主要问题是下垂和缩小。怀孕期间由于荷尔蒙的作用，乳腺组织</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=45,725"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">产后夏季两款清淡食谱推荐</h2>
+									<p class="lp-sum">　　白菜排骨汤 
+ 　　主料：猪排骨500克，白菜250克 
+ 　　配料：盐、植</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=45,721"
+									target="_blank">
+										<img src="/uploadfile/2011/1006/20111006084820674.jpg" alt="交钱就发证 月嫂市场亟需加强监管">
+									
+									<h2 class="lp-title">交钱就发证 月嫂市场亟需加强监管</h2>
+									<p class="lp-sum">交钱就发证 月嫂市场亟需加强监管（亲贝网资料图片 电视剧月嫂）　　亲贝网讯 据经</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=45,720"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">夏季坐月子 6款美食新妈不能少</h2>
+									<p class="lp-sum">　　燥热的夏天给新妈妈们带来了许多担心，夏季坐月子有哪些饮食注意事项呢?刚刚分娩</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=45,719"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">坐月子期间食欲不振怎么办？</h2>
+									<p class="lp-sum">　　产妇应该在月子期间，利用膳食与调养，补充生产时所耗费的能量。不过要能“好吃、</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=45,718"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">产后饮食注意这九个禁忌</h2>
+									<p class="lp-sum">　　一、哺乳者禁食大麦及其制品 　　对于那些大麦芽、麦乳精、麦芽糖等的食物也都是</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=45,715"
+									target="_blank">
+										<img src="http://daogou.qinbei.com/uploadfile/2012/0810/20120810054120967.jpg" alt="月子里吃猪蹄喝鸡汤是在毁身体？">
+									
+									<h2 class="lp-title">月子里吃猪蹄喝鸡汤是在毁身体？</h2>
+									<p class="lp-sum">月子里吃猪蹄喝鸡汤是在毁身体？ 
+ 　　月子里，究竟该怎么吃？成为准妈妈和新妈妈</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=45,714"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">孕妇头晕警惕是贫血掩盖下妊娠高血压...</h2>
+									<p class="lp-sum">　　准妈妈孕期突然头晕，很多人都以为是贫血，但其实孕期头晕有可能是妊高征。妊高征</p></a></li>
+						</ul>
+					</div>
+				</div>
+		</div>
+	</div>
+	<div class="th_title">人气排行榜</div>
+	<div class="home-article">
+		<ul class="ha-list list-pt">
+				<li><a href="/front/yuyingshi/detail.do?newsID=50,150"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">生女儿后婆婆重男轻女原形毕露</h2>
+					<p class="lp-sum">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=50,149"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">生男还是生女，偏方真能左右？</h2>
+					<p class="lp-sum">　　改动酸碱体质就能挑选生男或生女？查查受孕时辰表就能事前猜测胎儿的性别？这些看</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=50,148"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">二胎，其实还想生女儿</h2>
+					<p class="lp-sum">&nbsp; &nbsp; 自从办了二胎证，咱们的二胎方案也紧跟着提上议程。鉴于</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=50,147"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">二胎求生个女儿</h2>
+					<p class="lp-sum">因为判定好要生二胎，迩来总在思考生命的价值，想和老公谈志向、谈人生、谈爱情，没承</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=50,146"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">生男生女的31个怀孕特征</h2>
+					<p class="lp-sum">小编为你揭秘生男生女的31个怀孕特征。
+  
+  
+ 生男生女特征大集合：
+  </p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=50,145"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">想生儿子？男人最关键</h2>
+					<p class="lp-sum">　 &nbsp; 据日本《科学》杂志的一篇文章报导，在老婆受孕前的一段时间内，丈</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=50,144"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">教你如何预测生男生女？</h2>
+					<p class="lp-sum">　　迪文&middot;麦吉尼斯是一个男孩和两个女孩的母亲。每次生产前，她都有一</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=50,143"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">生男孩的好处</h2>
+					<p class="lp-sum">　　都啥年代了，还封建残余未消，必老生儿子。非也，我不是重男轻女的人，即是喜欢男</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=50,142"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">专家：想生男孩要这样吃</h2>
+					<p class="lp-sum">1、怎样才能生男孩？
+  
+ 
+   &nbsp;
+  
+ 
+   　　虽然生男</p></a></li>
+		</ul>
+	</div>
+	<div class="th_title">
+		<a href="/static/m/nav.html">查看更多</a>
+	</div>
+	<script type="text/javascript">
+		window.onload = function() {
+			var mySwiper1 = new Swiper('#header', {
+				freeMode : true,
+				slidesPerView : 'auto',
+			});
+			var mySwiper2 = new Swiper('#banner', {
+				autoplay : 5000,
+				visibilityFullFit : true,
+				loop : true,
+				pagination : '.pagination',
+			});
+
+			var tabsSwiper = new Swiper('#tabs-container', {
+				speed : 500,
+				onSlideChangeStart : function() {
+					$(".tabs .active").removeClass('active')
+					$(".tabs a").eq(tabsSwiper.activeIndex).addClass('active')
+				}
+			})
+			$(".tabs a").on('touchstart mousedown', function(e) {
+				e.preventDefault()
+				$(".tabs .active").removeClass('active')
+				$(this).addClass('active')
+				tabsSwiper.slideTo($(this).index())
+			})
+			$(".tabs a").click(function(e) {
+				e.preventDefault()
+			})
+			
+			$("#cnzz_stat_icon_1254920361").hide();
+		}
+	</script>
+	
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>
+	
+</body>
+</html>

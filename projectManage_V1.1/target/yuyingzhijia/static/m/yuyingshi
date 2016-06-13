@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>育婴之家网</title>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta http-equiv="Cache-control" content="no-cache" />
+<meta name="format-detection" content="telephone=no">
+<meta name="applicable-device" content="mobile">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="stylesheet" href="/commons/css/mobile_ch.css">
+<LINK rel="stylesheet" href="/commons/css/swiper.min.css"  type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<script src="/commons/js/swiper.min.js"></script>
+<style type="text/css">
+.tabs a {
+	font-size: 1em;
+	font-weight: normal;
+	text-align: center;
+	float: left;
+	
+			width: 16.667%;
+	height: 38px;
+	line-height: 38px;
+	color: #2a70be;
+}
+
+.tabs a.active {
+	border-top: 2px solid #2a70be;
+	margin-top: -2px;
+	background: #FC6464;
+	background-repeat: no-repeat;
+	
+		-webkit-background-size: 16.667% 39px;
+	
+	-moz-background-size: 16.667% 39px;
+	
+	-o-background-size: 16.667% 39px;
+	
+	background-size: 16.667% 39px;
+	
+	
+	background-position: left top;
+	color: #fff;
+	filter: alpha(opacity = 50);
+	-moz-opacity: 0.5;
+/* 	opacity: 0.5; */
+	opacity: 0.8;
+}
+
+#e1 a {
+	background: #FC6464;
+	color: #fff;
+	display: inline-block;
+	border-radius: 10px;
+	border: 1px solid #f8f8f8;
+	padding: 2px 7px;
+	line-height: 20px;
+	filter: alpha(opacity = 50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+}
+</style>
+</head>
+<body>
+	<header id="header">
+		<div id="top-line"></div>
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<a href="/static/m/index.html">首页</a>
+			</div>
+				 		<div class="swiper-slide" id='e1'>
+							<a href="/static/m/yuyingshi">育婴师</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/yuerzhuanqu">育儿</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/baomazhuanqu">宝妈</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/yunqian">孕前</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/yunzhong">孕中</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/yunhou">孕后</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/life">生活</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/erge">儿歌</a>
+						</div>
+				 		<div class="swiper-slide" id='e2'>
+							<a href="/static/m/1">1</a>
+						</div>
+		</div>
+	</header>
+	<div id="banner">
+		<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=1,025"
+						target="_blank">
+						<img src="http://www.yyzj2001.com/keditor/attached/image/20131214/20131214144445964596.jpg" alt="怎样培养3岁之前的孩子的规则意识？">
+					<h2 class="gallerytitle">怎样培养3岁之前的孩子的规则意识？</h2></a>
+				</div>
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=1,022"
+						target="_blank">
+						<img src="http://www.yyzj2001.com/keditor/attached/image/20131216/2013121622030948948.jpg" alt="备孕的时候感冒了，能不能吃药？">
+					<h2 class="gallerytitle">备孕的时候感冒了，能不能吃药？</h2></a>
+				</div>
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=1,020"
+						target="_blank">
+						<img src="http://www.yyzj2001.com/keditor/attached/image/20131216/20131216224481628162.jpg" alt="冬季宝宝该怎么添加辅食？给您几个黄金建议！">
+					<h2 class="gallerytitle">冬季宝宝该怎么添加辅食？给您几个黄金建议！</h2></a>
+				</div>
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=1,017"
+						target="_blank">
+						<img src="http://www.yyzj2001.com/keditor/attached/image/20131218/20131218225865536553.jpg" alt="马上要生了需要准备什么？分娩前需要准备的物品">
+					<h2 class="gallerytitle">马上要生了需要准备什么？分娩前需要准备的物品</h2></a>
+				</div>
+				<div class="swiper-slide">
+					<a href="/front/yuyingshi/detail.do?newsID=1,014"
+						target="_blank">
+						<img src="http://www.yyzj2001.com/keditor/attached/image/20131222/20131222132735373537.jpg" alt="产后首次性生活应该注意什么？产后第一次的性生活！">
+					<h2 class="gallerytitle">产后首次性生活应该注意什么？产后第一次的性生活！</h2></a>
+				</div>
+		</div>
+		<div class="pagination"></div>
+	</div>
+	<div class="tabs">
+					<a href="#" class="active">动态</a>
+					<a href="#">学习</a>
+					<a href="#">考试</a>
+					<a href="#">高级</a>
+					<a href="#">中级</a>
+					<a href="#">初级</a>
+	</div>
+	<div id="tabs-container" class="swiper-container">
+		<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,064"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">宝宝大舌头怎么办？</h2>
+									<p class="lp-sum">说话大舌头是宝宝说话过程中比较常见的一个问题，作为家长心里一定很着急，下面小编就</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,063"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">新生儿睡觉不踏实需注意</h2>
+									<p class="lp-sum">[本文由：北京月嫂公司提供]新生儿睡觉不踏实是种常见的现象，家长们看到宝宝睡的不</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,062"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">婴儿洗发水沐浴露2合1还是分开用</h2>
+									<p class="lp-sum">[本文由：北京月嫂公司提供]经常给宝宝买用品的妈妈们都知道，洗护区货架上的宝宝的</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,061"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">宝宝第一口钙的选择很重要</h2>
+									<p class="lp-sum">“钙”是家长给孩子补充的最常见营养元素之一，“钙”对孩子的身体发育有着重要的作用</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,060"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">选择月嫂必须问的四个问题</h2>
+									<p class="lp-sum">问题1：宝宝晚上闹人怎么办？宝宝晚上睡不踏实的原因有许多，专业的月嫂能列出很多，</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,059"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">宝宝连体衣面面观</h2>
+									<p class="lp-sum">[本文由：北京月嫂公司提供]近几年来，连体衣，以其时尚的外观和便捷性迅速成为不少</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,058"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">新生儿口腔护理的要点</h2>
+									<p class="lp-sum">[本文由：北京月嫂公司提供]对于新生儿的口腔卫生，父母应该如何做好日常的护理呢?</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,057"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">别选新生儿饥饿的时候体检</h2>
+									<p class="lp-sum">1、确定好体检医院一般宝宝第一次体检是在生产医院或者是所在地区的妇幼保健中心，以</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,018"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">二胎 你的身体做好准备了么？</h2>
+									<p class="lp-sum">&nbsp;&nbsp;&nbsp;&nbsp;政策的变化使众多家庭有了第二次孕</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,017"
+									target="_blank">
+										<img src="http://www.yyzj2001.com/keditor/attached/image/20131218/20131218225865536553.jpg" alt="马上要生了需要准备什么？分娩前需要准备的物品">
+									
+									<h2 class="lp-title">马上要生了需要准备什么？分娩前需要...</h2>
+									<p class="lp-sum">&nbsp;&nbsp;临近预产期了，孕妈咪应该为随时去医院做好准备，孕妇什么时</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,015"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">顺产和剖宫产的知识你了解吗?顺产和...</h2>
+									<p class="lp-sum">本文Tag标签：顺产剖宫产&#x2003;&#x2003;1、剖宫产要打开肚皮，</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,014"
+									target="_blank">
+										<img src="http://www.yyzj2001.com/keditor/attached/image/20131222/20131222132735373537.jpg" alt="产后首次性生活应该注意什么？产后第一次的性生活！">
+									
+									<h2 class="lp-title">产后首次性生活应该注意什么？产后第...</h2>
+									<p class="lp-sum">文章标签:产后第一次性生活1、丈夫的爱抚很重要：因为产妇在心理和生理上都需要一个</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,012"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">产后脱发怎么办？产后掉头发不用着急...</h2>
+									<p class="lp-sum">又掉头发，又掉头发！&nbsp;&nbsp;产后脱发是指妇女在生产之后头发异常脱</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,010"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">母乳喂养可预防婴儿过敏你知道吗？母...</h2>
+									<p class="lp-sum">宝宝的湿疹老是反复发作？出现腹泻、吐奶？经常哭闹不止？当宝宝出现这些现象时，初为</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,009"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">宝宝的脑型怎么睡出来？如何让宝宝睡...</h2>
+									<p class="lp-sum">初为人母，你时刻都关注着宝宝的一举一动。在日常照料过程中，除了宝宝的吃喝拉撒外，</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=1,008"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">夫妻备孕需要注意什么？夫妻备孕4大...</h2>
+									<p class="lp-sum">夫妻备孕4大纪律15项注意　　很多人认为，只要在孕期精心呵护孕妈咪，就能生出健康</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=879"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">育婴师考试行业解析</h2>
+									<p class="lp-sum">育婴师考试，一个近年来新兴的职业，婴幼儿早期教育市场迅猛发展，聘请育婴师进行早期</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=722"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">育婴员和保姆、月嫂有什么不同？</h2>
+									<p class="lp-sum">　　1.首先强调的是，育婴员和育婴师的定位是“主动教育全过程”的教育工作者，而不</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=658"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">育婴员考试基础知识</h2>
+									<p class="lp-sum">　　育婴员考试之基础知识　　（1）0—3岁婴儿解剖及生理发育特点：呼吸系统、心血</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=633"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">育婴员考试职业道德</h2>
+									<p class="lp-sum">　　育婴员考试之职业道德描述　　（1）职业道德基本知识　　（2）育婴员职业道德与</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=598"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">育婴师考试之日常生活保健</h2>
+									<p class="lp-sum">育婴师考试之日常生活保健与护理（一）生长监测能够正确记录婴儿生长发育曲线和使用生</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=595"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">育婴师考试生活照料之睡眠</h2>
+									<p class="lp-sum">育婴师考试生活照料之睡眠、二便、三浴1.能够营造温度、光线、声音、通风、睡具等适</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=592"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">育婴师考试生活照料之智力开发</h2>
+									<p class="lp-sum">育婴师考试生活照料之智力开发1.能够对婴儿进行认知能力训练2.能够对婴儿进行语言</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=591"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">育婴师考试生活照料之人格培养</h2>
+									<p class="lp-sum">育婴师考试生活照料之社会行为及人格培养培养1.能够适时培养婴儿生活自理能力2.能</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=998"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">高级育婴师提醒家长注意婴儿饮水、睡...</h2>
+									<p class="lp-sum">1．饮水（1）决定婴儿需要水量的因素。婴儿所需要的水量，决定于体内新陈代谢和机体对热量的需要。婴儿</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=997"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">高级育婴师提醒家长注意婴儿卫生（居...</h2>
+									<p class="lp-sum">1．卫生（居室、个人、四具）（1）选择婴儿居室应考虑的因素。由于婴儿体温调节中枢尚未发育成熟，体温</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=996"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">高级育婴师提醒家长注意婴儿常见疾病...</h2>
+									<p class="lp-sum">（1）佝偻病起因。佝偻病是一种婴儿常见的营养缺乏性疾病，由于维生素D不足，引起体</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=899"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">2012年高级育婴师考试申报条件</h2>
+									<p class="lp-sum">高级育婴师考试申报条件①取得本职业育婴师职业资格证书后，连续从事本职业工作4年以</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=881"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">育婴师考试之育婴员国家职业标准</h2>
+									<p class="lp-sum">　　育婴师考试之育婴员国家职业标准　　中华人民共和国劳动和社会保障部制定根据《中</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=880"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">育婴师考试职业概况</h2>
+									<p class="lp-sum">　　育婴师考试之职业概况　　1、职业名称：育婴员　　2、职业定义：主要从事0～3</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=873"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">育婴员考试培训要求</h2>
+									<p class="lp-sum">　　育婴员培训要求：　　（1）培训期限：全日制职业学校教育，根据其培养目标和教学</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=659"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">育婴师考试职业概况描述</h2>
+									<p class="lp-sum">　　育婴师考试职业概况　　1、职业名称：育婴员　　2、职业定义：主要从事0～3岁</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=991"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">考育婴师有前途吗？</h2>
+									<p class="lp-sum">说起育婴师是否有前途，当然每个人的看法是不一样的，我个人认为，如今的社会是充满竞</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=990"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">育婴师考完中级可以接着考高级吗?</h2>
+									<p class="lp-sum">可以，但须符合以下申报条件（具有以下条件之一者：）1）取得本职业育婴师职业资格证</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=989"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">考中级育婴师要什么条件？怎么才能考...</h2>
+									<p class="lp-sum">中级育婴师的条件不高的，一般只要求大专学历，3年以上工作经验就可以了，这个你还可</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=988"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">中级育婴师一月工资水平</h2>
+									<p class="lp-sum">国内育婴师的工资是分层次的，主要还是要看证书等级和个人能力，北京育婴师的工资是相</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=987"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">中级育婴师在职业上有就业岗位吗？</h2>
+									<p class="lp-sum">育婴师，一个近年来新兴的职业，婴幼儿早期教育市场迅猛发展，聘请育婴师进行早期的科</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=986"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">想知道育婴师 是干什么的，工资是怎...</h2>
+									<p class="lp-sum">育婴师是国家劳动和社会保障部最新颁布的新兴职业之一，是一门从事专业化护理与教育的</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=985"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">初中生可以报考中级育婴师？</h2>
+									<p class="lp-sum">中级（国家职业资格四级）（符合下列条件之一者）(1)取得相关专业(医疗、护理、幼</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=984"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">中级育婴师是育婴师几级</h2>
+									<p class="lp-sum">本职业共分三个等级育婴员（国家职业资格五级）育婴师国家职业资格四级）</p></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="home-article">
+						<ul class="ha-list list-pt">
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=995"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">初级育婴师提醒家长注意婴儿饮食</h2>
+									<p class="lp-sum">1．饮食（1）婴儿喂养方式的种类。喂养有两种方式：母乳喂养和人工喂养。（2）</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=994"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">初级育婴师提醒家长注意婴儿饮水</h2>
+									<p class="lp-sum">1．饮水（1）水在人生命中的地位。水是生命的源泉，是人体第一需要的营养素，具有极为重</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=993"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">初级育婴师提醒家长注意婴儿睡眠、二...</h2>
+									<p class="lp-sum">1．睡眠、二便、三浴（1）不同年龄的婴儿睡眠次数的掌握。2-6个月婴儿每日睡3-4次；7-12个月</p></a></li>
+								<li>
+									<a href="/front/yuyingshi/detail.do?newsID=992"
+									target="_blank">
+										<img src="/commons/images/defaultpic.gif" />
+									
+									<h2 class="lp-title">育婴师初级资格技能考试在平乐首次开...</h2>
+									<p class="lp-sum">本报平乐讯（记者/隆振葵通讯员/陶彩忠蓝耀琛）广西商业高级技工学校在平乐县招生培</p></a></li>
+						</ul>
+					</div>
+				</div>
+		</div>
+	</div>
+	<div class="th_title">人气排行榜</div>
+	<div class="home-article">
+		<ul class="ha-list list-pt">
+				<li><a href="/front/yuyingshi/detail.do?newsID=1,064"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">宝宝大舌头怎么办？</h2>
+					<p class="lp-sum">说话大舌头是宝宝说话过程中比较常见的一个问题，作为家长心里一定很着急，下面小编就</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=1,063"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">新生儿睡觉不踏实需注意</h2>
+					<p class="lp-sum">[本文由：北京月嫂公司提供]新生儿睡觉不踏实是种常见的现象，家长们看到宝宝睡的不</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=1,062"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">婴儿洗发水沐浴露2合1还是分开用</h2>
+					<p class="lp-sum">[本文由：北京月嫂公司提供]经常给宝宝买用品的妈妈们都知道，洗护区货架上的宝宝的</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=1,061"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">宝宝第一口钙的选择很重要</h2>
+					<p class="lp-sum">“钙”是家长给孩子补充的最常见营养元素之一，“钙”对孩子的身体发育有着重要的作用</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=1,060"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">选择月嫂必须问的四个问题</h2>
+					<p class="lp-sum">问题1：宝宝晚上闹人怎么办？宝宝晚上睡不踏实的原因有许多，专业的月嫂能列出很多，</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=1,059"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">宝宝连体衣面面观</h2>
+					<p class="lp-sum">[本文由：北京月嫂公司提供]近几年来，连体衣，以其时尚的外观和便捷性迅速成为不少</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=1,058"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">新生儿口腔护理的要点</h2>
+					<p class="lp-sum">[本文由：北京月嫂公司提供]对于新生儿的口腔卫生，父母应该如何做好日常的护理呢?</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=1,057"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">别选新生儿饥饿的时候体检</h2>
+					<p class="lp-sum">1、确定好体检医院一般宝宝第一次体检是在生产医院或者是所在地区的妇幼保健中心，以</p></a></li>
+				<li><a href="/front/yuyingshi/detail.do?newsID=1,056"
+				target="_blank">
+					<img src="/commons/images/defaultpic.gif" />
+				<h2 class="lp-title">预防秋燥宝宝该吃些什么？</h2>
+					<p class="lp-sum">秋燥，并不是指一种疾病，而是指人们在秋天出现的各种不适，如皮肤干燥或发生皲裂，口</p></a></li>
+		</ul>
+	</div>
+	<div class="th_title">
+		<a href="/static/m/nav.html">查看更多</a>
+	</div>
+	<script type="text/javascript">
+		window.onload = function() {
+			var mySwiper1 = new Swiper('#header', {
+				freeMode : true,
+				slidesPerView : 'auto',
+			});
+			var mySwiper2 = new Swiper('#banner', {
+				autoplay : 5000,
+				visibilityFullFit : true,
+				loop : true,
+				pagination : '.pagination',
+			});
+
+			var tabsSwiper = new Swiper('#tabs-container', {
+				speed : 500,
+				onSlideChangeStart : function() {
+					$(".tabs .active").removeClass('active')
+					$(".tabs a").eq(tabsSwiper.activeIndex).addClass('active')
+				}
+			})
+			$(".tabs a").on('touchstart mousedown', function(e) {
+				e.preventDefault()
+				$(".tabs .active").removeClass('active')
+				$(this).addClass('active')
+				tabsSwiper.slideTo($(this).index())
+			})
+			$(".tabs a").click(function(e) {
+				e.preventDefault()
+			})
+			
+			$("#cnzz_stat_icon_1254920361").hide();
+		}
+	</script>
+	
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>
+	
+</body>
+</html>

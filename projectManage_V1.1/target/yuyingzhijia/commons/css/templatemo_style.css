@@ -1,0 +1,243 @@
+body {
+	background-position: top; margin: 0px; padding: 0px; color: rgb(102, 102, 102); line-height: 1.7em; font-family: Tahoma, Geneva, sans-serif; font-size: 13px; background-image: url("../image/templatemo_body.jpg"); background-attachment: fixed; background-repeat: no-repeat; background-color: rgb(41, 54, 17);
+}
+a {
+	color: rgb(234, 111, 11); font-size: 11px; font-weight: 700; text-decoration: none;
+}
+a:link {
+	color: rgb(234, 111, 11); font-size: 11px; font-weight: 700; text-decoration: none;
+}
+a:visited {
+	color: rgb(234, 111, 11); font-size: 11px; font-weight: 700; text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a.gototop {
+	background: url("../image/templatemo_gototop.jpg") no-repeat; width: 70px; height: 20px; clear: both; float: right; display: block;
+}
+p {
+	margin: 0px 0px 10px; padding: 0px;
+}
+img {
+	border: currentColor; border-image: none;
+}
+blockquote {
+	margin: 0px 0px 0px 10px; font-style: italic;
+}
+cite {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+cite span {
+	color: rgb(0, 0, 0);
+}
+em {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+h1 {
+	color: rgb(0, 0, 0); font-weight: normal;
+}
+h2 {
+	color: rgb(0, 0, 0); font-weight: normal;
+}
+h3 {
+	color: rgb(0, 0, 0); font-weight: normal;
+}
+h4 {
+	color: rgb(0, 0, 0); font-weight: normal;
+}
+h5 {
+	color: rgb(0, 0, 0); font-weight: normal;
+}
+h6 {
+	color: rgb(0, 0, 0); font-weight: normal;
+}
+h1 {
+	margin: 0px 0px 20px; padding: 5px 0px; font-size: 34px;
+}
+h2 {
+	margin: 0px 0px 20px; padding: 5px 0px 10px; font-size: 28px; font-weight: 700; border-bottom-color: rgb(98, 99, 53); border-bottom-width: 1px; border-bottom-style: solid;
+}
+h3 {
+	margin: 0px 0px 15px; padding: 0px; font-size: 24px;
+}
+h4 {
+	margin: 0px 0px 15px; padding: 0px; font-size: 18px;
+}
+h5 {
+	margin: 0px 0px 10px; padding: 0px; font-size: 16px;
+}
+h6 {
+	margin: 0px 0px 5px; padding: 0px; font-size: 14px;
+}
+.cleaner {
+	clear: both;
+}
+.h10 {
+	height: 10px;
+}
+.h20 {
+	height: 20px;
+}
+.h30 {
+	height: 30px;
+}
+.h40 {
+	height: 40px;
+}
+.h50 {
+	height: 50px;
+}
+.h60 {
+	height: 60px;
+}
+.float_l {
+	float: left;
+}
+.float_r {
+	float: right;
+}
+.image_wrapper {
+	background: rgb(255, 255, 255); padding: 4px; border: 1px solid rgb(185, 198, 149); border-image: none; margin-bottom: 5px; display: inline-block;
+}
+.image_fl {
+	margin: 3px 20px 0px 0px; float: left;
+}
+.image_fr {
+	margin: 3px 0px 0px 20px; float: right;
+}
+.tmo_list {
+	list-style: none; margin: 20px 0px 20px 10px; padding: 0px;
+}
+.tmo_list li {
+	background: url("../image/templatemo_list.jpg") no-repeat 0px 5px; margin: 0px; padding: 0px 0px 5px 20px; color: rgb(104, 153, 42);
+}
+.tmo_list li a {
+	color: rgb(104, 153, 42); font-size: 12px; font-weight: normal; text-decoration: none;
+}
+.tmo_list li a:hover {
+	color: rgb(104, 153, 42); text-decoration: underline;
+}
+#templatemo_wrapper {
+	background: url("../image/templatemo_body.jpg") no-repeat top; margin: 0px auto; width: 800px;
+}
+#templatmeo_header {
+	background: url("../image/templatemo_header.jpg") no-repeat top; width: 800px; height: 120px;
+}
+#templatemo_menu {
+	padding: 0px 10px; width: 780px; height: 40px; clear: both;
+}
+#templatemo_menu ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+#templatemo_menu ul li {
+	background: url("../image/templatemo_menu_divider.jpg") no-repeat right; margin: 0px; padding: 0px; width: 118px; height: 40px; float: left; display: inline;
+}
+#templatemo_menu .last {
+	background: none;
+}
+#templatemo_menu ul li a {
+	width: 118px; height: 33px; text-align: center; color: rgb(51, 51, 51); padding-top: 7px; font-size: 13px; font-weight: 700; text-decoration: none; display: block;
+}
+#templatemo_menu ul li a:hover {
+	background: url("../image/templatemo_menu_hover.jpg") no-repeat top; height: 34px; color: rgb(0, 0, 0); padding-top: 6px;
+}
+#templatemo_menu ul .current {
+	background: url("../image/templatemo_menu_hover.jpg") no-repeat top; height: 34px; color: rgb(0, 0, 0); padding-top: 6px;
+}
+#site_title {
+	padding: 30px 20px; width: 760px; height: 40px; clear: both;
+}
+#site_title h1 {
+	margin: 0px; padding: 0px; width: 500px; float: left; display: block;
+}
+#site_title h1 a {
+	color: rgb(255, 255, 255); font-size: 40px; font-weight: 400;
+}
+#site_title h1 a:hover {
+	text-decoration: none;
+}
+#site_title h1 a span {
+	font-size: 14px;
+}
+#social_box {
+	float: right; display: inline-block;
+}
+#social_box a {
+	width: 32px; height: 32px; margin-left: 10px; display: inline-block;
+}
+#templatemo_main {
+	background: url("../image/templatemo_main_top.jpg") no-repeat top rgb(245, 246, 188); padding: 0px 10px; width: 780px; clear: both;
+}
+.content_box {
+	background: url("../image/templatemo_content_bottom.jpg") no-repeat bottom; padding: 40px 0px; clear: both; margin-bottom: 30px;
+}
+.content_box_last {
+	background: none; margin-bottom: 0px;
+}
+.content_box_content {
+	padding: 0px 30px;
+}
+.col_w340 {
+	width: 340px;
+}
+.col_w220 {
+	width: 220px; float: left;
+}
+.col_mr30 {
+	margin-right: 30px;
+}
+.post_box {
+	padding-bottom: 20px; clear: both; margin-bottom: 30px; border-bottom-color: rgb(98, 99, 53); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.post_header {
+	padding: 5px; margin-bottom: 20px; border-top-color: rgb(153, 153, 153); border-bottom-color: rgb(204, 204, 204); border-top-width: 3px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.post_box h3 {
+	font-size: 24px; margin-bottom: 15px;
+}
+.post_box p.post_meta {
+	padding-bottom: 0px; font-size: 10px; margin-bottom: 0px;
+}
+.post_box img {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); border-image: none; margin-right: 40px; float: left;
+}
+#gallery {
+	margin: 0px; padding: 0px;
+}
+#gallery ul {
+	margin: 0px; padding: 0px;
+}
+#gallery ul li {
+	margin: 0px 30px 30px 0px; width: 210px; height: 110px; float: left; display: block;
+}
+#gallery ul .rm_col {
+	margin: 0px 0px 30px;
+}
+#gallery ul li a img {
+	padding: 4px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 200px; height: 100px;
+}
+#contact_form {
+	padding: 0px; width: 300px;
+}
+#contact_form form {
+	margin: 0px; padding: 0px;
+}
+#contact_form form .input_field {
+	background: rgb(227, 228, 165); padding: 2px 0px; border: 1px solid rgb(208, 209, 136); border-image: none; width: 290px; color: rgb(102, 102, 102);
+}
+#contact_form form label {
+	width: 100px; font-size: 14px; margin-right: 10px; display: block;
+}
+#contact_form form textarea {
+	background: rgb(227, 228, 165); padding: 5px; border: 1px solid rgb(208, 209, 136); border-image: none; width: 288px; height: 150px; color: rgb(102, 102, 102);
+}
+#contact_form form .submit_btn {
+	background: rgb(227, 228, 165); padding: 5px 10px; border: 1px solid rgb(208, 209, 136); border-image: none; color: rgb(119, 119, 34);
+}
+#templatemo_footer {
+	background: url("../image/templatemo_footer.jpg") no-repeat top; padding: 20px; width: 760px; text-align: center; color: rgb(229, 239, 200); clear: both;
+}
+#templatemo_footer a {
+	color: rgb(255, 255, 255);
+}

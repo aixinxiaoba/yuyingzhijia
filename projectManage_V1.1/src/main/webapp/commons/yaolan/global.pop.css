@@ -1,0 +1,141 @@
+*:focus {
+	
+}
+.globalFbClose {
+	background: url("http://h.yaolanimage.cn/global/head/images/global_feedback_bg.png?ver=2013121006") no-repeat; _background: url(http://h.yaolanimage.cn/global/head/images/global_feedback_bg8.png?ver=2013121006) no-repeat;
+}
+.globalFbPm {
+	background: url("http://h.yaolanimage.cn/global/head/images/global_feedback_bg.png?ver=2013121006") no-repeat; _background: url(http://h.yaolanimage.cn/global/head/images/global_feedback_bg8.png?ver=2013121006) no-repeat;
+}
+.globalFbInput {
+	background: url("http://h.yaolanimage.cn/global/head/images/global_feedback_bg.png?ver=2013121006") no-repeat; _background: url(http://h.yaolanimage.cn/global/head/images/global_feedback_bg8.png?ver=2013121006) no-repeat;
+}
+.globalFbEmailCon {
+	background: url("http://h.yaolanimage.cn/global/head/images/global_feedback_bg.png?ver=2013121006") no-repeat; _background: url(http://h.yaolanimage.cn/global/head/images/global_feedback_bg8.png?ver=2013121006) no-repeat;
+}
+.globalFbSubmit {
+	background: url("http://h.yaolanimage.cn/global/head/images/global_feedback_bg.png?ver=2013121006") no-repeat; _background: url(http://h.yaolanimage.cn/global/head/images/global_feedback_bg8.png?ver=2013121006) no-repeat;
+}
+#globalFbResultBtn {
+	background: url("http://h.yaolanimage.cn/global/head/images/global_feedback_bg.png?ver=2013121006") no-repeat; _background: url(http://h.yaolanimage.cn/global/head/images/global_feedback_bg8.png?ver=2013121006) no-repeat;
+}
+#globalGoTop {
+	background: url("http://h.yaolanimage.cn/global/head/images/global_feedback_bg.png?ver=2013121006") no-repeat; _background: url(http://h.yaolanimage.cn/global/head/images/global_feedback_bg8.png?ver=2013121006) no-repeat;
+}
+#globalFbButton {
+	background: url("http://h.yaolanimage.cn/global/head/images/global_feedback_bg.png?ver=2013121006") no-repeat; _background: url(http://h.yaolanimage.cn/global/head/images/global_feedback_bg8.png?ver=2013121006) no-repeat;
+}
+.globalFbQuoteLeft {
+	background: url("http://h.yaolanimage.cn/global/head/images/global_feedback_bg.png?ver=2013121006") no-repeat; _background: url(http://h.yaolanimage.cn/global/head/images/global_feedback_bg8.png?ver=2013121006) no-repeat;
+}
+.globalFbQuoteRight {
+	background: url("http://h.yaolanimage.cn/global/head/images/global_feedback_bg.png?ver=2013121006") no-repeat; _background: url(http://h.yaolanimage.cn/global/head/images/global_feedback_bg8.png?ver=2013121006) no-repeat;
+}
+#globalPopBg {
+	background: rgb(0, 0, 0); margin: 0px; padding: 0px; left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: fixed; z-index: 5000; opacity: 0.1; _position: absolute;
+}
+#globalFb {
+	background: rgb(255, 255, 255); font: 12px/1.75 Î¢ÈíÑÅºÚ, ËÎÌå, Arial, sans-serif; margin: -195px 0px 0px -215px; padding: 30px 35px; left: 50%; top: 50%; width: 390px; height: 330px; text-align: left; display: none; position: fixed; z-index: 5002; font-size-adjust: none; font-stretch: normal; box-shadow: -5px 0px 5px -5px #a7a7a7, 0px -5px 5px -5px #a7a7a7, 0px 5px 5px -5px #a7a7a7, 5px 0px 5px -5px #a7a7a7; _margin-bottom: 120px; _bottom: auto; _position: absolute;
+}
+#globalFbResult {
+	background: rgb(255, 255, 255); font: 12px/1.75 Î¢ÈíÑÅºÚ, ËÎÌå, Arial, sans-serif; margin: -150px 0px 0px -215px; padding: 30px 35px; left: 50%; top: 50%; width: 390px; height: 240px; text-align: left; display: none; position: fixed; z-index: 5003; font-size-adjust: none; font-stretch: normal; box-shadow: -5px 0px 5px -5px #a7a7a7, 0px -5px 5px -5px #a7a7a7, 0px 5px 5px -5px #a7a7a7, 5px 0px 5px -5px #a7a7a7; _margin-bottom: 120px; _bottom: auto; _position: absolute;
+}
+.globalFbClose {
+	background-position: -361px -74px; top: -19px; width: 39px; height: 39px; right: -19px; line-height: 999em; overflow: hidden; display: block; position: absolute;
+}
+.globalFbPm {
+	background-position: -168px 0px; top: -45px; width: 115px; height: 170px; right: 43px; overflow: hidden; display: block; position: absolute;
+}
+.globalFbPm {
+	background: url("http://h.yaolanimage.cn/global/head/images/global_feedback_bg2.png?23"); top: -71px; width: 170px; height: 180px; right: 6px; overflow: hidden; display: block; position: absolute; _background: url(http://h.yaolanimage.cn/global/head/images/global_feedback_bg82.png?23);
+}
+.globalFbWz {
+	color: rgb(51, 51, 51); font-size: 14px; margin-bottom: 30px;
+}
+.globalFbWz p {
+	margin: 0px;
+}
+.globalFbCon p {
+	margin: 0px;
+}
+.globalFbCon {
+	color: rgb(51, 51, 51); font-size: 14px;
+}
+.globalFbTips {
+	color: rgb(250, 125, 95);
+}
+.globalFbContent {
+	padding: 10px 40px 10px 24px; width: 330px; height: 98px; margin-bottom: 10px; position: relative;
+}
+.globalFbInput {
+	background-position: 0px -205px; border: 0px currentColor; border-image: none; left: 24px; top: 10px; width: 345px; height: 100px; color: rgb(85, 85, 85); line-height: 24px; overflow: hidden; font-family: Î¢ÈíÑÅºÚ; font-size: 14px; position: absolute; z-index: 1; -ms-word-break: break-all; -ms-word-wrap: break-word; resize: none;
+}
+.globalFbQuoteLeft {
+	width: 19px; height: 15px; display: block; position: absolute;
+}
+.globalFbQuoteRight {
+	width: 19px; height: 15px; display: block; position: absolute;
+}
+.globalFbQuoteLeft {
+	background-position: -312px 0px; left: 0px; top: 10px;
+}
+.globalFbQuoteRight {
+	background-position: -337px 0px; right: 0px; bottom: 10px;
+}
+.globalFbSuccess {
+	color: rgb(120, 198, 175); font-size: 36px; margin-bottom: 30px;
+}
+.globalFbEmailWz {
+	border: 0px currentColor; border-image: none; left: 0px; top: 0px; width: 300px; height: 24px; color: rgb(153, 153, 153); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; display: none; position: absolute; z-index: 2;
+}
+.globalFbEmailInput {
+	background: none; border: 0px currentColor; border-image: none; left: 0px; top: 0px; width: 345px; height: 24px; color: rgb(85, 85, 85); font-family: Î¢ÈíÑÅºÚ; font-size: 14px; position: absolute; -ms-word-break: break-all; -ms-word-wrap: break-word; resize: none;
+}
+.globalFbInput#globalFbEmailWz {
+	color: rgb(153, 153, 153);
+}
+.globalFbEmailInput#globalFbTextAreaTips {
+	color: rgb(153, 153, 153);
+}
+.globalFbEmailCon {
+	background-position: 0px -205px; margin: 10px 0px 10px 24px; width: 345px; height: 25px; overflow: hidden; position: relative;
+}
+.globalFbSubmit {
+	background-position: -290px -35px; margin: 12px auto 0px; border: 0px currentColor; border-image: none; width: 110px; height: 35px; display: block; cursor: pointer;
+}
+#globalFbResultBtn {
+	background-position: -290px -35px; margin: 12px auto 0px; border: 0px currentColor; border-image: none; width: 110px; height: 35px; display: block; cursor: pointer;
+}
+#globalFbResultBtn {
+	background-position: 0px -170px; width: 142px; line-height: 999em; overflow: hidden;
+}
+#globalFbError {
+	text-align: center; color: rgb(153, 153, 153); padding-top: 20px; display: none;
+}
+#globalFbError a {
+	color: rgb(120, 198, 176);
+}
+#globalGoTop {
+	background-position: -350px -118px; width: 50px; height: 50px; right: 10px; bottom: 188px; color: rgb(153, 153, 153); line-height: 999em; overflow: hidden; position: fixed; z-index: 999; cursor: pointer; _bottom: "auto"; _position: absolute;
+}
+a#globalGoTop:hover {
+	background-position: -350px -169px;
+}
+#globalFbButton {
+	background-position: -350px -227px; width: 50px; height: 27px; right: 10px; bottom: 150px; line-height: 999em; overflow: hidden; display: block; position: fixed; z-index: 999; cursor: pointer; _margin-bottom: 150px; _bottom: auto; _position: absolute;
+}
+a#globalFbButton:hover {
+	background-position: -350px -255px;
+}
+#wxFloat {
+	background: url("http://h.yaolanimage.cn/global/head/images/wx.png?ver=2013122505") no-repeat; width: 50px; height: 50px; right: 10px; bottom: 90px; margin-left: 500px; position: fixed; z-index: 999; cursor: pointer; _margin-bottom: 90px; _bottom: auto; _position: absolute;
+}
+#wxFloat:hover {
+	background: url("http://h.yaolanimage.cn/global/head/images/wx2.png?ver=2013122505") no-repeat;
+}
+#wxFloatHover {
+	background: url("http://h.yaolanimage.cn/global/head/images/2w.jpg?ver=2013122505") no-repeat; width: 80px; height: 80px; right: 70px; bottom: 90px; margin-left: 500px; display: none; position: fixed; z-index: 999; cursor: pointer; _margin-bottom: 90px; _bottom: auto; _position: absolute;
+}
+.globalMamaguess {
+	background: url("http://h.yaolanimage.cn/global/head/images/ylapp.jpg") no-repeat; width: 50px; height: 50px; right: 10px; bottom: 90px; line-height: 999em; overflow: hidden; margin-left: 500px; display: block; position: fixed; z-index: 999; cursor: pointer; _margin-bottom: 90px; _bottom: auto; _position: absolute;
+}
