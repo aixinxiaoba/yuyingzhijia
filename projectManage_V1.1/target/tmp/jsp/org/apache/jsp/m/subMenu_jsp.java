@@ -200,7 +200,7 @@ public final class subMenu_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t -->\r\n");
       out.write("\t\t</div>\r\n");
       out.write("\t</div>\r\n");
-      out.write("\t<script src=\"http://static.tianyaui.com/global/ty2.0/TY_m_2.0.js\"></script>\r\n");
+      out.write("\t<script src=\"/commons/js/tianya/TY_m_2.0.js\"></script>\r\n");
       out.write("\t<script src=\"/commons/js/tianya/main.js\"></script>\r\n");
       out.write("\t<script src=\"/commons/js/tianya/index2.js?20160414\"></script>\r\n");
       out.write("\r\n");

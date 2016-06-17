@@ -647,7 +647,7 @@ QucickFun = BBSMain.QucickFun,
 checkVip = {
     check: function() {
         __global.isVipUser(function(t) {
-            1 != t && TY.loadUrl("http://static.tianyaui.com/global/m/v3/static/js/mod/extra_0a740d7.js",
+            1 != t && TY.loadUrl("commons/js/tianya/extra_0a740d7.js",
             function() {
                 $("#j-bbs-post")[0] && bbsShowApp.init()
             })
@@ -732,9 +732,9 @@ goWeb = BBSMain.goWeb;
 $("body").ready(function(t) {
     checkVip.check(),
     Trace(),
-    t("#j-post-content").size() || new QucickFun,
-    t.loadUrl("http://static.tianyaui.com/global/ty/stat/stat_20080313.js"),
-    t.loadUrl("http://hm.baidu.com/h.js?bc5755e0609123f78d0e816bf7dee255");
+    t("#j-post-content").size() || new QucickFun;
+    //t.loadUrl("http://static.tianyaui.com/global/ty/stat/stat_20080313.js"),
+    //t.loadUrl("http://hm.baidu.com/h.js?bc5755e0609123f78d0e816bf7dee255");
     var n = null; (n = t("#j-bbs-hotpost")) && n && n.size() && n.delegate(".rank-list a", "click",
     function() {
         BBSMain.clickStat("ç­å¸æ¦")
