@@ -291,7 +291,7 @@ public class NewsServiceImpl extends BaseServiceImpl<News> implements
 				String nPageSize = "10";
 				
 				pageCount = this.sizeBySql(" select id from news where mid= " + curProjectMenu.getlId());
-				if (pageCount > 0 && curProjectMenu.getlId() == 5)
+				if (pageCount > 0)
 				{
 					for (int i = 1; i <= pageCount; i++)
 					{
@@ -307,6 +307,8 @@ public class NewsServiceImpl extends BaseServiceImpl<News> implements
 						// 生成静态化文件 文件命名：子菜单+文件名
 						objFreemarkerUtils.createFile("mobile/sub_menu_news_page.ftl", mapInData, "static/m/p/" + curProjectMenu.getlId() + "_" + i + ".html");
 					}
+					
+					Thread.sleep(1000*60);
 				}
 			}
 			

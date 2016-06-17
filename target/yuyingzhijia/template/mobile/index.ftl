@@ -39,7 +39,7 @@
 				<li class="current"><a refcode="wap-nav-home" href="/static/m/index.html">首页</a></li>
 				<#list lstProjectMenu as projectMenu>
 				    <#if projectMenu_index < 4>
-				    	<li><a refcode="wap-nav-group" href="/front/m/subMenuShow.do?lProjectMenuID=${projectMenu.lId }">${projectMenu.mobileMenuName }</a></li>
+				    	<li><a refcode="wap-nav-group" href="/static/m/${projectMenu.lId }.html">${projectMenu.mobileMenuName }</a></li>
 				    </#if>
 				</#list>
 			</ul>
@@ -47,7 +47,7 @@
 			    <#list lstProjectMenu as projectMenu>
 			        <#if projectMenu_index < 4>
 					<#elseif projectMenu_index <=8>
-				    	<li><a refcode="wap-nav-group" href="/front/m/subMenuShow.do?lProjectMenuID=${projectMenu.lId }">${projectMenu.mobileMenuName }</a></li>
+				    	<li><a refcode="wap-nav-group" href="/static/m/${projectMenu.lId }.html">${projectMenu.mobileMenuName }</a></li>
 					</#if>
 				</#list>
 			</ul>
@@ -77,7 +77,7 @@
 			<ul class="list-info fn-mlr" id="newslist">
 			    <#list lstRollingOfReading as news>
 			    	<li>
-			    		<a href="/front/yuyingshi/detail.do?newsID=<s:property value='lId'/>"> 
+			    		<a href="/front/yuyingshi/detail.do?newsID=${news.lId}"> 
 			    		<#if news.imageUrl??>
 							<img src="/commons/images/defaultpic.gif" />
 						<#else>

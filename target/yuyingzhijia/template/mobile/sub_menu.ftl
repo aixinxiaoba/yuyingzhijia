@@ -20,8 +20,8 @@
 <SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
 <script type="text/javascript">
 $(function(){
-	$("#rec_div").load("/static/m/newest/"+$("#firstMenu").val()+".html");
-	$("#j-slider-home").load("/static/m/scroll/${objProjectMenu.lId }.html");
+	$("#rec_div").load("http://yuyingzhijia.cn/static/m/newest/"+$("#firstMenu").val()+".html");
+	$("#j-slider-home").load("http://yuyingzhijia.cn/static/m/scroll/${objProjectMenu.lId }.html");
 });
 </script>
 </head>
@@ -33,7 +33,7 @@ $(function(){
 			<header class="m-header" id="j-header">
 				<div class="m-bar f-cf">
 					<ul class="m-bar-center" id="ty_logo">
-						<li class="logo"><a href="${basePath}front/m/index.do"
+						<li class="logo"><a href="/static/m/index.html"
 							class="logo-img"><span class="f-vh">育婴之家网</span></a></li>
 					</ul>
 					<ul class="m-bar-right user-info"></ul>
@@ -43,7 +43,7 @@ $(function(){
 			<nav id="ty_nav" class="m-nav">
 				<div class="nav-wrap show">
 					<div class="m-nav-row">
-						<a appstr="shouye" href="${basePath}front/m/index.do">首页</a>
+						<a appstr="shouye" href="/static/m/index.html">首页</a>
 						<#list lstMainProjectMenu as projectMenu>
 						    <#if projectMenu_index < 4>
 				    			<a appstr="shouye"
