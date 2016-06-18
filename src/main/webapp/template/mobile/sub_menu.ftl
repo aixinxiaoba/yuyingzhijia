@@ -20,8 +20,8 @@
 <SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
 <script type="text/javascript">
 $(function(){
-	$("#rec_div").load("http://yuyingzhijia.cn/static/m/newest/"+$("#firstMenu").val()+".html");
-	$("#j-slider-home").load("http://yuyingzhijia.cn/static/m/scroll/${objProjectMenu.lId }.html");
+	$("#rec_div").load("/static/m/newest/"+$("#firstMenu").val()+".html");
+	$("#j-slider-home").load("/static/m/scroll/${objProjectMenu.lId }.html");
 });
 </script>
 </head>

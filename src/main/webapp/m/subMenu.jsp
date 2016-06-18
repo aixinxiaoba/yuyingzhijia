@@ -28,8 +28,8 @@
 <SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
 <script type="text/javascript">
 $(function(){
-	$("#rec_div").load("/static/m/newest/"+$("#firstMenu").val()+".html");
 	$("#j-slider-home").load("/static/m/scroll/${objProjectMenu.lId }.html");
+	$("#rec_div").load("/static/m/newest/"+$("#firstMenu").val()+".html");
 });
 </script>
 </head>
@@ -70,7 +70,7 @@ $(function(){
 							<s:if test="#myStatus.index >= 4">
 								<a appstr="shouye"
 									href="/front/m/subMenuShow.do?lProjectMenuID=${projectMenu.lId }"
-									class='<s:if test="objProjectMenu.lId===#projectMenu.lId">active</s:if><s:else>""</s:else>'>
+									class='<s:if test="objProjectMenu.lId==#projectMenu.lId">active</s:if><s:else>""</s:else>'>
 									<s:property value="mobileMenuName" />
 								</a>
 							</s:if>
