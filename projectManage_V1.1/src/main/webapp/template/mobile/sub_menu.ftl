@@ -21,7 +21,7 @@
 <script type="text/javascript">
 $(function(){
 	$("#rec_div").load("/static/m/newest/"+$("#firstMenu").val()+".html");
-	$("#j-slider-home").load("/static/m/scroll/${objProjectMenu.lId }.html");
+	// $("#j-slider-home").load("/static/m/scroll/${objProjectMenu.lId }.html");
 });
 </script>
 </head>
@@ -75,7 +75,18 @@ $(function(){
 		<div class="m-main">
 			<div class="u-slider u-slider-home">
 			    <!-- 滚动图片显示 -->
-				<div class="sliderbox gg gg-item" id="j-slider-home" ></div>
+				<div class="sliderbox gg gg-item" id="j-slider-home" >
+					<#list lstRollingOfReading as news>
+						<div class="item">
+							<a href="/front/yuyingshi/detail.do?newsID=${news.lId}">
+								<img lazyload="${news.imageUrl}" />
+							</a>
+							<p class="caption">
+								${news.strLongTitleTwo}
+							</p>
+						</div>
+					</#list>
+				</div>
 			</div>
 			<div class="u-box">
 				<a name="type"></a>

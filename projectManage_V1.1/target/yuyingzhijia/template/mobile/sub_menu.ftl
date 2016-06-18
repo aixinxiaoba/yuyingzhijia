@@ -21,7 +21,7 @@
 <script type="text/javascript">
 $(function(){
 	$("#rec_div").load("/static/m/newest/"+$("#firstMenu").val()+".html");
-	$("#j-slider-home").load("/static/m/scroll/${objProjectMenu.lId }.html");
+	// $("#j-slider-home").load("/static/m/scroll/${objProjectMenu.lId }.html");
 });
 </script>
 </head>
@@ -68,7 +68,18 @@ $(function(){
 					</div>
 				</div>
 			</nav>
-			<div class="nav-mask" id="nav_mask"></div>
+			<div class="nav-mask" id="nav_mask">
+				 <#list lstRollingOfReading as news>
+					<div class="item">
+						<a href="/front/yuyingshi/detail.do?newsID=${news.lId}">
+							<img lazyload="${news.imageUrl}" />
+						</a>
+						<p class="caption">
+							${news.strLongTitleTwo}
+						</p>
+					</div>
+				</#list>
+			</div>
 		</div>
 		<!-- For FIS -->
 		<!-- main 头部图片循环显示 -->
