@@ -490,10 +490,14 @@ public class CS{
       out.write("\t\t<DIV class=\"nav_header_wrap_fix\">\r\n");
       out.write("\t\t\t<A class=\"nav_header_right\" href=\"/front/m/nav.do\"><IMG src=\"/m/common/gm/header_nav_btn.png\"></A>\r\n");
       out.write("\t\t\t<DIV class=\"nav_header_center_n\" style=\"color:#fff\">\r\n");
-      out.write("\t\t\t\t<a class=\"home\" href=\"/front/m/index.do\"></a>\r\n");
-      out.write("<!-- \t\t\t\t <a class=\"home\" href=\"/static/m/index.html\"></a> -->\r\n");
+      out.write("<!-- \t\t\t\t<a class=\"home\" href=\"/front/m/index.do\"></a> -->\r\n");
+      out.write("\t\t\t\t <a class=\"home\" href=\"/static/m/index.html\"></a>\r\n");
       out.write("\t\t\t   <div style=\"margin-left:50px;\">\r\n");
       out.write("\t\t\t   \t\r\n");
+      out.write('\r');
+      out.write('\n');
+      out.write("\r\n");
+      out.write("\t\t\t\t\t\r\n");
       out.write("\t\t\t   \t<A style=\"font-size:18px;float:left;\" class=\"nav_header_breadcrumbs\" href=\"/front/m/subMenuShow.do?lProjectMenuID=");
       out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${objNews.objProjectMenu.objParentProjectMenu.lId}", java.lang.String.class, (PageContext)_jspx_page_context, null));
       out.write("\"\r\n");

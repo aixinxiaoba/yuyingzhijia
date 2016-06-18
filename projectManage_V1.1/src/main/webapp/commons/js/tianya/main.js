@@ -647,7 +647,7 @@ QucickFun = BBSMain.QucickFun,
 checkVip = {
     check: function() {
         __global.isVipUser(function(t) {
-            1 != t && TY.loadUrl("commons/js/tianya/extra_0a740d7.js",
+            1 != t && TY.loadUrl("/commons/js/tianya/extra_0a740d7.js",
             function() {
                 $("#j-bbs-post")[0] && bbsShowApp.init()
             })

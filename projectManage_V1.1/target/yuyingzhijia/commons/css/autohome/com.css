@@ -405,10 +405,12 @@ html {
 }
 
 .icon::before {
+	/*
 	content: "";
 	display: inline-block;
 	background: url(../images/defaultpic.gif) no-repeat;
 	background-size: 1.875rem auto
+	*/
 }
 
 .icon-home::before {
@@ -533,9 +535,11 @@ html {
 .carousel-images, .list-info img, .list-video img, .list-bbs img,
 	.list-thumb img, .homepage-pgc li.thumbtext img, .homepage-pgc li.video img,
 	.homepage-mall .new-car img {
+	/*
 	background: url(../../images/defaultpic.gif) center
 		center no-repeat;
 	background-size: 100px auto
+	*/
 }
 
 .homepage-todesk::after {

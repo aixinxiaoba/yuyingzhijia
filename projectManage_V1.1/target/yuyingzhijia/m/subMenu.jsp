@@ -155,7 +155,7 @@ $(function(){
 			 -->
 		</div>
 	</div>
-	<script src="/commons/js/tianya/main.js/TY_m_2.0.js"></script>
+	<script src="/commons/js/tianya/TY_m_2.0.js"></script>
 	<script src="/commons/js/tianya/main.js"></script>
 	<script src="/commons/js/tianya/index2.js?20160414"></script>
 

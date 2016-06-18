@@ -96,10 +96,11 @@ public final class subMenu_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<SCRIPT src=\"/m/common/gm/jquery.js\"></SCRIPT>\r\n");
       out.write("<script type=\"text/javascript\">\r\n");
       out.write("$(function(){\r\n");
-      out.write("\t$(\"#rec_div\").load(\"/static/m/newest/\"+$(\"#firstMenu\").val()+\".html\");\r\n");
       out.write("\t$(\"#j-slider-home\").load(\"/static/m/scroll/");
       out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${objProjectMenu.lId }", java.lang.String.class, (PageContext)_jspx_page_context, null));
       out.write(".html\");\r\n");
+      out.write("\t$(\"#rec_div\").load(\"/static/m/newest/\"+$(\"#firstMenu\").val()+\".html\");\r\n");
+      out.write("\t\r\n");
       out.write("});\r\n");
       out.write("</script>\r\n");
       out.write("</head>\r\n");
@@ -517,7 +518,7 @@ public final class subMenu_jsp extends org.apache.jasper.runtime.HttpJspBase
     org.apache.struts2.views.jsp.IfTag _jspx_th_s_if_3 = (org.apache.struts2.views.jsp.IfTag) _jspx_tagPool_s_if_test.get(org.apache.struts2.views.jsp.IfTag.class);
     _jspx_th_s_if_3.setPageContext(_jspx_page_context);
     _jspx_th_s_if_3.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_if_2);
-    _jspx_th_s_if_3.setTest("objProjectMenu.lId===#projectMenu.lId");
+    _jspx_th_s_if_3.setTest("objProjectMenu.lId==#projectMenu.lId");
     int _jspx_eval_s_if_3 = _jspx_th_s_if_3.doStartTag();
     if (_jspx_eval_s_if_3 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
       if (_jspx_eval_s_if_3 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
