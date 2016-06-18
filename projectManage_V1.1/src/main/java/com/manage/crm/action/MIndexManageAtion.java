@@ -511,7 +511,8 @@ public class MIndexManageAtion extends BaseStruts2Action {
 //			this.lstYuYingSkill = objNewsService.listBySql(" select a.* from News a,newstagrela b where a.id=b.nid and b.ntid=" + NewsTag.G_YUYINGSKILL + " ORDER BY a.id desc LIMIT " + Pagination.PAGE_SIZE_RIGHT);
 			
 			// 滚动图片 加载前5个(id倒序)。Rolling 
-			this.lstRollingOfReading = objNewsService.listBySql(" SELECT * FROM news s WHERE s.mid in (select id from projectmenu s2 where s2.parid='"+lProjectMenuID+"') and s.`imageurl` IS NOT NULL and s.imageurl != '' ORDER BY s.`ID` DESC LIMIT 5");
+//			this.lstRollingOfReading = objNewsService.listBySql(" SELECT * FROM news s WHERE s.mid in (select id from projectmenu s2 where s2.parid='"+lProjectMenuID+"') and s.`imageurl` IS NOT NULL and s.imageurl != '' ORDER BY s.`ID` DESC LIMIT 5");
+			this.lstRollingOfReading = objNewsService.lstScrollImgByParMenuId(lProjectMenuID, Pagination.PAGE_SIZE_5);
 			// 设置当前选中菜单。
 			strCurMenu = "index"; // 首页
 			getRequest().setAttribute("mid", lstProjectMenu.get(0).getlId());
