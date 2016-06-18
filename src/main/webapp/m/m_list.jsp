@@ -35,6 +35,7 @@ $(function(){
 function nextPage(data)
 {
 	$("#type_div").load("/static/m/p/" + data + ".html");
+	$("#rec_div").hide();
 }
 </script>
 </head>
