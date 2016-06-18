@@ -73,7 +73,7 @@ $(function(){
 		<!-- For FIS -->
 		<!-- main 头部图片循环显示 -->
 		<div class="m-main">
-			<div class="u-slider u-slider-home">
+	    	<div class="u-slider u-slider-home">
 			    <!-- 滚动图片显示 -->
 				<div class="sliderbox gg gg-item" id="j-slider-home" >
 					<#list lstRollingOfReading as news>
@@ -88,6 +88,7 @@ $(function(){
 					</#list>
 				</div>
 			</div>
+			
 			<div class="u-box">
 				<a name="type"></a>
 				<div class="see-wrap">
@@ -115,8 +116,10 @@ $(function(){
 			<div class="u-box" id="dashang_div">
 				<div class="u-hd f-cf">
 					<h2>阅读排行</h2>
+					<!--
 					<a href="http://shang.tianya.cn/rank/m/dsRanking.do?from=t&type=1"
 						class="u-hd-more">排行榜>></a>
+					-->
 				</div>
 				<div class="u-bd">
 					<ul class="u-list-shang">

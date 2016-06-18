@@ -293,10 +293,11 @@ public class NewsServiceImpl extends BaseServiceImpl<News> implements
 				pageCount = this.sizeBySql(" select id from news where mid= " + curProjectMenu.getlId());
 				if (pageCount > 0)
 				{
-					for (int i = 1; i <= pageCount; i++)
+					objPagination.setTotal(pageCount);
+					objPagination.setPageSize(Integer.parseInt(nPageSize));
+					for (int i = 1; i <= objPagination.getMaxPage(); i++)
 					{
 						objPagination.setPageNo(i);
-						objPagination.setPageSize(Integer.parseInt(nPageSize));
 						// 组装查询条件。
 						Criterion objSQLCondition = Restrictions.sqlRestriction(" mid =" + curProjectMenu.getlId());
 						lstCurNews = this.listByCriteria(objPagination, new SearchCondition(objSQLCondition, null), Order.desc("strSendDate"));

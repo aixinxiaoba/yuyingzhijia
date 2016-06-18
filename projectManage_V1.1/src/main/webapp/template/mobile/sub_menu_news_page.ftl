@@ -9,12 +9,19 @@
 			</li>
 		</#list>
 	</ul>
-	
-    <div id="j-look-more" class="u-more">
+    <div id="j-look-more" class="u-more" style="margin-right:30px;margin-left:30px;margin-bottom:10px;">
 	    <#if lastPage?? >
-	    	<span onclick="nextPage('${mid}_${lastPage}')">上一页<i class="more_face">☺</i></span>&nbsp;&nbsp;&nbsp;
+	    	<#if nextPage?? >
+	    		<span onclick="nextPage('${mid}_${lastPage}')"  style="float:left">上一页<i class="more_face">☺</i></span>
+		    <#else>
+		    	<span onclick="nextPage('${mid}_${lastPage}')">上一页<i class="more_face">☺</i></span>
+		    </#if>
 	    </#if>
 		<#if nextPage?? >
-	    	<span onclick="nextPage('${mid}_${nextPage}')">下一页<i class="more_face">☺</i></span>
+			<#if lastPage?? >
+	    		<span onclick="nextPage('${mid}_${nextPage}')" style="float:right">下一页<i class="more_face">☺</i></span>
+		    <#else>
+	    		<span onclick="nextPage('${mid}_${nextPage}')">下一页<i class="more_face">☺</i></span>
+		    </#if>
 	    </#if>	    
 </section>
