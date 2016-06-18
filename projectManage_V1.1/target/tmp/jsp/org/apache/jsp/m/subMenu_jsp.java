@@ -100,7 +100,6 @@ public final class subMenu_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${objProjectMenu.lId }", java.lang.String.class, (PageContext)_jspx_page_context, null));
       out.write(".html\");\r\n");
       out.write("\t$(\"#rec_div\").load(\"/static/m/newest/\"+$(\"#firstMenu\").val()+\".html\");\r\n");
-      out.write("\t\r\n");
       out.write("});\r\n");
       out.write("</script>\r\n");
       out.write("</head>\r\n");
