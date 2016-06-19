@@ -567,13 +567,13 @@ public class MIndexManageAtion extends BaseStruts2Action {
 		}
 		
 		// 获取项目子菜单。
-		objSubProjectMenu = this.objProjectMenuService.getByHql(" from ProjectMenu where id='" + this.menuID + "'");
+//		objSubProjectMenu = this.objProjectMenuService.getByHql(" from ProjectMenu where id='" + this.menuID + "'");
 		if (objSubProjectMenu == null) {
 			setErrorText("无法获取您的菜单信息，请检查后重试！");
 			return COMMON_ERROR;
 		}
 		
-		lProjectMenuID = objSubProjectMenu.getObjParentProjectMenu().getlId();
+//		lProjectMenuID = objSubProjectMenu.getObjParentProjectMenu().getlId();
 		// 获取项目主菜单。
 //		this.objProjectMenu = this.objSubProjectMenu.getObjParentProjectMenu();
 //		
@@ -590,7 +590,7 @@ public class MIndexManageAtion extends BaseStruts2Action {
 		
 		try {
 //			Pagination<News> objPagination = new Pagination<News>();
-			lstRollingOfReading = objNewsService.lstScrollImgByMenuId(lProjectMenuID, Pagination.PAGE_SIZE_5);
+			lstRollingOfReading = objNewsService.lstScrollImgByMenuId(menuID, Pagination.PAGE_SIZE_5);
 			// 加载育婴师最新发布动态 获取前9个
 			//setNewestMessage();
 			
