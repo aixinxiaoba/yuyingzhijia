@@ -561,13 +561,13 @@ public class YuYingShiManageAtion extends BaseStruts2Action {
 			objNews.setStaticFlag(0);
 			objNewsService.update(objNews);
 			
-			logger.info("开始向百度推送url");
-			String url = "http://data.zz.baidu.com/urls?site=www.yuyingzhijia.cn&token=aHy5BwoLTA7ZGSUJ";//网站的服务器连接
-			String[] param = {"http://www.yuyingzhijia.cn/static/news/" + this.objNews.getlId(),// pc端
-					"http://www.yuyingzhijia.cn/static/m_news/" + this.objNews.getlId()//mobile 端
-			};
-			String json = Post(url, param);//执行推送方法
-			logger.info(json);
+//			logger.info("开始向百度推送url");
+//			String url = "http://data.zz.baidu.com/urls?site=www.yuyingzhijia.cn&token=aHy5BwoLTA7ZGSUJ";//网站的服务器连接
+//			String[] param = {"http://www.yuyingzhijia.cn/static/news/" + this.objNews.getlId(),// pc端
+//					"http://www.yuyingzhijia.cn/static/m_news/" + this.objNews.getlId()//mobile 端
+//			};
+//			String json = Post(url, param);//执行推送方法
+//			logger.info(json);
 			
 		} catch (Exception e) {
 			e.printStackTrace();
