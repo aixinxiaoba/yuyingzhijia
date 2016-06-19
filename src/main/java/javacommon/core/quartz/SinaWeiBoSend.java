@@ -3,8 +3,6 @@ package javacommon.core.quartz;
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -25,6 +23,7 @@ import weibo4j.org.json.JSONObject;
 
 import com.manage.crm.entity.Customer;
 import com.manage.crm.entity.News;
+import com.manage.crm.entity.ProjectMenu;
 import com.manage.crm.service.AttachsService;
 import com.manage.crm.service.CustomerService;
 import com.manage.crm.service.NewsService;
@@ -118,11 +117,14 @@ public class SinaWeiBoSend {
 			statuses = statuses.replace("&n", "");
 			objNews.setStrSummary(statuses);
 			
+			ProjectMenu objProjectMenu = this.objProjectMenuService.getBySql("select * from projectmenu where id=(select mid from news where id="+objNews.getlId()+") ");
 			statuses = "【" + objNews.getStrTitle() + "】"+ statuses;
-			if (statuses.length() > 110)
-			{
-				statuses = statuses.substring(0, 110);
-			}
+			// 增加话题
+			statuses = "#育婴知识分享-" + objProjectMenu.getStrMenuName() + "#" + statuses;
+//			if (statuses.length() > 110)
+//			{
+//				statuses = statuses.substring(0, 110);
+//			}
 			statuses = statuses + "..." + strShortURL;
 			tm = new Timeline(access_token);
 			
