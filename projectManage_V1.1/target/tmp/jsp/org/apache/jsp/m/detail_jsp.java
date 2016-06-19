@@ -488,7 +488,8 @@ public class CS{
       out.write("<BODY class=\"bg_1\">\r\n");
       out.write("\t<div>\r\n");
       out.write("\t\t<DIV class=\"nav_header_wrap_fix\">\r\n");
-      out.write("\t\t\t<A class=\"nav_header_right\" href=\"/front/m/nav.do\"><IMG src=\"/m/common/gm/header_nav_btn.png\"></A>\r\n");
+      out.write("<!-- \t\t\t<A class=\"nav_header_right\" href=\"/front/m/nav.do\"><IMG src=\"/m/common/gm/header_nav_btn.png\"></A> -->\r\n");
+      out.write("\t\t\t<A class=\"nav_header_right\" href=\"/static/m/nav.html\"><IMG src=\"/m/common/gm/header_nav_btn.png\"></A>\r\n");
       out.write("\t\t\t<DIV class=\"nav_header_center_n\" style=\"color:#fff\">\r\n");
       out.write("<!-- \t\t\t\t<a class=\"home\" href=\"/front/m/index.do\"></a> -->\r\n");
       out.write("\t\t\t\t <a class=\"home\" href=\"/static/m/index.html\"></a>\r\n");
