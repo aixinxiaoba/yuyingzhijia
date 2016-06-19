@@ -567,7 +567,7 @@ public class MIndexManageAtion extends BaseStruts2Action {
 		}
 		
 		// 获取项目子菜单。
-//		objSubProjectMenu = this.objProjectMenuService.getByHql(" from ProjectMenu where id='" + this.menuID + "'");
+		objSubProjectMenu = this.objProjectMenuService.getByHql(" from ProjectMenu where id='" + this.menuID + "'");
 		if (objSubProjectMenu == null) {
 			setErrorText("无法获取您的菜单信息，请检查后重试！");
 			return COMMON_ERROR;
