@@ -396,6 +396,33 @@ public class MStaticDisposalAtion extends BaseStruts2Action {
 		toWeb(Action.SUCCESS);
 	}
 
+	/**
+	 * 移动端导航。
+	 * 
+	 * @return
+	 * @throws IOException 
+	 */
+	public void nav() throws IOException
+	{
+		try {
+			lstProjectMenu = this.objProjectMenuService.lstValidProjectMenu();
+			// 生成静态化文件
+			FreemarkerUtils objFreemarkerUtils = new FreemarkerUtils();
+			objFreemarkerUtils.init(getRequest().getSession().getServletContext());
+			Map<String, Object> mapInData = new HashMap<String, Object>();
+			
+			// 项目菜单
+			mapInData.put("lstProjectMenu", this.lstProjectMenu);
+			// 查询条件。
+			objFreemarkerUtils.init(getRequest().getSession().getServletContext());
+			objFreemarkerUtils.createFile("mobile/nav.ftl", mapInData, "static/m/nav.html");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		toWeb(Action.SUCCESS);
+	}
+	
 	public Long getProjectMenuID() {
 		return projectMenuID;
 	}

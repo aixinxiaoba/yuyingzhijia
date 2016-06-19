@@ -89,6 +89,10 @@ public final class pageStatic_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t{\r\n");
       out.write("\t\tstrFlag = \"subMenuPageStatic\";\r\n");
       out.write("\t}\r\n");
+      out.write("\telse if (flag == 9)\r\n");
+      out.write("\t{\r\n");
+      out.write("\t\tstrFlag = \"nav\";\r\n");
+      out.write("\t}\r\n");
       out.write("\t$(\"#div_data\").hide();\r\n");
       out.write("\t$(\"#div_msg\").show();\r\n");
       out.write("\tstrURL = strURL + strFlag + \".do\";\r\n");
@@ -131,8 +135,8 @@ public final class pageStatic_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t\t<li>5、移动端子菜单最新滚动知识静态化：<input type=\"button\" value=\"执行\" onclick=\"pageStatic(5);\"/></li>\r\n");
       out.write("\t\t\t\t<li>6、移动端静态化指定一级菜单下的滚动图片：<input type=\"text\" value=\"\" /><input type=\"button\" value=\"执行\" onclick=\"pageStatic(6);\"/></li>\r\n");
       out.write("\t\t\t\t<li>7、移动端静态化二级级菜单下的滚动图片：<input type=\"button\" value=\"执行\" onclick=\"pageStatic(7);\"/></li>\r\n");
-      out.write("\t\t\t\t<li>8、移动端静态化二级级菜单下的滚动图片：<input type=\"button\" value=\"执行\" onclick=\"pageStatic(8);\"/></li>\r\n");
-      out.write("\t\t\t\t\r\n");
+      out.write("\t\t\t\t<li>8、移动端二级菜单下所有知识分页：<input type=\"button\" value=\"执行\" onclick=\"pageStatic(8);\"/></li>\r\n");
+      out.write("\t\t\t\t<li>9、移动端导航静态化：<input type=\"button\" value=\"执行\" onclick=\"pageStatic(9);\"/></li>\r\n");
       out.write("\t\t\t</ul>\r\n");
       out.write("\t\t</div>\r\n");
       out.write("\t\t<div id=\"btm_start_cap\" style=\"margin-top:40px;\">\r\n");

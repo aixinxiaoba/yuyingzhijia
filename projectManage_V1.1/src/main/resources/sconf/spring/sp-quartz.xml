@@ -48,7 +48,7 @@
   	<!-- =====================微博定时任务配置 start =========================-->
   	<bean id="sinaWeiBoSendTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
  		<property name="jobDetail" ref="sinaWeiBoSendTask" />
- 		<property name="cronExpression" value="0 0-59 * * * ?" />
+ 		<property name="cronExpression" value="0 0 0 1 * ?" />
  	</bean>
 	<bean name="sinaWeiBoSendTask" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
 		<property name="targetObject" ref="sinaWeiBoSend" />
