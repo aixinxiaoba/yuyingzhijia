@@ -375,11 +375,11 @@ function loadComments()
 				 <a class="home" href="/static/m/index.html"></a>
 			   <div style="margin-left:50px;">
 			   	
-<%-- 			   	<A style="font-size:18px;float:left;" class="nav_header_breadcrumbs" href="/static/m/${objNews.objProjectMenu.objParentProjectMenu.lId}.html" --%>
-<%-- 					target="_self">${objNews.objProjectMenu.objParentProjectMenu.mobileMenuName}</A> --%>
-					
-			   	<A style="font-size:18px;float:left;" class="nav_header_breadcrumbs" href="/front/m/subMenuShow.do?lProjectMenuID=${objNews.objProjectMenu.objParentProjectMenu.lId}"
+			   	<A style="font-size:18px;float:left;" class="nav_header_breadcrumbs" href="/static/m/${objNews.objProjectMenu.objParentProjectMenu.lId}.html"
 					target="_self">${objNews.objProjectMenu.objParentProjectMenu.mobileMenuName}</A>
+					
+<%-- 			   	<A style="font-size:18px;float:left;" class="nav_header_breadcrumbs" href="/front/m/subMenuShow.do?lProjectMenuID=${objNews.objProjectMenu.objParentProjectMenu.lId}" --%>
+<%-- 					target="_self">${objNews.objProjectMenu.objParentProjectMenu.mobileMenuName}</A> --%>
 					
 			   	 <%--
 			   	 <A style="font-size:18px;float:left;" class="nav_header_breadcrumbs" href="/static/m/${objNews.objProjectMenu.objParentProjectMenu.menuKey}"

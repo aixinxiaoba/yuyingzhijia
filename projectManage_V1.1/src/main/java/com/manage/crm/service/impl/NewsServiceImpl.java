@@ -301,7 +301,7 @@ public class NewsServiceImpl extends BaseServiceImpl<News> implements
 						// 组装查询条件。
 						Criterion objSQLCondition = Restrictions.sqlRestriction(" mid =" + curProjectMenu.getlId());
 						lstCurNews = this.listByCriteria(objPagination, new SearchCondition(objSQLCondition, null), Order.desc("strSendDate"));
-						mapInData.put("nextPage", (i+1)<=pageCount ? (i+1) + "" : null);
+						mapInData.put("nextPage", (i+1)<pageCount ? (i+1) + "" : null);
 						mapInData.put("lastPage", i >  1 ? (i-1) + "" : null);
 						mapInData.put("mid", curProjectMenu.getlId());
 						mapInData.put("lstNews", lstCurNews);
@@ -309,7 +309,7 @@ public class NewsServiceImpl extends BaseServiceImpl<News> implements
 						objFreemarkerUtils.createFile("mobile/sub_menu_news_page.ftl", mapInData, "static/m/p/" + curProjectMenu.getlId() + "_" + i + ".html");
 					}
 					
-					Thread.sleep(1000*60);
+					//Thread.sleep(1000*60);
 				}
 			}
 			

@@ -69,17 +69,17 @@ public class SinaWeiBoSend {
 
 	public void execute() {
 		try {
-			logger.info("==========================2895295707微博定时发送开始=========================");
+			logger.info("==========================【育婴之家网】微博定时发送开始=========================");
 			send("2895295707"); // 育婴之家网
-			logger.info("==========================2895295707微博定时发送结束=========================");
-			Thread.sleep(10*60000L); // 十分钟后触发
-			logger.info("==========================5601769804微博定时发送开始=========================");
+			logger.info("==========================【育婴之家网】微博定时发送结束=========================");
+//			Thread.sleep(10*60000L); // 十分钟后触发
+			logger.info("==========================【育婴知识分享网】微博定时发送开始=========================");
 			send("5601769804"); // 育婴知识分享网
-			logger.info("==========================5601769804微博定时发送结束=========================");
-			Thread.sleep(10*60000L); // 十分钟后触发
-			logger.info("==========================5601769804微博定时发送开始=========================");
-			send("4148667325"); // 育婴知识分享网
-			logger.info("==========================5601769804微博定时发送结束=========================");
+			logger.info("==========================【育婴知识分享网】微博定时发送结束=========================");
+//			Thread.sleep(10*60000L); // 十分钟后触发
+			logger.info("==========================【知识分享网】微博定时发送开始=========================");
+			send("3216094902"); // 知识分享网
+			logger.info("==========================【知识分享网】微博定时发送结束=========================");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -99,6 +99,11 @@ public class SinaWeiBoSend {
 		String strShortURL = null;
 		
 		try {
+			// 如果有图信息为空则取无图信息发送。
+			if (objNews == null)
+			{
+				objNews = this.objNewsService.getBySql("select * from News where sendStatus=0 and mid not in(34,2) and imageurl is not null ");
+			}
 			// 生成短链接。
 			ShortUrl su = new ShortUrl(access_token);
 			String url = "http://yuyingzhijia.cn/front/yuyingshi/detail.do?newsID=" + objNews.getlId();
@@ -136,6 +141,12 @@ public class SinaWeiBoSend {
 				// 普通微博发送
 				status = tm.updateStatus(statuses);
 			}
+			
+			logger.info("=======================微博发送状态：" + status.toString());
+			// 更新文章发布状态。
+			objNews.setSendStatus(1);
+			objNews.setShortURL(strShortURL);
+			this.objNewsService.update(objNews);
 		} catch (Exception e) {
 			try {
 				logger.error("=======================微博发送异常，异常信息：" + e.getMessage());
@@ -144,15 +155,12 @@ public class SinaWeiBoSend {
 				objNews.setSendStatus(0);
 				objNews.setShortURL(strShortURL);
 				this.objNewsService.update(objNews);
+//				e.printStackTrace();
 			} catch (WeiboException e1) {
 				e1.printStackTrace();
 			}
 		} finally {
-			logger.info("=======================微博发送状态：" + status.toString());
-			// 更新文章发布状态。
-			objNews.setSendStatus(1);
-			objNews.setShortURL(strShortURL);
-			this.objNewsService.update(objNews);
+			
 		}
 	}
 	

@@ -1900,8 +1900,12 @@ keyframes praisepoint { 0%{
 
 .footer {
 	padding: 1rem 0;
-	background-color: #2f75bb;
+	background-color: #47c18e;
 	line-height: 1
+}
+
+.footer a{
+	color:#fff;
 }
 
 .footer .switch, .footer .suggest {

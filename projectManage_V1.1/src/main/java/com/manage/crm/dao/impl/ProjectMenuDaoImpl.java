@@ -30,7 +30,7 @@ public class ProjectMenuDaoImpl extends BaseDaoImpl<ProjectMenu> implements Proj
 		List<ProjectMenu> lstProjectMenu;
 
 		// 加载首页需要显示的菜单(只显示有效菜单)。
-		lstProjectMenu = this.listByHql(" from ProjectMenu where validate=1 and level=2");
+		lstProjectMenu = this.listByHql(" from ProjectMenu where validate=1 and level=2 and lId >= 63");
 
 		return lstProjectMenu;
 	}

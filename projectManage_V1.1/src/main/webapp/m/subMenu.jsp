@@ -51,7 +51,8 @@ $(function(){
 			<nav id="ty_nav" class="m-nav">
 				<div class="nav-wrap show">
 					<div class="m-nav-row">
-						<a appstr="shouye" href="<%=basePath %>front/m/index.do">首页</a>
+<%-- 						<a appstr="shouye" href="<%=basePath %>front/m/index.do">首页</a> --%>
+						<a appstr="shouye" href="<%=basePath %>front/m/index.do">首页</a> 
 						<s:iterator value="lstMainProjectMenu" id="projectMenu"
 							status="myStatus">
 							<s:if test="#myStatus.index < 4">
