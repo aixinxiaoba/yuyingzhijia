@@ -174,7 +174,7 @@ a.gotop {
 		<#list lstProjectMenu as projectMenu>
 			<div class="sm-item" id="smi_1">
 				<h3 class="smi-title">
-					<a href="/static/m/${projectMenu.menuKey }">${projectMenu.mobileMenuName }</a>
+					<a href="/static/m/${projectMenu.lId }.html">${projectMenu.mobileMenuName }</a>
 				</h3>
 				<ul class="ulnav float-no">
 					<#list projectMenu.lstChildrenProjectMenu as subProjectMenu>
