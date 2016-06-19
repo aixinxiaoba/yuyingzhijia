@@ -99,7 +99,7 @@ function nextPage(data)
 			clickDom2Hide : false
 		})
 	</script>
-	
+	<%@include file="foot.jsp"%>
 </body>
 
 </html>
