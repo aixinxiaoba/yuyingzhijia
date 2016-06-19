@@ -85,7 +85,7 @@ public class NetImageDisposal extends HttpServlet
      * 开始下载图片
      * @throws Exception 
      */
-    public static void startDownLoad(News objNews) throws Exception
+    public static void startDownLoad(News objNews,String webAddress) throws Exception
     {
     	String strCurFileName;
 		String strImgForReturn = null;
@@ -110,7 +110,7 @@ public class NetImageDisposal extends HttpServlet
 				{
 					continue;
 				}
-				cuImg = "http://www.2k28.com" + cuImg;
+				cuImg = webAddress + cuImg;
 				if (cuImg.indexOf("/upload") == 0)
 				{
 					continue;

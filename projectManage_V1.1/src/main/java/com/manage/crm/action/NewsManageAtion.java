@@ -51,6 +51,10 @@ public class NewsManageAtion extends BaseStruts2Action {
 	private static final String NEWS_DETIAL = "newsDetial";
 	private static final String NEWS_READ = "newsRead";
 
+	public static String G_2K28= "http://www.2k28.com";
+	
+	public static String G_5721= "http://baby.5721.net";
+	
 	private Long lProjectID;
 	
 	private Long lProjectMenuID;
@@ -333,7 +337,7 @@ public class NewsManageAtion extends BaseStruts2Action {
 				if (escs.get(0).select("img")!=null && escs.get(0).select("img").size() > 0)
 				{
 					// 如果存在图片则判断是否需要进行下载图片操作。
-					NetImageDisposal.startDownLoad(objNews);
+					NetImageDisposal.startDownLoad(objNews, G_2K28);
 				}
 				objNewsService.save(objNews);
 			} catch (Exception e) {
@@ -424,30 +428,30 @@ public class NewsManageAtion extends BaseStruts2Action {
 				objNews.setObjUsers(this.objUsers);
 				objNews.setStrSendDate(new Date(System.currentTimeMillis()).toString());
 				
-				if ("".equals((escs + "")) && HtmlRegexpUtil.filterHtml(escs + "").trim().length() < 98)
+				if ("".equals((content)) && HtmlRegexpUtil.filterHtml(content).trim().length() < 98)
 				{
-					objNews.setStrSummary(HtmlRegexpUtil.filterHtml(escs + "").trim());
+					objNews.setStrSummary(HtmlRegexpUtil.filterHtml(content).trim());
 				}
 				else
 				{
-					objNews.setStrSummary(HtmlRegexpUtil.filterHtml(escs + "").trim().substring(0,97));
+					objNews.setStrSummary(HtmlRegexpUtil.filterHtml(content).trim().substring(0,97));
 				}
 				
-				if (escs.get(0).select("img")!=null && escs.get(0).select("img").size() > 0)
+				if (escPs.get(0).select("img")!=null && escPs.get(0).select("img").size() > 0)
 				{
 					if (dbNews != null && dbNews.getlId() > 0)
 					{
 						dbNews.setStrContent(objNews.getStrContent());
 						// 此文章已经存在，进行下一个文章处理
 						logger.info("文章已经存在且存在图片，更新处理：");
-						NetImageDisposal.startDownLoad(dbNews);
+						NetImageDisposal.startDownLoad(dbNews, G_5721);
 						objNewsService.update(dbNews);
 						logger.info("文章更新完成，继续处理：" + strTitle);
 						staticDealWith(dbNews);
 						continue;
 					}
 					// 如果存在图片则判断是否需要进行下载图片操作。
-					NetImageDisposal.startDownLoad(objNews);
+					NetImageDisposal.startDownLoad(objNews, G_5721);
 				}
 				
 				if (dbNews != null && dbNews.getlId() > 0)
@@ -548,14 +552,14 @@ public class NewsManageAtion extends BaseStruts2Action {
 						dbNews.setStrContent(objNews.getStrContent());
 						// 此文章已经存在，进行下一个文章处理
 						logger.info("文章已经存在且存在图片，更新处理：");
-						NetImageDisposal.startDownLoad(dbNews);
+						NetImageDisposal.startDownLoad(dbNews, G_2K28);
 						objNewsService.update(dbNews);
 						logger.info("文章更新完成，继续处理：" + strTitle);
 						staticDealWith(dbNews);
 						continue;
 					}
 					// 如果存在图片则判断是否需要进行下载图片操作。
-					NetImageDisposal.startDownLoad(objNews);
+					NetImageDisposal.startDownLoad(objNews, G_2K28);
 				}
 				
 				if (dbNews != null && dbNews.getlId() > 0)
