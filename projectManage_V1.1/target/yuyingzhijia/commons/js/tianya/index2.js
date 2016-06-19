@@ -168,10 +168,10 @@ function(t) {
                 i("#type_div img")
             };
             var l = '<a class="u-more" href="{link}" ><em>{moreName}</em></a>';
-            // 自定义子类tab设置 根据点击不同的项做调整。
+            // 自定义子类tab设置 根据点击不同的项做调整。$("#basePath").val() + 
 //            "undefined" == typeof b[a].html ? "hot" == a ? u(e) : "xiaoshuo" == a ? d(e) : '' : n(b[a].html)
             t.ajax({
-                url: $("#basePath").val() + "static/m/" + a,
+                url: "/static/m/" + a,
                 dataType: "html",
                 error: function() {},
                 success: function(t) {

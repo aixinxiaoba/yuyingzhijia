@@ -179,8 +179,10 @@ public final class subMenu_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t<div class=\"u-box\" id=\"dashang_div\">\r\n");
       out.write("\t\t\t\t<div class=\"u-hd f-cf\">\r\n");
       out.write("\t\t\t\t\t<h2>阅读排行</h2>\r\n");
+      out.write("\t\t\t\t\t<!-- \r\n");
       out.write("\t\t\t\t\t<a href=\"http://shang.tianya.cn/rank/m/dsRanking.do?from=t&type=1\"\r\n");
       out.write("\t\t\t\t\t\tclass=\"u-hd-more\">排行榜>></a>\r\n");
+      out.write("\t\t\t\t\t -->\r\n");
       out.write("\t\t\t\t</div>\r\n");
       out.write("\t\t\t\t<div class=\"u-bd\">\r\n");
       out.write("\t\t\t\t\t<!-- \r\n");
