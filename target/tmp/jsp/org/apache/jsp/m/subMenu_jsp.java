@@ -125,9 +125,10 @@ public final class subMenu_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t<nav id=\"ty_nav\" class=\"m-nav\">\r\n");
       out.write("\t\t\t\t<div class=\"nav-wrap show\">\r\n");
       out.write("\t\t\t\t\t<div class=\"m-nav-row\">\r\n");
+      out.write("\r\n");
       out.write("\t\t\t\t\t\t<a appstr=\"shouye\" href=\"");
       out.print(basePath );
-      out.write("front/m/index.do\">首页</a>\r\n");
+      out.write("front/m/index.do\">首页</a> \r\n");
       out.write("\t\t\t\t\t\t");
       if (_jspx_meth_s_iterator_0(_jspx_page_context))
         return;

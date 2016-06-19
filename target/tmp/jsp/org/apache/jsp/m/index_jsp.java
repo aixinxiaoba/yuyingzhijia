@@ -4,13 +4,51 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 import java.util.*;
+import java.util.*;
+import java.net.URLEncoder;
 
 public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
+
+public class CS{
+
+    private  int siteId = 0;
+    private final String imageDomain = "c.cnzz.com";
+    private HttpServletRequest request = null;
+    private HttpServletResponse response = null;
+
+    public CS(int siteId){
+        this.setAccount(siteId);
+    };
+
+    public void setAccount(int siteId){
+        this.siteId = siteId;
+    };
+
+    public String trackPageView(){
+        String imageLocation = this.request.getScheme() + "://"+ this.imageDomain + "/wapstat.php";
+        String r = this.request.getHeader("referer") == null ? "" : this.request.getHeader("referer");
+        String rnd = Integer.toString((int)(Math.random() * 0x7fffffff));
+        String imageUrl = imageLocation + "?" + "siteid=" + this.siteId + "&r=" + URLEncoder.encode(r) + "&rnd=" + rnd;
+        return imageUrl;
+    };
+
+    public void setHttpServlet(HttpServletRequest request, HttpServletResponse response) {
+        this.request = request;
+        this.response = response;
+    }
+}
+
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
 
   private static java.util.List<String> _jspx_dependants;
+
+  static {
+    _jspx_dependants = new java.util.ArrayList<String>(2);
+    _jspx_dependants.add("/m/foot.jsp");
+    _jspx_dependants.add("/cs.jsp");
+  }
 
   private org.apache.jasper.runtime.TagHandlerPool _jspx_tagPool_s_iterator_value_id;
   private org.apache.jasper.runtime.TagHandlerPool _jspx_tagPool_s_iterator_value_status_id;
@@ -260,6 +298,36 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t<script type=\"text/javascript\" src=\"/commons/js/bbtree/widget/slider/dots.min.js\"></script>\r\n");
       out.write("\t<script type=\"text/javascript\" src=\"/commons/js/bbtree/widget/slider/touch.min.js\"></script>\r\n");
       out.write("\t<script type=\"text/javascript\" src=\"/commons/js/bbtree/main.js\"></script>\r\n");
+      out.write("\t");
+      out.write("\r\n");
+      out.write("<DIV class=\"footer_main\" style=\"\">\r\n");
+      out.write("\t<DIV class=\"footer\" style=\"text-align: center;\">\r\n");
+      out.write("\t\t\t<A href=\"#\" >寻求合作</A> ｜ \r\n");
+      out.write("\t\t\t<A href=\"#\" >推广服务</A> \r\n");
+      out.write("\t\t\t<SPAN class=\"bookmark\"> ｜\r\n");
+      out.write("\t\t\t\t<A id=\"bookmark\" href=\"ext:add_favorite\" news=\"\">加入书签</A>\r\n");
+      out.write("\t\t\t</SPAN>\r\n");
+      out.write("\t</DIV>\r\n");
+      out.write("\t<DIV style=\"text-align: center; color: rgb(186, 186, 186); font-size: 12px;\">\r\n");
+      out.write("\t\t育婴之家网版权所有 | 服务QQ：2496664615\r\n");
+      out.write("\t</DIV>\r\n");
+      out.write("</DIV>\r\n");
+      out.write("\r\n");
+      out.write("<!-- 访问日志 -->\r\n");
+      out.write("<!-- <script type=\"text/javascript\">$.ajax({  url:\"/front/index/visitLog.do\",  type:\"post\", data:{\"refer\":document.referrer,\"thisPage\":location.href },  dataType:\"text\", async: true});</script> -->\r\n");
+      out.write("\r\n");
+      out.write("<!-- 引入cnzz统计 -->\r\n");
+      out.write('\r');
+      out.write('\n');
+      out.write('\r');
+      out.write('\n');
+CS cs = new CS(1254920361);cs.setHttpServlet(request,response);
+String imgurl = cs.trackPageView();
+      out.write(" \r\n");
+      out.write("<img src=\"");
+      out.print( imgurl );
+      out.write("\" width=\"0\" height=\"0\"  />");
+      out.write("\r\n");
       out.write("<!-- \r\n");
       out.write("<script type=\"text/javascript\" src=\"/commons/js/bbtree/stat.js\"></script>\r\n");
       out.write(" -->\r\n");
