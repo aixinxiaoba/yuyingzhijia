@@ -23,6 +23,7 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.manage.crm.action.NewsManageAtion;
 import com.manage.crm.dao.NewsDao;
 import com.manage.crm.dao.ProjectDao;
 import com.manage.crm.dao.ProjectMenuDao;
@@ -127,7 +128,7 @@ public class NewsServiceImpl extends BaseServiceImpl<News> implements
 
 			// 从网络上下载图片 start
 			// 如果存在图片则判断是否需要进行下载图片操作。
-			NetImageDisposal.startDownLoad(objNewsFromDB);
+			NetImageDisposal.startDownLoad(objNewsFromDB, NewsManageAtion.G_2K28);
 			// end
 			if (!update(objNewsFromDB)) {
 				return "出现异常，请刷新重试！";
@@ -180,7 +181,7 @@ public class NewsServiceImpl extends BaseServiceImpl<News> implements
 			objNews.setObjProject(objProject);
 			objNews.setObjProjectMenu(objProjectMenu);
 			// 网络图片处理
-			NetImageDisposal.startDownLoad(objNews);
+			NetImageDisposal.startDownLoad(objNews, NewsManageAtion.G_2K28);
 			if (!save(objNews)) {
 				return "出现异常，请刷新重试！";
 			}

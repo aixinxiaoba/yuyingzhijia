@@ -317,7 +317,7 @@ public class YuYingShiManageAtion extends BaseStruts2Action {
 							objNews = lstNews.get(i);
 							
 							// 如果存在图片则判断是否需要进行下载图片操作。
-							NetImageDisposal.startDownLoad(objNews);
+							NetImageDisposal.startDownLoad(objNews, NewsManageAtion.G_2K28);
 							this.objNewsService.update(objNews);
 							Thread.sleep(1000);
 						}
