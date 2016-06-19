@@ -120,7 +120,7 @@ public class SinaWeiBoSend {
 			ProjectMenu objProjectMenu = this.objProjectMenuService.getBySql("select * from projectmenu where id=(select mid from news where id="+objNews.getlId()+") ");
 			statuses = "【" + objNews.getStrTitle() + "】"+ statuses;
 			// 增加话题
-			statuses = "#育婴知识分享-" + objProjectMenu.getStrMenuName() + "#" + statuses;
+			statuses = "【育婴知识分享-" + objProjectMenu.getStrMenuName() + "】" + statuses;
 //			if (statuses.length() > 110)
 //			{
 //				statuses = statuses.substring(0, 110);

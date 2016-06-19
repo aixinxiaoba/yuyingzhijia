@@ -575,45 +575,45 @@ public class MIndexManageAtion extends BaseStruts2Action {
 		
 		lProjectMenuID = objSubProjectMenu.getObjParentProjectMenu().getlId();
 		// 获取项目主菜单。
-		this.objProjectMenu = this.objSubProjectMenu.getObjParentProjectMenu();
-		
-		// 加载项目信息。
-		this.objProject=objProjectMenu.getObjProject();
+//		this.objProjectMenu = this.objSubProjectMenu.getObjParentProjectMenu();
+//		
+//		// 加载项目信息。
+//		this.objProject=objProjectMenu.getObjProject();
 		
 		// 加载有效的子菜单
-		setSubProjectMenu(lProjectMenuID);
+		//setSubProjectMenu(lProjectMenuID);
 		
-		if (objProject == null) {
-			setErrorText("无法获取您的项目信息，请检查后重试！");
-			return COMMON_ERROR;
-		}
+//		if (objProject == null) {
+//			setErrorText("无法获取您的项目信息，请检查后重试！");
+//			return COMMON_ERROR;
+//		}
 		
 		try {
-			Pagination<News> objPagination = new Pagination<News>();
-			
+//			Pagination<News> objPagination = new Pagination<News>();
+			lstRollingOfReading = objNewsService.lstScrollImgByMenuId(lProjectMenuID, Pagination.PAGE_SIZE_5);
 			// 加载育婴师最新发布动态 获取前9个
-			setNewestMessage();
+			//setNewestMessage();
 			
 			// 设置推荐阅读栏目。
-			setSuggestReading();
+			//setSuggestReading();
 			
 			// 根据菜单id获取菜单下信息列表。
-			if (nPageSize == null || nPageSize.length() <= 0)
-			{
-				nPageSize = "20";
-			}
-			if (nCurrentPage == null || nCurrentPage.length() <= 0)
-			{
-				nCurrentPage = "1";
-			}
-			objPagination.setPageNo(Integer.parseInt(nCurrentPage));
-			objPagination.setPageSize(Integer.parseInt(nPageSize));
-			logger.info("当前页数：" + nCurrentPage + "--每页显示的个数为：" + nPageSize);
-			
-			// 组装查询条件。
-			Criterion objSQLCondition = Restrictions.sqlRestriction(" mid ='" + objSubProjectMenu.getlId() + "'");
-			objNewsService.listByCriteria(objPagination, new SearchCondition(objSQLCondition, null), Order.desc("strSendDate"));
-			this.objGPagination = objPagination;
+//			if (nPageSize == null || nPageSize.length() <= 0)
+//			{
+//				nPageSize = "20";
+//			}
+//			if (nCurrentPage == null || nCurrentPage.length() <= 0)
+//			{
+//				nCurrentPage = "1";
+//			}
+//			objPagination.setPageNo(Integer.parseInt(nCurrentPage));
+//			objPagination.setPageSize(Integer.parseInt(nPageSize));
+//			logger.info("当前页数：" + nCurrentPage + "--每页显示的个数为：" + nPageSize);
+//			
+//			// 组装查询条件。
+//			Criterion objSQLCondition = Restrictions.sqlRestriction(" mid ='" + objSubProjectMenu.getlId() + "'");
+//			objNewsService.listByCriteria(objPagination, new SearchCondition(objSQLCondition, null), Order.desc("strSendDate"));
+//			this.objGPagination = objPagination;
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
