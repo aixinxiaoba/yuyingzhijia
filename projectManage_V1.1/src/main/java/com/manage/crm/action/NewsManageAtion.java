@@ -387,21 +387,28 @@ public class NewsManageAtion extends BaseStruts2Action {
 				escs.get(0).select("script").remove();
 //				escs.get(0).select("img").remove();
 				//escs.get(0).select("a[href]").remove();
+				//escs.get(0).select("a[href]").remove();
+				escs.get(0).select("li").remove();
+				escs.get(0).select("strong").remove();
 				escs.get(0).select("div[style=float:right; width:300px; height:250px;]").remove();
 				
 				Elements escPs = escs.get(0).getElementsByTag("p");
 				String content = "";
-				Element contentMore = null;
+//				Element contentMore = null;
 				
 				if (escPs.size() >= 2)
 				{
-					content = escPs.get(0).toString();
-					contentMore = escPs.get(1);
+//					content = escPs.get(0).toString();
+//					escs.get(0).toString();
+//					contentMore = escPs.get(1);
 					
-					Elements elas = contentMore.getElementsByTag("a");
+//					Elements elas = contentMore.getElementsByTag("a");
+					Elements elas = escs.get(0).getElementsByTag("a");
 					
 					if (elas != null && elas.size() > 0)
 					{
+						escs.get(0).select("b").remove();
+						content = escs.get(0).toString();
 						for (int j = 0; j < elas.size() - 1; j++)
 						{
 							Element ela = elas.get(j);
@@ -409,6 +416,10 @@ public class NewsManageAtion extends BaseStruts2Action {
 							
 							content += getContentOnly(Jsoup.connect(webURL + atti.get("href")).timeout(200000).get());
 						}
+					}
+					else
+					{
+						content = escs.get(0).toString();
 					}
 				}
 				escs.get(0).select("[class=article_pages]").remove();
@@ -426,7 +437,7 @@ public class NewsManageAtion extends BaseStruts2Action {
 				objNews.setObjProject(objProject);
 				objNews.setObjProjectMenu(objProjectMenu);
 				objNews.setObjUsers(this.objUsers);
-				objNews.setStrSendDate(new Date(System.currentTimeMillis()).toString());
+				objNews.setStrSendDate(new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date()));
 				
 				if ("".equals((content)) && HtmlRegexpUtil.filterHtml(content).trim().length() < 98)
 				{
@@ -434,7 +445,7 @@ public class NewsManageAtion extends BaseStruts2Action {
 				}
 				else
 				{
-					objNews.setStrSummary(HtmlRegexpUtil.filterHtml(content).trim().substring(0,97));
+					objNews.setStrSummary(HtmlRegexpUtil.filterHtml(content).trim().substring(0,96));
 				}
 				
 				if (escPs.get(0).select("img")!=null && escPs.get(0).select("img").size() > 0)
