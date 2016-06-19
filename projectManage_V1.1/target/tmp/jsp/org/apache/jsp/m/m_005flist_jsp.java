@@ -51,10 +51,20 @@ public class CS{
     _jspx_dependants.add("/cs.jsp");
   }
 
+  private org.apache.jasper.runtime.TagHandlerPool _jspx_tagPool_s_iterator_value_id;
+
   private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
 
   public java.util.List<String> getDependants() {
     return _jspx_dependants;
+  }
+
+  public void _jspInit() {
+    _jspx_tagPool_s_iterator_value_id = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+  }
+
+  public void _jspDestroy() {
+    _jspx_tagPool_s_iterator_value_id.release();
   }
 
   public void _jspService(HttpServletRequest request, HttpServletResponse response)
@@ -115,7 +125,7 @@ public class CS{
       out.write("\t$(\"#rec_div\").load(\"/static/m/p/");
       out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${objSubProjectMenu.lId }", java.lang.String.class, (PageContext)_jspx_page_context, null));
       out.write("_1.html\");\r\n");
-      out.write("\t$(\"#j-slider-home\").load(\"/static/m/scroll/l2/");
+      out.write("\t//$(\"#j-slider-home\").load(\"/static/m/scroll/l2/");
       out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${objSubProjectMenu.lId}", java.lang.String.class, (PageContext)_jspx_page_context, null));
       out.write(".html\");\r\n");
       out.write("});\r\n");
@@ -149,7 +159,12 @@ public class CS{
       out.write("\t\t<div class=\"m-main\">\r\n");
       out.write("\t\t\t <!-- 滚动图片显示 -->\r\n");
       out.write("\t\t\t<div class=\"u-slider u-slider-home\">\r\n");
-      out.write("\t\t\t\t<div class=\"sliderbox gg gg-item\" id=\"j-slider-home\" ></div>\r\n");
+      out.write("\t\t\t\t<div class=\"sliderbox gg gg-item\" id=\"j-slider-home\" >\r\n");
+      out.write("\t\t\t\t\t");
+      if (_jspx_meth_s_iterator_0(_jspx_page_context))
+        return;
+      out.write("\r\n");
+      out.write("\t\t\t\t</div>\r\n");
       out.write("\t\t\t</div>\r\n");
       out.write("\t\t\t<div class=\"u-box\">\r\n");
       out.write("\t\t\t\t<a name=\"type\"></a>\r\n");
@@ -241,5 +256,55 @@ String imgurl = cs.trackPageView();
     } finally {
       _jspxFactory.releasePageContext(_jspx_page_context);
     }
+  }
+
+  private boolean _jspx_meth_s_iterator_0(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:iterator
+    org.apache.struts2.views.jsp.IteratorTag _jspx_th_s_iterator_0 = (org.apache.struts2.views.jsp.IteratorTag) _jspx_tagPool_s_iterator_value_id.get(org.apache.struts2.views.jsp.IteratorTag.class);
+    _jspx_th_s_iterator_0.setPageContext(_jspx_page_context);
+    _jspx_th_s_iterator_0.setParent(null);
+    _jspx_th_s_iterator_0.setValue("lstRollingOfReading");
+    _jspx_th_s_iterator_0.setId("news");
+    int _jspx_eval_s_iterator_0 = _jspx_th_s_iterator_0.doStartTag();
+    if (_jspx_eval_s_iterator_0 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
+      if (_jspx_eval_s_iterator_0 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.pushBody();
+        _jspx_th_s_iterator_0.setBodyContent((javax.servlet.jsp.tagext.BodyContent) out);
+        _jspx_th_s_iterator_0.doInitBody();
+      }
+      do {
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t<div class=\"item\">\r\n");
+        out.write("\t\t\t\t\t\t\t<a\r\n");
+        out.write("\t\t\t\t\t\t\t\thref=\"/front/yuyingshi/detail.do?newsID=");
+        out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${news.lId}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+        out.write("\">\r\n");
+        out.write("\t\t\t\t\t\t\t\t<img lazyload=\"");
+        out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${news.imageUrl}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+        out.write("\" />\r\n");
+        out.write("\t\t\t\t\t\t\t</a>\r\n");
+        out.write("\t\t\t\t\t\t\t<p class=\"caption\">\r\n");
+        out.write("\t\t\t\t\t\t\t\t");
+        out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${news.strLongTitleTwo}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t</p>\r\n");
+        out.write("\t\t\t\t\t\t</div>\r\n");
+        out.write("\t\t\t\t\t ");
+        int evalDoAfterBody = _jspx_th_s_iterator_0.doAfterBody();
+        if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
+          break;
+      } while (true);
+      if (_jspx_eval_s_iterator_0 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE)
+        out = _jspx_page_context.popBody();
+    }
+    if (_jspx_th_s_iterator_0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_iterator_value_id.reuse(_jspx_th_s_iterator_0);
+      return true;
+    }
+    _jspx_tagPool_s_iterator_value_id.reuse(_jspx_th_s_iterator_0);
+    return false;
   }
 }
