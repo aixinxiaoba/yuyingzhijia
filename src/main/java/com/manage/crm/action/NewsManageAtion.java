@@ -149,6 +149,10 @@ public class NewsManageAtion extends BaseStruts2Action {
 				{
 					dealsFor2k28(i, category, Integer.parseInt(categoryNum));
 				}
+				else if ("5721".equals(webType))
+				{
+					dealsFor5721(i, category, Integer.parseInt(categoryNum));
+				}
 			}
 			
 			// 重新汇总最新数据。
@@ -341,7 +345,141 @@ public class NewsManageAtion extends BaseStruts2Action {
 		}
 	}
     
+    
     /**
+     * 
+     * http://baby.5721.net/Newborn/List_1.shtml
+     * 中国孕育网
+     * create 2016年6月19日17:36:41
+     * @param pageNo
+     * 
+     * @throws IOException
+     */
+    private void dealsFor5721(int pageNo, String type, int totle) throws Exception
+	{
+		Document doc;
+		String webURL = "http://baby.5721.net";
+		doc = Jsoup.connect(webURL + "/"+type+"/list_"+totle+"_" + pageNo + ".shtml").get();
+//		Elements es = doc.getElementsByClass("endText");
+//		Elements ec = es.get(0).getElementsByClass("listA");
+		Elements ec = doc.getElementsByClass("listA");
+		
+		for (int i = 0; i < ec.size(); i++){
+			try {
+				objNews = new News();
+				
+				Attributes as = ec.get(i).attributes();
+				doc = Jsoup.connect(webURL + as.get("href")).timeout(200000).get();
+				Elements escs = doc.getElementsByClass("Newscontent");
+				Element escTitle = doc.getElementById("Con_Left");
+				
+				// 查询此标题文章是否已经存在，如果存在则进行下一个文章处理。
+				String strTitle = escTitle.getElementsByTag("h2").get(0).text();
+				News dbNews = objNewsService.getBySql("select * from News where title like '%" + strTitle + "%'");
+				logger.info("标题：" + strTitle);;
+				// 设置消息标题
+				objNews.setStrTitle(strTitle);
+//				objNews.setStaticFlag(1);// 设置为需要静态化。
+				escs.get(0).select("script").remove();
+//				escs.get(0).select("img").remove();
+				//escs.get(0).select("a[href]").remove();
+				escs.get(0).select("div[style=float:right; width:300px; height:250px;]").remove();
+				
+				Elements escPs = escs.get(0).getElementsByTag("p");
+				String content = "";
+				Element contentMore = null;
+				
+				if (escPs.size() >= 2)
+				{
+					content = escPs.get(0).toString();
+					contentMore = escPs.get(1);
+					
+					Elements elas = contentMore.getElementsByTag("a");
+					
+					if (elas != null && elas.size() > 0)
+					{
+						for (int j = 0; j < elas.size() - 1; j++)
+						{
+							Element ela = elas.get(j);
+							Attributes atti = ela.attributes();
+							
+							content += getContentOnly(Jsoup.connect(webURL + atti.get("href")).timeout(200000).get());
+						}
+					}
+				}
+				escs.get(0).select("[class=article_pages]").remove();
+//				escs.get(0).select("br").remove();
+//				Elements brE =escs.get(0).select("br");
+//				if (brE.size() >= 2){
+//					escs.get(0).select("br").last().remove();
+//					escs.get(0).select("br").last().remove();
+//				}
+//				escs.get(0).select("font[color=#FF00FF]").remove();
+				logger.info("文章html链接：" + as.get("href") + "--" + pageNo);
+				objNews.setStrContent("<font size='3'>" + content + "</font>");
+				//  设置消息内容
+				objNews.setAddressFrom("中国孕育网（www.5721.com）");
+				objNews.setObjProject(objProject);
+				objNews.setObjProjectMenu(objProjectMenu);
+				objNews.setObjUsers(this.objUsers);
+				objNews.setStrSendDate(new Date(System.currentTimeMillis()).toString());
+				
+				if ("".equals((escs + "")) && HtmlRegexpUtil.filterHtml(escs + "").trim().length() < 98)
+				{
+					objNews.setStrSummary(HtmlRegexpUtil.filterHtml(escs + "").trim());
+				}
+				else
+				{
+					objNews.setStrSummary(HtmlRegexpUtil.filterHtml(escs + "").trim().substring(0,97));
+				}
+				
+				if (escs.get(0).select("img")!=null && escs.get(0).select("img").size() > 0)
+				{
+					if (dbNews != null && dbNews.getlId() > 0)
+					{
+						dbNews.setStrContent(objNews.getStrContent());
+						// 此文章已经存在，进行下一个文章处理
+						logger.info("文章已经存在且存在图片，更新处理：");
+						NetImageDisposal.startDownLoad(dbNews);
+						objNewsService.update(dbNews);
+						logger.info("文章更新完成，继续处理：" + strTitle);
+						staticDealWith(dbNews);
+						continue;
+					}
+					// 如果存在图片则判断是否需要进行下载图片操作。
+					NetImageDisposal.startDownLoad(objNews);
+				}
+				
+				if (dbNews != null && dbNews.getlId() > 0)
+				{
+					logger.info("文章已经存在，继续处理：" + strTitle);
+				}
+				else
+				{
+					objNewsService.save(objNews);
+					staticDealWith(objNews);
+				}
+			} catch (Exception e) {
+				logger.error("error page num is ", pageNo);
+				e.printStackTrace();
+			}finally{
+				
+			}
+			Thread.sleep(10000);
+		}
+	}
+    
+    /**
+     * 获取文章中content
+     * @param document
+     */
+    private String getContentOnly(Document document) {
+    	Elements escs = document.getElementsByClass("Newscontent");
+    	Elements escPs = escs.get(0).getElementsByTag("p");
+    	return escPs.get(0).toString();
+	}
+
+	/**
      * 
      * http://www.2k28.com
      * modify 2016年1月22日00:01:43
