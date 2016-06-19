@@ -12,7 +12,7 @@
 <script type="text/javascript">
 function dataCapture()
 {
-	$("#btm_start_cap").hide();
+	//$("#btm_start_cap").hide();
 	$.ajax({
         url:"/mpf/news/dataCapture.do",
         type:"post",
@@ -29,7 +29,7 @@ function dataCapture()
         success:function(data)
         {
         	alert(data);
-        	$("#btm_start_cap").show();
+        	//$("#btm_start_cap").show();
         }
  		});
 }
@@ -39,14 +39,20 @@ function dataCapture()
 	<form>
 		举例：http://www.yuyingnet.com/zbhy/lxzs/list_72_5.html
 		<p>
-			
 		分类：zbhy/lxzs
 		<br/>
 		最大页码：5
 		<br/>
 		分类号：72
 		</p>
-		网站标志：<input type="text" name="webType" id="webType" value="2k28"/>
+		
+		<div>
+			<ul>
+				<li>http://baby.5721.net/Newborn/List_1_1.shtml</li>
+			</ul>
+		</div>
+		
+		网站标志：<input type="text" name="webType" id="webType" value="5721"/>
 		</p>
 		菜单ID：<input type="text" name="menuKey" id="menuKey" value=""/>
 		<br/>
