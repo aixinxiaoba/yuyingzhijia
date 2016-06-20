@@ -83,6 +83,9 @@ function pageStatic(flag)
     <div id="div_return_msg" style="display:none;">
 		
 	</div>
+	<div>
+	<li>汇总最新数据：<a href="/front/yuyingshi/gatherlatestNews.do">执行</a></li>
+	</div>
 	<div id="div_data">
 		<div>
 			<ul style="line-height:35px;">
@@ -95,6 +98,7 @@ function pageStatic(flag)
 				<li>7、移动端静态化二级级菜单下的滚动图片：<input type="button" value="执行" onclick="pageStatic(7);"/></li>
 				<li>8、移动端二级菜单下所有知识分页：<input type="button" value="执行" onclick="pageStatic(8);"/></li>
 				<li>9、移动端导航静态化：<input type="button" value="执行" onclick="pageStatic(9);"/></li>
+				
 			</ul>
 		</div>
 		<div id="btm_start_cap" style="margin-top:40px;">

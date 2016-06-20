@@ -125,6 +125,9 @@ public final class pageStatic_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("    <div id=\"div_return_msg\" style=\"display:none;\">\r\n");
       out.write("\t\t\r\n");
       out.write("\t</div>\r\n");
+      out.write("\t<div>\r\n");
+      out.write("\t<li>汇总最新数据：<a href=\"/front/yuyingshi/gatherlatestNews.do\">执行</a></li>\r\n");
+      out.write("\t</div>\r\n");
       out.write("\t<div id=\"div_data\">\r\n");
       out.write("\t\t<div>\r\n");
       out.write("\t\t\t<ul style=\"line-height:35px;\">\r\n");
@@ -137,6 +140,7 @@ public final class pageStatic_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t\t<li>7、移动端静态化二级级菜单下的滚动图片：<input type=\"button\" value=\"执行\" onclick=\"pageStatic(7);\"/></li>\r\n");
       out.write("\t\t\t\t<li>8、移动端二级菜单下所有知识分页：<input type=\"button\" value=\"执行\" onclick=\"pageStatic(8);\"/></li>\r\n");
       out.write("\t\t\t\t<li>9、移动端导航静态化：<input type=\"button\" value=\"执行\" onclick=\"pageStatic(9);\"/></li>\r\n");
+      out.write("\t\t\t\t\r\n");
       out.write("\t\t\t</ul>\r\n");
       out.write("\t\t</div>\r\n");
       out.write("\t\t<div id=\"btm_start_cap\" style=\"margin-top:40px;\">\r\n");

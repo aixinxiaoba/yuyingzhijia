@@ -766,7 +766,7 @@ public class YuYingShiManageAtion extends BaseStruts2Action {
 			}
 			
 			// 子菜单 阅读排行。
-			
+			toWeb("执行成功");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
