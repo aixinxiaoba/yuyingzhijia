@@ -164,6 +164,7 @@ public class NewsManageAtion extends BaseStruts2Action {
 			toWeb("处理成功！！！");
 		} catch (Exception e) {
 			logger.error("数据抓取出现异常：", e.getMessage());
+			e.printStackTrace();
 			toWeb("出现异常，请稍后再试！");
 		}
 	}
@@ -380,6 +381,11 @@ public class NewsManageAtion extends BaseStruts2Action {
 				// 查询此标题文章是否已经存在，如果存在则进行下一个文章处理。
 				String strTitle = escTitle.getElementsByTag("h2").get(0).text();
 				News dbNews = objNewsService.getBySql("select * from News where title like '%" + strTitle + "%'");
+				
+//				if (!"打开紧握的小拳头".equals(strTitle))
+//				{
+//					continue;
+//				}
 				logger.info("标题：" + strTitle);;
 				// 设置消息标题
 				objNews.setStrTitle(strTitle);
@@ -391,6 +397,7 @@ public class NewsManageAtion extends BaseStruts2Action {
 				escs.get(0).select("li").remove();
 				escs.get(0).select("strong").remove();
 				escs.get(0).select("div[style=float:right; width:300px; height:250px;]").remove();
+				escs.get(0).select("li").remove();
 				
 				Elements escPs = escs.get(0).getElementsByTag("p");
 				String content = "";
@@ -398,6 +405,13 @@ public class NewsManageAtion extends BaseStruts2Action {
 				
 				if (escPs.size() >= 2)
 				{
+					for (int j = 0; j < escPs.size(); j++)
+					{
+						if ("".equals(escPs.get(j).text().trim()))
+						{
+							escPs.get(j).remove();
+						}
+					}
 //					content = escPs.get(0).toString();
 //					escs.get(0).toString();
 //					contentMore = escPs.get(1);
@@ -407,7 +421,7 @@ public class NewsManageAtion extends BaseStruts2Action {
 					
 					if (elas != null && elas.size() > 0)
 					{
-						escs.get(0).select("b").remove();
+						escs.get(0).select("a").remove();
 						content = escs.get(0).toString();
 						for (int j = 0; j < elas.size() - 1; j++)
 						{
@@ -448,7 +462,7 @@ public class NewsManageAtion extends BaseStruts2Action {
 					objNews.setStrSummary(HtmlRegexpUtil.filterHtml(content).trim().substring(0,96));
 				}
 				
-				if (escPs.get(0).select("img")!=null && escPs.get(0).select("img").size() > 0)
+				if (escPs.select("img")!=null && escPs.select("img").size() > 0)
 				{
 					if (dbNews != null && dbNews.getlId() > 0)
 					{
