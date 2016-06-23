@@ -99,10 +99,10 @@ public class NewsManageAtion extends BaseStruts2Action {
 	 */
 	public void dataCapture() throws IOException
 	{
-		if (!commonValidateUsers()) {
-			toWeb("Session 失效！请重新登录");
-			return;
-		}
+//		if (!commonValidateUsers()) {
+//			toWeb("Session 失效！请重新登录");
+//			return;
+//		}
 		
 		if (StringUtils.isEmpty(menuKey))
 		{
@@ -382,7 +382,7 @@ public class NewsManageAtion extends BaseStruts2Action {
 				String strTitle = escTitle.getElementsByTag("h2").get(0).text();
 				News dbNews = objNewsService.getBySql("select * from News where title like '%" + strTitle + "%'");
 				
-//				if (!"打开紧握的小拳头".equals(strTitle))
+//				if (!"不同月份语言能力发展标准".equals(strTitle))
 //				{
 //					continue;
 //				}
@@ -395,7 +395,7 @@ public class NewsManageAtion extends BaseStruts2Action {
 				//escs.get(0).select("a[href]").remove();
 				//escs.get(0).select("a[href]").remove();
 				escs.get(0).select("li").remove();
-				escs.get(0).select("strong").remove();
+				// escs.get(0).select("strong").remove();
 				escs.get(0).select("div[style=float:right; width:300px; height:250px;]").remove();
 				escs.get(0).select("li").remove();
 				
@@ -405,24 +405,19 @@ public class NewsManageAtion extends BaseStruts2Action {
 				
 				if (escPs.size() >= 2)
 				{
-					for (int j = 0; j < escPs.size(); j++)
-					{
-						if ("".equals(escPs.get(j).text().trim()))
-						{
-							escPs.get(j).remove();
-						}
-					}
+					Elements elas = wipeOffRedundantStyle(escPs);
 //					content = escPs.get(0).toString();
 //					escs.get(0).toString();
 //					contentMore = escPs.get(1);
 					
 //					Elements elas = contentMore.getElementsByTag("a");
-					Elements elas = escs.get(0).getElementsByTag("a");
+//					Elements elas = escs.get(0).getElementsByTag("a");
 					
 					if (elas != null && elas.size() > 0)
 					{
 						escs.get(0).select("a").remove();
-						content = escs.get(0).toString();
+						 content = escs.get(0).toString();
+//						 content = escPs.toString();
 						for (int j = 0; j < elas.size() - 1; j++)
 						{
 							Element ela = elas.get(j);
@@ -434,6 +429,7 @@ public class NewsManageAtion extends BaseStruts2Action {
 					else
 					{
 						content = escs.get(0).toString();
+//						content = escPs.toString();
 					}
 				}
 				escs.get(0).select("[class=article_pages]").remove();
@@ -498,14 +494,57 @@ public class NewsManageAtion extends BaseStruts2Action {
 		}
 	}
     
-    /**
+    private Elements wipeOffRedundantStyle(Elements escPs) {
+    	Elements elas = null;
+    	for (int j = 0; j < escPs.size(); j++)
+		{
+//			if ("".equals(escPs.get(j).text().replaceAll("　","")))
+//			{
+//				escPs.get(j).remove();
+//			}
+			
+			Elements objMore = escPs.get(j).getElementsByAttributeValue("align", "center");
+			
+			if (objMore.size() > 0)
+			{
+				if (objMore.select("a").size() > 0)
+				{
+					elas = objMore.select("a");
+					objMore.remove();
+				}
+			}
+			else
+			{
+				String strTemp = escPs.get(j).select("strong").toString();
+				
+				if (strTemp.contains("推荐阅读"))
+				{
+					escPs.get(j).select("strong").remove();
+					escPs.get(j).select("a").remove();
+				}
+			}
+//			if (escPs.get(j).getElementsByAttributeValue("align", "center").size() > 0)
+//			{
+//				if (escPs.get(j).getElementsByTag("img").size() < 0)
+//				{
+//					escPs.get(j).getElementsByAttributeValue("align", "center").remove();
+//				}
+//			}
+		}
+    	
+    	return elas;
+	}
+
+	/**
      * 获取文章中content
      * @param document
      */
     private String getContentOnly(Document document) {
     	Elements escs = document.getElementsByClass("Newscontent");
+    	escs.get(0).select("li").remove();
     	Elements escPs = escs.get(0).getElementsByTag("p");
-    	return escPs.get(0).toString();
+    	wipeOffRedundantStyle(escPs);
+    	return escs.get(0).toString();
 	}
 
 	/**
