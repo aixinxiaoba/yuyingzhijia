@@ -394,10 +394,10 @@ public class NewsManageAtion extends BaseStruts2Action {
 //				escs.get(0).select("img").remove();
 				//escs.get(0).select("a[href]").remove();
 				//escs.get(0).select("a[href]").remove();
-				escs.get(0).select("li").remove();
+				
 				// escs.get(0).select("strong").remove();
 				escs.get(0).select("div[style=float:right; width:300px; height:250px;]").remove();
-				escs.get(0).select("li").remove();
+//				escs.get(0).select("li").remove();
 				
 				Elements escPs = escs.get(0).getElementsByTag("p");
 				String content = "";
@@ -405,6 +405,19 @@ public class NewsManageAtion extends BaseStruts2Action {
 				
 				if (escPs.size() >= 2)
 				{
+					if (escs.get(0).select("strong") != null && escs.get(0).select("strong").size() > 0)
+					{
+						Elements eleTemp = escs.get(0).select("strong");
+						
+						for (int j = 0; j <eleTemp.size(); j++)
+						{
+							if (eleTemp.toString() != null && eleTemp.get(j).toString().contains("下一篇文章") )
+							{
+								eleTemp.get(j).remove();
+							}
+						}
+					}
+					escs.get(0).select("li").remove();
 					Elements elas = wipeOffRedundantStyle(escPs);
 //					content = escPs.get(0).toString();
 //					escs.get(0).toString();
@@ -541,9 +554,26 @@ public class NewsManageAtion extends BaseStruts2Action {
      */
     private String getContentOnly(Document document) {
     	Elements escs = document.getElementsByClass("Newscontent");
+    	
+    	if (escs.get(0).select("strong") != null && escs.get(0).select("strong").size() > 0)
+		{
+			Elements eleTemp = escs.get(0).select("strong");
+			
+			for (int i = 0; i <eleTemp.size(); i++)
+			{
+				if (eleTemp.toString() != null && eleTemp.get(i).toString().contains("下一篇文章") )
+				{
+					eleTemp.get(i).remove();
+				}
+			}
+			
+		}
     	escs.get(0).select("li").remove();
     	Elements escPs = escs.get(0).getElementsByTag("p");
     	wipeOffRedundantStyle(escPs);
+    	
+    	
+    	
     	return escs.get(0).toString();
 	}
 
