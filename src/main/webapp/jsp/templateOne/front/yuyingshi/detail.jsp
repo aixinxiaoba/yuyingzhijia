@@ -19,8 +19,14 @@
 		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
 		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
 		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
-		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
 	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/${objNews.lId}"); </script>
+<style type="text/css">
+	.Newscontent p {
+    line-height: 30px;
+}
+	
+</style>
 	</HEAD>
 	<BODY>
 		<!-- 头部设置 -->

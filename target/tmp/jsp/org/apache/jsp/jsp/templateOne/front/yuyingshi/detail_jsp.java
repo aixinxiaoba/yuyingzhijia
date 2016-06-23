@@ -96,10 +96,16 @@ public final class detail_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t<LINK href=\"/commons/yuyingshi/css/content.css\" rel=\"stylesheet\" type=\"text/css\">\r\n");
       out.write("\t\t<script type=\"text/javascript\" src=\"/commons/js/jquery/jquery-1.7.2.min.js\" ></script>\r\n");
       out.write("\t\t<script type=\"text/javascript\" src=\"/commons/js/0_core.js\" ></script>\r\n");
-      out.write("\t\t<META name=\"GENERATOR\" content=\"MSHTML 11.00.9600.17690\">\r\n");
+      out.write("\t<META name=\"GENERATOR\" content=\"MSHTML 11.00.9600.17690\">\r\n");
       out.write("\t<script type=\"text/javascript\"> objCore.browserRedirect(\"p\",\"/static/m_news/");
       out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${objNews.lId}", java.lang.String.class, (PageContext)_jspx_page_context, null));
       out.write("\"); </script>\r\n");
+      out.write("<style type=\"text/css\">\r\n");
+      out.write("\t.Newscontent p {\r\n");
+      out.write("    line-height: 30px;\r\n");
+      out.write("}\r\n");
+      out.write("\t\r\n");
+      out.write("</style>\r\n");
       out.write("\t</HEAD>\r\n");
       out.write("\t<BODY>\r\n");
       out.write("\t\t<!-- 头部设置 -->\r\n");
