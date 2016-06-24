@@ -223,7 +223,7 @@ function loadCustomer()
 					<SPAN class="l">作者：
 						<A href="/front/yuyingshi/index.do?lProjectMenuID=150" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
 						<SPAN class="r">发布日期：2016-06-24 22:33:58</SPAN>
-						<span class="r">点击次数：1&nbsp;</span>
+						<span class="r">点击次数：2&nbsp;</span>
 				</DIV>
 			</DIV>
 			<!-- /title -->
@@ -330,7 +330,7 @@ function loadCustomer()
 						</LI>
 						<LI>
 							下一篇：
-								没有了
+								<A href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121762">三千克，健康新生儿体重</A>
 						</LI>
 					</UL>
 				</DIV>
@@ -382,6 +382,21 @@ function loadCustomer()
 				</A> </SPAN>
 			</DIV>
 			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/121768">为何有的新生儿摸不到睾丸</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/121767">新生儿症状:正常？异常？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/121766">女婴为什么有白带、假性月经？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/121765">新生儿概念以及新生儿的生活特点</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/121764">新生小宝贝的7大本事(图)</A><EM></EM>
+					</LI>
 			</UL>
 		</DIV>
 		
