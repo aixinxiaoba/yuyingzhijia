@@ -1,0 +1,336 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>宝宝八种生理状态解读-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "121,720",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "121,720",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=151"
+				target="_self">特征</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">宝宝八种生理状态解读</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-24 22:31:10</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　<font color="#663399">刚出生的小宝宝又柔又嫩，身体就像天上的云一样变化多端，神秘莫测，新妈妈时不时地就被他们的样子吓一大跳，十万火急地跑去看医生，但往往都是虚惊一场，经常让新妈妈喜泪交加。看来做妈妈不是那么容易和简单，新生的小生命就宛如一本深奥的书，需要新妈妈认真地来解读。</font></p> 
+ <p align="center"> </p>
+ <table cellspacing="0" cellpadding="0" border="0"> 
+  <tbody> 
+   <tr> 
+    <td><img alt="宝宝八种生理状态解读" src="/Newborn/UploadFiles_4637/200703/20070310222437843.jpg" border="0" /></td>
+   </tr>
+  </tbody>
+ </table>
+ <p></p> 
+ <p>　<strong>　</strong><font color="#ff3300">宝宝的呼吸有些“不对劲”</font></p> 
+ <p>　　小宝宝睡觉了妈妈赶快抓紧时间休息。过了一会儿，无意间发现宝宝出气有些不对劲，好像在用肚子出气，而且一阵快一阵慢，一会儿深一会儿浅，有时甚至不出气了。妈妈吓坏了，宝宝这是怎么了？</p> 
+ <p>　　妈妈不必惊慌，这是新生小宝宝的正常情况，因为他们的鼻腔、咽部、气管和支气管都比较狭小，加之胸部的肌肉不够发达，肺部的弹性组织发育也不完全，所以，小宝宝呼吸主要靠膈肌的升降，而宝宝的胸廓运动较浅，表现为呼吸时肚子一鼓一瘪的，看起来好像在用肚子呼吸。 而且，小宝宝每次呼气或吸气的气量都很少，但他们新陈代谢非常旺盛的身体却需要大量的氧气，因此，小宝宝只好通过加快呼吸频率来弥补，大约每分钟35？4次。但是大脑的呼吸中枢发育还不够舰群，不能很有节律地控制呼吸频率，因此宝宝的呼吸深浅交替，快慢不匀，甚至有时暂停5？10秒钟，这种不规则的现象在入睡后会更为明显。<font color="#ff9966"> </font></p> 
+ <p>　<strong>　专家叮嘱：</strong></p> 
+ <p>　　A.如果小宝宝的呼吸每分钟超过60次，则可能患上了新生儿肺炎，应及时去看医生。</p> 
+ <p>　　B.小宝宝脸色青紫、脸色不好看，或口吐泡沫，也应及时看医生检查。</p> 
+ <p>　　C.小宝宝是以腹式呼吸为主的，所以不要把腹部束缚得太紧，以免影响呼吸。</p> 
+ <p>　　<font color="#ff3300">宝宝的身体抖动</font></p> 
+ <p>　　妈妈好几次在给小宝宝洗澡或者换衣服时发现，宝宝的手、胳膊以及腿在颤抖着，有时小下巴也抖动。糟了！宝宝是不是有癫痫？要不就是缺钙抽筋，慌得妈妈赶快找医生。</p> 
+ <p>　　其实，这种现象既不是癫痫，也不是缺钙，而是一种很正常的生理现象。因为小宝宝的大脑组织还未完全发育成熟，所以控制肌肉的功能尚不健全，而处于从属地位的皮质下中枢及脊髓，在功能上却相对地较为完善，因此小宝宝的动作均是通过它们来完成的，并没有完全受到最高级神经中枢大脑皮质的控制。只有通过大脑皮质控制的运动才能达到最稳定、最协调，而且是有目的的运动。所以，小宝宝常出现无目的、不自主的肌肉抖动。但是随着大脑功能的逐渐完善，小宝宝就会出现有意识、有目的的动作，这种不自主的抖动则会慢慢消失。</p> 
+ <p>　　<strong>专家叮嘱：</strong></p> 
+ <p>　　在寒冷季节要注意给宝宝保暖，以免他受冷后抖动得更厉害。</p> 
+ <p>　　<font color="#ff3300">尿布上出现血迹</font></p> 
+ <p>　　妈妈在给刚出生几天的宝宝换尿布时，发现上面却有红色的东西，仔细辨认，原来是血迹，太可怕了！这是怎么搞的？</p> 
+ <p>　　医生看后告诉妈妈不用着急，虽然确实是血液，但宝宝并不是有病，宝宝妈妈子宫里时，受胎盘的影响，雌激素保持在一定水平。这种激素可刺激女婴的生殖道黏膜增殖，出现充血。当脐带被断掉后，由于从妈妈身体获得雌激素的来源中断，所以使激素浓度随之骤然减少，通常在出生后的3？5天下降到最低水平，因此失去了对生殖黏膜的支持作用，子宫内膜因此脱落，引起出血，形成类似成年女性那样的月经。通常称它为“假月经”。</p> 
+ <p>　　由于出血量很少，一般过几天就会自然消退，所以无须去找医生诊治，可以用消毒纱布或棉签轻轻拭去。</p> 
+ <p>　　<strong>专家叮嘱：</strong></p> 
+ <p>　　A.不能在局部贴敷料或敷药，这样反倒容易引起刺激和感染。</p> 
+ <p>　　B.如果出血量多且持续时间较长，应及时去看医生，以便早排除新生儿血性疾病。<font color="#ff0000"></font></p>
+ <font color="#ff0000"> <p></p> <p><strong></strong></p><p></p></font>
+</div><div class="Newscontent">
+ <p></p> 
+ <p>　　<font color="#ff3300">皮肤上出现大理石状斑</font></p> 
+ <p>　　妈妈时常宝宝的身体、胳膊和腿上，发现犹如大理石般、略带蓝色的花斑条纹，尤其是温度低的时候更为明显，不知因何而起？</p> 
+ <p>　　正常情况下，人的皮下深处分布着很多细小的血管丛，用来调节温度变化，因此这些血管网对温度是非常敏感的。 当环境温度降低时，这些深处的血管丛就会收缩，使得管腔变小，血流变得缓慢，因而使这些血液滞留在表浅的静脉血管丛中。因静脉血中氧含量较低，所以血液的减色发暗、发蓝、由于宝宝的皮肤非常薄，所以从外观上就可看到暗蓝色的网状花斑条纹。&nbsp;&nbsp;</p> 
+ <p>　　<strong>专家叮嘱：</strong></p> 
+ <p>　　当宝宝有某些内在的疾病时，也可能出现这种花斑条纹，因此，在排除了问低使皮肤受冷的情况后，如果花纹仍然不消失的话，应带宝宝去做进一步的检查。</p> 
+ <p>　<font color="#ff3300">　宝宝哭时脸色又黑又紫</font></p> 
+ <p>　　来看望宝宝的人们都夸奖他，白白胖胖长得真可爱，妈妈听了心里乐滋滋。可宝宝每次一用力哭时，脸色马上就像换了一个人，又黑又紫，叫妈妈心里直担心，宝宝会不会心脏有问题？</p> 
+ <p>　　赶紧向医生请教，医生检查后告诉妈妈无须太紧张，宝宝哭的时候脸色黑紫是正常的。因为脸上的颜色取决于血液中氧的含量的多少，氧含量高脸色显得红润，反之则暗。而血液中的氧气完全来自于肺部的呼吸，吸气时，将空气中的氧大量吸入到血液中，呼气时则将身体内的代谢废气二氧化碳排出。当宝宝大哭时，拖长了呼气时间，吸气时间变得非常短，因而只有很少的氧气进到血液中，然而，身体由于剧烈哭泣而消耗氧的量却比平常倍增，所以血液中的氧含量锐减，宝宝由此脸色变得黑紫。</p> 
+ <p>　　<strong>专家叮嘱：</strong></p> 
+ <p>　　患有先天性心脏病的宝宝不能剧烈哭泣，因为可能会导致严重缺氧，这样很危险。</p> 
+ <p>　　<font color="#ff3300">宝宝总是一惊一乍</font></p> 
+ <p>　　刚出生的小宝宝，家里或外面一有动静，他马上身体一激灵，睁开眼睛，身体似乎还有些震颤，胳膊和腿都往外伸展，然后把两只胳膊交叉抱在前胸，在把胳膊松开时常伴有啼哭，但在数秒钟后即会消失。那样子就好像受了惊一般，妈妈担心宝宝的神经有问题，问医生是否要治疗。</p> 
+ <p>　　新生的小宝宝在睡眠的时候出现这种情况，属于正常生理现象。其实这就是人类的本能性自我保护，用来防御外界的伤害。由于宝宝的神经系统的发育还不完全，神经纤维周围的绝缘组织即神经髓鞘还没有形成，受到外界声音的刺激后，并不能像成人那样在大脑皮层集中定位。而是使刺激同时波及到由大脑控制的四肢肌肉神经纤维上，使兴奋“泛化”，因此引起胳膊和腿的动作和抖动。3，4个月后，随着宝宝的神经系统功能的逐渐成熟，对刺激就不会这么敏感了，这种保护性反应会慢慢消失。在宝宝出现惊跳时，妈妈只要轻轻按住宝宝身体的任一个部位，都可使他安静下来。</p> 
+ <p>　　<strong>专家叮嘱：</strong></p> 
+ <p>　　A.宝宝过了4，5个月后还出现惊跳反射，应及时去医院做神经系统的检查。</p> 
+ <p>　　B.需要与新生儿惊厥区别开来。惊厥的表现为两眼凝视、震颤或不断地眨眼，反复做吸吮动作，脸部肌肉颤动，伴呼吸不规则及皮肤青紫，一旦出现这种情况要赶快看医生。</p> 
+ <p>　　<font color="#ff3300">体重反而下降了</font></p> 
+ <p>　　宝宝出生一周了，妈妈想知道他又长了多少克，于是用婴儿体重计称了称，不由得大吃一惊，宝宝非但没长，反而比出生时体重下降了。这是怎么回事？难道没有喂养好宝宝？可全家人都在兢兢业业地照料着宝宝的饮食，宝宝好像也吃得挺好的，百思不得其解。</p> 
+ <p>　　原来，宝宝在出生后要排出胎便和尿液，还会吐出一些在出生时吸入的羊水，而且经皮肤和肺部呼吸又要失去一部分肉眼见不到的水分，再加之刚出生的宝宝进食量小，以上诸多因素使得宝宝的体重出现下降，一般在出生后的3？5天降至最低点，幅度比出生时减少3％？9％，但最多不会超过10％。这种现象称为生理性体重下降，大多在出生后10天以后即可恢复到出生时的体重，此后迅猛增长。</p> 
+ <p>　<strong>　专家叮嘱：</strong></p> 
+ <p>　　如果过了10天后，宝宝的体重仍不恢复，或体重下降得太多，可能有病理情况，应找医生诊察，以确定病因。</p> 
+ <p>　<font color="#ff3300">　皮肤一片一片地脱皮儿</font></p> 
+ <p>　　妈妈看见宝宝的皮肤又粗又干，一点也不细嫩，还一片一片地往下脱皮儿，以为是自己或是丈夫的皮肤本身不好，现在遗传给宝宝了，因此心里挺忧虑。</p> 
+ <p>　　其实大多足月出生的宝宝，都会在出生后的一两天内出现这种脱皮，脱下的皮薄薄的，就像纸似的，可在手腕、脚踝处出现，有些甚至还扩展到身体的其他部位。</p> 
+ <p>　　这是由于新生儿最表皮的角化层发育不成熟所致，加之连接表层和真皮的基地膜细嫩松软，使两者连接得不够紧密。这种脱皮一般在出生后一周最为明显，在此之后逐渐好转。</p> 
+ <p>　　<strong>专家叮嘱：</strong></p> 
+ <p>　　给宝宝清洗时，勿过度使用洗护品，尤其是刺激性较大的用品，而应用温和并具有保湿作用的护肤品滋润皮肤，避免过度干燥使皮肤出现裂口。</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

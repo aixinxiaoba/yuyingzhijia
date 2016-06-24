@@ -1,0 +1,321 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>新生儿视觉发展十二种异常-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "121,714",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "121,714",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=151"
+				target="_self">特征</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">新生儿视觉发展十二种异常</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-24 22:30:46</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p align="center"><img alt="新生儿视觉发展12种异常" src="/upload/151/20070524101644641.jpg" border="1" name="MM" /></p> 
+ <p style="TEXT-INDENT: 2em"></p> 
+ <p style="TEXT-INDENT: 2em">
+  <clk>
+   文/廖士杰 眼科主任医师 专家指导/马沛然 山东省立医院儿科主任医师 博士生导师 编辑/万琨
+  </clk><br /></p> 
+ <p style="TEXT-INDENT: 2em">
+  <clk>
+   新生儿视力品质的测评，可分别通过父母及医师来进行。父母可从宝宝一出生后就开始观察，2～3个月后，由于宝宝对外界明亮且色彩鲜艳的玩具开始产生兴趣，此时就可通过一些玩具，来帮助宝宝视力发展。
+  </clk><br /></p> 
+ <p style="TEXT-INDENT: 2em">正常发展标准<br /></p> 
+ <p style="TEXT-INDENT: 2em">
+  <clk>
+   父母通常都希望医师能够将宝宝的视力量化，例如：视力是否能达到1.0的正常标准等。实际上，新生儿及婴儿的视力由于身体及智力的发展未臻成熟，往往只能做到视力品质的评估而无法量化。
+  </clk><br /></p> 
+ <p style="TEXT-INDENT: 2em">一般来说，视力的量化必须等到三四岁才能做到，如同身高、体重，视力的发展也有一定的生长曲线，4岁时约有0.6的视力，5岁时可达0.7～0.8，6岁则必须是0.8以上才算正常。<br />2</p> 
+ <p style="TEXT-INDENT: 2em">种检查方法<br /></p> 
+ <p style="TEXT-INDENT: 2em">新生儿的视力发育特点是有光感，可注视眼前33厘米左右较明显的目标。在新生儿末期，还可追随移动目标片刻。根据这些特点，可用下面的简单方法对新生儿的视力做定性检查，以及早发现新生儿的视力异常。<br /></p> 
+ <p style="TEXT-INDENT: 2em">
+  <clk>
+   1．可在小儿睡着时，突然用手电光晃他的眼睛，如引起小儿皱眉、身体扭动甚至觉醒，说明有光感；如反复检查几次，小儿均无任何反应，应引起注意。
+  </clk><br /></p> 
+ <p style="TEXT-INDENT: 2em">2．在小儿满月时，可用1个直径约10厘米的红绒球放在小儿眼前约33厘米处，小儿可注视红球，并可随球的移动跟随片刻，如果宝宝此时没有反应，也应该引起家长的注意。此检查应在小儿睡醒不哭时做，并反复做几次。</p> 
+ <p style="TEXT-INDENT: 2em"></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>12种异常症状<br /></p> 
+ <p style="TEXT-INDENT: 2em">1．&nbsp;眼球震颤&nbsp; 若眼球向左右（或上下）来回摆动，则可能患有“眼球<br />震颤”。本来眼球靠着6条眼外肌来转动，当视力不良时，6条肌肉群龙无首，互相抵抗，如同发抖般震颤，是视力不良的重要征兆。<br /></p> 
+ <p style="TEXT-INDENT: 2em">2．眼球游移&nbsp; 当眼前没有移动的物体，而宝宝的眼球却无法对目标<br />固视，产生游移的现象，也是视力异常的症状。<br /></p> 
+ <p style="TEXT-INDENT: 2em">3．对熟悉的人或物缺乏反应&nbsp; 例如：母亲或喜欢的玩具接近时，并无<br />愉悦的表情，相反的，对于强光或是声音却相当敏感。<br /></p> 
+ <p style="TEXT-INDENT: 2em">4．不断地按摩或敲打自己的眼睛&nbsp; 由于视网膜对于外力会有闪<br />光的感觉。因此，视力发育迟缓的婴幼儿，往往会通过外力产生光感，来满足自己对视觉的渴望。<br /></p> 
+ <p style="TEXT-INDENT: 2em">5．白翳&nbsp; 黑眼球变白，多可能是黑眼球生了“白翳”。<br /></p> 
+ <p style="TEXT-INDENT: 2em">6．白内障&nbsp; 瞳孔区内有白色物，可能患了“白内障”。<br /></p> 
+ <p style="TEXT-INDENT: 2em">7．近视眼&nbsp; 若宝宝眯着眼睛看东西，要注意是否为近视。<br /></p> 
+ <p style="TEXT-INDENT: 2em">8．斜视&nbsp; 若眼球偏向一侧，则说明患有“斜视”。<br /></p> 
+ <p style="TEXT-INDENT: 2em">9．视神经萎缩&nbsp; 若将玩具放在宝宝面前，而宝宝无动于衷，不去拿取，宝宝很可能视力很差，可能患有“视神经萎缩”等眼底疾患。<br /></p> 
+ <p style="TEXT-INDENT: 2em">10．视网膜细胞瘤&nbsp; 若夜间在暗处发现宝宝瞳孔内有白色的反光物，形同猫眼，则应考虑是否患有“视网膜细胞瘤”。<br /></p> 
+ <p style="TEXT-INDENT: 2em">11．球后肿瘤&nbsp; 若眼球突出，尤其是单眼眼球突出，要警惕“球后肿瘤”。<br /></p> 
+ <p style="TEXT-INDENT: 2em">12．先天性青光眼&nbsp; 眼球变大，多是患有“先天性青光眼”。</p> 
+ <p style="TEXT-INDENT: 2em">饮食预防<br /></p> 
+ <p style="TEXT-INDENT: 2em">胡萝卜素可在体内转变成维生素A，含胡萝卜素丰富的食物有胡萝卜、蕃茄、各种绿色蔬菜，以及动物肝脏、奶油、全脂牛奶、蛋黄等。维生素B1可由日常所食用的糙米、面粉及各种豆类中摄取。维生素B2、B6的天然食物来源是动物的肝脏、牛奶、蛋黄、花生、菠菜等。至于维生素C，则从各种新鲜的蔬菜、水果中获得。<br /></p> 
+ <p style="TEXT-INDENT: 2em">所以要预防近视，除了注意用眼卫生外，还要培养宝宝合理的饮食习惯，讲究营养卫生，少吃糖果和含糖高的食物，少吃白米、白面，多吃糙米粗面，少吃猪油，限制高蛋白动物脂肪和精制糖食品的摄入，减少身体里铬的排出。同时，消除宝宝偏食的不良饮食习惯，多吃动物肝、蛋类、牛奶、虾皮、豆类、瘦肉、磨茹等。</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

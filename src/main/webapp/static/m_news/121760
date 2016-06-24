@@ -1,0 +1,318 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>新生儿与成人不同的物种？-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "121,760",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "121,760",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=151"
+				target="_self">特征</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">新生儿与成人不同的物种？</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-24 22:33:54</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　“他的第一个行为是<span class="articleLink">哭</span>。但这哭声既不是因为愤怒，也不像是快乐的呼喊，而是在一个鼻音之后长长的尖细的&aacute;-&aacute;音，音质如同苏格兰风笛一般，他并没有流泪，这声音完全是因为不舒适而自动发出来的。随着这单调而无趣的哭声，我们看到的初生婴儿的皮肤是红色的，热乎乎皱巴巴的（因为通常婴儿出世几天里<span class="articleLink">体重</span>会减轻），长着对眼，罐子肚，罗圈腿，难怪在母性被完全唤醒之前，有一段虽然很短暂但有时对孩子来说却相当危险的时间，除非母亲听从福禄贝尔的告诫，学会在孩子出生之前就爱上他。 ”</p> 
+ <p>　　不可否认，这样不讨好的描述一点儿也不夸张，而且，我们的<span class="articleLink">宝宝</span>也并不比其他的宝宝漂亮。宝宝的小叔叔是个小男孩，听说他的侄女长得很像他，就兴高采烈地来看，却被她的模样吓坏了，倍感羞辱。但她还是不乏赞美者。我不曾想到，女人们（甚至那些还没有做母亲的女性）可以在这个热乎乎软绵绵的小家伙身上找到那么多的可爱之处，来抵消霍尔女士在上面提到的这些不甚美观的小缺陷。</p> 
+ <p>　　发现<span class="articleLink">新生儿</span>的迷人之处的不仅仅是女人们，至少在德国是这样的。施米锡（Semmig）的《一位父亲的日记》被认为是婴儿记录的最早尝试。他甚至为那单调无趣的哭声感到喜悦。“如天籁一般的第一声啼哭！”他欢呼道：“圣洁的生命之音，心灵诗篇的第一个字符，人类生命交响曲的第一个音符，你是上帝之音的回响！还有什么可以和你的声音媲美啊！”“是的，的确如此，婴儿的哭声就是<span class="articleLink">音乐</span>。安静的时候，尤其是夜深人静，人们感到不安的时候，就会渴望听到小家伙这样原始的表达。当这无助的小家伙嚎啕大哭，用他的哭声告诉我们：‘我活着，给我我要的一切！’之时，人们的心灵得到慰籍，欣喜若狂。哦，夜里婴儿的啼哭是给父母们的夜莺之歌！”</p> 
+ <p>　　我们的宝宝至少从医生的角度来看是个漂亮的宝宝：壮实、<span class="articleLink">健康</span>而且发育良好。这一点在以后所有的记录中将被当作一个决定性的因素来考虑。</p> 
+ <p>　　开始，我以为她的腿可能有点不同寻常，因为那两条胖乎乎的小腿短得出奇。后来，我才知道，所有婴儿的腿都是这样的。事实上，整体而言，婴儿们和成年人在身体结构上也是很不相同的，以至于奥本海姆医生（Oppenheim）在他关于《儿童的发育》的著作中说过类似要把婴儿看做是和成年人不同的另一种生物形式的话，他们二者之间就像毛虫和蝴蝶那样迥然不同。在日常用语中，我们用colt（小马），calf（小牛），puppy（小狗）和baby（婴儿）这样专门的词来称呼几种高级动物的幼崽，而不是直接在表示成年动物的horse（马），cow（牛），dog（狗），和man（人）前加“年幼的（young）”，就好像他们是两个不同的物种似的。</p> 
+ <p>　　我们说一个婴儿是一个成人的小复制品，但事实上，如果真的把他的尺寸和力量放大到成年人的地步，乍一看，我们会认为他是个长着巨大的脑袋和肚子，短短的腿，没有脖子的畸形或者怪物，更不用说他那扁平的鼻子和下巴突出的脸了。而反过来说，一个真正像成年人复制品的婴儿，看起来肯定又会十分怪异。我们在一些古画里就可以看到这样的婴儿，当时的画家试图在母亲的怀抱里放上缩小了的成年男女的形象。</p> 
+ <p>　　婴儿身长的中点在肚脐以上一点点的位置，小肚子加上腿的长度大约为身长的一半多，而成年人光是腿的长度就占了身高的一半多。依照与体重的比例，婴儿头部的重量相当于成年人的七倍，肌肉则是成年人的一半多一点。</p> 
+ <p>　　“这两者（婴儿与成人）的呼吸方式不一样，脉搏不一样，身体的构成也不一样。”刚出生的婴儿的身体含74&#xfffd;&#xfffd;7%的水，而我们成年人则含58&#xfffd;&#xfffd;5%。婴儿头重是因为他结构松散含水量大，由此可见，那些试图用头重来比较智力的观点是很荒唐的，正如在讨论女性的智力时经常做的那样。正如唐纳德逊(Donaldson)所说，如果这样的比较有道理的话，初生的婴儿应该是我们人类中最聪明的了。奥本海姆医生说，婴儿的骨髓是红色的液体，而我们成人的骨髓则是黄色的脂状物质。就其红白血球和“几乎可算是异类的”化学构成而言，新生儿的血液和我们的也不相同。接着他又补充道，这样的骨髓和血液情况如果出现在一个成年人身上，将是疾病的一个征兆。</p> 
+ <p>　　二者体内的器官位置甚至构造也是不同的。婴儿的骨骼到处都是柔软且尚未发育完全的，头骨的板块之间的接合也是不完美的。不过这样很好，因为如果整个颅</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>骨是紧密封闭的，里面的大脑就永远没有机会成长了。最近，外科医生甚至还人为地在一个过早发育完全的颅骨上做了一些开口，免得孩子长大以后变成白痴。婴儿的骨质中，耳腔也是未发育完全的，以至于一方面鼻粘膜发炎更容易从鼻腔和咽喉蔓延到耳朵，另一方面，耳炎也更容易从耳朵扩散到大脑。婴儿的脊椎像猩猩的脊椎一样是笔直的，而成年人的脊椎有两个似乎是在学会直立时由肌肉的牵扯造成的弯曲。</p> 
+ <p>　　有关这些细节的说明，引自奥本海姆的著作以及伯克医生（Burk）所提供的菲罗特（Vierordt）和罗伯兹（Roberts）的测量结果――《儿童身高和体重的增长》。有些数据则来自其他一些作者的著作。有关此类细节，我可以列出很多。婴儿有别于成人的一些特点会一直延续到完全成年，另一些特点在出生几个星期以后就会消失。这些特点在较低级的动物身上一再出现，增强了解剖学家们对“复演论”（认为个体的发展复演了种系的发展――译者注）的信心，这比几个孤立的例证更有说服力。</p> 
+ <p>　　新生儿身上显示的最奇怪的一个猿猴特性是路易斯・罗宾逊医生（Louis Robinson）在一次调查研究中发现的，这一点在小说《咆哮营的幸运儿》中也有所暗示。这个问题是在一次关于瘸腿而且无脊椎的婴儿是否能扳动大人的<span class="articleLink">手指</span>的谈话中被提出来的。这个婴儿的脖子甚至无力支撑他的脑袋，但是，在场的比较有见识的人坚持认为他可以做到这一点，事实上这个小宝宝双手的握力惊人。罗宾逊医生忽然想到，如果这是真的，那可算得上是达尔文进化论的一个美妙证据。因为，如果我们的祖先曾经像猴子一样生活在树上，攀爬摆荡就自然是他们双手的一个专长。在母亲手脚和尾巴并用，在最佳时机在树丛中逃跑时，依附在母亲身上最牢或者在食物缺乏的时候够得着更多难以接近的水果和鸟蛋的宝宝，就会把这种特点<span class="articleLink">遗传</span>给他的后代，现在，我们住在房子里的摇篮里的宝宝所保持的这种附着的本领是我们人类野生丛林时代留下来的遗留。</p> 
+ <p>　　罗宾逊医生有幸能在60个宝宝出生后的第一时间在他们身上测试他的理论，而且取得了巨大的成功。他让宝宝们的小手握紧一只细长的木棒，他们便能像运动员一样轻松地摆荡上半分钟的时间，看起来丝毫也不吃力。这是许多成年人都做不到的。人类的手和手臂的这种了不起的力量多年来一直闲置无用，婴儿在出生几周内也逐渐丧失了这种能力，不过，在他的发育过程中的很长一段时间里，手的发育要先于腿的发育。</p> 
+ <p>　　这不仅仅是手臂力量的问题，而且是在许多肌肉的紧密配合下熟练完成动作的能力，这就是用手抓物体的动作。这是宝宝们与生俱来的动作之一，在此之前，他们根本就没机会学习也没想过这样的动作有什么用处。新生儿第一天就能打喷嚏、吞咽、啼哭；见到强光或感觉到触碰就会闭眼，而且听到声响或感觉到震动都会受惊。普莱尔在第一周内观察到婴儿会打嗝、哽塞、<span class="articleLink">咳嗽</span>，以及脚板被挠痒痒时脚趾会展开。达尔文在第一周观察到打哈欠、伸展等动作，尽管我不知道有谁在婴儿出生的第一天看到过这些。</p> 
+ <p>　　这类动作统称为反射动作，就像枪响是由人扣动板机引起的一样，它们都是由于感官受到外界刺激所引起的身体的机械性动作。因此，当一个瘙痒的感觉影响到黏膜时，一个打喷嚏的动作就自动执行了，而无需我们意志的参与。当我们的<span class="articleLink">眼睛</span>察觉到一支发射物快速地飞来时，颈部的肌肉就会自动把头飞快地拉向一边。</p> 
+ <p>　　然而，我们成年人却有强大的力量控制我们的反射动作――用术语来说，是“禁止”它们发生，而婴儿却没有。在过于强烈的反射活动中，他们就容易因自身过度的肌肉动作而遇到危险。我们看到的痉挛现象就是一个反射动作过激的例子。但是，我前面提到的动作，除了那些被称为周期性动作――诸如呼吸、心跳、动脉收缩以及有机生命的其他常规肌肉动作――以外，都是在新生儿身上发现的反射动作。</p> 
+ <p>　　周期性反射是一个十分复杂的运动系统，随时都会被空气和食物触发，之后靠身体机制与外力的互动来维持，这表明，这是一种固有的遗传行为而不是突发的反射行为。但是，这样的动作也并非一开始就这么顺顺利利的。例如，呼吸这个动作固定下来的过程就是相当不规则，相当困难的。甚至婴儿的突发反射动作都比成年人缓慢而生疏。</p> 
+ <p>　　另外还有一类动作常常跟反射动作相混淆，那就是本能动作。真正的抓握（区别于反射性抓握）、咬、站立、行走就属于这一类型。它们是整个种族的动作，是动物所属物种的习性，是这个物种中的每一个成员最终都会掌握的动作，然而，它们在身体机能中不像反射动作</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>那样固定。促使它们产生的因素似乎更多地来自人体内部而非外界，但又并非来自理智和意志，而是来自某种盲目的冲动。这样的冲动通常是不完善的，儿童必须通过自己的方式掌握这些动作。然而，尽管一些反射行为以一种比任何人类本能更为高度发达的状态被继承下来，但即使最底层的本能也总是遗传性的，而反射行为则不然――任何人都可以教会自己的肌肉新的反射动作，这些新的反射动作是他的祖先们所不知道的。每次音乐家练习演奏新的乐曲直到即使心有旁骛之时他的手也能熟练地演奏，就是这样一个过程。而本能则是无法这样获得的。</p> 
+ <p>　　低级动物不可思议的本能，尽管不完美而且处于断裂的状态但控制力却根深蒂固的人类本能，二者运作当中继承下来的必然行为与个体自选行为的交融方式，它们的产生所经历的神秘的生理方式（对反射行为的理解从一定程度上而言已相当令人满意），以及它们给生物学家对遗传现象最深层次问题的理解和对哲学家有关自由意志和个性的思考带来的启示，所有这一切，使得本能成为了当前研究的重要领域之一。尽管这个领域对于了解婴儿有着重要的意义，我还是不敢贸然进入。</p> 
+ <p>　　我必须得说，除了在最低级的动物身上没有出现本能外（它们的所有行为都属于反射类型），本能曾经是生命进化史上一个升级的标志，它在昆虫身上达到顶峰，接近人类时，本能的断裂成为了往更高级生命形式发展的一个标志。小鸡一出世就能满地乱跑，甚至小猴子出生几个月后就能自己照顾自己。没有什么比人类的婴儿更无助了，但我们人类的辉煌也就在于这种无助之中，因为它意味着这个种族的行为数量已经太大、太过复杂、太频繁地<span class="articleLink">重复</span>，已经不能在出生之前就在神经系统中固定了，因此，婴儿需要出生以后到成年的很长一段时间来继承它们。一个有机体是如此的不成熟、具有如此的可塑性，它要学习、要改变、要进入更高层次的发展，这是生物学上的一个高潮（也是普通观察中常出现的经验）。因此，正是我们的幼年确立了我们整个人类作为高级动物的地位。</p> 
+ <p>　　人类婴儿与生俱来的还有一种半反射性的动作――吮吸。婴儿的嘴唇碰到某个物体，也许是铅笔、手指或者乳头就能激发这个动作，这和反射动作是一样的，但之后却不一样了。这个动作之后的继续和停止不再受这种外界刺激的控制，过了一段时间之后，常常都不再需要这种刺激就能发生或者即使有这种刺激也未必发生。如果说起初这还是一个反射动作的话，那么这种特性慢慢地消退，最后就成了一种纯粹的本能。</p> 
+ <p>　　这两种自发的动作（不论以后本能会因为意志的介入而变得多么复杂，但在生命早期它只是自发的动作）虽然不是有意的，但都是“有目标”的，也就是说，它们是由祖先智慧或者自然选择而来直接适应某种目的的动作。但是，在我们的宝宝身上还有一类比这两种更加引人注目的动作，而且显然不具有目的性。从她出生的第一天起，她就能做一些小小的但却是持续的动作，她的腿开始挺直、眼睛和头都可以稍微转动。有的时候，这些特点会因为模糊而无意义的表情而走样。大多数观察者都在报告中提及了这种动作，一些新手说婴儿“用手在他的脸上摸索”，或者“试图把手放到头上”。任何一位母亲都会认为宝宝这么做是无意识的，因而只是旁观，直到宝宝数周后真的开始这么尝试着去转动头部、把手放到嘴里、踢脚。这些动作方式上的区别是显而易见的。</p> 
+ <p>　　一位英国<span class="articleLink">心理</span>学家对这样的行为作出了一个离奇的解释。他认为它们与那些两栖类动物的动作非常相似，在所有的两栖类动物身上都可以看到这些动作的原型。简而言之，它们是早于类猿阶段、<span class="articleLink">哺乳</span>动物阶段很久的一个时期残留下来的，那个时候，我们的祖先还没有完全放弃水里的生活。</p> 
+ <p>　　现在，尽管生物学家相信，只要我们的世系追溯到足够久远的时候，一定能追溯到水生生命中去，但人类的婴儿在出生之前早已经过了两栖阶段，他们最为频繁的动作居然是那么古老的时代的遗留，这是不太可能的。普莱尔的解释也许是正确的：即，这些动作只是由于神经中枢的快速发育造成的――神经中枢的快速发育致使多余的神经力量扩散到肌肉，导致其偶然地收缩。由于神经冲动倾向于沿着之前已经过的路径而不是新路径传输，所以肌肉就被牵引着往它们在婴儿出生之前的位置拉伸，因此，这些偶然的动作也有一定的规律性。这样，婴儿的手就常常倾向于抱住头部，这个事实后来被证明对发育产生了很重要的影响。</p> 
+ <p>　　普莱尔把这些无目的的动作称为“冲动性”动作，而我则按照白恩和摩尔女士的叫法称之为“自发性的”动作。</p> 
+ <p>　　除了这三类动作以外再无其他类型，因此，所有的动作都不曾显示意志的存在。母亲们通常认为哭是</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>一种愿望、意志或者某种理解的表达。但是，普莱尔告诉我们，那些无脑儿生下来也是这样哭的。</p> 
+ <p>　　母亲们不喜欢新生的宝宝起初是一个机器人的说法，如果这么说意味着宝宝只是一台机器而已，那么她们的反对是完全有道理的。新生的宝宝几乎没有思想、愿望或意志，就这一点而言，他们的确是机器人，但他是一个活生生有意识的机器人，这就使整个事情完全不同了。如果一位心理学家说在婴儿们的无助状态中隐藏有任何思想和意志的萌芽，他一定是够大胆的了。当然，他们是具有发展的能力的。与养育传统中所认为的一个聪明、能思考、有意志的婴儿相比，一个具备这样一种能力的机器人是一个更加奇妙的生物。</p> 
+ <p>　　如果母亲们能思考一下宝宝们经过了十二个月的进步到一岁时大脑的发育情况，她们就会发现，她们对于智力发育的起点估计得过高了。而且，她们错过了灵魂从一个无形的萌芽开始的快速而可爱的演变过程，这是一场动人心魄的精彩大戏。</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>
