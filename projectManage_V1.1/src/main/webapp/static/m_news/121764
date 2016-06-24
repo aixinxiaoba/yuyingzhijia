@@ -1,0 +1,301 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>新生小宝贝的7大本事(图)-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "121,764",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "121,764",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=151"
+				target="_self">特征</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">新生小宝贝的7大本事(图)</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-24 22:34:11</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p><font face="Verdana">　　人们会觉得，新生的小宝贝什么也不知道，只能睁着天真无</font>邪的<span class="articleLink">眼睛</span>傻傻地<font face="Verdana">看，却不知他们在看什么，他们什么能力也没有。 </font> </p>
+ <p align="center"><font face="Verdana"><img src="/upload/151/20070728091502408.jpg" border="1" /></font> </p> 
+ <p><font face="Verdana">　　这些看法实在是低估了这些可爱的小家伙们。其实，新生小宝贝一出生便具有很多“了不起”的本事，家长们来对他们进行一下考察，这样不仅能知道小宝贝是否发育正常，而且还能</font>懂得在<span class="articleLink">新生儿</span>时期怎样<font face="Verdana">对小宝贝进行训练。</font></p> 
+ <p><font face="Verdana"><strong>　　新生小宝贝的7大“本事”</strong></font></p> 
+ <p><font face="Verdana"><strong>　　1、视觉</strong></font></p> 
+ <p><font face="Verdana">　　正常新生儿在觉醒状态时能注视物体，并且能追随物体移动的方向，尤其对颜色鲜艳的物体，更容易表现出兴趣。比如，在他们的头顶上挂上一个红色的气球，他们就会用眼睛追随气球移动的方向，有时还会专注地注视着某一个物体。 同时，新生儿对光也比较敏感，遇到强光刺激时就会闭眼。</font></p> 
+ <p><font face="Verdana">　<strong>　2、听觉</strong></font></p> 
+ <p><font face="Verdana">　　新生儿出生时，由于耳</font>朵的鼓室没有空气和有<span class="articleLink">羊水</span>潴留的原因，听力稍差。但在出生后3-7天听力就已经发育得很好了。如果在他们的耳边轻声呼唤，小家伙会把头转向发声的方向，有时还会用眼睛去寻找声源。如果声音过大，小家伙就会用<span class="articleLink">哭</span>叫来表示抗议。</p> 
+ <p><font face="Verdana"><strong>　　3、味觉和嗅觉</strong></font></p> 
+ <p><font face="Verdana">　　新生儿出生时，味觉和嗅觉已经基本发育完善，对不同的味道会有不同的反应，大人想骗他们还真不容易。如果给他们喂糖水</font>，他们会欣然接受；如果把黄连素放入他们的口中，他们会用做出咧嘴的样子，或者吐出表示抗拒。新生儿对<span class="articleLink">母乳</span>的香味比较敏感，<span class="articleLink">哺乳</span>时闻到奶香<font face="Verdana">味就会把头扎到母亲怀里，去寻找母亲的乳头。这些小家伙们，甚至还能区分出自己的母亲与其他母亲的不同气味。</font></p> 
+ <p><font face="Verdana"><strong>　　4、皮肤感觉</strong></font></p> 
+ <p><font face="Verdana">　　新生儿的触觉很灵敏，尤其在眼、口周、手掌、足底等部位，触之即有反应，出现眨眼、张口、缩回手足等动作。如果大人们把手放在哭着的新生儿腹部，或者轻轻握住他们的双手，常常可以使他们慢慢平静下来。</font></p> 
+ <p><strong><font face="Verdana">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5、运动</font></strong></p> 
+ <p><font face="Verdana">　</font>　新生儿的运动多属无意识和不协调的。接近满月的新生儿被抱起时，头部可维持极短时间的直立位，如果把他们直立抱起，使他们的小脚与床面接触时，他们就会把一条小腿伸直，另一条小腿抬起。当大人把<span class="articleLink">手指</span>或者玩<font face="Verdana">具放入他们的小掌心时，他们会抓得紧紧的，绝不肯轻易松手。</font></p> 
+ <p><font face="Verdana"><strong>　　6、神经反射</strong></font></p> 
+ <p><font face="Verdana">　　新生儿出生时就具有一些先天性反射，大人们可以试着检验一下自己的小宝贝是否具有这些反射――</font></p> 
+ <p><font face="Verdana">　　* 觅食反射：用手指轻轻触一触小宝贝的面颊，正常情况下他们会反射性地把头转向被触及的一侧。如果触他们的口唇，他们会噘起小嘴，样子好似小鸟觅食，叫作觅食反射。</font></p> 
+ <p><font face="Verdana">　　* 拥抱反射：大人们可在小宝贝仰卧位时轻轻拉起他们的双手，使他们的身体慢慢抬高，当肩部略微离开床面时突然松手。这时，正常的新生儿会出现两臂外展、伸直、继而内收并向胸前屈曲类似于拥抱的动作，这是拥抱反射。这种检查动作要轻柔，千万别吓着小宝贝，更要注意别伤着他们。</font></p> 
+ <p><font face="Verdana">　　* 叫握持反射：这种反射做起来比较简单，大人们可把手指放入小宝贝的手掌中，他们会立即握住。</font></p> 
+ <p><font face="Verdana">　　* 交叉伸腿反射：大人们可用一只手按住小宝贝的一侧膝关节，另一只手划一下该侧的足底。这时，可见到他们的对侧下肢上缩、伸直，然后内收，触及受刺激的下肢或与之交叉。</font></p> 
+ <p><font face="Verdana"><strong>　　7．互动能力</strong></font></p> 
+ <p><font face="Verdana">　　新生儿出生后就具有与环境互动、与成人互动的能力。他们会追随大人说话或者微笑着的脸，会用哭叫的方式唤起大人们的注意，以使自己的要求得到满足。<br />&nbsp;<br /><strong>　　<font color="#ff0033">贴心提示：</font></strong></font></p> 
+ <p><font face="Verdana">　　1、上面只是介绍一些简单的新生儿行为能力的测定方法，家长可试着做一做，测查一下小宝贝的能力。如果发现异常情况，应该及早去医院请医生帮助检查。新生儿的行为能力的测定和训练，不仅有利于早期智力开发，还可帮助预测婴儿后期的性格和中枢神经系统的情况，所以应该予以重视。</font></p> 
+ <p><font face="Verdana">　　2、家长应注意激发新生儿与环境互动，与成人互动，在互动中促进小</font>宝贝的行为能力，激发<span class="articleLink">心理</span>发育。其实，家长做这些事并不需要额外的时间，在日常护理中就可以进行，如在哺乳、<span class="articleLink">洗澡</span>、换<span class="articleLink">尿布</span>、穿衣<font face="Verdana">服时逗他们笑，抚摸他们的皮肤，对他们说话，与他们进行眼神交往，这些都是激发行为和心理发育的有效方法。</font></p> 
+ <p><font face="Verdana">　　3、以上介绍的几种神经反射，都属于新生儿期的暂时性反射。正常情况下，这些反射在生后3-4个月时自然消失。如果小宝贝在新生儿期不出现这些反射，或在出生后3-4个月反射仍不消失，就应去医院请医生进行检查。</font></p> 
+ <p><font face="Verdana">　　4、近些年来，医学界对新生儿的行为能力方面给予了很大的关注，逐渐完善了新生儿行为估价评分方法。对新生儿进行行为能力检查，有利于早期智力开发，促进智力和体格发育。并且，通过这种检查可早期发现脑损伤引起的新生儿神经行为异常，充分利用小儿早期神经系统可塑性强的时机进行训练，促进代偿性康复。</font></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

@@ -1,0 +1,360 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>新生儿实体大小全收录-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "121,731",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "121,731",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=151"
+				target="_self">特征</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">新生儿实体大小全收录</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-24 22:32:05</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <table cellspacing="3" width="520" align="center" bgcolor="#eef7ff" border="0"> 
+  <tbody> 
+   <tr> 
+    <td class="content" style="BORDER-RIGHT: #0086c6 3px dotted; BORDER-TOP: #0086c6 3px dotted; BORDER-LEFT: #0086c6 3px dotted; BORDER-BOTTOM: #0086c6 3px dotted" bordercolor="#ecd9ec"><strong><font color="#53c7ff">　&nbsp;</font><font color="#008bce">在经过280天的子宫生活之后，小<span class="articleLink"><u><font color="#0000ff">宝宝</font></u></span>终于诞生在这个世界上了！外面所接触到的世界跟在妈妈肚子里完全不一样，刚出生的<span class="articleLink"><u><font color="#0000ff">宝宝</font></u></span>正在慢慢的适应，就在我们感叹生命力伟大的同时，也让我们来看看刚出生的宝宝有哪些地方不一样！</font></strong></td>
+   </tr>
+  </tbody>
+ </table> 
+ <p>　　新生宝宝四头身</p> 
+ <p>　　从出生后<span class="articleLink">脐带</span>结扎起到足28天为<span class="articleLink">新生儿</span>时期，<span class="articleLink">新生儿</span>肤色红润，<span class="articleLink">体重</span>平均在3,200g左右，身长约50&#xfffd;M，比例上头部占的比较大为全身的四分之一；头围33～44公分，头发有的多有的少，但不代表宝宝日后头发的浓密度，而且初生婴儿的<span class="articleLink">眼睛</span>大多数时间闭着，但清醒时可定视约20公分距离的目标。<font color="#0066ff"> </font></p> 
+ <p> </p>
+ <table bordercolor="#66ccff" cellspacing="3" width="478" align="center" border="1"> 
+  <tbody> 
+   <tr> 
+    <td bgcolor="#eef7ff" rowspan="2"> 
+     <div align="center"> 
+      <table cellspacing="0" cellpadding="0" border="0"> 
+       <tbody> 
+        <tr> 
+         <td><u><img alt="" src="/Newborn/UploadFiles_4637/200706/20070608151820293.jpg" align="middle" border="0" /></u></td>
+        </tr>
+       </tbody>
+      </table>
+     </div></td> 
+    <td class="content" style="BORDER-RIGHT: #0086c6 3px dotted; BORDER-TOP: #0086c6 3px dotted; BORDER-LEFT: #0086c6 3px dotted; BORDER-BOTTOM: #0086c6 3px dotted" bgcolor="#ffffff">　<font color="#008bce"><strong> 新生宝宝的呼吸</strong></font></td>
+   </tr> 
+   <tr> 
+    <td class="content" bordercolor="#66ccff" bgcolor="#eef7ff"><font color="#3ec0ff"><strong>&nbsp;&nbsp;&nbsp; 应注意婴儿的保温及透气，勿使过凉或过热。</strong></font></td>
+   </tr>
+  </tbody>
+ </table> 
+ <p>　　新生宝宝的呼吸</p> 
+ <p>　　<span class="articleLink">新生儿</span>呼吸较浅快，呼吸时可观察到婴儿腹部的起伏，节律常不一致，每分钟大约40～80次，一般2周后会逐渐稳定。<span class="articleLink">新生儿</span>的循环系统与成人不同，血液大多集中在躯干和内脏，所以四肢温度较低，易出现青紫现象，这是正常的。心跳每分钟约80～120次。体温调节机能尚不健全，体表面积大，皮下脂肪少，容易散热，因此体温波动较大，应注意婴儿的保温及透气，勿使过凉或过热。</p> 
+ <p>　　新生水宝宝</p> 
+ <p>　　新生儿身体的含水量约为70～80&#xfffd;左右，这也就是如果有任何问题不适宜开刀的原因。因为身体组织尚未成熟、水水的，在外观上四肢短小，上肢呈外伸的W型；而下肢则为内缩的M型，且<span class="articleLink">口腔</span>干燥，两颊内侧有隆起的脂肪垫，有助于含住乳头，不可挑破或割掉。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　＊头 </p> 
+ <p>　　新生儿的头部很可能会因为经过妈妈狭窄的产道，而在脑部产生肿块的情况，称之为「产瘤」。国泰医院内湖分院小儿科主治医师冯文侃表示，产瘤主要分为2种，一种是头皮下的水肿，这样的产瘤很快就会自然消退；另一种是头皮下有出血形成血肿的状况，这样的产瘤需要花比较多的时间消除，可以经由轻柔按摩的方式帮助其消退，不然可能会钙化变成硬快，但对脑部不会有影响。除非是新生儿回家后肿块越来越大，或是头顶部的两边都有肿块则需要回医院检查。<font color="#0066ff"> </font></p> 
+ <p>　　【观察重点】</p> 
+ <p>　　爸妈也需要注意新生儿头顶一块三角形或菱形的「囟门」，是否有凹陷或特别突出，这部位的异常代表脑压可能过高或是水脑，需要请医师做进一步检查。</p> 
+ <p>　　＊手</p> 
+ <p>　　新生儿的手多半以握拳的姿势为多，手掌大小及肌力的表现也是两边对称的，外观上来判断是否正常就是看是否有多一只<span class="articleLink">手指</span>，但只要不影响正常生活，多指其实是不需要做处理的。</p> 
+ <p>　　【观察重点】</p> 
+ <p>　　1.父母需要注意的反而是新生儿<span class="articleLink">手指</span>的灵活度，尤其是大拇指，父母可以轻轻的拉拉看小宝宝的<span class="articleLink">手指</span>是否可以拉开，如果有些关节或肌腱太紧的就需要做复健。</p> 
+ <p>　　2.要注意小宝宝的指节是否有多或少的状况，例如，蒙古症的孩子通常小指指节只有两节，这是染色体异常的一种表现。</p> 
+ <p>　　＊肚脐</p> 
+ <p>　　宝宝刚出生的时候，医护人员都会为宝宝的<span class="articleLink">脐带</span>做一个初步的护理，就像图中的小宝宝，在<span class="articleLink">脐带</span>还未干燥的时候会用<span class="articleLink">脐带</span>夹先夹起来，但因为怕脐带夹的材质及形状摩擦宝宝的皮肤，所以医护人员会用纱布将夹子包起来。 </p> 
+ <p>　　宝宝被带回家之后，医护人员会给家长一瓶酒精带回家，爸妈们只要定时擦拭，让脐带干燥、脱落即可。冯文侃指出，正常来说，脐带约10～14天就会自然脱落，如果宝宝的脐带一直没有干燥的话就可能会长螅肉或造成感染。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　【观察重点】 </p> 
+ <p>　　如果发现脐带有发臭或变黄，或是宝宝容易倦怠、<span class="articleLink">发烧</span>、食欲不振等就需要带到医院就诊。</p> 
+ <p>　　＊脚ㄚ</p> 
+ <p>　　新生出来的小宝宝脚丫通常都会有脱皮的现象，这是因为宝宝泡在妈妈<span class="articleLink">羊水</span>里太久的关系。冯文侃表示，通常脱皮的状况1～2个礼拜就会完全结束，爸妈不需要做额外特殊的护理。而且宝宝的足底通常脂肪较厚，所以看起来会有点像是扁平足的样子，但一般而言，随着年纪的增长便会慢慢形成足弓。</p> 
+ <p>　　【观察重点】</p> 
+ <p>　　当爸妈将手放在新生儿腋下让他脚触床面时，会有自发性踏步的运动出现。</p> 
+ <p>　　＊屁股</p> 
+ <p>　　刚出生的小宝宝通常会有蒙古斑，冯文侃表示，蒙古斑好发在屁股、上臂部或是大腿，而颜色上是偏暗的青绿色；蒙古斑是属于人种的象征，通常<span class="articleLink">东方</span>人才会有蒙古斑，西方人可是没有的！</p> 
+ <p>　　蒙古斑是<span class="articleLink">胎儿</span>在妈妈肚子里所形成的色素沉淀，所以大部分的孩子差不多在<span class="articleLink">1岁</span>以后会慢慢的消失，或是越来越淡，如果是暗红色的，或是斑点越来越大，那就很可能是<span class="articleLink">血管瘤</span>。它虽然会影响外观但可能会逐渐淡去，所以家长可以等孩子大一点再做处理。 </p> 
+ <p>　　＊吸吮反射</p> 
+ <p>　　吸吮反射是最重要的反射动作。冯文侃表示，只要去碰触宝宝的嘴角，他自然就会本能的去寻找，宝宝藉此反射找寻乳头来得到良好的营养。如果这个最基本的反射都无法做到的话，宝宝吸奶就会有问题，而且也代表着宝宝有脑部发育的问题，连其它的反射可能都不正常，所以爸妈很容易就能观察出来。</p> 
+ <p>　　＊牵引反射</p> 
+ <p>　　当爸妈牵着宝宝的手想轻轻的拉他起来的时候，宝宝会出现颈部用力往上的反射。冯文侃提到，在婴儿时期虽然宝宝的肌力表现还不是很好，但当你拉他起来的时候，他的颈部也会稍微用力，不会软趴趴的垂下去。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　【观察重点】 </p> 
+ <p>　　当你把宝宝平放在床上的时候，他的肌肉是否自然弯曲而不是摊平在床上的，否则可能脑部的神经方面有问题。 </p> 
+ <p>　　＊惊吓反射</p> 
+ <p>　　惊吓反射是爸妈在家里平时就可以注意的一个反射动作，通常当宝宝被声音或是突然间的肢体动作改变吓到的时候，会有一个受到惊吓的动作，如果没有这个反射动作，代表宝宝的神经方面可能有问题；但如果3～4个月大后宝宝的脖子比较稳了，手脚的活动也比较有自主性时，这种反射动作却还没消失的话，也可能意味着脑神经的发育较慢或有问题。</p> 
+ <p>　　冯文侃提到，反射动作如果该有的时候没有，或是该消失的时候没有消失，都属于不正常。</p> 
+ <p>　　【观察重点】</p> 
+ <p>　　除了惊吓反射之外，爸妈在家里也可以注意宝宝是否会循着声音来源，或是当物体很近（约20公分左右）的时候能有眼部的聚焦反应，藉此观察宝宝的听力及视力。</p> 
+ <p>　　＊把握反射</p> 
+ <p>　　当你用手按压宝宝脚底接近趾部的地方时，宝宝的脚趾会卷起来，但冯文侃表示，这是一个较为专业的反射测试，而且不是每次测每次都会有，不过这个反射是医师判断脑膜炎的一个重要指标，如果刺激宝宝的脚底而每次拇趾都是翘起来不是卷缩状的，再配合其它病理上的左证，很可能就是宝宝患有脑膜炎。</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>
