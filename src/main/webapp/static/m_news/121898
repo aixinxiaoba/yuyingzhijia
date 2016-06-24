@@ -1,0 +1,352 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>宝贝贴身的秘密-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "121,898",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "121,898",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=151"
+				target="_self">特征</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">宝贝贴身的秘密</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-24 23:16:50</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p align="center"><img id="ImgInfo" alt="" src="/upload/151/20071127090345358.JPG" border="0" /></p> 
+ <p>　　导语：抱着你初生的小宝宝，心里的爱意越来越多，可疑问也一个接一个：他为什么一天到晚不停地吃？为什么总打嗝？他的脚怎么翻着长？……</p> 
+ <p>　　新生儿的身体与我们成人有很多不同，如果你的宝贝能说话，他会很乐意告诉你，这些是为什么。</p> 
+ <p>　　从宝贝一出生，你就开始陶醉在孩子长得像谁的讨论中。其实除了面貌，宝贝的身体还有许多和我们不一样的地方，如果他能说话，就会告诉你，他和你是多么的不同。先让我们来听听宝贝想对你说些什么。</p> 
+ <p>　<strong>　1、 我拉臭臭的时候脸会变红，鼻子里还发出哼哼声，但你可不要以为我是便秘呀。</strong></p> 
+ <p>　　待在妈妈的子宫中时，胎儿的肠道是不活动的，腹肌没有经过很好的训练，以至到了出生后，它就显得很无力，所以宝贝在大便时恨不能全身都要用些力气，看上去好像很费劲一样。但只要他的大便是稀软的，你就不必担心他有便秘的苦恼了。</p> 
+ <p>　　<strong>2、 我长了尿布疹，干坏事的可不止一个。</strong></p> 
+ <p>　　如果你给宝贝用的是尿布，那么在你的印象中，一天至少要尿湿10片，其中还不包括若干次的大便。湿尿布不光增加了你的劳动强度，想想看，那么娇嫩光滑的小屁股要受到这么多次的“袭击”，长尿布疹的危险系数由此可见。而且，不光这一个原因，还有另外的“疑犯”――酸度较强的肠道环境。</p> 
+ <p>　　不管是母乳还是配方奶，宝贝照单全收，统统进肚。饱是饱了，但他那尚未发育成熟的消化系统即便是高效率地工作，也不能把奶中的碳水化合物全部吸收，剩下的就在他的肠道中发酵了（这可不是生产酸奶的地方），于是产生了酸、气体甚至是泡沫便。这些导致敏感的肌肤受到了更强的刺激。</p> 
+ <p>　　勤换尿布（纸尿裤），并且每次大便后清洗干净臀部并有效使用护臀膏，是预防尿布疹的有效措施。</p> 
+ <p>　<strong>　3、 你看我的脚趾甲长进了肉里，心疼了吗？其实没有，别担心。</strong></p> 
+ <p>　　很多父母惊讶地发现，他们宝贝的脚趾甲似乎长进了肉里，而且周围还发红，于是担心不已。但大多数情况下，这是正常的。小婴儿的趾甲与成人的相比，弯度更大，边缘藏入肉中的程度更深。一个非常简单的办法就可以检验它是否正常：用手指轻轻地捏住宝贝的脚趾，如果趾甲确实是刺进了肉中，趾甲周围的皮肤会很软，像水肿的感觉，而且宝贝也会大声地让你知道――我很疼！</p> 
+ <p>　<strong>　4、 我有一双扁平的脚，这可并不意味着我将来就是扁平足。</strong></p> 
+ <p>　　新生儿的脚底扁平或者有很小的弓度是很正常和健康的，相反，如果他的脚底呈现出很大的弓形，反而提示可能有神经或肌肉发育问题存在。孩子们的脚弓到4~6岁之间才发育完全。</p> 
+ <p>　<strong>　5、 如果看到我的足内翻或者弓形腿，先不要过度担心。</strong></p> 
+ <p>　　能够在妈妈狭小的子宫中慢慢发育成一个身长50厘米左右的小人，没有一定的生存技巧可不行，胎儿的身体弯曲程度即使是最高明的杂技演员可能也达不到。胎儿在子宫中的高难动作很难描述，总之是他的腿和脚都最大限度地弯曲着，甚至出生后还照样弯曲，直到两个月后慢慢可以舒展。只要孩子的腿和脚可以轻轻地而且没有痛感地摆弄到正常位置，就不用太担心，几个月后还是这样，可以去找医生查一查。</p> 
+ <p>　　<strong>6、 虽然我也不愿意，但我有时还是会变成“斜眼”。</strong></p> 
+ <p>　　如果斜视只是偶尔为之，那么不用紧张，但假如到了3个月后宝贝还是斜视，或者从出生后眼睛就一直斜视，那么就要找眼科医生检查了，看是否有眼部问题存在。当然，如果是假性斜视就皆大欢喜了。</p> 
+ <p>　　<strong>7、 我只能用鼻子呼吸，千万别让我的鼻子堵住。</strong></p> 
+ <p>　　新生儿喉头的位置相对较高，这可以确保他在吃奶的时候奶水不会意外地呛到气管里去，但这也造成他无法用嘴，而只能通过鼻子呼吸。如果他通气的时候很费劲，可以帮他把鼻孔里的堵塞物清理掉，例如用个吸鼻器轻轻地把鼻孔里的东西吸出来。几个月后，婴儿就可以用嘴呼吸了。</p> 
+ <p>　<strong>　8、 虽然我是“干打雷不下雨”，但哭是真的，你可别不理睬。</strong></p> 
+ <p>　　从出生后的第一声啼哭开始，宝贝就用哭来提要求了，但直到他满月，你可能也没看到一滴眼泪顺着脸颊滑下来。在开始的时候，他的泪腺生产的眼泪只够湿润眼球的，还匀不出多余的泪水来打动你。而且除了先天泪道不通的情况，宝贝的泪道也可能部分或全部地堵塞住，直到他6个月大才完全打开。</p> 
+ <p>　<strong>　9、 别使劲摇我，这很危险！</strong></p> 
+ <p>　　轻轻的摇晃并没什么不对，而且有时还可以当作安抚哭泣宝贝的秘密武器，但千万千万不能用力摇婴儿，因为小婴儿头部的髓磷脂还不足以起到保护大脑的作用，猛烈的摇晃会使大脑前后碰撞，严重的可造成头部毛细血管破裂，甚至死亡后果。这也就是人们说的“摇晃综合征”。</p> 
+ <p>　<strong>　10、我的呼吸速度快而且不规律，可不像你们那么平稳。</strong></p> 
+ <p>　　成年人每分钟呼吸的平均次数是12~20次，而一个新生儿却在这短短的时间内可以挤进60次，并且还是不稳定的，甚至有时会有短暂的10秒种“呼吸暂停”。造成这种现象的原因一是他们小小的肺还不成熟，二是神经系统的神经结数目过少。大约6个月后，婴儿就能建立起成熟的呼吸模式了。</p> 
+ <p>　<strong>　11、我的动作苯苯的，很不熟练，但我不是苯小孩。</strong></p> 
+ <p>　　出生时，新生儿大脑中控制神经反射和重要生理活动如心跳等的部分比较发达，负责调整动作关系的小脑还没有发育合适，所以新生儿的动作大部分都是偶然和突发的，完全是无意识的神经反射。随着神经通路的逐渐建立，信息传递的日益成熟，几个月后，他的动作会变得更平稳，并且尽在控制之中。</p> 
+ <p>　<strong>　12、你说我是你的“温度计”，但我自己却不能调节体温。</strong></p> 
+ <p>　　新生儿体内负责自动调温的甲状腺发育还不成熟，不能有效工作，当他身体过热时，汗腺不能帮助降低体温，冷时，又不能像我们一样一哆嗦就产生了热量，所以初生的一两个月，婴儿有过冷或过热的危险。外界的温度调节此时就显得很重要，需要通过衣被来让婴儿保持合适的体温。</p> 
+ <p>　<strong>　13、虽然我每天都吃很多“稀饭”，但我还是容易脱水。</strong></p> 
+ <p>　　与成年人相比，婴儿体内的水分所占比重更大，大约全身重量的75~80%都是水分。基于此，婴儿也就比幼儿和成年人更容易发生脱水的危险。而且，婴儿体内新陈代谢的速度比成人快2~3倍，所以他们身体需要更多的水分参与新陈代谢，供身体排泄废物所用。如果想检查婴儿是否缺水，可以把小手指伸进他的嘴里探一探，如果里面是湿润的，就证明一切正常，如果里面是干的，而且发黏，就说明他需要进食母乳或配方奶了。</p> 
+ <p>　<strong>　14、别离我那么远，我看不清楚。</strong></p> 
+ <p>　　在开始的日子里，宝贝的视线是模糊的，当你抱着他时，除了你的脸，他并不能看到更远处的东西。而且，具有鲜明轮廓的物体能够更容易辨别出，这也是为什么新生儿更喜欢看着你的嘴巴或额头而不是眼睛，他在学着区分出皮肤和头发的界线及牙齿和嘴唇的不同。随着时间的过去，宝贝的眼球会变得更深，视网膜发育也更成熟，看到的物体也就更远更清晰了。</p> 
+ <p>　<strong>　15、我总打嗝，你们别笑我。</strong></p> 
+ <p>　　横膈膜是人体内与呼吸密切相关的一块肌肉，如果它发生痉挛，人就会打嗝。出生后的几个月，婴儿经常频繁打嗝，一种可能是他受到了强烈刺激引起打嗝，另一种可能是喂奶时吸入空气造成的，这都很正常，等到了三四个月，婴儿的膈膜发育更成熟，可以更有效地工作，打嗝的现象也就相应减少了。</p> 
+ <p>　　<strong>16、我吃了又吃，吃了又吃，一天中总是饿。</strong></p> 
+ <p>　　许多刚做了母亲的人都有这样的担心：孩子每一两个小时就吃一次，他每次到底吃饱了没有？因为婴儿的胃非常袖珍，大约只是一个成年人的1/50，所以他需要频繁地进食，以保证身体发育的需要，等到了1岁，他的胃长到了成年大小的1/3，也就可以养成和成人相似的饮食规律了。</p> 
+ <p>　<strong>　17、我长着胖嘟嘟，鼓鼓的两颊可不是为了让你们亲的。</strong></p> 
+ <p>　　每次看到宝贝那圆嘟嘟的两颊你是不是都想亲一下？太可爱了。宝贝这丰满的脸蛋儿是因为皮肤下面长着特殊的脂肪组织――颊脂垫。它在婴儿吸吮，需要协调上颚、嘴唇、双颊和舌头的动作时，起到支撑上颚的作用。</p> 
+ <p>　<strong>　18、我的耳朵软软的，可以像树叶一样折弯。</strong></p> 
+ <p>　　新生儿的耳朵很软，如果你看到它们折到了一个不可思议的角度，你也别太惊讶。因为他们耳朵中的软骨尚未发育成熟，很易曲折，几周后，它会逐渐变硬，宝贝的耳朵就像你的一样竖直，保持正常姿势了。</p> 
+ <p>　　<strong>19、我的髋关节还在发育之中。</strong></p> 
+ <p>　　新生儿大腿骨顶端的两个隆起是由柔韧的软骨组成的，它们慢慢会变硬，并且嵌入圆形的髋关节的凹洞中。如果隆起没有到达正确的位置，髋关节就不能恰当地发育，会造成将来的跛行。在满月的检查时，医生会把孩子的两条腿分开，并做圆形绕转，以确定髋关节没有脱臼，一切正常。</p> 
+ <p>　<strong>　20、我双肋之间如果有个突起，请别太在意。</strong></p> 
+ <p>　　这个较硬的肿块很可能是胸骨的底边，叫做剑状软骨突起。虽然名字很奇怪，但它是正常的，你有时甚至注意不到它（这个突起更容易在瘦小的婴儿身上看到）。慢慢地，它会和胸骨融合在一起，并且被肌肉和脂肪覆盖，到那时，你就更不容易看到它了。</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

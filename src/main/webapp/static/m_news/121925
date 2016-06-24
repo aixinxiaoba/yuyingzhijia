@@ -1,0 +1,331 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>新生儿体重大解析-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "121,925",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "121,925",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=151"
+				target="_self">特征</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">新生儿体重大解析</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-24 23:19:24</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　<strong><font color="#cc5233">体重，是新生儿健康的重要参考指标，过去的人认为生个胖娃儿比较好，但以现今医学观点来看，宝宝体重太重，不但妈妈产出不易，宝宝也容易有「出生创伤」（例如锁骨断裂等）；不过宝宝太轻，对他自身的健康也会有疑虑。究竟，新生儿体重多少最好？为什幺会有过轻、过重的现象。</font></strong></p> 
+ <p>　<strong>　Part 1出生体重篇 <br /></strong><br />　　通常宝宝一哌哌坠地，医护人员除了帮他简单清洗后，首先会测量的就是他的身高、体重和头围，因为这叁个数字和他的健康状态息息相关。其中的体重，更是许多家长关心的焦点。<br /><br />　　根据行政院卫生署的统计，目前国内新生儿的体重平均落在2,800～3,200公克之间，而医学上对于新生儿的体重则有所谓的正常标&#xfffd;手怠７鸾檀燃米酆弦皆禾ū狈衷盒《&#xfffd;科主治医师赵露露表示，出生时体重介于2,500～4,000公克的称之为正常；低于2,500公克称之为「低体重儿」；高于4,000公克者称之为「巨婴」。</p> 
+ <p>　　<strong>过轻、过重的定义<br /></strong><br />　　<strong>低体重儿<br /></strong><br />　　<strong>【定义】<br /></strong><br />　　不论产妇在妊娠几&#xfffd;L，或者以何种方式生产，只要婴儿出生时体重低于2,500公克，医院就会视宝宝为低体重儿。<br /><br />　　值得注意的是，低体重儿不等于早产儿，只是低体重儿有3分之2都是早产儿。<br /><br />　　<strong>【类型＆原因】<br /></strong><br />　　赵露露医师表示，在了解塬因之前，我们必须先&#xfffd;清宝宝是属于两种低体重儿的哪一种类型：<br /><br />　　1.对称型：当宝宝被视为低体重时，医师通常还会再参考他的身高和头围，若这叁项数值全部落在刚出生婴儿体重、身高、头围曲线的10％以下，那就属于对称型低体重儿。<br /><br />　　造成的塬因通常发生在怀孕初期，而且不容易发觉，例如先天畸形、先天感染、染色体异常等。<br /><br />　　2.非对称型：就是宝宝的身高和头围在刚出生「胎儿生长曲线」的正常&#xfffd;围（10～90％），只有体重值低于10％。<br /><br />　　造成的塬因通常发生在怀孕后期，例如妈妈营养不良；有抽菸喝酒、吃药的问题；或者孕妇有高血压、肾&#xfffd;K病、妊娠毒血症等。</p> 
+ <p>　<strong>　巨婴<br /></strong><br />　　<strong>【定义】<br /></strong><br />　　出生体重高于4,000公克的新生儿就称之为「巨婴」。<br /><br />　　<strong>【原因】<br /></strong><br />　　<strong>通常和以下三种因素较有关：<br /></strong><br />　　1.父母亲的遗传。<br /><br />　　2.孕妇有妊娠糖尿病，因为体内分泌较多的胰岛素，而IGF类胰岛素的生长因子会让宝宝长的比较大。<br /><br />　　3.孕妇后期过胖，营养过盛。</p> 
+ <p>　　<strong>重不重有何影响？<br /></strong><br />　<strong>　1.生产的困难与威胁<br /></strong><br />　　新生儿体重对妈妈生产，以及新生儿本身的健康有很大的影响。赵露露医师表示，低体重儿的健康问题是发生在出生之后，对产妇较无影响；而巨婴的问题则在产妇生产时就会发生。<br /><br />　　赵露露医师指出：「因为宝宝体型较大（通常头也较大），肩难产机率高，所以自然产容易有：头血肿、锁骨断裂、臂神经受损等情况出现，甚至出生后，发生周产期窒息、抽蓄、严重缺氧而导致脑性麻&#xfffd;w的也有。」<br /><br />　<strong>　2.宝宝容易血糖过低<br /></strong><br />　　这一点是低体重儿和巨婴都会发生的健康问题。赵露露医师解释：「前者是因为先天不足，后者是因为所需较多，两种宝宝在经过生产压力后，对于血糖的需求都会再提高，所以都可能有低血糖、高胰岛素的问题，需要特别的照顾，因为严重者会影响脑部发育。」<br /><br /></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p></p> 
+ <p>　<strong>　3.宝宝容易有红血球过多症<br /></strong><br />　　就是新生儿的全身皮肤特别红。</p> 
+ <p>　　<strong>体重跟哪些因素有关<br /></strong><br />　<strong>　【胎盘功能有差】<br /></strong><br />　　那幺，新生儿体重与哪些因素有关？赵露露医师表示，除了与宝宝本身、孕妇怀孕期间饮食有关外，跟母体胎盘的功能也有很大的关连。「胎盘功能好坏通常在胎盘形成时就已&#xfffd;]定，它和孕妇的年纪有关，过大、过小都容易不佳。」<br /><br />　　<strong>【父母遗传最重】<br /></strong><br />　　其次，赵露露医师也表示，就整体而言，目前医学普遍认为跟遗传有最多的关连；刚出生的重量可能跟父母双方出生时体重有关，但出生后到2岁以前，可能跟宝宝的健康状态，以及&#xfffd;j养的营养有关；到了2岁以后，又回到跟遗传的基因有关了。</p> 
+ <p>　　<strong>生理性的体重下降 <br /></strong><br />　　新生儿体重还有一个有趣的现象，那就是新生儿在出生后的头几天里，体重不但没有增长，相反会比出生时的体重下降。赵露露医师表示，新生儿出现的这种暂时的体重下降是正常的现象。<br /><br />　　「新生儿体重暂时下降的主要塬因为生理性脱水(由于皮肤表面面积较大，水份散失较多所造成)，但出生后会慢慢脱水恢&#xfffd;汀Ａ硗猓&#xfffd;宝宝在出生后的几天，通常睡得多，可以哺&#xfffd;j的机会少，如果再加上宝宝吸吮能力较差，或是妈妈奶水尚不充裕等等都会有所影响。」</p> 
+ <p>　　<strong>降低程度在10％以内<br /></strong><br />　　在正常情况下，体重大部份会下降在出生体重的10％以内，也就是说，如果新生儿的出生体重是3,000公克，暂时性的体重下降不会超过270公克。如果能在新生儿出生后及时哺乳，妈妈乳汁丰富、宝宝吸允能力佳，应该可以减少体重下降的程度。</p> 
+ <p>　　<strong>出生后3～4天会回升<br /></strong><br />　　一般新生儿体重下降在出生后3～4天达到最低点，以后会逐渐回升。在出生后第7～10天，体重应恢&#xfffd;偷匠錾&#xfffd;时的重量，以后以每日25～30公克的递增速度不断增长，到满月时体重至少比出生时增长500公克。<br /><br />　　赵露露医师提醒，如果发现新生儿体重下降的&#xfffd;围超出正常标&#xfffd;剩&#xfffd;或者体重恢&#xfffd;驼&#xfffd;常的时间延迟，父母可以试着寻找塬因，例如哺乳量够不够？是否按时哺乳？宝宝身体状况是否健康等，如果是新生儿喝奶有问题，或者患有其他疾病，可以赶快到医院做检查。<br /></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p></p> 
+ <p>　　<strong>Part 2成长体重篇<br /></strong><br />　　然而过了新生期，宝宝体重应该如何增加最好？赵露露医师解释，因为宝宝每公斤每天必须摄食100大卡，牛奶每1c.c.等于0.67大卡，也就是说每1公斤宝宝每天必须喝足母奶或配方奶120～150c.c.。而各阶段宝宝体重建议增加如下：<br /><br />　　1.前三个月：每天增加20～30公克。（平均每个月约重1公斤）<br /><br />　　2.四个月大以后，体重可以是出生时的2倍。<br /><br />　　3.一岁以后，体重可以是出生时的3倍。<br /><br />　　除此之外，青春期又有一个身高和体重增长的重要时期。<br /><br />　　赵露露医师说：「儿童期的体重和体重增长速度，是衡量营养和发育情况的重要指标。若身体健康，没有疾病，加上各种动作发展都如预期时程，体重些微的偏轻或偏重，父母无需操心。但若不足或超出一般同年龄、同性别人体重的分&#xfffd;颜叩纳舷孪蓿ǖ陀&#xfffd;3％或高于97％，或生长偏离生长曲线时），则需要父母特别关注。」</p> 
+ <p>　　<strong>解读宝宝生长曲线<br /></strong><br />　　那幺，宝宝体重增加多少最适合？赵露露医师表示，父母可以参考国民健康局发给每位小朋友的「儿童健康手册」，&#xfffd;e面有一项男女宝宝体重生长曲线图（见图），只要家长详细记录，宝宝在曲线图中介于3～97％都算正常。<br /><br />　　而赵露露医师进一步指出，观察宝宝的成长最好是看曲线图的百分比的稳定度，而不是增加几公斤，例如宝宝1岁左右，体重增加会比较不明显，因为那个阶段，宝宝开始学会爬行，甚至走路，体力消耗较多，光看体重当然较无增加，所以只要曲线图的纪录维持在一定的&#xfffd;围，例如每次纪录都是介于50～75％就是正常，但也不要忽高忽低。</p> 
+ <p>　　<strong>若高于97％者需要做什幺？<br /></strong><br />　　赵露露医师说，通常宝宝成长能够到达97％多是受到父母遗传的影响，若身高发展也是配合高百分比，且无健康不良或行为发展异于同龄小孩，父母无须担心。</p> 
+ <p>　　<strong>若低于3％者需要做什幺？<br /></strong><br />　　反倒是宝宝体重若低于3％，父母应留意是否有疾病或营养不良等问题。赵露露医师建议，家长可以先观察以下3个方向：<br /><br />　<strong>　1.进食的状况<br /></strong><br />　　当宝宝4个大以后，饮食就会开始不专心，若大人也跟着不专心或疏忽，宝宝自然体重增加会不如预期。「若宝宝进食的状况十分不良，可以先详细记录宝宝一天进食的分量，然后带到医院找小儿肠胃科医师诊断。」<br /><br />　<strong>　2.观察大便<br /></strong><br />　　是否容易腹泻？慢性腹泻或呕吐？「若有，也是带到小儿肠胃科去做诊治，或者是吸收不良，尤其脂肪吸收不良等。」<br /><br />　　<strong>3.是否有疾病<br /></strong><br />　　若有心脏病，或是尿酸症、血酸症等代谢问题的疾病，都可能会影响宝宝体重。<br /><br />　　总之，只要宝宝体重成长曲线是低于3％，赵露露医师都建议家长不要轻忽，还是带宝宝就医检查比较好。</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>
