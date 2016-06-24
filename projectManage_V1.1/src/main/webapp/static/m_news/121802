@@ -1,0 +1,305 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>新生儿的十二种奇怪表现！-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "121,802",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "121,802",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=151"
+				target="_self">特征</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">新生儿的十二种奇怪表现！</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-24 23:10:31</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p>　　很多新手爸妈很困惑，自家的新生宝宝好像总有些与别人宝宝不一样的地方，他们不知道这些是不是属于正常。其实，很多情况都是不必担心的呢。<br /><br />　　小宝宝出生啦，初为人母的你是不是很激动呢？可是接下来的事情却让妈妈们很困惑呢，比如发现宝宝是没有睫毛的，哭起来震天震地、连续不断，皮肤老是爱蜕皮，皮肤渐渐变得很黄……这种种情况，都会让新手爸妈陷入一种困境，而新生宝宝刚出世那会儿的开心、兴奋与激动马上就一扫而光变得很无助呢。&nbsp;<br /><br />　　其实，所有这些都是新生宝宝的一些正常表现，爸妈们不用特别担心呢。下面就请跟我们来一一解读吧。<br /><br />　　<strong>不长睫毛<br /></strong><br />　　刚生出来的宝宝是没有睫毛的！晓晴发现这一点是在宝宝还在医院里的时候，她当时很发愁，担心是不是宝宝的睫毛出了问题，可是观察周围新出生的小宝宝们，发现都是这样的情况呢。晓晴的心给放下了，只是她还是有些不明了其中的原因，于是她去询问医生。医生说是这样的，大约在生后十天到两个星期，宝宝的睫毛才会慢慢长出来，一两个月后，一对漂亮的长长睫毛就出现啦。<br /><br />　　<strong>皮肤很黄<br /></strong><br />　　云的宝宝从医院抱回家后，脸上和皮肤上的颜色就越来越黄，云和丈夫不知道为什么宝宝会有这样的情况出现，就去问医生。医生说这通常是属于生理性黄疸，大约在宝宝生后十天半个月就会出现。它的持续时间约为半个月左右，会逐渐消退。有些宝宝则在吃奶后出现黄疸加重的情况，就是属于哺乳性黄疸了，在停止哺喂母乳几天后，黄疸情况会减弱直至消失，这时就可以再次哺喂母乳了。只是在这期间，妈妈的奶水需要及时挤出来，以防止乳汁淤积在身体内，造成体温升高、发高烧，引发哺乳期乳腺炎或直接把奶水憋回去，失去了宝贵的母乳哺喂机会。<br /><br />　　如果在出生后不久就出现黄疸，甚至24小时内就发生了黄疸，这可能就属于溶血病了，需要特别谨慎地对待。<br /><br />　　<strong>哭时无泪<br /></strong><br />　　小惠的宝宝特别能哭，哭起来声音很响很大，可是宝宝哭的时候却没有眼泪流下，前来探望的邻居小萍告诉小惠，因为宝宝在妈妈肚子里的时候，眼睛和鼻泪道是被一层膜所阻隔，出生后，这层膜逐渐消失，所以宝宝刚出生时是没有泪水的，随着时间的推移，宝宝的泪水也会逐渐出现。&nbsp;<br /><br />　　如果宝宝一直出现眼泪不流的情况，那妈咪要想到是否是宝宝的鼻泪道出现了堵塞现象，需要带宝宝上医院去检查，以确定是否是泪道不通和泪囊炎，从而需要进行鼻泪道的探通手术，让鼻泪道疏通，以利于眼泪的流出。<br /><br />　　<strong>爱打嗝<br /></strong><br />　　“爱打嗝的宝宝”，家敏是这样戏称自己的宝宝的。小宝宝在平时就特别喜欢打嗝，常常隔三差五地就会发出打嗝的声音。翻查了许多育儿书籍，家敏知道，宝宝打嗝是一种正常的生理现象，但原因目前却还未被查明。如果宝宝出现了打嗝，适当地喝点温水会比较好。另外有种手指弹脚底心的民间土方，妈妈也可以尝试一下。只要宝宝哭出声音来，就会停止打嗝的情况。<br /><br />　　<strong>睡觉时间长又多</strong><br /><br />　　小娟的宝宝才出生没多久，特别爱睡，有时候连吃奶的时候都在睡觉呢。小娟从医生那里得知，新生宝宝的睡觉时间很长，最初可以达到22个小时。渐渐地，他的睡眠时间开始出现缩短，从22～24小时到20小时，再到16个小时、14个小时，白天也开始由两次睡眠缩短到一次睡眠。<br /><br />　　医生指出了一点，宝宝容易把日夜弄颠倒，使得妈妈也跟着一起夜晚睡不好觉，得不到休息，白天疲惫不堪。妈妈常做的方法是可以在白天揉揉宝宝的小鼻子，捏捏他的小耳朵，让宝宝清醒不睡觉。妈妈还可以和宝宝一同做游戏，驱赶走宝宝身上的“瞌睡虫”，白天的游戏耗费了宝宝很多的精力，宝宝自然夜晚安睡无忧，不会出现惊哭、吵闹的情况了。同时，夜晚宝宝入睡时分，要保持周围环境的安静，并关上灯，让宝宝养成一个到了晚上就要睡觉的好习惯，他的日夜颠倒的情况才可以得到消除呢。充足的睡眠能让宝宝的脑部得到充分休息，加速生长发育的进程。<br /><br />　　<strong>爱看妈妈的脸<br /></strong><br />　　宝宝很喜欢看妈妈的脸，这是刚当上妈妈的欣欣发现的，她通过查资料知道，这也是经过大量研究验证过的。虽然宝宝的眼睛刚出生时的度数才只有0.1左右，但他却已经能辨别出妈妈的笑脸轮廓了。这给宝宝的心理带来了莫大的安慰，不论是在吃奶，还是在游戏中，妈妈总是最亲切的人，是他最急于想接触到的人，他会对妈妈发出最热烈的微笑与欢迎。<br /><br />　　宝宝熟悉妈妈是从子宫中就开始的，还在羊水里的时候，妈妈的声音、羊水的独特气味就让宝宝倾听、感觉到，所以出生后宝宝还能认识妈妈的声音，还能闻出妈妈的味道。&nbsp;<br /><br />　　宝宝对妈妈的记忆远远早于第一次的目光接触，所以宝宝在初次认出妈妈后间隔24小时仍能再次地认出她来。<br /><br />　　<strong>皮屑多<br /></strong><br />　　新妈妈小凌很多时候会惊讶地发现，宝宝的皮肤上怎么多了许多的白色皮屑呢。其实，究其原因，是新生宝宝生长旺盛，自然会有皮屑多的现象，特别是在手指、脚趾处，常会发现白色的皮屑产生。除此之外，湿疹也会引起皮屑增多，由于血管低钙性痉挛，局部供血不足，出现皮疹、皮肤粗糙、皮屑多。因为钙参与神经递质的兴奋和释放，调节自主神经功能，有镇静作用、抗炎作用和降低血管通透性（这要区别于保持血液在血管的流动通畅）的作用，所以钙剂在治疗湿疹、荨麻疹方面有其他药物所达不到的功能。以往用钙剂作为特异性减敏疗法治疗湿疹和荨麻疹等皮肤病也有效，由此证明了缺钙是引起湿疹的主要因素之一。<br /><br />　　<strong>头顶有跳动<br /></strong><br />　　宝宝的头顶处有一块地方“卜、卜”直跳呢，琴对着宝宝直发愁。但这不用惊慌，其实只是宝宝的囟门还没有闭合而已。宝宝的囟门从出生时就是未闭合的，囟门共有两处，一处在宝宝后脑的枕部上，称为后囟；一处在宝宝的头顶部，称为前囟。后囟的缝隙很小，通常在宝宝出生后6周就关闭了，所以不作为观察依据。直到1岁到1岁半的时候，前囟门才会慢慢合拢。<br /><br />　　囟门是衡量宝宝头围大小、脑部发育情况的一个指标，过小过大均表示了宝宝的一定问题。囟门如果过大，则有可能头围也过大，存在脑积水或佝偻病的可能；囟门如果过小或过早闭合，也是头围过小的一个伴随结果，很可能表明大脑发育不全或头小畸形。<br /><br />　　<strong>腿脚是弯的<br /></strong><br />　　小芳特别想问，小宝宝的腿脚怎么是弯曲的？是不是包一下蜡烛包就可以消除这种现象？新生宝宝因为在妈妈肚子里是蜷缩着的，所以出生后腿脚是弯着的。这种情况会随着宝宝的生长发育而有所变化。值得注意的是宝宝的腿脚弯曲情况如果一直无法改善的话，就需要尽早到医院去诊治了。不提倡包蜡烛包，因为它束缚了宝宝的自由活动，宝宝的感知觉、触觉无法得到很好的发展。<br /><br />　　O型腿、X型腿、内八、外八、扁平足等这些腿部问题常常让爸妈十分忧心，但专业医生认为，这些都是属于生理性的情况，无关疾病问题，而是与个人差异有关，会自然而然随着时间而渐渐获得改善的。<br /><br />　　<strong>头发越洗越黄<br /></strong><br />　　萍萍的宝宝生来就有一头漂亮的黑发，可是却越洗越黄，她想知道这是什么原因引起的。医生告诉她，从母体里带来的头发颜色不尽相同，因为这是宝宝的胎发，和以后宝宝长出来的头发是不一样的。所以，尽管宝宝的头发越洗越黄，也并不影响宝宝以后的头发生长情况。只要给宝宝以充足的营养，宝宝的头发就会越长越好，越长越漂亮的。<br /><br />　　给宝宝洗头的时候，需要使用宝宝专用的婴儿洗发水或是婴儿洗发沐浴露，使用的量不宜过多，洗发的次数也不宜很多，天冷的季节一般一周洗个两三次就够了。<br /><br />　　<strong>越养越瘦<br /></strong><br />　　宝宝出生后的一周内，因为要适应母乳喂养，体重会减少10%，所以有的妈咪会有些担心宝宝的身体状况，小敏就是这样一个妈咪。其实，在这之后，宝宝的体重还是会逐渐回升，大约2到3个星期，宝宝的体重就会回升到出生时的体重了。到1个月的时候，体重根据身高的不同，大致会在4.25～6.60Kg；3个月的时候，体重就可以达到出生时的2倍；1岁时，体重更可以达到出生时的3倍了呢。<br /><br />　　一般而言，冬天时体重的增长比较快，而夏天时体重增长得比较慢。<br /><br />　　<strong>爱抓脸<br /></strong><br />　　小玉的宝宝出生才两周，这天，小玉发现宝宝的脸上被自己的小手给抓了几道痕，小玉可心疼啦。这是因为新生宝宝的神经系统还没有发育完全，无法控制自己的手和脚，所以常会出现手脚乱移动，一不小心手就抓上了脸的情况，加上宝宝的皮肤非常娇嫩，如果宝宝的指甲比较长，很有可能就会把自己的小脸给抓上几道痕，严重的还会抓出血来，爸妈心疼且不说，皮肤上留下疤可不太好。所以，爸妈要记得经常、及时地给宝宝修剪指甲，宝宝的指甲很细小，用婴儿指甲刀是个不错的选择。有人喜欢给宝宝戴上手套，但是戴上手套会使宝宝的触觉得不到很好的发展，所以专家是不太主张一直给宝宝戴上手套的，可以偶尔为之。<br /><br />　　诸多妈咪的担心与困惑，通过我们的解释，相信爸妈应该清楚、明白，可以放心&#xfffd;&#xfffd;。 </p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

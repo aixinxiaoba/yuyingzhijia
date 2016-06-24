@@ -1,0 +1,338 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>独一无二的宝贝　宝宝的9大气质-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "121,910",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "121,910",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=151"
+				target="_self">特征</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">独一无二的宝贝　宝宝的9大气质</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-24 23:18:21</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　<font color="#bb5c44">　</font><strong><font color="#bb5c44">你家的宝宝爱哭吗？你家的宝宝好动吗？其实，每个宝宝都有自己独特的先天气质，不同气质的宝宝，需要有不同的教养方式，只要父母和宝宝取得平衡点，你会发现，宝宝的独一无二，会让你无时无刻都充满感动喔！</font><br /></strong></p> 
+ <p align="center"><img onmousewheel="return bbimg(this)" height="267" alt="独一无二的宝贝　宝宝的9大气质" src="/upload/151/20080108084137831.jpg" width="400" onload="resizepic(this)" border="0" /></p> 
+ <p>&nbsp;　　宝宝的九大气质，其实从出生就已经决定了，要了解宝宝的气质，其实可以从出生就开始观察，一般来说，差不多叁、四个月之后就可以确定。所谓的气质，是指天生对于各种内在或外在刺激所做出来的行为反应，包括情绪、感受、应对方式和行为模式，是比较属于外显的表徵。<br /><br />　　<font color="#cc5233"><strong>气质1<br /></strong></font><br />　　<strong>活动量<br /></strong><br />　　活动量是指宝宝在一整天的活动当中，所表现出来的动作节奏。<br /><br />　　萧&#xfffd;&#xfffd;妮治疗师表示，在儿童健康手册后面有一个评估量表，家长可参考量表中对不同年龄层宝宝的活动量评估，也可以上网下载一些相关测验，为宝宝做出简单的检定；或是跟同年龄、条件相仿的小朋友互相比较，就能大概了解自己宝宝的活动量。<br /><br />　　<strong>分辨宝宝的活动量高低<br /></strong><br />　　俗语说「七坐、八爬」，有了自己独立移动能力（翻身或爬）的宝宝，通常对于外在环境和玩具会开始产生浓厚的探索欲望和兴趣，如果&#xfffd;&#xfffd;发现自己的宝宝看到玩具总是懒洋洋的，或是给予新奇玩具的逗弄也难以引发他们获取或操弄的动作，这样的宝宝可能就是属于活动量比较低的类型；相反地，整天到处探索、似乎一刻都静不下来，就是活动量偏高的宝宝了。<br /><br />　<strong>　好动宝宝充满朝气<br /></strong><br />　　活动量比较高的宝宝，给人感觉充满朝气、具有探索性、体力好，但反向思考则是似乎永远都静不下来。</p> 
+ <p>　　面对这样的宝宝，父母先不要认为宝宝为什幺总是管不住，甚至觉得他们是过动儿，其实，这些活泼好动的宝宝有活力又有朝气，是很可爱的喔！教养这类孩子，爸爸妈妈可以安排一段适当的时间陪宝宝做些静态活动（涂鸦、组合积木、串珠珠或是说故事），除了带着宝宝一起做，父母本身也应该培养出适当静态休&#xfffd;f活动的习惯，自然而然就能吸引的宝宝的模仿和兴趣；另外，平日避免给他们吃一些高热量、高刺激性的食物（油炸食品或含咖啡因饮料）；睡前避免玩太激烈的游戏，才能让他们拥有良好睡眠品质。最重要的是，尝试包容他们一些习惯性的小动作（没事就看他喜欢摸头&#xfffd;或玩小手），在可以忍受的&#xfffd;围内，允许且包容他们去做。只是父母应该注意到活动量比较高的宝宝，会因为好动而提高日常生活的危险性，家中必须做好防护措施，让好动宝宝在和世界互动时也可以很安全。<br /><br />　　<strong>安静宝宝乖巧细心<br /></strong><br />　　活动量比较低的宝宝，可能会给人懒洋洋的感觉，体能表现方面通常也比较差，但相对地对于静态活动却很喜爱，做事细心，安静、乖巧又好带养，但相对地，做起事来就会比较缓慢。萧&#xfffd;&#xfffd;妮老师建议，家长可以陪着宝宝做一些动态活动，因为活动量比较低的宝宝，很有可能是刚开始做不好，影响自信心之后，他们就更不愿意做，因此，和宝宝一起参与，会让他们觉得好玩，进而引发兴趣和自信心。有时候，宝宝的肢体发展没有问题，却懒得玩玩具，这时，父母要观察一下，是不是玩具不够具有吸引力，如果是，就应该多花点心思为宝宝&#xfffd;时父&#xfffd;有趣的玩具，才能让他们玩得更开心。</p> 
+ <p><strong>　<font color="#cc5233">　气质2<br /></font></strong><br />　<strong>　规律性<br /></strong><br />　　规律性指的是宝宝的生理机能，饮食、生活作息是否有规律。</p> 
+ <p>　　如果你发现宝宝的睡觉时间长短不一、每餐喝奶量也不一定时，那幺，他就是规律性比较低的宝宝；反之则为规律性比较高的宝宝。<br /><br />　<strong>　规律宝宝带养轻&#xfffd;</strong></p> 
+ <p>　　规律性比较高的宝宝，爸爸妈妈通常可以很清楚了解宝宝睡了多久会起床？每餐要喝多少奶量？当宝宝睡饱饱、也吃饱饱，照顾者就会很轻&#xfffd;。不过，如果生活中需要有一点改变，也许是更换照顾者，或是妈妈临时加班不能&#xfffd;适被丶遗惆椋&#xfffd;而造成塬本生活的规律改变，这类宝宝会很难接受；萧治疗师提醒所有爸爸妈妈，面对这类宝宝，父母应该在生活产生变化之前先告知他们，让他们有心理&#xfffd;时福&#xfffd;有时间调适自己的心理状态。<br /></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong>不规律宝宝容易适应<br /></strong><br />　　规律性比较低的宝宝，往往让父母难以捉摸，因为，他们的睡眠时间不固定、喝奶量也不固定，带养起来相对就比较劳累，但优点就是一旦父母训练成功，宝宝也建立起规律，双方都能适应得很好。萧&#xfffd;&#xfffd;妮治疗师建议，家长应该用鼓励的方式，先帮宝宝规划活动表（稍大可沟通的孩子，更可以和他一起规划），如果宝宝&#xfffd;适蓖瓿晒ぷ鳎&#xfffd;绝对不要吝啬给予他们鼓励、夸奖，才能提供他们正向发展潜力发挥的机会。<br /><br />　<strong>　<font color="#cc5233">气质3<br /></font></strong><br />　　<strong>趋避性<br /></strong><br />　<strong>　趋避性是指宝宝在第一次接触新的人事物时，反应是接受或是排斥<br /></strong><br />　　有些宝宝只要一看到不熟悉的人就尖叫，或是躲在妈妈后面，这是属于趋避性比较高的宝宝；反之，如果宝宝很容易接受新的人事物，就属于趋避性低的宝宝（但请记住，有的孩子可能是驱物但避人）。</p> 
+ <p>　　<strong>主动宝宝喜爱尝鲜</strong></p> 
+ <p>　　属于比较「趋」的宝宝，他们不会排斥新事物，通常也较喜欢主动接触他人，但要特别注意的就是，由于这类宝宝很喜爱接触新事物，相对就容易遇到危险，自己却不知道。家长必须不断叮咛宝宝，教导他们评估自己的能力、如何分辨危险的人事物，如果宝宝个性真的很&#xfffd;n动，父母就必须给他们一些限制，避免发生意外。</p> 
+ <p>　<strong>　被动宝宝远离危险<br /></strong><br />　　属于比较「避」的宝宝，通常看到陌生的人事物，就会躲在妈妈后面，甚至是看着别的小朋友玩耍，仍然不愿意主动踏出第一步，因此，会明显失掉许多机会。不过，也由于他们不随便接触陌生人，往往能够避掉很多危险。萧&#xfffd;&#xfffd;妮老师表示，家长应该陪着宝宝接触新事物，避免宝宝一个人面对未知的环境或事物会不知所措、害怕而导致不敢去做，，当家长愿意陪着他们去做，教导宝宝如何跟别人相处、如何认识新朋友，他们就会有充分的安全感；此外，必须记住&#xfffd;&#xfffd;量使用以渐进的方式带领宝宝接触新事物，宝宝也会比较容易接受。</p> 
+ <p>　<strong>　<font color="#cc5233">气质4<br /></font></strong><br />　<strong>　适应性</strong></p> 
+ <p>　　<strong><font color="#cc5233">气质5 <br /></font></strong><br />　　<strong>注意力分散度<br /></strong><br />　<strong><font color="#cc5233">　气质6<br /></font></strong><br />　　<strong>坚持度<br /></strong></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong><font color="#cc5233">气质7<br /></font></strong><br />　<strong>　情绪本质<br /></strong><br />　　<strong><font color="#cc5233">气质8<br /></font></strong><br />　　<strong>反应阈<br /></strong><br />　<strong>　<font color="#cc5233">气质9<br /></font></strong><br />　<strong>　反应强度</strong></p> 
+ <p>　<strong>　了解宝宝气质的优缺点<br /></strong><br />　　每一种气质其实都会有正面和负面的影响，有时只是在于我们怎幺看待罢了，因此，爸爸妈妈必须了解，宝宝的气质是天生的，很难强迫被改变，唯有了解宝宝的优点，让宝宝的气质得到最大发挥，不适当的部分再找方法修饰，才能避免掉不好的、负面的影响。<br /><br />　<strong>　用对方法修正宝宝的气质 <br /></strong><br />　　渐进法和交相抑制法，是修正宝宝气质的两大方法，其中的渐进法，是最好用也是最普遍的方式，例如为孩子更换副食品时，可以用渐进的方式减少牛奶的比例；而交相抑制法，则是利用同时给予较强正向刺激与较弱负向刺激，例如孩子非常不喜欢去托儿所，却很喜欢去游乐园，家长可以在带宝宝去游乐园之前顺道经过托儿所，对宝宝来说，先到托儿所之后就可以去游乐园，正向刺激比负向刺激比例高出很多，只要拿捏好正负向的比例，就能慢慢帮宝宝修正他们不适当的行为和态度。</p> 
+ <p><strong>　　独一无二就是&#xfffd;&#xfffd;的宝贝<br /></strong><br />　　每件事都有正反两面，孩子也有个别差异（包括生理、智力和气质各方面），家长除了应该了解孩子的气质特质，也更应该了解自己的气质特质，接受宝宝与别人的不同，然后耐心地做一些生活上的改变，因为，&#xfffd;&#xfffd;的宝宝就是这幺独一无二。 </p> 
+ <p>　<strong>　深刻温暖的美好过程<br /></strong><br />　　萧&#xfffd;&#xfffd;妮治疗师表示，当家长为了宝宝的独特个性而尝试改变自己时，其实是一种很深刻、很温暖的感受，因为，&#xfffd;&#xfffd;的努力孩子都感觉得到；帮助孩子适应不同的生活，或者费尽心思找出最适合他们的生活方式或彼此间的相处模式，其实是很美好的回忆，因为，给孩子再多资产，都比不上跟孩子一起用心过、努力过的这些酸甜苦辣的过程。<br /><br />　<strong>　适时给孩子夸奖和&#xfffd;美<br /></strong><br />　　萧&#xfffd;&#xfffd;妮治疗师提醒大家，爸爸妈妈和宝宝的主要照顾者教养态度要一致，不要让宝宝无所适从；另外，家长要培养幽默感，不要跟宝宝硬碰硬，也不要把事情看得太严重，更不要像对待成人般挑衅孩子（例如对宝宝说：不是不吃吗？怎幺现在肯乖乖给我吃啦！）用宽容的心面对他们，也让孩子学习放轻&#xfffd;；最后，不要吝啬给孩子夸奖，因为，具体的夸&#xfffd;，能让孩子清楚知道你们有注意他、也了解他。<br /><br />　<strong>　6大态度让孩子乐于改变</strong></p> 
+ <p>　　1.了解孩子、也了解自己。</p> 
+ <p>　　2.针对特性去修正宝宝的气质。 </p> 
+ <p>　　3.父母教养态度要一致。</p> 
+ <p>　　4.有耐心地对待孩子。</p> 
+ <p>　　5.要有幽默感。</p> 
+ <p>　　6.适时给予孩子夸奖与&#xfffd;美。</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

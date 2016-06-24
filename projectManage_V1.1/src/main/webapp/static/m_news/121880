@@ -1,0 +1,351 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>婴儿啼哭的9种不同含义-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "121,880",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "121,880",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=151"
+				target="_self">特征</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">婴儿啼哭的9种不同含义</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-24 23:15:44</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p>　<font color="#0000ff">婴儿的啼哭除了代表着眼泪、声音、情绪等等，难道还有其他的含意吗？如果有一种宝贝哭声转换器，你会需要吗？</font> </p>
+ <p>　　其实，每一位妈妈都是自己宝贝的特殊翻译，能够从他们的哭声里，辨出不同的含意。</p> 
+ <p>　　如果我们把新生儿的每一次哭声都精确记录和计算的话，他们每天大约要哭3个小时。 吃惊吗？你是否想过你的宝贝会哭这么久？他们当然不是一次把哭的时间用完的，他们每一次的哭声也不是在诉说着同一件事，如果你听不懂也没关系，毕竟这种语言太难了，你需要花些时间来学习。</p> 
+ <p>　<strong>　1.“我饿了，快开饭吧！”</strong></p> 
+ <p>　　在出生后的头3周里，大部分健康新生儿的哭是因为饥饿，而且大部分新妈妈听到宝贝哭声的第一反应也是赶紧喂奶。只要含上乳头或奶嘴，小家伙马上就安静下来，露出急不可待的样子。</p> 
+ <p>　　饿哭的典型“声音效果”是，低音调，有节奏，而且重复着一定的模式：先短促哭一声，然后有个停顿，再短哭一声，再停顿，就像在说“饿――饿――”一样，直到被妈妈抱起来喂奶，哭声才停止。</p> 
+ <p>　　如果此时婴儿同时张开嘴向四周寻觅，一旦有人抱他，马上把嘴扎到怀里，直奔主题，这也可以帮助判断宝贝是否因饥饿而哭。</p> 
+ <p><strong>　　2.“我太累了，快让我睡吧！”</strong></p> 
+ <p>　　累了就睡是婴儿大多数时间的本能反应，而且也不需要太多的安抚，他们很快就能睡着。劳累(真不知道他们怎么会劳累)的宝贝会打哈欠，揉眼睛，如果你没有发现他的这些暗示，还是一相情愿地哄他，逗他、抱他，那可就不妙了，宝贝大发脾气在所难免，谁让你不识实务呢。</p> 
+ <p>　　因为疲劳而发出的哭声很难让人想到他只是想睡觉，因为这种哭声一般很强烈，而且像花腔一样还带着颤抖和跳跃，此时最明智的做法是赶紧让周围安静下来，把他放到小床上，拍拍他，让他尽快入睡。</p> 
+ <p>　　宝贝越疲劳，他就越不容易安静下来，抗议的哭声也就越强烈。所以，照顾宝宝时，要全神贯注地观察他的一举一动，一旦发现他想睡觉的信号，就别再逗他开心了，否则只能好心办错事。</p> 
+ <p>　<strong>　3.“我就想让你抱着我！”</strong></p> 
+ <p>　　难道宝贝大哭只是想让你抱着他？太有可能了，这是那些比较“磨人”的宝宝的惯用手段。正哭得热闹的宝宝刚被抱起来就停止了哭泣，像音响开关一样有效，那就说明他或许需要皮肤与皮肤的接近。毕竟在长达9个多月的时间里，宝贝一直在一个温暖狭小的空间里生活，也许他还在怀念妈妈子宫里的幸福生活呢，外面的世界虽然很精彩，但那不是他熟悉的世界，适应还要慢慢来。</p> 
+ <p>　　有一些婴儿需要比其他宝宝更多地被抱着，也许你会觉得很累，但换个角度想，你还得到了比其他母亲更多的与宝贝亲近的机会呢。在宝宝3个月以内，你也不必担心这样做会宠坏他，他只不过是喜欢听到妈妈的声音，听到熟悉的心跳声，闻到妈妈的味道，这太正常了。</p> 
+ <p>　　但有一点需要提醒的是，即使比较缠人的宝贝，也会在要求被抱的次数和频率上有所改变，也许上次他哭是想抱，而下次却是想让你放下他。很多婴儿哭是因为他想改变现状，你抱起他或放下他之后，看看他是否能安静下来，如果他不哭了，那就说明你做对了。</p> 
+ <p><strong>　　4.“真难受，快给我换尿布吧！”</strong></p> 
+ <p>　　婴儿对脏尿布的忍耐程度是有个体差异性的，有的宝宝会在第一时间让你知道出状况了，他需要“场地清洁服务”，也有的宝宝对这些小小的不适根本不放在心上，只要他的小屁股不红不肿不痒不痛，你稍微晚点换尿布没什么关系，要知道，很多情况下，真正更在意的是父母而不是宝宝，照顾不周会让父母有一种负疚感，这比宝宝的脏尿布还让人不舒服。无论如何，这种需求很容易发现和满足，只要打开看看，一切全都明了了。</p> 
+ <p>　<strong>　5.“太冷(热)了，我很不舒服！”</strong></p> 
+ <p>　　新生儿喜欢身体暖暖的感觉，这和他们在妈妈肚子里的感觉一样舒服。用正常体温的手去摸摸宝贝的耳朵、脖子和鼻子等露在外面的部位，可以帮助判断宝贝的衣被是否合适。如果他的脖子和耳朵后面有汗，那是太热了，如果这些地方很凉，他很可能不够温暖，需要添加衣被。</p> 
+ <p>　　婴儿通常需要比成人多穿一层衣服，如果你在换尿布或者给他脱衣服准备洗澡时，他突然大哭，也许是他不喜欢被晾在外面，你需要学习更熟练地换尿布和穿脱衣服，以减少他暴露在空气中的时间。</p> 
+ <p>　　同冷相比，婴儿对热的抱怨不像成人那么直接，所以要注意别给他穿过多衣服，出汗也会让他不舒服。</p> 
+ <p><strong>　　6.“这儿太乱了，我受不了了！”</strong></p> 
+ <p>　　如果宝贝的哭声里带着烦躁不安的情绪，你该看看是不是周围环境里的刺激太强了，比如强烈的灯光、嘈杂的声音、突然的移动或者只是你在抱他时摇动的幅度太大了。如果是这样，先尽可能地让周围的环境平静下来，把灯光调暗，让屋子里的声音降低，减小手臂的摆动幅度等。先让他躺在床上发泄一会儿，然后看看能否把他哄着。</p> 
+ <p>　　那些比较敏感的宝宝会倾向于有规律的生活，尝试建立一个日常作息时间表，努力使每天的喂奶、洗澡、散步、睡觉时间固定下来，这可以让他们更安心。</p> 
+ <p>　<strong>　7.“快来陪我玩会儿吧！”</strong></p> 
+ <p>　　为什么有的婴儿可以很长时间独自躺在自己的小床上不哭不闹，而有的婴儿却几乎不能离开人？那些比较警觉的宝宝有更强烈的与人交往的愿望。即使只有6周大，婴儿也有感到无聊的时候，他用低声的啜泣来告诉你，他需要看见你，或者需要换个环境。</p> 
+ <p>　　轻轻哼唱熟悉的歌或是让床头吊挂玩具转起来，能有效地安慰他，甚至有时你只要把他抱到另一个地方躺着，他也能高兴起来，因为他能看到不同的“风景”了。</p> 
+ <p><strong>　　8.“有什么东西伤到我了！”</strong></p> 
+ <p>　　一般情况下，剧烈和大声的哭喊是因为宝贝的身体感到疼痛，而不是因为饥饿或疲劳。如果你听到宝贝突然尖声哭闹，就要马上检查是什么让他不舒服或受伤了。看看是否床栏卡住了他的腿或脚，是否有头发或线头缠住了他的脚趾使血液流通不畅了，或者有灰尘迷住了眼睛很难受等等。在确认没有问题后，适当地安慰安慰他，等他情绪稳定了再离开。</p> 
+ <p>　<strong>　9.“我身体很不舒服！”</strong></p> 
+ <p>　　如果宝贝因为身体生病而不舒服地哭泣，和他平时的哭声是不一样的。大多数父母在此时能够本能地知道有什么地方出差错了。生病后，婴儿的哭声通常是虚弱地呜咽，而且表现得无精打睬、食欲不振，同时还可能有呕吐、腹泻、发烧等症状，这就需要抓紧时间去看医生了。</p> 
+ <p>　　也有的孩子因为得了疝气而哭闹的时间比较长，并且不容易安慰，这就需要你付出更多的耐心和努力来度过这艰难的时间了。</p> 
+ <p>　<strong>　面对啼哭的宝贝，还能做什么：</strong></p> 
+ <p><strong>　　1.把他包起来抱住：</strong>新生儿喜欢温暖和安全的感觉，就像在妈妈子宫中一样，因此可以用一个小毯子把他包起来抱在怀里。也有少数婴儿不喜欢襁褓，而是更喜欢有节奏的运动或妈妈的奶头。</p> 
+ <p><strong>　　2.给他听有节奏的声音：</strong>新生儿对心跳的声音很熟悉和习惯，那也是他们为什么喜欢被抱着的原因。你可以为他放一只轻音乐，或者他熟悉的胎教音乐，也可以轻声哼唱摇篮曲。</p> 
+ <p><strong>　　3.让他身体处在运动状态：</strong>带着你的宝贝在屋子里转来转去，也能让他安静下来。或者把他放在摇蓝里轻轻摇动，或者开车带着他出去转一圈，你可以找到适合你们的方式。</p> 
+ <p><strong>　　4.揉揉他的肚子：</strong>轻轻按摩婴儿的后背或腹部，是许多妈妈最经常做的安抚宝贝的方式。特别是对那些因患疝气而肚子胀痛的婴儿比较有效。</p> 
+ <p><strong>　　5.照顾好你自己：</strong>照顾一个哭泣的宝宝是容易让人紧张不安、心烦意乱的，但注意不要把你的情绪带到你的孩子面前，如果你很焦虑，有一种失败感，婴儿可能会察觉你的感受，从而哭得更厉害了。若想照顾好宝宝，先要照顾好你自己。保证充足的睡眠、均衡的饮食，甚至偶尔给自己放一个假，让别人帮你照看半天宝宝，都有助于你振奋精神，保持快乐心态，从而也给你的宝宝一个微笑的理由。</p> 
+ <p>　　如果你确信宝宝的需求已经被满足了，他没有不适没有受伤，而且你努力了半天还是没能让他平静下来，就是你考虑自己心态的时候了：</p> 
+ <p>　　放下你的宝贝，让他自己哭一会儿；</p> 
+ <p>　　打电话给你信任的有经验的亲友，看看她有什么建议；</p> 
+ <p>　　让别人帮你照看孩子，你找个方式透口气；</p> 
+ <p>　　放一些你喜欢的音乐来减轻压力；</p> 
+ <p>　　做几下深呼吸；</p> 
+ <p>　　提醒自己宝贝一切都好，而且哭不会伤害他；</p> 
+ <p>　　反复对自己说“这很快就会过去”；</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

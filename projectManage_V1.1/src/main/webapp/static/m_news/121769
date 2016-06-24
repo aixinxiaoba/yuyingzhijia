@@ -1,0 +1,332 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>新生儿26个生理现象-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "121,769",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "121,769",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=151"
+				target="_self">特征</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">新生儿26个生理现象</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-24 23:08:14</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　<strong>先锋头<br /></strong>　　胎儿经过产道娩出时因头部受压引起头颅软组织内血液循环受阻而致的变形。因为胎头大于产道，在产道扩张过程中胎头受软组织的压迫，静脉回流受阻，水分外渗造成头皮软组织水肿――即先锋头或称产瘤。初产妇由于产道较紧，故第一胎头位娩出的新生儿往往有不同程度的先锋头。头顶较长带橄榄形，指压有凹陷痕，水肿可随侧睡方向而改变。一般生后2~3天就被吸收，个别要6~7天才消退，用不到治疗。</p> 
+ <p><br />　　<strong>胎脂</strong><br />　　妊娠5个月左右的胎儿皮脂腺能分泌脂性物质――胎脂，以保护皮肤免受羊水浸软。一般在早产的体表最多，足月儿次之，过期产儿最少。出生后胎脂有保护皮肤免受感染和保暖作用，但当皱褶处的胎脂酸时可刺激皮肤引起褶烂。故对液下、腹股沟、颈下等皱褶处积聚较多的乳白色粘稠胎脂要用消毒纱布蘸油或撒粉揩　　去，部分胎脂能被皮肤吸收。</p> 
+ <p><br />　　<strong>胎记<br /></strong>　　这是皮肤深层有色素细胞积聚所致。多数位于骶尾部呈不规则形的浅青色，压之不褪色，边缘清晰。一般在学龄期前即自行消退毋须处理。</p> 
+ <p><br />　　<strong>胎粪</strong><br />　　胎儿在母体羊膜囊中有吞咽羊水动作。由消化道内的羊水内容物包括角化上皮细胞、胎毛、胎脂等，和羊腺分泌物、胆汁等混合成墨绿色的胎粪，此粪便质粘稠、无臭味，一般在出生后1~3天排空，个别可长达1周以上。随着吃奶逐渐增加和胎粪的排空，大便的颜色即由墨绿色转为棕，然后再逐步转为黄色。</p> 
+ <p><br />　　<strong>拥抱反射</strong><br />　　这是一种原始反射。医生检查时用于托住新生儿后头部稍向上抬高后、突然落下头部，新生儿双手张开、上肢外展及前臂出屈曲伴哭叫。胎龄28周时双上肢伸直外展有哭叫，37周时有前臂屈曲。生后6个月前该反射应消失。</p> 
+ <p><br />　　<strong>过敏红斑<br /></strong>　　多数发生在洗澡之后，部分新生儿对光线、空气或肥皂、毛巾、温度等刺激都会出现红斑，多者可融合成片。面部和躯干四肢都可以有，其中以躯干部较为多见，2~3小时侯自然消失。但亦有此起彼伏，约一周左右自愈，毋需特殊治疗。</p> 
+ <p><br />　　<strong>粟粒疹<br /></strong>　　这也是较常见的皮肤疹象。粟粒疹最多见于新生儿的鼻尖，其他像面部和躯干上偶尔也会看到，但往往比鼻尖上的大。粟粒疹主要是皮脂腺分泌不畅，形成黄白色针尖大到粟米大的小点，可以高于皮肤，但周围无红晕（假使是小脓疱，周围有红晕）。毋需治疗，以后会自然消失。</p> 
+ <p><br />　　<strong>&quot;马牙&quot;和彭氏珠<br /></strong>　　我国民间所称的&quot;马牙&quot;或称&quot;板牙&quot;是新生儿牙龈粘膜上皮细胞增生和角化所致的上皮珠，它呈浅黄白色的丘状隆起，大小如芝麻。人们常认为这是新生儿不爱吃奶的原因而错误的去用针挑，一旦细菌进入便可引起感染，甚至发生败血症而危及生命。实际上该上皮珠迟早会自行脱落，不影响吃奶，用不到治疗。 大部分新生儿的上腭中线上亦有黄白色的小颗粒，这是粘液腺分泌物盖积之故，不必处理。</p> 
+ <p><br />　　<strong>&quot;螳螂子&quot;<br /></strong>　　新生儿口腔能两侧颊粘膜的隆起物民间称为&quot;螳螂子&quot;，以为吃奶不好与此有关而用针挑刀割导致感染。实质上这两块隆起物是脂肪组织，当新生儿吸奶时，该脂肪垫可以促使口腔负压增加，有利于吸吮 。这是正常现象，不能随便挑割。</p> 
+ <p><br />　　<strong>脱屑</strong><br />　　鳞形上皮的最外表为角化层，胎儿在宫内即有角化细胞脱落在羊水中。出生后从浸在羊水中的湿润环境转变为干燥环境，新陈代谢旺盛的新生儿，其表皮角化层也不例外而成为皮屑脱落。由于新生儿表皮与真皮之间的组织不够紧密，腕关节、踝关节等皱褶部以及躯干部在出生2~3天后还可出现脱皮现象。这在胎盘功能不全的过期产儿更为明显。若出生时即有鱼鳞状脱皮就非生理现象。</p> 
+ <p><br />　　<strong>鼻分泌物阻塞<br /></strong>　　新生儿鼻塞最常见的原因是分泌物阻塞而不是感冒所引起。尽量用湿揩湿拖做好周围环境清洁，以减少灰尘吸收，鼻腔内积污导致阻塞的机会也就相应减少。<br />当发现有鼻分泌物阻塞时，可先用冷开水滴人，带积污的硬块软化松动后，会随着打喷嚏而出来。用火柴棍或牙签之内硬挖，容易损伤粘膜，引起出血或感染，应该避免。假使松动的污物已在鼻口，可在鼻孔外上方略加挤压。再用手帕揩，如还揩不出来的话，那就可用消毒的或清洁的干棉花签轻轻把鼻污物卷出。</p> 
+ <p><br />　　<strong>油耳朵<br /></strong>　　正常新生儿的耳道可以分泌一种黄色透明无臭的非脓性分泌物耵聍，俗称&quot;油耳朵&quot;，不必处理会自然减少。</p> 
+ <p><br />　　<strong>眼分泌<br /></strong>　　由于新生儿的鼻泪管狭窄，粘膜血管丰富，容易阻塞。因此睑腺分泌物不易从鼻泪管经鼻道排出，可继续出现眼分泌。这与结膜炎泪囊炎不同，后者的炎性分泌呈脓性，并伴有红、肿、痛、热外。</p> 
+ <p><br />　　<strong>溢奶与吐奶<br /></strong>　　新生儿的胃呈水平位，喷门括约肌相对较幽门松，饱餐后搬动体位容易发生溢奶。护理时要注意喂奶前先换尿布，喂时避免空气咽人，喂后竖抱拍背数分钟，使气嗝出再放平向右侧睡，必要时可抬高上半身。<br />吐奶与溢奶不同，可以是一般性呕吐，或喷射性呕吐，甚至从鼻孔中喷出，量较多。呕吐时间不一定都发生在吃饱之后，问题比较复杂。主要应根据呕吐方式、吐出物颜色、量、发生呕吐的时间、腹部体征以及大便的情况综合分析来加以区别。</p> 
+ <p><br />　　<strong>乳房肿胀<br /></strong>　　不论男女新生儿都可有乳房肿胀，无红、痛、热、大小不一，有的可以大似胡桃，有的甚至还会有少许乳汁分泌。这主要是受母体内分泌的影响所致，以后会自然消退，毋需治疗。切勿手挤，以免细菌进入引起发炎。</p> 
+ <p><br />　　<strong>舌系带</strong><br />　　它是舌的游离部分与口底相联的组织，对舌的前后、左右、上卷活动起到牵制和灵活变动的作用。个别新生儿舌系带长得太近舌尖，影响了舌的外伸与上卷，则需就医。</p> 
+ <p><br />　　<strong>黄疸</strong><br />　　几乎90%的新生儿在生后第2~5体那会出现不同程度的黄疸，轻者2~3天消退，重者10~14天消退，未成熟儿可更长。这种黄疸不伴任何不适或病理症状，大都不用治疗即会自行消退。胎儿期需要较多红细胞才能携带足够的氧来维持生命，而生后开始呼吸，由肺进行气体交换就不需要如此多的红细胞。这样，过剩的红细胞破坏后产生的大量胆红素，在超过肝细胞的结合能力时，过多的未结合胆红素停留在血液中，渗出到皮肤、呈现黄疸。</p> 
+ <p><br />　　<strong>生理性体重下降<br /></strong>　　新生儿脱离了浸泡在羊水中的湿环境后，皮肤上的水分逐渐挥发，加上呼吸时的水分损失和胎粪、小便的排出，而且早期吃进去的奶又较少，所以体重非但不增加，反而还要减轻些。如果有呕吐、减轻的还要多些。这种生理体重下降在生后3~4天最明显，但一般不超过出生体重的10%，5天左右又恢复到出生体重。低体重的早产儿生理体重下降持续时间较长，恢复到出生体重往往要2~3星期或更长。在恢复出生体重后，就应该一天天长大，假使再有体重下降，就不是生理性的了。</p> 
+ <p><br />　　<strong>胎儿姿势的延续<br /></strong>　　胎儿在宫内呈卷曲状，加上胎儿的屈肌发育比伸肌早，所以出生后的新生儿在裸体时，四肢卷曲的时间多，伸直的时间少。两只小手有时可旋向外后方，小腿背可弯至大腿。腿直臀位儿出生后，两下肢仍爱直腿向上翻起。有的新生儿一侧或两侧足底略向内翻或外翻、肘外翻、头后仰、面不对称等等，如果活动正常、或纠正姿势后关节能回复到正常姿势者，多属胎儿姿势的延续，过一段时间后会回复正常。对于用强力也难以回复到正常位置、或3个月后还未恢复正常者，应去就医。</p> 
+ <p><br />　　<strong>啼哭</strong><br />　　新生儿由于不会讲话，啼哭则是他们语言表达的一种形式。这是正常现象，有利于肺的扩张。例如饿了会啼哭，尿布湿了也会哭，但这种啼哭有回声，一半并不剧烈。然而，异乎寻常的单声哭叫、尖叫、剧哭、持续啼哭、哭不出声等情况就不是正常的了。</p> 
+ <p><br />　　<strong>新生儿粪便<br /></strong>　　吃母奶的新生儿正常粪便颜色呈金黄色，质软而均匀，略带酸气味，次数较多，一天可有4~6次。吃牛奶或奶粉、奶糕的新生儿粪便呈淡黄色，质较干，次数较少，甚至每天1次或隔1~2天次。在气候和环境温湿度变化较大时新生儿肠蠕动增加，排便次数可有所增多，粪质较稀，并带翠绿色或不消化的奶块。</p> 
+ <p><br />　　<strong>尿酸结晶</strong><br />　　新生儿的小便中有时会带有橘黄色的粉末状物，吸附在尿布上或遗留在尿道口包皮上，这种粉末是因尿中含有较多的尿酸盐所致。多数出现于生后的早期，用不着特殊处理，几天后即消失。</p> 
+ <p><br />　　<strong>阴道流血与白带</strong><br />　　部分女性新生儿受母体内分泌雌激素的影响，引导里可有少量月经样的血性或白色液分泌物流出。用不着治疗，几天后会自行消失。</p> 
+ <p><br />　　<strong>红色尿</strong><br />　　部分新生儿在生后2-5天可于排尿时啼哭，并见尿液染红尿布，持续数天后消失。这主要与小儿体内尿酸盐排泄增加以及尿量少有关。</p> 
+ <p>　　<strong>Hayleguin色变<br /></strong>　　正常新生儿在改变体位时可出现体位上下的肤色变化，交界明显，如婴儿左侧卧时，右侧上层肤色呈少血的苍白色，左侧下层的肤色则呈多血的鲜红色。当向相反方向侧卧时，肤色又交换过来，这在医学上称为Hayleguin色变，是由于新生儿暂时性血管舒缩失调，受重力影响所致这种情况一般在3周之内可逐渐消失。</p> 
+ <p>　　<strong>生理性脱发<br /></strong>　　一些新生儿在生后数周可出现脱发现象，多数婴儿为隐袭性脱发，头发绵细色浅，少数表现为突然出现明显头发脱落。这均属于生理性脱发。多数小儿脱发数月后可复原，有时可持续数年，但最终均能长出正常的头发，其原因未明。<br /></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

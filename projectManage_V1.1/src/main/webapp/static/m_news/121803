@@ -1,0 +1,305 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>新生宝宝最常见困惑问与答-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "121,803",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "121,803",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=151"
+				target="_self">特征</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">新生宝宝最常见困惑问与答</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-24 23:10:35</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p>　　新生宝宝的每一个问题对新妈妈来说都是大事，但由于缺乏经验，新妈妈们往往在问题发生后感觉束手无策，因此，我们近日将来自身边一些新手妈妈们的困惑加以搜集、整理，并请专家一一回答，以解新妈妈们心头的困惑。<br /><br />　　<strong>新妈妈们二十种困惑问与答<br /></strong><br />　　问题一：朋友的孩子出生时，都有个3300克-3500克，我宝宝也足月出世，为何却只有2500克，是不是太小了？<br /><br />　　回答：影响宝宝体重的可能原因有很多，如母亲在怀孕期节食、母亲的健康状况及母亲怀孕之前的体重等。<br /><br />　　的确，2500克以下可能意味着在母体内摄取的养分不足，或是无法顺利吸收；然而一个小巧玲珑的2500克宝宝，绝对可以和一个3500克的大宝宝一样健康活泼的。<br /><br />　　问题二：听说宝宝出生时即与母亲亲密接触，对拉近母子日后的关系极为重要。可我自女儿出世之后的一小时直到二天之后的现在，几乎一直将她抱在怀里，可我怎样结束这样一种怪怪的陌生感呢，似乎并不像曾经想象的那种感觉呀。<br /><br />　　回答：任何一种实质的、持久的爱，都需要长时间的用心灌溉，亲子之间亦然。想必，一个刚刚结束生产过程的女人首先深深体会的感受，可能是放松大于对婴儿的关爱。一项研究发现，母亲通常需要两个星期(有的要长达九周之久)之后，才开始对婴儿产生正面的情绪。所以别太担心，慢慢你会发现对孩子的情感与日俱增。<br /><br />　　问题三：保健医生告诉我差不多3小时-4小时给宝宝喂一次奶，可有时宝宝一直睡着，常常间隔5小时-6小时才吃。是否我该准时叫她起来吃奶呢？<br /><br />　　回答：如果你的宝宝在吃奶时睡着，试试这法子：把她扶起，坐在你的大腿上，用一手撑住她下巴，另一只手扶着她的背，让宝宝自腰部慢慢往前倾斜。一旦她醒来，就可以恢复喂奶姿势。另外，你还可以试着捏捏她的耳村垂，轻搔她下巴附近，如果各种办法都不奏效，不妨让她再睡一会儿，等她真饿了，会专心吃的。<br /><br />　　问题四：每次宝宝吃着吃着奶睡着了时，我就把她放到床上躺下，可她马上醒来哭着要再吸奶，这时该怎么办呢？<br /><br />　　回答：不要一听到宝宝哭闹就想到她是饿了，宝宝哭闹的原因很多，比如有的是因为自己无法入睡，让她哭一阵子无妨；有时她还不准备睡，希望有人陪陪她，也许她的情绪比较亢奋，你可以哄哄她，抱她走走。或者是因为胀气不舒服。当然，也不排除没吃饱这种状况。<br /><br />　　问题五：每次给儿子喂完奶，一放下她，就会吐出些奶来，这正常吗？<br /><br />　　回答：溢奶是新生儿常见的问题，多发生在吃奶后几分钟。这是由于新生儿的食管和胃的生理特点，使吃下去的奶水溢出来一些，随着孩子的生长，这种情况会逐渐好转。平时，喂奶后，应尽量防止宝宝溢奶，以免呛着。可在喂哺完宝宝后把她抱直，伏在妈妈肩上并轻轻拍其背部，如此可预防溢奶。如果孩子溢奶仍多，或每次吃奶后都吐，那就需要去看医生了。<br /><br />　　问题六：生完孩子已两天了，而我却还没有奶水，连初乳都没有，我很担心，把宝宝饿着了怎么办呀。<br /><br />　　回答：孩子并非生出来便有一副好胃口的。在你担心她会挨饿的同时，她可能根本不觉得。通常是在出生后第三、四天，她开始寻找乳汁丰富的乳头，而这时，许多妈妈已准备的差不多了。<br /><br />　　但这并不意味目前你的乳房是“空”的。能供给宝宝养分以及抗体的初乳，几乎毫无疑问地存在着，虽然量也许极少(首次哺乳时，大概只有3CC的量，到第三天时，还不满20CC)。这样的量，你也许无法以手挤出，但是婴儿却是一个天生的“吸吮专家”。因此，尽量让宝宝多吸吮才是。<br /><br />　　问题七：剖腹生产之后的疼痛相当难以忍受，大夫给我开了止痛药，我却担心是否会影响到吃母乳的宝宝？<br /><br />　　回答：如果你不吃，对孩子的负面影响也许更大。因为疼痛会使你无法全神贯注于宝宝，甚至会影响乳汁分泌。另一方面，药性残留在初乳中的量微乎其微，通常不会对宝宝产生副作用。<br /><br />　　问题八：今早当护理人员把宝宝带出来给我时，孩子似乎有东西哽在喉头里，然后吐出来某些液态物，我还没开始喂她奶吃，怎会如此？<br /><br />　　回答：这是因为宝宝有长达九个月的时间生活在羊水中，那时她还无法像我们一样直接呼吸空气，而是吸进一堆液体。虽然在出生之后，医生护士清理了她的呼吸道，但仍可能有些残留的液体或是黏膜在她的肺里，所以她以自己方式排出这些东西的现象是完全正常的。<br /><br />　　问题九：我怀疑我女儿的神经系统出了什么毛病：即使睡得好好的，她也会突然四肢抽一下，仿佛受到了很大的惊吓，这种情况正常吗？<br /><br />　　回答：这是惊吓反射。有的婴儿这种反应轻些，有的则厉害一些，发生原因可能是一个突如其来的声响，或是被猛然抱起，原因也可能不很明显。宝宝的反应就是躯体僵硬，四肢同时伸展，小拳头张开，膝盖拱起来；随后又立即恢复原本蜷缩的姿态。<br /><br />　　问题十：我的宝宝有时会出现下巴微颤的现象，尤其当她哭时，怎么回事？<br /><br />　　回答：这也是因为神经系统还没有发育成熟的缘故，很快就会消失，不必担心。问题十一：宝宝一天睡多久算是正常的呀，我儿子起先是非常活泼的，近日越来越嗜睡，要把她弄醒吃奶都很难，正常吗？<br /><br />　　回答：但她只是顺其自然：出生后有相当警醒的1个小时，然后是连续24小时的沉睡，这对新生宝宝而言是极为正常的模式。<br /><br />　　刚开始的几周，宝宝的睡眠周期大约一次2小时-4小时，然后一醒来就哭。在一种半睡半醒的情况下吃奶，得到满足便呼呼大睡。<br /><br />　　新生儿白天真正清醒的时间，说起来可能1个小时中只有3分钟，加起来差不多一天约1个小时。但充分的睡眠，尤其是浅睡或做梦阶段对她的成长帮助很大。随着孩子逐渐长大，她醒的时间会慢慢加长，到满一个月时，她一天约有2小时-3小时醒着的时刻，而且绝大部分是在傍晚时分。另一方面，有些宝宝的睡眠周期可以增长到6个小时。<br /><br />　　与此，妈妈最好趁宝宝睡的时候也“顺便”补充一下睡眠。因为，你很快就会感觉，她醒的时间太长了。<br /><br />　　问题十二：当我看到宝宝那长相时，感觉并不好，你看尖尖的脑袋、大眼泡、扁鼻子……什么时候看上去会好看些呢？<br /><br />　　回答：说实话，刚出生的宝宝大多都不太上相。影视镜头中抱出来看上去很好看的新生儿往往都有2、3个月大了。但是，不必忧心忡忡，通常这副怪模样都是暂时的。为了能够待在你那空间有限的子宫内，更为了最后能够顺利通过狭窄的产道，可以说，新生宝宝必须长成这模样。<br /><br />　　问题十三：宝宝脸上布满一些小白点，什么原因，能自行刮掉吗？<br /><br />　　回答：这些小白点是由于不成熟的油脂造成的，也许会布满宝宝全身。但父母不用着急，一般几周之内会自动消失，千万别自行去刮去挤，否则孩子很容易被细菌“侵袭”。<br /><br />　　问题十四：当宝宝张大嘴巴啼哭时，我注意到她的牙龈上有些白白的鼓起的小块，不会这么快出牙吧？<br /><br />　　回答：通常这些小鼓起只是充满液体的囊肿而已，它们很快就会自行消失。有的婴儿脸颊内侧或牙床上有像乳渣那样的白色小斑点。这是由于沾上了一种毒菌。据说有20%产妇的产道里都有这种霉菌，是在出生时带出来的。<br /><br />　　问题十五：当我看到宝宝一出生就长了两颗前齿时，我很吃惊，不知是福是祸。有的齿科医生说应该拔掉才是，真让人不知所措！<br /><br />　　回答：有些婴儿会带着一两颗牙出世。一般是长出下门齿。由于有牙，喂奶时就会咬疼母亲的奶头。这种过早长出来的牙齿有两种，一种是真正的乳牙，一种是多余的牙。真正的乳牙牙根很深，而多余的牙是歪斜的，从一长出来就活动。请牙科医生鉴别后，对多余的、活动的牙以拔掉为宜。<br /><br />　　问题十六：大夫说：“宝宝因为黄疸现象，必须留在医院先用胆黄灯治疗几天。”虽然医生说问题并不是很大，但我总感觉很严重，听人说黄疸会导致智力低下，为此，我整日心神不宁。<br /><br />　　回答：如果你去婴儿室看看的话，就会发现过半的宝宝在第二或第三天会开始变黄，最明显的部位是眼白、手掌心和脚底板。这个黄色是来自于血液中过剩的胆红素。这种生理性新生儿黄疸往往会在一周左右消失，但也有些会持续到1个半月左右才消退。病理上的黄疸不多见，通常见于遗传、血液或肝脏方面的疾病等成因，要避免黄疸在脑中堆积，尽快降低指数是很重要的，否则会造成核质性黄疸，其征兆是哭声微弱、反应迟钝、吸吮能力很差，它会导致永久性脑部受损。<br /><br />　　问题十七：很多育婴室的护士用安抚奶嘴堵住那些大哭的宝宝的嘴。我很看不惯一些大点的孩子成天叼着个奶嘴不放，我不希望我宝宝也养成这个习“坏”惯。<br /><br />　　回答：在育婴室里的两三天当中使用安抚奶嘴，并不至于造成习惯。然而，基于以下几点，最好不用：<br /><br />　　1、母亲授乳，最好不用。因为宝宝会对两种吸吮方式不同的乳头产生困惑，从而影响到授乳的顺利进行。<br /><br />　　2、宝宝每每哭泣时，仅用安抚奶嘴敷衍她的做法并不太好，亲人关爱的拥抱岂是安抚奶嘴就能代替的。<br /><br />　　3、如果你决定不让宝宝吸奶嘴，就告诉院方。若是她在育婴室哭个不停，可请院方将她送到病房由你试着抱抱她，喂喂她，可能的话，要求宝宝与你同住一房间。<br /><br />　　问题十八：当我第一次为小家伙换尿片时，我被她那绿黑色的大便吓了一跳。<br /><br />　　回答：其实这是正常的，当宝宝还在你肚子里时，这种绿黑色的物质是在她小肠内的胎便，现在表示她的肠子蠕动正常，可以将这些东西排出体外。<br /><br />　　通常在婴儿出生24小时之内，胎便差不多就排干净了，接下来的两三天你会见到过渡期的排便，颜色将是暗绿色调的黄色，并且稀软，有时还会含有黏膜。往后，就得看你给宝宝吃什么了。一般，吃母乳的宝宝排出金黄色、如芥末颜色的粪便，形态比较稀软；若是喂食婴儿配方奶粉等，排出大便的颜色则有很大的弹性，从淡黄到褐绿色都有。如果配方中含铁的话，颜色会呈黑色。<br /><br />　　值得注意的是：千万不要拿宝宝们的粪便相比；即使同一个宝宝，两天之内也可能排出截然不同的粪便。<br /><br />　　问题十九：宝宝仅出生仅一周，在她睡觉时细听会有一种“吱吱”的响声，是嗓子有问题了吗？<br /><br />　　回答：这种声音是由于喉头生来很软，每当呼吸时喉头的一部分就变形，由于变得很窄就发出这种声音。数日后，柔软的喉头逐渐变硬，声音就消失了。也有的孩子要到半岁以后才好的，大多1岁左右就基本没有这种现象了。<br /><br />　　婴儿出生后1周左右，细心的母亲会发现很多情况。宝宝呼吸时，嗓子会发出一种“吱吱”的声响。由于每呼吸1次就发出这种声响，母亲就很担心是不是有什么问题。其实，这种声响并不是总有，当宝宝哭、发怒时就严重些，安静时就很轻微。倘若啼哭的声音并不嘶哑，吃奶很好，精神也好，也不发烧，就是去看病，医生也会告你一切正常，因此，不必担心。<br /><br />　　问题二十：我儿子向来吃奶都吃得很好，而突然之间，在过去的八小时内，她始终不肯好好吃奶，我一时找不到原因，帮帮我好吗？<br /><br />　　回答：宝宝不好好吃奶，最为常见的有以下几个因素：<br /><br />　　1、母亲的饮食：<br /><br />　　你是否酷爱某些辛辣刺激的食物？如果是，那么宝宝可能单纯是因为你所吃的某种味道重的东西，经由母乳到了她的口中，而她很不喜欢那样的口味。如果你知道什么样的饮食可能造成这种局面，就少吃为妙。<br /><br />　　2、感冒：<br /><br />　　鼻塞的宝宝没法子同时用嘴巴吃奶和呼吸。你可以准备一个婴儿专用的吸鼻器来清除鼻腔内的异物，或是请大夫开滴鼻剂。<br /><br />　　3、耳朵痛：<br /><br />　　耳朵痛会引起上下头颚不适，吸吮的动作会使这种不适更加严重。妈妈要注意观察。<br /><br />　　4、鹅口疮：<br /><br />　　鹅口疮通常出现在宝宝的双颊两侧，有时会在舌头、上鄂、牙龈。新生儿出现的机会很大。这种感染虽不危险，但是会痛，会影响宝宝吸奶。一定要为宝宝医好此病，以免你自己也因为乳头皮肤的裂伤而感染，或是传染到宝宝其她部位。<br /><br />　　5、乳汁来得太慢：<br /><br />　　极度饥饿的宝宝可能会因乳汁迟迟不来而顿失耐性，然后便拒绝再做尝试。有的妈妈奶水来得较慢(可能有5分钟之久)，为避免孩子发生拒吃的情况，最好事先挤出一点乳汁让宝宝开始努力时有很好的诱因。<br /><br />　　6、你的紧张不安：<br /><br />　　妈妈的负面情绪会传达给敏感的宝宝，使她无法安心吃奶。所以，妈妈要保持良好的情绪，放松些才好。<br /> </p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>
