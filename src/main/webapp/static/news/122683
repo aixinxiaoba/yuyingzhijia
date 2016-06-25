@@ -1,0 +1,414 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>如何识别新生儿黄疸？-新生儿-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/122683"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/xinshenger2.png)'
+			 href="/static/menu/bm/xinshenger2" alt="新生儿" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=150" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/xinshenger2'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/tezheng/1">新生儿特征</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jibing/1">新生儿疾病</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/huli/1">新生儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=150" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=150&menuID=153" rel="nofollow">新生儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					如何识别新生儿黄疸？
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=150" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-25 19:32:33</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> 新生儿时期黄疸是一个常见的症状，有的是生理现象，有的是病理现象。这就 需要我们来识别出哪些是病理现象，应及时到医院就诊及时得到治疗。为什么新生 儿时期黄疸是个多见的症状，这与新生儿胆红素代谢特点有关： 1．胆红素产生的多：初生的新生儿红细胞大量破坏及其他原因产生大量的胆红 素，每日产胆红素的量是成 人的2倍之多。 　　 2．肝脏功能不成熟：新生儿产生大量胆红素均为脂溶性未结合胆红素(间接胆 红素)。它必须经肝脏处理变成直接胆经素 (水溶性) ，然后通过肠道及肾脏排出 体外。新生儿初期(一周左右)肝功能不成熟，不能及时将大量对神经细胞有毒的未 结合胆红素(脂溶性)变或无毒的结合胆红素(水溶性)，未结合胆红素可以通过血循 环进入脑子，与脑神经核结合造成胆红素脑病(核黄疸)。 　　 3．肝肠循环加重了肝脏负担：未结合的胆红素经肝脏处理变成结合胆经素排泄 到肠腔，但由于肠内一种酶的作用，又把结合胆红素水解成间接胆红素(即未结合 胆红素)被肠壁重新吸收到血液里，又输送到肝脏重新处理，这样就增加了肝脏的 工作量。 　　 综上所述特点，新生儿胆红素每日生成量是成人的2倍,而排泄胆红素的能力仅 为成人的1-2%，因此极易出现黄疸。另外新生儿如果食奶少，缺氧，进水少，胎便 排泄的慢，头颅血肿等因素都会加重黄疸。 新生儿黄疸的分类 　　 1．生理性黄疸：由于上述新生儿胆红素代谢的特点，新生儿生后无论是足月儿 还是早产儿大部分(60-80%)于生后2--5天在眼白(巩膜)面部及躯干皮肤，可见轻度 黄染，患儿体温正常，食奶好。足月儿于生后10--14天黄染消退，早产后可延迟至 3--4周消退。目前血清胆红素早产儿&lt;15mg/dl，足月儿&lt;12.9mg/dl，为生理黄疸诊 断标准。 　 2．病理性黄疸：出现下列情况之一均属于病理必黄疸； 　　 (1)黄疸出现的早，生后24小时之内出现黄疸 (新生儿皮肤血管丰富，易掩盖黄 染，我们肉眼看出的轻度黄染，胆红素是5mg/dl以上。) 　　 (2)足月儿总胆红素&gt;12.9mg/dl，早产儿&gt;15mg/dl。 　　 (3)血清总胆红素，每天升高&gt;5mg/dl。 　　 (4)黄疸消退的慢，足月儿超过二周，早产儿超过四周。 　　 (5)生理性黄疸退而复现。 如何识别新生儿常见的病理性黄疸 1．感染性疾病所引起的黄疸 　　 (1)新生儿败血病，新生儿肺炎，新生儿化脓性脑炎均可出现黄疸，都有相应疾 病的临床症状。 　　 (2)新生儿肝炎，多数因病毒通过胎盘传给胎儿或通过产道时被感染，常见巨细 胞病毒，乙肝病毒，这些病黄疸出现的晚，常伴有消化道的症状，肝脏肿大等。 2．非感染性疾病： 　　 (1)新生儿溶血病，黄疸出现的早而且重，进展的快(可见“新生儿溶血病”)易 发生胆红素脑病。 　　 (2)母乳性黄疸，生理性黄疸退的慢，生后2-3周达到高峰，1-4个月降到正常， 但食奶好，体温正常，生长发育良好。 (3)胆道闭锁：黄疸出现的晚，尿色深，大便转白，皮肤黄的发绿，最后死于肝 功能衰竭。 新生儿黄疸的治疗 　　 1．生理性黄疸，一般无需住院治疗，在家可以做日光浴，多饮葡萄糖水，口服 一些扶持肠道正常菌群的药物，以利退黄。 　　 2．病理性黄疸的治疗：新生儿溶血病多发生于产房或高危婴儿室，根据病情需 换血，光疗，药物等治疗。而感染性疾病引起的黄疸，在治疗原发病的同时注意退 黄疗法的应用。母乳性黄疸日光浴，口服退黄药物，必要时停母乳三天 (用配方奶 粉暂代替三天) 再继续喂母乳即可，无需住院治疗，胆道闭锁需手术治疗。 预防： 　　 1．既往有死产史的母亲，一定弄清胎儿死因，如果是溶血病，再次怀孕时做好 产前监测及治疗。 　　 2．新生儿早开奶，建立正常肠道菌群，刺激肠蠕动排胎便减少胆红素的重吸收 。 　　 3．&quot;O&quot; 型血母亲所分娩的孩子，要监测出现黄疸时间，程度。 轻度黄疸对新生儿有保护作用 最新研究显示，新生儿出生后的皮肤和眼睛黄疸对机体有保护作用，可使其免 受自由基的损害。　　 　　约翰斯-霍普金斯大学的Solomon H. Snyder博士指出，所有婴儿和成人机体内 均有对抗自由基的保护机制，最新研究提示婴儿体内的胆红素对其有保护作用，这 种色素是一种抗氧化剂，使新生儿表现为轻度黄疸。新生儿轻度黄疸属生理性，但 出生后体内胆红素水平较高应予重视，注意是否有病理情况发生。　　 　　胆红素是由于衰老的红细胞和机体内含血红素的成分崩解所致，当血中积累的 胆红素超过肝脏向肠道排泄的量时，即出现黄疸。众所周知，过多的胆红素对婴儿 有害，但出生后胆红素轻度升高的原因尚不明了，健康婴儿出生后1周血中胆红素 水平可升至15-20 mg/dl，但重度黄疸（胆红素＞25-30 mg/dl）如不治疗将导致脑 损伤。重度黄疸的治疗包括光疗，蓝光照射可使胆红素变为容易从尿中排出的复合 物　　 　　为了解出生后胆红素轻度升高的原因，Snyder博士及其同事利用体外实验阻断 产生胆红素的酶，并将该组细胞暴露于自由基环境下，结果发现没有胆红素的细胞 受到损害并死亡，而能产生胆红素的细胞在自由基作用下仍能存活并传代。胆红素 在机体内可循环产生，可很好地对抗自由基。至于为何婴儿的胆红素水平高于成人 ，可能与新生儿需适应外界变化较大有关。既往研究也提示适当水平的胆红素可减 少中风、癌症和心肌梗塞的危险，也许有朝一日可将胆红素作为增进健康的药物进 行应用。 新生儿的黄疸是怎么回事？ 新生儿皮肤为粉红色，但生后大多数一周内皮肤、粘膜及白眼珠变黄，尿黄但 不染尿布，医学上称为黄疸，又称为“胎黄”。几乎每个新生儿都应出现黄疸，但 是新生儿由于毛细血管丰富，血液在皮肤上流通较多，皮肤红润。所以，有一部分 小儿在肉眼上看不见有黄疸，当血清胆红素量多时大约大于每100毫升3毫克胆红素 时皮肤上才觉察出黄疸，因而只有三分之二的新生儿才发现有黄疸。 　　为什么新生儿时期会出现黄疸呢？原因是新生儿体内有非常特殊胆红素代谢特 点；小儿出世以后，红血球的寿命比大小孩短30天，每天约有1％红血球衰老破坏 ，这些红血球破坏以后就释放出血红蛋白。再经过一系列的变化最后分解为铁、球 蛋白和胆红素。铁和球蛋白作为一种原料被新生儿体内利用，而胆红素就进入血液 ，叫做间接胆红素，大部分与血浆中的白蛋白结合，只有百分之一才单独存在，可 以使脑细胞中毒称为“核黄疸”。血中与白蛋白结合的间接胆红素，随着血液流到 肝脏，经过肝酶的作用转换成对脑细胞无毒的直接胆红素。但新生儿肝酶发育不够 完善，无法将大量的胆红素完全清除。因此大量的胆红素在血中堆集，浓度增多， 肝脏来不及转化为直接胆红素。因此，黄疸也不能随胆汁进入小肠从大便排出。 　　如果黄疸出现较快，多半是间接胆红素升高表现为淡黄色，桔黄色或金黄色， 如果是直接胆红素升高黄疸表现为暗黄色或黄绿色，中医称为“阴黄”。 　　新生儿生后一周内皮肤经常发黄，血中的胆红素增加，远远超过100毫升2毫克 的胆红素可能是正常的也可能是有病引起的，正常情况下出现黄疸称为“生理性黄 疸”。正常新生儿生后2-3天，绝大多数新生儿在自然光线下都可以发现皮肤发黄 现象。此时，小儿无什么不好但是在足月儿，生后2-3天开始颜面，和白眼珠黄， 尿稍黄但不染尿布，4-6天最利害，而到10-14天黄疽就逐渐消退了。如果查血，总 胆红素可达到100毫升中2-12毫克。平均为7毫克。如果是早产儿生理性黄疸则出现 较晚，一般在3-5天出现，6-8天高峰，胆红素最高可达每100毫升血胆红素15毫克 ；黄疸也需要3-4周才消退。这种生理性黄疸的出现是正常现象，一般情况还好。 只要足月儿胆红素不高于每100毫升血胆红素12毫克，早产儿不高于每100毫升血胆 红素15毫克时，家长不需要着急，只要给孩子多喝些葡萄糖水，服维生素C每日服 三次每次50毫克即可消退，如果皮肤稍为黄时也可以用太阳光或用管灯照射皮肤也 可利于黄疸消退。 　　当出现黄疸比生理性黄疸早或消退时间比生理性黄疸晚，有时生理性黄疸退尽 后又重新出现，血胆红素值超过生理性黄疸的范围时，就称为病理性黄疸。生后2 4小时内就出现黄疸，而且是金黄色逐渐加重，甚至达到全身黄染，可能为母亲血 型0，小儿血型A或血型B引起血型不合的新生儿ABO溶血症。少数新生儿在正常黄疸 消退之后又重新出现黄疸，可能为新生儿败血症，新生儿肝炎。如果黄疸持续进行 加重，皮肤苍黄即为阴黄时，可能是先天性胆道闭锁，胆汁粘稠等。 　　无论是生理性黄疸及病理性黄疸在新生儿时期均是常见的，出现这些黄疸常被 家长误以为都是生理性的而被误诊，观察新生儿黄疸的程度常被小儿皮肤黑色或红 色所掩盖，以及受到光线的影响，有些家长深怕产妇不能吹风以及怕小儿着凉，室 内经常挂上很厚的深色窗帘，这也极容易把新生儿的黄疸掩盖住，根本发现不了孩 子已经出现黄疸，等到小儿有不适症状，精神差不吃奶时才送到医院发现孩子已很 黄，造成治疗的困难。 　　因此，新生儿自婴儿室抱出后，每天都应该把小儿放在自然光线下察看，观察 时母亲先用手指按压额头，胸部及手脚心，需要按压1一2秒钟然后将手放开，即可 排除皮色和血管充血的影响，观察到皮肤真实的黄染情况。另外，还应仔细观察眼 泪及小便是否发黄，大便是否发白，白眼珠是否逐渐黄。还要经常注意小儿是否发 烧，吃奶情况以及精神睡眠情况，这样才能做到真正发现和了解黄疸进展情况，以 及了解小孩将要发生什么病。一旦发现新生儿的巩膜，颜面，全身黄染，以及尿及 眼泪发黄以及全身出现有症状时表明黄疸已进展到病理性黄疸范围了，必须抱孩子 去医院检查和治疗。　　 第二节　新生儿黄疸 　　黄疸是新生儿期一种常见的临床症状。正常人血清胆红素含量3.4～13.7μmo l /L(0.2～0.8mg/dl)，若超过25.7～34.2μmol/L(1.5～2.0mg/dl)即出现黄疸。 但新生儿皮肤血管丰富，色泽红润，血清胆红素含量达51.3～68.4μmol/L(3～4m g/dl)时肉眼才能辨出黄疸。年长儿或成人出现黄疸都是病理现象，新生儿则分生 理性和病理性两种。凡新生儿黄疸有下列情况之一者，应视为病理性黄疸：①黄疸 出现过早：足月儿在生后24小时以内，早产儿在48小时以内出现黄疸；②黄疸程度 较重：血清胆红素超过同日龄正常儿平均值，或每日上升超过85.5μmol/L(5mg/d l);③黄疸持续时间过长（足月儿超过2周以上，早产儿超过3周），或黄疸退后复 现者；④黄疸伴有其它临床症状，或血清结合胆红素大于25.7μmol/L(1.5mg/dl) 。 　　一、新生儿胆红素代谢的特点 　　新生儿生理性黄疸的发生与新生儿胆红素代谢的特点有关。 　　（一）胆红素产生相对过多　胎儿在宫内低氧环境中生活，红细胞数相对地较 多，若出生时延迟结扎脐带或助产人员有意从脐带向新生儿挤血，则红细胞数量更 多。胎儿红细胞寿命较短（70～100天），故产生胆红素的量亦多。出生后开始用 肺呼吸，血氧分压升高，过多的红细胞迅速破坏，使血中非结合胆红素增加更多。 成人每日生成胆红素约65.0μmol/L(3.8mg/kg)，新生儿每日生成胆红素约为145. 4μmol/L(8.5mg/kg)相当于成人的2倍，因此新生儿肝脏代谢胆红素的负荷大于成 人。 　　（二）胆红素与白蛋白联结运送的能力不足　新生儿出生后的短暂阶段，有轻 重不等的酸中毒，影响胆红素与白蛋白联结的数量。早产儿血中白蛋白偏低，更使 胆红素的联结运送延缓。 　　（三）肝细胞摄取非结合胆红素的能力差　新生儿肝细胞内缺乏Y蛋白及Z蛋白 （只有成人的5～20%），在生后第5日才逐渐合成。这两种蛋白具有摄取非结合胆 红素，亦转运至滑面内质网进行代谢的功能，由于Y、Z蛋白的合成不足，影响了肝 细胞对非结合胆红素的摄取。 　　（四）肝脏系统发育不成熟　新生儿肝脏的葡萄糖醛酸转移酶和尿嘧啶核苷二 磷酸糖脱氢酶（UDPG脱氢酶）不足或受抑制，不能将非结合胆红素转变为结合胆红 素，以至非结合胆红素潴留血中而发生黄疸。此类酶在生后1周左右才开始增多， 早产儿更晚。 　　（五）肠肝循环增加　新生儿生后头几天，肠道内正常菌群尚未建立，因此随 胆汁进入肠道的结合胆红素不能被还原为粪胆元；另方面新生儿肠道中有较多β- 葡萄糖醛酸苷酶，能将结合胆红素水解为非结合胆红素，后者被肠粘膜吸收，经门 静脉返回至肝脏，这是新生儿肠一肝循环的特点。其结果是使肝脏代谢胆红素的负 担增加，而致非结合胆红素潴留血中。 　　二、生理性黄疸 　　大部分新生儿在生后2～3天皮肤或/和粘膜出现黄染，全身情况良好，无其他 病态，持续约一周消退者，称为生理性黄疸。 　　（一）临床表现 　　生理性黄疸大多在生后2～3日出生，第4～6日最明显，足月儿多在生后7～10 日内消退，早产儿可延迟至第3～4周消退。 　　黄疸先见于面、颈，然后可遍及躯干及四肢，一般稍呈黄色，巩膜可有轻度黄 染，但手心足底不黄。除黄疸外，小儿全身健康情况良好，不伴有其他临床症状， 大小便颜色正常。 　　（二）实验室检查 　　正常新生儿脐血胆红素最高约51.3μmol/L(3mg/dl)，在生后4天左右达高峰， 一般不超过171～205μmol/L（10～12mg/dl），早产儿不超过256.5μmol/L(15mg /dl),以后逐渐恢复。凡登白试验呈间接反应。尿中胆红素阴性，粪内胆色素增多 。 　　（三）延迟消退的常见原因和处理 　　生理性黄疸产生的原因是多方面的，综合性的，因此其严重程度和消退时间常 受下列因素的影响。 　　1．母亲产前用药：如给母亲产前应用了大量催产素或维生素K等。 　　2．产程中有窒息、缺氧：由于呼吸困难、缺氧，一方面加重了酸中毒，另方 面抑制了葡萄糖醛酸转移酶的活力，影响了胆红素的代谢进程； 　　3．分娩时损伤出血，使胆红素产生增加； 　　4．产后受冻、饥饿：此时体内游离脂肪酸等有机阴离子增多，与胆红素竞争 与白蛋白结合，而使胆红素游离血中，延迟喂养，胎粪排出延迟，可增加肠一肝循 环，使血中非结合胆红素增加。 　　为了预防新生儿发生高胆红素血症，孕母产前用药要慎重，能不用的药物尽量 不用；分娩过程中严密监护，以免胎儿发生窒息和产伤；生后注意保持新生儿体温 ，适当提早喂养。若已发生新生儿高胆红素血症，除病因治疗外，可应用光疗、血 浆或白蛋白等治疗。 　　三、新生儿肝炎 　　为起病于新生儿期的一组临床症候群，主要表现为阻塞性黄疸、肝脏肿大及肝 功能损害，由于病因较多，对每一病例的确切原因难以确定，故常称为新生儿肝炎 综合征（Neonatal Hepatitis Syndrome）。 　　（一）病因 　　主要由病毒引起，如乙型肝炎病毒、巨细胞病毒、风疹病毒、单纯疱疹病毒及 肠道病毒等。弓形体原虫、李司忒菌、梅毒等，亦是本病的病因之一。 　　（二）临床特点 　　起病较缓。常在生后数天至数周内出现黄疸，持续时间较长，可伴有食欲下降 、恶心、呕吐、消化不良、体重不增等症状。大便颜色变浅，严重时可呈灰白色， 但有时浅、时深的动态变化。尿色深黄。肝脏轻度至中度肿大，质稍硬。少数脾脏 亦大。中毒性肝炎常有感染病灶和全身中毒症状。风疹病毒、巨细胞病毒引起的肝 炎，常伴有先天畸形或宫内生长障碍。 　　实验室检查血清转氨酶增高，胆红素增高，以结合胆红素增高为主，絮状浊度 试验早期变化不明显。甲胎蛋白阳性。尿胆元阳性，尿胆红素根据胆管阻塞程度可 呈阳性或阴性反应。采血检查乙型肝炎病毒表面抗原，收集婴儿尿液或母宫颈刮片 找巨细胞包涵体等可作病因诊断。 　　（三）治疗 　　以保肝治疗为主，供给充分的热量及维生素。禁用对肝脏有毒性的药物。黄疸 严重者可试用强的松（2mg/kg/日）抗炎，以减轻胆管梗阻，通常用药4～8周，需 注意预防其他感染。一般病例可用中药清热、利湿、退黄，如茵陈蒿汤等。病因明 确者，针对病因治疗。 　　四、先天性胆道闭锁 　　（一）病因 　　病因不明。一般认为与宫内病毒感染，肝内肝小管炎症继发梗阻及先天性胆道 发育畸形有关。肝内胆管、肝管或胆总管可发生闭锁或不发育，胆囊也可发生闭锁 或发育不良。 　　（二）临床特点 　　常在生后1～3周出现黄疸，持续不退，并进行性加重。胎粪可呈墨绿色，但生 后不久即排灰白色便。严重病例由于肠粘膜上皮细胞可渗出胆红素，而使灰白色粪 便外表染成浅黄色。肝脏进行性肿大，逐渐变硬。多数有脾肿大，晚期发生腹水。 早期病儿食欲尚可，营养状况大都尚好；晚期由于脂肪及脂溶性维生素吸收障碍， 性质逐渐虚弱，可发维生素A、D、K缺乏而引起干眼病、佝偻病及出血倾向。 　　实验室检查，血清结合胆红素及碱性磷酸酶持续增高。早期肝功能正常，晚期 有异常改变。尿胆红素阳性，尿胆元阴性。有条件可做核素99m锝―IDA（乙酰苯胺 亚胺二醋酸）显像，静注示踪剂6小时内，肠道不出现放射性浓集，支持本病诊断 。 　　（三）治疗 　　先天性胆道闭锁应争取在生后3个月内进行手术治疗。目前手术成功率最高的 是肝门空肠吻合术。但手术的可能性及效果视畸形类型而异，肝内梗阻者手术困难 。 　　五、新生儿溶血症 　　新生儿溶血症（Hemolytic disease of newborn）是指因母、婴血型不合而引 起的同族免疫性溶血。在我国以ABO血型不合者占多数，Rh血型不合者较少，其他 如MN、Kell血型系统等少见。 　　（一）病因 　　当胎儿由父方遗传所得的血型抗原与母亲不同时，进入母体后即会刺激母体产 生相应的抗体，可通过胎盘进入胎儿体内，与胎儿红细胞发生抗原抗体反应导致溶 血。 　　在ABO系统中，因O型人具有抗A或抗BigG的人数比A型及B型的人数多：A抗原较 B抗原的抗原性强，故母O型，胎儿A型者得病机会多。ABO溶血症可发生在第一胎， 与母体曾受自然界中类似A、B物质的抗原刺激，已具有抗A或抗B抗体有关。Rh溶血 症的免疫抗体，只能由人类的血细胞作为抗原刺激而产生，若在分娩时胎儿红细胞 才进入母体，则除有输血史者，罕见第一胎即发病。我国绝大多数人为Rh阳性，故 Rh溶血症在我国少见。 　　（二）临床表现 　　本病症状之轻重差异很大，一般ABO血型不合者症状较Rh血型不合者轻。病儿 常于生后24小时以内或第二天出现黄疸，并迅速加重。随黄疸加深可出现贫血、肝 脾肿大，严重者发生胆红素脑病。Rh不合大量溶血者，出生时已有严重贫血，可导 致心力衰竭、全身水肿、甚至死胎。 　　（三）诊断 　　根据生后24小时内迅速出现黄疸及溶血性贫血的临床特点，结合母、婴血型鉴 定及特异性抗体检查，即可明确诊断。血清学检查项目及其临床意义见表2-3。 　　（四）治疗 　　应根据病情轻重采取综合措施以降低血清胆红素浓度及纠正贫血。一般采用药 物治疗及光疗，必要时换血输血。 　　1．药物治疗 　　主要目的是降低血清非结合胆红素，预防胆红素脑病。中西药可联合应用。 　　⑴西药 　　①血浆或白蛋白　供给与胆红素联结的白蛋白，可使游离的非结合胆红素减少 ，预防胆红素脑病。血浆25ml/次静脉注射（100ml血浆含白蛋白3g，1g白蛋白可联 结非结合胆红素8.5mg）或白蛋白lg/kg加25%葡萄糖10～20ml静脉滴注，每天1～2 次。 　　②肾上腺皮质激素　能阻止抗原与抗体反应，减少溶血；并有促进肝细胞葡萄 糖醛酸转移酶对胆红素的结合能力。强的松每日1～2mg/kg分三次口服，或氢化考 地松每日6～8mg/kg或地塞米松每日1～2mg加10%葡萄糖100～150ml静脉滴注。疑有 感染者在有效抗感染药物控制下慎用。 　　③酶诱导剂　能诱导肝细胞滑面内质网中葡萄糖醛酸转移酶的活性，降低血清 非结合胆红素。苯巴比妥尚能增加Y蛋白，促进肝细胞对胆红素的摄取。苯巴比妥 每日5～8mg/kg，尼可杀米每日100mg/kg，皆分3次口服。因需用药2～3天才出现疗 效，故要及早用药。两药同用可提高疗效。 　　④葡萄糖及硷性溶液　葡萄糖可供给患儿热量，营养心、肝、脑等重要器官， 减少代谢性酸中毒。酸中毒时，血脑屏障开放，可使胆红素进入脑组织的量增加， 尚应及时输给硷性溶液纠正酸中毒，预防胆红素脑病。碳酸氢钠剂量（mEq）=硷剩 余&times;体重(kg)&times;0.3。 　　⑵中药 　　中药可以退黄，体外试验有抑制免疫反应的作用。常用的方剂有：①三黄汤 黄芩4.5g，黄连1.5g，制大黄3g。②茵陈蒿汤 茵陈1.5g，栀子9g，制大黄3g，甘 草1.5g。③消黄利胆冲剂 茵陈9g，桅子3g，大黄3g，茅根10g，金钱草6g，茯苓6 g。 　　以上三方可选其中之一，每日服1剂，分次在喂奶前服。亦有制成静脉输入剂 应用者，其疗效较口服者为快。 　　2．光疗 　　⑴光疗原理　胆红素能吸收光，在光和氧的作用下，脂溶性的胆红素氧化成为 一种水溶性的产物（光－氧化胆红素，即双吡咯），能从胆汁或尿液排出体外，从 而降低血清非结合胆红素浓度。胆红素的吸收光带是400～500毫微米，尤其是在4 20～440毫微米波长时光分解作用最强，兰色荧光波长主峰在425～475毫微米之间 ，故多采用兰色荧光灯进行治疗。近年来，有报告绿光退黄效果胜于兰光者。 　　⑵光疗方法及注意事项　让患儿裸体睡于兰光箱中央，光源距婴儿体表50 cm ，两眼及外生殖器用黑罩或黑布遮盖。箱周温度应保持在30～32℃，每小时测肛温 1次，使体温保持在36.5～37.2℃之间。光照时间根据病因、病情轻重和血清胆红 素浓度减退的程度来定，可连续照射24～72小时。 　　光疗对结合胆红素的作用很弱。当血清结合胆红素　&gt;64.8μmol/L (4mg/dl) 、转氨酶及碱性磷酸酶升高时，光疗后胆绿素蓄积，可使皮肤呈青铜色，即青铜症 。故以结合胆红素增高为主或肝功能有损害的病儿不宜作光疗。 　　3．换血输血 　　⑴换血目的　换出血中已致敏红细胞及抗体，阻止进一步溶血；减少血清非结 合胆红素浓度，预防发生胆红素脑病；纠正贫血，防止心力衰竭。 　　⑵换血指征　①产前已经确诊为新生儿溶血病，出生时有贫血、水肿、肝脾肿 大及心力衰竭，脐血血红蛋白 &lt; 120g/L。②脐血胆红素 &gt; 59.84～68.4μmol/L (3.5～4mg/dl),或生后6小时达102.6μmol/L(6mg/dl)，12小时达205.2μmol/L ( 13mg/dl)；③生后胆红素已达307.8～342μmol/L(18～20mg/dl)、早产儿胆红素达 273.6μmol/L(16mg/dl)者；④已有早期胆红素脑病症状者。 　　⑶血清选择　ABO溶血症用AB型血浆，加O型红细胞混合后的血。Rh溶血症应有 ABO同型（或O型），Rh阴性的肝素化血。血源应为3天内的新鲜血。 　　⑷换血量及速度　常用的换血量为85ml/kg，约为婴儿全血的2倍。每次抽出和 注入的血量为10～20ml，病情重、体重轻者抽注10ml。速度要均匀，约每分钟10m l。换血后可作光疗。以减少或避免再次换血。 　　换血操作较复杂，易发生感染、血容量改变及电解质紊乱等并发症，所以必须 谨慎从事。 　　生后2个月内，重症溶血常发生严重贫血，应注意复查红细胞和血红蛋白，若 血红蛋白 &lt; 70g/L，可小量输血。轻度贫血可口服铁剂治疗。 　　六、母乳性黄疸 　　（一）病因 　　由于母乳中含有较多脂肪酶及β葡萄糖醛酰苷酶，前者使乳中未饱和脂肪酸增 多，从而抑制肝脏葡萄糖醛酸转移酶活性；后者能分解胆红素葡萄糖醛酸酯的酯键 ，使结合胆红素又转化为非结合胆红素，而易在小肠被重吸收，从而增加了肠－肝 循环，结果血中非结合胆红素增加而出现黄疸。 （二）临床特点 　　母乳喂养的婴儿，在生后4～7天出现黄疸，2～4周达高峰（血清胆红素可超过 256.6～342.0μmol/L），一般状况良好无溶血或贫血表现。黄疸一般持续3～4周 ，第2个月逐渐消退，少数可延至10周才退尽。黄疸期间若停喂母乳3～4天，黄疸 明显减轻，胆红素下降≥50%。若再用母乳喂养，黄疸不一定再出现，即使出现亦 不会达原有程度。 　　（三）治疗 　　因本病血清胆红素很少升高达足以产生神经毒性的水平，故一般不必停喂母乳 。若血清胆红素 &gt; 256.6μmol/L时，应停止母乳喂养2～4天，改用人工喂养。在 暂停母乳期间，应将母亲乳汁吸出，以维持乳汁分泌，保证以后继续母乳喂养。 　　为减少肠壁吸收非结合胆红素，可口服10%活性炭溶液5ml，每小时1次；琼脂 125～250mg/次，每天4～6次。 　　[附]新生儿胆红素脑病 　　新生儿发生高非结合胆红素血症时，游离胆红素通过血脑屏障，沉积于基底神 经核、丘脑、丘脑下核、顶核、脑室核、尾状核、以及小脑、延脑、大脑皮质及脊 髓等部位，抑制脑组织对氧的利用，导致脑损伤，称胆红素脑病。过去称核黄症。 　　一、影响发病的有关因素 　　（一）血脑屏障的完整性　血脑屏障正常时，可限制胆红素进入中枢神经系统 ，对脑组织具有保护作用。当新生儿窒息、缺氧、感染、酸中毒、饥饿、低血糖、 早产及应用某些药物时，可使血脑屏障开放或通透性增加，非结合胆红素得以进入 脑组织而发生胆红素脑病。 　　（二）血中游离胆红素的浓度　游离胆红素是指尚未与白蛋白联结的、呈游离 状态的非结合胆红素。非结合胆红素浓度越高，游离胆红素越多，超过一定限量（ 307.8～342.0μmol/L被视为“临界浓度”，早产儿更低），即可退过血脑屏障进 入脑细胞。另方面，当血浆白蛋白含量过低、酸中毒时胆红素与白蛋白的联结量减 少、以及存在与胆红素竞争夺取白蛋白上联结位点的物质（如脂肪酸、水杨酸盐、 磺胺类、新型青霉素Ⅱ和先锋霉素等药物）时，均可使血中游离胆红素浓度增高而 发生胆红素脑病。 　　二、临床表现 　　本病临床分4期，第1～3期出现在新生儿早期，第4期在新生儿期以后出现。 　　（一）警告期　表现为嗜睡、吸吮反射减弱和肌张力减退。大多数黄疸突然明 显加深。历时12～24小时。 　　（二）痉挛期　轻者仅两眼凝视，阵发性肌张力增高；重者两手握拳、前臂内 旋，角弓反张、有时尖声哭叫。持续约12～24小时。 　　（三）恢复期　大都于第1周末，首先吸吮力和对外界的反应逐渐恢复，继而 痉挛逐渐减轻、消失。历时2周左右。 　　（四）后遗症期　常出现于生后2个月或更晚。表现为手足徐动、眼球运动障 碍、耳聋、智力障碍或牙釉质发育不良等。 　　三、预防和治疗 对新生儿高胆红素血症，必须及早采取综合措施，以防止其发展为胆红素脑病 。如注意保暖、纠正缺氧及酸中毒、供给足够的营养。避免输注高渗药物、不使用 能引起溶血或抑制肝酶的药物等。在警告期根据病情及时采用换血、光疗、输注白 蛋白等各种措施，尽快降低血中胆红素浓度。 </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=122505">给新生儿用药有哪些注意事项</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/tezheng/1" >新生儿特征</A>
+				<A href="/static/menu/sm/jibing/1" >新生儿疾病</A>
+				<A href="/static/menu/sm/huli/1" class='thisclass'>新生儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=150&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/122504">新生儿黄疸简介</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122503">新生儿窒息如何治疗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122502">不易察觉的新生儿肺炎</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122501">新生儿冬季呼吸道疾病的护理</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122500">新生儿硬肿症治疗有新招</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"122683"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

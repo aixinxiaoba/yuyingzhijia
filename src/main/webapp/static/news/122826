@@ -1,0 +1,491 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>与尿布疹说bye-bye-新生儿-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/122826"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/xinshenger2.png)'
+			 href="/static/menu/bm/xinshenger2" alt="新生儿" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=150" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/xinshenger2'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/tezheng/1">新生儿特征</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jibing/1">新生儿疾病</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/huli/1">新生儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=150" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=150&menuID=153" rel="nofollow">新生儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					与尿布疹说bye-bye
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=150" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-25 19:43:33</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p>
+  <!--画中画开始--> 
+  <!--画中画结束--> </p>
+ <p>　　尿布疹破坏了婴儿原本舒畅无比的例行公事――尿尿，当然，你也不会太好过。婴儿就是有这些本事，将他们的问题变成你的问题，当他们有尿布疹时，你好像也有似的。婴儿在2-3岁内时，几乎天下所有的父母皆至少经历过一次尿布疹。 <br />幸好，近乎50％的尿布疹在一天内会自动消失，而其他50％可以持续10天或更久。</p> 
+ <p>　　当你阅读此章时，你可能正遭逢婴儿尿布疹的问题。我们来听听专家的建议。</p> 
+ <p>　　宝宝为什么易患尿布疹？</p> 
+ <p>　　小宝宝的皮肤，厚度只有成人皮肤的1/10，发育也尚未完善，抵抗力较差，加上小宝宝膀胱容量小，排便次数多，很容易受尿液刺激，引起尿布疹。另外一个因素也不可忽视，小宝宝新陈代谢快，排汗多，当环境温度高时，他的皮肤就会向外排汗，如果热气不能有效排出，宝宝受潮湿刺激，也容易产生尿布疹。</p> 
+ <p>　　经常护理宝宝，细心的妈咪从宝宝的日常表现中就能发现异常，判断是不是得了尿布疹：</p> 
+ <p>　　・尿布疹只发生在与尿布接触的部位，如肛周、会阴部位尤其如此。</p> 
+ <p>　　・尿布疹表现为大片红斑、水肿，表面光滑、发亮，边界清楚。</p> 
+ <p>　　・严重的，在水肿的红斑上可有水泡、糜烂渗出，重者发生脓胞、溃疡、发热。</p> 
+ <p>　　・局部皮肤疼痛，使宝宝不安、爱哭、易烦躁。</p> 
+ <p>　　尿布疹的发生，关键是由于尿使宝宝的臀部皮肤变得过于潮湿。宝宝臀部皮肤上的一层天然酸性保护膜就被破坏掉了。这样，便使皮肤表面的角质层很容易被刺激物磨损、渗透，最终使皮肤受损、发炎，引发宝宝患上尿布疹。</p> 
+ <p>　　与尿布疹说bye-bye</p> 
+ <p>　　现在的生活中，有纸尿裤与棉尿布，纸尿裤因为其方便、卫生已成为众多妈妈的首选，但如果使用不当，也会给宝宝带来麻烦，因此，学会聪明地使用纸尿裤，也是妈咪的必修课。</p> 
+ <p>　　选购纸尿裤技巧</p> 
+ <p>　　・纸尿裤要具有超强的透气性</p> 
+ <p>　　如果尿裤透气性不佳，即使宝宝没有尿湿，但由于天气热或宝宝出汗等，局部皮肤也是潮湿的。宝宝娇嫩的皮肤在这样的环境下，就成了尿布疹侵袭的对象。因此，在使用时，注意要购买透气性强的纸尿裤。这种纸尿裤上含有许多肉眼看不见的微型小孔，能排除小屁屁上的湿气。</p> 
+ <p>　　・纸尿裤要选择干爽型</p> 
+ <p>　　纸尿裤内层为干爽的表面，即使再多的尿液，也能渗下去，而表面仍是干的。其独特的功能是保持宝宝小屁屁干干爽爽，尿液不回渗。</p> 
+ <p>　　・选择有尿湿显示的纸尿裤</p> 
+ <p>　　纸尿裤上标有图案，当遇湿后，颜色变淡，妈妈能马上发现宝宝该换尿裤了。避免长时间受尿液刺激。</p> 
+ <p>　　・选择吸水性强的纸尿裤</p> 
+ <p>　　大吸收量的尿裤，特别适合宝宝在夜间使用。因为吸收量大，尿液不会渗出，减少了更换的频率，不会打扰熟睡的宝宝，而且快速的吸收能够减少尿液与皮肤接触的时间，从而减少了宝宝患尿布疹的机会。也能使宝宝睡个无人打扰的安稳觉。</p> 
+ <p>　　・选择大小合适的纸尿裤</p> 
+ <p>　　根据婴儿体重的不同，纸尿裤分成各种型号，以“帮宝适”为例：如S号，适合3～8公斤；M号，适合6～11公斤；L号，适合9～14公斤；XL号，适合12公斤以上。妈咪应根据宝宝的月龄、体重，选择合适的尿裤，让宝宝穿得得体、舒适。</p> 
+ <p>　　・添加护肤成分的纸尿裤</p> 
+ <p>　　有些纸尿裤，添加了芦荟等护肤成分，尤其适用于易过敏的宝宝。芦荟中的某些成分，保护皮肤免受尿液的刺激。</p> 
+ <p>　　使用棉尿布技巧</p> 
+ <p>　　棉尿布因其可重复使用，质地为纯棉，也备受妈咪的喜爱。在使用中，如果使用不当，宝宝一样会患尿布疹。恰当地使用，既能节约时间，又非常经济。</p> 
+ <p>　　棉尿布在母婴商店或商场中有售，在使用前，先清洗二三遍，去除尿布中残留的化学成分。在给宝宝使用时，最好配合尿布外罩使用。使用时先将尿布折成长方形或三角形，放在尿布外罩里，然后将它们一齐推到宝宝屁屁下面至腰部，将上面折上来，粘贴好，整理一下松紧适宜即可。这样使用棉尿布的宝宝就很容易抱，尿液也不会渗透脏了衣服被褥。</p> 
+ <p>　　棉尿布清洗方法</p> 
+ <p>　　・婴儿每天要拉尿许多次，如果脏一块洗一块会非常麻烦，因此，家中要准备一个专门放尿布的桶，将脏尿布积存起来，每天集中洗一两次，会节省许多时间。</p> 
+ <p>　　・如果是小便，那么洗洗就行了，如果是大便，要到卫生间将大便用竹片刮掉，洗起来就比较轻松。在母婴商店也有专门的方便用品，只需在尿布内层垫一片，宝宝大便后，只把这一片丢掉即可，无需费力清洗尿布。</p> 
+ <p>　　・洗尿布不要用洗衣粉，而要用专门清洗尿布或清洗婴儿衣物的洗涤剂。因为宝宝皮肤娇嫩，如果尿布上有残留的洗衣粉的成分，可刺激宝宝皮肤，产生过敏。如果尿布用的时间长了，表面发硬，可以在洗尿布时，加入几勺醋，能使尿布变得柔软。</p> 
+ <p>　　・有些妈妈认为柔顺剂能使衣物柔软，这确实不假，但用于尿布就不适宜，因为尿布用柔顺剂清洗后，在其表面可形成一层保护膜，不利于吸收尿液。</p> 
+ <p>　　・天气好时，要拿到阳光下晾晒，起到消毒的作用。天气不好时，如果尿布一时干不了，可以用电熨斗烫干，既能达到消毒目的，也能使尿布干透。</p> 
+ <p>　　・晾干后的尿布，要折好，摆放整齐，到用时会感到非常方便，如果尿布有些硬，用手搓一搓，揉一揉，一样能恢复柔软。</p> 
+ <p>　　及时发现宝宝的排便信号</p> 
+ <p>　　尿裤湿了就要更换，一般一个尿裤在白天使用不得超过4个小时。但有时，新妈妈实在不知道何时该给宝宝换尿裤了，在无法确定宝宝这些情况下，要关注以下几个时间：</p> 
+ <p>　　・在每次喂奶前，要看看尿裤是否湿了，否则，宝宝吃奶也会不踏实。</p> 
+ <p>　　・在每次喂奶15～30分钟后，宝宝的尿液就有可能排出了。</p> 
+ <p>　　・在睡觉之前，要查看宝宝尿裤是否干爽，否则宝宝可能睡不安稳。</p> 
+ <p>　　・当宝宝睡醒觉后，一般会排尿。</p> 
+ <p>　　・带宝宝外出前，要检查一下。</p> 
+ <p>　　一些有用的建议</p> 
+ <p>　　给他们一点空气</p> 
+ <p>　　“给婴儿的小屁股透透气。”脱下婴儿的尿布，让他趴着，脸侧放任一边，在毛巾下垫一块防水物。就这样让婴儿趴一段时间，并在他身旁看护着。</p> 
+ <p>　　记住：未看护及未穿尿布的婴儿就像随时将发生的大麻烦。</p> 
+ <p>　　超级尿布助阵</p> 
+ <p>　　这些新的吸力超强尿布是个好主意。它们是目前最佳的预防尿布疹产品。含吸力强的胶质的尿布能大幅地减少皮肤表面的水分，使皮肤较接近其正常的PH值。</p> 
+ <p>　　吹干婴儿的小屁股</p> 
+ <p>　　保持尿布部位干燥能促进复原，但若用毛巾擦干可能刺激敏感的皮肤。怎么办？试试吹风机。将吹风机设定在低温处，吹干尿布部位。吹干后，或许可再涂点氧化锌软膏。</p> 
+ <p>　　用醋冲洗尿布</p> 
+ <p>　　洗尿布时，在最后一次冲洗时加一点醋，能帮助尿布的PH值与婴儿的皮肤相近。以30克醋配4公升水的比例，作最后的冲洗。</p> 
+ <p>　　喝小红莓汁</p> 
+ <p>　　当尿液及粪便混在尿布内，将导致高的PH值，刺激皮肤产生尿布疹。可以给较大的婴儿60一一90克的小红莓汁，使其尿液带酸性，以帮助降低PH及减轻皮肤的不适。</p> 
+ <p>　　5位妈咪妙招</p> 
+ <p>　　陶子：每次都用屁屁膏：</p> 
+ <p>　　每次都用屁屁膏我所说的屁屁膏其实就是护臀膏。小宝宝的皮肤薄薄的嫩嫩的，我可不希望宝宝的皮肤受到任何侵害。每天早晨醒来，我都会用清水给女儿洗屁屁，因为一夜的时间，宝宝的屁屁浸在尿液里，皮肤肯定不舒服。洗完后，我为女儿抹上护臀膏。白天，每次小便后，我只用柔湿巾擦一擦，然后抹上护臀膏。如果大便了，我肯定用水洗，我觉得湿纸巾擦得不能彻底。现在宝宝快2岁了，从没得过尿布疹。</p> 
+ <p>　　静霞：选择有尿湿显示的纸尿裤</p> 
+ <p>　　我家宝宝有一次得了尿布疹，拖了半个月才好。那时宝宝又痛又痒，看上去很难受，我也心疼。我认为这是由于尿裤尿湿后沤着小屁屁造成的，因此再买尿裤时，就选择有尿湿显示的纸尿裤。为宝宝穿上尿裤后，只要宝宝尿湿了，纸尿裤上的图案就化了，如果尿湿得多，就会有一大片没有图案了，我只需看图案，就知道宝宝是不是该换尿裤了，不是每次都用手摸，保证及时让宝宝穿上干干爽爽的尿裤。</p> 
+ <p>　　宁新红：用花椒油治宝宝红屁屁</p> 
+ <p>　　我家宝宝生下来没多久，就一连腹泻了好几天。结果小屁屁红红的，看着都要露着肉了，宝宝也总是哭。后来一位同事告诉我一个偏方，她说你把家里的花生油倒在锅里烧热，然后放几粒花椒炸糊，等油晾凉后，取出花椒，将油倒在一个用热水烫过的瓶子里。宝宝每次清洗完屁屁后，晾干小屁屁，再用棉签醮些油为宝宝涂上。我用了这个方法，果然，两天宝宝的小屁屁就不红了。</p> 
+ <p>　　余娜：晾晾小屁屁</p> 
+ <p>　　我给宝宝无论白天还是夜里，用的都是纸尿裤，宝宝的屁屁暗无天日。于是每次为宝宝更换尿裤的时候，我每次为他清洗完，都让宝宝躺在尿布台上玩一会儿，或者抱一抱他，这样宝宝的屁屁能有个通风透气的机会，不易患上尿布疹。</p> 
+ <p>　　吕青梅：白天用棉尿布，晚上用纸尿裤</p> 
+ <p>　　我家宝宝的皮肤属于敏感型的，非常容易过敏。在护理宝宝的过程中，我们白天选用的是棉尿布，晚上选用的是纸尿裤，这样白天宝宝的屁屁能透气，一湿就换，不会沤着宝宝小屁屁；晚上一片纸尿裤能安睡到天亮。如此一来，不仅让我节省了一笔不小的尿裤开支，还让我家宝宝的小屁屁免受尿布疹的骚扰。</p> 
+ <p>　　正确护理小屁屁</p> 
+ <p>　　宝宝每次便后，要及时更换尿裤，以免尿液刺激宝宝娇嫩的肌肤。</p> 
+ <p>　　更换步骤：</p> 
+ <p>　　・妈妈先洗净双手，以免手上的细菌污染宝宝皮肤。</p> 
+ <p>　　・准备好一片新的纸尿裤、一盒湿纸巾、护臀膏、一个垃圾袋。</p> 
+ <p>　　・把宝宝放在更换尿布的台上，打开尿裤，提起宝宝两条小腿（注意食指要放在宝宝两脚中间，以免磨着宝宝脚踝），将尿裤抽出，放进垃圾袋。</p> 
+ <p>　　・用湿纸巾清洁宝宝的小屁屁，再用护臀膏薄薄地抹上一层，将宝宝双腿放下。</p> 
+ <p>　　・将新尿裤打开，提起宝宝两腿，将其铺在宝宝屁屁下面，放下宝宝两腿，将尿裤两端抻平，然后将另一端上折，粘贴。注意粘贴后，松紧要适度，以能容下妈妈的1个手指为宜。尿裤腰部的外边要向外折一下，不能盖住肚脐，以免尿湿后弄湿肚脐，引发肚脐的感染和不适。</p> 
+ <p>　　・整理一下，看看腿部的松紧是否合适，太松则易出现渗尿，太紧则容易勒着宝宝，使宝宝不舒服。宝宝大便后，只要有条件，就一定要用清水洗屁屁，洗后用柔软的毛巾蘸干，再穿纸尿裤。<br />&nbsp;<br /></p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=122505">给新生儿用药有哪些注意事项</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/tezheng/1" >新生儿特征</A>
+				<A href="/static/menu/sm/jibing/1" >新生儿疾病</A>
+				<A href="/static/menu/sm/huli/1" class='thisclass'>新生儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=150&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/122504">新生儿黄疸简介</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122503">新生儿窒息如何治疗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122502">不易察觉的新生儿肺炎</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122501">新生儿冬季呼吸道疾病的护理</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122500">新生儿硬肿症治疗有新招</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"122826"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>
