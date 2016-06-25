@@ -1,0 +1,418 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>冬季警惕小儿咳嗽-新生儿-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/122195"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/xinshenger2.png)'
+			 href="/static/menu/bm/xinshenger2" alt="新生儿" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=150" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/xinshenger2'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/tezheng/1">新生儿特征</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/jibing/1">新生儿疾病</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=150" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=150&menuID=152" rel="nofollow">新生儿疾病</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					冬季警惕小儿咳嗽
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=150" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-25 13:51:54</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> 　　进入冬季以来，儿科门诊量剧增，住院患者爆满，床位使用率达到了200%以上，这不是一所医院出现的现象。引起患儿增多的主要疾病是肠道感染(秋季腹泻)和呼吸道感染(肺炎)。门诊就诊的患儿中以咳嗽为主诉的占绝大多数，住院患儿腹泻占大多数。<br /><br />　　小儿咳嗽给家长带来无尽的烦恼，治疗咳嗽的药物铺天盖地，可就是难止孩子的咳嗽，影响孩子和父母的休息，有的咳嗽把吃进的饭菜都吐了出来，爸爸妈妈的心让孩子的咳声揪得紧紧的，药疗、食疗，理疗，雾化治疗，偏方用了一个又一个，可哪一个也不灵验，久治不愈的小儿咳嗽困扰着爸爸妈妈。父母们最关心的，最需要解决的是如何止咳。<br /><br />　　孩子为什么咳嗽<br /><br />　　小儿咳嗽是一种症状，是一种保护性反射动作，通过咳嗽把呼吸道中的&quot;垃圾&quot;清理出来，咳嗽同时往往伴有咯痰，痰就是&quot;垃圾&quot;。那这么说来，咳嗽是好事，就不要止咳治疗了，不是的，当呼吸道中没有&quot;垃圾&quot;，只是有充血、水肿，或由于长期咳嗽刺激，使咳嗽中枢持久处于高度兴奋状态，这时的咳嗽就不是具有保护作用的反射动作了，就应该积极止咳了，即使是保护性的，如果咳嗽剧烈，影响睡眠和进食，也要治疗，止咳治疗也包括祛痰，化痰，减轻呼吸道黏膜水肿，恢复气管内膜纤毛作用等。因此，止咳治疗不是简单的服用止咳药。首先要分析咳嗽的原发因素。针对病因治疗，才会收到好的效果。<br /><br />　　针对病因治疗咳嗽<br /><br />　　由各种病毒、细菌及其他微生物感染引起的呼吸道感染，如果感染局限在环状软骨以上(咽部以上)，就是上呼吸道感染，如果感染发展至环状软骨以下(咽部以下)，就是下呼吸道感染，就是气管，支气管，毛细支气管，肺泡，肺间质感染，如果用大树做形象比喻，把大树倒过来，树根以上是上呼吸道，树根以下是下呼吸道。树干是气管，树枝是支气管，树叶梗是毛细支气管，树叶是肺泡，树叶间隙就是肺间质了。整个呼吸道都可遭受各种外来因素侵袭而发生病理变化，这些外来因素，并不单纯是病毒，细菌，还可以是各种微生物，也可以是各种理化因素，环境因素等，或者是由于病毒，细菌和各种因素导致呼吸道黏膜发生的病变，不能随着病毒，细菌和各种微生物的消亡而改善，导致呼吸道黏膜自身功能的损伤，就形成了经久不愈的咳嗽。因此，这就是即使使用很高级的抗菌素也难以治疗咳嗽的症结，必须改善呼吸道黏膜本身的功能。才能根治咳嗽。<br /><br />　　引起咳嗽的疾病<br /><br />　　按解剖部位，呼吸道从上至下依次为：额窦炎、鼻窦炎、鼻炎、咽炎、喉炎、气管炎、支气管炎，毛细支气管炎、肺炎。按疾病谱分：有百日咳，百日咳综合征，感冒，流感，上感，过敏性咳嗽，支气管哮喘，心性咳嗽，还可按咳嗽类型分为外周性咳嗽，中枢性咳嗽，按照中医理论可分为：湿热咳嗽，寒喘咳嗽，发热咳嗽，伤风咳嗽等。要针对这些疾病加以治疗，咳嗽治疗是辅佐治疗，不能把止咳治疗的砝码重重加在止咳药上。<br /><br />　　额窦炎，鼻窦炎，鼻炎，咽炎，都是比较难治的疾病，属于耳鼻科范畴，而小儿看病大都在小儿内科门诊，容易误诊，家长要想到看一下耳鼻科医生，及时祛除引起咳嗽的病因，<br /><br />　　即使是气管炎，肺炎引起的咳嗽，也不一定都有活动感染，对于经久不愈的咳嗽，不要长期使用抗菌素，更没有必要长期使用抗病毒药物。没有细菌，病毒感染，还长期使用抗菌素只能增加药物的副作用，白细胞下降，菌群失调，胃功能受损，小儿食欲下降，是利少弊多，是不可取的。这时的治疗，应该把重点放在对呼吸道黏膜的保护，修复，功能的恢复等上，如服用维生素AD胶丸，有利于内膜的修复，多喝水，室内空气湿度适宜，使纤毛运动功能改善，痰液变稀薄，有利于排出，空气新鲜，减少室内灰尘，减少理化因素刺激，帮助呼吸道内膜功能的恢复。<br /><br />　　误诊率惊人的过敏性咳嗽<br /><br />　　过敏性咳嗽是机体对抗原性或非抗原性刺激引起的一种持续性炎性反应，患儿常出现持续性或反复发作的剧烈咳嗽。如不及时诊断和积极治疗这种咳嗽，大约有42.9%患儿就可出现哮喘症状，甚至发展为支气管哮喘。&#xfffd;&#xfffd;<br /><br /></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　如何鉴别小儿过敏性咳嗽呢？<br /><br />过敏性咳嗽可发生于任何年龄的小儿，咳嗽反复或持续发作一个月以上。发病并不限于冬春二季，以夜间和早晨发作较多见，运动或哭闹时咳嗽加重。大部分孩子的咳嗽为刺激性咳嗽，有痰液。往往有家族或个人过敏史。大多数患儿在婴儿期有婴儿湿疹和过敏性鼻炎病史。用抗生素和止咳药物治疗无效。&#xfffd;と绾沃瘟乒&#xfffd;敏性咳嗽呢？舒喘灵和酮替酚是比较有效的药物，一般在服用2-5天咳嗽症状可消失，也有的患儿需要连续服药后半个月到一个月内咳嗽才能消失。酮替酚最好维持治疗半年，舒喘灵在咳嗽症状消失后维持治疗半个月。<br /><br />　　小儿过敏性咳嗽是常见病，又称&quot;咳嗽变异性哮喘&quot;，但是，至今尚未引起医生和家长的足够重视。误诊率高达95%。有许多患儿因为慢性或反复地咳嗽被当作上呼吸道感染或支气管炎，长期以来一直治&quot;咳嗽&quot;，都大量使用抗生素和止咳药，既延误了病情，又造成了抗生素的滥用和耐药性的上升等。联合用几种止咳药物也不见咳嗽明显好转。对这样的长期咳嗽，如用一般抗生素和止咳药物不能使症状缓解，并且除了其他器质性疾病，家长应想到孩子可能患了过敏性咳嗽，若能做到早发现和适当地抗过敏治疗，将有助于降低患儿呼吸道粘膜的敏感性，这样可预防发展成为哮喘。反之，若一味地治标，将使病情发展，最终可能发展成为哮喘，严重地影响孩子的身心健康。<br /><br />　　止咳祛痰药的选择<br /><br />　　小儿一般不适合使用中枢性镇咳药，如可待因，咳必清，咳美芬等，婴幼儿的呼吸系统发育尚不成熟，咳嗽反射较差，气道管腔狭窄，血管丰富，纤毛运动较差，痰液不易排出，如果一咳嗽，便给予较强的止咳药，咳嗽虽暂时得以停止，但气管黏膜上的纤毛上皮细胞的运痰功能和支气管平滑肌的收缩蠕动功能受到了抑制，痰液不能顺利排出，大量痰液蓄积在气管和支气管内，影响呼吸功能。联邦止咳露中含有可待因，要注意服用剂量和时间，一般较剧烈的刺激性干咳可选用这类止咳药。但要在治疗原发病的基础上使用。<br /><br />　　小儿咳嗽适合选用兼有祛痰，化痰作用的止咳药，糖浆优于片剂，糖浆服用后附着在咽部黏膜上，减弱了对黏膜的刺激作用，本身就可达镇咳目的，服用时不要用水稀释，也不用用水送服。<br /><br />　　按中医理论，把咳嗽分为热咳、寒咳、伤风咳嗽和内伤咳嗽，选用中药止咳糖浆时，因药性不同，也有寒、热、温、凉之分，须对症服用。蛇胆川贝液具有驱风镇咳、除痰散结之功效，主治风热咳嗽、咳嗽多痰等症，对于风寒引起的咳嗽、咯白稀痰、夜重日轻者切勿使用。复方枇杷膏，具有清肺、止咳、化痰之功效，适用于风热咳嗽、咽喉干燥、咳嗽不爽等证。鲜竹沥药性偏寒，有清热润肺、化痰止咳作用，适用于燥咳及痰黄带血者，风寒咳嗽则不宜服用。消咳喘药性偏热，不能用于小儿的发热咳嗽、痰黄带血者。另外，百日咳糖浆药性都偏温，用于伤风感冒引起的咳嗽比较适宜，如果是风热感冒引起的咳嗽，则不可服用。虚证咳嗽多为慢性咳嗽，且咳嗽无力，并伴虚弱多汗，四肢发凉，此时宜用桂龙咳喘丸、固肾咳喘丸等。还有一种临床上比较常用的止咳药---伤风止咳糖浆，也叫非那根糖浆，以止咳为主，兼顾化痰，并有镇静作用，适用于夜间咳嗽多痰、影响睡眠及由于过敏引起的支气管炎等病，小儿要掌握好剂量。&lt;<br /><br />　　在治疗咳嗽时，不要长期服用抗菌素，要找出病因，在治疗原发病的基础上，选择恰当的止咳祛痰药，注意护理。 </p>
+ <center> 
+ </center> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121928">新生儿呼吸急促是危险信号</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/tezheng/1" >新生儿特征</A>
+				<A href="/static/menu/sm/jibing/1" class='thisclass'>新生儿疾病</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=150&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/121768">为何有的新生儿摸不到睾丸</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/121767">新生儿症状:正常？异常？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/121766">女婴为什么有白带、假性月经？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/121765">新生儿概念以及新生儿的生活特点</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/121764">新生小宝贝的7大本事(图)</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"122195"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

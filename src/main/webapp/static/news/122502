@@ -1,0 +1,435 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>不易察觉的新生儿肺炎-新生儿-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/122502"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/xinshenger2.png)'
+			 href="/static/menu/bm/xinshenger2" alt="新生儿" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=150" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/xinshenger2'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/tezheng/1">新生儿特征</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/jibing/1">新生儿疾病</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=150" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=150&menuID=152" rel="nofollow">新生儿疾病</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					不易察觉的新生儿肺炎
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=150" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-25 14:15:55</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　<strong><font color="#6600ff">导语</font></strong>：一个出生不到两周的新生儿，没有出现发烧、咳嗽、咳痰等症状，而医生的诊断却告诉你，他感染了肺炎。</p> 
+ <p>　<font color="#0000ff">　陈青是个出色的外科医生，几周前，刚刚当了妈妈。可让她没想到的是，在女儿还不到两周时，就因为患有新生儿肺炎住进了医院。给女儿看病的医生告诉她，新生儿肺炎是一种常见病，而且患病原因及症状与婴幼儿或较大孩子不同，她的女儿很可能是因为呛奶引起的。医生的诊断既让她感到内疚，同时也有点迷惑，喂奶怎么会让女儿患上了肺炎？</font></p> 
+ <p align="center"><img id="ImgInfo" alt="" src="/upload/152/20071117091023744.JPG" border="0" /></p> 
+ <p>　<strong>　是什么原因让新生儿患上肺炎？</strong></p> 
+ <p>　　新生儿肺炎是新生儿期常见的一种疾病，在孩子出生前后的不同时期，由于致病原因不同，肺炎的类型也不同，大致可以分为两类：一类是吸入性肺炎，一类是感染性肺炎。</p> 
+ <p>　　吸入性肺炎又包括羊水吸入性肺炎、胎粪吸入性肺炎和乳汁吸入性肺炎。前两种肺炎主要发生在孩子出生前和出生时，由于种种原因引起胎儿宫内缺氧，胎儿缺氧后，会在子宫内产生呼吸动作，就可能吸入羊水和胎粪（宫内缺氧的时候，胎儿也会排胎粪到羊水中），这两种肺炎都比较严重，孩子一出生就有明显的病症，如呼吸困难、皮肤青紫等等，需要住院治疗。</p> 
+ <p>　　更应该引起父母注意的是乳汁吸入性肺炎。由于新生儿，特别是一些出生时体重较轻的孩子，口咽部或食道的神经反射不成熟，肌肉运动不协调，常常发生呛奶或乳汁返流（漾奶）现象，乳汁被误吸入肺内，导致孩子出现咳喘、气促、青紫等症状，误吸的乳汁越多，症状越重。</p> 
+ <p>　　因此，妈妈在给孩子喂奶时一定要仔细，如果用奶瓶喂奶，奶嘴的孔要大小合适，喂奶时孩子的体位也很重要，最好是半卧位，上半身仰起一点。喂奶后轻轻拍打孩子背部，排出胃内的气体，再观察一会儿，发现有漾奶现象时，应及时抱起孩子，拍拍后背。如果孩子呛咳比较严重，并有发憋、气促等情况，要及时到医院就诊。</p> 
+ <p>　　另一类肺炎是感染性肺炎。新生儿患感染性肺炎有两种情况，一种是宫内感染，一种是生后感染。宫内感染肺炎是由于母亲在怀孕过程中感染了某些病毒或细菌，通过血液循环进入胎盘，再经过胎盘进入胎儿的血液。因此，在母亲怀孕期间，胎儿就患上了肺炎。而生后感染性肺炎则可以发生在新生儿期的任何时间。</p> 
+ <p>　<strong>　新生儿生后感染性肺炎是怎么发生的？会传染吗？会因为大人的原因而得肺炎吗?</strong></p> 
+ <p>　　新生儿生后感染性肺炎是新生儿肺炎中最多见的，主要由各种病原菌引起，以细菌或病毒感染为主。</p> 
+ <p>　　在日常生活中，新生儿接触外人的机会比较少，家庭成员就成为了引起新生儿感染的重要原因。密切接触新生儿的家庭成员患呼吸道感染或呼吸道带菌就会通过空气或接触将病菌传给新生儿，由于新生儿抵抗力差，大人患普通感冒，孩子就有可能患肺炎。此外，其他部位的感染，比如脐炎、皮肤感染、口腔感染等，病菌也可以经过血液循环传播至肺部而引起肺炎。一般新生儿肺炎不会传染给其他人，但如果是双胞胎或多胞胎，或有过密切接触的、同龄的小婴儿，就有相互传染的可能性，应注意隔离。</p> 
+ <p>　　<strong>新生儿肺炎有哪些表现？家人在照顾孩子时应注意观察哪些现象？</strong></p> 
+ <p>　　新生儿肺炎的表现与婴幼儿或年长儿患肺炎的症状是很不同的，尤其是出生两周以内的新生儿，像发烧、咳嗽、咳痰这些肺炎常见的症状是很少见到的。他们的主要表现是精神不好、呼吸增快、不爱吃奶、吐奶或呛奶等，大多数孩子不发烧，有的有低烧，接近满月的新生儿可出现咳嗽的症状。如果观察到这些现象，父母应及时带孩子去医院就诊，通过医生的检查和拍肺部X线片，做出诊断。</p> 
+ <p>　<strong>　新生儿肺炎有什么危险？会有后遗症吗？</strong></p> 
+ <p>　　新生儿肺炎不论是哪种类型，病情严重的，都有一定的危险性。例如胎粪吸入性肺炎，如果吸入的胎粪量很多，阻塞了孩子的呼吸道和肺，可迅速导致呼吸衰竭和死亡，常常需要气管插管和用呼吸机治疗。又如感染性肺炎，肺部可以出现大片的感染，甚至形成脓肿、坏死，严重影响病儿的呼吸功能。病菌还可能播散到全身引起败血症、脑膜炎等更严重的并发症。</p> 
+ <p>　　对于新生儿肺炎应早期诊断、早期治疗、积极治疗，以遏制病情的进展。多数新生儿肺炎经过积极有效的救治是完全能够治愈的，并不留任何后遗症，而且也不会复发。但严重的肺炎又合并了全身其他器官的感染或损害，如果是神经系统的损害，会有留下后遗症的可能性。</p> 
+ <p>　　<strong>如果住院治疗，什么时候可以出院？出院后要注意什么？</strong></p> 
+ <p>　　多数新生儿肺炎需要住院治疗，医生会针对不同的病因，采取不同的治疗方法。一般住院时间需要1~2周，待肺炎的症状消失，孩子能够正常地吃奶，其他化验检查也恢复正常，就可以出院了。</p> 
+ <p>　　出院时家人应详细了解孩子住院时的情况，除了疾病治疗和恢复的过程，还需要了解孩子吃奶的情况，在医院每天吃几次奶，每次吃多少，几小时喂一次，出院后是否还需要服用什么药物，是否需要复查等等。</p> 
+ <p>　　出院后孩子有一个逐步适应新环境的过程，有些孩子可能会出现睡眠不安、哭闹或换奶后不适应，吃奶少等现象，家人应耐心细致地护理和喂养，有什么问题可以咨询住院治疗时的主管医生。</p> 
+ <p>　　<strong>新生儿肺炎是否能够预防？</strong></p> 
+ <p>　　新生儿肺炎是可以预防的。与胎儿宫内缺氧有关的羊水或胎粪吸入性肺炎，预防的关键是防止胎儿发生宫内缺氧。母亲在怀孕期间定期做产前检查是非常必要的，尤其是在怀孕末期，可以及时发现胎儿宫内缺氧的问题，产科医生会采取相应的监护和治疗措施，以尽量减少吸入性肺炎的发生及减轻疾病的严重程度。</p> 
+ <p>　　对于感染引起的新生儿肺炎，从母亲怀孕期间就应该开始预防。怀孕的母亲要做好孕期保健，保持生活环境的清洁卫生，更要注意个人卫生，防止感染性疾病的发生。孩子出生后，要给孩子布置一个洁净舒适的生活空间，孩子所用的衣被、尿布应柔软、干净，哺乳用的用具应消毒。父母和其他接触孩子的亲属在护理新生儿时注意洗手。</p> 
+ <p>　<font size="3">　<strong><font color="#b34d8a">特别要强调的是</font></strong></font>，患感冒的成人尽量避免接触新生儿，若母亲感冒了，又必须照顾孩子和喂奶，应戴口罩。对来探访新生儿的客人，要婉言谢绝。发现孩子有脐炎或皮肤感染等情况时，立即去医院治疗，防止病菌扩散。<br />&nbsp;<br />&nbsp;<br />&nbsp;</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121928">新生儿呼吸急促是危险信号</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/tezheng/1" >新生儿特征</A>
+				<A href="/static/menu/sm/jibing/1" class='thisclass'>新生儿疾病</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=150&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/121768">为何有的新生儿摸不到睾丸</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/121767">新生儿症状:正常？异常？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/121766">女婴为什么有白带、假性月经？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/121765">新生儿概念以及新生儿的生活特点</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/121764">新生小宝贝的7大本事(图)</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"122502"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>
