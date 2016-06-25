@@ -207,12 +207,12 @@ $(function(){
 					<#list lstRollingOfReading as news>
 						<!-- 开始展示图片 -->
 							<LI class="cur" style="display: list-item;">
-									<A style="white-space: nowrap;" href="/front/yuyingshi/detail.do?lProjectMenuID=${news.objProjectMenu.objParentProjectMenu.lId }&newsID=${news.lId}" target="_blank">
+									<A style="white-space: nowrap;" href="/static/news/${news.lId?string('###')}" target="_blank">
 										<IMG width="275" height="374" alt="${news.strTitle}" src="${news.imageUrl}">
 									</A>
 									<DIV class="bgtext"></DIV>
 									<DIV class="title">
-										<A href="/front/yuyingshi/detail.do?lProjectMenuID=${news.objProjectMenu.objParentProjectMenu.lId }&newsID=${news.lId}" target="_blank">${news.strTitle}</A>
+										<A href="/static/news/${news.lId?string('###')}" target="_blank">${news.strTitle}</A>
 									</DIV>
 								</LI>
 					</#list>
