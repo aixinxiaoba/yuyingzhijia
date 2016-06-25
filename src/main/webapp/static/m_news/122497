@@ -1,0 +1,336 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>婴儿手足搐搦症及其治疗-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,497",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,497",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">婴儿手足搐搦症及其治疗</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:15:28</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p align="center"><img id="ImgInfo" alt="" src="/upload/152/20071126085138382.JPG" border="0" /></p> 
+ <p>　　本病又称维生 D 缺乏性手足搐搦症，或称低钙性惊厥症。见：①突然惊厥，每天数次至数十次，每次持续数秒或数分钟，惊厥可全身对称，也可以限于一侧，或局部有抽搐，喉头痉挛，呼吸困难，青紫，严重可引起窒息至死，惊止后，精神如常。②较大病儿可见手足搐溺，手腕弯曲，手指伸直，拇指贴近掌心如&quot;鸡爪样&quot;，下肢则见足趾强直，而脚底略弯如&quot;芭蕾舞样足。&quot;</p> 
+ <p>　　本病多发生于 1 岁以内的婴幼儿，6 个月内婴儿可有颅骨软化症。</p> 
+ <p>　　中医认为：本病由于先天不足，加上后天失调，以致脾虚、肝旺引起惊风。</p> 
+ <p>　　西医认为：本病因维生素 D 缺乏而致血清钙降低，碱性磷酸酶增加，使神经肌肉兴奋性增高，而出现手足搐溺或全身抽搐。</p> 
+ <p>　<strong>　1.中医辨证治疗。</strong></p> 
+ <p>　　本病总的体虚，属气虚、血虚，肝脾两虚之证，所以治疗重在补气，补血，健脾，平肝，壮骨，药物多用当归，黄芪、熟地、淮山、龙骨、牡蛎等。</p> 
+ <p>　　(1)气血两虚。</p> 
+ <p>　　主证：面色苍自，烦躁，多汗，不发热，突然发作惊厥，神志不清，屡发屡停，舌淡、苔薄白，脉细，指纹淡。</p> 
+ <p>　　治法：益气养血，平肝镇惊。</p> 
+ <p>　　方药：当归补血汤加减。</p> 
+ <p>　　当归 5 克，黄芪 6 克，党参 8 克，炒苍术 5 克，白术 8 克，珍珠母 5 克，生龙齿 10 克，生牡蛎 10 克，石决明 10 克，钩藤 8 克。</p> 
+ <p>　　方解：当归补血、养血；黄芪，党参益气；苍木，白术健脾燥湿；珍珠母、龙齿、牡蛎补钙壮骨；石决明、钩藤平肝镇惊。</p> 
+ <p>　　加减：睡眠欠佳加远志 4 克、枣仁 4 克；烦躁加独脚金 12 克、孩儿草12 克。</p> 
+ <p>　　典型病例：李&times;&times;，男，10 月，近两个月来，反复抽搐 4 次而入院，第一天体温 38℃，第二、三天均无发热，抽搐时间约 1 分钟，全身抽搐，喉中有痰，呼吸困难，青紫，经家人按人中后，清醒，精神如常，观其面色苍白，烦躁，多汗，无发热，舌淡，苔薄白，脉细，指纹淡，血清钙及磷均低，碱性磷酸酶升高，诊断中医为瘠证(气血两虚)，西医诊为婴儿手足搐搦症，给予党参 8 克、北蔑 10 克、当归 5 克、龙骨 10 克、牡蛎 10 克、珍珠母 6克、钩藤 6 克，每日 1 剂，分 3 次口服，连服半个月，给予维了胶性钙 2mk，每天 1 次，共 5 夭，肌肉注射，未见抽搐发生，每月给维生素 D330 万单位，肌注，嘱续服上方加白芍 10 克，隔天服，两个月只轻微发作 2 次，嘱再服上方去当归加白术 8 克，淮山药 10 克、白芍 10 克，3 天服 1 剂，连服半年，未见抽搐发作。</p> 
+ <p>　　(2)肝脾两虚。</p> 
+ <p>　　主证：面色苍白，疲倦，食欲不振，易惊夜啼，手足抽搐，舌质淡，苔薄白，脉细，指纹淡而青。</p> 
+ <p>　　治法：补脾养肝镇惊。</p> 
+ <p>　　方药：党参 8 克，白术 8 克，云苓 10 克，炙甘草 3 克，陈皮 2 克，熟地9 克，淮山药 10 克，龙骨 15 克，牡蛎 15 克，白芍 8 克，钩藤 5 克。</p> 
+ <p>　　方解：党参、白术、云夸、炙甘草、补脾益气；陈皮醒脾运脾；熟地黄</p> 
+ <p>　　补血；淮山药健脾养胃阴；龙骨、牡蛎镇惊；白芍平肝养肝，共用可达补脾养肝镇惊的功效。</p> 
+ <p>　　加减法：体虚、气弱，多汗加北蔑 10 克、大枣 4 枚；夜惊加钩藤 6 克、蝉衣 5 克，夜睡不安加远志 4 克，枣仁 5 克，五味子 4 克，骨软无力加杜仲8 克，川断 10 克。</p> 
+ <p>　　典型病例：陈&times;&times;，男，1+1/12岁，因精神疲倦，夜惊啼，半年来抽搐三次而来诊，检查：面色苍白，前囱未闭，只出 4 个牙，消瘦，头发稀疏，血清钙、磷均低值，碱性磷酸酶升高，诊为低钙性惊厥，给予：党参 8 克、白术 8 克、云苓 10 克、甘草 3 克、陈皮 2 克、牡蛎 30 克、龙骨 20 克。五味子 3 克、熟地 10 克、淮山药 10 克、远志 3 克、枣仁 5 克，嘱连服 3 个月，每日 1 剂，分 3 次服，精神转好，只抽搐 1 次。嘱再隔 2 天服 1 剂，服半年，未再抽搐。</p> 
+ <p>　　<strong>2.西医治疗。</strong></p> 
+ <p>　　(1)急救措施：惊厥时急按压人中，合谷、涌泉；用苯巴比妥纳 5～8mg/kg/次，或安定 0.1～0.3mg/kg/次，肌注；10%水合氯醛 4～10mk 保留灌肠；如果喉头痉挛，必要时可行气管切开术。</p> 
+ <p>　　(2)钙疗法：缓慢静脉注射 10%葡萄糖酸钙 5～10mk，加于 10%葡萄糖 20mk 中，每日 1～2 次，抽搐停止后，改为口服 10%氯化钙 5～10mk(先用糖水稀释 5～10 倍，以免刺激胃粘膜)，每日 3 次，3～5 天后，可改用乳酸钙或葡萄糖酸钙。</p> 
+ <p>　　&nbsp;(3)维生素 D 疗法：剂量用法见维生素 D 缺乏性佝偻病。</p> 
+ <p>　　(4)佝倭病使用维生素 D 治疗前几天，或同时给予钙剂治疗。 </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

@@ -1,0 +1,364 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>了解新生儿溶血症的真相-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,118",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,118",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">了解新生儿溶血症的真相</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 13:46:24</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p> </p>
+ <p>　　新生儿溶血症，乍听一下是个挺专业的词汇，正是这个专业的词汇是新生宝宝健康的一大杀手，因此，我们有必要来了解一下它的真相，以期做最好的预防和有效的治疗――</p> 
+ <p>　　新生儿溶血症是指母婴血型不合，母血中对胎儿红细胞的免疫抗体IgG通过胎盘进入胎儿血液循环，发生同种免疫反应而引起的贫血。</p> 
+ <p>&nbsp;<br />&nbsp;<br />　　在新生儿期可有许多种原因引起溶血性疾病，其中母儿血型不合引起的溶血病较常见，特别是以ABO系统血型不合最常见。</p> 
+ <p>　　ABO血型不合溶血病是怎么回事？</p> 
+ <p>　　●ABO血型的分类</p> 
+ <p>　　ABO血型的分类主要是按照红细胞上有无A、B血型抗原来分的，即红细胞上只有A抗原的称为A型，红细胞上只有B抗原的称为B型，红细胞上无A、B抗原的称为O型，红细胞上有A和B抗原的称为AB型。</p> 
+ <p>　　●ABO血型不合溶血病的发病原因</p> 
+ <p>　　ABO血型不合溶血病常发生在母亲血型为O型，父亲血型为A型、B型和AB型。胎儿的血型是由父母方各传一种基因组合而决定的，故胎儿的血型可能与母亲不同。如O型血的妈妈怀了由父亲方遗传而来的A型血的胎儿，由于O型血妈妈体内没有A抗原，当A型胎儿红细胞进入妈妈体内时，妈妈体内会产生抗A抗体，抗A抗体进入宝宝体内就会引起宝宝的红细胞破坏而溶血。</p> 
+ <p>　　●与溶血病相关的因素</p> 
+ <p>　　但并不是所有O型血妈妈所生的宝宝都会发生溶血病，而是有的宝宝会发病，有的宝宝不发病，有的症状轻，有的症状重。这与母亲抗体的量多少，抗体与胎儿红细胞的结合程度，A(B)抗原的强度及胎儿代偿性造血能力有关。</p> 
+ <p>　　●自然界引起的溶血</p> 
+ <p>　　ABO溶血病常可发生在第一胎，由于自然界存在着与A(B)抗原相类似的物质，O型血母亲在孕前常已接触到，随后这些类似血型抗原物质可刺激O型血母亲产生A(B)抗体，当母亲怀孕后此抗体可通过胎盘进入胎儿体内而引起溶血。</p> 
+ <p>　　溶血病宝宝有哪些临床表现？</p> 
+ <p>　　●皮肤与巩膜发黄</p> 
+ <p>　　溶血症宝宝皮肤和巩膜(俗称白眼珠)明显发黄，常于出生后24小时内或第2天出现，48小时内迅速加重，血清胆红素浓度急剧上升超过12～15mg／dl，甚至达20mg／dl以上。 </p> 
+ <p>　　●贫血</p> 
+ <p>　　患儿均有轻重不等贫血，严重者可引起心力衰竭，全身浮肿。 </p> 
+ <p>　　●肝脾肿大</p> 
+ <p>　　轻症无明显增大，重症胎儿水肿时有明显肝脾增大</p> 
+ <p>　　●神经症状</p> 
+ <p>　　出现嗜睡、拒奶、四肢松软，继而抽搐，表现为两眼凝视、眨服、四肢阵阵发硬伸直，或全身角弓反张，有时尖叫等表现即称核黄疸或胆红素脑病，常于血清胆红素达20mg／dl以上时发生，是由于间接胆红素进入脑组织中，损伤脑细胞所致。 </p> 
+ <p>　　●发热</p> 
+ <p>　　溶血症患儿常伴有发热。</p> 
+ <p>　　特别注意：</p> 
+ <p>　　哪些妈妈可能会生ABO血型不合的宝宝？</p> 
+ <p>　　1.病史中有自然流产史及前一胎新生儿黄疸史者。</p> 
+ <p>　　2.血型检查为O型，其丈夫为A、B或AB型。</p> 
+ <p>　　3.O型血准妈妈在孕前查出抗A或抗B抗体效价较高者。</p> 
+ <p>　　4.O型血准妈妈孕期抗A(B)IgG效价&gt;1:64者。</p> 
+ <p>　　5.孕期B超检查，严重溶血者可见胎儿皮肤水肿，肝脾肿大等。</p> 
+ <p>　　得了ABO溶血病怎样治疗？</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p> </p>
+ <p>　　一、新生宝宝刚出生时就要做好各项工作</p> 
+ <p>　　a.分娩时，就要做好新生儿的抢救准备。</p> 
+ <p>　　b.胎儿娩出立即断脐，减少抗体进入宝宝体内。</p> 
+ <p>　　c.保留脐带，以备严重溶血病患儿换血用。</p> 
+ <p>　　二、对小宝宝的治疗</p> 
+ <p>　　ABO溶血病患儿主要表现为黄疸、肝脾肿大、贫血。临床症状轻重差别很大，轻者常与新生儿生理性黄疸相似，严重者可有明显的症状。新生儿出生后要严密观察黄疸出现时间，一般第2～3天，严重者24小时内就出现黄疸，并要注意黄疸加深速度，如胆红素浓度过高，不及时处理可引起胆红素脑病，以后影响智力，所以ABO溶血病要及早治疗。</p> 
+ <p>　　a.光照疗法</p> 
+ <p>　　光照疗法是治疗新生儿黄疸最简便有效的方法，它的优点是退黄疸快，副作用少，皮肤黄疸接受光照后胆红素可分解成水溶性，从肠道、尿中排出体外，从而降低血中胆红素浓度，可避免胆红素脑病的发生。</p> 
+ <p>　　副作用：光照疗法时有的宝宝可出现一过性皮疹，大便次数增多等轻微的副作用，这些症状不需要处理，停光照后可自愈。</p> 
+ <p>　　b.药物治疗</p> 
+ <p>　　黄疸较严重者可反复多次光照疗法，同时加用药物治疗。可用抑制抗原反应的药物以减少继续溶血，活跃肝细胞酶系统，可加速胆红素代谢和排泄或阻止胆红素在肠道的再吸收及中药利胆退黄。</p> 
+ <p>　　C.补充铁剂或输血</p> 
+ <p>　　绝大多数ABO溶血病的宝宝不需要换血，经积极治疗后预后良好。新生儿ABO溶血病常同时伴有贫血，其程度与溶血程度一致。轻度溶血者常贫血较轻，严重溶血病患儿可有较重的贫血，可根据贫血程度给予补充铁剂或输血等相应的治疗。</p> 
+ <p>　　超级链接</p> 
+ <p>　　妈妈孕前、孕期检查可减少溶血病的发生</p> 
+ <p>　　1.有可能怀母儿血型不合溶血病的妈妈，如在孕前被查出血型抗体效价高者可在孕前先进行中药治疗来降低抗体，预防怀孕后宝宝患ABO溶血病。</p> 
+ <p>　　2.孕后定期查抗体效价，第一次孕16周开始查抗体，第二次孕28～30周，以后2～4周查一次，自抗体效价增高时开始予孕妇口服中药，每日一剂至分娩。</p> 
+ <p>　　3.孕期诊断为血型不合溶血病者，在24、30、33周各进行10天的综合治疗，以提高胎儿抵抗力。</p> 
+ <p>　　4.自预产期前2周开始口服肝酶诱导剂，可加强胎肝细胞葡萄糖醛酸与胆红素的结合能力，从而减少新生儿胆红素脑病的发生。<br /> </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

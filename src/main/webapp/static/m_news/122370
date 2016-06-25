@@ -1,0 +1,309 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>透析新生儿黄疸病-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,370",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,370",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">透析新生儿黄疸病</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:04:45</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p><strong><font color="#009900">　　新生儿黄疸（neonataljaundice）是胆红素（大部分未为结合胆红素）在体内积聚而引起，其原因复杂，有生理性和病理性之分；部分病理性黄疸克致中枢神经系统受损，产生胆红素脑病，故应加强对新生儿黄疸的临床观察，尽快找出原因，及时治疗。</font></strong> </p>
+ <p>　　<strong>新生儿胆红素代谢特点<br /></strong><br />　　（一）胆红素生成较多新生儿每日生成胆红素约8.8mg/kg，而成人仅为3.8mg/kg。其原因是：胎儿处于氧分压偏低的环境，故生成的红细胞数较多，出生后环境氧分压提高，红细胞相对过多、破坏亦多；胎儿血红蛋白半衰期短，新生儿红细胞寿命比成人短20~40天，形成胆红素的周期缩短；其他来源的胆红素生成较多，如来自肝脏等器官的血红素蛋白（过氧化氢酶、细胞色素p450等）和骨髓中无效造血（红细胞成熟过程中有少量被破坏）的胆红素前体较多。<br /><br />　　（二）运转胆红素的能力不足刚娩出的新生儿常有不同程度的酸中毒，影响血中胆红素与白蛋白的联结，早产儿白蛋白的数量较足月儿为低，均使运送胆红素的能力不足。<br /><br />　　（三）肝功能发育未完善①初生儿肝细胞内摄取胆红素必需的y、z蛋白含量低，5~10天后才达成人水平；②形成结合胆红素的功能差，即肝细胞内脲苷二磷酸葡萄糖醛酸基转移酶（udpgt）的含量低且活力不足（仅为正常的0~30%），不能有效的将脂溶性未结合胆红素（间接胆红素）与葡萄糖醛酸结合成水溶性结合胆红素（直接胆红素），此酶活性在一周后逐渐正常；③排泄结合胆红素的能力差，易致胆汁郁积。<br /><br />　　（四）肠肝循环的特性初生婴儿的肠道内细菌量少，不能将肠道内的胆红素还原成粪、尿胆原；且肠腔内葡萄糖醛酸酶活性较高，能将结合胆红素水解成葡萄糖醛酸及未结合胆红素，后者又被肠吸收经门脉而达肝脏。<br /><br />　　由于上述特点，新生儿摄取、结合、排泄胆红素的能力仅为成人的1%~2%，因此极易出现黄疸，尤其当新生儿处于饥饿、缺氧、胎粪排出延迟、脱水、酸中毒、头颅血肿或颅内出血等状态时黄疸加重。<br /><br />　　<strong>新生儿黄疸的分类<br /></strong><br />　　（一）生理性黄疸由于新生儿胆红素代谢特点，约50%~60%的足月儿和＞80%的早产儿于生后2~3天内出现黄疸，4~5天达高峰；一般情况良好，足月儿在2周内消退，早产儿可延到3~4周。目前对民既往沿用的新生儿生理性黄疸的血清胆红素上限值，即足月儿＜205.2μmol/l（12mg/dl）和早产儿＜257μmol/l（15mg／dl），已经提出异议，因较小的早产儿即使胆红素＜171μmol/l（10mg/dl），也可能发生胆红素脑病。国外已规定足月儿血清胆红素＜220.59μmol/l（12.9mg/dl）为生理性黄疸的界限；国内学者通过监测发现正常足月儿生理性黄疸的胆红素值上限在205.2~256.5μmol/l（12~15mg/dl）之间，超过原定205.2μmol/l者占31.3%~48.5%，，早产儿血清胆红质上限超过256.2μmol/l者也占42.9%，故正在通过全国性协作调研拟重新修订我国生理性黄疸的诊断标准。<br /><br />　　（二）病理性黄疸常有以下特点：①黄疸在出生后24小时内出现；②重症黄疽，血清胆红素＞205.2~256.5μmol/l，或每日上升超过85μmol/l（5mg/dl）；③黄疸持续时间长，（足月儿＞2周，早产儿＞4周）；④黄疸退而复现；⑤血清结合胆红素＞26μmol/l（1.5mg/dl）。对病理性黄疸应积极查找病因，引起病理性黄疸的主要原因有：<br /><br />　　<strong>1、感染性<br /></strong><br />　　（1）新生儿肝炎：大多为胎儿在宫内由病毒感染所致，以巨细胞病毒最常见，其他为乙型肝炎、风疹、单纯疱疹、柯萨基、eb病毒、李斯特菌、梅毒螺旋体、弓形体等。感染可经胎盘传给胎儿或在通过产道分娩时被感染。常在生后1－3周或更晚出现黄疸，病重时粪便色浅或灰白，尿色深黄，患儿可有厌食、呕吐、肝轻至中度增大。<br /><br />　　（2）新生儿败血症。<br /><br /><strong>　　2．非感染性<br /></strong><br />　　（1）新生儿溶血症。<br /><br />　　（2）胆道闭锁目前已证实本症多数是由于宫内病毒感染所导致的生后进行性胆管炎、胆管纤维化和胆管闭锁；若管壁薄弱则形成胆总管囊肿。多在出生后2周始显黄疸并呈进行性加重；粪色由浅黄转为白色，肝进行性增大，边硬而光滑；肝功改变以结合胆红素增高为主。3个月后可逐渐发展为肝硬化。<br /><br />　　（3）母乳性黄疸：大约1%母乳喂养的婴儿可发生母乳性黄疸，其特点是非溶血性未结合胆红素增高，常与生理性黄疸重叠且持续不退，血清胆红素可高达342μmol/l（20mg/dl），婴儿一般状态良好，黄疸于4~12周后下降，无引起黄疸的其他病因可发现。停止母乳喂养后3天，如黄疸下降即可确定诊断。目前认为是因为此种母乳内β-葡萄糖醛酸酶活性过高，使胆红素在肠道内重吸收增加而引起黄疸；已有学者认为是此种母乳喂养患儿肠道内能使胆红素转变为尿、粪胆原的细菌过少所造成。<br /><br />　　（4）遗传性疾病：红细胞6-磷酸葡萄糖脱氢酶（g6pd）缺陷在我国南方多见，核黄疸发生率较高；其他如红细胞丙酮酸激酶缺陷病、球形红细胞增多症、半乳糖血症、α1抗胰蛋白酶缺乏症、囊性纤维病等。<br /><br />　　（5）药物性黄疸：如由维生素k3、k4、新生霉素等药物引起者。</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

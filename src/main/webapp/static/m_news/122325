@@ -1,0 +1,339 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>早产男婴患溶血症全身换血(图)-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,325",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,325",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">早产男婴患溶血症全身换血(图)</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:01:32</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <div align="center">
+  <img alt="早产男婴患溶血症全身换血(图)" src="/Newborn/UploadFiles_4637/200708/20070821143135221.jpg" border="1" />
+ </div> 
+ <div class="f12" align="center">
+  <strong>早产男婴患溶血症全身换血</strong>
+ </div>
+ <br /> 
+ <p>　　早产“小黄孩”全身换血 70天后方出保温箱</p> 
+ <p>　　昨天上午，大连市妇产医院一名由于患上新生儿溶血症而被全身换血的早产男婴，在保温箱内被重点保护了70天后，终于顺利出院。</p> 
+ <p>　　<strong>1，四旬母曾怀孕九次</strong></p> 
+ <p>　　家住大连市郊的孙林(化名)自从十几年前和丈夫结婚起，两个人就一直想要个宝宝。但是不知何故，她先后怀孕9次竟然都以失败而告终。每次怀孕，她不是早早地自然流产，就是胎死腹中。</p> 
+ <p>　　2004年，心惊胆战地熬过了10个月，好不容易盼到了孩子降生。不料产后的第三天，仍躺在病床上的孙林得知了噩耗：刚降生不到72小时的孩子夭折了。经历了一次又一次的伤心欲绝，孙林夫妻却依然没有灰心。</p> 
+ <p>　　去年五・一前，40岁的孙林终于又一次发现自己怀孕了。“已经四十岁了，我说什么也得保住了这一个孩子。”孙林自从得知怀孕的消息就开始小心地补充各种营养，坚持定期检查。</p> 
+ <p>　　<strong>2，惊闻母子血型不合</strong></p> 
+ <p>　　而当孩子接近3个月大的时候，来到大连市中心血站做检查的孙林得到了一个让她目瞪口呆的结果：自己腹中的孩子和自己血型不合，极易患上新生儿溶血症。母亲竟然和腹中的孩子血型不合？没有多少医学知识的孙林夫妻非常不解，医生特意为他们做了详细的解释。</p> 
+ <p>　　原来，如果母亲为RH阴性血，而肚中胎儿的血型是RH阳性血，则母体血液中的抗体可以通过胎盘进入胎儿体内，溶解破坏孩子的血细胞，进而引发孩子产生多种疾病。如果是第一胎的话，孩子倒还不易发病；但由于她已经怀孕过9次，所以胎儿必定会产生溶血反应。“以前的那几个孩子没保住，可能也就是这个原因。”孙林和丈夫此时才如梦方醒。</p> 
+ <p>　　<strong>3，为保胎30周男婴早报到</strong></p> 
+ <p>　　由于孙林夫妻非常珍视这个孩子，便抱着一线希望来到了大连市妇产医院就诊。医生为孙林作了一次全面的详细检查，发现孙林体内的抗体效价已经达到了1：1024，而在妇产科临床上，如果孕妇体内的抗体效价达到1：32，就意味着胎儿已发生溶血反应。同时，由于新生儿溶血症的反应会随着产期临近而日益增加，孙林刚处于孕早期就已经达到这么高的数值，情况无疑已经十分危重。在医生的建议下，孙林早早地住进了医院，随时监控着孩子的变化情况。</p> 
+ <p>　　今年年初，密切监控孙林母子情况的产科三病房主任张晶鑫发现，孙林腹中胎儿的情况不容乐观，必须尽快让其出生进行全身换血治疗，否则极易发生胎死腹中的情况。经过院方多次会诊，今年2月16日，刚刚怀孕30周的孙林接受了剖腹产手术。</p> 
+ <p>　　1200克，男孩！这个让人提心吊胆的小家伙终于出生了。不过医生也看到了预料之中的现象：婴儿全身发黄，体内胆红素指标超过了正常值4倍多，属危重的新生儿黄疸。同时由于在母体内发生了严重的溶血反应，其体内的血红蛋白值仅为正常值的一半左右，是重度贫血的临床表现。</p> 
+ <p>　　<strong>4，3小时换出全身血液</strong></p> 
+ <p>　　时间就是生命，为了挽救这个历尽艰险才出生的“小黄孩”，妇产医院的医生们随即从大连市中心血站调来早已做好准备的替换血液，准备为他做全身换血治疗。“这种在母体中已经发生严重溶血反应的新生儿，自身血液早已被严重破坏，必须进行全身换血才能存活。”妇产医院高危新生儿科刁敬军主任介绍。</p> 
+ <p>　　整个换血过程必须非常谨慎，首先要建立起体外循环系统，同时对输入和输出的血量也半点马虎不得，因为万分之一的疏忽都可能给这个孩子带来生命危险。按照婴儿的体重，院方准备了约600毫升的血液，相当与他自身血量的四倍。插管、测压……时间悄悄逝去，三个小时后，孩子体内的血液终于被安全地置换出来。</p> 
+ <p>　　“虽然最重要的工作已经做完，但是并不代表这个孩子已经安然无恙了。”新生儿科的护士长明秀芬表示，由于这个孩子是早产儿，身体各项发育还没有彻底完成，本来存活就有难度，加上曾经患上新生儿溶血症，无数未知的危险都在威胁着这个小生命。刚刚换完血的“小黄孩”被送进了保温箱，而且这一呆就是70天。</p> 
+ <p>　　<strong>5，出院时体重增了一半多</strong></p> 
+ <p>　　孙林产后7天正常出院，留下了儿子在院里继续治疗。由于不能接受正常母乳喂养，特护病房里的护士们便充当了他的临时奶妈。“这个孩子肠胃功能太弱，开始时每次只能喂1毫升的牛奶，而且需要半个小时才能全吃光。”明护士长回忆起刚刚开始喂养这个孩子的情景，感慨万千，“我们每天看到他有一点点进步，都会开心的不得了”。</p> 
+ <p>　　终于，这个孩子的各项生命指标都接近了正常，体重也达到了1980克，比刚出生长了一半还多，贫血症状也逐渐消失。经过慎重的检查，医生终于同意让孩子出院了。</p> 
+ <p>　　“这种母婴血型不合造成的溶血症在临床上是可以治疗的，但是仍然该坚持及早发现的原则。”刁敬军表示，新生儿溶血症往往发生在以前有不明原因死胎、流产、新生儿重度黄疸史的女性身上，所以提醒此类高发人群在打算再要孩子的时候，应该和丈夫提前到医院进行一种名为IgG抗体效价的测试。这种检测在大型综合医院或是大型血库均可进行，夫妻双方都需要抽血，检查结果一般在一个星期后可以拿到。</p> 
+ <p>　　<strong>医学名词解释：</strong></p> 
+ <p>　　人类血型划分除了较常见的ABO血型系统(即将人的血型分为A型、B型、AB型和O型四种)外，还有Rh血型系统、MN血型系统、P血型系统、HLA血型系统等二十多个血型系统。</p> 
+ <p>　　而新生儿溶血症主要与ABO血型系统和Rh血型系统这两种划分方式密切相关，指由于母儿血型不合，母亲血液中的抗体通过胎盘进入胎儿体内，溶解胎儿红细胞所引起的疾病。发病新生儿的主要症状是：黄疸、病情严重可致贫血，同时可伴有内脏水肿等。</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

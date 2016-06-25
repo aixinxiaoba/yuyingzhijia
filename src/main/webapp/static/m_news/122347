@@ -1,0 +1,322 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>新生儿疾病分类-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,347",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,347",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">新生儿疾病分类</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:03:07</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　新生儿会因一些先天疾病和护理不当造成死亡，因此对新生儿的异常表现应引起特别注意。</p> 
+ <p>　　<strong>1)新生儿窒息</strong> <br />&nbsp; <br />　　造成新生儿窒息有三种情形：宫内窒息、分娩过程窒息以及娩出后窒息。&nbsp;&nbsp; </p> 
+ <p>　　胎儿窒息时，胎动从快－消失，胎心从加快－慢－不规则，最后胎心消失。 分娩过程窒息常见于难产、滞产。娩出后窒息，轻者皮肤青紫，肌张力正常或增强。重者皮肤苍白，全身松弛无力， 手足冰凉，心率慢而弱。&nbsp; </p> 
+ <p>　　窒息预后较差，重度窒息常有吸入性肺炎、颅内出血及心律紊乱。后遗症轻者智 能发育落后，重者癫痫或脑性瘫痪，都将造成终身遗憾。&nbsp; <br />&nbsp; <br />　　<strong>2)新生儿颅内出血</strong> <br />&nbsp; <br />　　颅内出血是由于产伤或缺氧引起的严重疾病，早产儿尤其多见。&nbsp; </p> 
+ <p>　　婴儿颅内出血早期表现是烦躁、尖叫、拒奶、痉挛、角弓反张，双眼凝视。到了晚期则嗜睡、拒哺，全身松弛瘫痪，面色苍白，四肢冰冷，最终昏迷。&nbsp; </p> 
+ <p>　　颅内出血一般预后不好，大多于一周内死亡，幸存者有不同程度的后遗症，如脑积水、脑炎、癫痫以及不同程度的智力低下。&nbsp;&nbsp; <br />&nbsp;&nbsp;&nbsp; <br />　　<strong>3)新生儿脐炎</strong>&nbsp; <br />&nbsp;<br />　　新生儿脐部是开放的门户，护理不当可以引起败血症或脓毒血症，甚至引起腹膜炎，千万不能麻痹。 <br />&nbsp; <br />　　当脐部有脓性分泌物或脐轮皮肤发红现象时就应引起重视。早期可用3 ％双氧水 或75％酒精清洗擦干后涂2％龙胆紫。出现有发热、嗜睡、拒奶、呕吐等现象时， 要马上送医院治疗。&nbsp;&nbsp; <br />&nbsp; <br />　　<strong>4)新生儿败血症</strong>&nbsp;&nbsp; </p> 
+ <p>　　不论产前、产时或分娩以后，有细菌侵入血液后就可引起败血症。&nbsp; </p> 
+ <p>　　如羊膜早破、 滞产、助产过程消毒不严，出生以后皮肤粘膜破损都是引起败血症的常见原因。 新生儿败血症表现为不吃、不哭、不动，早期不易发现，等进一步发展嗜睡、抽痉，合并核黄疸或脑膜炎时，已为时过晚。 及早发现，送医院治疗。 <br /><br />　　<strong>5)核黄疸</strong> </p> 
+ <p>　　重症黄疸多见于低体重儿、低体温、窒息缺氧和严重感染的新生儿。<br />&nbsp; <br />　　它的表现和颅内出血、窒息、新生儿败血症有很多相似之处，如：嗜睡、拒哺、肌张力减低，两 眼凝视、尖叫、惊厥及呼吸衰竭，突出之处是黄疸又深又重。 <br />&nbsp;<br />　　核黄疸是严重疾病，病死率高，后遗症多，往往终身残疾，比如共济失调、手足 徐动、聋、盲，以及智能低下。要及早发现，积极治疗，切勿当成生理性黄疸，延误 治疗。&nbsp; <br />&nbsp; <br />　　<strong>6)新生儿肺炎</strong>&nbsp; </p> 
+ <p>　　是新生儿期最常见疾病。分为吸入性肺炎(羊水、胎粪、乳汁)和感染性肺炎(宫内感染和出生后感染)。 <br />&nbsp;<br />　　新生儿得肺炎不象婴幼儿肺炎有明显的咳嗽及呼吸困难，尤其早产儿得肺炎后 很少有咳嗽，除了气急、萎靡、少哭、拒哺之外，还有口吐白色泡沫，口周三角发青、 呻吟及点头呼吸。 <br />&nbsp;<br />　　国际上介绍一种最简单的方法，就是数呼吸的次数，当新生儿每分 钟呼吸超过60次时就有可能得了肺炎(也可能比肺炎还严重)，应马上送医院诊治。 胎粪吸入性肺炎与宫内感染性肺炎比一般肺炎更严重，治疗更棘手。凡新生儿肺 炎均需住院治疗。&nbsp;&nbsp; <br />&nbsp; <br />　　<strong>7)新生儿化脓性脑膜炎</strong>&nbsp; </p> 
+ <p>　　是新生儿期严重感染之一，和败血症关系很密切。本病死亡率高，后遗症多。 不论产前、产时或产后感染都可引起化脓性脑膜炎，比如母亲患败血症、羊膜早 破、胎粪吸入、难产、出生后皮肤破损、脐部感染等。<br />&nbsp; <br />　　新生儿得脑膜炎最早改变是在精神异常，如阵阵尖哭，易惊、易激动，精神萎， 随后不哭，最后昏迷。早产儿则不哭、嗜睡、面色灰白、两眼凝视。&nbsp; </p> 
+ <p>　　如果发现迟，即 使幸存也会合并脑积水、硬膜下积液、耳聋、皮质盲及智能低下。&nbsp;&nbsp; <br />&nbsp; <br />　　<strong>8)鹅口疮</strong><br />&nbsp; <br />　　是由一种霉菌引起的，多由于奶头、手指及皮肤感染，尤其是橡皮奶头污染。&nbsp; </p> 
+ <p>　　症状表现为出生后不久在口腔粘膜上出现白色点状或片状膜，很象奶凝块，在牙龈及颊粘膜上，容易刮去，可能会影响哺乳。&nbsp; </p> 
+ <p>　　治疗可用纱布蘸茶水轻轻揩去白膜，涂以1比10万制霉菌素甘油或1％龙胆紫溶液， 效果较好。口腔粘膜千万不可挑破，以免细菌侵入，造成局部化脓，引起败血症。预 防方法：母亲喂乳前，要洗净奶头，奶嘴要煮沸消毒。<br /></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

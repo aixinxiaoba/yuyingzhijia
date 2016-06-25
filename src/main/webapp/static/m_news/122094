@@ -1,0 +1,351 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>宝贝为何变成了小黄人-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,094",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,094",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">宝贝为何变成了小黄人</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 13:44:39</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p> </p>
+ <p>　　大多数宝贝在新生儿期都会出现黄疸，这难免让新妈咪有些不安。为什么会出现黄疸呢？是生理现象还是疾病状态？应该怎么处理？是否一定要去看医生？这些都是每一个新妈咪急切想了解的，也应该了解的，以便做出正确的处理。</p> 
+ <p>　　病例1</p> 
+ <p>　　小圆圆在出生后第2天，就出现了黄疸。一开始，只是小脸儿和巩膜有点发黄，妈咪以为是生理性黄疸，也就没太在意。可是过了几天，小圆圆的黄疸一天比一天重，颜色都有点接近橘子皮了。</p> 
+ <p>　　经过化验检查，小圆圆血清中的未结合胆红素增高了，而红细胞和血红蛋白却都降低了。医生又查了母亲的血型，母亲是O型，小圆圆的血型是A型。根据检查的结果，小圆圆被确诊患的是“ABO血型系统溶血症”。医生把小圆圆放进了蓝光箱，还给她输了液。2天以后，小圆圆的黄疸逐渐消退了。</p> 
+ <p>　　病例2</p> 
+ <p>　　小楠楠出生时，小脸白白净净的。但在出生后第4天，妈咪突然发现她的小脸有些变黄了。妈咪根据自己在孕期学习的知识，以为小楠楠是生理性黄疸的表现，于是也没有特别着急，耐心等待着黄疸消退。可2个星期过去了，黄疸非但没退，反而还有点加深。妈咪有些着急，但小楠楠的样子确实不像是有病，每天能吃能睡，小眼睛也很有神。妈咪不愿把这么小的孩子抱到医院去，决定再观察看看。</p> 
+ <p>　　小楠楠满月了，可变得越来越黄了。妈咪不敢再等了，抱着宝贝女儿去了医院。医生经过检查，认为小楠楠的各方面发育都很好，考虑黄疸可能是由于母乳而造成的，建议暂时停喂母乳3天，好好地观察一下。3天以后，小楠楠的黄疸真的明显减轻了。原来，小楠楠变黄是由于“母乳性黄疸”所引起。</p> 
+ <p>　　新生儿黄疸 </p> 
+ <p>　　新生儿黄疸是由于胆红素在体内积聚所致。为什么新生儿会发生黄疸？原因比较复杂，有生理性黄疸、病理性黄疸、母乳性黄疸及药物性黄疸。</p> 
+ <p>　　生理性黄疸是一种生理现象，一般来讲不需要治疗，2周左右就会自然消退；病理性黄疸则是由很多疾病所引起，需要尽早查明原因，明确诊断，及时治疗；母乳性黄疸需要暂时停止哺喂母乳，待黄疸减轻后恢复喂养；药物性黄疸需要立即停止服用相关的药物。</p> 
+ <p>　　怎样区别宝贝属于哪种黄疸？</p> 
+ <p>　　生理性黄疸</p> 
+ <p>　　一般情况下，大约有50%-60%的足月新生宝贝和80%以上的早产宝贝，在出生后2-3天就会出现生理性黄疸。这种黄疸在4-5天达到高峰，一般表现比较轻微，仅有皮肤和巩膜(白眼球部分)轻微发黄。宝贝的全身状态通常较好，每天照样能吃能喝，精神活泼，2周左右黄疸就会自行消退。当然，早产儿黄疸持续时间可能会稍微长一些，但一般也不会超过3-4周。</p> 
+ <p>　　病理性黄疸</p> 
+ <p>　　病理性黄疸是由于某种疾病而引发的黄疸，主要特点是黄疸出现得比较早，一般在出生后24小时之内就会出现，而且黄疸的程度较重，持续时间也较长或黄疸消退后又复现。引发病理性黄疸的疾病较多，常见的疾病有新生儿溶血症、胆道闭锁、新生儿肝炎、新生儿败血症以及一些遗传性疾病。</p> 
+ <p>　　母乳性黄疸</p> 
+ <p>　　大约有1%母乳喂养的宝贝可能发生母乳性黄疸。母乳性黄疸是由于母乳中一种酶的活性过高，使胆红素在肠道重吸收增加而引起。一般是在出生后3天左右出现，开始常常与生理性黄疸重叠在一起，但在2周左右生理性黄疸应该消退时，黄疸却持续不退或又缓慢地加重。如果宝贝生理性黄疸持续不退，但全身状态仍然很好，一般考虑是母乳性黄疸。停止母乳喂养3天，如果黄疸减轻就可以确定是母乳性黄疸。</p> 
+ <p>　　母乳性黄疸如果较轻，可以继续吃母乳；如果较重，暂停几天母乳，待黄疸减轻后再恢复母乳喂养。</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p> </p>
+ <p>　　应对引起病理性黄疸的3大疾病</p> 
+ <p>　　新生儿溶血症</p> 
+ <p>　　新生儿溶血症是指母婴血型不合引起的溶血，主要表现就是新生儿出现黄疸。在我国以ABO血型不合所致的新生儿溶血症最为常见，通常母亲为O型，孩子为A或者B型。Rh溶血症较为少见，多数母亲为Rh阴性，孩子为Rh阳性。通常，ABO溶血症大多发生在第一胎，Rh溶血症多发生在第二胎以后。</p> 
+ <p>　　新生儿溶血症的主要症状就是黄疸，除黄疸外还可能有贫血和肝脾肿大等表现。Rh溶血症一般都在出生后24小时内出现黄疸，并且逐渐加重，而ABO溶血症的症状较Rh溶血症要轻。新生儿溶血症最可怕的情况是，如果黄疸进行性加重可能引起胆红素脑病，不及时进行治疗，会使患儿很快死亡。即或幸存，也常常留有不同程度的后遗症。</p> 
+ <p>　　应对策略：</p> 
+ <p>　　如果宝贝被确诊为新生儿溶血症，一定要尽早治疗，绝不可以拖延。一般采用蓝光照射效果较好，如果溶性严重则要进行换血治疗。</p> 
+ <p>　　新生儿胆道闭锁</p> 
+ <p>　　新生儿胆道闭锁，是由于在母体内感染病毒，出生后导致胆管纤维化而形成的闭锁。新生儿胆管闭锁一般在出生后2周左右出现黄疸，并且逐渐加重，同时肝脏也会增大。妈咪常常会发现一个重要现象，那就是宝贝的大便颜色会变得越来越浅，即由浅黄色逐渐变成白色。</p> 
+ <p>　　应对策略：</p> 
+ <p>　　如果宝贝被确诊为新生儿胆道闭锁，一定要在出生后2个月内进行手术。如果不及时手术，3个月后病情逐渐发展，会导致肝硬化。</p> 
+ <p>　　新生儿肝炎</p> 
+ <p>　　新生儿肝炎大多是由于在母体内感染病毒所导致。一般在出生后1-3周逐渐出现黄疸，而且持续加重。也有的患儿是在生理性黄疸消退以后又再度出现黄疸。同时伴有不爱吃奶、呕吐和体重不增加等表现。大便颜色在出生时正常，以后逐渐变为淡黄色或者灰白色，尿的颜色深黄。</p> 
+ <p>　　应对策略：</p> 
+ <p>　　如果宝贝被确诊为新生儿肝炎，经过保肝等治疗后会很快就好转，一般不会有什么严重后果。</p> 
+ <p>　　对于大多新妈咪来说，宝贝出生后遇到的第一个问题可能就是黄疸。发现宝贝出现黄疸时不要惊慌失措，先要初步判断一下是生理性黄疸还是病理性黄疸。如果是生理性黄疸就不必忧心忡忡了，只要注意给小宝贝多饮水就可以了，一般到2周左右就会消退。</p> 
+ <p>　　如果黄疸在宝贝出生后24小时内出现，一定要赶紧去医院，千万不要耽搁。因为，这种黄疸一般发展都很迅速，病情也往往比较严重。</p> 
+ <p>　　如果宝贝的黄疸程度比较严重，或者持续加重，或者2周后仍不消退，或者退而复现，这些情况都要尽早去看医生，否则可能会延误治疗时机。</p> 
+ <p>　　当宝贝出现黄疸时，一定要注意观察一下宝贝的大便颜色，有时大便的颜色对诊断也会很有帮助。</p> 
+ <p>&nbsp;<br /> </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

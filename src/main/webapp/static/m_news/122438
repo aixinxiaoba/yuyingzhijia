@@ -1,0 +1,346 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>引发孩子咳嗽的罪魁祸首-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,438",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,438",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">引发孩子咳嗽的罪魁祸首</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:10:07</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　听到孩子咳嗽，总是令父母很揪心。咳嗽是人体清除呼吸道内刺激性黏液及其他分泌物的方法，是保护呼吸道的一种肌体反应。孩子是干咳、带痰，还是喘得厉害？辨别孩子咳嗽的声音是找出问题所在的关键。本文帮你找出引发咳嗽的罪魁祸首，然后提供缓和症状以及治疗的最佳方法，让您知道什么情况下该担心，什么时候则无须挂念，尽快帮助孩子恢复。</p> 
+ <p>　　咳嗽症状1：强烈的干咳，声音非常清晰，类似于海豹的吼叫声，通常发生在午夜。这种声音不同于你以前听到过的咳嗽声。</p> 
+ <p>　　其他症状：孩子的病情白天缓解，晚上严重。他可能发低烧。病情严重时，他吸气的时候会发出刺耳的喘鸣，这种声音类似于孩子长时间大哭之后的抽泣。</p> 
+ <p>　　疑犯：义膜性喉炎，一种传染性病毒感染，它将导致喉咙及气管的膨胀和收缩。这种病毒通常侵袭半岁至三岁的孩子。（成人及年长一些的孩子由于气管较宽，因此膨胀时不大会影响呼吸）</p> 
+ <p>　　处理方法：抱着孩子，在充满蒸汽的浴室里坐5分钟，潮湿的空气有助于帮助孩子清除肺部的黏液，平息咳嗽。孩子晚上咳嗽时，父母可以在确保孩子暖和的情况下打开卧室窗户，让新鲜的空气进入房间，较为潮湿的冷空气有助于缓解呼吸道膨胀的症状。如果他咳得越来越厉害或是出现呼吸困难，你应该立即带他去医院。孩子也许需要吃一些抗生素，但无论如何这需要医生来决定。</p> 
+ <p>　　父母须知：</p> 
+ <p>　　咳嗽抑制剂，如果孩子咳得无法入睡，抑制剂也许能帮上忙。询问医生该选用什么样的抑制剂。然而，我们应该知道，抑制咳嗽有时会使病情加剧，或是延长患病时间。</p> 
+ <p>　　祛痰剂：这些药剂的作用是化痰，但是研究表明它们并不十分有效。长期实践证明，水是良好的祛痰剂。</p> 
+ <p>　　广谱感冒药：由于这类药物的配方中含有一种以上的成分，因此在给孩子服用之前一定要认真阅读说明。这类药物有可能产生一些副作用，例如失眠（常见于抗组胺类药物）或是过敏（常见于减充血剂）。</p> 
+ <p>　　润喉糖：服用止咳糖浆能够增加唾液的分泌，从而润滑喉咙，缓解咳嗽。但是医生叮嘱，千万不要给4岁以下的孩子吃润喉糖。因为润喉糖会像硬糖果一样，有导致窒息的危险。</p> 
+ <p>　　喂药：在给孩子喂药时一定要使用量勺或量杯之类的容器，以确保正确的给药量。</p> 
+ <p>　　咳嗽症状2：咳嗽时带痰，不伴随气喘或是急促的呼吸，不分白天黑夜。</p> 
+ <p>　　其他症状：嗜睡，流鼻涕，流眼泪并且伴有轻度发烧（通常不高于摄氏38.6度）。</p> 
+ <p>　　疑犯：普通感冒，鼻子、鼻窦、喉咙及肺部主气道的病毒性感染。通常情况下咳嗽症状会持续整个感冒过程（大约7~10天），而有些时候咳嗽的时间则会更长（约在半个月到20天左右），不过症状每天都能有所减轻。</p> 
+ <p>　　处理方法：尽量保持孩子鼻腔的清洁，鼻塞或流鼻涕都将加重咳嗽症状。对于不会擤鼻涕的婴儿或幼儿，父母可以使用生理盐水滴鼻液或是球型吸鼻器帮助孩子清理鼻腔。如果孩子的咳嗽和鼻塞症状持续10天仍未见好转，你就应该带他看医生了。他有可能患上了鼻窦炎（由感冒引起的细菌性感染）或是其他一些疾病，如哮喘、过敏、肺炎或是淋巴结肿大等。</p> 
+ <p>　　咳嗽症状3：猛烈而沙哑的阵咳――呼吸一次阵咳多达25下。孩子用力吸气的时候会发出尖锐的吼鸣声。</p> 
+ <p>　　其他症状：在咳嗽症状出现之前，曾有过一周左右的感冒症状，但是不发烧。婴儿的病情可能更加严重，有些时候甚至出现鼻涕冒泡的情况。还有可能导致痉挛等症状，当孩子疲劳时还会出现呼吸停止。</p> 
+ <p>　　疑犯：百日咳，这是一种传染性很强的喉部、气管及肺部细菌性感染。没有接种过此类疫苗的孩子患病的可能性较大。（按照常规，婴儿在2个月、4个月和6个月的时候接种疫苗，在1岁到1岁半之间再次接种，4到6岁之间还要接种一次。而成人染上百日咳只会出现轻微的咳嗽。）</p> 
+ <p>　　处理方法：如果孩子的咳嗽持续一周不见好转，父母应该带他去看医生。患上百日咳的婴儿通常需要住院治疗，以控制咳嗽症状并由医生清理喉咙中的痰液。该病可通过服用抗生素治疗，而咳嗽症状通常要持续数周甚至数月。分页符</p> 
+ <p>　　关于百日咳的警示：</p> 
+ <p>　　2002年，美国共报告了8300例百日咳病例，其中4岁以下儿童占到了其中的1/3以上。尽管大多数孩子从出生后2个月起便开始接种疫苗，但是免疫系统却要在数次接种之后才能完全形成。疫苗的效力在5~12年后慢慢消退。并且疫苗接种后的免疫率也达不到百分之百，所以即便孩子坚持接种疫苗，他仍然有从十几岁的孩子、成人及未接种疫苗的小朋友身上感染病菌的可能性。不过，我们应该清楚，尽管疫苗并非百分之百有效，但是接种总比不接种的好，而且婴儿接种疫苗后遭受严重感染的可能性就降低了许多。</p> 
+ <p>　　咳嗽症状4：孩子进食之后出现气喘及持续的沙哑的咳嗽。</p> 
+ <p>　　其他症状：孩子在吞咽食物的时候有灼热感，或是出现呕吐或喷射吐症状。婴儿有可能变得烦躁或出现腹绞痛。幼儿则会出现气喘及挑食等反应。</p> 
+ <p>　　疑犯：反流性食道炎，食道和胃部之间的肌肉群无力或发育不完全造成胃酸回流所引起。某些情况下，刺激性的汁液进入肺部引起慢性咳嗽。</p> 
+ <p>　　处理方法：如果孩子呼哧呼哧地咳嗽持续2周不见好转，父母应该带他去看医生。医生一般会建议让孩子在进食后30分钟内保持直立姿势，睡觉的时候头部稍微垫高一些。或开一些药也能控制症状。</p> 
+ <p>　　咳嗽症状5：持续咳嗽并常常伴有喘鸣或气喘，咳嗽时间长达10天以上，晚上或是在运动后病情会加重，而且当孩子接触到花粉、冷空气、动物皮屑、粉尘或是烟雾的时候，咳嗽都会加重。</p> 
+ <p>　　其他症状：孩子出现呼吸困难或是呼吸急促、吃力等症状。</p> 
+ <p>　　疑犯：哮喘，一种慢性病，肺部细小的气道肿胀、变窄，为黏液所充斥并发生痉挛，从而导致呼吸困难。引起哮喘的常见因素包括环境中的刺激物、病毒感染以及运动等。医生指出，从根本上而言，患有哮喘病的孩子，肺部都比较敏感。</p> 
+ <p>　　处理方法：轻微的哮喘病例只会出现慢性咳嗽的症状。去医院仔细检查以便确诊。如果家族有过敏史、哮喘病史或是湿疹病史，应该告诉医生，因为在这种情况下，孩子患病的可能性较大。</p> 
+ <p>　　咳嗽症状6：由喉部发出的、略显嘶哑的咳嗽，隔一段时间咳一下，有时候干咳，有时候带痰。</p> 
+ <p>　　其他症状：孩子感到无精打采，抱怨喉咙刺痛发痒，头痛，背部肌肉和腿部肌肉痛。他同时还流鼻涕、发烧、恶心。</p> 
+ <p>　　疑犯：流感，呼吸道病毒性感染。</p> 
+ <p>　　处理方法：如果孩子出现以下症状，父母应该马上带他去医院：高烧38.6oC以上，呕吐，腹泻，厌食，不想喝水(医生会建议你采取一些步骤以防孩子脱水)。给孩子多喝水，使用加湿器以缓解气道充血症状。为了预防流感，可以咨询医生后注射流感疫苗。</p> 
+ <p>　　咳嗽症状7：咳嗽时有痰或伴有气喘，呼吸短促、微弱，或是呼吸困难。</p> 
+ <p>　　其他症状：刚开始的时候表现为感冒症状，例如嗜睡、鼻塞等，这些症状持续约一周，有些情况下可能高烧至39.4oC。孩子感到昏昏欲睡，呼气的时候发出呼哧呼哧的声响。</p> 
+ <p>　　疑犯：细支气管炎，肺部细支气管发炎。通常由呼吸道合胞体病毒引起，最常见于秋末至来年初春。千万不要把细支气管炎和支气管炎相混淆，前者多见于婴幼儿，而后者则多见于年龄大一些的孩子和成人。医生说，绝大多数孩子在3岁以前都会得一次细支气管炎。</p> 
+ <p>　　处理方法：如果孩子出现呼吸困难或是无法进食或喝水，立刻带他去医院。婴儿患有细支气管炎时通常需要住院治疗，以便吸氧等救助。如果孩子的症状比较轻微（只是气喘而未出现呼吸困难等症状），父母可以在孩子的房间里放一个加湿器以帮助他祛除肺部的黏液，并且确保孩子喝足够多的水。</p> 
+ <p>&nbsp;</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

@@ -1,0 +1,340 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>新生儿缺氧性脑病大百科-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,422",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,422",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">新生儿缺氧性脑病大百科</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:08:48</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p align="center"><img alt="新生儿缺氧性脑病大百科" src="/upload/152/20070928115733930.jpg" border="1" /><br />新生儿缺氧性脑病大百科</p> 
+ <p>　　新生儿缺氧缺血性脑病：由于各种围生期因素引起的缺氧和脑血流减少或暂停而导致胎儿和新生儿的脑损伤，称之为缺氧缺血性脑病。足月儿多见，是导致儿童神经系统伤残的常见原因之一。</p> 
+ <p>　　<strong>【病因】</strong></p> 
+ <p>　　所有引起新生儿窒息的原因都可导致本病。</p> 
+ <p>　　<strong>【发病机制】</strong></p> 
+ <p>　　缺氧缺血性脑病的发病机制与下列因素有关。</p> 
+ <p>　　(一)脑血流改变 　当窒息缺氧为不完全性时，体内出现器官间血液分流以保证脑组织血流量；如缺氧继续存在，这种代偿机制失败，脑血流灌注下降，遂出现第2次血流重新分布，即供应大脑半球的血流减少，以保证丘脑、脑干和小脑的血灌注量(脑内血液分流)，此时大脑皮层矢状旁区和其下面的白质(大脑前、中、后动脉灌注的边缘带)最易受损。如窒息缺氧为急性完全性，上述代偿机制均无效，脑损伤发生在代谢最旺盛部位即丘脑及脑干核，而大脑皮层不受影响，亦不发生脑水肿。这种由于脑组织内在特性(解剖或代谢)的不同，而使之对损害具有特异的高危性，称为选择易损性。缺氧及酸中毒还可导致脑血管自主调节功能障碍，形成压力被动性脑血流，当血压升高过大时，可造成脑室周围毛细血管破裂出血，低血压时脑血流量减少，又可引起缺血性损伤。</p> 
+ <p>　　(二)脑组织生化代谢改变 　脑所需的能量来源于葡萄糖的氧化过程，缺氧时无氧糖酵解使糖耗量增加、乳酸堆积，导致低血糖和代谢性酸中毒；ATP产生减少，细胞膜钠泵、钙泵功能不足，使纳钙离子进人细胞内，钠离子造成细胞原性脑水肿，而钙离子则不但导致细胞不可逆的损害，还可激活某些受其调节的酶，引起胞浆膜磷脂成分分解，从而进一步破坏脑细胞膜的完整性及通透性；脑缺氧时，ATP 降解，腺苷转变为次黄嘌呤，当血流再灌注时，其提供的氧和次黄嘌呤在黄嘌呤氧化酶作用下可产生氧自由基；脑缺氧时一些兴奋性氨基酸，如谷氨酸、天冬氨酸在脑脊液中浓度增高，亦可造成钠、钙离子内流，诱发上述生化反应，还可阻断线粒体的磷酸化氧化作用，引起细胞自我破坏(调亡)，神经元上EAA受体密集者易受缺氧缺血损伤。</p> 
+ <p>　　(三)神经病理学改变 可见到皮质梗死，丘脑、基底节和间脑等部位深部灰质核坏死，脑干坏死，脑室周围或脑室内出血和白质病变等。足月儿常见的神经病理学改变是皮质梗死及深部灰质核坏死：早产儿则脑室周围出血和脑室内出血多见，其次是白质病变，包括白质脂类沉着、星形细胞反应性增生和脑室周围白质营养不良，后者发展为囊性改变。</p> 
+ <p>　　<strong>【临床表现】　</strong></p> 
+ <p>　　临床可分轻、中、重三度。</p> 
+ <p>　　①轻度；出生24小时内症状最明显，常呈现淡漠与激惹交替，或过度兴奋，有自发或刺激引起的肌阵挛，颅神经检查正常，肌张力正常或增加，Moro反射增强，其他反射正常，瞳孔扩大，心率增快，无惊厥，脑电图正常，3~5天后症状减轻或消失，很少留有神经系统后遗症。</p> 
+ <p>　　②中度：24~72小时症状最明显，意识淡漠，嗜睡、出现惊厥、肌阵挛、下颌抖动、肌张力减退、瞳孔缩小、周期性呼吸伴心动过缓，脑电图呈低电压、惊厥活动，1~2周后可逐渐恢复，但意识模糊进人浅昏迷并持续5天以上者预后差。</p> 
+ <p>　　③重度：初生至72小时症状最明显，昏迷，深浅反射及新生儿反射均消失，肌张力低下，瞳孔固定无反应，有心动过缓、低血压、呼吸不规则或暂停，常呈现去大脑状态，脑电图呈现爆发抑制波形，死亡率高，幸存者每留有神经系统后遗症。</p> 
+ <p>　　由于选择性脑损伤的结果，凡病变在两侧大脑半球者，其特点是生后24小时内出现惊厥，对抗惊厥药不敏感，同时有前卤隆起，颅缝分裂等脑水肿症状体征；而病变在丘脑、</p> 
+ <p>　　脑干核等处者的特点则是惊厥持久，有脑干功能障碍如瞳孔固定，无吸吮和吞咽反射。但</p> 
+ <p>　　无脑水肿、颅内压增高的症状、体征。</p> 
+ <p>　<strong>　【诊断】　</strong></p> 
+ <p>　　本症病史和临床表现常无特异性，易与新生儿期其他疾病的症状相混淆，临床与尸检诊断亦可相距甚远。近年运用影像学技术，提高了临床诊断的准确率。</p> 
+ <p>　　(一)头颅超声检查 具有无损伤、价廉、可在床边操作和进行系列随访等优点；彩色多普勒超声还可检测脑血流速率及阻力指数，对诊断和判断预后有一定帮助。</p> 
+ <p>　　(二)头颅CT检查对脑水肿、梗死、颅内出血类型及病灶部位等有确诊价值.但价格昂贵，仪器不能搬移而难以进行系列随访。</p> 
+ <p>　　(三)磁共振成像 有助于对某些超声和CT不能检测出的部位如大脑皮层矢状旁区，丘脑、基底节梗死等的诊断。此外，磁共振光谱还可检测高能磷酸代谢物的相对浓度，便于判断预后。</p> 
+ <p>　　(四)脑电图可在床边进行，有助于临床确定脑病变的严重度、判断预后和对惊厥的鉴别。</p> 
+ <p>　　(五)血生化检测 　血清磷酸肌酶脑型同功酶(CPK-BB)同定可帮助确定脑组织损伤的严重度和判断预后。</p> 
+ <p>　　<strong>【治疗】</strong></p> 
+ <p>　　(一)支持方法①供氧：选择适当的给氧方法，保持PaO2＞6.65~9.31kPa(50　~70mmHg)、PaCO2＜5.32kPa(40mmHg)，但要防止PaO2过高和PaCO2过低。②纠正酸中毒：应改善通气以纠正呼吸性酸中毒，在此基础上方可使用碳酸氢钠纠正代谢性酸中毒，严重酸中毒时可用5%碳酸氢钠l~3 ml／kg以5%葡萄糖1:1稀释,静脉缓慢推注，或经1：2.5稀释后静脉滴注。③纠正低血糖：按每分钟6~8mg/kg静脉输注葡萄糖，使血糖＞3.36mmol/L(60mg/dl),但应注意防止高血糖。④纠正低血压：每分钟输入多巴胺5~15μg/kg，可合用多巴酚丁胺2.5~10μg/kg，应从小剂量开始逐渐增加用量。⑤补液：每日液量控制在60~80ml/kg。</p> 
+ <p>　　(二)控制惊厥 　首选苯巴比妥那，负荷量为20mg/kg。于15~30分钟静脉滴入，若不能控制惊厥，l小时后可加用10mg／kg；每日维持量为5mg/kg。安定的作用时间短，疗效快，在上药疗效不显时可加用，剂量为0.1~0.3mg／kg，静脉滴注，两药合用时应注意抑制呼吸的可能性。高胆红素血症患儿尤须慎用安定。</p> 
+ <p>　　(三)治疗脑水肿 　出现颅内高压症状可先用呋塞米1mg/kg，静脉推注；也可用甘露醇，首剂0.5~0.75g/kg静脉推注，以后可用0.25~0.5g/kg,每4~6小时1次。是否使用地塞米松意见不一，剂量为每次0.5~1.0mg/kg，每日2次静脉滴注，48小时后减量，一般仅用3~5天。</p> 
+ <p>　　【预后】　</p> 
+ <p>　　本病预后与病情严重度、抢救是否正确及时关系密切。凡自主呼吸出现过迟、频繁惊厥不能控制、神经症状持续1周仍未减轻或消失、脑电图异常、血清CPK- BB持续增高者预后均不良。幸存者常留有脑瘫、共济失调、智力障碍和癫痫等伸进系统后遗症。</p> 
+ <p>　　【预防】　</p> 
+ <p>　　同新生儿窒息，孕妇应定期做产前检查，发现高危妊娠应及时处理，避免早产和手术产；提高产科技术；对高危妊娠进行产时胎心监护，及早发现胎儿宫内窘迫并进行处理；产时，当胎头娩出后，立即挤净口、鼻内粘液，生后再次挤出或吸出口、鼻、咽部分泌物，并做好一切新生儿复苏准备工作。 </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

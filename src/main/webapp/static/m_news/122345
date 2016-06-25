@@ -1,0 +1,349 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>新生儿疾病筛查必不可少-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,345",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,345",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">新生儿疾病筛查必不可少</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:02:59</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p align="center"><img alt="新生儿疾病筛查必不可少" src="/upload/152/20070907101142218.jpg" border="1" /><br />
+  <!--?XML:NAMESPACE PREFIX = STYLE=PADDING-TOP /-->
+  <style=padding-top:5px>
+   新生儿疾病筛查必不可少
+  </style=padding-top:5px></p> 
+ <p>　　每对年轻父母都盼自己的宝宝健康可爱，但是许多疾病的到来是悄无声息的，等到家长发现时已对宝宝的健康造成不可逆的影响，我们怎样才能发现一些严重影响宝宝健康的疾病，及早采取措施，进行干预和治疗，减少危害呢？在您的宝宝出生后，进行新生儿疾病筛查就是科学有效的方法之一。</p> 
+ <p>　　新生儿应该进行的疾病筛查项目很多，《母婴保健法实施办法》中规定的新生儿疾病筛查主要包括苯丙酮尿症和先天性甲状腺功能低下症两种，2002年国家卫生部颁布的《新生儿疾病筛查管理办法(草案)》中规定在新生儿甲低和苯丙酮尿症的检测基础上增加新生儿听力筛查。</p> 
+ <p>　　济南市妇幼保健院于1992年开始开展了新生儿疾病筛查工作，是山东省率先开展此项工作的专业医疗机构。在有关部门的支持下，1996年济南市新生儿疾病筛查中心在该院成立。对于在我国发病率较高，对儿童成长有严重影响，且查出后有较好治疗方法的部分疾病进行筛查，逐步形成了以该院为中心，县(市)区妇幼保健院(站、所)为枢纽，医疗卫生单位为依托，以社区卫生服务中心(站)为保障，覆盖济南地区并向全省辐射的筛查网络，在全省乃至全国新生儿疾病筛查方面处于领先地位。</p> 
+ <p>　　目前该院除开展国家规定的苯丙酮尿症、先天性甲状腺功能低下症及新生儿听力筛查外，还进行恶性苯丙酮尿症、葡萄糖-6-磷酸脱氢酶缺乏症(蚕豆病)和先天性肾上腺皮质增生症的筛查，同时还在全国创新性地开展了新生儿眼病筛查。</p> 
+ <p>　　下面我们分新生儿疾病筛查、听力筛查、眼病筛查三个方面来具体介绍。</p> 
+ <p>　　<strong>只要足跟三滴血能让宝宝赢得一生</strong></p> 
+ <p>　　新生儿疾病筛查是指在新生儿出生后三天足跟采三滴血，到专门的筛查检测机构针对一些遗传代谢及内分泌疾病进行筛查试验，过筛出可疑患儿，再进行专业的确诊试验，在这些疾病尚未表现出症状时及时诊断治疗，以避免对患儿造成导致肢体残疾及痴呆的严重后果。</p> 
+ <p>　　苯丙酮尿症是一种常染色体隐性遗传病。由于患儿体内带有分别来自父母双方的致病基因，影响体内苯丙氨酸羟化酶活性，使苯丙氨酸及其代谢产物蓄积，引起脑萎缩和智力低下。在我国发病率为1：8000～1：17000。该病分为两大类型：一种是由于苯丙氨酸羟化酶缺乏，造成体内苯丙氨酸过高形成危害，经饮食控制后即可好转，称为“经典型苯丙酮尿症”；而少数患儿体内缺乏的不是苯丙氨酸羟化酶，而是BH4(四氢生物喋呤)，它是苯丙氨酸羟化酶的辅酶，BH4缺乏不但出现高苯丙氨酸血症，还会影响多种神经递质的形成，使患儿出现抽搐、瘫痪等一系列不同于苯丙酮尿症患儿的神经系统的症状。这种病儿若治疗不及时，病情很快恶化造成死亡，所以称为“恶性苯丙酮尿症”。恶性苯丙酮尿症的患儿使用治疗奶粉治疗效果是不好的，需用BH4及多巴胺等多种药物治疗，才能取得良好的治疗效果。</p> 
+ <p>　　先天性甲状腺功能低下症是一种由于先天性甲状腺发育缺陷，不能产生足够的甲状腺素，引起生长迟缓，智力落后的病症。在我国发病率为1：3000～1：4000。随着年龄增长，患儿智能和体格发育均落后于同龄孩子的水平，成为矮小畸形的痴呆儿。此种患儿进行甲状腺素的替代补充疗法。只要早期治疗，坚持用药，患儿一般能够正常生长发育。</p> 
+ <p>　　葡萄糖葡萄糖-6-磷酸脱氢酶缺乏症(俗称蚕豆病)是一种遗传性红细胞酶缺乏症。我国发病率约为0.2%～4.48%。患儿红细胞膜失去稳定性而造成溶血现象。主要表现为：新生儿溶血，新生儿期黄疸进展较快，严重者病情恶化导致核黄疸，从而引起患儿脑瘫。患儿在使用某些食品(如蚕豆)、药品后诱发急性血管内溶血，引起贫血、黄疸、血红蛋白尿等一系列症状，严重者可致死亡。儿童或青少年期表现为持续性慢性溶血。该病经新生儿筛查可早期发现确诊，采取有效的预防及治疗措施，预防新生儿期核黄疸，杜绝患者与发病因素接触，防止不良后果发生。</p> 
+ <p>　　先天性肾上腺皮质增生症是一种先天性常染色体隐性遗传病，发病率约为1：13000左右，患儿父母均为携带致病基因的正常人。该病是由于肾上腺皮质某种酶(常见为21-羟化酶)的缺陷而导致肾上腺皮质功能减退，雄激素水平异常增高，导致女性男性化及男性假性性早熟、身材明显矮小、生育障碍，对心理生理发育及以后的工作、婚姻、生育带来严重的影响。根据酶缺乏程度的不同，该病在临床上分为失盐型、单纯男性化型和非典型型。失盐型患儿往往出生后不久即出现严重的临床症状，如呕吐、腹泻、脱水、代谢性酸中毒及低血糖等，严重的会危及生命。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong>新生儿听力筛查 听力损失早发现早干预</strong></p> 
+ <p>　　20世纪90年代初，欧美国家率先开展了新生儿听力筛查；我国新生儿听力筛查开始于20世纪末，北京、山东、浙江等地首先开展，此后在全国逐渐推广，济南市妇幼保健院于2000年在山东率先开展。到目前已筛查新生儿149443名，接受全省17地市转诊2304名，确诊先天性听力损失897例，佩戴助听器87例；人工耳蜗4例，听力康复的语言训练41人。</p> 
+ <p>　　新生儿听功能筛查，是使用高新技术，即诱发电位技术，瞬态诱发耳声发射和畸变产物耳声发射技术，在孩子出生24小时以后，对其进行听力测定，以达到早发现、早治疗、早干预的目的，使孩子听力得以改善，成为一个健康的人。实行两阶段筛查：出院前进行初筛，未通过者于28～42天进行复筛，仍未通过者转听力检测中心，对于有高危因素的新生儿，即使通过筛查仍应结合听性行为观察法，3年内每6个月随访一次。复筛阳性的患儿由听力检测机构进行听力学和耳鼻咽喉科的进一步检查，包括听觉脑干诱发电位、耳声发射、声阻抗、行为测听等项目。确诊听力损失之后还要进行医学和影像学评估，一般在6个月做出诊断。有高危因素的新生儿在随访中发现听力障碍应进行进一步诊断。</p> 
+ <p>　　如果没有通过住院时的听力初筛，宝宝听力也不一定就有问题。导致您的宝宝初筛没有通过的原因可以是多方面的。也许您的宝宝由于分娩，使外耳道内存留较多羊水、血性物等以致外耳道受阻，中耳积液，耳蜗发育不好或处于病理状态；测试时不安静，环境及体内噪声等等。所以需要在生后1个月后进一步测试。</p> 
+ <p>　　通过听力筛查提示在宝宝的外耳道记录到正常的耳声发射反应和/或听性脑干反应正常，说明其外周听觉器官功能正常。但在孩子发育过程中，听力会受到许多因素的影响，有些具有听力损失家族的儿童，反复发作的耳部炎症或自身严重疾病将导致儿童期听力损失，所以既是宝宝通过听力筛查，在以后的成长过程中，如果家长对宝宝的听力、言语-语言发育水平感到怀疑，就要及时找有关医生(听力学、耳鼻喉科或儿科)，以便进行听力学测试。在任何年龄段都能进行听力学测试。</p> 
+ <p>　　由于遗传与变异的原因，如耳硬化症、Alport综合征等耳聋并非在一出生就表现出听力障碍，有可能表现为迟发性听力损失：出生时听力正常，以后随年龄增长听力逐渐下降。所以在新生儿1个月甚至2个月内进行的筛查仍不能发现全部具有进行性听力损失的患儿。必须动态检测，特别是对有以下情况的婴幼儿进行随诊：即使他们通过了新生儿期的听力筛查，仍需在3岁前每6个月接受一次听力学监测。</p> 
+ <p>　　(1)家长对其子女的听力、语言发育表示疑虑者；(2)永久性听力损失家族史；(3)具有伴发听力损失综合征的特征者，或者咽鼓管功能异常者。(4)出生后患与感音神经性听力损失相关的感染，如细菌性脑膜炎；(5)孕母宫内感染如巨细胞病毒、疱疹、弓形体病、风疹、梅毒;(6)新生儿严重的高胆红素血症(需要进行换血治疗)或严重缺氧用过呼吸机治疗；(7)患有与进行性听力损失有关的综合征。(8)有神经退行性疾病：(9)颅脑外伤；(10)持续性或反复发作渗出性中耳炎超过3个月者。</p> 
+ <p>　　<strong>对患有任何听力损失的婴幼儿，立刻开始干预是最佳策略：</strong></p> 
+ <p>　　1.针对病因对可纠正性听觉障碍进行相应的药物、手术治疗。</p> 
+ <p>　　2.听力补偿或重建</p> 
+ <p>　　(1)对永久性感音神经性听觉障碍患儿，应首选佩带助听器，一般可在6月龄开始验配并定期进行调试及评估，以达到助听器效果优化。</p> 
+ <p>　　(2)人工耳蜗植入：对双侧重度或极重度感音神经性听力障碍患儿，应用助听器效果甚微或无明显效果，要进行人工耳蜗术前评估，考虑进行人工耳蜗植入。</p> 
+ <p>　　3.听觉-言语训练。</p> 
+ <p>　　4.社区-家庭康复指导。</p> 
+ <p>　　<strong>新生儿眼病筛查　让孩子拥有光明的未来</strong></p> 
+ <p>　　1999年，世界卫生组织(WHO)等6个国际防盲组织发起“视觉2020，为消灭可避免盲的全球行动，享有看的权利”行动，2000年始，美国、英国等相继开展新生儿眼病、婴幼儿视力筛查。2002年济南市妇幼保健院与北京同仁医院合作在国内率先开始了新生儿眼病筛查工作，到目前已筛查31492例，确诊新生儿先天性眼病296例。</p> 
+ <p>　　在婴儿和学龄前儿童中，有视力问题的占5%～10%。在婴儿到7岁的儿童中，有斜视和弱视的占2%～5%。早期发现视力障碍，为有效的、花费较少的治疗提供最好的时机。同时婴儿和儿童视力系统发育不成熟，如果不能早期发现视力障碍并及时治疗，眼球将不能为大脑提供清晰的影像，而导致永久性的视力丧失。对新生儿进行眼病筛查，就是要早期发现，早期诊断早期治疗某些可以治疗的小儿眼病。</p> 
+ <p>　　筛查步骤包括初筛，复筛，随访和干预三个部分：初筛时间为出生以后一周以内。具体包括1.外眼检查，2.对光刺激反应，3.红光反射，4.散瞳眼底检查等，初筛后诊断明确病例及时进行有效干预；对可疑病例、诊治病例、通过初筛不能确诊病例均择期进行针对性复查。对于有新生儿眼病高危因素(如：高浓度氧气吸入的低出生体重儿)者，即使当时检查没有明显阳性体征，也要积极进行随访并指导家长学会观察方法，以及时发现问题。对于复杂病例和需要手术治疗的患儿，需及时转入专业眼科治疗。</p> 
+ <p>　　新生儿常见眼病或眼部异常，大体分为三类：1.先天性眼病或眼部畸形；2.新生儿眼病；3.眼部组织发育迟缓；所谓干预性眼病即是在视觉发育敏感期的顶峰1～3岁内，如不及早干预，可致盲或引发弱视的眼病。如早产儿视网膜病变、视网膜母细胞瘤、先天性青光眼、白内障、上睑下垂、斜视等眼病。对此类眼病必须早期发现、早期诊断、早期治疗和干预。而对那些对视力影响不大而暂时又无法治疗的一些先天性眼部畸形，则列为告知性眼病，通告家长，不急于干预。<br /></p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

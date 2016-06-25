@@ -1,0 +1,341 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>新生儿其它常见病防治-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,285",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,285",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">新生儿其它常见病防治</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 13:58:33</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p><strong>　　什么是新生儿产瘤？</strong><br />&nbsp;<br /><strong>　　</strong>新生儿出生时，头顶左侧或右侧，或后方有瘤样隆起，即为产瘤。</p> 
+ <p><strong>　　</strong>在分娩过程中，当胎头抵达母体骨盆底时，胎头受压颅骨互相重叠逐渐蛮形，其中在胎头最前面的部分受压最大，局部的血液循环受影响，发生水肿，形成产瘤。在胎膜早破，产程延长的情况下，产瘤更为明显。产瘤一般在出生后一、二天自行消失，不需处理。&nbsp;<br />&nbsp;<br /><strong>　　何谓新生儿头颅血肿？ </strong></p> 
+ <p><strong>　　</strong>头颅血肿，往往在出生后就发现，也可能生后数天方始明显。多见于头颅顶部，血肿边缘清楚，周界不超过骨缝，局部头皮正常，波动感明显。由于胎儿被迅速逼出产道时，胎头突然由高压下释放，使头颅骨膜下血管发生破裂而出血，血液积聚</p> 
+ <p><strong>　　</strong>在局部形成血肿；此外，胎头负压引产有时可发生头颅血肿。一般不需特殊治疗，三四星期后可自行吸收与消散，但应注意头皮清洁，切忌挤压和揉摩，如发现血肿逐渐增大，局部应加压包扎，并加用维生素K、C 等止血药。<br />&nbsp;<br /><strong>　　如何处理新生儿漾奶？</strong> </p> 
+ <p><strong>　　</strong>新生儿漾奶是指新生儿喂奶后的一种生理性食物反流，即不费力的将食物自食管或胃通过口腔排出体外，表现为从口边漾出奶液。原因是新儿的胃呈水平位，容量小，胃壁肌肉发育不全，而且喷门括约肌弱而幽门括约肌发育较好，因此易漾奶；再加上喂养方法不得当，如吃奶时吞入大量空气、喂奶不定时、奶头孔过大、奶汁流入太急，以及喂奶后过多翻动新生儿等等，都可以引起新生儿漾奶。又怎样避免漾奶呢？</p> 
+ <p><strong>　　</strong>首先要注意喂养方法。即喂奶要定时，喂奶姿势要正确，喂奶后把婴儿竖起抱伏在母亲肩部，轻拍婴儿背部3～5分钟，促使胃内空气排出；如喂奶后婴儿入睡，则需将头部稍垫高些并采取向右侧姿势；喂奶后应少动，不论换衣服或换尿布擦澡都应该在吃奶前做。<br />&nbsp;<br /><strong>　　如何处理新生儿鹅口疮？</strong> </p> 
+ <p><strong>　　</strong>鹅口疮是由一种叫做白色念珠菌的霉菌所引起的口腔粘膜感染。严重者血点可充满整个口腔粘膜，影响吸吮。它与奶块不同，如用棉签拭擦不易擦去。</p> 
+ <p><strong>　　</strong>预防鹅口疮的方法主要是注意口腔卫生和奶具的消毒。得了本病不要用布使劲擦白膜，免得擦破粘膜再引起细菌感染，可在患处涂1％紫药水或用棉棍涂抹制霉菌素擦液（每10毫升含20万单位），每天3～4次。<br />&nbsp;<br /><strong>　　如何防止新生儿硬肿症？</strong> </p> 
+ <p><strong>　　</strong>此症是一种全身性皮肤和皮下脂肪变硬或兼水肿的疾病，多发生在生后数天的早产儿，体质较弱或患有腹泻、肺炎等疾病的新生儿。这种病的发生主要和周围环境的温度过低及水分和热能供给不足有关。新生儿活动少，体温调节机能差，其皮下脂肪中的固体脂肪酸熔点较高，遇有体温不升时易于凝固。</p> 
+ <p><strong>　　</strong>本病的主要表现是：体温不升（多在35℃以下），全身皮肤发硬。发硬常从下肢开始，逐渐蔓延至肩部、胸腹部和腰背部、上肢及面颊部。面部变硬不能吸吮，四肢发硬不能屈曲，周身冰冷光滑，皮肤由红转白甚至发育。此病易合并肺炎、败血症，病情严重者常因肺出血而死亡。</p> 
+ <p><strong>　　</strong>防止本病发生的方法是：要注意保暖，尤其是在寒冷季节，新生儿出生后应立即注意保温工作，住室要暖和，局部可用热水袋保温，同时要及时喂水、喂奶，保证供给热量和水份。</p> 
+ <p><strong>　　</strong>本病的治疗可用维生素E、肾上腺皮质激素、静脉注射或肌肉注射复方丹参注射液。<br />&nbsp;<br /><strong>　　为何新生儿眼分泌物过多？</strong> </p> 
+ <p><strong>　　</strong>一般是因感染引起，可用氯霉素眼药水每日滴眼3～4次；若上下眼睑有小脓疮生长，可用红霉素眼药膏每日2～3次搽在眼睑上。待脓疤成熟可用棉签擦破，挤出脓后可每天涂上红霉素眼药膏，过几天可自愈。</p> 
+ <p><strong>　　</strong>平时必须保持眼部清洁，初生儿用的毛巾，要用沸水烫过洗净。<br /><strong>&nbsp;<br />　　何谓“马牙”和“螳螂咀”？</strong> </p> 
+ <p><strong>　　</strong>所谓马牙是指小儿出生后，口腔上腭中线两旁或牙龈边缘可见散落的黄白色小点，俗称“马牙”。一般会自行吸收消失，亦不会影响小儿吸吮奶头，不需处理。</p> 
+ <p><strong>　　</strong>在新生儿两颊有坚厚的脂肪层，称为颊脂体，俗称“螳螂咀”，有助于婴儿吸吮用，一些地方误认为会影响小儿吃奶，故在民间流传着刮“螳螂咀”的土方法，往往引起出血、感染，甚至导致败血症，必须制止。<br />&nbsp;<br /><strong>　　如何防止新生儿黄疸？</strong> </p> 
+ <p><strong>　　</strong>约有90％左右的新生儿于出生后2～3天即有皮肤发黄疸现象，7～10天后消退。原因是血清内间接胆红素浓度增高的结果，称为新生儿黄疸或高胆红素血症。</p> 
+ <p><strong>　　</strong>新生儿皮肤发黄大多数是生理性的，一般不需要治疗。但是家长必须注意皮肤发黄开始与消退的时间，以及皮肤发黄的程度。如果足月儿皮肤发黄时间超过2周，就应该考虑为病理性黄疸，即要到医院诊治，查明引起黄疸的原因，积极治疗。<br />&nbsp;<br /><strong>　　如何防止新生儿红屁股？</strong> </p> 
+ <p><strong>　　</strong>在医学上称为“尿布疹”。原因是尿布湿了未及时换，刺激皮肤发红，发展下去会引起小水疱，糜烂。因此，要经常用温开水给孩子洗屁股，擦干后涂上花生油或菜籽油或扑上爽身粉。<br />&nbsp;<br /><strong>　　何谓新生女婴假月经？</strong> </p> 
+ <p><strong>　　</strong>一些女婴出生后5～7天，阴道内可见少许血性分泌物，这叫假月经。原因是妊娠后期，母亲体内的雌激素进入胎儿体内，出生后这种激素突然中断而引起，不需作任何处理，会自行停止。<br />&nbsp;<br /><strong>　　何谓新生儿脐疝？</strong> </p> 
+ <p><strong>　　</strong>小肠从脐部疝出。原因是小儿啼哭时，由于腹压增加，脐疝增大。脐疝一般可以回纳，回纳后在局部加压包扎。避免婴儿长时间的大声啼哭，以减少腹压，一般6个月后能自愈。<br />&nbsp;<br /><strong>　　为什么新生儿会乳房肿大？</strong> </p> 
+ <p><strong>　　</strong>男女小儿均可发生乳房肿大，一般在出生后3～5天乳房如蚕豆，甚至鸽蛋大小。原因是孕妇雌激紊对胎儿的影响所致。一般经过2～3周乳房肿大消退，不必作任何处理，更不能用力挤，否则会造成乳房受损继发感染。<br />&nbsp;<br /><strong>　　怎么会引起新生儿低血糖？</strong> </p> 
+ <p><strong>　　</strong>胎儿出生后，不能再通过脐带直接从母体获得氧气和营养物质，若不及时喂奶或进食过少，就可以引起新生儿血液内糖含量降低，此谓新生儿低血糖。</p> 
+ <p><strong>　　</strong>新生儿低血糖的主要症状是：面色苍白，脉细而快，全身出冷汗，重者可进入昏迷状态。如果持续时间长而未及时纠正，可严重影响脑细胞的生理功能，并影响婴儿的智力发育。</p> 
+ <p><strong>　　</strong>预防此病的方法主要是：宜注意及时喂奶，一般可于出生后6小时喂糖水，12小时开始喂奶。若是早产儿或不会吸吮者，可用滴管或鼻饲喂奶；若已出现了低血糖，可静脉注射25％～50％葡萄糖。<br />&nbsp;<br /><strong>　　如何防止新生儿外耳道疖及中耳炎？</strong> </p> 
+ <p><strong>　　</strong>发生的原因是初生儿习惯侧睡，压迫耳的血液循环，再加吐奶时，奶液流入外耳道，容易发生感染，主要是外耳道疖与中耳炎。</p> 
+ <p><strong>　　</strong>当患外耳道疖肿时，耳道红肿，有触痛，全身反应轻，可用干棉签蘸3％双氧水洗净后涂红霉素眼药膏，每日2～3次。当患中耳炎时，外耳道无触痛，但常伴有全身发热等症状，要及时诊治。可用3％双氧水洗净后用0．25％氯霉素溶液或5％氯霉素甘油液滴耳，每日2～3次。</p> 
+ <p><br /><strong>　　如何防止新生儿大便异常? </strong></p> 
+ <p><strong>　　</strong>新生儿出生后1～2天内排出的大便为褐绿色的粘稠糊状物，内含有胎毛，主要由衰老的红细胞、浓缩的消化液、脱落的上皮细胞、吞咽的羊水和脂肪等组成，称为“胎便”。开始哺乳后，大便即渐渐变成黄色或黄绿色，若出现黑便或柏油样便，则说明有消化道出血。原因是初生儿体内缺乏维生素K及其它凝血因子所引起。消化道出血除了便血外，还可出现呕血。若失血过多，患儿出现精神不振、面色苍白、全身出冷汗，严重者威胁婴儿生命。</p> 
+ <p><strong>　　</strong>治疗新生儿消化道出血，可暂停喂奶，保持患儿安静，并立即送医院治疗。为了预防初生儿自然出血，可在产前由孕妇口服维生素K，难产，早产或有消化道畸形的新生儿，产后要注射维生素K。</p> 
+ <p><strong>　　</strong>初生儿大便异常的另一种情况是便秘。原因是肠肌松弛，肠肌弹力发育不佳及结肠的反应性不足，肠蠕动减少。</p> 
+ <p><strong>　　</strong>处理方法是：将肥皂削成铅笔头样粗长一寸左右，蘸水后轻轻塞入肛门，1～2分钟后，肥皂头与大便一同排出。</p> 
+ <p>　　此外，大便异常还可见到腹泻。原因是喂奶不当如吃奶不定时，护理不好小儿受惊或受热，或人工喂养的奶粉成份太浓，皆可引起腹泻。发生腹泻时，应根据原因给予及时处理。</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

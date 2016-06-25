@@ -1,0 +1,339 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>新生儿硬肿症（综合）-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,136",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,136",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">新生儿硬肿症（综合）</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 13:47:32</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p>新生儿硬肿症(sclerema neonatorum)系指新生儿期由多种原因引起的皮肤和皮下脂肪变硬，伴有水肿、低体温的临床综合征。单纯由寒冷引起者又称新生儿寒冷损伤综合症，重症多合并多器官功能损害。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 临床表现</p> 
+ <p>&nbsp;&nbsp;&nbsp; 本症主要发生在冬春寒冷季节和低日龄组的新生儿，特别是早产儿。临床表现包括三大主征，即体温不升、皮肤硬肿和多系统功能损害。</p> 
+ <p>&nbsp;&nbsp;&nbsp; （一）体温不升：体温过低是主要表现，全身或肢端凉、体温常在摄氏35度以下，严重者可在30度以下。体温过低分产热良好与产热衰竭两种不同的情况，有助于判断病情。产热良好者腋温&gt;肛温，腋温减肛温差为正值（在0-0.9度之间），大多病程短，硬肿面积小，属于轻型。产热衰竭者，腋温&lt;肛温，腋温减肛温差为负值，多为病程长，硬肿面积大，伴有多脏器功能衰竭，属于重型。</p> 
+ <p>&nbsp;&nbsp;&nbsp; （二）皮肤硬肿：包括皮脂硬化和水肿两种情况。皮肤变硬，皮肤紧贴皮下组织不能提起。严重时肢体僵硬，不能活动，触之如硬橡皮样。皮肤呈暗红色或苍黄色，可伴水肿，指压呈凹陷性。硬肿常为对称性，累及部位依次为下肢、臀、面颊、上肢、背、腹、胸等，而眼睑、手心、足底、阴囊和阴茎背部等处因皮下脂肪很少或缺乏，故不发硬。</p> 
+ <p>&nbsp;&nbsp;&nbsp; （三）器官功能损害：轻者，器官功能低下。表现为不吃、不哭、反应低下、心率慢或心电图及血生化异常；重者多器官功能衰竭，可发生休克、心力衰竭、DIC、肾功衰竭及肺出血等。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 1．循环衰竭&nbsp; 重症体温过低患儿，特别是体温&lt;&nbsp; 30℃或硬肿加重时，常伴有明显微循环障碍，如面色苍白，发绀、四肢凉、皮肤呈花纹状、毛细血管充盈时间延长、心率先快后慢、心音低钝及心律不齐。重症出现心衰、心肌损害及心源性休克。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 2．急性肾功能衰竭&nbsp; 本症加重时多伴有尿少、甚至无尿等急性肾功能损害表现，严重者发生肾功能衰竭。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 3．肺出血是重症病例极期表现&nbsp; ⑴呼吸困难和紫绀突然加重、给氧后症状不缓解；⑵肺内湿罗音迅速增加；⑶泡沫性鲜血由口鼻涌出或气管插管内吸出血性液体；⑷血气显示PaO2下降、PaCO2增加。肺出血是本病最危重临床症象和主要死因，如不及时急救可在短时间内死亡。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 4．DIC常见皮肤粘膜自发性出血，或注射针孔渗血不止，可伴休克和溶血表现等。</p> 
+ <p>&nbsp;&nbsp;&nbsp; （四）其它&nbsp; 可致高胆红素血症并促成胆红素脑病；代谢紊乱如低血糖、低血钙及代谢性酸中毒等。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 治疗</p> 
+ <p>&nbsp;&nbsp;&nbsp; 治疗原则应包括正确复温、合理供应热卡、早期预防和纠正脏器功能衰竭和积极消除病因。</p> 
+ <p>&nbsp;&nbsp;&nbsp; （一）复温：</p> 
+ <p>&nbsp;&nbsp;&nbsp; 1．复温方法：</p> 
+ <p>&nbsp;&nbsp;&nbsp; ⑴轻－中度患儿，体温&gt;30℃产热良好（腋－肛温差为正值），立即放入适中环境温度，减少失热，升高体温。可将患儿置入预热至30℃的暖箱内，箱温在30-34℃范围，在6-12小时内恢复正常体温。农村、机层单位可因地制宜用热水袋、热炕、电热毯包裹或贴身取暖复温等方法。</p> 
+ <p>&nbsp;&nbsp;&nbsp; ⑵重症患儿，体温&lt;30℃或产热衰竭（腋－肛温差为负值），先以高于患儿体温1-2℃的暖箱开始复温，每小时提高箱温0.5-1℃（不&gt;34℃），于12-24小时内恢复正常体温。亦可酌情采用远红外线辐射台或恒温水浴法复温。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 2．复温时的监护：包括血压、心率、呼吸等，定时检测肛温、腋温、腹壁皮肤温度及环境温度（室温和暖箱温度）。以肛温为体温平衡指标；腋－肛温差为产热指标；皮肤－环境温差为散热指标。准确记录摄入或输入热量、液量及尿量。</p> 
+ <p>&nbsp;&nbsp;&nbsp; （二）热量及液体供给：</p> 
+ <p>&nbsp;&nbsp;&nbsp; 补足热量及液体才能保证复温成功并维持正常体温。热量开始每日210KJ/kg (50KJ/kg)，并迅速增至418-502KJ/kg(100-120KCcl/kg)。早产儿或伴产热衰竭患者可再适当增加，在低温时因糖耐量低下，代谢抑制，须严格控制葡萄糖输入速度，宜维持在6－8mg/min，以防止血糖过高，但有低血糖时可提高输入糖量。复温后糖耐量恢复应适当增加输入糖量至8-10mg/kg/min。如热量不足也可根据需要，添加静脉滴注脂肪乳剂。每日液体入量可按1ml/Kcal给予，重症伴有尿少，无尿或明显心肾功能损害者，应严格限制输液速度和液量。</p> 
+ <p>&nbsp;&nbsp;&nbsp; （三）器官功能紊乱的治疗</p> 
+ <p>&nbsp;&nbsp;&nbsp; 1．纠正休克，改善微循环：⑴扩充血容量，可给2：1液15-10ml/kg（有明显酸中毒者用1.4%碳酸氢钠等量代替）在1小时内静脉点滴，继用1/3或1/4张液，按每日70-90ml/kg给予。⑵纠正酸中毒可给5%碳酸钠每次3-5ml/kg，或根据血气结果计算补充。⑶血管活性药物的应用：多巴胺5-10mg/次，加入10%葡萄糖内静脉点滴，速度5-10μg/kg/min；酚妥拉明（单用或与多巴胺合用）0.3-0.5mg/kg，每4小时1次；654-2每次0.5-1mg/kg，15-20分钟1次。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 2．DIC治疗：经实验室检查证实为高凝状态可立即使用肝素，首剂1mg/kg，6小时后按0.5-1mg/kg给予。若病情好转，改为每8小时1次，逐渐停用。给第2次肝素后应予新鲜全血或血浆每次20-25ml；潘生丁有抑制血小板凝集，降低血粘稠度之作用，1-2mg/kg/d，加入葡萄糖液中静滴，注意不应与其它药物混合，以免发生沉淀。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 3．争性肾功能衰竭的治疗：少尿或无尿应严格限制液量，给予速尿每次1-2mg/kg。无效时加用多巴胺5-15ug/kg/min静滴，或加用氨茶碱每次2-3mg/kg，静脉点滴。并发高钾血症应限制钾的摄入，严重者给予胰岛素加葡萄糖静脉输注（每2-4g葡萄糖加胰岛素1单位）或静脉注射10%葡萄糖酸钙以拮抗钾对心脏的毒性作用。心率快者可酌情应用毒毛旋花子甙等。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 4．肺出血的治疗：输新鲜全血20-25ml或新鲜血浆20-30ml，或合用止血剂如维生素K1等。肺出血一经确诊应尽早气管内插管，进行正压呼吸治疗（CPAP或IPPV）以扩张肺泡减少渗出，平均气道压(MAP)1.05-1.25Kpa(10.75-12.75cmH2O), 2-3天病情好转减低呼吸器参数或撤离。同时积极治疗引起肺出血的病因，如DIC、肺水肿、急性心肾功能衰竭等。</p> 
+ <p>&nbsp;&nbsp;&nbsp; （四）控制感染：根据感染细菌的情况，给予青霉素、氨苄青霉素、先锋霉素等，对肾脏有毒副作用的药物应慎用。</p> 
+ <p>&nbsp;&nbsp;&nbsp; （五）肾上腺皮质激素：有促进机体代谢，增加糖元异生和分解的作用。一般用于重症患者，氢化考地松每日5-8mg/kg静滴3-5日，有感染者加强抗感染治疗。</p> 
+ <p>&nbsp;&nbsp;&nbsp; （六）其它：有缺氧者或重症应给氧；维生素E每次5mg肌注，每日一次；强心利尿剂酌情使用；有人建议甲状腺素片口服，每日4-6mg/kg，3-5日停用。</p> 
+ <p>&nbsp;<br />&nbsp;</p> 
+ <p><br />&nbsp;<br /></p>
+ <br /> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

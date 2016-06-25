@@ -1,0 +1,339 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>宝宝眼鼻耳药的正确使用-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,222",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,222",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">宝宝眼鼻耳药的正确使用</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 13:53:56</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p> 当宝宝患上眼、鼻、耳病症时，医生会开具出合适的药以促使宝宝尽快痊愈，而顺利给宝宝滴用眼、鼻、耳药往往会成为新手爸妈最大的难题。为宝宝滴眼、鼻、耳药的工作需要父母双方共同配合来完成，这里，我们教爸爸妈妈一些正确滴用的方法，以使宝宝在用药时更容易配合。 </p>
+ <p>　　<strong>滴眼药的方法：</strong></p> 
+ <p>　　1. 爸爸将<u>宝宝</u>面部朝上抱住，一手固定住宝宝的双手以防他挣扎，另一只手按住他的头部，并用膝盖夹住宝宝的双腿，。</p> 
+ <p>　　2. 滴药工作的实施由妈妈来完成。妈妈左手向下轻轻撑开宝宝的眼睑，右手持药瓶对准宝宝眼内角(瓶口距眼约1.5cm)，挤入1~2滴药水。注意也不要将药水直接滴在宝宝的眼角膜上。</p> 
+ <p>　　3. 妈妈要注意这时应左手将宝宝的上眼皮轻轻提起来，稍停几秒钟，使药水含在眼内，再松开手。如果可以的话，可以让宝宝闭一会眼转动眼珠，使药水分布均匀。</p> 
+ <p>　　4. 最后用干净的消毒药棉或干净的手绢擦干溢出的药液。</p> 
+ <p>　　5. 如果宝宝反抗剧烈，不易撑开其眼睑，可以先把药水延眼内角滴入，然后迅速轻轻捏起宝宝的上眼皮，以使药水进入眼内。由于眼药水难以在眼内长时间停留，且滴药时宝宝往往不能配合，难免会有些药水进不到眼内，因此为确保疗效，眼药水应勤滴。</p> 
+ <p>　　<strong>眼药膏的用法</strong></p> 
+ <p>　　眼药膏的用法与滴眼药水基本相同，宝宝也是面部朝上，妈妈撑开他的上眼睑后，将药膏徐徐挤出少许，涂在宝宝下眼睑内，或用干净光滑的小玻璃棒蘸上药膏涂入宝宝下眼睑内，再用手轻轻按揉数秒钟。上完眼药膏后，要注意避免宝宝揉擦眼球。</p> 
+ <p>　　小提醒：市面上常见的眼药分眼药水和眼药膏两种。滴眼药水不会影响用眼方便，所以比较适合宝宝在白天滴用；而眼药膏呈油糊状，涂后视物不清，初次给宝宝使用，很可能会使他难以接受，所以一般提倡在晚上临睡前给宝宝使用。</p> 
+ <p>　<strong>　滴耳药的方法</strong></p> 
+ <p>　　1. 爸爸将宝宝以侧卧位斜抱在怀里，按住宝宝的头部。如果宝宝不肯配合，爸爸应以膝盖夹住宝宝的双腿，以防宝宝扭动。</p> 
+ <p>　　2. 妈妈用左手将宝宝的耳廓向后下方轻轻牵引，以使外耳道被拉直、利于药液顺利流入，另外拉直耳道也便于妈妈查看耳道内有无异常分泌物。</p> 
+ <p>　　3. 妈妈用右手将药液对准耳道后壁缓缓滴入，每次1~2滴即可。</p> 
+ <p>　　4. 滴完后用手指轻轻按压宝宝耳廓，这时不应让宝宝马上直立起来，应该使其保持原位3-5分钟，等药液慢慢渗入内耳道再站立。</p> 
+ <p>　<strong>　滴鼻药的方法</strong></p> 
+ <p>　　1. 滴药前首先应清除鼻腔内的分泌物，妈妈可用先帮宝宝清除鼻痂，要注意动作轻柔，以免损伤宝宝幼嫩的鼻腔粘膜。</p> 
+ <p>　　2. 让宝宝坐立或仰卧，头尽量往后仰，使其头与身体呈90&deg;。妈妈用左手手指轻轻推起宝宝的鼻尖，以使鼻腔充分暴露，右手持滴管对准宝宝鼻孔(滴管距鼻孔约1~2cm)，分别沿着鼻腔壁缓缓滴入2~3滴药液。</p> 
+ <p>　　3. 妈妈用手指尖轻轻压住宝宝的鼻翼，使药液与宝宝的鼻粘膜充分接触。</p> 
+ <p>　　4. 滴药后不要让宝宝立即抬头或站立，最好能使他静坐或静卧2~3分钟，使药液充分流入和接触鼻腔。</p> 
+ <p>　　小窍门：为了使药水不流到宝宝的喉咙里去，宝宝坐立滴药时，妈妈应让其身体靠定于椅背，头往后仰，鼻孔朝上；而采取仰卧位时，可把枕头垫在宝宝的肩背下，以使其头部向往后仰，鼻孔向上。对于拒不合作的宝宝，可趁其熟睡后再进行滴药。</p> 
+ <p>　　小提醒：不要经常给宝宝使用通鼻剂，偶尔使用时，也要注意选用小儿制剂，而不能将成人的药随意给宝宝使用。</p> 
+ <p>　　必要时，滴完药后可以用消毒棉花</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>球堵塞住处耳道，并尽量转移宝宝的注意力，避免他因耳道的不适感而用手指掏耳朵。</p> 
+ <p>　　BOX：在给宝宝滴用眼、鼻、耳药之前，妈妈应先洗净双手，并核对药液的名称、用药时间，谨防因为误滴其它药品或用药过量而对宝宝的健康造成伤害。药液在使用前应充分摇晃。滴用药水的瓶口、滴管口不要碰到宝宝的眼、鼻、耳部，以免伤害到宝宝或污染药液、影响疗效。冬季滴药前，须注意药液不宜过冷，以免刺激宝宝引起眩晕、恶心、呕吐等<u>不良反应</u>。</p> 
+ <center> 
+ </center> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>5条防线护卫小耳朵-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "121,936",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "121,936",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">5条防线护卫小耳朵</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 13:32:57</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p><br />　　妈妈，耳朵里有小虫虫！如果你的孩子也对你这样哭诉，可千万别掉以轻心，这样的情况也许并非是宝宝的耳垢过多，而是中耳炎的初期表现。 <br />　　中耳炎是小儿耳鼻喉科最常见的疾病之一，发病频率仅次于感冒。据统计，四分之三的幼儿在3岁以前至少经历一次耳内感染，其中近一半的孩子可能会感染三次以上。看着宝宝拽着耳朵号啕大哭，做父母的难免心疼。疼痛只是中耳炎危害的一部分，更严重的是，频繁复发的中耳炎会影响孩子的听力，从而在孩子学说话的关键时期导致孩子的语言能力发展受阻。 <br />　　怎样才能让孩子尽量远离中耳炎的威胁呢？由于某些超出人力控制的原因，中耳炎无法被完全杜绝，比如多发性中耳炎就会遗传，并且多发于秋天出生的男孩子身上。但专家也肯定地告诉我们，大多数类型的中耳炎完全可以预防。专家提议从5个方面着手，让宝宝远离耳疾的侵扰。 <br />　　<strong>及时防治感冒</strong> <br />　　很多中耳炎都是由感冒引起的。这与孩子的耳部结构密切相关。儿童，特别是3岁以下的幼儿耳部结构尚未发育完善，尤其是连接中耳和咽部的咽鼓管，不仅仅是一个连接的导管，还具有调节中耳腔的压力、引流中耳分泌物的功能。小儿的咽鼓管和成人有很大的区别，不仅形态上不似成人的咽鼓管长而成角，而是短、宽、平；而且位置低。 <br />　　当孩子患呼吸道感染时，致病菌非常容易通过咽鼓管进入到中耳，引起中耳炎。感冒时，鼻内黏膜受到刺激后，导致连接中耳、咽喉和鼻腔的咽鼓管肿胀，从而使内部通路变窄、积液排流能力降低。当耳部无法及时排除感冒造成的黏液时，那里就形成了细菌滋生的最理想的温床。专家指出，积极预防感冒或者尽可能缩短感冒周期是避免儿童患中耳炎的最佳措施。要做到这一点，正确处理以下几个环节尤为重要： <br />　　● 让宝宝的鼻腔尽可能保持清洁。如果宝宝的年龄和能力允许的话，应该教会他自己用手帕或纸巾经常擤擤鼻子；对于年龄尚小的孩子，可以用医用吸耳球帮宝宝吸除鼻腔中黏液。同时，医生还特别推荐给孩子的鼻腔中滴入一些润舒剂以保持鼻腔畅通。 <br />　　● 晚间在孩子的卧室内使用喷雾加湿器。空气干燥会引起鼻腔干燥甚至发炎，造成咽鼓管肿大、阻塞。请注意，加湿器必须要保持清洁，否则很可能适得其反。另外，你也可以采用以温热的毛巾为宝宝敷鼻子以减轻鼻腔的肿胀和阻塞。 <br />　　● 如果宝宝鼻塞得比较厉害，睡觉时可将头部垫得高一些，以便积聚于鼻腔内的黏液不至于流到咽鼓管内。对于一周岁以内的婴儿，可以将婴儿床的床头一端用电话簿之类的东西垫高一些；对于一周岁以上大一些的孩子，可以用比平时厚一点的枕头将头部垫高即可。 <br />　　● 很多儿科医生建议父母在宝宝感冒初期给孩子补充一些锌。尽管在理论方面还没有得到充分证实，但是临床经验表明，这种方法可以减轻某些感冒症状，具体服用量最好遵照医嘱。 <br />　　<strong>打预防针</strong> <br />　　目前世界上尚无专用中耳炎预防针，但是研究人员发现有两种儿童预防针在预防其他疾病的同时有助于降低感染中耳炎的危险。 <br />　　其中一种是最新型肺炎疫苗，名为普瑞沃纳，目前还尚未在国内推广，但在美国已经开始用于临床。美国儿科研究院建议所有2岁以下的幼儿都应该注射这种疫苗。其主要用途在于预防肺炎和脑膜炎，但同时也可以使儿童中耳炎的复发率降低20%左右。这种疫苗是怎样对中耳炎起作用的呢？原来，40%的中耳炎病菌是由肺炎病菌引起的。这类病菌引起的中耳炎往往属于最难处理、抗生素最难起作用的类型，因此，很多儿科专家认为这种新型疫苗的问世无疑使幼儿中耳炎预防的手段前进了一大步。 <br />　　另一种有助于预防中耳炎的疫苗是流感疫苗。流感属于上呼吸道感染，和普通感冒一样，容易同时引发其它耳鼻喉疾病，其中以中耳炎最为常见。事实上，根据英国最新公布的一项研究结果，在1</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>070名注射过流感疫苗的幼儿中，只有1人感染了中耳炎；相比之下，532名没有注射流感疫苗的幼儿中，则有20人感染了中耳炎。目前在国内广泛应用的流感疫苗能否给孩子注射，还是应当咨询医生的意见。 <br />　　<strong>让宝宝少含奶嘴</strong> <br />　　现在很多父母喜欢让宝宝平时含个奶嘴在嘴里，这种小道具虽然能让孩子保持安静，但实际上却会大大增加孩子感染中耳炎的危险。研究发现，频繁的吸吮动作容易使病菌从鼻腔后端进入到咽鼓管，无论您选用的奶嘴采用了多么先进的工艺技术，都会不可避免地增加宝宝感染中耳炎的危险。 <br />　　最近芬兰的一项针对18个月以下幼儿的研究中，研究人员将受试的孩子分为两组，其中一组可以随时使用奶嘴，而另一组则将使用奶嘴的时间降低了21%，一段时间后，后者的中耳炎感染率比前者低29%。尤其应该注意的是，除非宝宝马上要睡觉，否则应该尽量避免使用奶嘴。吸吮奶嘴可以帮助宝宝尽快入睡，而入睡后的宝宝吸吮动作就会减少减轻，但是宝宝醒着的时候情况则不同，其肺活量要比入睡后大得多，所以白天使用奶嘴会极大地增加感染中耳炎的危险。 <br />　　<strong>远离二手烟</strong> <br />　　根据最新的研究结果，吸入二手烟会使幼儿中耳炎感染率增加19%，每年因二手烟而患上中耳炎的幼儿多达120万。加拿大一份研究报告显示，3岁以前每天接触父母二手烟的幼儿患经常性中耳炎的比率是其他同龄幼儿的两倍以上。专家认为，香烟的气味会刺激孩子娇嫩的鼻腔和咽喉，使病菌更容易在这两个部位存活繁殖，从而降低抵抗力，一旦病菌进入到中耳，就容易造成感染。因此，如果你或家人有吸烟的嗜好，现在你们有了一个最好的戒烟理由为了宝宝的健康。 <br />　　<strong>调整睡姿仰卧或侧卧</strong> <br />　　最近多伦多医学院的研究人员宣布，让宝宝采用仰卧或侧卧的睡姿除了能够避免新生儿猝死综合症外，还具有另外一项非常重要的意义减少感染中耳炎的危险。具体的研究数字显示：采用这两种睡姿的幼儿比采用其它睡姿的幼儿中耳炎感染率低1/3。专家认为，仰卧和侧卧的睡姿可以增加幼儿睡觉时的吞咽动作，从而促进中耳部位黏液的排流，降低病菌存留的机会、降低感染的危险。 <br />　　<strong>Tips：</strong> <br />　　孩子抓着耳朵又哭又闹，是感冒引起的焦躁不安，还是得了中耳炎呢？孩子表达不清楚，而且临床症状经常不是以耳部症状为主要表现，身为父母，我们应该掌握一些基本的辨别方法，将中耳炎对宝宝的伤害减到最小。如果你的宝宝出现了以下任何一种症状，你就应该尽早带他/她去看医生 <br />　　疼痛：这是典型的中耳炎症状，因为吸吮和吞咽动作会压迫感染部位，使患儿感到疼痛。因此，宝宝可能会在吃东西时烦躁、哭闹，也可能不愿意入睡，因为一旦中耳发炎，卧姿反而会加剧疼痛和不舒适的感觉。 <br />　　发烧：中耳炎往往伴随着突然出现的发烧，体温可升至37.8℃至40℃。 <br />　　化脓：如果耳朵中流出黄色、白色或者含有血迹的液体，那么你的宝宝肯定是患上了中耳炎。流出的脓液说明原本留存于中耳的液体已经冲破了耳鼓。虽然这种症状对身体的危害并不像表面看起来那么可怕，但仍然需要到医院请医生做专业处理，以防止不必要的意外感染。 <br />　　听力障碍：由于液体大量存留于中耳部位，因此中耳炎可能给宝宝造成暂时性的听力障碍。具体的表现为，他/她可能会把电视机的音量放得比平时更大，或者经常会要求你重复刚刚讲过的话。&nbsp; <br />　　大中华健康网采编整理<br />　　来源：好管家 &nbsp;&nbsp; </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

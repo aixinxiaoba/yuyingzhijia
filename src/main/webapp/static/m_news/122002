@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>如何发现小儿得眼病-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,002",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,002",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">如何发现小儿得眼病</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 13:37:57</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p><br />　　新生儿期眼睛异常现象很多，包括先天性眼睑下垂、先天性青光眼、白内障、早产儿视网膜症等。因此如发现小宝宝眼睛不对劲，如眼睛看起来白白的(白瞳孔)、常常跌倒、畏光流泪、红眼睛、分泌物增多时，则应立即到眼科门诊作进一步检查。　 <br />　　大家都知道眼睛是灵魂之窗，对新生儿而言，各种器官正在急速发展之时，如果眼睛发生了一点闪失，恐怕就会造成一辈子无法补救的缺憾，所以新生儿的眼睛检查极其重要。　 <br />　　新生儿的视力发育　 <br />　　要了解新生儿的眼睛异常，首先要了解婴儿的视力发育。例如小宝贝的视力如何？她看得到吗？或者他到底看得清楚吗？　 <br />　　其实，刚出生三个月以内的宝宝，他的视力大约只有0.01，世界对他而言，也许只是一片朦胧、混沌不清，一直到六个月大的时候视力才为0.05，但从此以后，小宝宝的视力便开始突飞猛进，一岁时便可达0.2，直到四至五岁时，便可达到1.0成人的标准视力。　 <br />　　如果在这段视力急剧发育的时期，因为任何原因使视力发育中断，便可能造成视力永久性的损害。所以认识新生儿常见的眼睛疾病以及明白如何早期发现小宝宝的眼睛异常，应是所有父母的责任。　 <br />　　新生儿常见的眼睛异常　 <br />　　(一)新生儿结膜炎：新生儿的眼睛因为泪腺尚未发育，无法分泌足够的泪液来清洗眼睛，加上本身抵抗力较弱，所以，只要发生急性结膜炎，通常症状都会相当地严重。一般来说，新生儿的急性结膜炎大致分为三种：　 <br />　　1.淋菌性结膜炎：通常病儿的眼皮会极度红肿，几乎睁不开，而且有大量的脓状眼屎源源不绝地产生，若不好好治疗，甚至会发生角膜溃疡，进而引起角膜穿孔，甚而有失明的危险。　 <br />　　2.包涵体性结膜炎：它引起的红肿及眼屎，通常比淋菌性结膜炎轻微，而且不会造成角膜溃疡。包涵体性及淋菌性结膜炎，都是新生儿分娩时，经过母亲阴道感染的，所以身为父母，如能注意本身的卫生，就不至于遗祸下一代。　 <br />　　3.化学性结膜炎：为了预防新生儿感染，针对以上的急性结膜炎，妇产科喜欢用1%的硝酸银点新生儿的眼睛，但有时因沉于瓶底的硝酸银浓度过高，反而会造成化学性结膜炎，所幸这结膜炎很快会自行痊愈。　 <br />　　(二)鼻泪管不通：大约有4－6%的新生儿，一出生后不久便出现泪眼汪汪(通常是单眼)，而且伴随着许多的眼屎并且眼睛充血，探究其原因应该是鼻泪管不通所导致。因为我们人类的眼泪由泪腺分泌之后，必须经过位于下眼睑靠鼻侧的泪点、泪小管、泪囊、鼻泪管，最后到鼻腔排泄掉。如果泪液排泄受阻，这些无法宣泄掉的泪水，就会像一滩死水累积在泪囊里，久而久之便开始发臭，进而引起泪囊炎，所以流泪、眼屎多、红眼睛等症状便都出现了。　 <br />　　如果家长能帮小宝贝在眼窝处，由鼻根往鼻头按摩泪囊，以摒出泪囊里累积的泪水，加上点用抗生素、眼药水，90%此类患儿在六个月大的时候，便会自行打通鼻泪管。但少数六个月后仍不通的小宝宝，可能就得由眼科医生作泪管探通术，来帮助其打通了。　 <br />　　(三)先天性眼睑内翻：其实新生儿溢泪的原因，除了鼻泪管不通的问题之外，另一常见的原因是眼睑内翻造成倒睫。尤其是中国人的小孩，因为两眼鼻侧下眼皮、皮下脂肪大多比较肥厚，鼓起来会把内侧睫毛往内推，形成倒睫，于是角膜长期受到睫毛的不断刺激，充血、发炎、流泪、眼屎的情况也就不时发生。　 <br />　　如果角膜受刺伤情形不是很严重，可以先点消炎眼药膏以保护眼角膜，因为较大的幼儿随着鼻子逐渐挺起、脸部变大，眼皮也会渐渐外翻出来，也许倒睫会得以改善。但是如果在显微镜检查时角膜炎存在长期的糜烂点，担心会有细菌感染的情形产生时，就要考虑以手术将眼皮翻出来。　 <br />　　(四)弱视：一般人会认为我们看东西是用眼睛在看，其实严格说起来，这样的讲法是不正确的。我们看东西应该说是用大脑在看，而</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>眼睛只是一个光学仪器，它负责把影像传给大脑，让大脑去做判读。而小孩六岁以前，正是大脑这套视觉系统发育的黄金时期，如果在这段时期，眼睛无法将清晰的影像传给大脑，就会引起小朋友视觉机能的永久性障碍，也就是小孩子长大后，弱视的那只眼睛即使用镜片矫正，视力也无法到达0.6以上。　 <br />　　而造成眼睛无法将影像清晰地传给大脑的原因，包括：斜视、屈光不正(远视、近视、散光)，以及先天性白内障、眼睑下垂等。其治疗的方法，就是赶快把阻碍视觉发育的因素去除掉，例如有远视或散光就戴眼镜，有白内障或斜视、眼睑下垂就提早手术，总之越早治疗，越早让眼睛能够把清晰影像传给大脑越好，而且问题解决后，还要加强训练弱视的那只眼睛(将好眼包起来，强迫小朋友用弱视眼看东西)，以期弱视眼赶快发育起来。　 <br />　　(五)斜视：常有家长带着小宝贝到眼科就诊，因为他们怀疑小孩子眼睛有斜视，经检查之后，大部分都是所谓的假性内斜视。也就是刚出生的小孩子，由于鼻子较塌，内赘皮较宽，遮盖了部分的内侧白眼球，于是看起来好像黑眼球(角膜)向内缩了。　 <br />　　此时家长可拿一手电筒照小婴儿的眼睛，看灯光的反射光点，如果两眼都落在瞳孔范围以内，大概就没有问题，如果有一些落在瞳孔范围以外，就得带到眼科作检查是否真的有斜视的问题。而斜视治疗的方式，例如高度远视引起的内斜得戴眼镜治疗，出生六个月内发生的先天性内斜视，如果角度相当大，就得提早以手术来治疗。<br />  &nbsp;&nbsp; </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

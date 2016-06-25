@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>35种症状快看医生-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,212",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,212",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">35种症状快看医生</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 13:53:11</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p>　　孩子生病在所难免，但父母需要了解的是，什么情况下该去看医生？出现哪些症状是片刻也不能耽误的？ &nbsp; 　　孩子身体的一点点不舒服，都可能引起父母的内心不安或紧张，更不要说严重疾病带来的情绪波动了。在细心的观察和照顾下，父母经常能在第一时间发现疾病的蛛丝马迹，或只是孩子身体的轻微异常。 &nbsp; 　　下面是婴幼儿常见的异常状况，有的稍微延迟看医生也无关紧要，但有些需要立刻去医院检查，哪怕是夜里一点钟。 &nbsp; 　　出现下面症状，不要太紧张，但也不能大意，可以安排一个合适的时间带孩子去医院。 &nbsp; 　　1、行为异常：婴儿不会说话，他无法用语言告诉你哪里不舒服，但他的身体会“说话”，如果他出现目光呆滞、反应缓慢、过度睡眠或难以入睡，持续不断地哭闹等现象，都预示着什么地方出问题了。 &nbsp; 　　2、疼痛：婴儿的身体疼痛会让他表现得烦躁易怒，而且不容易安慰，甚至喂奶都很艰难。如果婴儿在平躺时尖声哭闹，可能是常见的耳部感染引起的。 &nbsp; 　　3、呼吸障碍：如果看到孩子呼吸时有憋气现象，或持续不断的咳嗽影响了睡眠，都要去检查。 &nbsp; 　　4、四肢柔软无力：婴儿的四肢无力或者不会摆动四肢，幼儿步态异常，都要去医院检查。 &nbsp; 　　5、颜色改变：手指甲、脚趾甲发青，或者脸色发青或苍白，有时预示着呼吸或循环系统存在问题。皮肤发黄可能暗示出黄疸或肝脏有异。 &nbsp; 　　6、持续发热：发热是人体对抗某种感染的反应，有些偶尔的体温略高持续时间很短，而且身体其他方面很正常，并无大碍。但是，假如身体高热或低热伴随着精神萎靡，就要及时看医生。 &nbsp; 　　7、呕吐或腹泻：婴儿呕吐虽然让父母烦恼，但也有的并不严重，特别是有些吐奶并不意味着疾病，而是生理现象。但如果呕吐伴随着精神不振，显出病态，或是呕吐的频率和数量比较严重，就要看医生了。腹泻也如此。 &nbsp; 　　8、尿量的变化：尿量显著的增多或减少要准确告诉医生。 &nbsp; 　　9、大便异常：大便的频率或颜色、性状的异常改变要如实告诉医生。<br />.<br />　　10、皮疹：孩子皮肤上出现的色斑、水泡、溃疡、麻疹或者任何发红的、流液的、脱皮的斑点都需要医学诊断。 &nbsp; 　　11、皮肤感染：任何发热、红肿、柔嫩或疼痛的部位有扩展迹象都要看医生。 &nbsp; 　　12、不愈合的小伤口：手上割破一个小伤口问题不大，但如果你看到伤口处变得发红、发黄或流脓，或者两天后变得疼痛或更厉害，都要去医生处检查。 &nbsp; 　　13、流鼻血不易止住：如果孩子流鼻血，你捏住他的鼻子或者在鼻子上敷了冰袋，过了10分钟发现鼻血仍然没有止住，应该马上去看医生。 &nbsp; 　　14、轻微症状变得更严重或无法解决：感冒一般两周后会自愈，如果在此期间孩子发烧或咳嗽，应去看医生。 &nbsp; 　　15、肿胀的眼睛、手或脚：任何浮肿都需要注意观察，找到原因。 &nbsp; 　　16、眼部疼痛或流液：可能是结膜炎，也可能是眼部有异物。 &nbsp; 　　17、逐渐加剧的腹部疼痛：轻微腹痛的孩子可能会扭动不安，一般在你轻轻地按揉腹部后就会有所好转。如果他不让你动他的肚子，宁愿自己待着，而且无法站立，可能是阑尾炎或其他问题。 &nbsp; 　　18、腹部胀大：腹部的异常胀大或柔软值得警惕。 &nbsp; 　　19、肚脐或大腿根部突出：这可能显示有疝气存在。 &nbsp; 　　20、阴囊胀大或疼痛（男孩）：这可能是因为疝气或阴囊未正常下降引起的。 &nbsp; 　　21、上身出现多处青紫：任何不明原因的青紫都需要经医生的仔细检查。 &nbsp; <strong>下面的症状需要你立即带孩子去看医生</strong> &nbsp; 　　半夜一点钟，你听到孩子的哭声后惊醒，发现他的体温突然异常升高，喂了退烧药，你会怎么做？守着他到天亮，还是马上出发去医院？有些症状当然可以等到天亮再去医院，但出现下面的紧急情况，你最好立刻带孩子去医院，也许耽误了一会儿，就可能耽误孩子的一生。 &nbsp; 　　1、高热<br />　　人体的发热是对感染的正常反应，很多时候不必过虑。但如果3个月以内的婴儿体温升到100。5&deg;F以上或大一点的婴幼儿体温升高到101。5oF以上，不要迟疑，立刻</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>看医生。大多数情况下，这是病毒引起的，但也有的是细菌感染造成的，有些会对婴儿造成严重后果。<br />　　不同的孩子引起发热的原因是不同的，所以除了观察体温的变化以外，还要注意其他状况。比如一个孩子如果温度在101&deg;F，但同时伴有呻吟、昏睡或极度不安等状况，而另一个孩子已经发热到103&deg;F，但没有其他状况，那么前一个孩子会让医生更加警惕和担心。 &nbsp; 　　2、呼吸困难<br />　　如果孩子在白天感冒了，那么夜晚可能会出现咳嗽，表明咽喉发炎，是上呼吸道感染的现象。单纯的咳嗽可以在家里稍微处置，如让孩子呼吸清新空气或洗个淋浴以吸入水蒸气等，从而得到缓解。但是，如果孩子明显喘息，呼吸急促或非常缓慢，或者每次喘气会使肋骨随着牵动，都要立刻看医生。<br />　　当然，咽喉发炎不是引起呼吸困难的惟一原因，其他原因比如鼻窦炎、过敏反应等也会出现呼吸困难，这些都需要医学诊断。如果孩子有慢性疾病，如哮喘，当疾病发作时也要去医院。另外还有一种情况更要警惕，即气管异物带来的呼吸困难，如果孩子不小心吞下异物阻塞气管，你能用正确处置方法帮他排除异物最好，否则就要以最快的速度带他去医院取出异物，恢复呼吸。 &nbsp; 　　3、呕吐绿色物体<br />　　通常情况下，一般的呕吐不必夜里去医院，但如果孩子的呕吐物是深绿色，就很严重了。呕吐物的这种颜色通常显示胆汁分泌和作用异常，从而造成肠内消化异常。出现这种情况，也应该即刻去医院。（如果孩子在晚上吃了大量的豌豆泥或菠菜碎末，另当别论。） &nbsp; 　　4、惊厥<br />　　大多数情况下，惊厥是温度快速升高造成的，这种高热惊厥会使孩子四肢抽动、紧咬牙关，甚至昏迷。孩子的皮肤会出现淡蓝色，体温很高，双眼上翻，引起父母的极度惊慌。待孩子平定后去医院，医生会想办法使孩子的体温降下来，而且能够让孩子感觉舒服点，必要时做进一步检查。<br />　　另外一种罕见情况是，癫痫和脑膜炎引起的惊厥。如果孩子出现上述状况而体温却不高，惊厥的时间持续超过3~5分钟，赶快拨打急救电话。 &nbsp; 　　5、脱水<br />　　婴儿和低年龄幼儿在发热、呕吐或腹泻的情况下很容易脱水，为避免出现脱水，在上述情况下最好每隔15分钟就喂孩子一点电解液或者果汁水等，无论如何，要为他的身体补充水分。如果他拒绝喝水或者其他液体，而出现眼窝深陷，嘴唇干裂，或前囟门凹陷，必须立刻去医院。脱水不容忽视，严重时它可能引起休克甚至死亡。 &nbsp; 　　6、头部受伤<br />　　孩子从床上跌落或走不稳跌倒是很常见的现象，一般并不严重。但如果跌落或跌倒后他出现意识不清、甚至昏迷，视线模糊，或者喷射状呕吐现象，这表明情况严重，可能是脑震荡，不要迟疑，立刻看医生。 &nbsp; 　　7、剧烈腹痛<br />　　大多数腹痛是病毒感染引起的，或只是单纯胀气，但个别情况是阑尾炎或肺炎造成的。如果孩子抓着胃部在床上翻转不安，或是用膝盖顶着胸部，而且尖声哭闹，无法控制，立刻去医院。婴儿无法告诉你他到底有多疼，你也无从判断，但如果你感到极度不安，还是去医院请医生检查比较好。 &nbsp; 　　8、尿中或便中带血<br />　　孩子尿中或大便中出现一丁点血迹有时无需担心，也许只是轻微的肠道撕裂。但出现这种症状还是要去看医生，以排除胃肠道异常，如梗阻或胃壁撕裂等。父母的直觉也很重要，假如你的直觉告诉你确实有问题，那就不要迟疑，马上看医生。 &nbsp; <strong>新生儿出现下列症状，马上看医生：</strong> &nbsp; * 直肠温度超过100。5&deg;F。<br />* 呼吸困难。<br />* 多次吐奶或呕吐呈喷射状。<br />* 脐部化脓或红肿<br />* 包皮环切处化脓或红肿（做了此手术的男孩）。<br />* 出生一周后每日尿量少于8次。 &nbsp; 摘自《父母》</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

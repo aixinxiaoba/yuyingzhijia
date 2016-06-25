@@ -1,0 +1,313 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>免疫接种全程指导-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,105",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,105",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">免疫接种全程指导</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 13:45:30</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p> 孩子到了多大就能打预防针？预防针该怎么打？眼下除了传统的疫苗接种外还有哪些其他疫苗呢？　<br />　<br /> 接种疫苗是通过人工的方法，使人体产生抵抗力以达到抗病防病的目的，是一种经济、有效、简便的方法。目前市场上可供人体接种的疫苗种类繁多，令人眼花缭乱、目不暇接。一般说来，大致上可分为三大类：　<br />　<br /> 一、 国家规定必需接种的疫苗，有卡介苗、脊髓灰质炎疫苗、百日咳-白喉-破伤风三联疫苗、以及麻疹疫苗，这4种疫苗可以预防结核、脊髓灰质炎、百日咳、白喉、破伤风和麻疹六种疾病。　<br />　<br /> 二、 各个省、市、自治区政府，根据当地传染病的流行情况，可规定一些指令性的疫苗，如乙肝疫苗以及流脑和乙脑疫苗。　<br />　<br /> 三、 推荐使用的疫苗：这类疫苗的效果明确，但根据国内的实际情况，只能采取“自愿接种，按价收费”的原则推荐使用。如：水痘、风疹、腮腺炎、甲型肝炎、流感嗜血杆菌、肺炎球菌多价疫苗等，对于宠物饲养者以及被宠物咬伤的人，还要接种狂犬病疫苗及有关的抗毒血清。　<br />　<br /> 新生婴儿一般在出生后就会给予疫苗接种，以后随着年龄的增长将会根据需要定期接种疫苗。　<br />　<br /> 各种疫苗接种的时间和程序：　<br />　<br /> 1、卡介苗在小儿出生时注射1针　<br />　<br /> 2、灰髓炎疫苗共接种三次，第一次接种在小儿2个月的时候，3、4个月各注射一次。　<br />　<br /> 3、百白破三联疫苗共接种三次，第一次接种在小儿3个月的时候，4、5个月各注射一次。　<br />　<br /> 4、麻疹疫苗第一次接种是在小儿8个月的时候，到1岁时复种，在6－7岁、12－13岁和18－19岁各加强一次。　<br />　<br /> 5、乙肝疫苗共接种三次，在小儿出生时、1个月和6个月时各接种一次。　<br />　<br /> 6、流脑疫苗和乙脑疫苗都是在小儿出生6个月时接种，到1岁时加强。　<br />　<br /> 对小儿来说，接种疫苗相当于得过一次轻型感染，因此凡是有下列情况，对是否要接种疫苗则应持谨慎的态度：　<br />　<br /> (1)不明原因的发热；　<br />　<br /> (2)因病正在接受治疗中；　<br />　<br /> (3)刚患麻疹或水痘不满一个月；　<br />　<br /> (4)一个月内已接种过某种疫苗；　<br />　<br /> (5)最近一年内有不明原因的抽痉史；　<br />　<br /> (6)孩子对鸡蛋过敏，最好不要接种用鸡胚培养出来的疫苗(如流感疫苗)；　<br />　<br /> (7)有心、肝、肾等重要脏器慢性疾病的孩子；　<br />　<br /> (8)早产儿如果发育不良也应暂缓接种。　<br />　<br /> 近几年来，医学界相继推出了几种新的疫苗：　<br />　<br /> 疫苗“家族”新成员　<br /> 1. 水痘疫苗：是一种活疫苗，用于预防水痘和带状疱疹，1至12岁的小儿接种一针可有10年的保护期，生过水痘的孩子已有自然免疫力，不必再种。　<br />　<br /> 2. 甲型肝炎：有国产甲型肝炎活疫苗和进口甲型肝炎死疫苗两种，前者只要种一次，后者要种两次，其保护期可达10年以上，但对其他类型的肝炎(乙、丙、丁、戊)并无保护作用。　<br />　<br /> 3. 风疹、腮腺炎疫苗经常和麻疹疫苗合在一起，称之为“麻风腮”联合疫苗，可以一次注射，同时预防这三种病毒性呼吸道传染病，但如果患者对鸡蛋或有过敏体质，则应慎用(因为这类疫苗均是从鸡胚培养中抽提出来的)，其保护期不少于5年。　<br />　<br /> 4. B型流感嗜血杆菌疫苗：B型流感嗜血杆菌和流感毫无关系，主要侵犯5岁以下的小儿，是引起2岁以下婴幼儿肺炎的主要细菌，并可引起败血症和脑膜炎等</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>，预后相当严重，据测定上海地区5岁以下的儿童血中抗体平均仅有0.07微克/毫升，远低于0.185微克/毫升的有效保护水平。婴儿可在生后3、4、5月龄时各接种一次，间隔一个月，一年后再加强一针，如果出生后6个 月内未接种过，则需接种两针，间隔也是一个月，1-5岁的儿童只需接种1针便可以了，一些发达国家已将本疫苗列入强制性接种的疫苗范围。　<br />　<br /> 5. 23价肺炎球菌疫苗：肺炎球菌也是引起肺炎的常见细菌，已知有84种血清型，本疫苗含有其中23种对人体危害最大的血清型，本疫苗主要用于2岁以上儿童及成年人和老年人，接种1针以后保护期达5年以上。　<br />　<br /> 6. 轮状病毒活疫苗：轮状病毒是引起6月-3岁婴幼儿秋季腹泻的主要病原体，患儿每日可泻10-20次，排泄物多为白色米汤样或蛋花汤样的稀水便，有恶臭但不含脓血，常可引起脱水或并发心肌炎，对2个月-2岁的小儿，每年服一次疫苗，保护率在80%左右。　<br />　<br /> 7. 狂犬病疫苗：狂犬病疫苗是人畜共患性疾病，是被携带该病毒的动物(如猫、狗、狼或马、牛、羊咬伤所致，其潜伏期一般为30-90天，一旦发病死亡率几乎高达100%，因此对被咬伤的患者，应及时清洗伤口，接种疫苗，必要时还要加用抗狂犬病血清，以策安全。　<br />　<br />　<br />附：　<br />1.接种卡介苗的新生婴儿在出生后3个月时要到防疫站做OT试验，如果检查结果呈阴性，还要补种卡介苗。　<br />　<br />2.流脑和乙脑疫苗为季节性接种疫苗，分别于每年的12月和5月份进行接种。 <br /> </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

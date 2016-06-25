@@ -1,0 +1,347 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>冬季宝宝高发病预防要点-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,499",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,499",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">冬季宝宝高发病预防要点</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:15:37</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p align="center"><img id="ImgInfo" alt="" src="/upload/152/20071122100224683.JPG" border="0" /></p> 
+ <p><strong>　　今冬可能再度爆发肺炎和腹泻&#xfffd;&#xfffd; </strong></p> 
+ <p>　　“进入冬季以来，儿科门诊量剧增，住院患者爆满，床位使用率达到了200%以上。这不是一所医院出现的现象。引起患儿增多的主要疾病是肠道感染(秋季腹泻)和呼吸道感染(肺炎)。门诊就诊的患儿中以咳嗽为主诉的占绝大多数，住院患儿腹泻占大多数。”这是去年我在媒体上发表的文章的引言</p> 
+ <p>　　作为一个大量接触病儿的医生，我认为肠道感染和呼吸道感染仍将是冬季幼儿的高发病。除了季节的原因，最根本的还是家庭护理不当造成的。”小儿患病是父母的过错”，这话有一定的道理。正因为小儿在生理和解剖上存在着薄弱环节，科学护理和预防是必不缺少的。&#xfffd;&#xfffd;</p> 
+ <p>　<strong>　莫让感冒变肺炎&#xfffd;げ灰&#xfffd;服用过多的抗感冒药&#xfffd;&#xfffd;</strong></p> 
+ <p>　　当小儿患感冒时，不要服用过多的抗感冒药是预防发展下呼吸道感染的方法之一。因为90%以上的感冒是病毒感染，在呼吸道分泌物中有许多病毒和炎性细胞，流涕、喷嚏是清除病毒的有效途径，而抗感冒药多数是针对流涕、喷嚏症状的，还有就是退热作用，当服用感冒药后，症状减轻了，但呼吸道黏膜却干燥，不但不能清除病毒，还可使细菌乘虚而入，发展致下呼吸道感冒，就像不严重的咳嗽，尤其是痰多时不宜服用镇咳药是一个道理。多休息、多睡眠、多饮水、适当退热、注意护理、勤看医生是治疗感冒、预防下呼吸道感染的好方法。&#xfffd;&#xfffd;</p> 
+ <p>　<strong>　感冒的家庭治疗&#xfffd;&#xfffd;</strong></p> 
+ <p>　　多休息、多饮水、注意呼吸道隔离、预防并并症。常用的抗病毒药有病毒唑、病毒灵，中药有金银花、板蓝根等，对症药有感冒中成药，一些感冒冲剂，退热药。还有抗病毒滴鼻液，滴眼液等。感冒的药物治疗并不是很重要的，重要的是护理好，监测体温，防止热惊，让小儿保证充足的睡眠，补充足够的水分和营养，注意病情的转归，合并症的发生。因为，感冒是自限性疾病，病毒在体内有一定的生存期。另外，一些抗病毒药的疗效也不是很可靠，有的杀伤白细胞，造成白细胞减少，因此，临床上多使用中药清热解毒，如金银花、板蓝根等；症状重的服用一些对症药，如感冒冲剂、退热药。&#xfffd;&#xfffd;</p> 
+ <p>　　<strong>不要随便使用抗菌素&#xfffd;&#xfffd;</strong></p> 
+ <p>　　人们俗称的感冒就是急性上呼吸道感染，简称上感。引起上感的病原菌主要是病毒，占90%以上，细菌的原发性感染只占少数。因此，感冒就服用抗菌素，甚至使用高级抗菌素的做法是不对的。&#xfffd;&#xfffd;</p> 
+ <p>　　小儿尤其小婴儿，上感的几率很大，每次都服用抗菌素，有的连续感冒，连续使用抗菌素，抗菌素越用越高级，结果造成小儿耐药菌生长，一旦有细菌感染，使用药物效果不佳。而且，抗菌素有许多副作用，如杀伤白细胞，使白细胞下降，进一步降低机体的抗病能力。抗菌素对胃肠道黏膜的刺激出现药物性胃炎，肠道菌群失调。长期使用抗菌素，或高级抗菌素，广谱或联合使用抗菌素，使肠道内一些非致病菌被杀灭，出现群失调，破坏肠道内微生物平衡，而出现肠道疾病，甚至出现伪膜性肠炎，机会菌――霉菌二重感染，一些非致病菌由于失去了相互制约，而成为致病菌。</p> 
+ <p>　　在我国，特别是给儿童滥用抗菌素现象非常严重。据有在报道，我国是消耗扩展力素的大国。约占世界消耗量的一半。相当于发达国家使用抗菌素量的十几倍。感冒的90%以上是病毒感染。抗菌素对病毒是无效的，要有细菌感染的证据再投用抗菌素。不要因为怕细菌感染而预防性给药，这是错误观点。抗菌素是杀灭细菌的。没有细菌使用抗菌素只能杀来白细胞。抗菌素的半衰期是不限的，最长不过几小时，没有长期作用。&#xfffd;テ胀ǜ忻埃&#xfffd;完全可以不用昂贵的高级抗菌素。据介绍，南京市中医院儿科正试得普通感冒限价治疗制度。这50元费用，包括挂号费、诊疗费、药费和胸透、血常规检查的费用。该院儿科已张贴出“治疗普通感冒常用价格表”，最便宜的为0.4元，最贵的也只有17元。&#xfffd;&#xfffd;</p> 
+ <p>　　<strong>不让咳嗽反反复复复发，不是简单服药而是黏膜保护&#xfffd;&#xfffd;</strong></p> 
+ <p>　　小儿咳嗽是一种症状，是一种保护性反射动作，通过咳嗽把呼吸道中的“垃圾”清理出来，咳嗽同时往往伴有咯痰，痰就是“垃圾”。那这么说来，咳嗽是好事，就不是止咳治疗了。不是的。当呼吸道中没有“垃圾”，只是有充血、水肿，或由于长期咳嗽刺激，使咳嗽中枢持久处于高度兴奋状态，这时的咳嗽就不是具有保护作用的反射动作了，就应该积极止咳。即使是保护性的，如果咳嗽剧烈，影响睡眠和进食，也要治疗，止咳治疗也包括祛痰，减轻呼吸道黏膜水肿，恢复气管内膜纤毛作用等。因此，止咳治疗不是简单的服用止咳药。首先要分析咳嗽的原发因素。针对病因治疗，才会收到好的结果。&#xfffd;&#xfffd;</p> 
+ <p>　　即使是气管炎，肺炎引起的咳嗽，也不一定都有活动感染，对于经久不愈的咳嗽，不要长期使用抗菌素，更没有必有长期使用抗病毒药物。没有细菌，只是病毒感染，还长期使用抗菌素只能增加药物的副作用，白细胞下降，菌群失调，胃功能受损，小儿食欲下降，是利少弊多，是不可取的。这时的治疗，应该把重点放在对呼吸道黏膜的保护、修复，功能的恢复等上，如服及维生素AD胶丸，有利于内膜的修复，多喝水，室内空气湿度适宜，使纤毛运动功能改善，痰液变稀薄，利于排出，空气新鲜，减少室内灰尘，减少理化因素刺激，帮助呼吸道内膜功能的恢复。</p> 
+ <p>　　<strong>误诊率惊人的过敏性咳嗽&#xfffd;&#xfffd;</strong></p> 
+ <p>　　小儿过敏性咳嗽是常见病，又称“咳嗽变异性哮喘”，但是，至今尚未引起医生和家长足够重视，误诊率高达95%。有许多患儿因为慢性或反复地咳嗽被当作上呼吸道感染或支气管炎，长期以来一直治“咳嗽”，都大量使用抗生素和止咳药，既延误了病情，又造成了抗生素的滥用和耐药性的一升等。联合用几种止咳药物也不见咳嗽明显好转。对这样的长期咳嗽，如用一般抗生素和止咳药物不能使症状缓解，并且除了其他器质性疾病，应想到孩子可能患了过敏性咳嗽，若能做到早发现和适当地抗过敏治疗，将有助于降低患儿呼吸道黏膜的敏感性，这样可预防发展成为哮喘。反之，若一味地治疗，将使病情发展，最终可能发展成为哮喘，严重地影响孩子的身心健康。&#xfffd;&#xfffd;</p> 
+ <p>　<strong>　家庭常备小儿止咳祛痰中药&#xfffd;&#xfffd;</strong></p> 
+ <p>　　小儿咳嗽适合选用兼有祛痰、化痰作用的止咳药，糖浆服用后附着在咽部黏膜上，减弱了对黏膜的刺激作用，本身就可达镇咳目的，服用时不要用水稀释，也不用水送服。&#xfffd;&#xfffd;</p> 
+ <p>　　按中医理论，把咳嗽分为热咳、寒咳、伤风咳嗽和内伤咳嗽，选用中药止咳糖浆时，因药性不同，也有寒、热、温、凉之分，须对症服用。&#xfffd;&#xfffd;</p> 
+ <p>　　蛇胆川贝液具有驱风镇咳、除痰散结之功效，主治风热咳嗽、咳嗽多痰等症，对于风寒引起的咳嗽、咯白稀痰、夜重日轻者切勿使用。&#xfffd;&#xfffd;</p> 
+ <p>　　复方枇杷膏具有清肺、止咳、化痰之功效，适用于风热咳嗽、咽喉干燥、咳嗽不爽等症。&#xfffd;&#xfffd;</p> 
+ <p>　　鲜竹沥药性偏寒，有清热润肺、化痰止咳作用，适用于燥咳及痰黄带血者，风寒咳嗽则不宜服用。&#xfffd;&#xfffd;</p> 
+ <p>　　消咳喘药性偏热，不能用于小儿的发热咳嗽、痰黄带血者。百日咳糖浆药性偏温，用于伤风感冒引起的咳嗽比较适宜，如果是风热感冒引起的咳嗽则不可服用。虚证咳嗽多为慢性咳嗽，且咳嗽无力，并伴虚弱多汗，四肢发凉，此时宜用桂龙喘丸、固肾咳喘丸等。&#xfffd;&#xfffd;</p> 
+ <p>　　伤风止咳糖浆，也叫非那根糖浆，以止咳为主，兼顾化痰，并有镇静作用，适用于夜间咳嗽多痰、影响睡眠及由于过敏引起的支气管炎等病，小儿要掌握好剂量。&#xfffd;&#xfffd;</p> 
+ <p>　　在治疗咳嗽时，不要长期服用抗菌素，要找出病因，在治疗原发病的基础上，选择恰当的止咳祛痰药，注意护理。</p> 
+ <p>　　<strong>紧急止泻争取不住院&#xfffd;で卸狭餍懈剐捍&#xfffd;染&#xfffd;&#xfffd;</strong></p> 
+ <p>　　秋季腹泻多是由轮状病毒引起的感染，好发季节是秋冬，易发于两岁以内小儿，是流行较广的小儿传染病。集体机构可“全军覆没”。因此，预防是关键。&#xfffd;&#xfffd;</p> 
+ <p>　　1、秋季腹泻是传染病，经粪口传播，也可通过气溶胶形式经呼吸道感染而致病，所以，做好肠道隔离和呼吸道隔离是很重要的。患有秋季腹泻的患儿可从大便中排出大量的轮状病毒，可于感染后1―3天开始排出，最长可排6天。&#xfffd;&#xfffd;</p> 
+ <p>　　2、父母处理完患儿大便后要彻底清洗手部、被粪污染过的物品，以免造成粪口传播。</p> 
+ <p>　　3、在腹泻流行季节，宝宝不要接触患病儿，不要带孩子到人群多的场所玩耍。&#xfffd;&#xfffd;</p> 
+ <p>　　4、要保持室内空气新鲜、流畅。&#xfffd;&#xfffd;</p> 
+ <p>　<strong>　家庭护理要点&#xfffd;&#xfffd;</strong></p> 
+ <p>　　患了秋季腹泻，家长最重要的要保证小儿液体的摄入，如果小儿不吐，要用最大的耐心频频地给孩子喂口服补液，就像静脉点滴那样，一点一点地喂，只要把住脱水这一关，小儿的渍情就不会恶化。口服补液不但能够补充小儿由于腹泻而丢失的液体，还能有效的减少腹泻，增加肠道内水分和电解质的吸收，起到止泻的作用。由于口服补液盐在临床中的广泛使用，挽救了成千上万的儿童。合理的使用口服补液不但减少医疗开始，也可减轻孩子由于住院输液所受的痛苦。&#xfffd;&#xfffd;</p> 
+ <p>　　秋季腹泻是病毒感染，使用抗菌素是无效的，相反还可能造成小儿肠道正常菌群失调，加重腹泻症状。家长不要盲目使用抗菌素。&#xfffd;&#xfffd;</p> 
+ <p>　　不要禁食，要继续给孩子喂奶，可把粥、面条等改成米汤，并且在米汤中加少许食盐，米汤要熬的黏一些，稠一些，起到收敛的作用。暂时停部分辅食，如肉蛋菜水果等，待腹泻减轻再开始食用，但停食辅食时间不要过长，一般3天以内。要保证小儿每日所需热量和营养。&#xfffd;&#xfffd;</p> 
+ <p>　　体温超过38℃，使用退热药。&#xfffd;&#xfffd;</p> 
+ <p>　　呕吐严重，不能口服补液，必须立即静脉输液。不要犹豫，不要等待，一旦出现脱水，就会危及患儿生命。&#xfffd;&#xfffd;</p> 
+ <p>　　一定不要给小儿喝任何饮料代替口服补液。</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

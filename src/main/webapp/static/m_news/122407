@@ -1,0 +1,363 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>新生儿可能碰到的疾病或异常-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,407",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,407",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">新生儿可能碰到的疾病或异常</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:07:36</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p>　　胎儿的孕育过程可能暗藏各种危机，会造成部分新 生儿疾病和异常的发生。 </p>
+ <p>　　<strong><font color="#0000cc">染色体异常</font></strong></p> 
+ <p>　　1．唐氏症候群：染色体异常的疾病种类繁多，最常见的非“唐氏症候群”(俗称“蒙古症”)莫属。</p> 
+ <p>　　唐氏症候群的宝宝，外观上有相当鲜明的特征，往往一眼便能确认出来。这些特征包括：两眼分得较开、外眼角往上扬、内眼角的皱褶较厚、嘴巴常开且舌头伸出来、手掌有横断掌面的掌纹、双手的小指头向内弯曲而且外表看来只有两节。</p> 
+ <p>　　除了外观上的异常，这些小宝宝还往往合并了先天性  心脏病；在婴儿时期肌肉张力过低而影响到动作的发展；在成长阶段会因智能不足而影响了学习。虽然负面的影响很多，但正面的影响也有，这些唐氏症宝宝，个性很温和、很开朗，每天都愉快。</p> 
+ <p>　　我们身体细胞中的染色体，共计23对，每对有两个，当第21对的染色体多出1个，变成3个时，便产生了唐氏症。怀孕期取绒毛膜细胞或羊水细胞做染色体检查即可发现此症。若前一胎为唐氏症或母亲为高龄产妇，皆可接受上述检查，一旦证实胎儿为唐氏症，在优生  保健的前提下，可考虑  人工流产。</p> 
+ <p>　　谈到治疗，染色体异常是无法改变的事实，因此，所谓治疗只是针对所产生的缺陷做处置，譬如：先天性心脏病可能须手术矫正；智能不足则需仰赖特殊教育的协助。“预防胜于治疗”用于染色体异常是再贴切不过的了。</p> 
+ <p>　　2．爱德华氏症：第18对染色体若有3个，称为“爱德华氏症”。外观上最具特征的是手部：食指会叠在中指上，小指叠在无名指上。颜面部与心脏、肾脏的异常自不在话下。这些婴儿出生时体重多半不足，90％的个案在周岁内死亡，活过周岁的也多半是重度智障，所以一旦诊断确定，便不做任何积极的治疗。</p> 
+ <p>　　3．巴陶氏症：当第13对染色体出现3个，称为“巴陶氏症”。这些婴儿有很严重的异常，包括唇裂与颚裂、前脑发育不良、先天性心脏病等，往往活不过周岁，即使活过周岁，也是重度智障，因此多半不考虑积极的治疗。<br />神经管缺陷</p> 
+ <p>　　脑与脊髓是人体的神经中枢，质地就像豆腐，非常的脆弱，因此需要有一个硬壳或盔甲来保护，这个保护脑与脊髓的头盖骨与脊椎骨所包含的空间，便是所谓的“神经管”。</p> 
+ <p>　　神经管若闭合不全，亦即头盖骨或脊椎骨有裂缝，便是所谓的“神经管缺陷”。</p> 
+ <p>　　脊椎骨有裂缝又称为脊柱裂。脊柱裂可以没有任何症状，一辈子相安无事。但若是脊髓或脊髓膜由这个裂缝脱垂出来，暴露在外，便会出现症状，这种情况称为脊髓或脊髓膜膨出。</p> 
+ <p>　　脊髓或脊髓膜膨出的部位多半在腰椎与尾椎处，所产生的症状包括下肢无力、脚掌内翻、下肢皮肤没有痛觉、大便失禁、小便无法自解。除了神经症状，膨出处也很容易感染，导致  脑膜炎。</p> 
+ <p>　　头盖骨有裂缝，使得脑组织由裂缝处跑到头骨外面，称为脑膨出。脑膨出并不见得会有症状，很容易因感染而产生脑膜炎倒是真的。</p> 
+ <p>　　一旦发现出生婴儿有脑膨出或脊髓或脊髓膜膨出，必须尽快手术治疗；若已出现感染，手术就要延后，先用药物把感染控制住了才开刀。</p> 
+ <p>　　手术治疗不是事情的结束而是事情的开始，尤其是脊髓膨出的小孩。这些小孩在手术之后，仍需长期的复健。除了下肢的活动之外，膀胱功能的训练也不可省，否则极易尿路感染，进而损害肾脏。</p> 
+ <p>　　<strong><font color="#0000cc">先天性代谢异常</font></strong></p> 
+ <p>　　目前，新生儿一般都接受新生儿筛检，目的是要及早诊断出某些先天性代谢异常的疾病，以便及早治疗。先天性代谢异常的种类繁多，筛检只针对下列4项：先天性  甲状腺功能低下、苯酮尿症、高胱胺酸尿症及半乳糖血症。</p> 
+ <p>　　先天性甲状腺功能低下的婴儿，肌肉张力低、发育迟缓、舌头较厚且常半露在外，若不子以治疗，则成长以后身材短小、智能不足。治疗方式很简单，每日服用定量的甲状腺素即可。</p> 
+ <p>　　苯酮尿症的婴儿较无特征，但婴儿时期发育迟缓是必然的，及长则呈现智能不足。治疗须靠特殊的饮食或特别调配的牛奶来供给营养，另外还要补充某些化学物质或神经传导物质。</p> 
+ <p>　　高胱胺酸尿症的婴儿可能没有明显的症状，及长则水晶体脱位、智能不足或身材瘦长等症状就逐渐浮现出来，有些个案还会因脑血管阻塞而出现  中风的症状。治疗上除了饮食控制外，还需要补充叶酸与维生素B6。</p> 
+ <p>　　半乳糖血症的婴儿除了会呕吐、  腹泻、体重不增外，还有  白内障、黄疸、肝脏肿大的症状。治疗需靠饮食控制，排除含半乳糖的食物。</p> 
+ <p>　　<strong><font color="#0000cc">重型地中海型  贫血</font></strong></p> 
+ <p>　　地中海型贫血肇因于血色素异常，导致红血球寿命减短，而出现贫血的症状。</p> 
+ <p>　　轻型地中海型贫血不会有任何症状，也不需任何治疗，患者可享有与一般人相同的生活与寿命。重型地中海型贫血的患者除了有贫血的症状，如脸色蜡黄、食欲不振、体力欠佳、容易疲倦等，肝脾也会肿大，必须定期输血并长期注射去铁剂；但输血只是暂时性改善症状和延续生命，根本治疗必须仰赖骨髓移植。</p> 
+ <p>　　如果家中已有地中海型贫血的个案，全家人都必须检查，以确定是否为地中海型贫血的带原者，以作为优生保健的基准。</p> 
+ <p>　　<strong><font color="#0000cc">先天性心脏病</font></strong></p> 
+ <p>　　心脏的构造如同相连的房间，房间之间有墙壁隔开，而每个房间都有各自独立的出入口。当墙壁上有了破洞，就是所谓的心房或心室中隔缺损；当这些门太过狭窄了，就是所谓的肺动脉或主动脉狭窄；若是门关不紧，就是所谓的瓣膜闭合不全。以上这些全属先天性心脏病。</p> 
+ <p>　　先天性心脏病所呈现的症状可轻可重，轻者不需任何治疗，饮食活动也不受限制；重者除了需限制饮食、限制活动，还需药物治疗和手术治疗。一般常见的症状包括心脏有杂音、呼吸很喘、胃口不好、全身水肿等。另有一类型的先天性心脏病，由于静脉血会流到动脉中，因此手指与嘴唇会失去原来鲜红的血色，外表看起来呈紫色，称为发绀型先天性心脏病。</p> 
+ <p>　　除了少数极为复杂的先天性心脏病之外，绝大部分的先天性心脏病病童经药物治疗或手术治疗，皆可获得痊愈或长足的改善。</p> 
+ <p>　　<strong><font color="#0000cc">风湿性心脏病</font></strong></p> 
+ <p>　　当链球菌侵犯我们的喉咙与  扁桃腺时，若没有彻底的治疗，有时就会引起风湿性心脏病。</p> 
+ <p>　　风湿性心脏病的前身是  风湿热，当心脏病的症状还没出现时，病童可能先经历过发烧、关节痛、皮肤红疹、皮下结疖或手脚不自主的舞动等症状。等到心脏及其瓣膜受到侵犯与破坏，病童就会出现心脏杂音与心脏衰竭的症状。心脏衰竭的症状包括尿少、呼吸喘、食欲不振、下肢水肿、腹腔积水、肝脾肿大、心脏扩大等。</p> 
+ <p>　　就治疗而言，一旦出现心脏衰竭的症状，就必须避免摄取过多的水分，还要服用利尿剂以利水分的排出，服用强心药增强心脏收缩的力量。病情稳定之后，需每隔4周注射一剂青霉素，以免链球菌再度上身，而使风湿性心脏病复发。</p> 
+ <p>　　<strong><font color="#0000cc">小儿麻痹</font></strong></p> 
+ <p>　　小儿麻痹之产生，是由于小儿麻痹病毒侵入人体脊髓，把脊髓中的运动神经细胞破坏了的缘故。运动神经细胞掌管我们肢体的活动，一旦受到破坏，肢体自然无力、萎缩，所以才有“小儿麻痹”的称呼。</p> 
+ <p>　　小儿麻痹感染之后，最初期的症状是高烧不退，严重的话，甚至会昏迷、  休克、呼吸困难。在住院观察期间，手脚无法活动的现象便逐渐显现，通常只有单侧的手脚产生麻痹。病童如果度过急性期，生命得以保存下来，通常意识与智能可以恢复到正常，不过手脚麻痹则为永久的后遗症。</p> 
+ <p>　　目前对于病毒感染仍无有效的药物治疗，所以预防就显得更为重要了。只要按时服用小儿麻痹口服疫苗，就可以预防小儿麻痹的产生。</p> 
+ <p>　　<strong><font color="#0000cc">雷氏症候群</font></strong></p> 
+ <p>　　病毒感染之后，有些小孩会莫名其妙地出现抽筋、昏睡、昏迷等急  性病变的症状，这种状况临床上称为“雷氏症候群”。</p> 
+ <p>　　典型雷氏症候群的发病过程是这样的：小孩得了  感冒，症状并不严重，但几天之后，突然开始呕吐，变得很爱睡，很快地抽筋也出现了，再没多久，病人便呈现昏迷。昏迷了好几天，有些病童就此逝去；有些终于渡过难关，虽然恢复了知觉，但  癫痫、智能障碍、肢体麻痹等神经后遗症却伴随一生。</p> 
+ <p>　　在发病的急性期，除了脑部的症状之外，病童的肝脏会肿大，肝功能与凝血功能也不好，这些都是治疗上必须一一处理的问题。</p> 
+ <p>　　雷氏症候群的产生是防不胜防的，但流行病学的研究告诉我们，在水痘的流行期，减少服用阿司匹林类的退烧药，可以降低雷氏症候群的发生率；若在雷氏症候群的初期，当病童尚未陷入昏迷时，便给予积极的治疗，可以减少神经后遗症的产生。</p> 
+ <p>　　<strong><font color="#0000cc">早产儿<br /></font></strong><br />　　怀孕的时间不足37周，胎儿便生了下来，就是早产儿。</p> 
+ <p>　　早产的原因很多，母体身体状况欠佳、胎盘功能不良、子宫颈闭锁不全、胎儿有先天性感染病症或畸形，都有可能造成早产。此外，多胞胎的试管婴儿也是早产的原因之一。</p> 
+ <p>　　早产儿依据其成熟度不同，会有不同的并发症。怀孕周数愈接近足月，譬如35～36周的早产儿，几乎没有任何并发症，照顾上与足月儿无异；但是怀孕周数只有28～29周的早产儿，问题可就严重了。</p> 
+ <p>　　由于  医疗技术与设备日益精进，许多体重极轻的早产儿都得以存活下来，但种种的并发症一旦出现，导致不同的后遗症，往往婴儿本身没有生活品质，同时也会耗费许多社会资源。亡羊补牢永远于事无补，如何防范早产儿的产生才是根本之道。</p> 
+ <p>　　<strong><font color="#0000cc">先天性失聪</font></strong></p> 
+ <p>　　先天性失聪的原因包括先天性感染和先天性脑发育异常，另有少部分是与遗传有关。</p> 
+ <p>　　失聪的婴儿，由于听不到声音，所以不容易被突然发出的巨响给惊吓；四周若有人声或音乐声，不会引起他的注意，更不会有循声去找声源的转头动作。到了周岁左右，听觉正常的小孩会开始学着大人发出声音来，听觉丧失的小孩就没有办法发出有意义的声音，更不用说以后的语言能力了。</p> 
+ <p>　　听觉丧失固然少了一件沟通的工具，在人生的起跑点上是吃亏很多；然而如果能及早发现到小孩听觉有问题，早点给予手语与唇语的训练，那么小孩的沟通能力与学习便不会受到太大的影响，&nbsp; 日后的成就也与常人无异。</p> 
+ <p>　　<strong><font color="#0000cc">先天性失明</font></strong></p> 
+ <p>　　先天性双眼失明的情况并不多见，绝大多数是因胎儿遭遇先天性感染，导致白内障、视网膜病变或视神经萎缩，因而双眼失明。</p> 
+ <p>　　双眼失明的婴儿，眼睛会漫无目的地四处飘动，无法凝视一个光源或一个物体。正常的婴儿在2个月大的时候便能够注视着眼前父母的脸，一旦对着他笑，他也会跟着笑，或随着父母的移动而转动他注视的方向。双目失明的小孩，就无法观察到这些反应。</p> 
+ <p>　　失明如果是白内障所引起的，手术摘除水晶体后，配上眼镜或植入人工晶体，婴儿的视觉可以获得显著的改善。如果是视网膜病变或视神经萎缩的话，就没有任何有效的治疗方法。</p> 
+ <p>　　虽然针对失明，目前根本没有治疗之道，但只要社会能提供一个无障碍的空间，这些小孩都可以正常地成长、学习、工作，与常人无异。 </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>
