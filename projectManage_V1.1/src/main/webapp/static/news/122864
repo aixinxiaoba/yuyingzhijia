@@ -1,0 +1,461 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>用自体脐血为宝宝保驾护航-新生儿-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/122864"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/xinshenger2.png)'
+			 href="/static/menu/bm/xinshenger2" alt="新生儿" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=150" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/xinshenger2'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/tezheng/1">新生儿特征</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jibing/1">新生儿疾病</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/huli/1">新生儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=150" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=150&menuID=153" rel="nofollow">新生儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					用自体脐血为宝宝保驾护航
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=150" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-25 19:46:40</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p>
+  <!--画中画开始--> 
+  <!--画中画结束--> </p>
+ <p>生命遭遇“风雨”时</p> 
+ <p>　　虽然宝宝是最鲜活的小生命，但又是那么的稚嫩，经常会在生命历程的“风雨”中摇曳，甚至被吞噬。令人惊喜和庆幸的是，飞速发展的科学技术给宝宝带来了生命的福音。如果宝宝出生时，父母把他们的脐血储存下来，办理一份《脐带血干细胞储存医疗保险》，那么将会对宝宝的健康成长有着特别的意义。当宝宝的生命遭遇“风雨”时，脐血中的干细胞可为他们保驾护航――</p> 
+ <p>　　“风雨”一</p> 
+ <p>　　国家卫生部最新统计数字显示，各种血液性疾病的发病率正在逐年增长，每年新增患者大约4-5万，其中，18岁以下青少年患病率超过了50%，已成为严重影响青少年身体健康的第一恶性疾病。</p> 
+ <p>　　宝宝患上血液病，进行造血干细胞移植是有效的治疗手段之一。目前，子女20岁以下的家庭，独生子女占相当大比例，需要时难以得到同胞手足提供的造血干细胞；即或找到非血缘配型相合的造血干细胞，高昂的移植费用(大约为20万元)也往往让人难以承受，而脐血是一条自救之路，只不过，以前脐血都被废弃掉了，不可能进行干细胞移植。</p> 
+ <p>　　自体脐血保驾护航作用</p> 
+ <p>　　作用1&#xfffd;很快找到配型绝对完美的干细胞</p> 
+ <p>　　宝宝出生时，如果办理一份《脐带血干细胞储存医疗保险》，那么便可将一生只有一次的干细胞储存在干细胞库中，无异于保存了宝宝0岁时完整的免疫系统，使他们在成长的岁月中拥有一份生命的保障。由于是自身造血干细胞，所以是绝对完美的组织配型，一旦患血液病，马上即可取出移植，使病情得到快速、有效控制，生命得到挽救。</p> 
+ <p>　　作用2&#xfffd;干细胞移植后成功率高</p> 
+ <p>　　0岁婴儿脐血中的未成熟的造血干细胞，受病毒感染的机会少，更为纯净，数量也较多；免疫细胞还不成熟，移植后不易发生排斥反应，或仅发生轻微反应，移植成功率高。</p> 
+ <p>　　作用3&#xfffd;可对多种组织器官进行修复</p> 
+ <p>　　造血干细胞不仅可治疗血液病，还可对机体多种组织器官的病变、衰老及损伤进行修复，如神经系统、癌症、糖尿病、心脑血管等50多种疾病。</p> 
+ <p>　　作用4&#xfffd;解除高额移植费用的后顾之忧</p> 
+ <p>　　储存脐血，尽管首次需自付5000余元人民币，此后每年交纳500余元保管费，但20年后总费用也仅是1.5万元左右。另外，如果在天津脐带血造血干细胞库储存脐血，当时即可获一份中国人保公司的《脐带血干细胞储存医疗保险》。其价值为30万元人民币，一旦在22周岁前患上恶性血液病等需要移植的大病，其中的20万元可做移植手术保险金，为患者解除难以承受的高额移植费用的后顾之忧。</p> 
+ <p>　　主题链接――脐血移植成功实例</p> 
+ <p>　　实例1 </p> 
+ <p>　　1988年，法国医生进行了第一例同胞血缘间脐血移植。患儿患上了范可尼贫血(恶性血液病)，脐血移植后他的病很快被治愈，现在，这位患儿已经是一名健康的大学生了。</p> 
+ <p>　　实例2</p> 
+ <p>　　2000年冬天，不满5岁的幼儿唐仕杰患上重症地中海贫血，每个月都要输血，巨额费用难以让患儿继续接受治疗，生命受到严重威胁。为此，母亲又怀一胎，经产前检查，胎儿脐血与患儿配型相合。于是，湖北荆州第一人民医院在胎儿分娩后，给患儿进行了血缘关系间脐血干细胞移植手术。手术很成功，患儿身体恢复得很好，2001年活蹦乱跳地出院了。</p> 
+ <p>　　实例3</p> 
+ <p>　　2001年，中国医学科学院血液病医院为4位难治性血液病患儿，进行了非血缘关系间脐血干细胞移植手术，并进行了全疗程的观察。这4位患儿的年龄分别为3岁、4岁、9岁和11岁，经过30多天的治疗观察，检测结果显示，移植入患儿体内的脐血干细胞已经生长，重建正常的骨髓造血功能，其中有3位患儿已被成功治愈。</p> 
+ <p>　　“风雨”二</p> 
+ <p>　　宝宝出生后，身体尚未发育成熟，免疫功能相对低下，各种疾病经常伴随在他们的成长之中，如呼吸道、消化道、泌尿道感染或消化不良；缺铁、缺钙、缺锌、缺乏各种维生素和微量元素等常见病和多发病，尤其是在生命的最初3年内，很多宝宝经常需要父母带到医院就诊。现今，医疗费用较为昂贵，即使患上一个很小的病也得花上不少的费用，较大或治疗上较复杂一点的疾病，会给家庭带来沉重的经济重负，使一些患儿失去最佳治疗机会或时间。</p> 
+ <p>　　自体脐血保驾护航作用</p> 
+ <p>　　中国人保公司为储存自体脐血宝宝提供的30万医疗保险金，其中的20万元可用于防大病。即使用不上，也可使宝宝获得10万元普通疾病治疗的保险金。在宝宝18岁前，因规定以外非遗传、非先天性疾病，在公司认可的医院进行治疗的费用，超过200元以上部分，公司可按70%的比例给付住院医疗保险金，最高限额每年为10万元。这样，便可为宝宝提供及时就医治疗的机会，弥补了我国3岁以下儿童普通医疗保险的空白，使宝宝健康成长。</p> 
+ <p>　　主题链接――全国首例脐血自体储存医疗保险赔付</p> 
+ <p>　　2001年8月，卞淑珍女士在渤海石油医院生下宝宝小妙萌，出生时为她办理了脐血储存合同，得到一份中国医学科学院血液病研究所协和干细胞库特意与中国人保公司开辟的《脐带血干细胞储存医疗保险》。</p> 
+ <p>　　2002年初，小妙萌不幸染上了肺炎，住进医院进行治疗，出院时医疗费用为1000余元。2002年3月8日，卞女士将治疗费用清单送至协和干细胞库。按照《脐带血干细胞储存医疗保险》之规定，协和干细胞库与中国人保公司在3日之内，便为小妙萌办妥了赔付医疗费744.11元的手续，并于3月13日将赔付款送至小妙萌家。</p> 
+ <p>　　目前，协和干细胞库与中国人保公司已为70多位办理储存脐血的宝宝做了赔付，最高赔付额为1.4万元。</p> 
+ <p>　　背景资料</p> 
+ <p>　　脐血自体储存医疗保险的优势</p> 
+ <p>　　优势1&#xfffd;中国人保公司是国家AAA级信用单位，国家为了尽快普及脐血储存，也为使脐血真正应用于临床(临床上70%的患儿父母无力支付20万左右的治疗费用)，开创了我国保险业先河，即保额高，最高保额为30万元，无须再交保险费，只要每年按时交纳脐血保管费即可；一份普通保险最高保额只为5万元，每年还须交费700余元保险费。</p> 
+ <p>　　优势2&#xfffd;国内一般儿童医疗保险，都是在3岁后生效，脐血储存保险则在出生后90天即开始生效。</p> 
+ <p>　　优势3&#xfffd;中国人保公司为全国通保企业，范围广泛，可异地进行理赔。</p> 
+ <p>　　权威专家Q与A</p> 
+ <p>　　Q：我是一位怀孕6个月孕妇，准备在宝宝出生时做脐血自体储存。请问，我国目前建立了几家脐血库？是否已通过卫生部的批准及执业验收？是否获得卫生部颁发的执业许可证？</p> 
+ <p>　　A：2001年8月，卫生部已经批准在北京、天津、山东、上海、浙江、四川、广东等七个地区建立脐血库，试运行一年后，卫生部将对脐血库进行执业验收，合格后获得卫生部颁发的执业许可证。2002年11月1日，作为国家干细胞工程技术研究中心、干细胞产业化基地重要组成部分的天津脐带血造血干细胞库，以及北京脐带血库，正式通过了卫生部组织的专家组验收，获得了卫生部颁发的执业许可证，允许提供脐血给临床使用，你可选择它们储存脐血。</p> 
+ <p>　　Q：我在年初分娩时为宝宝做了脐血储存，今后一旦需要脐血也许已过很多年。请问，脐血可保存多久？</p> 
+ <p>　　A：国际上开展对脐血的储存和移植研究不过十几年，还没有足够的时间来证实它究竟能储存多久。但美国有脐血储存11年成功移植的病例，且与脐血相似的骨髓储存已有30年以上的成功病例。因此，从细胞保存的历史来看，脐血干细胞是能够长期储存的。</p> 
+ <p>　　Q：我打算分娩时在天津脐带血造血干细胞库储存脐血，请问，它们的储存技术可靠吗？</p> 
+ <p>　　A：天津脐带血造血干细胞库，是严格按照国际最先进标准建立的，无论在脐血的采集、储存及移植上，都与国际先进水平同步，现是国内造血干细胞研究和临床移植最权威的脐血库，储存着来自全国各地近万份脐血，已成功地为临床移植提供了十几份脐血。-</p> 
+ <p>　　脐血储存咨询热线：</p> 
+ <p>　　指导专家简介</p> 
+ <p>　　韩中朝&#xfffd;法国生命博士，历任法国布列塔尼医学院助理研究员、巴黎血管及血液学研究所研究员、细胞分子生物学研究室主任、巴黎第七大学教授及博士生导师。现任中国医学科学院协和医科大学血液学研究所所长、血液病医院院长、国家卫生部脐带血专家委员会副主任委员、国家干细胞工程研究中心主任、实验血液学国家重点实验室主任及国家“长江学者计划”特聘教授。先后获国内外自然科学和科学进步奖8项、国内外发明专利11项及国家自然科学技术二等奖等。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=122505">给新生儿用药有哪些注意事项</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/tezheng/1" >新生儿特征</A>
+				<A href="/static/menu/sm/jibing/1" >新生儿疾病</A>
+				<A href="/static/menu/sm/huli/1" class='thisclass'>新生儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=150&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/122504">新生儿黄疸简介</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122503">新生儿窒息如何治疗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122502">不易察觉的新生儿肺炎</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122501">新生儿冬季呼吸道疾病的护理</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122500">新生儿硬肿症治疗有新招</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"122864"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

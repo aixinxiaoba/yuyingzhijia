@@ -1,0 +1,495 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>新生儿五官照护和发育异常-新生儿-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/123921"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/xinshenger2.png)'
+			 href="/static/menu/bm/xinshenger2" alt="新生儿" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=150" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/xinshenger2'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/tezheng/1">新生儿特征</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jibing/1">新生儿疾病</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/huli/1">新生儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=150" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=150&menuID=153" rel="nofollow">新生儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					新生儿五官照护和发育异常
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=150" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-25 22:51:34</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p align="center"><img alt="新生儿五官照护和发育异常" src="/upload/153/20070921111642463.jpg" border="1" name="MM" /></p> 
+ <p>　　总是被爸妈悉心呵护的小宝宝，一天不知道要被爸妈端详多少遍呢，爸妈总是满心憧憬着宝宝的成长。但是在期待宝宝成长的过程中，您是否用心观察过孩子的五官和五感发育，是不是跟得上发育的脚步？毕竟一个健康的孩子，不只是由沉甸甸的体重，更需要五官、五感的协调发展。如果能及时发现异常，及早接受治疗，才不至于耽误孩子的黄金学习期。</p> 
+ <p>　　<strong>皮肤&nbsp; 皮肤感觉（触觉、痛觉、温度觉）</strong></p> 
+ <p>　　护理之道</p> 
+ <p>　　宝宝的皮肤特别柔嫩，需要更小心的呵护，尤其婴儿体内免疫机制尚未完全建立，若皮肤稍微有破皮，就有可能发生感染，提醒照顾者，请先动手剪短指甲吧！这样才不会把小宝宝的皮肤刮伤。另外，需要多洗手，以免造成婴儿的感染。</p> 
+ <p>　　新生儿不论脸上或全身皮肤都一样的娇嫩。由于表皮薄，皮肤富于血管而呈现浅红色。多数新生儿在出生2～3天开始出现黄疸，7～10天则会消退。如果是喂食母乳，则可能要到一个多月才会消退。</p> 
+ <p>　　宝宝的皮肤应该如何保养？最好的方式就是沐浴和抚触。帮宝宝洗澡时，水温约控制在38～40℃之间；擦干身体的毛巾一定要轻柔，轻轻吸干宝宝身上的水分即可；洗澡后适当涂抹婴儿专用护肤用品。</p> 
+ <p>　　随时用心抚触宝宝的皮肤，是照顾者和宝宝最好的沟通方式。一份无尽的爱和关怀，就从指尖流露出去，让宝宝有安全感和稳定的情绪。</p> 
+ <p>　　及早发现异常</p> 
+ <p>　　栗粒汗疹&nbsp; 新生儿脸上常见的皮肤疹，长在下巴或鼻头处带有白色针头大突起的疹子，主要是因为皮脂腺阻塞造成，几周内会自行消失。</p> 
+ <p>　　胎记&nbsp; 部分新生儿身上难免会有一些“印记”，如血管瘤、葡萄酒色斑、火焰斑、蒙古斑、咖啡牛奶斑和痣等，这些都是与生俱来的胎记，是否影响宝宝的健康，都需要儿科医生来判断。多数的胎记会随着时间而淡去或消失，但也有些胎记是终生都不会消退的。另外，若葡萄酒色斑长在半边脸的上半部，有可能并发脑部的病症或是青光眼；而又大又突起或多毛的痣有可能会转为恶性的，需要爸妈特别注意。</p> 
+ <p>　　尿布疹&nbsp; 尿片质量不好、更换太少或宝宝体质差，在炎热的夏天很容易让宝宝得尿布疹，这些是可以通过父母的适当照顾来避免的。</p> 
+ <p>　　黄疸&nbsp; 体内红血球破坏后会产生所谓的“胆红素”，当红血球破坏过速，或是胆肝功能障碍导致胆红素代谢异常时，会造成身体胆红素的堆积，使得皮肤变黄，则会产生所谓的黄疸。大部分东方新生儿都会或多或少产生所谓的“生理性黄疸”。如果不是太严重，一般都会自愈，严重的就需要到医院去看医生了。</p> 
+ <p>　　痱子、热疹&nbsp; 多半出现在身体温度容易过热的部位，只要给宝宝穿着宽松的衣服，都可以有效地控制。一般人，尤其是老人总是给婴儿包裹过多的衣服，这样反而会让婴儿不舒服、出汗、起热疹，甚至会增加婴儿猝死的机会，不可不慎！</p> 
+ <p>　　脂漏性皮肤炎&nbsp; 好发于6个月内的婴幼儿，会在眉间、发际或脸上出现黄色油性分泌物，一般都会自愈。</p> 
+ <p>　　异位性皮肤炎&nbsp; 这些多与个人和家族特殊敏感病史有密切关系。有异位性皮肤炎的宝宝，最好是吃母乳或是水解蛋白奶粉。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong>口&nbsp; 味觉</strong></p> 
+ <p>　　护理之道</p> 
+ <p>　　一般的新生儿无需做口腔护理，只要在喝奶后，用柔软的小毛巾将牙龈上的奶渣和嘴角的奶渍擦净即可。如果有其他口腔疾病，也要先请医生诊治过后，再视情况进行相关护理，千万不要任意涂抹药品在婴儿口腔粘膜上。</p> 
+ <p>　　婴儿约在6个月开始长出第一颗乳牙，有的孩子则会更早，只要开始长牙，家长必须要帮宝宝进行洁牙工作。每次喝奶后，用婴儿小牙刷轻轻刷齿面；同时也要开始定期去牙医那儿做牙齿发育情况的检查，为以后小宝宝拥有一口漂亮的贝齿打下基础。不论是喝母乳或使用奶瓶喂奶，都要抱着宝宝喂食，并尽可能地在20分钟内喂完，不要让宝宝边睡边喝奶，避免发生奶瓶性龋齿。</p> 
+ <p>　　另外，要提醒父母的是，不要让别人给小宝宝随意喂食食物。</p> 
+ <p>　　及早发现异常</p> 
+ <p>　　胎生齿&nbsp; 指婴儿一出生就有牙齿，如果不是从齿槽里长出的就应该拔除，以免因其生长不好而有掉落到肺部的危险；如果会影响到哺乳或容易造成嘴唇口腔的受伤，也可以考虑拔除。</p> 
+ <p>　　马牙&nbsp; 刚出生的新生儿或出生后1～2个月的婴儿，有的在口内牙床的牙龈边远或上颚中缝两旁，会出现像小米或大米样大小的白色球状颗粒，少则数个，多则10余个不等，看上去很像一颗颗小牙齿，俗称“马牙”。其实，“马牙”既不是真正的牙齿，也并非病患，一般无任何症状，对口腔颌面部的发育和健康也没有任何影响，不需要进行任何处理。几个星期后，随着进食、吸吮的摩擦，“马牙”便可自行消失。</p> 
+ <p>　　舌系带过紧&nbsp; 小孩伸出舌头，若不能顺利碰到上嘴唇，且舌尖明显被拉紧而呈“W”型，就是舌系带过紧。严重时，可能造成发音不清楚，甚至吞咽困难，这样就需要加以治疗，最好在1岁之前处理好。小孩若未长牙或只长出二三颗牙齿，可到医院求助医生。小宝宝若已经长出多颗牙齿或舌系带太厚时，就需要到手术室进行处理。</p> 
+ <p>　　鹅口疮&nbsp; 指白色念珠菌在口腔黏膜所引起的病灶。正常新生儿的鹅口疮，99%是在出生经过产道时，接触妈妈阴道附近的念珠菌而引起的，1%是因为抵抗力差，例如长期使用抗生素、类固醇药物、后天免疫力低下的婴儿，容易得鹅口疮。</p> 
+ <p>　　症状是在口腔黏膜和舌头上出现白色斑块，很容易和奶块混淆，但奶块很容易擦去，而鹅口疮则不易去除，强力擦拭可能会有出血的情况。健康宝宝的鹅口疮，可涂抹抗霉菌药粉，经过7天一般就会痊愈，但有些宝宝的鹅口疮，是因为存在着其他诱发因素，像使用抗生素、类固醇等，就必须把诱发因素去除，才比较容易治愈；若是一再复发，就表示免疫力可能有问题，有必要进一步检查。因为鹅口疮症状出现在口腔内，很难被发现，若是婴儿出现躁动不安、胃口不佳，甚至拒绝进食的状况，就要检查口腔了，若是鹅口疮，就要到医院检查了。 </p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong>鼻&nbsp; 嗅觉</strong></p> 
+ <p>　　护理之道</p> 
+ <p>　　新生儿的鼻粘膜柔软并富有血管，一遇到轻微刺激就容易充血、水肿，让原先就很狭窄的鼻腔更加狭窄，同时，若有分泌物阻塞在鼻腔内，也会导致宝宝呼吸不顺畅，这就是所谓的“生理性鼻塞”，会对宝宝吃奶有所影响，造成宝宝情绪烦躁不安、哭闹不休。此时，照顾者必须帮助宝宝将鼻腔内的堵塞物清除，以恢复呼吸道的畅通。</p> 
+ <p>　　若看到鼻腔内有干燥的阻塞物时，千万不要直接硬挖出来，可用温水或母乳一滴，滴入新生儿的鼻子里，让阻塞物湿润，再用夹子夹出；也可用棉花棒沾少量水，轻轻插入鼻腔清除分泌物，但动作一定要轻柔。此外，还有别的方法：一是用毛巾沾温水敷在宝宝的鼻根部，但请注意大人一定要陪在旁边，避免热毛巾滑动堵住宝宝的鼻子；或者利用放洗澡水时，抱着宝宝在弥漫热蒸汽的浴室里停留3～5分钟，这些方法都有助于解决宝宝的鼻塞问题。</p> 
+ <p>　　及早发现异常</p> 
+ <p>　　上呼吸道感染&nbsp; 俗称“感冒”的上呼吸道感染，90%以上是由病毒引起，发烧持续1～7天，会咳嗽、流鼻涕、鼻塞，大多在1～2周内逐渐痊愈。如果流鼻涕超过10天，并且鼻腔分泌物变得黏稠，或呈现黄绿色的浓稠鼻涕，并伴随突发性的高烧，就有可能是鼻窦炎。<br />鼻异物阻塞&nbsp; 一旦发现有单侧鼻流脓鼻涕，有可能是鼻异物阻塞，及时就诊。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong>耳&nbsp; 听觉</strong></p> 
+ <p>　　护理之道</p> 
+ <p>　　小儿外耳道的皮肤非常娇嫩，专家提醒大家千万不要轻易去刺激外耳道。外耳道皮肤的耵聍腺不断分泌耵聍（耳屎），也是对耳道提供抗菌、保护作用，可防止灰尘和细小砂石进入耳道和耳膜，无需特别用硬物去清除。耳朵是具有自净功能的器官，耳垢通常会自动掉落，虽然少数时候需要人为力量帮忙清除，但要请医生帮助，而不是自行用棉花棒去清除耳屎，这样只会将耳垢推向更深层的位置。照顾者平日只需要用清洁干净的湿毛巾，轻轻擦拭宝宝的外耳部分即可。在帮宝宝洗澡时，要注意不让污水流入耳道深处，避免造成外耳道发炎。</p> 
+ <p>　　<strong>照护小叮咛</strong></p> 
+ <p>　　往往父母在照顾新生儿时，刻意营造安静的环境让宝宝不受到打搅，但是太过安静的环境，有时却延误发现宝宝的听力异常。建议父母，偶尔制造一些特别的声响，来试试宝宝的反应，如果对于过于吵杂的噪音没有反应，甚至对父母的声音没有回应，都有可能是听力异常者，应该立即就医。</p> 
+ <p>　　及早发现异常</p> 
+ <p>　　听力异常&nbsp; 平均有千分之一的新生儿有听力异常。早产儿、使用某些抗生素、利尿剂等伤耳药物、头部外观有异常者或者家族中有听力障碍病史者，都是听力障碍的高危险群，需要做听力筛检。通常在出生一个月后，医生会问家长，宝宝会不会被特别大的声音吓到？越早发现听力异常，治愈的几率就越大。</p> 
+ <p>　　耳炎&nbsp; 与成人相比，小儿的耳咽管位置呈水平状，且较宽、直、短，故小儿罹患上呼吸道感染时，鼻咽部的细菌或病毒很容易通过耳咽管，侵入中耳，引起急性化脓性中耳炎。感冒引发中耳炎的并发症，常表现出烦躁、哭闹、夜眠不安、摇头或用手揉耳朵等。当吸吮和吞咽时，耳痛程度会加剧，故中耳炎患儿往往不肯吃奶。</p> 
+ <p>　　专家提醒大家，如果孩子不肯吃奶、夜间啼哭、摩擦单侧耳朵、部分听力丧失或耳朵出现排泄物等症状，就应该靠考虑宝宝是否患了中耳炎。耳朵内渗出的积液如果留存达3个月，就可能引起部分听力丧失，家长千万不可小视。</p> 
+ <p>　　外耳炎&nbsp; 如果外耳道太过潮湿、太干燥（耳屎清洁太干净）、表皮湿疹、曾经被感染、或有外伤，就有可能发生外耳感染。若外耳道发炎，会有分泌物流出，有时会痒或痛，通常只要给耳鼻喉科医师诊治，涂抹药膏即可。</p> 
+ <p>　　耳痛&nbsp; 有时一些异物跑到耳道内，会造成耳痛。对于不会讲话的小宝宝来说，哭闹就是他们的表示。异物可能是一些小动物，如蚂蚁、蟑螂，也可能是一些小零件、小玩具。这些小物件可能是年纪较大的孩子不小心放入的。异物的问题可能会发生在身体的任何一个有洞的部位，像是气管、鼻孔、耳道。但是有时外耳的异物并不会立即出现异常症状，而是一段时间后，异物造成外耳发炎时才会出现症状。如果有小动物误入耳道，一般等到小动物对小宝宝造成疼痛时，宝宝才会哭闹，爸妈也才会送宝宝去医院。因此，爸妈照顾还不能说话的小宝宝时，需要多一点细心和敏锐的观察，以及早发现宝宝的异常。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong>目&nbsp; 视觉</strong></p> 
+ <p>　　护理之道</p> 
+ <p>　　眼睛是心灵之窗，当宝宝一出生，就应该要好好照顾。新生儿的眼睑处可看到微小的出血点，此时，眼部的发育尚不成熟，会有一段生理性远视的过程。新生儿的视力只能做质的评估，而无法量化，但如果家族中有视力不好的病史，请告诉医生，以加强这方面的检查。<br />父母可以通过强光自行测试宝宝，看他是否会产生闭眼的反射动作。大部分的新生儿眼睛运动不协调，在4个月前存在生理性斜视问题，建议父母，不要在婴儿床上挂固定的玩具，避免成为永久性的斜视。万一在6个月后，眼位仍旧不正，父母应立即送医院检查。</p> 
+ <p>　　帮宝宝洗澡时，要避免污水或肥皂水流入婴儿眼内，如果发生的话，请立即用清水轻轻冲洗眼睛，并用棉花棒将眼周的水渍吸干。如果新生儿罹患角膜炎时，必须按时点眼药。</p> 
+ <p>　　及早发现异常</p> 
+ <p>　　常流眼泪</p> 
+ <p>　　1．鼻泪管阻塞&nbsp; 约有5%的新生儿有此困扰。宝宝在一个月后开始常常流泪，有黄色眼屎堆积在内侧眼角。专家建议，可通过在鼻泪管外侧往上和往下的按摩方式解决问题。往下按是借助压力打通鼻泪管，往上按则是把眼泪挤出来以减少感染，两者交错进行，如果有感染时，必须点眼药水治疗，严重者需要在6个月～1岁之间，接受手术治疗。</p> 
+ <p>　　2．结膜炎、角膜炎&nbsp; 如果眼内有明显充血情形，请送医院检查。</p> 
+ <p>　　3．睫毛侧倒&nbsp; 因为眼皮肥厚而造成，可能会自行改善，若严重的话，可能必须用手术的方式治疗。</p> 
+ <p>　　4．青光眼&nbsp; 虽然罕见，但不能轻视发生的可能。如果宝宝双眼呈现黑眼球比例过大、畏光、易流泪、角膜混浊等症状，加上持续的哭泣和吵闹，送医院时，可加强眼部检查，及早发现，施行手术，避免视力受损。</p> 
+ <p>　　视力不良&nbsp; </p> 
+ <p>　　以下现象表示婴幼儿视力不好，最好及早诊治，把握好治疗时机，才不会影响日后视力发育。</p> 
+ <p>　　1．斜视&nbsp; 6个月后，眼球无法对目标固视，产生飘移不定现象，需要送医院治疗。</p> 
+ <p>　　2．眼球震颤&nbsp; 眼球是靠着6条眼外肌来转动的，如果视力不好时，6条肌肉宛如失去控制，互相抵抗，如同发抖般震颤，是视力不良的重要征兆。</p> 
+ <p>　　3．对于熟悉的人缺少反应&nbsp; 即使母亲或是喜欢的玩具接近，也没有愉悦的表情，但对于倾听却表现出敏感的样子。</p> 
+ <p>　　4．不断重复按摩或敲打眼睛&nbsp; 视力发育迟缓的婴幼儿，往往通过外力产生光感来满足自己对视觉的渴望。</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=123717">怎样护理生病的新生儿</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/tezheng/1" >新生儿特征</A>
+				<A href="/static/menu/sm/jibing/1" >新生儿疾病</A>
+				<A href="/static/menu/sm/huli/1" class='thisclass'>新生儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=150&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/122504">新生儿黄疸简介</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122503">新生儿窒息如何治疗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122502">不易察觉的新生儿肺炎</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122501">新生儿冬季呼吸道疾病的护理</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122500">新生儿硬肿症治疗有新招</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"123921"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

@@ -1,0 +1,472 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>宝宝的脐带，您做对了吗？-新生儿-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/123594"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/xinshenger2.png)'
+			 href="/static/menu/bm/xinshenger2" alt="新生儿" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=150" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/xinshenger2'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/tezheng/1">新生儿特征</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jibing/1">新生儿疾病</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/huli/1">新生儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=150" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=150&menuID=153" rel="nofollow">新生儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					宝宝的脐带，您做对了吗？
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=150" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-25 22:24:37</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　<font color="#663399">每个人身上都留着一个与母体相连的记号―肚脐，在出生的那一刻，切断了曾经息息相连达十个月之久的脐带，之后的护理和照顾若能加以细心，就可以有个美好的印记了。</font></p> 
+ <p align="center"><img alt="宝贝宝宝的脐带，您做对了吗？" src="/upload/153/20070608151353803.jpg" border="0" /> </p> 
+ <p>　<strong>　PART1 入门篇</strong></p> 
+ <p>　　胎儿在子宫内，以脐带与母亲的血液通过胎盘进行养分及废料的交换，脐带可以说是胎儿的生命线。婴儿出生后，最重要的一件事，便是脐带需被剪断，与胎盘、母亲关系正式切断，婴儿便开始迈向独立生活，“脐带”的功能正式功成身退。</p> 
+ <p>　　<strong><font color="#ff3300">保持脐部的干燥与清洁</font></strong></p> 
+ <p>　　婴儿出生后，护理人员通常会留下长约5~6公分的脐带与肚脐相连，并用脐带夹夹住一端，避免脐带出血。专家表示，这段预留的脐带会逐渐变黄干化再变黑，然后整段自然脱落，前后约需10~12天。 由于这种演变是自然形成，不须予以待殊处理，因此，在这段期间，唯一需要护理人员及父母加以注意的，便是要保持脐部的干燥与清洁。若有潮湿或有不洁之物污染，极易导致脐带不能完全干化，而留下肉芽肿，甚至细菌感染、发炎。 </p> 
+ <p>　<strong>　医学小辞典</strong></p> 
+ <p>　　<font color="#ff3300"><strong>生命之带―脐带</strong></font></p> 
+ <p>　　脐带连接母体子宫的胎盘和胎儿的肚脐之间，是供给胎儿氧气与营养以及胎儿排除代谢废物的专用通道，也可以说是胎儿赖以生长发育和维持生存的生命线。任何影响到脐带血流通畅的因素，都有可能危及胎儿的健康状况。</p> 
+ <p>　　专家解释，脐带通常是由两条脐动脉与一条脐静脉所组成，外面包覆着一层似胶状物质和羊膜，三条血管呈螺旋状排列，好比是三根绳子旋转成一束般。产前检查时使用超声波，可以清楚看到脐带纵向面的螺旋状排列和横向面上一大两小的血管影像，看起来如米老鼠的脸一般。</p> 
+ <p>　　专家提醒父母，因脐部下方有血管通至腹腔血管，一旦脐部发生感染，有可能会经此路径至腹腔或全身发生细菌感染。</p> 
+ <p>　　<font color="#ff3300"><strong>脐带未落前・沐浴诀窍</strong></font></p> 
+ <p>　　在医院婴儿室时，护理人员会每日定时用酒精来消毒干燥脐部，出院时会送给父母脐带护理包，里面有75%或95%酒精（视各家医院而定）、消毒过的棉花棒，嘱咐父母在帮婴儿洗澡后做脐带护理。 </p> 
+ <p>　　当宝宝的脐带尚未脱落时，你可以只清洁宝宝的手、脸、颈及尿布区，以免脐部碰到水。需要准备一小碗开水、消毒过的棉花及干毛巾；先用棉花沾开水清洁宝宝的脸部，包括眼、耳、鼻、口，动作要轻柔，每擦拭完一个部位就用毛巾擦干，并且更换一团棉花。之后，清洁宝宝的身体皱褶部位，接著清洁宝宝的生殖器官。这时候，可在水中加入一点质纯温和的婴儿沐浴乳，清洁完后擦干宝宝身体，换上干净的衣服即可。脐带不需要包扎，但要保持干燥，宝宝衣服及纸尿裤可以反折在肚脐上。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　即将脱落的脐带及脐带眼处，偶而会有发臭并有少许黄色分泌物，应持续给予宝宝脐带护理，并保持干燥。若情况未改善或有发炎现象（红、肿、分泌物流出等），应即刻就医。 此外，当男宝宝包尿布时，应将阴茎朝下，以防解尿时脐带碰到尿液，造成脐带发炎。</p> 
+ <p>　　<strong><font color="#ff3300">95%酒精擦拭・具干燥作用</font></strong></p> 
+ <p>　　专家建议家长，在帮宝宝沐浴完后以大毛巾擦身体，脐根部周围皮肤应撑平，先以一支干净的小棉棒沾上95%的酒精（具干燥作用），再以左手拇指及食指将脐带周围皮肤撑开，用沾有95%酒精的小棉棒由根部往脐带面方向顺时针擦拭即可。有些医院会再附有75%的酒精，做为消毒之用，其实婴儿脐部的护理重点在于维持干燥，所以并不需要再刻意消毒。</p> 
+ <p>　　<strong><font color="#ff3300">处理不当・脐带病症</font></strong></p> 
+ <p>　　婴儿在出生1个月内脐带脱落的前后，可能会发生下列两种肚脐病症。</p> 
+ <p>　　脐炎：专家指称，脐带发炎，可能发生在脐带脱落之前或之后。大部分是因皮肤上菌落或肠道细菌感染。脐部因感染而发炎、红肿、脐窝会明显的膨出、周围皮肤会泛红、出现不安情形，严重时还会伴有发烧，表示有可能感染扩散。脐炎通常施予抗生素治疗，必要时会抽血筛检，确认有无扩散感染。 </p> 
+ <p>　　脐肉芽肿：这是因脐带未完全干化，或有细菌感染导致脐带脱落后，在脐部留下肉芽组织，颜色呈粉红、大小为0.1～0.2厘米不等。芽状上面常有分泌液，呈黄色或带血丝。肉芽肿易受细菌感染或外物碰触导致流血。有细菌感染时，其分泌物会有点恶臭味，除了需继续施予脐带护理外，还得请医师用硝酸银予以烧灼。</p> 
+ <p>　　<strong><font color="#ff3300">父母有爱・宝宝贴心</font></strong></p> 
+ <p>　　由于新生儿相当脆弱，因此有许多父母亲不敢为宝宝处理身体上的需要，如：洗澡、脐带照顾、换尿布等，就怕会把小宝宝弄伤了。专家提到，脐部发炎的原因，多半因为没有做好护理，所以家长在为孩子做脐带护理时，应心细胆大地做好每个步骤，同时棉棒也应充分浸湿，效果才会好。 </p> 
+ <p>　　其实宝宝是相当有韧性的，为人父母者只要清楚宝宝的照顾技巧，尽可能花些时间观察宝宝，了解及探索宝宝独特的表现与反应，便会有效地增进亲子情感，父母有爱心，孩子自然更贴心。</p> 
+ <p>　　<strong>脐带照顾三大原则</strong></p> 
+ <p>　　脐带脱落的时间，会依宝宝情况而有所不同，一般在出生后1～2周会脱落。脱落后有一点点出血为正常状况，可以继续使用75%的酒精擦拭消毒，直到干燥为止。专家提供三大照顾原则，让您在家轻松宝贝宝宝的脐带。</p> 
+ <p>　　1 保持干燥：在宝宝脐带脱落前应保持干燥，尤其洗澡时不慎将脐带根部弄湿，应先以干净小棉棒擦拭干净，再执行脐带护理。</p> 
+ <p>　　2 避免摩擦：纸尿裤大小要适当，勿使尿裤的腰际刚好在脐带根部，这样在宝宝活动时易摩擦到脐带根部，导致破皮发红，甚至出血。</p> 
+ <p>　　3 避免闷热：禁用面霜、乳液及油类涂抹脐带根部，以免脐带不易干燥甚至导致感染。<font color="#ff9966"> </font></p> 
+ <p>　<strong>　医学小辞典</strong></p> 
+ <p>　　<font color="#ff3300"><strong>脐带的长度影响胎儿与母亲</strong></font></p> 
+ <p>　　每个胎儿的脐带长短不一，大都介于35～80厘米，平均为55厘米，影响脐带长度的因素包括羊水量多寡与胎儿的活动性。脐带太短可能会因为牵扯导致胎盘早期剥离、脐带内出血或分娩后子宫外翻。脐带太长则较易并发脐带打结、缠绕、脱垂、血管栓塞等问题。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong>医学小辞典</strong></p> 
+ <p>　　<font color="#ff3300"><strong>认识脐带血</strong></font></p> 
+ <p>　　脐带血是指产妇生产后，仍存留于脐带及胎盘中的血液。在过去，脐带、胎盘及脐带血都会被视为医疗废弃物而被抛弃，但在近年的医学研究中发现，脐带血中含有数量丰富的干细胞，而这些干细胞可取代骨髓移植并具有低排斥性的优点。 </p> 
+ <p>　　此外，干细胞也可分化成为人体中的各种细胞及组织，作为血液、免疫、神经性疾病及癌症治疗的工具，因此脐带血的储存及应用已成为现今医学研究中的一项热门话题。</p> 
+ <p>　<strong>　PART2 图解脐带护理</strong></p> 
+ <p>　　初为父母者要在新生儿出生住院的几天内学会简单的照顾技巧，确实是一大挑战。尤其回家后还有许多后续动作要进行，更要清楚如何照护孩子未脱落的脐带，才能让小婴儿健康，父母也安心。</p> 
+ <p>　　Step1 准备婴儿脐带护理包，内含棉花棒数支、95%浓度的酒精一瓶。</p> 
+ <p>　　Step2　在脐带护理前，一定要使用肥皂&#xfffd;氐紫淳凰&#xfffd;手，而且至少必须搓洗20秒，才能达到杀菌的效果。</p> 
+ <p>　　Step3　取棉棒，以95%的酒精沾湿。切记要完全浸湿。</p> 
+ <p>　　Step4　用手撑开宝宝的脐部，让宝宝脐带根部露出来。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 方法有二：一为用手轻轻拉住宝宝脐带，二为用食指和中指撑开脐部周围的皮肤；一般来说，第一种方法的效果较好。</p> 
+ <p>　　<strong>小叮咛：</strong>提醒家长们，其实脐带是不会轻易拉掉的，所以动作上尽管放心大胆地做。</p> 
+ <p>　　Step5　让宝宝脐带根部露出来后，以95%酒精浸湿的棉棒，依脐带根部、脐带、周围皮肤的顺序擦拭。</p> 
+ <p>　　Step6　完成以上步骤后，将腰际的尿布外缘反折，避免直接压迫到肚脐。如此，即大功告成！</p> 
+ <p><strong>　　想了解更多有关新生儿护理的话题吗？快进入5721中国孕育网“<a title="" href="/Newborn/List_4.shtml"><u><b><font color="#ff0033">新生儿护理</font></b></u></a>”栏目浏览更多的内容，或者进入5721母亲爱你“<a title="" href="http://forum.5721.net/forumdisplay.php?fid=38"><u><b><font color="#ff0033">育儿话题</font></b></u></a></strong><strong>”社区和更多的网友交流经验吧！</strong></p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=122505">给新生儿用药有哪些注意事项</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/tezheng/1" >新生儿特征</A>
+				<A href="/static/menu/sm/jibing/1" >新生儿疾病</A>
+				<A href="/static/menu/sm/huli/1" class='thisclass'>新生儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=150&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/122504">新生儿黄疸简介</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122503">新生儿窒息如何治疗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122502">不易察觉的新生儿肺炎</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122501">新生儿冬季呼吸道疾病的护理</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122500">新生儿硬肿症治疗有新招</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"123594"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

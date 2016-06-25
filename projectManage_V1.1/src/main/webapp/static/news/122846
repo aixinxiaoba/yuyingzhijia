@@ -1,0 +1,416 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>家庭全面防铅运动-新生儿-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/122846"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/xinshenger2.png)'
+			 href="/static/menu/bm/xinshenger2" alt="新生儿" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=150" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/xinshenger2'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/tezheng/1">新生儿特征</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jibing/1">新生儿疾病</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/huli/1">新生儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=150" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=150&menuID=153" rel="nofollow">新生儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					家庭全面防铅运动
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=150" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-25 19:45:10</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p>
+  <!--画中画开始--> 
+  <!--画中画结束--> 由于工业和交通业的迅猛发展,工业化和城市化导致的儿童健康问题逐渐突出,并且日益严重,目前了解和研究最多的是环境铅污染引起的儿童铅中毒。铅是一种具有神经毒性的重金属元素,在人体内无任何生理功用,其理想的血铅浓度为零。然而,由于环境中铅的普遍存在,绝大多数人体中均存在一定量的铅,铅在体内的量超过一定水平就会对健康引起损害。儿童由于代谢和发育方面的特点,对铅毒性特别敏感。研究证实,血铅水平在10ug/dL&nbsp;(0.483umol/L)左右时,虽尚不足以产生特异性的临床表现,但已能对儿童的智能发育、体格生长、学习能力和听力产生不利影响。最近美国辛辛那提医疗中心所属儿童医院的最新研究显示,美国目前规定的儿童血液中铅含量的标准过高。该医院研究人员布鲁斯・兰费尔认为,应该进一步调低美国的儿童血铅含量标准。研究人员发现,即使儿童血铅浓度符合100微克/升标准,铅对儿童的毒副作用仍然很明显。受此毒害的儿童严重时会出现智商低、动作笨拙和在学校表现令人失望等情况。兰费尔博士与其研究伙伴共跟踪调查了276名美国新生婴儿。他们在这些婴儿半岁至四岁的时候,分别测量其不同年龄段血铅水平。在四岁时,同时测量这些婴儿的智商。研究人员发现,婴儿血液中含铅水平与其智商呈反比关系。兰费尔博士认为,根据新的研究成果,这个标准至多只能定为每升血液50微克铅。他同时强调,应该把减少铅危害的重点从治疗转为预防。宝宝的铅从哪里来?&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;1、大气中。<br />&nbsp;&nbsp;&nbsp;&nbsp;主要是指来自工业生产、生活和交通等方面的铅排放,估计全世界每年向大气排放铅在349250吨。排放铅毒来自于不可避免的工业废气、含铅汽油、汽车尾气、燃煤、钢铁冶金、化学工厂排放废气。<br />&nbsp;&nbsp;&nbsp;&nbsp;2、土壤和尘埃中。<br />&nbsp;&nbsp;&nbsp;&nbsp;正常情况下,土壤含铅10~50mg/kg,但在城市地区,土壤中的铅含量可能高出数百倍甚至数千倍。室内铅尘也是儿童铅暴露的重要来源之一。<br />&nbsp;&nbsp;&nbsp;&nbsp;3、水中。<br />&nbsp;&nbsp;&nbsp;&nbsp;废水污染饮用水体可造成水中铅含量升高。自来水中铅含量虽然不高,但是,其生物利用率往往较食物中的铅为高。研究认为,儿童对铅的吸收率可高达50%以上。<br />&nbsp;&nbsp;&nbsp;&nbsp;4、日用品及装饰材料中。<br />&nbsp;&nbsp;&nbsp;&nbsp;家庭装饰材料(油漆、涂料)、香烟烟雾、化妆品&nbsp;(口红、爽身粉)、含铅容器、金属餐具这一类铅污染也是目前儿童铅暴露的主要原因之一。<br />&nbsp;&nbsp;&nbsp;&nbsp;日常生活中,一些漂亮和华丽的餐饮用具背后,便隐藏着&quot;铅中毒&quot;这一杀手。在我们经常用到的陶瓷类制品中,彩釉陶瓷制作的餐饮用具及水晶器皿是形成铅污染的源头之一。陶瓷制品的原料(陶土)及彩釉中可含有大量的铅及其他金属化合物,如果用这类器皿盛酒或饮料,彩釉中的铅元素就会被浸出,进而溶解于食物或饮料中,日积月累,就会引起铅中毒。除了彩釉陶瓷制品之外,水晶制品是一种更具威胁的铅污染源。据专家称,水晶制品中的氧化铅含量往往高达20％－30％,但若用来盛酒,酒会将水晶制品中的铅溶解出来并溶于酒中；而且,酒对铅元素的溶解量与时间成正比,即盛酒的时间越长,酒中的含铅量就越高。实验表明：用水晶容器盛酒,一小时后,酒中的含铅量升高一倍。另一项实验表明：把一升白兰地酒置于水晶器皿中,5年后,酒中的含铅量超过饮品中铅含量最低标准的400倍。<br />&nbsp;&nbsp;&nbsp;&nbsp;另外,在为婴儿购置奶瓶、水杯时,也不宜用印有各式鲜艳图案的制品。近日中国消费者协会公布了不同产地的317个品牌的婴儿塑料奶瓶检测结果,发现其中几个品牌表面的彩色图案重金属释出量情况令人吃惊,其铅释放量超出欧洲安全标准2－20倍。<br />&nbsp;&nbsp;&nbsp;&nbsp;5、玩具和学习用品中。<br />&nbsp;&nbsp;&nbsp;&nbsp;目前国内尚无关于儿童玩具和学习用具的含铅允许量标准。实测表明,这些物品的含铅量普遍较高。有人检测23种国产玩具,发现其中7种玩具表面油漆中所含的可溶性铅已超过国际最高允许量(250mg/kg)。对9类铅笔的检测发现,其中6类超标,含量最高的超标4.12倍；在其他12种学习用品中,有一半超标,含量最高的为课桌、椅的棕黑色油漆层,超标36.7倍；教科书彩色封面的含铅量也超标13.6倍。有人报道中国出口的11种彩色蜡笔的含铅量全部超标,其中有3种牌号铅含量严重超标,足以引起儿童铅中毒,从而引起了对中国蜡笔的抵制运动。近日,北京市质量技术监督局首次对北京市场上销售的油画棒进行了产品质量监督抽查。11家销售单位出售的23种油画棒中,17.4%的重金属元素含量超标。铅含量超过标准0.5～17倍不等。由于幼儿常有吸吮手指和啃咬玩具的习惯,在胃液中玩具和学习用具所含的可溶性铅的吸收率可高达76%。<br />&nbsp;&nbsp;&nbsp;&nbsp;6、食品中。<br />&nbsp;&nbsp;&nbsp;&nbsp;⑴、大气和粉尘中也会带来的铅的污染,可以直接沉积到谷物、蔬菜和水果的植株、叶片、种子、果实和表皮中或经过植株和叶片的吸收,使铅含量增加；&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;⑵、环境中的废水废气污染的土壤,造成过高的土壤铅含量污染谷物和蔬菜；<br />&nbsp;&nbsp;&nbsp;&nbsp;⑶、室内铅尘和采用油漆彩绘新装修的房屋污染厨房中的食物；<br />&nbsp;&nbsp;&nbsp;&nbsp;⑷、以含铅彩绘的器皿储存食物造成的污染；<br />&nbsp;&nbsp;&nbsp;&nbsp;⑸、铅质焊锡制作的食品罐头对食物的污染等,其中,铅污染罐头食品的危害最大。<br />&nbsp;&nbsp;&nbsp;&nbsp;特别是一些特殊食品或食品加工方法使其铅含量增高很多,如：<br />&nbsp;&nbsp;&nbsp;&nbsp;⑴、爆米花,其含铅量为0.25~21mg/kg&nbsp;不等,&nbsp;其中42.8%超过国家卫生标准,&nbsp;含量最高的超标41倍。<br />&nbsp;&nbsp;&nbsp;&nbsp;⑵、皮蛋(松花蛋),对市售的42枚皮蛋的抽样检查发现,仍有35.7%超标。<br />&nbsp;&nbsp;&nbsp;&nbsp;⑶、个别地方有使用锡茶壶的习惯,造成铅中毒。&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;⑷、水果。迄今为止,砷酸铅仍被广泛用作水果园的杀虫剂,因此水果表皮含铅量较高。<br />&nbsp;&nbsp;&nbsp;&nbsp;7、中药材的铅含量。<br />&nbsp;&nbsp;&nbsp;&nbsp;中国预防医学科学院营养与食品卫生研究所的高俊全教授在国家&quot;九五&quot;攻关课题的研究中对我国华北地区23种中药材中铅含量进行了分析,中药材中平均铅含量在1.78mg/kg,个别高的在5～10mg/kg。如果按每人每日服用6～10克计算,通过中药材摄入的铅在10.7～17.8微克。如果连续服药的话,铅将蓄积在体内,将对人体健康带来很大的威胁。长期服用将造成铅中毒。<br />铅中毒的症状<br />&nbsp;&nbsp;&nbsp;&nbsp;铅通过呼吸道和消化道吸收入人体后,对机体的影响是全身性的和多系统的。根据临床表现的存在与否,儿童铅中毒分为症状性铅中毒和无症状性铅中毒(或亚临床型铅中毒)两种。<br />&nbsp;&nbsp;&nbsp;&nbsp;1、神经系统：易激惹、多动、注意力短暂、攻击性行为、反应迟钝、嗜睡、运动失调。严重者有狂躁、谵妄(神志错乱、迷惑、语无伦次、不安宁、激动等特征并时常带有妄想或幻觉的暂时性神经失常)、视觉障碍、颅神经瘫痪等。血铅水平在1000&nbsp;ug/L&nbsp;(4.826umol/L)&nbsp;左右时,可出现头疼、呕吐、惊厥、昏迷等铅性脑病的表现,甚至死亡。<br />&nbsp;&nbsp;&nbsp;&nbsp;2、消化系统：腹痛、便秘、腹泻、恶心、呕吐等。<br />&nbsp;&nbsp;&nbsp;&nbsp;3、血液系统：小细胞低色素性贫血等。<br />&nbsp;&nbsp;&nbsp;&nbsp;4、心血管系统：高血压和心律失常。<br />&nbsp;&nbsp;&nbsp;&nbsp;5、泌尿系统：早期氨基酸尿、糖尿、高磷尿,在晚期病人可见到氮质血症等肾功能衰竭的表现。<br />&nbsp;&nbsp;&nbsp;&nbsp;亚临床性铅中毒主要影响儿童的智能行为发育和体格生长。由于缺乏足以引起家长和儿科医生注意的临床表现,往往容易被忽视,待发现时,铅毒性作用已难逆转。其隐匿渐进的病理特点使其对儿童健康的危害性更大,因此,是儿童铅中毒研究的重点。<br />铅中毒的现状和筛查<br />&nbsp;&nbsp;&nbsp;&nbsp;最常用和最有效的方法是检测血铅,血铅水平能准确地反映出机体近期铅中毒程度,是判定铅中毒的主要手段。从1995年～2000年我国有近二十个城市对14000名1～12岁儿童进行了血铅水平的调查,这些城市包括：北京、上海、重庆、广州、武汉、沈阳、长春、太原、兰州、郑州、杭州、无锡、徐州、克拉玛依等。其结果不容乐观。<br />&nbsp;&nbsp;&nbsp;&nbsp;1.&nbsp;在工业区内儿童血铅平均水平多在&nbsp;163.7~450ug/L&nbsp;之间,&nbsp;儿童铅中毒流行率多在&nbsp;50～85%之间。有的城市工业区内儿童血铅平均值&gt;450ug/L；有的城市几乎所有工业区内的儿童都已有铅中毒。<br />&nbsp;&nbsp;&nbsp;&nbsp;2.&nbsp;即使是没有明显工业污染的普通市区,儿童血铅的平均水平也在100ug/L左右。只有7个城市儿童平均血铅水平低于100ug/L,大部分城市儿童血铅水平在120～160ug/L之间,是一个很严重的事实。<br />&nbsp;&nbsp;&nbsp;&nbsp;3.&nbsp;有些城市儿童血铅水平堪忧,太原市5所幼儿园进行血铅筛查,时间为1999年12月～2000年1月,调查对象为2～6岁之间儿童639人。结果儿童血铅平均含量在132.0～287.6ug/L之间,超标率在63％～92％,也就是60%以上的儿童存在不同程度的铅中毒。<br />&nbsp;&nbsp;&nbsp;&nbsp;4.&nbsp;太原市学校的在校生血铅平均含量为153.3ug/L,也达到二级铅中毒。<br />&nbsp;&nbsp;&nbsp;&nbsp;5.&nbsp;更为严重的是有两个城市新生儿血铅平均水平分别为71.0ug/L和83.5ug/L,&nbsp;超过最低标准(100ug/L)均为24.3％。如按美国辛辛那提医疗中心所属儿童医院兰费尔博士最新的研究成果,血铅标准定为每升血液50微克铅的话,那么,这两个城市新生儿的血铅水平均已超过这一新标准。将危害二十一世纪年轻的一代和我国的发展。<br />&nbsp;&nbsp;&nbsp;&nbsp;6.&nbsp;我国儿童铅中毒状况已远远超过工业发达的国家。无论是平均血铅水平还是铅中毒的流行率均已明显超过美国儿童。<br />&nbsp;&nbsp;&nbsp;&nbsp;从上述的结果来看,已严重影响二十一世纪我国的人口质量。我国儿童铅中毒是普遍存在的,但报道的大多数数据仅存在调查研究阶段,并没有真正开展血铅的筛选和门诊的检查。为了保护儿童的健康,免受铅毒的危害,我们应该尽快在全国开展血铅门诊,使受铅毒危害的儿童尽早医治。据调查估计我市儿童20%以上超过血铅水平最低标准,有一部分已达到严重的铅中毒。<br />宝宝铅超标、铅中毒原因<br />&nbsp;&nbsp;&nbsp;&nbsp;人体大脑,海马回和大脑皮层是铅毒性作用的主要靶组织,是血管丰富的中枢神经系统。血脑屏障是防止铅进入神经系统,避免引起神经毒性作用的重要防御结构。因为儿童的血脑屏障发育尚未健全,铅毒侵袭机会大大增加,科学实践证明：<br />&nbsp;&nbsp;&nbsp;&nbsp;1、&nbsp;儿童铅吸收率及在体内滞留时间是成人5~8倍。铅在体内吸收多,排泄少。<br />&nbsp;&nbsp;&nbsp;&nbsp;2、&nbsp;储存池的铅流动性大,较容易向血液和软组织中移动,因而内源性铅暴露的机率和程度较高。<br />&nbsp;&nbsp;&nbsp;&nbsp;3、&nbsp;铅为亲神经毒物,极易透过儿童未发育健全的血脑屏障,造成对儿童大脑的损害。<br />&nbsp;&nbsp;&nbsp;&nbsp;4、&nbsp;铅能抑制钙、锌、铁的吸收,减少血红素的合成,损害体内免疫系统,破坏细胞免疫和吞噬细胞的功能。<br /> </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=122505">给新生儿用药有哪些注意事项</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/tezheng/1" >新生儿特征</A>
+				<A href="/static/menu/sm/jibing/1" >新生儿疾病</A>
+				<A href="/static/menu/sm/huli/1" class='thisclass'>新生儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=150&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/122504">新生儿黄疸简介</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122503">新生儿窒息如何治疗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122502">不易察觉的新生儿肺炎</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122501">新生儿冬季呼吸道疾病的护理</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/122500">新生儿硬肿症治疗有新招</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"122846"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>
