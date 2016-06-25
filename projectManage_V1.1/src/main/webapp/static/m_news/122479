@@ -1,0 +1,329 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>新生儿黄疸的照护-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,479",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,479",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">新生儿黄疸的照护</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:13:58</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　<strong><font color="#bb5c44">一个小生命的来临，总会让父母欣喜万分，但医护人员却告知宝宝有黄疸的现象，需要照光治疗。这时，相信父母的心情一定是既担心又纳闷，什幺是「 黄疸 」？为什幺这幺小的宝宝会有黄疸？需要怎样的照护？</font></strong></p> 
+ <p>　<strong>　诊断＆治疗</strong></p> 
+ <p>　　<strong>【生理性黄疸】<br /></strong><br />　　黄疸是因为体内过多的胆红素（bilirubin）堆积到皮肤，使肤色变黄。正常的小宝宝在出生后第二到第叁天肤色开始变黄，平均在第四到第五天皮肤最黄，然后在一到两&#xfffd;L之内消失，这是所谓生理性黄疸，并不需要任何处理。<br /><br />　　<strong>【 黄疸指数 】<br /></strong><br />　　一开始是由脸部先出现皮肤变黄的现象，这时黄疸指数大约5 左右（医护人员在解释病情时，常常会以「黄疸指数」来简称胆红素的浓度，如黄疸指数5表示血液中胆红素浓度为5 mg/dl），黄疸更严重时，身体与四肢手脚肤色都会变黄，如果膝盖以下的皮肤也变黄时，黄疸指数通常会超过12；手掌与脚底都黄时，黄疸指数就在15以上了。另外，黄疸指数越高时皮肤也会看起来越黄，但单凭外观判断有时会有误差，所以需要更精密的仪器来检查，例如经皮肤红外线测定仪及抽血来检验胆红素值。</p> 
+ <p>　　<strong>如何判断黄疸指数的高低<br /></strong><br />　　1.目测<br /><br />　　2.经皮肤红外线测定仪<br /><br />　　3.抽血检验</p> 
+ <p>　　<strong>【胆红素脑病变】<br /></strong><br />　　当血液中的胆红素太高时，就容易会对脑部造成伤害，这些伤害称之为胆红素脑病变，有人也称为「核黄疸」。胆红素脑病变的症状包括发烧、食欲变差、活动力不好、肌肉张力过高、唿吸困难等，严重时甚至会有生命危险，有时即使经过治疗也会遗留下永久的后遗症，使宝宝的智力、听力、视力及活动能力终生受损。<br /><br />　　一般健康的宝宝，黄疸指数要超过25到30才会出现胆红素脑病变。<br /><br />　　<strong>【处理方式】<br /></strong><br />　　医护人员处理黄疸指数过高的方式，是让宝宝接受可见光线的照射来使胆红素降低，尽量维持黄疸指数在17以下。同时也针对造成黄疸的塬因来治疗这些疾病。当宝宝有脱水的情况，便需要静脉输液来补充水分；若宝宝有受到细菌感染的现象，则给予抗生素治疗。<br /><br />　　另外有些药物也可以降低血液中的胆红素，但目前并非为常规的治疗方法。当黄疸指数已经太高或者宝宝已经出现胆红素脑病变的症状时，医师会&#xfffd;袢』谎&#xfffd;的方式来使胆红素降低，也就是把宝宝含有高浓度胆红素的血液抽出来，再把正常人的血液输到宝宝体内，换血治疗能在最短时间内，使血液中的胆红素下降最多。</p> 
+ <p>　　<strong>黄疸的治疗方式<br /></strong><br />　　1.照光治疗<br /><br />　　2.补充足够的水分<br /><br />　　3.药物治疗<br /><br />　　4.换血治疗</p> 
+ <p>　　<strong>【疾病使然】<br /></strong><br />　　在新生儿时期，有一些疾病也会使黄疸指数过高，这些疾病本身可能会危害小宝宝，造成他们不舒服甚至会有生命危险，因此医护人员发现宝宝的黄疸指数比较高时，便会安排检查，除了了解黄疸之严重程度外，也同时检验是何种塬因造成黄疸的。<br /><br />　　笔者曾分析372例黄疸指数超过20的新生儿，以哺&#xfffd;j母奶、母子血型不合、蚕豆症、细菌感染及身体出血等5种塬因造成的居多，这其中有3位不幸死亡，有些则产生脑性麻&#xfffd;w、听力障碍、视力障碍或生长发育迟缓等后遗症。<br /></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p></p> 
+ <p>　<strong>　原因＆照护</strong></p> 
+ <p>　　在医院时，宝宝的黄疸指数若属于生理性黄疸的&#xfffd;围，就可与妈妈一起出院。然而在宝宝回家之后，有时会发现黄疸越来越严重，或者是黄疸都已经过了半个月了怎幺还没煺？是不是照顾出了问题？需不需要带到医院去检查？</p> 
+ <p>　　<strong>第1种可能<br /></strong><br />　　<strong>【母奶惹的祸？】<br /></strong><br />　　首先要先了解哺&#xfffd;j母奶的宝宝黄疸会比较高一点，也会持续比较久才会煺。如果是因为母奶不够而造成黄疸时，就要更频繁地哺&#xfffd;j母奶，至少要2至3个&#xfffd;头就&#xfffd;j一次，一天至少&#xfffd;j八次以上，尽量不要给宝宝喝太多葡萄糖水或是开水。可以根据宝宝尿布湿的次数（一天至少4次）及体重增加的速度来判断母奶量够不够。<br /><br />　　<strong>你可以这样做<br /></strong><br />　　当黄疸指数小于20时，仍可放心的哺&#xfffd;j母乳。如果黄疸指数过高，也可以先停&#xfffd;j母乳48小时，这时黄疸指数便会明显下降，之后再恢&#xfffd;湍溉椴葛j，黄疸指数也不会回升很高了。另外哺&#xfffd;j母奶的宝宝黄疸持续1到2个月才煺也是属于正常的现象，不用太担心。</p> 
+ <p>　　<strong>第2种可能<br /></strong><br />　　<strong>【母子血型不合？】<br /></strong><br />　　母子血型不合是发生在妈妈血型为O型而宝宝为A或B型时、或者是妈妈血型为Rh阴性而宝宝为Rh阳性时，所造成黄疸指数过高的情况几乎在出生后1至2天就会发现，所以很少在带宝宝回家后才注意到。</p> 
+ <p>　　<strong>第3种可能<br /></strong><br />　　<strong>【是蚕豆症吗？】<br /></strong><br />　　然而蚕豆症就不一样，笔者曾统计42,110个新生儿，其中757个男婴及326个女婴有蚕豆症，分别&#xfffd;兹丝谧苁&#xfffd;的3.54 %及1.57 %，可看出男生比女生还多。<br /><br />　　这些宝宝如果在家中接触到氧化物（例如?丸、紫药水、磺胺类药物等），也会产生很严重的黄疸，甚至有生命危险，这也是在台湾导致永久性的胆红素脑病变中最重要的原因。<br /><br />　　<strong>你可以这样做<br /></strong><br />　　目前每个宝宝出生后所做的新生儿筛检都有检验是否有蚕豆症，但检验结果往往需要1至2周才会知道，因此在检验结果未知的情况之下，应一律避免宝宝接触到这些氧化物。</p> 
+ <p>　　<strong>其他可能<br /></strong><br />　　有一些疾病也会造成黄疸指数过高，若没有及早发现，可能会有生命危险。这些疾病通常除了黄疸之外，也会有其他的症状，例如发烧、食欲变差、活动力不好、解灰白色大便等。因此若宝宝有其他临床上不舒服的徵状，便需要马上带到医院诊治。<br /><br />　　虽然黄疸过高可能会导致严重的后果，但绝大部分经过适当的处置都能够完全恢&#xfffd;徒】刀&#xfffd;没有后遗症，要知道如何早点发现并送医治疗才是最重要的，希望经过上述的介绍，可以让父母们更加了解此一常见的现象，并做出正确的处置。</p> 
+ <p>　　<strong>原因&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 　　　　　百分比 <br /></strong><br />　　1.哺喂母奶&nbsp;&nbsp;&nbsp;&nbsp; 　　　　　33％ <br />　　2.母子血型不合　　　　　25％ <br />　　3.蚕豆症　　　　　　　　20％ <br />　　4.细菌感染&nbsp;&nbsp;&nbsp;&nbsp; 　　　　　5％ <br />　　5.身体出血&nbsp;&nbsp;&nbsp;&nbsp; 　　　　　5％ </p> 
+ <p>　　<strong>居家照护的注意事项<br /></strong><br />　　1.平常将宝宝置放在光线充足的地方，并随时注意观察黄疸的情形。若泛黄的情形向下延伸至手掌及脚底时，表示黄疸指数可能很高，宜就医检验黄疸指数。<br /><br />　　2.给予足够的&#xfffd;j食，尤其是&#xfffd;j食母乳的频率要足够。<br /><br />　　3.在新生儿筛检结果未知宝宝是否有蚕豆症的情况之下，一律避免宝宝接触到氧化物，例如?丸、磺胺类药物等。<br /><br />　　4.宝宝若有任何不舒服的症状，例如活动力软弱，食欲减弱，嗜睡、呕吐、发烧等现象时，应立即就医。</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

@@ -1,0 +1,326 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>新生儿发热的护理-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,080",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,080",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">新生儿发热的护理</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 13:43:34</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p> 文/马秀芝（首都儿科研究所附属儿童医院护理部主任，主任护师）</p> 
+ <p>　　一、&nbsp;什么是发热，如何认识发热？<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;发热为儿童最常见的症状之一，是机体对各种有害刺激的防御反应，对锡疫系统有重要作用。一般来说，发热即体温异常升高，小儿时期正常体温可波动于一定范围，短暂的体温波动，全身情况良好，又无自觉症状，可不认为是有病。正常小儿腋下体温一般为36-37℃；春秋冬三季平均值上午36.6℃，下午36.7℃，夏季上午36.9℃-36.95℃,下午37℃。当喂奶、饭后、运动、哭闹、衣被过厚、室温过高时，可使小儿体温暂时升高到37.5℃左右，甚至偶达38℃，尤其是新生儿或小婴儿更易受以上条件影响；相反，若饥饿、低热量、尤其体弱患儿处于少动状态或保暖条件不佳则体温可降为35℃以上，临床上称体温过低或体温不升，应及时采取保暖措施。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;测体温的方法亦影响所测真实体温数值，如试体温的时间和条件不同，所测出得体温数值有差异，如腋表、口表和肛表所测得数值依次相差约0.5℃，即测腋表者最低，肛表者最高，但若固定试表的时间（分别为5、3、2、分钟），则三种试表方法所测得的数值所似。测腋温应以5分钟为准，不宜超过10分钟以上，过久所测体温有渐增趋势。若口腔、肛门内有局部炎症时测得数值较高，而在寒冷环境中用腋表所测得数值可偏低，因此，对可疑发热的病儿，应认真核对体渐测量的准确性。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;发热可分为四类热型（均以腋下体温为标准）：①低热：小于38℃。②中热：38℃-39℃。③高热：39℃-41℃。④极热：大于41℃。小儿年龄越小，体温调节越差原因是中枢神经功能差，体表现积相对大，皮肤汗腺发育不良，尤其新生儿、早产儿皮下脂肪较薄，肌肉不发达，活动力弱，体温极易引起波动。由于小儿对发热的耐受力较好而表现反应不多，如小婴儿感冒时体温可突然升高达40℃左右，而小儿表现的一般情况可较好，热退后恢复亦较快。年长儿体温较稳定，若体温突然升高，全身情况较差，往往反映有较长严重疾病发生，若发热2周以上或反复体温升高时，则要求家长到医院认真查明原因，以免引起不良后果。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;二、&nbsp;为什么人体可以保持较恒定的体温？<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;人体可以保持体温相对恒定，主要是由于体内有产热和散热的内调节系统即物理性和化学性调节，以及采用防御寒冷或炎热的措施，如适时更换衣服、使用空调设备、取暖装置、通风设备等。这种物理性和化学性调节系统，与神经、体液调节系统密切相关，而其中主要是受体温调节中枢（位于皮质和丘脑下部）的支配。为了调节产热和散热的平衡，新陈代谢和皮肤、呼吸、循环、泌尿及内分泌系统的均参与此种生理活动。年龄幼小，尤其新生儿、发育营养低下者，体温调节功能较差。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;1、&nbsp;物于性调节&nbsp;&nbsp;主要是散热和保温，可通过以下途径：①皮肤：皮肤毛细血管的收缩或扩张可以减少或增加皮肤循环流量，而血流量的多少可调节散热和保温。汗派对体温调节起重要作用，出汗可大量散热，无汗则可保持体内热量。如天气炎热出汗，即汗腺对散热产生的调节作用。②皮下脂肪：皮下脂肪厚薄对体温保持颇有影响。消瘦的小儿。，体表现积相对较大皮下脂肪层薄，室温过低时不易保持正常体温而致体温不升。相反新生儿包裹太厚，体温各升高就明显，即所谓“包裹综合症”。③呼吸和心搏频率代偿性增快：可加速散热。<br /><br />&nbsp;&nbsp;</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>;&nbsp;&nbsp;2、&nbsp;化学性调节&nbsp;&nbsp;主要是体内产热的调节。人体摄入碳水化合物等产热性营养物质，以氧化产生热量。此外肌肉运动增强时，代谢活跃，从而产热亦增加。如小儿哭闹，运动、喂奶后体温可有些升高，尤其小婴儿摄取高蛋白、高热能饮食后体温也可升高，而当小儿饥饿时处于低热能状态体温较低。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;三、&nbsp;发热有那些原因？<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;引起发热的原因可分为感染与非感染两方面：<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;1、&nbsp;感染性&nbsp;&nbsp;一般认为发热是人体对感染的一种防御反应，通过发热而刺激&nbsp;网状内皮系统的吞噬作用、抗体形成、增强白细胞内本科活力以及肝脏解毒作用等，以抵抗疾病对人体侵袭，促进康复。但体质虚弱的早产儿，营养不良的患儿，虽有严重感染，可无发热反应，说明防御力较差。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;2、&nbsp;非感染性&nbsp;&nbsp;除感染外，下列情况也可引起高热或低热：①组织破坏或坏死时，体内蛋白代谢异常增加而产热过多；或由于蛋白质分解产物可成为“致热物质”（致热原），如癌肿，白血病、血管内栓塞、烧伤、骨折血肿、胸腔或腹腔血液的吸收，均可引致发热。②大量失血或失水，可使有效循环量减少而致散热障碍，因而体温升高。但如发生循环衰竭，则正常代谢停滞而产热过少，又可因见体温过低。③肌肉运动过强如剧烈运动、严重惊厥或癫痫大发作后，体温可升高。一般在下午活动后，正常儿童肛温可达38℃，并不少见。④体温调节功能障碍可致发热，见于体温中枢尚未完善的弱小婴儿，颅内损伤（如出血或肿物）的患儿以及中暑的儿童。⑤生物制品如血清、菌苗等均为高分子异体蛋白也可致发热。⑥内分泌腺功能异常如甲状腺或肾上腺皮质功能亢进，也可致体温增高。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;从发热的病理生理看，发热是人体防御疾病和适应内外环境温度异常的一种代偿性反应。若高热持续过久，使体内调节功能失常，则成为患儿健康的威胁。高热的不良影响主要表现在以下几个方面：①高热使各种营养素的代谢增加，氧消耗量也大大增加。体温每升高1℃，基础代谢率增高13%。高热时还能影响消化功能主要是降低消化酶活力，可致婴幼儿腹泻、脱水，而进一步发生代谢障碍。②由于氧消耗增加，产热过多，需加速散热，因而心搏加快，体温每升高1℃，心搏加速约12次/分，表皮血管扩张，而加重心血管负担。③高热可增高颅内压，每升高1℃，颅内血流量增多8%，使大脑皮质过度兴奋，出现烦躁、头痛或热惊厥或高度掏出现谵语、昏睡、昏迷等。尤其婴幼儿多见。④高热时消化道高分泌减少，消化酶活力降低，胃肠运动缓慢，故有食欲不振、腹胀、便秘等症状。⑤持续高热可使人体防御感染的能力下降，不利于恢复健康。因此，对高热及极热应适时采取药物降温或物理降温等措施。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;3、&nbsp;新生儿时期较常见的发热原因<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;新生长时期体温调节功能不完善，产热与散热易失去平衡、故体温容易波动，而且新生儿对高热耐受力差。常见发热原因如下：①非感染性发热：如室温超过30℃时，可有体温升高；包裹过厚可致“包裹综合征”，此时体温可达38℃-40℃。人工喂养者牛奶过稠，而水份总入量较少，可致高蛋白脱水热；有时母乳不足，水入量又过少亦可见脱水热。脱水热时体温甚至可高达39℃-40℃。②感染性发热：多种细菌（大肠杆菌、肮炎双球菌、金黄色葡萄球菌、溶血性链球菌、鼠伤寒杆菌及其它沙门氏杆菌等）或多种病毒（肠道</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>或呼吸道病毒）感染均可致高热；如新生儿败血症、化腕性脑膜炎、肮炎、及早炎、乳腺炎、新生儿皮下坏疽，新生儿脓疱病、天疱疮及削脱性皮炎等。但应注意在严重全身性感染中毒时亦可不发热，反而体温不升。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;有些患儿长时间发热而查不明原因，应及时作详细的检查。如有的小儿患了耳源泉性颅内脓肿、骨髓炎或深部隐匿性感染灶等，无论如何发热患儿均应仔细他析，到医院查明病因。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;四、&nbsp;小儿发热的常见疾病<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;二周以上的体温升高为长期发热。反复发作或迁延的发热应首先考虑各种感染如泌尿道感染、中耳感染、肝胆感染、结核感染、风湿热、肠道病毒所致感染、骨髓炎、肝脓肿、败血症等。（在新生儿或经过免疫掏治疗的患儿，败血症往往缺乏典型表现，如脾大、中性血细胸增高）以及霉菌病等。幼儿长期发热可由于神经母细胞瘤引起。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;此外，慢性咽炎、扁桃体炎或鼻窦炎往往引起长期低热，应加注意；在流行地区，应考虑伤寒、副伤寒、布鲁氏菌病、疟疾、血吸虫病、肺吸虫病、钩端螺旋体病，旋毛虫病等。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;长期发热的少见病应想到结缔组织病，如：类风湿病、红斑狼疮、皮肌炎，还应考虑血液系统疾病。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;五、&nbsp;小儿高热降温方法有哪些？<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;退热的方法有药物退热和物理降温两种方法。常用的退热药有阿斯匹林、阿鲁片、安乃近、醋氨本分或乙酰氨基酚（扑热息痛）等。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;孩子用退热药，不同于成人，要根据年龄、体重决定服用量。扑热息痛口服每千克重10-15毫克；阿斯匹林口服，每千克体重8-10毫克；阿鲁片是阿斯匹林和鲁米那的合剂，适合于高热有惊厥史的孩子，用量：每次每千克体重8-10毫克；安乃近点鼻子，适用于6个月以下的婴儿，用25%的安乃近稀释1倍后滴鼻，如2-6个月小儿每次可滴5-10滴。对于高热持续不退者，也可用中药紫雪散。最近，常用的退热药是“美林”（布洛芬混悬液），用量0.25-0.5ml/kg/次，6-8小时可重复使用。一般2-3岁用5毫升/次。三岁以下小婴儿最好用泰诺林（对乙酰氨基酚混悬液），用量0-3个月用0.4毫升/次，4-11个月用0.8毫升/次，12-23个月用1.2毫升/次，24-36个月用1.6毫升/次。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;在服用退热药的同时，要给孩子多饮水，帮助其发汗，利尿，排毒。退热药用药间隔不少于4个小时，急于退热，一次用药量过大或间隔时间太短，重复用药可使体温下降过快，出汗太多，导致虚脱。有些孩子对某些药物有过敏反应，因此切勿滥用退热药。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;在家庭中也可用物理降温方法，其具体方法如下：采用头部冷敷；用冰帽、冰枕；温水擦浴、电扇吹风等方法使病儿体温下降。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;1、&nbsp;冷敷&nbsp;&nbsp;通过致冷的方法使全身或某一局部的体温下降。开始时局部血管收缩，继之扩张，热量经传导散发，可达到降温的目的。一般以头部冷敷为最常见。方法：用橡皮布、塑料薄膜制成手掌大小的口袋，里面装冰水或细小的冰块。可将冰块放入水盒中摇晃，使其磨去棱角。将盛有冰块的小代放在小儿的额头、颈部、腋窝、大腿根部，还可能制作成帽状冰袋戴在小儿头上，做成枕头样放在小儿枕部，或用毛巾在冷水中浸</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>湿后挤干放在额头上冷敷，注意冰袋局部冷敷时，不宜持续时间过长，否则可引起局部缺血、缺氧以致冻伤。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;2、&nbsp;电扇吹风&nbsp;&nbsp;电扇吹风能加速体温的散发，但不能对准小儿的某一部位吹风，否则会使小儿的某一局部受风。可以用电扇吹偏风或用摇头电扇吹风，风力不可太大，时间不可过长，适用于夏季，体质较好、体温过高的小儿。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;3、&nbsp;环境降温&nbsp;&nbsp;在高温季节，当室内温度高时，可以在地面上泼凉水，用凉水拖地板，或启动空调机，加速室内通风，使室温下降，可利于高热小儿散热。小婴儿还可以采取解开放服或打开包被散热的方法。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;4、&nbsp;温水擦浴及温浴法&nbsp;&nbsp;温水可使血管扩张充血，改善血液循环，体内的热量可通过传导的方式达到散热的目的，同时还可以减轻组织缺氧，增加新陈代谢，降低小儿对疼痛的感觉，使组织松弛，可解除因肌肉痉挛强直而引起的疼痛。方法是：用32℃-36℃的水（也可用毛试一下，以不烫手为宜），将毛巾浸湿后擦试小儿全身皮肤。擦完一遍后可稍停一会，待皮肤上的水分蒸发完再擦第二遍，直到体温明显下降。也可采用温水混合器法将小儿置温水盆中，水温以38℃为宜，用左手臂托住小儿的头及肩部，要将小儿的头露出水面，斜卧在贫中，5-10分钟后将孩子拒出，将身上的水擦干，用单子包好，半小时后测体温。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;另外，发热的孩子应卧床休息，发热时由于肠道消化功能降低，应多食清淡的流食或半流汁饮食，如：牛奶、鸡蛋汤、面汤等最重要的是多饮水，以利于降温。<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;家长还要密切观察小儿的变化，如果发现孩子在发烧的同时伴有呼吸急促、喘憋、心慌、腹痛、腹泻、头痛、呕吐、尿色改变、全身有疹子，或局部红、肿、疼等应及时到医院做进一步诊治。</p> 
+ <br /> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

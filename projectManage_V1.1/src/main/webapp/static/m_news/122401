@@ -1,0 +1,356 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>月子宝宝的6个不速之客-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,401",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,401",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">月子宝宝的6个不速之客</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:07:09</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p><strong>　　<font color="#000000">月子宝宝的6个不速之客</font></strong></p> 
+ <p>　　<strong><font color="#1111ee">病理性黄疸</font></strong></p> 
+ <p>　　小宝宝在出生后2-3天，皮肤和白眼球会开始变黄，这是一种正常的生理现象，无需进行治疗，一般在7-10天后会自然消退。</p> 
+ <p>　　然而，有些宝宝却出现了这样一些情况，如在出生时就出现了黄疸，或在出生后24小时内出现了明显的黄疸；皮肤变黄程度较重，除了面部、身上外，手掌和脚掌也变黄；皮肤变黄的时间长，足月的宝宝超过2周以上或更长的时间，早产的宝宝超过3周；黄疸在消退后重又出现，同时宝宝不愿吃奶、吸奶没劲、精神不好、呕吐或腹泻、发烧，或体温低、大便颜色发白、肝和脾肿大等。当宝宝在满月前出现这些情况时，一般是由疾病引起的，可能患上了新生儿溶血病、败血症、肝炎、先天性巨细胞病毒感染、胆道畸形、内脏出血等疾病。</p> 
+ <p>　　<strong>逐客令</strong></p> 
+ <p>　　如果宝宝出现以上几种情况，应及早带宝宝去看医生，进行详细诊察。否则，宝宝的病情会越来越重，可能导致大脑发育受影响，甚至死亡。</p> 
+ <p>　　<strong><font color="#1111ee">新生儿硬肿症</font></strong></p> 
+ <p>　　宝宝出生后，特别是那些早产、低体重、出生时窒息及身体有感染的宝宝，如果身体受冷，多会在出生后1周内，出现皮肤发凉、发硬，最初皮肤是红色的，严重时变成紫红色。宝宝不吃、不喝、不动弹，体温低于35℃以下或不升高，即使哭，声音也很微弱。这些症状可表明，宝宝患上了硬肿症。</p> 
+ <p>　　患硬肿症的宝宝，由于抵抗力低，还容易再患上肺炎、脐炎、败血症等疾病，甚至导致肺出血，如果宝宝的面部也发生了硬肿，连奶也不能吸吮了。</p> 
+ <p>　　<strong>逐客令</strong></p> 
+ <p>　　1.宝宝在寒冷季节出生时，出生后的几天内，居室温度注意保持在22℃-25℃之间。妈咪换尿布或穿衣服的动作要快一些，洗澡前主要把衣被预热妥当。</p> 
+ <p>　　2.经常观察宝宝的四肢是否发凉，体温是否在36℃以上。发现宝宝皮肤发凉、体温低时，立即放在温暖的包被里，外面放一个热水袋，但摸起来不能烫手，以免烫伤宝宝。最安全的办法是“袋鼠保温法”，即把宝宝搂在妈咪怀里，以体温直接温暖宝宝的身体。体温切不可恢复得太快，24小时恢复到36℃-37℃即可。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong><font color="#1111ee">新生儿结膜炎</font></strong></p> 
+ <p>　　宝宝的泪腺没有发育成熟，但在出生时，头却要经过妈咪的阴道，眼部很容易被病菌感染而患上结膜炎。宝宝患上结膜炎后，一般在出生后5-14天发病。表现为眼睑肿胀，结膜发红、水肿，同时伴有分泌物。一开始可能是一侧眼部，随着病情发展，另一侧眼睛也会被感染。护理和治疗得不及时，炎症还可能侵犯角膜，有的宝宝会发生远期不良后遗症，如视力受影响。</p> 
+ <p>　　<strong>逐客令</strong></p> 
+ <p>　　1.出生后，用羟苄唑或利福平眼药水滴眼。妈咪照料宝宝时，一定要洗净双手，保持衣物清洁，不可随意用不洁手帕或手巾擦拭宝宝的脸和眼睛。</p> 
+ <p>　　2.如果宝宝眼部有分泌物，或已患上结膜炎，及时按医嘱使用抗生素眼药水。常用的眼药水为0.25%的氯霉素眼药水。如果是淋球菌感染，选用青霉素眼药水；衣原体眼炎可用红霉素眼膏，还可用0.5%的金霉素眼药水或0.1%的利福平药水。对宝宝用过的物品，特别是手帕或毛巾，一定要进行彻底的消毒。</p> 
+ <p>　　3.眼部红肿明显、分泌物过多、白眼球充血时，应及时带宝宝去眼科诊治，不要延误时机。</p> 
+ <p>　　<strong><font color="#1111ee">新生儿脐炎</font></strong></p> 
+ <p>　　宝宝脐部创面，一般会在生后几天内渐渐愈合。但刚出生的宝宝抵抗力弱，加之脐部容易被尿液浸湿，护理不当就很容易使脐部发生感染。当脐轮或周围的皮肤红肿并渗出液体时，可能是发生了新生儿脐炎，必须马上去医院做处理，不然会引起新生儿败血症、新生儿破伤风等严重疾病，甚至引起化脓性脑膜炎，危及宝宝的生命。因此，宝宝出生后绝不可忽视脐部护理。</p> 
+ <p>　　<strong>逐客令</strong></p> 
+ <p>　　1.脐带断端处理后，24小时内不要打开，更不要洗澡。24小时后方可洗澡，先把脐部断端绷带打开，然后把宝宝放入浴盆中，脐部可浸水，不用做特殊防护。洗澡后，用清洁毛巾擦净脐部，用棉签蘸取2%碘酒溶液、75%酒精溶液，顺次擦拭脐部及脐轮，每次处理后，最好把脐部断端露出来。</p> 
+ <p>　　2.脐带脱落一部分时，先用棉签蘸取2%过氧化氢溶液擦拭脐带断端，后再用碘伏溶液擦拭；脐带脱落后，如果断端没完全愈合，洗澡后也要像前面所说的那样处理，每日做一次，一直到断端完全干燥、愈合。</p> 
+ <p>　　3.宝宝患上了脐炎，尤其是脐周围红肿明显并脐轮中有脓汁，应及时去医院诊治。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong><font color="#1111ee">新生儿脱水热</font></strong></p> 
+ <p>　　正常情况下，新生宝宝腋下的温度在36℃-37℃之间。可有时，刚刚出生的宝宝，体温会突然上升到39℃以上，特别是早产儿。这并不是病菌感染引起的，而是宝宝身体内脱了水。宝宝的体温调节中枢功能比较弱，在环境温度高或天气炎热时，如果给宝宝包裹得太厚，或室内温度接近30℃，都会使他们的身体失去很多水，发生脱水热，表现出烦躁不安、哭闹不止、皮肤潮红、尿少等症状。</p> 
+ <p>　　<strong>逐客令</strong></p> 
+ <p>　　1.注意室温保持在22℃-28℃之间，避免给宝宝穿得太厚，母乳不充足的话，在两次喂奶之间加喂20-30毫升温开水或5%的葡萄糖水。</p> 
+ <p>　　2.一旦宝宝出现脱水症状，迅速补充水分，较轻时喂白开水或5%葡萄糖水，每2小时一次，每次10-15毫升，若是高热不退立即送往医院，千万不要滥用退烧药。</p> 
+ <p>　　<strong><font color="#1111ee">新生儿肺炎</font></strong></p> 
+ <p>　　肺炎是新生小宝宝最常见的一种病，患病后往往病情变化快，容易导致心肺功能衰竭，危及生命。</p> 
+ <p>　　但是，宝宝却不像大一点的孩子那样咳嗽、发烧，只是表现出精神不好、不愿吃奶、易呛奶、哭声轻或不哭、口吐泡沫和鼻翼煽动等一些不太典型的症状，有的宝宝体温甚至低于正常。往往妈咪抱着宝宝去医院就诊时，医生发现病情已经很危险了。</p> 
+ <p>　　<strong>逐客令</strong></p> 
+ <p>　　1.当宝宝患上呼吸道感染时，应及时治疗，避免发展为新生儿肺炎。宝宝呼吸浅促时，注意观察呼吸次数，这种简单的方法有助于及早发现新生儿肺炎。正确做法是，数满宝宝1分钟的呼吸次数，以观察腹部呼吸运动为准，并在安静状态下进行，宝宝哭闹、吃奶或刚吃完奶都容易影响准确性。新生儿正常呼吸次数为40-45次/分，如果每分钟大于60次，就要赶快带宝宝去医院就诊了。</p> 
+ <p>　　2.空气干燥时，在居室里用加湿器，拖湿地板或暖气片上放湿毛巾，也是增加湿度的好办法，可防痰干难以咳出；让宝宝保持侧卧位、头部抬高，避免呕吐物误入气管；经常给宝宝变换卧姿，多翻身、轻拍背。</p> 
+ <p>　　3.尽可能给宝宝吃母乳，如果宝宝吸奶时口周发紫，应马上拔出奶头，过一会儿再喂；喝配方奶的宝宝，奶孔要小些，避免呛奶加剧病情。</p> 
+ <p>　　4.按医嘱服药，如果宝宝发烧，多饮水或洗温水浴降温，避免使用阿司匹林、扑热息痛等退热药，不然有可能加重黄疸。</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

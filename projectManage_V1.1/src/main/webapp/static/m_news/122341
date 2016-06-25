@@ -1,0 +1,334 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>关于男宝宝小鸡鸡的问题-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,341",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,341",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">关于男宝宝小鸡鸡的问题</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:02:38</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p align="center"><img alt="关于男宝宝小鸡鸡的问题" src="/upload/152/20070912095820499.jpg" border="1" /><br />
+  <style=padding-top:5px>
+   关于男宝宝小鸡鸡的问题
+  </style=padding-top:5px></p>
+ <!--显示正文 BEGIN---> 
+ <p>　　<strong>宝宝爱磨小鸡鸡怎么办?</strong></p> 
+ <p>　　问：我的宝宝两岁了，近来我发现他经常爱摩擦自己的小鸡鸡，特别是入睡前或午睡醒来后。对于宝宝的这种奇怪表现我很担心，我该怎么做？</p> 
+ <p>　　答：孩子的这种表现在医学上被称为“习惯性阴部摩擦”。 </p> 
+ <p>　　遇见这种情况，父母不要让孩子穿得太多太热，宜穿较宽松的内衣，避免内衣摩擦孩子的外生殖器，同时保持外生殖器的清洁卫生。如果有蛲虫、包茎或会阴部湿疹等，孩子会因局部瘙痒而经常摩擦小鸡鸡，应积极治疗。</p> 
+ <p>　　针对孩子的这种不良习惯，父母不要对孩子惩罚、责骂或讥笑。可以尽量把孩子的注意力转移到其他活动上去，分散对固有习惯的注意力。只要耐心诱导并适当地进行教育，大部分孩子会随着年龄的增长不治自愈。</p> 
+ <p>　<strong>　男宝宝的包皮到底要不要割？</strong></p> 
+ <p>　　问：我的宝宝6个月了，我发现他的包皮还是退不下来，这是人们所说的“包茎”吗？是不是需要带他去<span class="yqlink"> 医院</span>做手术？</p> 
+ <p>　　答：男宝宝出生后，包皮不退下来，整个包住龟头是很正常的现象，随着孩子的生长发育，包皮会逐渐松开，到了3岁的时候，包皮可以自然地往后退缩，露出龟头。如果超过3岁包皮仍然无法退缩，才称为“包茎”。 </p> 
+ <p>　　所以，3岁之前包皮完全覆盖龟头本是正常的生理现象，不具有任何的病理意义，无须去医院割包皮。</p> 
+ <p>　　不过，父母可以人为地、经常地将包皮适度地向上翻动，用人工的方法循序渐进地扩张包皮口，促进包皮与龟头“分家”，从而降低包皮过长或包茎的发生率。第一次可在满月前后进行，轻轻地试着翻一下，如果包皮很容易就翻过来露出了龟头，宝宝也无明显的不适感觉，以后可不再人为地去“打搅”它。</p> 
+ <p>　　但如果包皮口太小，包皮难以外翻露出龟头，且在翻动过程中宝宝有明显的不舒服甚至疼痛感，则需坚持定时翻动，一般每隔一两个月翻动1次，切忌粗暴，以免造成包皮的撕裂伤而诱发感染。为了安全，最初几次翻动最好在医生的指导下进行。</p> 
+ <p>　　<strong>如何给男宝宝换尿布？</strong></p> 
+ <p>　　问：我刚刚做新妈妈，有了一个很可爱的男宝宝，但是我自己一点育婴经验也没有，不知道在给小宝宝换尿布的时候该注意些什么。</p> 
+ <p>　　答：每次在给小宝宝换尿布的时候，注意要将宝宝的小屁屁彻底地清洁干净。带开尿布后，用柔软的棉签或<span class="yqlink">护肤</span>柔湿巾轻轻擦拭宝宝的阴部和臀部。对于男宝宝，要确保所有皱摺处都被清洁到，在清洁包皮时要特别地仔细。为了避免在更换尿布过程中宝宝会发生小便,可使用柔软的纸巾将宝宝的小鸡鸡暂时包裹起来，待清洁工作结束后再将纸巾拿开，包上尿布。</p> 
+ <p>　　<strong>使用纸尿裤会威胁小鸡鸡的健康吗？</strong></p> 
+ <p>　　问：我喜欢给宝宝用纸尿裤，但我婆婆说用纸尿裤会影响宝宝小鸡鸡的健康，而且我也确实从其他人的口中听到纸尿裤有可能造成男宝宝将来不育。我很困惑，不知道使用纸尿裤对宝宝的小鸡鸡有没有影响？</p> 
+ <p>　　答：男性精子的发育发生在<span class="yqlink">青春期</span>，在婴幼儿时期精子尚未形成，此时，只有精原细胞存在，睾丸内的曲细精管是实心的细管。精原细胞在婴儿出生之前是在温度约为37摄氏度的母体腹腔中发育的，而且发育良好。而宝宝纸尿裤内的温度变化一般不会超过体温(37摄氏度)，因此，正确使用纸尿裤引起的温度变化不会对青春期的生殖健康产生不良影响。当然，在为宝宝选择纸尿裤的时候，最好选择透气性良好、质量优秀的品牌。</p> 
+ <p>　　<strong>孩子隐睾要马上做手术吗？</strong></p> 
+ <p>　　问：我的儿子两个月大，我在给他换尿布的时候偶然发现他的一侧“蛋蛋”是瘪的，听说这就是隐睾的表现，需要手术治疗。我很紧张，我需要马上带他去医院吗？</p> 
+ <p>　　答：根据有关资料的统计，新生儿隐睾的发生率约为1.8%，但相当部分可在1岁内自然下降。若睾丸不能及时降至阴囊，而抛锚于温度较高的腹腔内，时间一长，就可影响睾丸的正常发育甚至可导致不育症等。你的宝宝才两个月，可以先尝试内科药物治疗，如果睾丸依然无法下降到正常的位置，则需要及时带宝宝去医院进行手术治疗。隐睾手术治疗的最佳时间是在2岁以前，最迟不得超过6岁。年龄越小，手术效果越好。 </p>
+ <!--显示正文 END----> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

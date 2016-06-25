@@ -1,0 +1,346 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>宝宝学战“痘”-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,496",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,496",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">宝宝学战“痘”</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:15:23</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p align="center"><img id="ImgInfo" alt="" src="/upload/152/20071127084833390.JPG" border="0" /></p> 
+ <p>　　表面看来这些小疙瘩大同小异，但实际上它们却掩盖着不同的疾病……</p> 
+ <p>　　通常，我们一发现孩子身上出现小疙瘩，就会仔细观察研究它，甚至用手指按按它，像是要把它按下去似的，但是不成功。很快，我们就会脱光孩子的衣服观察，发现在孩子的身上、腿上、胳膊上，到处都是小疙瘩…… 在大多数情况下，这不会是严重的问题，可能只是一种常见的儿童出疹疾病。</p> 
+ <p>　　想在咨询医生之前更好地了解宝宝出疹的各种性质吗？以下几条信息也许可以帮助您:</p> 
+ <p>　<strong>　疹子首先出现在发际、颈侧部和耳后-麻疹</strong></p> 
+ <p>　　孩子发烧到38～40℃，他的发际、颈侧部和耳后出现了几毫米的小红疹，然后脸部和身体其他部位也出现了……这时您可以怀疑孩子得了麻疹。这种疾病至今仍存在。尽管免疫接种已经相当普及，但仍然不是每一个孩子都接种了麻疹疫苗。这种病毒性传染病每年春天出现，主要感染不满5岁的未免疫儿童。那些接种了麻风腮三联疫苗的孩子，在接种后的5至15天内也可能出现轻度的疫苗接种反应。</p> 
+ <p>　　发病24小时后，疹子会慢慢侵犯胳膊、腿，最后蔓延全身。有时疹子会出现在口腔黏膜，特别在颊黏膜上，呈现特征性表现。同时孩子好像患了感冒：他眼睛流泪，流鼻涕，甚至咳嗽。这时您要注意观察周围邻居或幼儿园里的孩子，因为在孩子出疹前的一周，他已经是传染源了。</p> 
+ <p>　　处理方法：</p> 
+ <p>　　用解热药(扑热息痛或布洛芬)退烧，卧床休息并多喝水。如果孩子干咳可使用祛痰止咳剂，用生理盐水给孩子擦洗鼻孔。</p> 
+ <p>　　<strong>疹子出现在全身-风疹</strong></p> 
+ <p>　　孩子发烧(38～39℃，很多只是低烧)1～2天后，有粉红色的皮疹出现在孩子脸上，迅速波及颈部、躯干，这时孩子可能得了风疹。风疹是由风疹病毒引起。在此后的2至3天内，疹子会遍及孩子全身，但手掌和足趾大都无疹。这种疾病经常出现在10岁之内没有接种麻风腮三联疫苗的孩子身上。在出疹的前一个星期及整个出疹期间(约7天)，孩子都是传染源。耳后、枕后和颈后的淋巴结肿大(肿脖子)是其特点。儿童风疹是良性的，病情不严重。但风疹如果出现在孕妇身上，后果会极其严重。因此请注意不要让出疹的孩子接触未接种风疹疫苗或未患过风疹的孕妇。</p> 
+ <p>　　处理方法：发热期间可用退烧药扑热息痛或布洛芬。</p> 
+ <p>　　<strong>疹子很隐秘-玫瑰疹</strong></p> 
+ <p>　　孩子发烧(39～40℃)3天后，在肚子或身上出现浅粉色或红色的斑点，有时几乎看不见，这经常是儿童玫瑰疹的特征，是经由呼吸道传染的一种病毒引起的。这种仍被医生称为突发皮疹的疾病，通常感染6个月至2岁的孩子。与通常人们认为的相反，玫瑰疹实际上与麻疹没有任何关系。它也具传染性，但是良性的，且症状轻得多。</p> 
+ <p>　　处理方法：在皮疹自动消失之前，有时需要使用退烧药退烧。</p> 
+ <p>　　<strong>皮肤红得像是日晒过度-猩红热</strong></p> 
+ <p>　　猩红热很容易辨别，它表现为在胸廓、胳膊肘、膝盖、腹股沟的折缝、耳朵后、脸上出现很多红点点。它们还会继续扩散，孩子变得全身通红，像是日晒过度。猩红热在孩子群体里传染性很强。最近几年猩红热又变得厉害起来，尤其是在秋冬季节。猩红热通常是由一种链球菌引起，会造成咽、扁桃腺炎，并伴随40℃的高烧，呕吐、肚子疼。1周后，红疹子变成斑块，慢慢消退。四肢端蜕皮，并感到瘙痒。医生可观察到，小患者的舌头变得很红，像“杨梅样”，所以也叫“杨梅舌”，这也是猩红热的特征之一。</p> 
+ <p>　　处理方法：使用抗生素(青霉素)治疗。必须治疗2周，以预防肾脏或心脏并发症。</p> 
+ <p>　　<strong>出疹并伴随着极度的疲劳-单核细胞增多症</strong></p> 
+ <p>　　在几个小时内，零散的或成片的小扁平皮疹布满孩子的脸部或身上，并伴随咽颊炎、发热和极度的疲劳，这通常是传染性的单核细胞增多症。这种病更经常被称作“接吻病”，因为它主要是通过唾液传染的，是由E-B病毒引起的良性疾病。当它侵入机体，就在单核白细胞里繁殖(这也是病名的由来)。经过2～8周的潜伏期，出现发热、头疼和咽炎。孩子的淋巴结肿大，吞咽困难。医生可以检查到孩子脾脏肿大，以证实他的诊断。</p> 
+ <p>　　处理方法：使用退烧药退烧，尤其注意让孩子充分休息。</p> 
+ <p>　　<strong>出疹伴随肠胃炎-肠道病毒症</strong></p> 
+ <p>　　在盛夏季节，孩子患了肠胃炎，头疼，嗓子疼，流鼻涕，没有食欲，身上突然出现扁平小疹子，这表明孩子感染了肠道病毒。肠道病毒症是一种常见的病毒性疾病，最初的症状出现在孩子感染病毒后不到一周的时间内。病毒通常是通过手，由粪便传到口的。</p> 
+ <p>　　处理方法：</p> 
+ <p>　　使用退烧药。因腹泻会引起大量水分和矿物质的丧失，会很快导致孩子脱水(在几小时内，孩子可能减重10%)。因此您应注意让孩子喝足够的水，可口服ORS液(药店有售)。且注意让孩子正常进食。</p> 
+ <p>　　<strong>花环状疹子-传染性的巨红斑</strong></p> 
+ <p>　　孩子的双颊通红，花环状的玫瑰色疹子出现在臀部、腿部、躯干、或者只在手上或脚上出现，这是传染性的巨红斑。这种由parvovirus病毒引起的传染病，通常在冬季或春季出现在未满15岁的孩子身上。疾病的潜伏期大约是10天，发作期也是10天，没有发烧症状。这种病毒通过呼吸道或输血传染，如果感染到孕妇，会造成胎儿畸形或流产。因此注意在此期间不要让患儿接触孕妇。</p> 
+ <p>　　<strong>小水疱-水痘</strong></p> 
+ <p>　　水痘是中间充满液体像露珠似的水疱,液体部分随着时间会逐渐被吸收。水痘是由水痘和带状疱疹病毒引起的,具有很强的传染性，通常在冬季或春季感染孩子。水痘的潜伏期是两三周，然后孩子出现低烧(38℃以下),嗓子疼,全身陆续起疹子。疹子起初是红色的,中间慢慢充满透明的液体。水痘发痒，逐渐干燥,留下淡黄色的痂皮,十几天后脱痂,一般不留疤痕。</p> 
+ <p>　<strong>　像花束似的疹子-带状疱疹</strong></p> 
+ <p>　　几个水疱集中在一个皮区(躯干、颅神经皮区、手、嘴唇和屁股等),皮疹不越过中线,是疱疹的特征。这种病也是由水痘-带状疱疹病毒引起的,疱疹传染性极强。它是通过直接接触皮损传染的,初次感染病毒症状通常很严重。孩子发烧,感觉嘴唇、手指、嘴巴灼热,然后很快出现集中在一起的像花束似的水疱。这些水疱会保留两三周。只要水疱还湿润,就具有传染性。水疱慢慢干燥,形成浅黄的皮掉落，不留下任何疤痕。然而,病毒继续留在机体内,它或者一直处于沉睡状态，或者定期不定期地苏醒,每次苏醒会在同一地方出现疱疹。</p> 
+ <p>　　<strong>手足口起疱-手足口症</strong></p> 
+ <p>　　起疱时规模不大，可能只在手上、脚上，或嘴里起一个水疱。但水疱慢慢会扩散至3个部位，这就解释了这种良性传染病病名的由来：手足口症。手足口症通常在夏季或秋季传染病流行时出现在孩子身上。这些小水疱，在头两天伴随着轻微的发热，大约1周左右自动消失，不留疤痕。</p> 
+ <p>　　<strong>比较少见的疾病-川崎病</strong></p> 
+ <p>　　在孩子发高烧(高于39～40℃)5天之后，各种疹子出现在上身、脚底、手掌心，任何药物都对此无效。孩子通常还患有结膜炎，嘴唇干裂，手指脚趾浮肿脱皮…… 这种比较少见的炎症疾病尤其在冬季容易感染5岁以下的孩子。具体病因尚不清楚，但它能引起心脏和大血管的严重损伤，因此毫不延迟地进行治疗极其重要。</p> 
+ <p>　　处理方法：</p> 
+ <p>　　使用退烧药。因腹泻会引起大量水分和矿物质的丧失，会很快导致孩子脱水(在几小时内，孩子可能减重10%)。因此您应注意让孩子喝足够的水，可口服ORS液(药店有售)。且注意让孩子正常进食。</p> 
+ <p>　　通常，我们一发现孩子身上出现小疙瘩，就会仔细观察研究它，甚至用手指按按它，像是要把它按下去似的，但是不成功。很快，我们就会脱光孩子的衣服观察，发现在孩子的身上、腿上、胳膊上，到处都是小疙瘩…… 在大多数情况下，这不会是严重的问题，可能只是一种常见的儿童出疹疾病。</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

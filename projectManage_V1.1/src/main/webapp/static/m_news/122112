@@ -1,0 +1,318 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>让佝偻病远离你的宝宝-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,112",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,112",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">让佝偻病远离你的宝宝</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 13:46:00</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p> </p>
+ <p></p>
+ <p></p> 
+ <p>　　NO1：为什么会得佝偻病佝偻病主要是由于机体内维生素D不足，导致钙、磷代谢异常，使钙盐不能正常地沉着在骨骼生长的部位而出现骨骼畸形。&nbsp;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;体内维生素D的来源有两条途径：&nbsp;一条途径是内源性，即人体皮肤中含有7-脱氢胆固醇，经阳光中紫外线照射后，变成维生素D，这是体内维生素D的主要来源。但阳光中的紫外线有时会被尘埃、煤烟、雾气、衣帽、玻璃所遮挡而影响了人体的照射。因此，不经常晒太阳者或晒的方法不妥，如戴着有沿帽，隔着玻璃晒等，均易患佝偻病。&nbsp;另一条途径是外源性，即吃进含有维生素D的食物，如动物肝脏、牛奶、奶油、鱼子、蛋黄等，或是服用维生素D制剂。如果宝宝的膳食中缺乏维生素D，而且又没有服维生素D制剂，就容易患佝偻病了。&nbsp;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;维生素D在体内储存于脂肪组织中，如果宝宝因经常生病而消瘦，特别是患有脂肪代谢性疾病，使体内维生素D耗损过多，均容易患佝偻病。此外，一些生长速度过快的孩子，因为需要维生素D的量较大，如果供应不足，也容易发生佝偻病。膳食结构也很重要，如人乳中的钙比牛奶中的钙易吸收，谷类食物中的钙不易吸收。如果小婴儿以牛奶喂养为主，添加辅食时以谷类食物为主，便容易出现佝偻病。&nbsp;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NO2：佝偻病的表现与危害偻病的表现：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;出汗多，特别是睡觉或吃奶时头部出汗多，因摩擦使枕部出现了脱发区，医学上称作枕秃；睡觉不踏实，易惊醒，平时表现烦躁爱哭闹，有时表情呆滞，失去小孩应有的活泼性；还有肌张力低下、腹部膨隆、韧带松弛、轻度贫血、肝脾肿大及容易反复生病等。&nbsp;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;骨骼畸形是佝偻病的主要表现，小婴儿头部可见颅囱加大，颅缝加宽，边缘较软，颅骨软化（用手指轻轻按压，头部像触乒乓球样的感觉），方颅（头形呈方形）。胸部肋骨骺部膨大似算盘珠子，医学上称作串珠肋。肋弓缘上部内陷，形成沟状，医学上称作郝氏沟。同时可出现肋骨外翻，胸骨柄前凸，形成了所谓的鸡胸。个别婴儿也可以出现漏斗胸。&nbsp;佝偻病的孩子如久坐，会引起脊柱后弯、侧弯。有的患儿骨盆前后径缩短。如手腕、脚腕部膨大，则形成医学上所谓的&quot;手镯&quot;、&quot;脚镯&quot;。由于四肢骨质软化，可出现&quot;O形腿&quot;、&quot;X形腿&quot;。严重的佝偻病患儿率易出现病理性骨折。&nbsp;佝偻病的危害：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;虽然很少直接危害生命，但因其发病缓慢而不被重视，一旦发现明显症状后，机体抵抗力已很低，容易并发肺炎、腹泻。佝偻病患儿如并发腹泻、肺炎，则病情重，病程长，病死率高。特别是胸部骨骼的改变，极大地影响了孩子的心肺功能。女孩子骨盆的改变长大后会出现难产。&nbsp;严重的佝偻病还会影响运动功能的发育，如坐、立、走等。运动的发育时间都可推迟，或已经会的动作因患此病而使活动能力减退。&nbsp;NO3、预防佝偻病预防佝偻病首先要从胎儿期抓起，母亲在孕末期要注意营养，多吃蛋类、动物肝脏等含维生素D及蛋白质多的食物，经常晒太阳，并在医生的指导下服用维生素D和钙剂。&nbsp;合理喂养对预防佝偻病是十分重要的。宝宝出生后应尽量采用母乳喂养，因为母乳中维生素D以及其它营养物质易于吸收。4个月的宝宝开始添加辅食时，不要以谷类食品</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>为主，否则会影响膳食中钙盐的吸收，应逐步添加蛋、肝等含维生素D多的食品。晒太阳是预防佝偻病最方便经济、最安全有效的方法，因为紫外线照射在皮肤上，可使皮肤产生维生素D，这是人体内维生素D的主要来源。因此小婴儿过了满月后，可逐步增加日晒时间，在正常天气下，每日晒太阳2小时左右就可以满足维生素D的需要。夏季避免阳光直晒，可在树荫下玩耍，也可以达到日晒的目的。晒太阳时不要隔着玻璃、戴着帽子或口罩，否则达不到抗佝偻病的目的。&nbsp;因为膳食中维生素D的含量较少，所以按时服药也是必不可少的预防措施。宝宝出生半个月应在医生指导下服用维生素D和钙剂，并定期到保健单位进行健康查体，在医生的监测下增减药物剂量。一般婴儿每天需维生素D约400国际单位。&nbsp;对体弱生病的孩子和生长速度较快的孩子，如早产儿、双胞胎、低出生体重儿、肥胖儿要格外注意，因为这些孩子需要维生素D及钙的量大一些，如补充不足，极易发生佝偻病。&nbsp;此外，也要加强疾病的防治工作，因为反复生病的孩子，特别是患有脂肪代谢异常性疾病的孩子，更容易得佝偻病。&nbsp;</p>
+ <br /> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

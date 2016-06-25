@@ -1,0 +1,339 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>如何发现新生儿的疾病呢？-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,485",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,485",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">如何发现新生儿的疾病呢？</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:14:28</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　从出生到生后4周为新生儿期。(小“弟弟”也能大器晚成)新生儿来到人间，即脱离母体单独置身到一个新的环境，一切靠自己去适应新的生活，但他们生理功能尚未发育完善，很容易出现疾病。如何发现新生儿已患病呢？可以从以下几方面去观察：</p> 
+ <p>　　(1)体态主要是观察头面、躯干、四肢的外形。&nbsp;<br />&nbsp;<br />　　①口角歪斜新生儿哭叫时两侧面部不对称，一侧口角歪斜，对侧鼻唇沟消失，眼裂不闭合，可能出生时因母亲骨盆挤压伤或医院用产钳伤了面部神经。如伤轻，几周后可自愈。</p> 
+ <p>　　②唇裂和腭裂是常见的先天性面部畸形，可影响孩子吃奶和发音。唇裂可在生后3至6个月手术修复，腭裂应在2至3岁时手术修复。</p> 
+ <p>　　②头大新生儿出生时头围超过36厘米，或头围大于身长的一半加10厘米，可认为是头大畸形，可能有先天性脑积水。</p> 
+ <p>　　③头小出生时头围仅30厘米，或比胸围小。</p> 
+ <p>　　⑤前囟门紧张正常时前囟门应低于颅骨的水平，并随脉搏跳动。若平卧时，囟门隆凸，则表示有颅内压力增高，可为颅内出血或化脓性脑膜炎。</p> 
+ <p>　　⑥眼睑下垂新生儿出生后头几天，眼睛多是闭合，不睁开，几天后才睁开。若睁眼后发现单侧或双侧上眼皮不能上举者，称为先天性眼睑下垂。</p> 
+ <p>　　⑦牙正常新生儿出生4至6个月开始出牙。若小儿在出生后不久在下颌处发现一两颗乳牙时，因牙根不稳，易脱落掉入气管，故应拔除。</p> 
+ <p>　　⑧舌如出现有节律的吐舌动作，可能是颅内出血或脑水肿：正常时新生儿口腔分泌物很少，若分泌物增多，应疑为患先天性食管闭锁。</p> 
+ <p>　　⑨喉鸣是一种在吸气时表现出来的喉头声，似鸡鸣，在俯卧位或抱起后消失，仰卧时增强。轻度时，对吃奶无妨碍，生后6个月左右消失。</p> 
+ <p>　　⑩头部有难产史的小儿，出生后7至10天，头部出现圆形或椭圆形肿块，随肌肉移动，可能是产伤引起的胸锁乳突肌血肿，头可向肿块一侧倾斜，而下颌及面部则转向无肿块的一侧，称为先天性斜颈。此病一旦发现，应立即治疗。在家里可用沙袋固定小儿头颈部，使头处于正中位，让光源来自肿块一侧，小儿头常转向光亮处；在肿块处进行按摩、推拿。久治不愈者，应进行手术治疗。</p> 
+ <p>　　腹部正常时腹部平坦、对称，随呼吸而起伏。出生4至10天脐带脱落。如脐眼有发红、粘液或脓性分泌物，为脐部炎症；若新生儿出生后24至48小时仍没有胎便排出，且伴有腹胀、呕吐、腹部膨胀，腹部皮肤发亮，应疑为有先天性巨结肠症；若新生儿脐部出现一圆形或卵圆形局限性肿块，在哭闹时突出，安静时回复，指压无痛，可能为脐疝。脐疝不要急于治疗，一般在2至3岁可以自愈。</p> 
+ <p>　　下腰背部如见皮肤上有毛发丛生或有皮肤小凹，或有脊膜膨出，可能是先天性脊柱裂，应及时治疗。小儿尿床常与脊柱裂有关。</p> 
+ <p>　　生殖器男婴出生时已可看到或触及睾丸，如一侧或两侧睾丸未降到阴囊，称为隐睾丸。新生儿期睾丸有自然下降的可能，故新生儿期不必治疗，若幼儿期仍未下降，应手术治疗。新生儿阴囊有大小不一，手电照之发亮，即患有鞘膜积液，若1岁后见张力增加，应手术治疗。有的小儿见阴茎上或下有裂口，称为尿道上裂或下裂，可于学龄前手术修补，不要误认为女性生殖器。</p> 
+ <p>　　四肢较严重的是先天性马蹄内翻足，表现为前足内翻，前半足不能外展，形似马蹄，一经发现，应立即治疗。</p> 
+ <p>　　(2)饮食新生儿的胃呈水平位，胃的上口肌肉松弛，上口肌肉容易发生痉挛，吃奶时容易吐奶。若出现持续性呕吐，腹胀，呕吐物带血或呈黄绿色，体重下降，应视为病态。</p> 
+ <p>　　(3)大小便小儿出生后24小时至36小时内应有胎粪排出，如无排出时，应考虑有无肛门闭锁或肛门狭窄；若新生儿大便时啼哭，大便中含较多粘液、水分应警惕是由于致病大肠杆菌引起的新生儿流行性腹泻。新生儿在出生后24小时内可以排尿，若超过2天不排尿，吃奶、饮水正常时，应去医院检查有无尿道梗阻或先天性肾不发育。正常小儿尿无异常气味，若有鼠尿臭味，应疑及小儿患先天性苯丙酮尿症。</p> 
+ <p>　　(4)哭声新生儿可因饥饿、口渴、尿布湿或环境温度过低或过高而哭闹。若哭声无力或哭不出声；或触摸某部位哭声加剧；或哭声音调高尖、短促等均应考虑为病态。</p> 
+ <p>　　(5)体温新生儿发热往往是多种因素感染的重要表现，需及时就医。在夏季若室温过高，而喂奶、喂水不足时，也会突发高热，叫“脱水热”。出生时低体重儿，患病时常不发热反而体温过低，医学称为“体温不升”，可表现为四肢发凉、拒食，一旦发现，应及时诊治。</p> 
+ <p>　　(6)皮肤</p> 
+ <p>　　①青紫多为缺氧引起，若伴呼吸困难应考虑是否患肺炎、先天性心脏病、呼吸道畸形等。</p> 
+ <p>　　②苍白面色苍白有可能是新生儿肺炎、败血症。常有面色发灰、不吃、不哭，体温不升等。</p> 
+ <p>　　③黄疸正常新生儿可出现一过性生理性黄疸。若黄疸出现在出生24小时内，黄疸明显或黄疸一度消退后又重复出现，或大便色白而尿色深，伴有食欲不佳、抽搐、尖叫、发热等应考虑为病理性黄疸。</p> 
+ <p>　　④水肿正常新生儿出生后可有几天轻度凹陷性水肿。若水肿伴面色苍白、呼吸困难、发热、哭声加剧等应考虑为病态。婴儿在平日的一些表现，往往可发现一些患病的先兆，只要细心观察是不难发现的：</p> 
+ <p>　　(1)大便干，羊屎状正常小儿的大便呈软条便，每天定时排出。若大便干燥难以排出，大便呈小球状，或2至3天一次干大便者，多是肠内有热的现象，可多给菜泥、鲜梨汁、白萝卜水、鲜藕汁服用，以清热通便。若内热过久，小儿易患感冒发烧。</p> 
+ <p>　　(2)食不好，卧不安如果小儿饮食过量，或吃了生冷食物，或不易消化的食物，都会引起小儿肚胀不舒服，往往还使小儿在睡眠中翻动不安、咬牙。</p> 
+ <p>　　(3)鼻中青、腹中痛中医认为小儿过食生冷寒凉的食物后，可损伤“脾胃的阳气”，导致消化功能紊乱，寒湿内生，腹胀腹痛。而腹内寒湿痛可使面部发青，小儿见于鼻梁两侧发青，父母要引起注意。</p> 
+ <p>　　(4)舌苔白又厚，腹中积食多正常时小儿舌苔薄白清透，淡红色。若舌苔白而厚，呼出气有酸腐味，一般是腹内有湿浊内停，胃有宿食不化，此时应服消食化滞的药物，如小儿化食丹、小儿百寿丹、消积丸等中药。</p> 
+ <p>　　(5)手足心热，常有病痛正常小儿手心脚心温和柔润，不凉不热。若小儿手心脚心干热，往往是要发生疾病的征兆，注意小儿精神和饮食调整。</p> 
+ <p>　　(6)口鼻干又红，肺胃热相逢若小儿口鼻干燥发热，口唇鼻孔干红，鼻中有黄涕，都是表明小儿肺、胃中有燥热，注意多饮水，避风寒，以免发生高热、咳嗽。</p> 
+ <p>　　(7)要想小儿安，常保三分饥和寒饥并不是要小儿饿肚子，寒不是要小儿受凉，而是指饮食要适量，不偏食，并根据季节变化调整饮食和增减衣服。否则吃得过饱，或出汗过多，都使小儿抵抗力下降，引起疾病。</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

@@ -1,0 +1,333 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>不易察觉的新生儿肺炎-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,502",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,502",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">不易察觉的新生儿肺炎</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:15:55</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　<strong><font color="#6600ff">导语</font></strong>：一个出生不到两周的新生儿，没有出现发烧、咳嗽、咳痰等症状，而医生的诊断却告诉你，他感染了肺炎。</p> 
+ <p>　<font color="#0000ff">　陈青是个出色的外科医生，几周前，刚刚当了妈妈。可让她没想到的是，在女儿还不到两周时，就因为患有新生儿肺炎住进了医院。给女儿看病的医生告诉她，新生儿肺炎是一种常见病，而且患病原因及症状与婴幼儿或较大孩子不同，她的女儿很可能是因为呛奶引起的。医生的诊断既让她感到内疚，同时也有点迷惑，喂奶怎么会让女儿患上了肺炎？</font></p> 
+ <p align="center"><img id="ImgInfo" alt="" src="/upload/152/20071117091023744.JPG" border="0" /></p> 
+ <p>　<strong>　是什么原因让新生儿患上肺炎？</strong></p> 
+ <p>　　新生儿肺炎是新生儿期常见的一种疾病，在孩子出生前后的不同时期，由于致病原因不同，肺炎的类型也不同，大致可以分为两类：一类是吸入性肺炎，一类是感染性肺炎。</p> 
+ <p>　　吸入性肺炎又包括羊水吸入性肺炎、胎粪吸入性肺炎和乳汁吸入性肺炎。前两种肺炎主要发生在孩子出生前和出生时，由于种种原因引起胎儿宫内缺氧，胎儿缺氧后，会在子宫内产生呼吸动作，就可能吸入羊水和胎粪（宫内缺氧的时候，胎儿也会排胎粪到羊水中），这两种肺炎都比较严重，孩子一出生就有明显的病症，如呼吸困难、皮肤青紫等等，需要住院治疗。</p> 
+ <p>　　更应该引起父母注意的是乳汁吸入性肺炎。由于新生儿，特别是一些出生时体重较轻的孩子，口咽部或食道的神经反射不成熟，肌肉运动不协调，常常发生呛奶或乳汁返流（漾奶）现象，乳汁被误吸入肺内，导致孩子出现咳喘、气促、青紫等症状，误吸的乳汁越多，症状越重。</p> 
+ <p>　　因此，妈妈在给孩子喂奶时一定要仔细，如果用奶瓶喂奶，奶嘴的孔要大小合适，喂奶时孩子的体位也很重要，最好是半卧位，上半身仰起一点。喂奶后轻轻拍打孩子背部，排出胃内的气体，再观察一会儿，发现有漾奶现象时，应及时抱起孩子，拍拍后背。如果孩子呛咳比较严重，并有发憋、气促等情况，要及时到医院就诊。</p> 
+ <p>　　另一类肺炎是感染性肺炎。新生儿患感染性肺炎有两种情况，一种是宫内感染，一种是生后感染。宫内感染肺炎是由于母亲在怀孕过程中感染了某些病毒或细菌，通过血液循环进入胎盘，再经过胎盘进入胎儿的血液。因此，在母亲怀孕期间，胎儿就患上了肺炎。而生后感染性肺炎则可以发生在新生儿期的任何时间。</p> 
+ <p>　<strong>　新生儿生后感染性肺炎是怎么发生的？会传染吗？会因为大人的原因而得肺炎吗?</strong></p> 
+ <p>　　新生儿生后感染性肺炎是新生儿肺炎中最多见的，主要由各种病原菌引起，以细菌或病毒感染为主。</p> 
+ <p>　　在日常生活中，新生儿接触外人的机会比较少，家庭成员就成为了引起新生儿感染的重要原因。密切接触新生儿的家庭成员患呼吸道感染或呼吸道带菌就会通过空气或接触将病菌传给新生儿，由于新生儿抵抗力差，大人患普通感冒，孩子就有可能患肺炎。此外，其他部位的感染，比如脐炎、皮肤感染、口腔感染等，病菌也可以经过血液循环传播至肺部而引起肺炎。一般新生儿肺炎不会传染给其他人，但如果是双胞胎或多胞胎，或有过密切接触的、同龄的小婴儿，就有相互传染的可能性，应注意隔离。</p> 
+ <p>　　<strong>新生儿肺炎有哪些表现？家人在照顾孩子时应注意观察哪些现象？</strong></p> 
+ <p>　　新生儿肺炎的表现与婴幼儿或年长儿患肺炎的症状是很不同的，尤其是出生两周以内的新生儿，像发烧、咳嗽、咳痰这些肺炎常见的症状是很少见到的。他们的主要表现是精神不好、呼吸增快、不爱吃奶、吐奶或呛奶等，大多数孩子不发烧，有的有低烧，接近满月的新生儿可出现咳嗽的症状。如果观察到这些现象，父母应及时带孩子去医院就诊，通过医生的检查和拍肺部X线片，做出诊断。</p> 
+ <p>　<strong>　新生儿肺炎有什么危险？会有后遗症吗？</strong></p> 
+ <p>　　新生儿肺炎不论是哪种类型，病情严重的，都有一定的危险性。例如胎粪吸入性肺炎，如果吸入的胎粪量很多，阻塞了孩子的呼吸道和肺，可迅速导致呼吸衰竭和死亡，常常需要气管插管和用呼吸机治疗。又如感染性肺炎，肺部可以出现大片的感染，甚至形成脓肿、坏死，严重影响病儿的呼吸功能。病菌还可能播散到全身引起败血症、脑膜炎等更严重的并发症。</p> 
+ <p>　　对于新生儿肺炎应早期诊断、早期治疗、积极治疗，以遏制病情的进展。多数新生儿肺炎经过积极有效的救治是完全能够治愈的，并不留任何后遗症，而且也不会复发。但严重的肺炎又合并了全身其他器官的感染或损害，如果是神经系统的损害，会有留下后遗症的可能性。</p> 
+ <p>　　<strong>如果住院治疗，什么时候可以出院？出院后要注意什么？</strong></p> 
+ <p>　　多数新生儿肺炎需要住院治疗，医生会针对不同的病因，采取不同的治疗方法。一般住院时间需要1~2周，待肺炎的症状消失，孩子能够正常地吃奶，其他化验检查也恢复正常，就可以出院了。</p> 
+ <p>　　出院时家人应详细了解孩子住院时的情况，除了疾病治疗和恢复的过程，还需要了解孩子吃奶的情况，在医院每天吃几次奶，每次吃多少，几小时喂一次，出院后是否还需要服用什么药物，是否需要复查等等。</p> 
+ <p>　　出院后孩子有一个逐步适应新环境的过程，有些孩子可能会出现睡眠不安、哭闹或换奶后不适应，吃奶少等现象，家人应耐心细致地护理和喂养，有什么问题可以咨询住院治疗时的主管医生。</p> 
+ <p>　　<strong>新生儿肺炎是否能够预防？</strong></p> 
+ <p>　　新生儿肺炎是可以预防的。与胎儿宫内缺氧有关的羊水或胎粪吸入性肺炎，预防的关键是防止胎儿发生宫内缺氧。母亲在怀孕期间定期做产前检查是非常必要的，尤其是在怀孕末期，可以及时发现胎儿宫内缺氧的问题，产科医生会采取相应的监护和治疗措施，以尽量减少吸入性肺炎的发生及减轻疾病的严重程度。</p> 
+ <p>　　对于感染引起的新生儿肺炎，从母亲怀孕期间就应该开始预防。怀孕的母亲要做好孕期保健，保持生活环境的清洁卫生，更要注意个人卫生，防止感染性疾病的发生。孩子出生后，要给孩子布置一个洁净舒适的生活空间，孩子所用的衣被、尿布应柔软、干净，哺乳用的用具应消毒。父母和其他接触孩子的亲属在护理新生儿时注意洗手。</p> 
+ <p>　<font size="3">　<strong><font color="#b34d8a">特别要强调的是</font></strong></font>，患感冒的成人尽量避免接触新生儿，若母亲感冒了，又必须照顾孩子和喂奶，应戴口罩。对来探访新生儿的客人，要婉言谢绝。发现孩子有脐炎或皮肤感染等情况时，立即去医院治疗，防止病菌扩散。<br />&nbsp;<br />&nbsp;<br />&nbsp;</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

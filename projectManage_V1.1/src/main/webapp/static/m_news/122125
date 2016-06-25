@@ -1,0 +1,360 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>新生儿3大疾病防治提案-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,125",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,125",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">新生儿3大疾病防治提案</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 13:46:50</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p> </p>
+ <p>　　刚刚出生的小生命很柔弱，很容易被一些疾病所侵扰。父母不仅要注意加强呵护，还应该了解一些防治方法，这样会有助于新生的宝贝健康生长发育。</p> 
+ <p>　　第1大疾病――新生儿病理性黄疸</p> 
+ <p>　　病案：</p> 
+ <p>&nbsp;<br />&nbsp;<br />　　宝贝生下来皮肤红红的，可回到家2-3天后身上的皮肤一下子变黄了，就连眼白都黄了。妈咪见了很紧张，赶紧查书。书上说，新生儿的皮肤都会出现不同程度的变黄，这是一种生理现象，叫做生理性黄疸，一般过了7-10天就会消退下去。看到书上这样讲，妈咪放了心。</p> 
+ <p>　　可是，宝贝的黄疸一直不消退，比正常消退时间都过了2周，可仍然持续存在，并还越来越重。同时，宝贝不愿吃奶，大便的颜色也不像别的孩子那样发黄，而是有些发白。全家人都很着急，赶紧带去看医生。经过医生详细问诊和检查，果然是不正常情况，宝贝患了“新生儿病理性黄疸”。</p> 
+ <p>　　疾病解析：</p> 
+ <p>　　新生儿一般在出生2-3天后，皮肤都会不同程度的变黄。先是面部变黄，随之巩膜、皮肤逐渐变黄，但精神、吃奶和睡眠都没明显变化，只是尿色稍黄，这是生理现象。足月儿的黄疸现象，大约持续4-6天，7-10天逐渐消退；早产儿大多在生后3-5天出现黄疸，6-8天达到高峰，而且黄疸消退的时间也较晚，可能在2-3周后才能消退干净。</p> 
+ <p>　　在新生儿黄疸中，有少数孩子属于病理表现，如一出生就出现了黄疸，或在出生后24小时内出现明显黄疸；皮肤黄疸程度较重，除了面部、躯干、四肢外，手掌和脚掌也变黄；皮肤黄疸的时间长，足月儿超过2周以上或更长的时间，早产儿超过3周；皮肤黄疸时轻时重，不是越来越轻；黄疸消退后重新又出现等。一旦出现以上情况，父母要及早注意，并及早带孩子就医。</p> 
+ <p>　　病理性黄疸往往在皮肤发黄的同时，还伴有不愿吃奶、吸吮力弱、精神不佳、呕吐腹泻、发烧或体温低、大便颜色发白等表现。这些表现是由于新生儿溶血病、败血症、肝炎、胆道畸形、内脏出血等疾病所引起。</p> 
+ <p>　　防治提案：</p> 
+ <p>　　生理性黄疸一般不需治疗，几天后黄疸就会自然消退。不过，有些喂母乳的孩子黄疸会持续时间较长，甚至可达数月，这种情况被称为母乳性黄疸。这样的孩子无任何疾病的表现，吃奶、精神状态都正常，去医院就诊也检查不出异常，包括做化验。不过，母乳性黄疸一般影响不大，无须停喂母乳。黄疸严重时只要暂停母乳3-4天，黄疸就会明显减轻或逐渐消失。停喂母乳期间可改喂配方奶，在医生指导下采用药物和蓝光治疗。</p> 
+ <p>　　一旦怀疑孩子是病理性黄疸，就应及早去医院进行详细检查，确定后及时治疗，避免病情进一步发展，引起核黄疸。</p> 
+ <p>　　小提示：</p> 
+ <p>　　核黄疸不仅有引起智力发育障碍的可能，甚至会导致死亡，是新生儿的黄疸最严重的后果。</p> 
+ <p>　　第2大疾病――新生儿结膜炎</p> 
+ <p>　　病案：</p> 
+ <p>　　宝贝出生十几天了。她在出生后没几天，两只眼睛就出现了黄白色的分泌物，而且越来越多，甚至连眼睛都睁不开了。妈咪心里非常着急，以为宝贝是上火了，于是开始降低居室里的温度，也不敢给宝贝多穿了。可宝贝的眼睛并不见好转，带去看医生才知道，宝贝是患上了“新生儿结膜炎”。</p> 
+ <p>　　疾病解析：</p> 
+ <p>　　新生儿很容易患结膜炎。因为，他们的免疫功能还未成熟，对病菌的抵抗力较弱；加上泪腺尚未发育完善，眼泪较少，不容易将侵入眼睛里的病菌冲洗掉。这样，就容易使病菌在眼部生长繁殖，引发结膜炎。</p> 
+ <p>　　金黄色葡萄球菌、流感杆菌、淋球菌、肺炎球菌、大肠杆菌和沙眼衣原体等，是引起新生儿</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>结膜炎的主要病菌。在出生时胎头需要经过母亲的阴道，如果阴道存在这些病菌感染，就容易使他们被感染，使其中一些孩子发生“新生儿结膜炎”。</p> 
+ <p>　　新生儿的眼睛被病菌感染后，一般在出生后5-14天发病，表现为眼睑肿胀，结膜发红、水肿，同时眼睛有分泌物。分泌物一开始为白色，但可能会很快转为脓性，成为黄白色分泌物。先可能是一侧眼部感染，随着病情发展使另一侧眼睛也被感染。若未及时护理和治疗，炎症会侵犯角膜，日后影响视力发育。</p> 
+ <p>　　防治提案:</p> 
+ <p>　　从孕期开始预防。特别提醒的是，如果母亲在怀孕期间白带增多，并呈脓性，或是父亲感染了淋病，要立即去医院进行彻底治疗。这样，便可避免新生儿在出生时被淋病菌所感染，患上“新生儿淋菌性眼结膜炎”。该病在感染严重时可迅速侵犯角膜，治疗不及时会造成角膜穿孔，导致失明，对新生儿的健康危害极大。</p> 
+ <p>　　新生儿出生后，马上使用眼药预防病菌感染。父母在护理时，一定注意保持双手及衣物清洁，千万不能随意用不干净的物品擦洗孩子的脸和眼。</p> 
+ <p>　　如果孩子的眼睛发生了结膜炎，对所使用过的物品，特别是毛巾、手帕要进行煮沸、晾晒消毒。当眼部红肿明显、脓性分泌物过多及白眼球充血时，一定要及时去眼科诊治，不得延误。</p> 
+ <p>　　眼部发生炎症时一定要注意进行正确护理。每次清除眼部分泌物时，切记先用流动的清水将手洗净，再将消毒棉签在温开水中浸湿后，轻轻擦洗新生儿眼部的分泌物。</p> 
+ <p>　　小提示：</p> 
+ <p>　　如果睫毛上粘着较多分泌物，可用消毒棉球浸上温开水湿敷一会儿，然后换一个湿棉球从眼内侧向眼外侧轻轻擦试。要注意，一次用一个棉球，用过的棉球不能再用，直到擦干净为止。清洗完后，在医生指导下滴用抗生素眼药。</p> 
+ <p>　　第3大疾病――新生儿肺炎</p> 
+ <p>　　病案：</p> 
+ <p>　　宝贝就要满月了，出生后一直吃奶挺好。可不知为什么，这两天妈咪给宝贝喂奶，宝贝不那么爱吃了。而且，宝贝吸奶时也似乎没有力气，还总是呛奶，甚至奶水从鼻子里流了出来。但宝贝不咳嗽，不发烧，也不哭不闹，妈咪以为是消化不良了，不愿吃就不吃吧。</p> 
+ <p>　　下午，宝贝的外婆来了。凭她多年做医生的经验，当她看到宝贝的小嘴就像螃蟹似地总往外吐泡沫时，就怀疑是患了肺炎，让妈咪赶紧带宝贝去医院。妈咪一听很着急，同时又感到很不解，宝贝既不发烧也不咳嗽怎么会是肺炎呢？</p> 
+ <p>　　疾病解析：</p> 
+ <p>　　肺炎是婴幼儿的一种常见病。资料表明，年龄越小发病率越高，而且患病后危险性较高，特别是体弱儿、佝偻病、贫血、营养不良及有先天畸形的新生儿，更容易患肺炎，并在患病后病情重，身体恢复慢。</p> 
+ <p>　　最难识别的是新生儿肺炎。因为，新生儿的胸廓发育相对不健全，呼吸肌软弱无力，因此无力咳嗽。而且，新生儿患肺炎时，不像大一些的孩子那样出现明显的咳嗽、发烧、气喘等症状，甚至体温下降，有时只表现出吸吮差、容易呛奶、哭声较轻或不哭，嘴里像螃蟹似的吐泡沫等，很多父母往往会误认为是感冒或其他问题。但抱患儿去医院时，却经常会被医生发现病情已发展得很危险了，所以死亡率较高。</p> 
+ <p>　　新生儿患肺炎时，很多时候在肺部也听不到特有的湿罗音，除非拍X光片才能明确诊断，给诊断带来很大麻烦。</p> 
+ <p>　　防治提案:</p> 
+ <p>　　注意观察孩子有无烦躁不安、精神不好、吃奶差、呛奶并奶汁从鼻中流出、嘴吐泡沫等表现。</p> 
+ <p>　　对于新生儿来讲，世界卫生组织推荐可通过数呼吸次数帮助父母及早发现肺炎。由于正常的新生儿的呼吸节律并不规则，一阵快一阵慢，有时甚至有短暂的停止，所以在数1分钟的呼吸次</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>数时不能采取数15秒再乘以4的方法，正确做法是要数满1分钟。</p> 
+ <p>　　还有一项观察可帮助父母识别。新生儿患肺炎时会出现胸凹陷，即吸气时胸壁明显下陷，并且是病情严重的表现。为了准确起见，以上现象要在安静状态下观察。</p> 
+ <p>　　小提示：</p> 
+ <p>　　新生儿正常的呼吸次数每分钟为40-45次，如果大于60次为呼吸增快。为了准确再数1次，每分钟大于60次以上时应赶快去医院。需要说明的是，数呼吸时要注意一吸一呼为1次呼吸，不要误算为2次。由于新生儿的胸廓运动幅度小，以腹式呼吸为主，所以观察腹部呼吸运动更清楚，数出的次数也较准确。要在新生儿安静的情况下进行，哭闹、吃奶或刚吃完奶都可能会影响准确性。需要说明一点，正常新生儿入睡后有时也会出现呼吸不均或暂停，要结合其他表现来确定是不是患了肺炎。 <br /><br /> </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

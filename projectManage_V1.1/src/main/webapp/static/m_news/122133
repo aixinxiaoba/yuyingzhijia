@@ -1,0 +1,378 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>新生儿硬肿症处理-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,133",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,133",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">新生儿硬肿症处理</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 13:47:20</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p>新生儿硬肿症又称新生儿皮下脂肪硬化症、新生儿寒冷损伤综合征。临床典型表现为不吃、不哭、不动、体温不升及皮肤和皮下组织硬肿。属中医“胎寒”、“寒厥”、“五硬”等范畴。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 病因病理&nbsp;&nbsp; </p> 
+ <p>&nbsp;&nbsp;&nbsp; 中医学认为本病的发生主要因素为小儿多为先天禀赋不足，气血未充，元阳不振，其次是生后调养不当，感受寒邪，故本病在北方寒冷季节发病率高。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 新生儿阳气未充，阴气未长，若先天不足者出生后遇气候寒冷，护理不当，致使寒邪伤于肌表，寒为阴邪，直中脏腑，伤及脾肾之阳，阳虚不能温煦肌肤四肢。寒邪凝滞，气血运行不畅，气滞血瘀，气血运行失常，则患处肌肤肿硬，颜色紫暗，唇及肢端发青。肌肤不温，冷硬而肿。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 西医学则认为本病发病机理尚未完全明了，可由受寒、早产、感染窒息等多种原因引起．新生儿特别是早产儿体温调节中枢发育不完善，体温易随着环境温度波动：新生儿体表面积相对较大，皮下脂肪少，皮肤薄，血管分布较多，易于散热：新生儿皮下脂肪中饱和脂肪酸成分相对多，熔点高，体温低时易凝固，新生儿产热主要靠棕色脂肪，并需要氧的参与，当缺氧、寒冷，酸中毒等因素存在时，产热过程极易受抑制，早产儿此种脂肪储存不足。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 新生儿解剖生理特点，是引起新生儿硬肿症的发病基础。此外，寒冷、摄入不足、感染、窒息及酸中毒等是引起本病的重要诱发因素。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 治疗</p> 
+ <p>&nbsp;&nbsp;&nbsp; (一)普通康复疗法</p> 
+ <p>&nbsp;&nbsp;&nbsp; 复温是治疗新生儿硬肿症低体温的重要措施，目前多主张快速复温法。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 1．复温</p> 
+ <p>&nbsp;&nbsp;&nbsp; (1)轻度患儿：可用缓慢复温法，先将患儿用温暖褓包裹置24―25℃室温中使其自然复温。待体温上升至35℃(2时置暖箱或加用热水袋。暖箱温度自26℃开始，4～6小时内逐渐调节至30一32℃，约每小时时提高箱温1℃。切忌加温过速，否则体表温度上升太快，外周血管床增加，心肌功能不能适应，以致内脏血液供应不足，可致中枢神经系统缺血、缺氧或肺部郁血、出血。</p> 
+ <p>&nbsp;&nbsp;&nbsp;&nbsp; (2)轻、中度(体温&gt;30℃)患儿：置于预热至30℃的暖箱内，调节箱温为30～34~C，通过减少患儿散热使体温升高，力争6～12小时内恢复正常体温。</p> 
+ <p>&nbsp;&nbsp;&nbsp; (3)重度(体温&lt;30℃)患儿；先以高于患儿体温1～2℃的暖箱温度开始复温，每小时提高箱温o．5～1℃（不超过34℃），于12―24小时内恢复正常体温，并保持暖箱在适中温度。</p> 
+ <p>&nbsp;&nbsp;&nbsp; (4)恒温水浴法：将患儿置于39～42''''C的恒温水浴箱内(室温在24℃或稍高)，脐部用消毒纱布覆盖，上面用橡皮膏固定，防水侵入，头露出水面，四肢、躯干浸入水中，每次15分钟，每口2次，直至硬肿消失。微波、远红外线等也能使患儿较快复温。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 2．喂养</p> 
+ <p>&nbsp;&nbsp;&nbsp; 保证患儿热能供应,尽量母乳喂养和口服补液，使机体产热而复温。不能吸吮者，可用滴管或鼻饲喂养和静脉滴注补液。</p> 
+ <p>&nbsp;&nbsp;&nbsp; (二)中医分型与中药治法</p> 
+ <p>&nbsp;&nbsp;&nbsp; 1．脾肾阳虚，气滞血瘀</p> 
+ <p>&nbsp;&nbsp;&nbsp; 全身冰冷，面色灰暗，僵卧少动,昏昏多睡。哭声低微，吮乳无力，局部皮肤发硬，水肿发亮。按之凹隐。硬肿范围较广，唇白舌淡，苔白，指纹淡滞或陷伏不显。</p> 
+ <p>&nbsp;&nbsp;&nbsp; [治法]&nbsp; 温补睥肾，行气活血。</p> 
+ <p>&nbsp;&nbsp;&nbsp; [方药]&nbsp; 参附汤合真武汤加减：人参3克，附子4克，黄芪7克，桂枝3克，茯苓、白术、红花、赤芍、当归、川芎各5克。肿甚，小便不利者，加猪苓、泽泻、木通、车前子；气阴不足者，加麦冬、五味子；咳嗽痰多或大便稀溏者，合二陈汤。</p> 
+ <p>&nbsp;&nbsp;&nbsp;&nbsp; 2．寒凝气滞，瘀血内阻</p> 
+ <p>&nbsp;&nbsp;&nbsp; 面色紫暗，全身欠温，四肢发凉，硬肿多限于臀、小腿、臂、面颊等部，皮肤不易捏起，色暗红、青紫，或红肿如冻伤。严重者口鼻出血，唇色黯红，指纹紫暗。</p> 
+ <p>&nbsp;&nbsp;&nbsp; [治法]&nbsp; 益气温阳，活血化瘀。</p> 
+ <p>&nbsp;&nbsp;&nbsp; [方药]&nbsp; 当归四逆汤加减：人参3克，当归、赤芍、桂枝各3克，细辛1.5克，黄芪7克，川芎3克，木通1．5克，甘草4克，大枣3枚。精神萎靡，口吐痰沫，呼吸不匀者，加白僵蚕，法半夏，石菖蒲、郁金、胆南星；硬肿甚者，加桃仁、红花或丹参、郁金、鸡血藤。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 3．热毒蕴郁，气滞血瘀</p> 
+ <p>&nbsp;&nbsp;&nbsp; 发热,面赤，烦燥，肌肤硬肿紫红，尿短赤。严重者鼻窍出血，血色鲜红。舌紫红，苔黄，指纹紫滞。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; [治法]&nbsp; 清热解毒，活血化瘀。</p> 
+ <p>&nbsp;&nbsp;&nbsp; [方药]&nbsp; 黄连解毒汤加减；黄连、黄芩、栀子各5克，人参3克，川芎、丹参、红花、茯苓各5克，黄芪7克。发热伤阴者，加玄参、麦冬，大便秘结或不畅者，加大黄、槟榔：伴有感染性疾病者，选用地锦草、蒲公英、金银花、连翘、野菊花、紫花地丁，有外寒里热者，用药要温散外寒，清解里热，活血化瘀，温凉并用。</p> 
+ <p>&nbsp;&nbsp;&nbsp; (三)现代西医西药治疗方法</p> 
+ <p>&nbsp;&nbsp;&nbsp; 1．补液</p> 
+ <p>&nbsp;&nbsp;&nbsp; 液量按1毫升／千克体重给予，若患儿有尿少或无尿或有心肾功能损害，要严格限制入量及输液速度。一般输入液体为lo％葡萄糖加1／4氯化钠溶液。重症患儿可适当输入鲜血或血浆，每次20～25毫升。</p> 
+ <p>&nbsp;&nbsp;&nbsp; (4)川芎红花注射液：每次o．3亳升／千克体重(每毫升含川芎o．7克，红花o．3克)加10％葡萄糖溶液5毫升稀释后缓慢静脉注射，每日4次。病情好转后改为肌注，每日2次．</p> 
+ <p>&nbsp;&nbsp;&nbsp; 2．纠正酸中毒</p> 
+ <p>&nbsp;&nbsp;&nbsp; 剂量为5％碳酸氢钠每日5毫升／千克体重，用50%-10%葡萄糖液稀释1.4%碳酸氢钠等张溶液缓慢静脉注射。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 3．控制感染</p> 
+ <p>&nbsp;&nbsp;&nbsp; 患儿多数伴有感染性疾病，控制感染应作为治疗常规措施之一。选择药物时慎用有肾毒性的药物。常选用水剂青霉素、氨苄青霉素等。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 4．弥散性血管内凝血(DIC)的防治</p> 
+ <p>&nbsp;&nbsp;&nbsp; (1)肝素：DIC确诊或高度怀疑时立即应用。首剂1毫克/千克体重，6小时后按0.5-1毫克/千克体重给予，若病情好转，改为8小时1次，逐渐停药。</p> 
+ <p>&nbsp;&nbsp;&nbsp; (2)潘生丁：抗血小板凝集，每天10毫克／千克体重，加入葡萄糖液中静脉滴注或分次口服。</p> 
+ <p>&nbsp;&nbsp;&nbsp; (3)低分子右旋糖酐：保护受损的血管内皮，减低血小板粘附和凝聚，减低血液黏稠度。每次1015毫升／千克体重，静脉滴注，每天1～2次。DIC晚期禁用。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 5．肺出血的防治</p> 
+ <p>&nbsp;&nbsp;&nbsp; 一经确立，早期给予气管内插管，使用呼吸机。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 6．缺氧</p> 
+ <p>&nbsp;&nbsp;&nbsp; 有缺氧或重症病人进行氧疗法。维生素E有抗氧化、稳定细胞膜、利尿等功效，每次10毫克，口服或肌内注射，每日1次，连用3～10天。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 7．改善微循环纠正休克</p> 
+ <p>&nbsp;&nbsp;&nbsp; (1)扩充血容量：用2 1l等张液15―20毫升／千克体重于1小时内静脉滴入，明显酸中毒时可用1．4％碳酸氢钠代替。继之给予l／3或1／4张液，低于生理需要量(约每日70～90毫升／千克体重)。</p> 
+ <p>&nbsp;&nbsp;&nbsp; (2)血管活性药：山莨菪碱(654―2)每次o．5～2毫克／千克体重，每1s～20分钟1次，重复使用，见效后减量并延长给药时间，多巴胺10毫克加入100毫升液体中，从小剂量开始，逐渐加量，一般每分钟&lt;10微克／千克体重，酚妥拉明常与多巴胺合用，每次o，3～o．5毫克／千克体重加10～20毫升液体静注，最大剂量1毫克／千克体重，l／2～小时后可重复使用，一般每4小时1次。</p> 
+ <p>&nbsp;&nbsp;&nbsp; (四)单味药与经验方治法</p> 
+ <p>&nbsp;&nbsp;&nbsp; 1．中药成药</p> 
+ <p>&nbsp;&nbsp;&nbsp; (1)生脉注射液：每次5毫升，加入10％葡萄糖注射液40毫升中，静脉滴注，每日1次，用于阳气虚衰证．</p> 
+ <p>&nbsp;&nbsp;&nbsp; (2)复方丹参注射液：可用2毫升加入5～10％葡萄糖溶液20毫升中静脉滴注，每日1次，7天为1疗程。</p> 
+ <p>&nbsp;&nbsp;&nbsp; (3)鹿茸精注射液；每次1毫升，每日1次，肌注。可联合上药，提高疗效。用于中、重度病例。</p> 
+ <p>&nbsp;&nbsp;&nbsp; (4)川芎红花注射液：每次o．3亳升／千克体重(每毫升含川芎o．7克，红花o．3克)加10％葡萄糖溶液5毫升稀释后缓慢静脉注射，每日4次。病情好转后改为肌注，每日2次</p> 
+ <p>&nbsp;&nbsp;&nbsp; 2．经验方</p> 
+ <p>&nbsp;&nbsp;&nbsp; 红参1克，加水100毫升，久煎，取汁30毫升，每次10毫升，每日3次，口服。用于阳气虚衰证。</p> 
+ <p>&nbsp;&nbsp;&nbsp; (五)敷贴疗法</p> 
+ <p>&nbsp;&nbsp;&nbsp; (1)生葱、生姜、淡豆豉各30克。研细混匀，酒炒，热敷于局部。用于寒凝血涩证。</p> 
+ <p>&nbsp;&nbsp;&nbsp; (2，当归，红花』I芎、赤芍，遗骨草各15克，丁香9克，川乌、草乌、乳香，没药各7．5克，肉桂6克。研末，加羊毛脂100克，凡士林900克，拌匀成膏。油膏均匀涂于纱布上，加温后，敷于患处，1日1次。用于阳气衰弱证。</p> 
+ <p>&nbsp;&nbsp;&nbsp; (3)肉桂7克，川乌、草乌、乳香、没药各8克，丁香45克，当归、川芎、红花、赤芍、透骨草各16克。将上药研成粉末，加凡士林800克拌匀备用。使用时将油膏均匀地涂在纱布上，包扎硬肿部，每日换药1次。</p> 
+ <p>&nbsp;&nbsp;&nbsp; (4)中药药浴</p> 
+ <p>&nbsp;&nbsp;&nbsp; ①附子、桂枝各65克，干姜、甘草、丹参各35克，煎水制成2000毫升，药液温度从36℃渐增至39―40℃，将患儿仰卧盆中浸浴，每次10-20分钟，每日1-2次，可连浴数日，浴后立即保温。并应保持室温在22―24''''C．</p> 
+ <p>&nbsp;&nbsp;&nbsp; ②艾叶200克，加水3000毫升煎煮，水沸10分钟后，加入热水瓶内备用。每日浸浴1次，连用3天，作预防用。治疗每日浸浴2次至好转 。</p> 
+ <p>&nbsp;&nbsp;&nbsp; (六)温灸疗法</p> 
+ <p>&nbsp;&nbsp;&nbsp; 用艾条配生姜片温灸患部，每日2～3次，每次15～30分钟，注意不要烫伤。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 预防与护理</p> 
+ <p>&nbsp;&nbsp;&nbsp; (1)做好孕妇保健，尽量避免早产、产伤、窒息、感受寒冷。</p> 
+ <p>&nbsp;&nbsp;&nbsp; (2)寒冷季节做好新生儿保暖，调节产房内温度为20℃左右，尤其注意早产儿及低体重儿的保暖工作。</p> 
+ <p>&nbsp;&nbsp;&nbsp; (3)在无条件的地方，可用温暖(烘干)的棉袄包裹患儿，再放热水袋或热水玻璃瓶(水温40℃开始渐增至60℃)，在家村也可将患儿贴身怀抱复温。<br /></p>
+ <br /> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

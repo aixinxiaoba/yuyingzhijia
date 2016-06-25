@@ -1,0 +1,316 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>宝宝胀气的原因和症状-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,478",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,478",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">宝宝胀气的原因和症状</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:13:51</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　造成宝宝腹部胀气的原因，有可能是因为：吞食过多的空气、消化不良、胃肠蠕动障碍等，大多数都可以对症治疗；但如果宝宝肚子胀得很大，而且也出现呕吐、影响食欲、情绪时，妈咪最好是带宝宝去看小儿科医生，让医生诊治，以免错过治疗时机。<br /><br />　　“医生，我的宝宝肚子大大的，到底有没有胀气？”这是儿科门诊很常听到的问话，然而造成宝宝肚子看起来鼓鼓的原因，主要还是因为宝宝腹壁的肌肉还没有发育成熟，腹肌不够力而容易凸出，同时又要容纳相对大的内脏器官，加上幼儿开始学步时，站着脊椎会向前弯，所以更显得大肚子。肚子鼓鼓的医学上称为腹胀，而最常造成宝宝腹胀的因素是胀气或澎风，这时敲敲孩子的肚子会有“咚咚”的鼓声，大孩子更是易夺得“青蛙王子”或“屁王”的恶名。<br /><br />　<strong>　宝宝胀气的原因<br /></strong><br />　<strong>　宝宝容易胀气的原因主要有以下几个：<br /></strong>　　<br />　　(1)吞食过多的空气：宝宝以奶瓶喂食时，吸吮如果太急容易吸入过多空气，奶瓶的奶嘴孔大小不适当或瓶身倾斜时，空气也会经由奶嘴缝隙让宝宝吸入肚内，以及宝宝过度哭闹也容易导致胀气。<br />　　<br />　　(2)消化不良：肠道因粪便堆积，使产气的坏菌增生，或牛奶蛋白过敏、乳糖不耐、肠炎等引起消化、吸收不良，易产生大量的气体。<br />　　<br />　　(3)肠胃蠕动障碍：分为单纯功能性的称为“假性肠阻塞”，和肠胃道真正缺乏神经节的“先天性巨肠症”。这类问题的严重程度不同，可从慢性便秘和腹胀到严重呕吐观察，可以是暂时或终身的。<br />　　<br />　　<strong>常见的婴儿胀气<br /></strong>　　<br />　　另外当宝宝肚子胀气时会有哪些症状？对于一种常见于三个月内，因中枢神经系系统未成熟的“婴儿腹部绞痛”(colic of early infancy)，也常因胀气而造成反复发作性的腹痛和哭闹，症状发作多于傍晚，宝宝会有不安、脸部胀红、腿弯曲和腹壁僵硬的现象，也常合并臭屁连连。<br />　　<br />　　治疗方面，局部使用驱风油或用温毛巾敷盖也用帮助。变换宝宝的姿势，如趴睡会使宝宝有安全感，以及肚子受压迫而改善症状，但趴睡有时要注意床垫不可太软，以免造成宝宝窒息。本症愈后甚佳，大多在宝宝四~五个月大时即自行消失。<br />　　<br />　　另一种会引起胀气的“乳糖不耐症”，除有些是肠炎后的后遗症，另外在东方民族偶尔有“种族性”的“乳糖不耐症”，容易发生在三到五岁后的大孩子身上。如孩子上了幼稚园以后，只要喝了较多的奶制品，就会腹胀、肚子痛，不喝奶后这些情况就改善，这时可以选择“低乳糖配方奶粉”。<br />　　<br />　　由此可知消胀气的方法，是喂奶之后，轻轻拍打宝宝背部让他打嗝，以便气体顺利排出；或擦抹婴儿薄荷油，按摩宝宝腹部，这样有助于肠道蠕动，可经放屁将胀气排出。以及借由避免让宝宝饿得太久后才喂奶，安抚宝宝的情绪避免他哭闹，来预防胀气，大小孩也要少吃含有不易消化、低级多糖的食物，因为它们会在消化道内发酵并产气，如：番薯、薯条、豆类、甜瓜等。<br /></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p></p> 
+ <p>　　<strong>器官病变造成的胀气<br /></strong>　　<br />　　<strong>怎样分辨宝宝的腹胀，只是良性的胀气或是有麻烦的腹胀？包括：<br /></strong>　　<br />　　(1)腹腔内器官肿大或长了肿瘤：如肝脾肿大、肝硬化等等，腹腔内的器官和组织都有可能长肿瘤，而肿瘤越长越大就会引起腹胀。<br />　　<br />　　(2)肠阻塞：一般上肠胃道阻塞比较容易呕吐，下肠道阻塞则以腹胀为主。婴幼儿的肠阻塞，严重的完全阻塞，多在出生后不久就会因症状明显而被发现。但如果只是不完全的阻塞，也有可能拖很久后仍被遗漏。如之前提到的先天性巨肠症，是因为胚胎发育期肠道神经节，由上往下发育不完全而停止，造成大肠末端无法放松，使得上方正常的大肠胀得很大。症状除了宝宝有显著的腹胀外，通常也会有胎便延迟解出或便秘的现象。<br />　　<br />　　(3)腹水：引起腹水的原因很多，有肝硬化导致制造蛋白功能失调，以及蛋白由尿中流失的肾病候群症，或由便中排出的肠病变。<br />　　<br />　　<strong>敲打腹部声音 了解症状<br /></strong>　　<br />　　所以父母如果发现宝宝肚子鼓鼓的，到底有没有问题，需不需要进一步检查或治疗？一般而言，如果宝宝活动力正常，能玩、能吃、能拉、没有呕吐的情形，而且肚子摸起来软软的、体重正常增加，那么这一类的腹胀大多是良性的。以及当医生检查宝宝时，扣诊宝宝的肚皮，听敲打的声音来辨别宝宝是否有腹部器官肿大、张了肿瘤或是腹水，如果只是“澎风”会敲出空空、澎澎的声音，妈咪就不必紧张。<br />　　<br />　　但如果宝宝有其他不舒服，如：呼吸道感染、肠炎或便秘，影响食欲等的症状出现，就应该请医生来诊治，妈咪千万不要自行购买药物给宝宝吃，以免因为药物的副作用，把宝宝的情况弄得更糟。<br />　　<br />　　譬如：宝宝如果因细菌性肠炎腹泻时，应该要让他肠内的病菌和其他物体排出，避免造成不好的刺激，这时，如果是大人买了抑制肠蠕动的止泻药给宝宝吃，就可能造成严重的毒性巨肠，甚至会穿孔引起腹膜炎而发生危险。 <br />　　<br />　　平时先抹家里常备的万金油、薄荷油消胀气也许无可厚非，但如果宝宝情况没有改善，而且宝宝有一阵一阵地像生产时的阵痛或哭闹，就可能是“肠套叠”，父母还是应该尽快带他去看医生，如果等到宝宝吐出绿色的胆汁或像大便的东西时就太晚了。<br />　　<br />　　<strong>异常胀气应速就医<br /></strong>　　<br />　　总之，宝宝的肚子如果胀得很大、很硬，加上宝宝看起来很不舒服的样子，一般加上有呕吐或喘就更为不妙。碰到以下情况的腹胀，父母应特别注意并尽快带宝宝就医检查治疗：<br />　　<br />　　(1)宝宝腹胀合并呕吐、食欲差(少于平常一半且越来越少)、贫血、体重减轻等状况，甚至有发烧、解血便的情形。<br />　　<br />　　(2)肚子碰都碰不得，一摸宝宝会很痛或哭闹。<br />　　<br />　　(3)合并呼吸急促。<br />　　<br />　　(4)腹部能摸到类似肿块硬硬的东西。<br />　　<br />　　最后，胀气引起的腹胀，在小儿科虽然是常见的问题，但还是不可以掉以轻心，因为大多的腹胀或许只是功能性的，并不见得会有危险。但如果不处理，也会影响宝宝食欲、情绪，甚至影响其发育。尤其对于器质性(肠阻塞、肿瘤、先天性巨肠症等)的，则更是不能忽略，以免错失早期治疗的良机。&nbsp;</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

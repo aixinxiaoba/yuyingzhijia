@@ -1,0 +1,340 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>认识新生儿筛检-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,482",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,482",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">认识新生儿筛检</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:14:15</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　<strong>　早期发现、早期治疗<br /></strong><br />　　拥有健康的宝宝是所有父母的希望，如果，宝宝在成长过程中健康状况出现问题，对家庭、社会都会造成不同程度的影响，而「新生儿筛检」的目的，则是在婴儿出生后进行相关检查，早期发现患有先天代谢异常疾病的孩子，并立即给予治疗，使患病的孩子能正常发育。</p> 
+ <p>　　<strong>关于新生儿筛检<br /><br /></strong>　　遗传性疾病有很多种，新生儿筛检最主要目的，在于检查出几种常见而又可在新生儿期间加以治疗的先天性代谢异常疾病，使其孩子免于终生智能不足或身体残障的危险！<br /><br />　　自95年7月1日起，全国新生儿筛检服务实施新措施，包括新增6项筛检项目，除塬苯酮尿症、先天性甲状腺低功能症、高胱胺酸尿症、半乳糖血症及葡萄糖六磷酸盐去氢★缺乏症等5项筛检疾病项目，并增列先天性肾上腺增生症、枫糖浆尿病、中链醯辅★Α去氢★缺乏症、戊二酸血症第一型、异戊酸血症、甲基丙二酸血症等6项，共11项。<br /><br />　　至于其他项目，因考量须&#xfffd;清其临床效力、或有无确诊后续发展及有效的治疗方法等，将&#xfffd;裣惹餍匝芯拷&#xfffd;一步探究。<br /><br />　　此外，也提高检验费用减免金额以及&#xfffd;裼孟冉&#xfffd;的「串联质谱仪（Tandem Mass）分析技术，以提供更周延的新生儿筛检，为全国新生儿健康把关！</p> 
+ <p>　　<strong>筛检塬则<br /></strong><br />　　一般而言，新生儿筛检具有早期发现、早期预防与治疗的目的，台北荣总儿童医学部一般儿科主治医师牛道明表示，对于某种先天疾病是否要做筛检，有下列几个塬则：<br /><br />　　＊该疾病是否早期不易由临床诊断出来，且如果不早期治疗会造成严重的伤害。<br /><br />　　＊该疾病是否有&#xfffd;嗜犯叩纳讣旆椒ā&#xfffd;<br /><br />　　＊该疾病一旦查出是否拥有有效的治疗方法。<br /><br />　　＊该疾病在这个族群中发生率是否够高，从事全面筛检是否符合成本效益等。<br /></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p></p> 
+ <p>　　<strong>筛检流程<br /></strong><br />　　为考量检体运送的方便，以便普及筛检服务至偏远地区，新生儿筛检的检体&#xfffd;窦&#xfffd;，&#xfffd;S&#xfffd;裼靡浴附鸥&#xfffd;部位」&#xfffd;袢∥&#xfffd;?血液（约0.2～0.3c.c.），滴在新生儿筛检用的特殊滤纸上，阴乾后邮寄至筛检检验单位。于新生儿出生满48小时，应&#xfffd;&#xfffd;速&#xfffd;裱&#xfffd;。<br /><br />　　若新生儿无法按时&#xfffd;裱&#xfffd;之情况，如体重过轻、病情严重、输血等未能符合&#xfffd;裱&#xfffd;条件者，将由小儿科医师，决定适当&#xfffd;裱&#xfffd;日期，最迟不宜超过出生后30日。<br /><br />　　牛道明医师进一步表示，「当检验结果出现“疑阳性”，会通知个案返院&#xfffd;袢「醇旒焯澹&#xfffd;并于『筛检名册』上登记通知日期。若无法追踪时，将通知筛检中心，转介至当地公共卫生护士追踪。若为“阳性”结果将通知个案至该地区的确认诊断医院，进行确认检查与诊断。」 </p> 
+ <p>　<strong>　筛检检验费用之减免额度<br /><br />　　一般民众之补助<br /></strong><br />　　每案减免金额将由塬来补助新&#xfffd;_币100元，调增为每案减免200元。也就是民众仅须自付检验费350元及&#xfffd;窦煲皆盒姓&#xfffd;费用或相关材料费。<br /><br />　　列案低收入户或居住于山地、离岛或偏远地区医疗机构（助产所）之出生者<br /><br />　　每案减免金额由塬来补助新&#xfffd;_币200元调增为550元。亦即政府全额补助检验费用，民众自付&#xfffd;窦煲皆盒姓&#xfffd;费用或相关材料费。</p> 
+ <p>　　<strong>筛检项目<br /></strong><br />　　<strong>一、先天性甲状腺低能症（CHT）<br /></strong><br />　　发生机率：约每2千至3千个宝宝就会有1个。<br /><br />　　症状：刚出生的宝宝几乎无异常症状，通常在出生2～3个月后慢慢出现症状；主要是宝宝体内缺乏甲状腺荷尔蒙，影响脑神经及身体生长发育。如到了6个月以后才治疗，大部分会变成智能障碍、生长发育迟缓、身材矮小。<br /><br />　　治疗：如能及早发现，在出生后1～2个月内给予甲状腺素治疗，可使宝宝有正常的智能及身体生长发育。</p> 
+ <p>　<strong>　二、苯酮尿症（PKU）<br /></strong><br />　　发生机率：是一种体染色体隐性遗传疾病，是一种先天代谢异常疾病；约每3万5千个宝宝就会有1个。<br /><br />　　症状：通常在出生后3～4个月时出现症状，如：生长发育迟缓，尿液及身体上有霉臭味，日后会出现严重智能不足；主要是宝宝体内无法有效代谢食物中的蛋白质。<br /><br />　　治疗：早期发现，于出生后3个月内，给予特殊饮食、定期追踪，大部分的宝宝可有正常的智能发展。</p> 
+ <p>　　<strong>叁、高胱胺酸尿症<br /></strong><br />　　发生机率：是一种体染色体隐性遗传的胺基酸代谢异常疾病；约每10～20万个宝宝就会有1个。<br /><br />　　症状：主要是宝宝体内无法有效代谢食物中的蛋白质，若未加以治疗，会出现全身骨骼病变、智能不足、血栓形成等&#xfffd;惴⒅&#xfffd;。<br /><br />　　治疗：早期发现，予以低甲硫胺酸饮食严格治疗，将可以防止宝宝智能不足的发生。<br /></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p></p> 
+ <p>　<strong>　四、半乳糖血症<br /></strong><br />　　发生机率：是一种体染色体隐性遗传的醣类代谢异常疾病；约100万个宝宝就会有一个典型的半乳糖血症。<br /><br />　　症状：主要是宝宝体内无法正常代谢乳糖，通常会出现&#xfffd;j奶后发生呕吐、昏睡之现象、眼睛、肝&#xfffd;K及脑部损害。<br /><br />　　治疗：早期发现，以不含乳糖及半乳糖之奶&#xfffd;u品来代替母乳或一般婴儿奶粉，可防止疾病之危害。<br /><br />　　提醒：曾经生育过罹患此病症宝宝的妈妈，在怀孕期间最好避免摄取含有乳&#xfffd;u品或乳糖的食物，如牛乳、乳类&#xfffd;u品、内&#xfffd;K等，以免造成患有此病症宝宝的可能伤害。</p> 
+ <p>　　<strong>五、葡萄糖―六―磷酸盐脱氢酶缺乏症（G―6―P―D缺乏症，俗称蚕豆症）<br /></strong><br />　　发生机率：是常见的性联遗传先天代谢异常疾病，约每100个宝宝就会有3个。<br /><br />　　症状：主要是宝宝体内红血球之葡萄糖新陈代谢发生异常，患有此病症的宝宝在接触某些药物时，如吃蚕豆、接触?丸（臭丸）、擦紫药水，服用磺胺剂及解热镇痛剂等，常容易造成“急性溶血性贫血”，如未及时处理会导致核黄疸、智能障碍，甚至有生命危险。<br /><br />　　治疗：早期确认宝宝健康状况，只要避免接触上述之致病因素，将可减少对宝宝的伤害。</p> 
+ <p>　　<strong>六、先天性肾上腺增生症（CAH）<br /></strong><br />　　发生机率：约每1万五千个宝宝就会有1个。<br /><br />　　症状：此症最常见的因素为肾上腺21―羟化酵素缺乏，临床表徵因「21―羟化酵素」缺乏的质与量不同而有：<br /><br />　　（1）「失钠型」，大部分在新生儿时期因盐分大量流失会造成紧急危险状况，若疏于诊断，极可能因而致死。<br /><br />　　（2）「单纯型」，此类女婴会有异常性徵，成长后无月经、过度男性化、不孕、及发育异常。患病之男婴也会有发育上的问题。如未早期发现，生理与心理矫治均甚困难。<br /><br />　　（3）「晚发作型」，患者在婴儿期以后才出现症状。<br /><br />　　治疗：先天肾上腺增生，除了晚发型以外，都可经由筛检早期诊断，早期治疗可以避免新生儿生命危险，依其缺乏予以适量补充药物，可使之正常发育及成长。</p> 
+ <p>　　<strong>七、枫浆尿症（MSUD）<br /></strong><br />　　发生机率：国内发生率尚在评估中，欧洲白人约每12万个宝宝就会有1个，美国约25万个宝宝有1个。<br /><br />　　症状：由于患者的体液和尿液会有枫树糖浆的甜味因而命名为枫浆尿症。罹患典型此症的婴儿，在开始&#xfffd;j食后数天，会逐渐出现呕吐、嗜睡、食&#xfffd;j减低、唿吸急促、黄疸、抽搐等现象，严重者会意识不清、昏迷甚至死亡。此症是特殊支链胺基酸代谢异常的罕见疾病，使得支链胺基酸（缬胺酸、白胺酸、异白胺酸）的代谢无法进行顺利。<br /><br />　　治疗：早期发现及治疗对新生儿是十分重要，可让宝宝较有正常的生长及智能发展。<br /></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p></p> 
+ <p>　　<strong>八、中链脂肪酸去氢酶缺乏症<br /></strong><br />　　发生机率：国内发生率尚在评估中，欧美地区约15,000个宝宝有一个，是最常见的一种脂肪酸代谢疾病。通常会在出生后的前两年出现临床症状。<br /><br />　　症状：宝宝会因缺少中链脂肪酸去氢酶，使得脂肪代谢无法顺利进行，不完全分解的脂肪堆积在体内产生毒性，对大脑和神经系统造成伤害，引发呕吐、肝&#xfffd;K肿大、低血酮性低血糖、意识模煳、昏迷及抽搐等现象。虽然有部分病人没有症状，这个疾病有25％的病例在第一次发作时死亡，也常被误诊为“婴儿猝死症”。<br /><br />　　治疗：早期筛检可预防疾病的发作，在急性期快速治疗低血糖症状，长期治疗则是要在就寝前提供碳水化合物点心，避免长时间禁食，以及积极治疗感染或胃肠炎等突发状况。如能妥善预防伤害的发生，预后是相当好的。</p> 
+ <p>　　<strong>九、戊二酸血症第一型<br /></strong><br />　　发生机率：国内发生率尚在评估中，美国约2万个宝宝有1个，是一种胺基酸代谢异常的罕见疾病。<br /><br />　　症状：宝宝因为缺乏戊二基辅酶A去氢酶无法正常分解离胺酸与色胺酸，有毒产物（如戊二酸等）过量堆积于血液与组织中，造成渐进的神经症状及急性的代谢异常。通常宝宝在出生几个月内，可能没有异常或仅有无症状的巨脑，但在婴儿期的晚期逐渐呈现出运动困难、渐进式的舞蹈徐动症、肌肉低张到僵硬、麻痹、角弓反张（四肢向外翻转，身体呈弓状）等症状，也可能会有癫痫或昏睡昏迷的急性发作。<br /><br />　　治疗：早期发现及治疗对新生儿是十分重要，可让宝宝较有正常的生长及智能发展。</p> 
+ <p>　<strong>　十、异戊酸血症<br /></strong><br />　　发生机率：国内发生率尚在评估中，国外约每5万个宝宝就会有1个。<br /><br />　　症状：是一种有机酸代谢异常的罕见疾病。宝宝因为缺乏异戊醯辅酶A去氢酶，无法正常分解白胺酸，有毒产物异戊酸过量堆积，进而侵犯神经与造血系统。根据症状严重程度以及发病早晚，分为典型及非典型两种。<br /><br />　　【典型病患】在出生后可能与一般婴儿无异，但逐渐会出现倦怠、&#xfffd;f心、呕吐、嗜睡、胃口不佳及抽筋等症状，大量的异戊酸堆积在体内，宝宝身体和尿液会有明显臭脚汗味道。此时若没有正确的诊断治疗，病患将会逐渐昏迷。<br /><br />　　【非典型患者】发病时间较晚且症状轻微不明显，往往在出生后一年才会被诊断出来，有时会被误判为其他类似疾病。<br /><br />　　治疗：早期筛检发现后，利用饮食控制和定期追踪，有良好的治疗成效。</p> 
+ <p>　　<strong>十一、甲基丙二酸血症<br /></strong><br />　　发生机率：国内发生率尚在评估中，是一种有机酸代谢异常的的罕见疾病。<br /><br />　　症状：宝宝因为甲基丙二酸辅酶A变位酶功能异常或钴胺素代谢异常，导致体内甲基丙二酸、丙酸等有机酸蓄积，造成神经系统损害，严重时引起酮症酸中毒、低血糖、高血氨、高甘胺酸血症。新生儿、婴幼儿期死亡率很高。<br /><br />　　治疗：早期筛检发现可预防急性发病，适时补充液体、避免酸中毒。对于VitB12有效型的病患，须给予维生素B12治疗：对于VitB12无效型的病患，给予特殊配方奶粉及高热量饮食，可使血液、尿液中的甲基丙二酸浓度维持在理想&#xfffd;围。</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

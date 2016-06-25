@@ -1,0 +1,332 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>小儿肠炎-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,315",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,315",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">小儿肠炎</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:00:47</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p>　　<strong>病因</strong>&nbsp; </p>
+ <p>　　一、传染性下痢：吃了不清洁的东酉，以细菌性下痢为最多，如赤痢菌、病原性大肠菌、革兰氏阴性细菌、葡萄状球菌。沙门氏菌等，此病多发生在每年5～6月间。滤过性病毒也是小儿肠炎之主因，如小儿麻痹病毒。流行性肝炎病毒以及其他原因不明之病毒，都可引起流行性下痢。每年9～10月间流行之下痢，多为滤过性病毒引起的。原虫以及阿米巴山可引起下痢，在邻国菲律宾就发现新生儿的阿米巴病例，在我国因环境卫生进步，此种病例较少。&nbsp;&nbsp;</p> 
+ <p>　　二、全身性感染：小儿因抵抗力弱在发生中耳炎、肺炎或肾盂炎时亦可罹患下痢。&nbsp;&nbsp;</p> 
+ <p>　　三、饮食：消化不良、过食或者饮食浓度太浓的奶、脂肪或淀粉过高，亦可引起消化不良，发生下痢。&nbsp;&nbsp;</p> 
+ <p>　　四、口服抗生素：有些抗生素会刺激肠管发生下痢，有些抗生素抑制正常肠管苗簇之发育性而使病原性细菌过度滋长而发生下痢。&nbsp;&nbsp;</p> 
+ <p>　　五、胃肠过敏症：有些小儿对牛乳有过敏性而发生下痢。</p> 
+ <p>　　六、酵素缺乏：原发性或由于下痢续发性皆可引起酵素缺乏。&nbsp;&nbsp;</p> 
+ <p>　　七、内分泌不正常。</p> 
+ <p>　　八、食物中毒等：除发生下痢外尚有历害呕吐现象。&nbsp;&nbsp;</p> 
+ <p>　　<strong>症状&nbsp;</strong></p> 
+ <p>　　一、轻度：一天大便次数5～8次，有轻微发热，无脱水现象。&nbsp;&nbsp;</p> 
+ <p>　　二、中等度：一天大便次数超过10次，大便为水样、泥状、细菌性带有粘液、脓或血液，俗称“痢疾”。有脱水现象，发高热；因细菌有毒素，常引起痉挛、昏睡、休克现象，严重者甚至死亡。&nbsp;&nbsp;</p> 
+ <p>　　三、重度：一天大便在15次以上，水样大便喷射而出，有重度脱水现象，即皮肤干燥、眼球凹陷、眼圈发黑、小便减少，口渴、不安，此外尚有血酸症、呼吸不适、虚脱、半昏迷等状态。由于钾缺乏及水肿的关系，腰部膨胀，有肠麻痹现象。若不及时之治疗，死亡率可达&nbsp;30％以上。&nbsp;&nbsp;</p> 
+ <p>　　<strong>治疗</strong></p> 
+ <p>　　一、抗生素：细菌性肠炎可用抗生素治疗。因细菌之抗药性逐渐改变，用药时需由医师指导，依医师处方服用。有的病人症状刚刚变好就停药，结果因用药不够，而发生慢性大肠炎，日久不愈，影响小儿之营养及健康。&nbsp;&nbsp;</p> 
+ <p>　　二、静脉点滴：下痢最危险为脱水，小儿比成人更容易脱水，厉害者可以脱水体重l／10以上，脱水死亡率可达30％。补充水分则可将死亡率减低到5％以下，所以下痢的最好治疗方法为点滴。在病重时肠管肿胀，不吸收水份，喝一次水泻一次，在这种情形病童一定要点滴治疗，补充食盐水及葡萄糖；酸血症厉害时补充硷液，缺乏钾时补充钾分。点滴除补充营养水分电解质水外，尚有止泻作用。当一切止泻药剂无效时，点滴更是最好的止泻疗法。&nbsp;&nbsp;</p> 
+ <p>　　三、饮食：下痢严重时暂禁喂食，让胃肠休息。病情减轻后可先用米汤或冲淡脱脂奶喂食，而后逐渐增加浓度。禁食不要太久，以免变为不良营养症，此外尚要注意维他命之补充。某些病童以及患过敏性下痢者需要特别饮食治疗时，须请医师指导。小儿下痢看来很平常，但也是死亡率最高的病，所以严重者不可自己乱吃药，一定要请医师诊治处方。&nbsp;&nbsp;</p> 
+ <p>　　<strong>预防&nbsp;</strong></p> 
+ <p>　　下痢多因不洁东西所引起，故预防最要紧的是食物之清洁及保存安全。小孩尽量不要吃街上贩卖的生冷东西，在家中吃东西要煮沸以及用其他方法洗净消毒灭菌&nbsp;。食器亦要消毒干净，婴儿所有奶瓶、奶头都要严格消毒，冲好的奶或吃过一半的奶，不可放置在温室太久。家里有下痢人时，应将病人隔离，其大便呕吐等排泄物的用具要消毒，排泄物要小心处理，以免传染给其他小孩。总而言之应注意：&nbsp;</p> 
+ <p>　　一、注意家户卫生、装纱窗、扑灭苍蝇、蟑螂，以及环境清洁。</p> 
+ <p>　　二、避免带小儿到公共场所。&nbsp;&nbsp;</p> 
+ <p>　　三、避免吃生冷不洁东西。&nbsp;&nbsp;</p> 
+ <p>　　四、小儿之食器注意安全及清洁。&nbsp;&nbsp;</p> 
+ <p>　　五、隔离病人及小心处理其排泄物。&nbsp;&nbsp;</p> 
+ <p>　　六、个人卫生及卫生教育，尤其带小孩的人，要常常洗手，给小儿换尿布以后&nbsp;即要洗手；在接触小儿泌物后亦要洗手，以免细菌传染给小儿。</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

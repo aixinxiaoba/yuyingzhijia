@@ -1,0 +1,435 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>胆道闭锁早期如何与新生儿肝炎鉴别？-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,165",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,165",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">胆道闭锁早期如何与新生儿肝炎鉴别？</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 13:49:37</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p>胆道闭锁与新生儿肝炎二者早期临床表现及体征相近，皆表现有黄疸、肝肿大，故两者鉴别比较困难。但是二者有两种截然不同的临床病变发展过程，并有截然不同的治疗方法：前者只能通过早期外科手术，方有可能获得胆汁引流，可望获得生存希望；而后者则通过内科药物治疗多能获得治愈。因此，临床上对胆道闭锁早期诊断并与新生儿肝炎作出鉴别，尤为重要。临床上，需结合病史、查体、实验室及影像学等资料进行综合分析，方可作出正确判断。</p> 
+ <p>　　病史及体征 </p> 
+ <p>　　1、 肝炎男婴较女婴多，而胆道闭锁女婴较男婴为多。</p> 
+ <p>　　2、 黄疸在肝炎时一般较轻，并有波动性改变，或药物治疗有明显减轻的情况；而胆道闭锁黄疽呈持续性加重，白陶土色粪便。</p> 
+ <p>　　3、 肝炎时肝肿大较胆道闭锁为轻，一般很少超过右季肋下4cm；胆道闭锁肝肿大明显，质硬边钝，常伴有脾肿大。</p> 
+ <p>　　实验室检查</p> 
+ <p>a．血清胆红素动态检测：肝炎随治疗病情发展血清胆红素浓度曲线逐渐下降，而胆道闭锁随病情发展血清胆红素浓度曲线则呈持续性升高。但当重型淤胆性肝炎时亦可表现血清胆红素浓度曲线 持续上升，此时鉴别有困难。</p> 
+ <p>b．低密度血浆脂蛋白-X(Lp-X)测定：在胆道闭锁时，胆汁在肝内淤滞，血清Lp-X则明显升高；新生儿肝炎早期呈阴性。倘若生后1.5个月以上Lp-X仍呈阴性，可排除胆道闭锁的可能。</p> 
+ <p>c．胆酸定量测定：胆道闭锁早期较新生儿肝炎血清中胆酸明显增高，动态检测更有鉴别诊断意义。</p> 
+ <p>d．检测十二指肠引流液中的胆红素量。</p> 
+ <p>　　影像学检查及其他</p> 
+ <p>a．B超：首选的无创伤检查，并可重复动态检测观察。在新生儿肝炎时其肝内外胆管呈正常管腔大小开放图像。在胆道闭锁时肝外胆道不能探出或呈线形条索状。胆囊不显影或呈痕迹瘪小胆囊影像，肝常常增大并伴有脾肿大。</p> 
+ <p>b．99mTC-IDA：闪烁法排泄试验。在胆道闭锁早期，肝细胞功能尚接近正常，注射放射性药物后，连续动态观察5分钟后可见肝脏显影，但以后见不到胆管显影，24小时内皆无排人肠管的影像。而新生儿肝炎虽然肝细胞功能较差，但胆管开放，因而可见肠管内显示放射性药物。</p> 
+ <p>c. MRCP(磁共振胆管系统水成像)：其分辨率很高，对肝内胆管及其B比邻关系的成像有助于胆道闭锁与新生儿肝炎的鉴别。</p> 
+ <p>d．腹腔镜检查：腹腔镜可观察肝脏大小、形态、颜色。若胆囊呈痕迹外观或呈苍白瘪小，多确诊为胆道闭锁。</p> 
+ <p>e．肝穿刺病理组织学检查：对胆道闭锁的早期鉴别诊断有一定意义。新生儿肝炎时, 以肝实质细胞病变为主，肝小叶结构排列不整，肝细胞坏死，巨细胞性变和门脉炎症；胆道闭锁则表现胆小管明显增生和胆汁栓塞，以门脉区域纤维化为主。</p> 
+ <p>累了，倦了，这是每个人都会有的状态，但是程度各不相同。做做以下测试题，可以知道你的疲劳程度，如果是轻度或中度疲劳，你可能需要一个假期或是调整一下自己的生活方式了；如果疲劳程度在中度以上，你可能就需要寻求医生的帮助了。</p> 
+ <p>　　疲劳的表现①无②有③经常</p> 
+ <p>　　1.感到睡眠不足</p> 
+ <p>　　①②③</p> 
+ <p>　　2.感到疲乏无力、无精打采</p> 
+ <p>　　①②③</p> 
+ <p>　　3.感觉迟钝，动作变形</p> 
+ <p>　　①②③</p> 
+ <p>　　4.为鸡毛蒜皮的小事儿发火</p> 
+ <p>　　①②③</p> 
+ <p>　　5.头昏，头胀，头痛</p> 
+ <p>　　①②③</p> 
+ <p>　　6.要记的事记不住，想回忆的事回忆不起来</p> 
+ <p>　　①②③</p> 
+ <p>　　7.不能专注地工作、学习，感到难以完成工作或学习任务</p> 
+ <p>　　①②③</p> 
+ <p>　　8.不明原因的胸部紧缩感</p> 
+ <p>　　①②③</p> 
+ <p>　　9.肩、背、腰不适或酸痛，不定位的肌肉酸痛</p> 
+ <p>　　①②③</p> 
+ <p>　　10.感到关节僵硬，不灵活</p> 
+ <p>　　①②③</p> 
+ <p>　　11.郁郁寡欢，对许多事情都不感兴趣</p> 
+ <p>　　①②③</p> 
+ <p>　　12.莫名其妙的担心害怕</p> 
+ <p>　　①②③</p> 
+ <p>　　13.性欲减退，性功能减退</p> 
+ <p>　　①②③</p> 
+ <p>　　14.耳鸣，听力下降</p> 
+ <p>　　①②③</p> 
+ <p>　　15.咽干，咽痛，异物或紧缩感</p> 
+ <p>　　①②③</p> 
+ <p>　　16.眼干，眼涩</p> 
+ <p>　　①②③</p> 
+ <p>　　17.膝关节酸软无力</p> 
+ <p>　　①②③</p> 
+ <p>　　18.不想看书学习</p> 
+ <p>　　①②③</p> 
+ <p>　　19.只对搞笑的影视节目感兴趣，喜欢色情玩笑</p> 
+ <p>　　①②③</p> 
+ <p>　　20.工作常出错，效率不高</p> 
+ <p>　　①②③</p> 
+ <p>　　21.不想思考问题</p> 
+ <p>　　①②③</p> 
+ <p>　　22.没有神清气爽的感觉</p> 
+ <p>　　①②③</p> 
+ <p>　　23.口臭或异味</p> 
+ <p>　　①②③</p> 
+ <p>　　24.大便干燥，便秘</p> 
+ <p>　　①②③</p> 
+ <p>　　25.消化不良，腹部不适</p> 
+ <p>　　①②③</p> 
+ <p>　　26.皮肤粗糙，无光泽，色素沉着</p> 
+ <p>　　①②③</p> 
+ <p>　　27.胃痛，胃胀，吐酸水</p> 
+ <p>　　①②③<br />28.好吃零食，好抽烟，好喝酒</p> 
+ <p>　　①②③</p> 
+ <p>　　29.喝咖啡或浓茶</p> 
+ <p>　　①②③</p> 
+ <p>　　30.肩、脖子肌肉有发紧的现象</p> 
+ <p>　　①②③</p> 
+ <p>　　31.感到腿、脚酸软</p> 
+ <p>　　①②③</p> 
+ <p>　　32.皮肤瘙痒，出皮疹</p> 
+ <p>　　①②③</p> 
+ <p>　　33.夜里常因小便起床</p> 
+ <p>　　①②③</p> 
+ <p>　　34.感到一阵一阵的很疲劳</p> 
+ <p>　　①②③</p> 
+ <p>　　35.工作使你感到疲倦和筋疲力尽</p> 
+ <p>　　①②③</p> 
+ <p>　　36.起床后就感到疲倦和筋疲力尽</p> 
+ <p>　　①②③</p> 
+ <p>　　37.稍做一点工作就感到累</p> 
+ <p>　　①②③</p> 
+ <p>　　38.厌恶拥挤，厌恶喧哗</p> 
+ <p>　　①②③</p> 
+ <p>　　39.经常患不同的病</p> 
+ <p>　　①②③</p> 
+ <p>　　40.感到自己的健康状况在下降</p> 
+ <p>　　①②③</p> 
+ <p>　　41.入睡难或睡眠不深易醒</p> 
+ <p>　　①②③</p> 
+ <p>　　42.不能做到每天有规律地锻炼</p> 
+ <p>　　①②③</p> 
+ <p>　　43.必须快速做事情时，有头脑混乱的现象</p> 
+ <p>　　①②③</p> 
+ <p>　　44.为避免出错，必须很慢地做事</p> 
+ <p>　　①②③</p> 
+ <p>　　45.经常误解领导的指令或意图</p> 
+ <p>　　①②③</p> 
+ <p>　　46.小便有泡沫，消散慢</p> 
+ <p>　　①②③</p> 
+ <p>　　47.动作的准确性下降</p> 
+ <p>　　①②③</p> 
+ <p>　　48.视力下降</p> 
+ <p>　　①②③</p> 
+ <p>　　49.腹痛，腹泻</p> 
+ <p>　　①②③</p> 
+ <p>　　50.痰多，痰稠</p> 
+ <p>　　①②③</p> 
+ <p>　　为自己的疲劳度打分</p> 
+ <p>　　记分方式：无记1分；有记2分；经常记3分。</p> 
+ <p>　　疲劳程度自测量表由50种表现组成，从不同侧面反映了疲劳的程度及危害。</p> 
+ <p>　　根据得分，您能大致判断自己的疲劳程度：</p> 
+ <p>　　轻度疲劳：50-79分</p> 
+ <p>　　中度疲劳：80-109分</p> 
+ <p>　　重度疲劳；110-139分</p> 
+ <p>　　极重度疲劳：140分以上</p> 
+ <p>&nbsp;</p>
+ <br /> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

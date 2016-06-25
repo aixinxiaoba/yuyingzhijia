@@ -1,0 +1,347 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>10大婴幼儿足部骨骼问题-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,480",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,480",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">10大婴幼儿足部骨骼问题</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:14:04</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　<strong>宝宝的脚ㄚ子正常吗？<br /></strong><br />　　宝宝出生时为什幺脚ㄚ子看起来怪怪？到了学步期，宝宝走起路来怎幺一拐一拐？宝宝的脚怎幺一边大一边小？宝宝天生就这样，所以不必担心？面对宝宝足部骨骼问题的种种疑惑，医师表示，婴幼儿时期（出生到2岁）的骨骼异常，多数属于良性骨骼问题，多数在出生后不需要特别治疗就能自然痊&#xfffd;K，然而，爸妈们也不能因此掉以轻心，因为一旦错过了治疗黄金时期，就只能透过手术来帮助矫正。<br /><br />　　<strong>Chapter 1<br /><br />　　良性骨骼问题&#xfffd;锥嗍&#xfffd;<br /></strong><br />　　三军总医院骨科部主治医师张振慧表示，在小儿骨科门诊中常见的婴幼儿骨骼发育异常病例，主要起因于在子宫内受到母亲骨骼挤压造成先天性的异常，多数属于良性骨骼问题，大部分在出生后不需要特别治疗，只要透过适度的按摩和时间的观察，就能自然痊&#xfffd;K。这些婴幼儿骨骼问题以足部问题居多，包括了足外翻、屈趾（脚趾弯曲）、大拇趾内旋、跖骨内旋及／或内翻，其他较为严重的先天性异常如距骨垂直症、马蹄足、髋关节发育不良或脱臼、Z形脚等。</p> 
+ <p>　　<strong>孕期第8周脚丫子成形<br /></strong><br />　　理论上，胎儿在受精后随着时间的进行，各种器官逐渐成熟，而脚ㄚ子的芽胞通常在4&#xfffd;L后渐渐浮现，在8&#xfffd;L后就会有脚掌的雏形产生。而出生满&#xfffd;L岁的幼儿脚的大小，约为其成人时期的一半，1～1岁半孩童脚板成长的状况最为明显，脚的成长速度为人一生中最快的时候。<br /><br />　　女生约在12～14岁时脚已经定型，男生则要到14～16岁时脚的长度才会完全定型。因此，如果发现婴幼儿有足部骨骼异常问题，在1岁以前治疗都能取得良好效果，而且也比较不会有后遗症。否则就得等到青少年时期骨骼发育定型后，才能进行矫正手术。<br /><br />　　要了解婴幼儿是否有先天性的足部畸形，应该对脚的解剖有所了解。通常脚可分为：前足、中足、后足，前足有趾骨和跖骨，中足有跗骨，后足则有距骨和跟骨。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p></p> 
+ <p>　　<strong>Doctor said<br /></strong><br />　　父母应该仔细观察新生儿的骨骼发育情况，如果在出生2～3个月内没有恢&#xfffd;驼&#xfffd;常，就应进一步询问医师意见，以免延误治疗黄金时机。</p> 
+ <p>　<strong>　Chapter 2<br /></strong><br />　　<strong>10大婴幼儿骨骼问题<br /></strong><br />　<strong>　Part 1 轻微型<br /></strong><br />　　<strong>足外翻（Calcaneous Valgus）<br /><br />　　特徵：新生儿的脚板整个不正常的紧贴着小腿<br /></strong><br />　　张振慧医师表示，在婴幼儿骨骼发育问题之中，足外翻相当常见，根据非正式统计，每千名婴幼儿之中约有1～2人一出生就有足外翻。他说，足外翻最明显的特徵是新生儿的脚板整个不正常的紧贴着小腿，这是因为胎儿在母亲子宫时，足部受到长时间的挤压，造成跟骨背屈及外翻，这通常是脚的姿势问题，而不是骨头排列的问题，出生后挤压感消失后会自然痊&#xfffd;K。一般上，出生后2～3个月内会自然改善，否则就得&#xfffd;&#xfffd;早送医治疗。</p> 
+ <p>　　Tips：父母如果发现宝宝有足部外翻的问题，可在医师的指示下，透过拉筋按摩的方式帮助宝宝的脚板&#xfffd;&#xfffd;早恢&#xfffd;驼&#xfffd;常，经过按摩后90%的宝宝都能够自然痊&#xfffd;K。</p> 
+ <p>　　<strong>屈趾（脚趾弯曲Curling toe）<br /><br />　　特徵：脚趾头有不正常的弯曲现象<br /></strong><br />　　出生后脚趾头有不正常的弯曲现象（多数发生在新生儿的第3或第4根脚趾头，有弯曲和内转的现象），绝大部分的案例不会对足部造成任何影响，在成长过程中会自然改善。<br /><br />　　然而，若&#xfffd;阌兄和房缟狭硪浑b趾头的现象（通常发生在第5根脚趾头），则容易影响穿鞋，必须多加注意是否会造成宝宝穿鞋时的摩擦不适。此外，轻微的脚趾弯曲情况不会恶化，也不会对日常生活造成影响。</p> 
+ <p>　　Tips：为了避免日后穿鞋时，容易造成脚趾头长茧摩擦的困扰，医师建议妈咪们可以用胶带将弯曲的脚趾固定在邻近的正常脚趾上，帮助矫正。此外，妈咪们也可以透过按摩帮助宝宝的脚趾头早日恢&#xfffd;驼&#xfffd;常。</p> 
+ <p>　　<strong>大拇趾内旋 (Great toe Adductus)<br /><br />　　特徵：大拇指偏离另外四趾<br /></strong><br />　　是一种动态的异常，主要是因为婴幼儿肌肉韧带过分活跃和紧绷，造成大拇指偏离另外四趾，通常给予适当的按摩，随着宝宝的长大就会自然痊&#xfffd;K。不过值得注意的是，即使进行矫正后的患者，在长大后仍有很大的机率会有大脚趾外翻的情形，可能在穿鞋时会有不舒服感，不过并不会对走路造成影响。<br />&nbsp;<br />　　<strong>跖骨内旋（Metatarsus Adductus）<br /></strong><br />　　这是一种常见的骨骼异常问题，主要因为胎儿足部在子宫内受到挤压，造成前足位置内旋。但这类疾病有2%合&#xfffd;阕坯啪史⒂&#xfffd;不良，所以不可掉以轻心。此外，这是一种柔软及良性的骨骼异常问题，可以自然恢&#xfffd;驼&#xfffd;常不必刻意治疗，9成长大后会自然改善。</p> 
+ <p>　　Tips：在婴幼儿时期，母亲可透过按摩来帮助拉&#xfffd;脚筋。与跖骨内翻最大的差异性就在于跖骨内旋的患者的情况较轻微，跖骨的弹性较佳，自然改善的机会较大，不过，情况比较严重者，长大后仍可能要进行矫正手术。</p> 
+ <p>　　<strong>Doctor said<br /></strong><br />　　相较于其他婴幼儿骨骼问题，足外翻、屈趾、大脚趾内旋都还算是良性的足部问题，不需要特别治疗也能够自然改善。只是改善的程度仍会受到个人体质影响而有差异性，至于形成塬因，部分与家族史有关。此外，即使在孕期产检中透过超音波检查出来，通常也无法做积极治疗，以免对母亲及胎儿造成影响。<br /><br />　　<strong>Part 2 中重度</strong></p> 
+ <p>　　<strong>跖骨内翻（Metatarsus Varus）<br /></strong><br />　　这是一种较不常见且较为僵硬的畸形，患者可能是在子宫内受到的压迫时间比较长造成，因为5&#xfffd;b跖骨全部内翻，虽然不会产生足部的不便或拇囊炎，然而可能会有美观上的问题及穿鞋的困扰，通常在新生儿时期就必须以长腿石膏（从脚趾头至大腿皆以石膏包裹）一周一周慢慢矫正，在5岁前做这样的矫正还有可能治好，如果情况比较严重，进入青少年时期骨骼发育定型后，必须利用矫正切骨手术治疗。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p></p> 
+ <p>　　<strong>先天性距骨垂直症CVT （Congenital Vertical Ｔalus）<br /><br /></strong>　　这是一种严重的病理性扁平足，在足底会有明显的外突畸形，通常合&#xfffd;阌泄趋婪⒂&#xfffd;不良或是关节挛缩，这一类的脚呈现相当的强硬，而无法以按摩方式改善，通常须以X光辅助诊断，出生后就必须以手术矫正，否则会影响患者日后走路。不过，即使进行手术后，仍有很大机率出现患处无力、扁平足等后遗症。</p> 
+ <p>　　<strong>Z型脚<br /></strong><br />　<strong>　特徵：合&#xfffd;愫笞阏魄&#xfffd;，中足外展及前足内旋的复杂性先天性异常。<br /></strong><br />　　这种先天性畸形是非常复杂的，外观与跖骨内翻很像，它是合&#xfffd;愫笞阏魄&#xfffd;，中足外展及前足内旋的复杂性先天性异常。通常如果合&#xfffd;阌懈&#xfffd;腱挛缩，将会造成婴幼儿在练习站立或走路时的不适，如果没有即时且适当的治疗，将会导致青少年时期走路时造成疼痛及后遗症。在Ｘ光的诊断下，会发现小朋友的前足、中足、后足呈现不规则的Ｚ字型异常。</p> 
+ <p>　　<strong>Part 3 严重型<br /></strong><br />　　<strong>马蹄足（Club feet）<br /></strong><br />　　马蹄足的情形容易被误判为母体子宫内压迫造成的一般足部问题，因而错失治疗时机。这是一种较为复杂的先天性异常，包括有足部下垂（Equinus）、内翻（Varus）、内旋（Adductus）和内转（Medical rotation）等足部问题。大约在千分之一的活产小孩中，有一半是两侧都有，且大部分是男孩。若不治疗，等到学步时将完全无法以脚板着地的方式走路。<br /><br />　　<strong>孕期产检&nbsp; 提早发现异常<br /></strong><br />　　造成马蹄足的塬因是多元的，但是如果有家族遗传史的家庭，后代子孙罹患机率大约是一般人的30倍。有些个案会合&#xfffd;闵窬&#xfffd;、泌尿或是肠、胃道的先天性畸形。在怀孕前期，超音波可以看出胎儿畸形，通常经由羊膜穿刺分析会发现胎儿有不正常的基因。</p> 
+ <p>　　<strong>致病原因及治疗方式<br /></strong><br />　　马蹄足主要的致病塬因是发育不良，通常是距骨发育不良而变为较短和往内、往下偏移，造成中足内移、内翻和前足内旋，并导致最后的畸形和生长不良，甚至造成前后脚的大小不一样，穿鞋子的尺寸大小不一。</p> 
+ <p>　　<strong>依照程度的不同可分为<br /><br />　　１.姿势上的马蹄足<br /></strong><br />　　是一种较为柔软的变形，大部分是因为母亲肚子的挤压造成，用长腿石膏一步一步慢慢的矫正，持续改正后加上矫正鞋则可以完全&#xfffd;蛙&#xfffd;。<br /><br />　　<strong>２.不明原因的马蹄足<br /></strong><br />　　一种较为僵硬的变形，除了石膏矫正以外，大部分需藉由肌腱延长手术或矫正手术治疗。<br /><br />　　<strong>３.畸形引起的马蹄足<br /></strong><br />　　通常合&#xfffd;阌猩窬&#xfffd;或是骨骼先天性畸形、关节挛缩，大部分需藉由手术矫正。</p> 
+ <p>　　<strong>Memo<br /></strong><br />　　出生6～12周为治疗黄金时期，患者一出生就必须以长腿石膏（从脚趾至大腿皆以石膏包覆）矫正至出生后12周。治疗时通常合&#xfffd;愀&#xfffd;腱延长术，不过，即使治疗后患者长大后也会有大小脚的问题，但不会影响运动及步行。<br /><br />　　除了以长腿石膏矫正外，患者成长至2～3岁之前，都必须穿戴矫正鞋。张振慧表示，穿上矫正鞋后无法行走，因此，如果孩子已经会跑时，则改为晚上睡觉时穿戴矫正鞋。此外，在新生儿时期如果打完石膏3～4周后发现后跟腱较紧时，才会进行跟腱延长术。<br /></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p></p> 
+ <p>　　<strong>髋关节发育不良或脱臼 DDH<br /></strong><br />　　临床上发现此类患者多数具有3项典型特徵：怀第1胎且是女儿时，而患处通常在身体左边，平均每千名新生女宝宝当中就有1～2人有此问题。此外，临床上也发现在孕期中有羊水过少、双胞胎、臀位等情形时，发生的机率也比较高。<br /><br />　　患处多数在左边的主要塬因，可能是胎儿在子宫内左边的位置正好靠近母亲的骨骼所致。有20%的患者合&#xfffd;阌絮殴悄诜&#xfffd;及斜颈症。<br /><br />　　<strong>典型症状<br /></strong><br />　　若是脱臼的情况，宝宝一边大腿的活动力会比较差，这类情形比较容易被发现；另外若是发育不良，则一边的大腿可能有时正常有时无法张开。</p> 
+ <p>　　<strong>检测方式<br /></strong><br />　　1.为新生儿换尿布时，发现有一&#xfffd;b脚不容易张开。<br /><br />　　2.换尿布时，发现有一边大腿有时可以正常张开，有时无法正常张开。<br /><br />　　3.换尿布时，可以感觉到宝宝一边的大腿关节有摩擦声。<br /><br />　　4.一出生有长短脚的情况。<br /><br />　　5.开始学步时，走路有长短脚的情况。<br /><br />　　只要符合上述任何一项，宝宝就有可能是髋关节发育不良或脱臼，父母应把握出生后3个月内黄金治疗期，&#xfffd;&#xfffd;早治疗才能让宝宝免受开刀之苦。</p> 
+ <p>　　<strong>Doctor said<br /></strong><br />　　髋关节发育不良或脱臼通常不会引起疼痛感，因此也比较容易被忽略，而以为只是一般的足部问题，新生儿至出生3个月内发现，可以穿戴脱臼吊带帮助矫正，不必动手术，预后效果非常好也比较没有后遗症。如果一出生就发现有长短脚，或者等到孩子进入学步期时才发现有长短脚的情况，届时就只能手术治疗。如果不治疗，患者成年后很早就会得关节炎。</p> 
+ <p><br />　<strong>　乐观态度 积极治疗<br /></strong><br />　　门诊中常有病人到了学步阶段有长短脚的情况，走路步伐不正常，家人却以为「从小就这样」而没有意识到是骨骼发育异常，因而错失了治疗的黄金时期，以致对孩童的发育成长造成不良影响。<br /><br />　　张振慧表示，一个众所期盼的漂亮宝贝诞生，凝聚全家人的每一分欢乐，如果在宝贝哭声的那一&#xfffd;x那，发现他的脚ㄚ子跟一般人不同时，千万不要乱了分寸。因为绝大多数可以经由家人的照顾，完全恢&#xfffd;驼&#xfffd;常。就算是较严重型，更不可以怨天尤人而延迟治疗时间，因而抹杀了宝宝带给这个世界的欢乐。</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

@@ -1,0 +1,330 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>小儿泪汪汪 当心泪囊炎-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,394",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,394",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">小儿泪汪汪 当心泪囊炎</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:06:32</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　刚出生的婴儿两眼泪汪汪，动不动就有眼泪从眼眶溢出。看到这种情况，有些粗心的父母不以为然，以为小孩刚出生都这样，过阵子自己就好了。但是，儿童眼科专家提醒：小儿总是“眼含热泪”，多半是因为患上了眼部疾病，像新生儿泪囊炎和先天性青光眼都会出现这种症状，如果不能及早发现及时治疗，甚至会造成终身残疾。</p> 
+ <p>　　<strong>刚出生的婴儿两眼带泪多半是由眼部疾病引起</strong></p> 
+ <p>　　<strong>早发现早治疗是最好办法</strong></p> 
+ <p>　　不管是新生儿泪囊炎，还是先天性青光眼，目前都没有什么有效的预防办法。对于这几种眼病来说，最好的方式就是在小孩刚发病的时候尽早发现、尽早治疗。像先天性青光眼，病程越短效果越好，一岁以内的手术者，约80%～85%均能收到良好疗效。但是，从目前就诊情况来看，不少患儿家长，尤其是家住农村地区的家长，对这些疾病没有很好的认识，老觉得宝宝眼睛流泪是很小的事情，等疾病发作一段时间才送到医院，往往已经过了最佳治疗时机。</p> 
+ <p>　<strong>　刚出生婴儿易患泪囊炎</strong></p> 
+ <p>　　<strong>小儿泪汪汪或为青光眼如何护理婴儿眼睛？</strong></p> 
+ <p>　　前一阵子，有对父母抱着出生半个月的婴儿从中山赶过来。“孩子刚出生没两天，眼角就红红的，动不动就流眼泪。”宝宝的妈妈告诉医生，他们带着孩子到当地医院看了几天，发现不仅没好转，还越来越严重了。刚来广州儿童医院的时候，宝宝的下眼角下方肿起了一块蚕豆大小的肿块，动不动就挥着小胳膊又哭又闹。经过医生确诊，为新生儿泪囊炎。</p> 
+ <p>　　“新生儿泪囊炎是一种很常见的小儿眼病，我们一天都要接诊到好几十个这样的小病号。”广州市儿童医院眼科主任医师项道满说，这是一种先天性眼病，多见于刚出生一个月左右的婴儿，小儿出生4～5个月内是高发期，其主要症状包括婴儿两眼泪汪汪，每当天气寒冷或刮风时，宝宝症状尤其明显。发病时轻则眼中总含着泪光，重则不时流眼泪。“有些小孩流泪太多，脸部皮肤受到影响，还会导致皮肤湿疹、红疹等。”</p> 
+ <p>　　此外，小儿眼泪汪汪还可能是先天性青光眼的先兆。“先天性青光眼的早期症状也包括流眼泪、眼睛胀痛、怕光、角膜增大等症状。”项道满说，大而无神是先天性青光眼最显著的特点。如果没有及时发现和治疗，在3岁以前，先天性青光眼患儿的眼球会变得越来越大，越来越浑浊，越来越无神，视力也会越来越差。“一般小孩的眼球直径为11毫米，患先天性青光眼的孩子可达到14毫米。”</p> 
+ <p>　　项道满指出，先天性青光眼也是眼球内的排水系统出问题引起。有些孩子房角结构发育异常，房水不能排出。而对于眼睛来说，房水是维持眼球形状的重要物质，没有房水，人不可能看见东西。房水长时间积存无法排出，久而久之，会使得眼球形状发生改变。应该说，这是一种严重危害幼儿视力的疾病，若不进行早期治疗，将给患儿带来不可逆转的损害，甚至造成终身残疾。</p> 
+ <p>　　婴儿眼睛的护理主要分两个方面，一是防止异物进入婴儿眼内，二是经常检查婴儿视力是否有异常。</p> 
+ <p>　　婴儿一天中睡眠的时间较长，又常常闭着眼睛，加之婴儿瞬目反射不敏感，眼前有异物时也不会很快地闭眼以保护眼睛，这样常常很难发现小儿眼睛的异常。若异物在眼内停留时间过长，或异物较尖锐，就会嵌在眼球上，形成病灶，继发感染，后果是很严重的。</p> 
+ <p>　　防止异物侵入小儿眼内，关键是家长在护理时一定要小心仔细。如打扫卫生时应及时将小儿抱开；小儿躺在床上时不要清理床铺，以免飞尘或床上的灰尘进入小儿眼内；小儿的玩具应较圆钝，不要带尖刺；外出时如遇刮风，应用纱布罩住小儿面部，以免沙尘进入眼睛；如小儿哭闹、不睁眼，一定要想到眼内异物和其他眼病的可能性，及时到医院请医生诊治。</p> 
+ <p>　　婴儿眼睛护理中还应注意的是经常观察和检查视力有否异常。一般1～3个月的婴儿只能检查是否有视力，或是否存在着严重的视力异常，而尚不能判断其确切的视力情况。家庭中可用下述3种简易方法检查婴儿是否有视力。</p> 
+ <p>　　1.使婴儿仰卧，用一根线系一个红色毛线球，举在小儿眼前上方20厘米处，看他是否能盯着看，如能盯着看，且能随着毛线球的左右移动而进行跟踪，说明小儿有视力。</p> 
+ <p>　　2.小儿仰卧，拿一支铅笔突然移向小儿面部，小儿会眨眼，这就说明小儿能看到东西了。</p> 
+ <p>　　3.用一手电筒突然一亮，照小儿眼睛，可见小儿眼睛的黑瞳孔突然缩小，这也说明小儿有视力，有瞳孔对光反射。</p> 
+ <p>　　如果在以上的检查中，小儿没有出现相应的反应，说明小儿没有视力，应及时与医生取得联系。</p> 
+ <p>　　<strong>泪囊“下水道不通”诱发炎症</strong></p> 
+ <p>　　新生儿为什么易患泪囊炎？项道满解释说，眼泪是眼睛的润滑剂，起着润滑和保护角膜的作用。眼泪是由泪腺分泌的，经泪点、鼻泪管、泪道流入鼻腔。通常情况下，眼泪的分泌、储存和排出维持着一个平衡的状态，不会出现溢出眼眶自发流泪的状况。但是，在某些情况下，眼泪无法通过自己的“下水道”――排泪管道排出，就会发生和城市下水道堵塞一样的状况――泪囊中储存的眼泪失控“决堤”，不受控制地流出来，这就是泪囊炎的早期症状。</p> 
+ <p>　　项道满指出，正常分娩时，婴儿出生时受到母亲产道的积压，其鼻泪管末端的瓣膜会破裂，使得鼻子和眼泪之间的通道畅通无阻。但是，有些婴儿出生时鼻泪管末端的瓣膜没有破裂，导致眼泪无法通过鼻腔排出。由于眼泪没有了“出口”，只好在泪囊中越积越多。事实上，这些积得满满的泪液，是细菌滋生的温床，细菌在里面尽情繁殖，最终会形成一脓包。如果碰巧里面繁殖的病菌毒性比较强，如金黄葡萄球菌，形成的脓肿还会穿破婴儿的泪囊，跑到周围的组织中去，这时宝宝不仅眼泪多，还会出现患眼眼屎多、内眼角下方鼻根处又红又肿的情况，这时就是急性泪囊炎。如果治疗不及时，泪囊化脓后甚至会烂穿皮肤表层，形成泪囊瘘，这时就很麻烦了。</p> 
+ <p>　　从临床上来看，近年来新生儿泪囊炎的发病率一直呈明显上升趋势。项道满说，他猜测这可能与剖腹产分娩比率居高不下有关。“剖腹产婴儿没经过产道积压，鼻泪管末端的瓣膜更容易保持完好无损的状态，从理论上来说，也就更容易导致新生儿泪囊炎的出现。” </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

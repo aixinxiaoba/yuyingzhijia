@@ -1,0 +1,347 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>小儿黄疸面面观-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,092",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,092",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">小儿黄疸面面观</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 13:44:29</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p> </p>
+ <p>　　在宝宝出生2～3天后，皮肤一般会出现黄疸，大部分在半个月后就会消退，所以对于黄疸基本不需过于担心。不过如果是连续的黄疸不退而且有加重的迹象，同时宝宝出现精神不好、哭闹增多、体重下降等情况时，就不可再掉以轻心了。</p> 
+ <p>　　简单来说，就是宝宝的生理性黄疸无须担忧，病理性黄疸则要高度重视。</p> 
+ <p>　　生理性黄疸和病理性黄疸</p> 
+ <p>　　首先来确定一下“黄疸”的概念。人体内胆红素增高所引起的皮肤、眼睛巩膜的黄染称作“黄疸”，胆红素是人体内红细胞衰老死亡后的产物，如果胆红素过多，超过了肝脏的处理能力，肝细胞对胆红素的处理能力下降，胆红素不能排出体外，就会引起黄疸。</p> 
+ <p>　　在一般情况下，黄疸是出现疾病的征兆，不过新生儿生理性黄疸却是非病理状态，是由特殊的生理特点引起的，主要是由于红细胞破坏增多和新生儿肝脏尚未发育成熟，处理胆红素的能力有限，所以大部分新生儿在出生后2～3天会出现黄疸，4～6天达到高峰，足月儿10～14天消退，早产儿2～3周后消退，在此期间，小儿除黄疸外一般情况良好，食欲佳，无其他异常情况，生理性黄疸不需要治疗，预后良好。</p> 
+ <p>　　不过，如果新生儿黄疸出现以下情况之一，则要考虑是否为病理性黄疸：</p> 
+ <p>　　1 24小时内出现黄疸；</p> 
+ <p>　　2 黄疸程度深，进展快，即在一天内就加深很多；</p> 
+ <p>　　3 黄疸持续时间长或消退后又重新出现。</p> 
+ <p>　　病理性黄疸是疾病的表现，要及时治疗。</p> 
+ <p>　　在不能确定是生理性黄疸和病理性黄疸时，请及时就医，以免耽误病情。</p> 
+ <p>　　母乳性黄疸</p> 
+ <p>　　母乳性黄疸是一种特殊类型的病理性黄疸，因为喂养母乳而出现，其黄疸程度超过正常生理性黄疸，原因尚不十分明了，其特点是在生理性黄疸高峰过后黄疸继续加重，胆红素可达10～30 mg／dl，如果继续哺喂母乳，则黄疸会在高水平状态下持续一段时间后才开始缓慢下降，如停止哺喂母乳48小时，胆红素会明显下降50%，若再次哺喂母乳，则胆红素又见上升。</p> 
+ <p>　　母乳性黄疸可分为早发型和迟发型，早发型母乳性黄疸的特点是容易被忽视，因为其出现时间及高峰时间与生理性黄疸相似，不过其胆红素的最高值会超过生理性黄疸。迟发型母乳性黄疸的特点是经常在生理性黄疸之后紧跟着发生，与生理性黄疸重叠且持续不退，亦可在生理性黄疸减轻后加重。</p> 
+ <p>　　早发型黄疸与迟发型黄疸的比较</p> 
+ <p>&nbsp;&nbsp; 早发型<br />&nbsp; 迟发型<br />&nbsp;<br />&nbsp;黄疸出现时间<br />&nbsp; 生后2～3天<br />&nbsp; 生后7～14天<br />&nbsp;<br />&nbsp;黄疸高峰时间<br />&nbsp; 生后4～6天<br />&nbsp; 生后2～3周<br />&nbsp;<br />&nbsp;黄疸消退时间<br />&nbsp; 两周<br />&nbsp; 生后4～12周后<br />&nbsp;</p> 
+ <p><br />　　黄疸患儿在停止母乳喂养2～3天后，如果黄疸出现明显下降，借此基本可确诊母乳性黄疸，3天后无明显降低者，可排除母乳性黄疸恢复母乳喂养，纵然胆红素再次轻度上升，也不会比以前高。</p> 
+ <p>　　母乳性黄疸较轻者无需特殊处理，较重者可暂停母乳喂养2～3天，改用其他乳制品，必要时可以与光疗配合。暂停期间宜用吸奶器将母乳吸出，以保持乳汁分泌，待黄疸减轻或消退后再继续母乳喂养。</p> 
+ <p>　　母乳性黄疸预后良好，不需要特殊的药物治疗，对婴儿的生长发育并无多大影响，患儿体重增加正常，因此家长尽可放心，不必带着孩子反复去</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>医院求治。</p> 
+ <p>　　感染性黄疸</p> 
+ <p>　　感染性黄疸是由于病毒感染或细菌感染，使得肝细胞功能受损害而发生的黄疸。病毒感染多为宫内感染，以巨细胞病毒和乙型肝炎病毒感染最常见，其他感染如风疹病毒、EB病毒、弓形体等较为少见。细菌感染则以败血症黄疸最多见。</p> 
+ <p>　　感染性黄疸的特点是生理性黄疸后持续不退，或生理性黄疸消退后又出现持续性黄疸。</p> 
+ <p>　　新生儿肝炎综合征</p> 
+ <p>　　新生儿肝炎综合征与成人所患的病毒性肝炎有很大区别，病毒性肝炎的病原体常常为乙型肝炎病毒，属慢性病例且不易治愈，常发展为肝硬化，肝腹水，治疗较为困难，新生儿肝炎综合征则不是这种情况。</p> 
+ <p>　　新生儿肝炎综合征的发病率并不是很高，多为宫内感染的继续，病原菌来自母体，多数为巨细胞病毒，少数为乙肝病毒、风疹病毒、单纯疱疹病毒、EB病毒等。原虫(如弓形虫)和细菌亦可引起新生儿肝炎综合征，但较为少见。</p> 
+ <p>　　新生儿肝炎综合征的主要临床症状是黄疸，表现为生理性黄疸持续不退或消退后又重新出现，其他症状如呕吐、腹胀亦可出现，大便由黄色变为淡黄，尿色变深，肝脏出现肿大，化验血会发现胆红素升高(以结合胆红素升高为主)，谷丙转氨酶升高(少数病例无变化)，经过加强护理和适当治疗后，黄疸逐渐消退，症状好转，食欲改善，大便变黄，肝脏缩小到正常范围，病程约4～6周，对生长发育无影响。少数重症者黄疸日趋严重，大便呈陶土色、油膏状，小便如浓茶，肝脏肿大明显，病程较长，可致肝硬化、肝功能衰竭，预后不良。</p> 
+ <p>　　新生儿肝炎综合征60%～70%都可治愈，转为肝硬化或死亡者较少</p> 
+ <p>　　新生儿肝炎综合征宜给予综合性治疗，要注意合理的营养，补充维生素、能量合剂以加强护肝治疗，短期内使用肾上腺皮质激素可减轻黄疸，中医称新生儿黄疸为“胎黄”，治疗以茵陈为主，中成药茵栀黄注射液静脉输液疗效较好。</p> 
+ <p>　　TIPS：</p> 
+ <p>　　如何防止乙型肝炎病毒的母婴传播至关重要，对于孕妇在乙肝急性期或恢复期所生的婴儿，应该在出生后24小时内、3个月和6个月时各注射高效价免疫球蛋白一次，每次0.5～1ml/kg，可使婴儿乙肝感染及携带率大幅度下降，如果产妇乙肝表面抗原呈阳性，那么新生儿在出生后15分钟内即肌肉注射乙肝疫苗30μg，以后在1个月和6个月时各接种一次乙肝疫苗，每次30μg，这样能达到70%的保护率。</p> 
+ <p>　　阻塞性黄疸</p> 
+ <p>　　阻塞性黄疸多由先天性胆道畸形所引起，以先天性胆道闭锁较为常见，其黄疸特点是出生后1～2周或3～4周又再次出现黄疸，并且逐渐加深，同时大便颜色逐渐变为浅黄色，甚至呈白陶土色。这种黄疸一般做一次B超检查即可确诊。</p> 
+ <p>　　不论是何种原因，病理性黄疸严重时均可引起“核黄疸”，其预后较差，除了造成神经系统损害外，严重的还可能引起死亡，因此，新生儿病理性黄疸应重在预防，如孕期防止弓形体、风疹病毒的感染，尤其是在孕早期防止病毒感染；出生后防止败血症的发生；新生儿出生时接种乙肝疫苗等。平时要密切观察孩子的黄疸变化，一旦发现有病理性黄疸的迹象，应马上及时送医院诊治。</p> 
+ <p>　　面对宝宝的黄疸不要紧张也不要着急，是生理性的自然会消除，是病理性的就抓紧时间治疗，平时注意仔细观察，精心护理就可以了。<br /><br /> </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

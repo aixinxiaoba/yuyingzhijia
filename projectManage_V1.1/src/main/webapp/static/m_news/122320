@@ -1,0 +1,347 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>新生儿持续肺动脉高压-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,320",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,320",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">新生儿持续肺动脉高压</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:01:10</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　新生儿持续肺动脉高压（pphn）是由于生后肺血管压力的持续增高使胎儿循环不能正常过渡到新生儿循环，当肺血管压力超过体循环压力时，大量未氧合血经动脉导管及卵圆孔水平右向左分流。引起新生儿青紫，低氧血症，吸高浓度氧紫绀不能缓解，也叫持续胎儿循环。&nbsp;</p> 
+ <p>　　<strong>病因及发病机理&nbsp;有原发性和继发性两大类</strong></p> 
+ <p>　　（一）原发性：由肺小动脉中层平滑肌增厚，使肺血管床的管腔缩小而致机械性梗阻，使肺动脉压增高。可能与宫内慢性缺氧（血管发育不良），胎盘功能不全，母长期摄入水杨酸或消炎痛致动脉导管收缩有关。</p> 
+ <p>　　（二）继发性</p> 
+ <p>　　（1）严重低氧血症，酸中毒使肺血管收缩。见于围产期窒息（肺动脉主动收缩，或继发于全身动脉血压增高）、胎粪吸入（mas）、感染性肺炎及hmd等。&nbsp;</p> 
+ <p>　　（2）继发于肺及肺血管床发育不良，如膈疝、先天性肺发育不良。</p> 
+ <p>　　（3）其他&nbsp;如心肌损害、心功能不全、红细胞增多症等。</p> 
+ <p>　　<strong>临床表现&nbsp;</strong></p> 
+ <p>　　多见于足月儿、过期产儿、有胎粪污染羊水的病史，早产儿常见于肺透明膜病。</p> 
+ <p>　　（一）症状：生后12小时内即可出现症状，有青紫和呼吸增快，但不伴呼吸暂停和三凹征。青紫为全身性，呼吸窘迫与低氧血症不平行，吸高浓度氧青紫多数不能改善，少数病例紫绀虽能暂短缓解，但很快又恶化，临床上与紫绀型先心病难以区别。</p> 
+ <p>　　（二）体征：肺部无明显体征。心脏听诊帮助不大，杂音可有可无。部分病人胸骨下缘或心尖部可闻及收缩期杂音（三尖瓣和二尖瓣返流所致），心功能不全者有心音低钝，血压下降和末梢循环不良。</p> 
+ <p>　　<strong>诊断</strong></p> 
+ <p>　　（一）筛查试验&nbsp;凡有严重低氧血症，paco2接近正常者，如果胸部</p> 
+ <p>　　x线检查肺野相对清晰，应疑为pphn，可作筛查试验。</p> 
+ <p>　　1.高氧试验&nbsp;吸入80%～100%氧10分钟观察，如为肺实质性疾病则pao2有所改善，青紫减轻，而pphn或先心病则无或很少改善。</p> 
+ <p>　　2.导管前、后血氧差异试验&nbsp;同时取导管前（颞、右桡动脉）和导管后（左桡、脐或股动脉）动脉血，pao2差&gt;2kpa（15mmhg）或氧饱和度相差&gt;10%，表明导管水平有右向左的分流。</p> 
+ <p>　　3.高氧-高通气试验&nbsp;可鉴别pphn与青紫型先心病。用手控加压通气80～120次/分，共10分钟，使paco2下降，动脉血ph上升，此法可使pphn患者pao2上升而青紫型先心病则无反应。</p> 
+ <p>　　（二）辅助检查</p> 
+ <p>　　（1）x线&nbsp;胸片可见肺血管影减少。</p> 
+ <p>　　（2）心脏超声检查：心脏超声doppler&nbsp;既可排除先心病，亦可进行肺动脉血流动力学评估，近年来已广泛应用于pphn的诊断。</p> 
+ <p>　　观察卵圆孔或开放的动脉导管水平有否右向左分流，以多普勒测定左或右肺动脉平均血流速度，流速降低提示肺血管阻力增加，有肺动脉高压。还可以根据肺动脉高压时三尖瓣返流速度计算肺动脉压力。</p> 
+ <p>　　<strong>治疗&nbsp;</strong></p> 
+ <p>　　（一）稳定患儿&nbsp;</p> 
+ <p>　　镇静&nbsp;机械通气时应给吗啡镇静，静注0.1mg/kg.h。</p> 
+ <p>　　肌松剂&nbsp;患儿自主呼吸快，或对抗呼吸机时，可给神经肌肉松弛剂pancuronium&nbsp;0.1mg/kg,每3～４ｈ一次。</p> 
+ <p>　　纠正酸中毒、低体温、红细胞增多症、低血糖等。</p> 
+ <p>　　（二）机械通气&nbsp;近年来主张用较保守的高通气法。使pao2维持在&gt;80mmhg，paco2维持在35～45mmhg，ph保持在7.45～7.5。如无肺实质性疾病，可用低压、短吸气时间的通气方式，呼吸频率60～120次，pip20～25cmh2o，peep　2～4cmh2o,吸气时间0．2～0.4秒,气流量20～30l/分。如有肺实质性疾病应根据肺原发病作相应调整，可用稍低频率及较长吸气时间通气。</p> 
+ <p>　　（三）血管扩张剂治疗</p> 
+ <p>　　1、碱化血液扩张肺血管：近年来主张静脉内用碳酸氢钠以达到碱化血液扩张肺动脉的目的，可避免因高通气所致的不良反应。</p> 
+ <p>　　2、血管扩张剂&nbsp;妥拉苏林　首次量１mg/kg,10分钟内静注,以后用1～2mg/kg.hr维持,约50%的患儿用药后有全身性低血压,胃肠道出血及暂时性肾功能不良。</p> 
+ <p>　　硫酸镁&nbsp;镁为钙的拮抗剂，通过作用于前列腺素代谢，抑制儿茶酚胺的释放及减少平滑肌对血管收缩反应起作用。剂量为200mg/kg，静脉30min缓慢输入，然后以20～50mg/kg.h静脉滴注。治疗时应监测血浓度，有效血浓度为2.88～5.67mmol/l。</p> 
+ <p>　　副作用为低血压和低血钙。</p> 
+ <p>　　前列腺素&nbsp;开始剂量为0.02μg/kg.min,在4～12h逐渐增加到0.06μg/kg.min;维持量0.03～0,06μg/kg.min,可用3～4天。</p> 
+ <p>　　（四）提高体循环血压，逆转右向左分流　保证血容量，不足时补以５％白蛋白、新鲜血浆或全血；常用多巴胺及多巴酚丁胺以增加心搏出量及维持血压，剂量为３～５μg/kg.min，剂量不宜过大。</p> 
+ <p>　　（五）新疗法</p> 
+ <p>　　１．体外膜肺法（ecmo）&nbsp;用于最大限度呼吸机支持加药物治疗无效者。</p> 
+ <p>　　２．No吸入疗法&nbsp;no为内皮细胞衍化舒张因子，是维持血管处于低阻力的重要因素。吸入的no经肺泡弥散到肺血管平滑肌细胞后，活化局部鸟苷酸环化酶使cgmp增加，cgmp是导致血管平滑肌松弛的重要媒介而引起肺血管扩张。</p> 
+ <p>　　３.no加高频震荡通气治疗（hfo）：用常规呼吸机加no或单用hfo通气失败者，联合hfo通气+&nbsp;no吸入后疗效显著提高，尤其对严重肺实质病变所致的pphn，可促进no的有效释放与弥散。</p> 
+ <p>　　表面活性物质替代疗法：mas&nbsp;和细菌性肺炎与表面活性物质失活有关。表面活性物质替代疗法可以改善这些患儿的气体交换。对先天性膈疝也有效，因其表面活性物质合成延迟。</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>

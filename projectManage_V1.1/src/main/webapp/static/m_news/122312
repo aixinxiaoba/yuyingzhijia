@@ -1,0 +1,338 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0077)http://m.gmw.cn/2015-06/13/content_15968938.htm -->
+<!DOCTYPE html PUBLIC "" "">
+<HTML>
+<HEAD>
+<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+<!-- tplid:20632,name:普通文章页 -->
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<META http-equiv="Cache-Control" content="max-age=0">
+<META http-equiv="Expires" content="0">
+<META http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<META name="viewport"
+	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+<META name="Keywords"
+	content="育婴之家，儿童之家，育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+<META name="description"
+	content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+<TITLE>秋季，又到新生儿抗击过敏时-新生儿-育婴知识学习交流平台</TITLE>
+<LINK href="/m/common/gm/m_article_common.css" rel="stylesheet"
+	type="text/css">
+<LINK href="/m/common/detail.css" rel="stylesheet" type="text/css">
+<SCRIPT src="/m/common/gm/jquery.js"></SCRIPT>
+<META name="GENERATOR" content="MSHTML 11.00.9600.17842">
+<SCRIPT language="javascript" src="/m/common/gm/js.js"></SCRIPT>
+<script type="text/javascript">
+$(function(){
+	loadMood();
+})
+
+function loadMood()
+{
+	// 加载心情模块。
+	$.ajax({
+		url : "/front/m/loadMood.do",
+		type : "post",
+		data : {
+			"newsID" : "122,312",
+		},
+		dataType : "json",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				var strHTML = "";
+				
+				for (var i=0; i < data.length; i++)
+				{
+					strHTML+= " <li> <p id='hits_1'>"+data[i][2]+"</p> ";
+					strHTML+= " <div class='pillar' id='zhu_1' style='height: "+data[i][3]+"px; line-height: 13px;'>&nbsp;</div> ";
+					strHTML+= " <a onclick='getMotions(" + data[i][0] + ");'><img src='/m/common/m/m" + data[i][0] + ".gif'> ";
+					strHTML+= " <p>" + data[i][1] + "</p></a> </li> ";
+				}
+				$("#mood_show").html(strHTML);
+			}
+		}
+	});
+}
+	
+// 心情评论
+function getMotions(type)
+{
+	// 心情评论。
+	$.ajax({
+		url : "/front/m/moodExpress.do",
+		type : "post",
+		data : {
+			"newsID" : "122,312",
+			"moodType" : type
+		},
+		dataType : "text",
+		async : true,
+		success:function(data)
+		{
+			if (data != "" && data.length > 0)
+			{
+				if (data == 1)
+				{
+					// 重新加载心情模块。
+					loadMood();
+				}
+				else if (data == 2)
+				{
+					alert("您已经表达过心情喽，保持平常心有益于身心健康！");
+				}
+				else
+				{
+					alert("似乎无法评论喽，请稍后重试！");
+				}
+			}
+		}
+	});
+}
+</script>
+</HEAD>
+<BODY>
+	<DIV class="nav_header_wrap">
+		<A class="nav_header_left" href="/front/m/index.do"><IMG
+			src="/m/common/header_yyzj_logo.png"></A><A
+			class="nav_header_right" href="/front/m/nav.do"><IMG
+			src="/m/common/gm/header_nav_btn.png"></A>
+		<DIV class="nav_header_center">
+			<A class="nav_header_breadcrumbs"
+				href="/front/m/subMenuShow.do?lProjectMenuID=150"
+				target="_self">新生儿</A><A
+				class="nav_header_breadcrumbs"
+				href="/front/m/newsList.do?lProjectMenuID=150&menuID=152"
+				target="_self">疾病</A>
+		</DIV>
+		<BR class="clear">
+	</DIV>
+	<!--正文部分---->
+	<DIV class="contentWrapper">
+		<DIV class="contentLeft">
+			<H1 id="articleTitle">秋季，又到新生儿抗击过敏时</H1>
+			<DIV id="articleSubtitle"></DIV>
+			<DIV id="contentMsg">
+				<SPAN id="pubTime">2016-06-25 14:00:35</SPAN> <SPAN id="source">育婴之家网</SPAN>
+				<SPAN class="fontSize_wrap"><A id="fontPlus"
+					href="javascript:;">A+</A><A id="fontMinus" href="javascript:;">A-</A>
+					<DIV class="clear"></DIV></SPAN>
+			</DIV>
+			<DIV id="contentMain"><font size='3'><div class="Newscontent">
+ <p>　　秋季是个容易引起孩子过敏的季节，每到这个季节，过敏儿童就容易发生过敏性鼻炎、过敏性皮炎、哮喘等过敏性疾病。妈妈们很无奈，因为，关于孩子的健康护理工作，她们已做得够得上细致入微了，可仍然无奈过敏的防不胜防。 </p>
+ <p>　　<strong>特别推荐：深秋宝宝易患三大过敏疾病</strong></p> 
+ <p>　　专家介绍：过敏病主要来自于遗传的过敏体质，加上外界过敏原或刺激物（空气污染或病毒感染）的激发，导致呼吸道慢性且持续的发炎反应。所以要避免过敏病的发生，只能建议高危险群的儿童应避免与过敏原或有害的刺激物接触，进一步感染而致的发炎反应。一旦当宝宝呼吸进这根本看不见摸不着的微小颗粒时，打喷嚏、流鼻涕、鼻塞、鼻眼耳痒、咳嗽、气喘等症状就都来了。</p> 
+ <p>　　可是，孩子的过敏原或那些有害的刺激物到底指的是什么呢？如何避免？父母该如何做？</p> 
+ <p>　　不同的过敏儿童，有着不同的过敏原，如：灰尘、螨虫……甚至连较冷的空气都是。父母们是否感觉自己无从下手呢？</p> 
+ <p>　　但是专家表示：其实，在众多的过敏原中，由尘螨引起的过敏性疾病最为普遍，据统计约90%的儿童哮喘起因于尘螨过敏。国外的临床研究也发现，婴幼儿时期家庭中尘螨过敏原的暴露程度与后来孩子发展成哮喘的几率之间是密切相关的。</p> 
+ <p>　　<strong>防螨全攻略</strong></p> 
+ <p>　　秋季，一场“家庭防过敏战”不可避免地开始了。但我们首先要弄清，螨虫身藏何处？它是怎样让宝宝变得坐立不安的？</p> 
+ <p>　　专家表示：螨虫藏在床铺、沙发中的尘螨和它的排泄物在我们叠被、扫地时飞扬在空中，一旦被宝宝吸入支气管中，其中被分解的微小颗粒还可深入到毛细支气管中，特别是被幼小的体质容易过敏的宝宝吸入后，在过敏原的刺激下，会引发明显过敏症状。</p> 
+ <p>　　<strong>防螨攻略一：有效“隔离”过敏原</strong></p> 
+ <p>　　研究显示，大约在持续隔离过敏原8个月左右，宝宝的过敏反应机制提高了，也就是说宝宝可以承受比以前更多的过敏原而不会引起过敏反应，因为当容易过敏的宝宝在避开与过敏原的接触后，那些受损的细胞将有机会修复。这好比一个处于不断炮击之下的碉堡需要一个安静、安全的阶段去恢复和加固其防御能力一样。而如果受损细胞没有机会自我修复，那么它就更容易再次受到侵害。</p> 
+ <p>　　最直接的隔离方式就是将枕头、床垫、被褥套入防螨被褥套内。最好的防螨材料是有弹性、透气的、很细的织物纤维或非织物合成材料。许多患喘息性支气管炎的孩子，就是用了防螨被褥套，收到很好的效果。</p> 
+ <p>　　<strong>防螨攻略二：有效控制卧室、客厅的环境</strong></p> 
+ <p>　　对尘螨过敏的宝宝而言，家里保持良好的卫生环境非常重要。将室内尘螨数量降至最低，则过敏的反应会大为减轻，用药量也会减少。</p> 
+ <p>　　卧室是家庭生活的重要场所，同时也是尘螨最大的寄生地点，首先床垫、枕头及被褥都需用防螨材料包裹起来，这样不仅使内部的尘螨无法穿透隔离材料，无法以人类的皮屑为食，同时外界的尘螨也无法再进入床垫、枕头及被褥中进行繁殖，从而达到控制尘螨的目的。</p> 
+ <p>　　<strong>其他控制尘螨的方式：</strong></p> 
+ <p>　　1、每一周到两周以55摄氏度左右的热水清洗一次床上用品。</p> 
+ <p>　　2、最好不用地毯。</p> 
+ <p>　　3、不使用填充式家具（如布艺沙发），而使用木制家具或皮革沙发，填充式玩具必须选择可洗涤的类型。</p> 
+ <p>　　4、经常保持室内通风良好。</p> 
+ <p>　　5、在室内无法通风的情况下，可使用高效空气净化器驱除空气中的过敏原及微小的污染物。</p> 
+ <p>　　6、尽量简化卧室的布置以方便除尘，卧室中不要摆放花木及过多书籍。</p> 
+ <p>　　7、不要在家中摆放挂毯及其他容易堆积灰尘的东西。</p> 
+ <p>　　8、最好不要用布艺窗帘，用百叶窗代替；如必须使用布艺窗帘，则需经常清洗。</p> 
+ <p>　　9、将衣物放在衣柜内并关好柜门，不要长时间挂在室内而堆积尘土。</p> 
+ <p>　　10、因为尘螨喜欢生活在潮湿的环境中，所以经常监测室内的湿度水平，通过使用空调将湿度指标控制在50％以下。</p> 
+ <p>　　11、家中如有过敏宝宝，爸爸妈妈在打扫卫生时一定注意要用湿抹布或特制的除螨抹布，养成“湿式作业”的习惯，千万不能扬起灰尘，减少灰尘飞扬在空气中而被宝宝吸入的机会。</p> 
+ <p>　　12、如宝宝过敏严重，可在医生指导下使用抗过敏药物。</p> 
+ <p>　　<strong>防螨攻略三：远离宠物与家中花草</strong></p> 
+ <p>　　宠物身上的过敏原被容易哮喘的宝宝吸入后，轻则会引起呼吸道过敏，重则甚至发生哮喘。</p> 
+ <p>　　室内花草最好不用养花的肥料，因为肥料中有许多螨和真菌，有些观赏花散发出浓郁的香味，也可诱发宝宝过敏。</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font></DIV>
+		</DIV>
+		<!-- 表情start -->
+		<div id="motionsDiv">
+			<div id="mood">
+				<div>
+					<div id="mood_tl"></div>
+					<div id="mood_tr">
+						<a href="http://www.gmw.cn/motionsdaytop.htm" target="_blank">日</a>/<a
+							href="http://www.gmw.cn/motionsweektop.htm" target="_blank">周</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				<ul id="mood_show">
+					<!-- mood -->
+					
+				</ul>
+			</div>
+			
+			<!-- 
+			暂不使用
+			<div class="list_more">
+				<a title="每日排行" href="http://motions.gmw.cn/m_top/day"
+					target="_blank">查看每日排行 ?</a>
+			</div>
+			 -->
+		</div>
+		<!-- 表情结束 end -->
+		<!---- tplid:20577;tplname:文章页下部推荐（新）; pagename:test_recom.htm ---->
+		<DIV class="mainlistsbox">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+						atremote="">推荐阅读</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 推荐阅读-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=51,479">哪些食品是孕妇补钙好帮手</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,963">准妈妈的待产包</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=31&newsID=49,962">孕期留长发会和胎儿抢营养吗</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,959">手足口病高发 爸妈必知这些事儿</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=23&newsID=49,957">给宝宝捏鼻梁会变挺？</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多推荐"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=1"
+								atremote="">进入更多推荐 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+		<DIV class="mainlistsbox" style="">
+			<DIV class="bar_nav">
+				<DIV class="bar_nav_main">
+					<A
+						href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+						atremote="">热点排行</A>
+				</DIV>
+			</DIV>
+			<DIV class="nav_content_list">
+				<!-- 热点排行-->
+				<DIV class="nav_content_item">
+					<DIV class="list_wrap" style="display: block;">
+						<UL class="news_list" style="display: block;">
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,768">为何有的新生儿摸不到睾丸</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,767">新生儿症状:正常？异常？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,766">女婴为什么有白带、假性月经？</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,765">新生儿概念以及新生儿的生活特点</A>
+									</DIV>
+								</LI>
+								<LI>
+									<DIV>
+										<A class="list_title_l"
+											href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=121,764">新生小宝贝的7大本事(图)</A>
+									</DIV>
+								</LI>
+						</UL>
+						<DIV class="list_more">
+							<A title="进入更多热点"
+								href="/front/m/newsListByTag.do?lProjectMenuID=150&newsTag=3"
+								atremote="">进入更多热点 ?</A>
+						</DIV>
+					</DIV>
+				</DIV>
+			</DIV>
+		</DIV>
+
+		<!-- search -->
+		<DIV class="mainlistsbox" style="margin: 10px 0px 0px;">
+			<DIV class="sm_schbox" style="display: block;">
+				<FORM id="searchform" action="/front/m/newsSearch.do" method="get">
+					<INPUT name="searchText" class="sm_ipt" type="text" value="育婴知识搜索"
+						autocomplete="off" onfocus="this.value='';" /> <INPUT
+						class="sm_sbt" type="submit" value="搜 索" />
+				</FORM>
+			</DIV>
+		</DIV>
+		<DIV class="clear"></DIV>
+	</DIV>
+	<DIV id="goTop"
+		style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
+	<DIV style="clear: both;"></DIV>
+	<DIV class="foot_nav">
+		<DIV class="font_wrap">
+			<A href="/front/m/nav.do" atremote="">导航</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=151"
+					atremote="">特征</A>
+				<A href="/front/m/subMenuShow.do?lProjectMenuID=152"
+					atremote="">疾病</A>
+		</DIV>
+	</DIV>
+
+<DIV class="footer_main" style="padding: 15px 0px 20px;">
+	<DIV class="footer" style="text-align: center; ">
+			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >推广服务</A> 
+			<SPAN class="bookmark"> ｜
+				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
+			</SPAN>
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+		育婴之家网版权所有 | 服务QQ：2496664615
+	</DIV>
+	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;display:none;">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</DIV>
+</DIV>
+</DIV>
+
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script></BODY>
+</HTML>
