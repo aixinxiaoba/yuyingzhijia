@@ -503,7 +503,7 @@ public class NewsManageAtion extends BaseStruts2Action {
 			}finally{
 				
 			}
-			Thread.sleep(10000);
+			//Thread.sleep(10000);
 		}
 	}
     
