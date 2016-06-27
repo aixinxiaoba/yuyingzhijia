@@ -1,0 +1,464 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>恼人疝气应对有道-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/125386"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=97" rel="nofollow">疾病预防</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					恼人疝气应对有道
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-27 23:05:49</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　<strong>宝宝的肚脐上，大腿根处的小包包时隐时现，这到底是什么呢?</strong> <br /><br />　　<strong>父母们可不要大意哦，可能是疝气招惹宝宝啦! </strong></p> 
+ <p>　　<strong><font face="楷体_GB2312" size="5">疝气不能置之不理</font></strong> </p> 
+ <p>　　<strong>疝气虽不是严重的病，但若是置之不理，对宝宝的不良影响也不小呢。</strong> <br /><br />　　1．疝气首先影响宝宝的消化系统，容易出现下腹部坠胀、腹胀气、腹痛、便秘、营养吸收功能差、易疲劳和体质下降等。 <br />　　2．由于腹股沟部与泌尿生殖系统相邻，男宝宝可因疝气的挤压而影响睾丸的正常发育。 <br /><br />　　3．由于疝囊内的肠管或网膜易受到挤压或碰撞引起炎性肿胀，致使疝气不能回归原处，导致疝气嵌顿(卡在那里，影响血流)，以及发生肠梗阻、肠坏死、腹部剧痛等危险情况。 </p> 
+ <p>　　<font face="楷体_GB2312" size="5"><strong>“气”的种类</strong></font> </p> 
+ <p>　　疝气有两种，发生在脐部的叫脐疝气，发生在腹股沟的叫腹股沟疝气。疝气出现的主要原因是由于胚胎发育缺陷。通俗地说，人体内有一层膜包着各种脏器。但是如果这层膜发育得不完整，有不严的地方，大小肠之类较软的东西就容易从这个缝隙中跑出来，在宝宝哭闹时、咳嗽时最容易脱出来。 </p> 
+ <p>　　<font size="5"><font face="楷体_GB2312"><strong>1、脐疝气</strong> </font></font><br /><br />　　丁丁妈妈给宝宝洗澡时发现，宝宝的肚脐高出一块，用手摸一下，软软的，一旦丁丁哭的时候，那个小包会更凸出。可以断定，丁丁得的是脐疝气。 <br /><br />　　<font size="4"><font face="楷体_GB2312"><strong>脐疝气什么样?</strong> <br /></font></font><br />　　脐疝气通常在婴儿时期出现，婴儿咳嗽和哭闹的时候会特别明显。脐疝气有的很小，仅容得下一个小指头，脐疝气形成的原因是在胎宝宝腹壁发展后期，剩下的闭锁比较差，还没有关闭好。这种疝气，低体重和早产儿更有可能发生。<br /> <br />　　<font size="4"><font face="楷体_GB2312"><strong>居家应对</strong> <br /></font></font><br />　　1．不要用及胶布和铜板压。有许多人以为用个铜板把它压下去，再用胶布贴起来，可以帮助它快些好起来。其实，用铜板贴起来这个方法根本无效，许多时候还可能引起皮肤对胶布的过敏反应。 <br /><br />　　2．脐疝气自行痊愈的机会很多，大约在1岁之前就会好起来。1岁之后随着年龄的增加，自行痊愈机会降低，却仍然有些较大的疝气一直到5～B岁才好起来。 <br /><br />　　3．若脐疝气并没有好起来，建议可以等到三四岁时看医生，听从医生的治疗。 </p> 
+ <p>　　<strong><font face="楷体_GB2312" size="5">2、腹股沟疝气</font></strong> <br /><br />　　妈妈有一次给宝宝换衣服，突然发现宝宝的右腿大腿根处有一块“肉”突出，摸上去软软的，压几下，还能回去。宝宝没有任何不舒服的症状。在带宝宝去医院检查的时候，妈妈咨询了医生，医生说：“这是腹股沟疝气。” <br /><br />　　<font size="4"><strong><font face="楷体_GB2312">腹股沟疝气什么样?</font></strong> <br /></font><br />　　腹股沟疝气是一种相当常见的小儿疾病，发生率约为3％，男孩发生的机会约为女孩的5～1 0倍。而早产儿与腹腔内压高的宝宝更容易出现腹股沟疝气，例如经常便秘的宝宝。在腹股处发现有隆起肿块，有些甚至会肿至阴囊部位。这些肿块多数是在哭闹、咳嗽、打喷涕、久站或剧烈运动后才突起来，但经平躺或休息后便会自然消失，有时需用手将它压回去。单纯的疝气所引起的疼痛，通常不会很厉害，但如果腹股沟处发生持续的剧痛，同时肿块无法压回去，且症状持续二三天，就有可能是因脱出的肠子、输卵管等坏死。这是非常严重的并发症，可能有生命危险。 <br /><br />　　<font size="5"><font face="楷体_GB2312"><strong><font size="4">居家应对</font></strong> <br /></font></font><br />　　1．出现疝气，可让宝宝立即平躺，适当垫高下身，一般一会儿疝气就会消失；或用手轻轻地将肿块推回腹腔。 <br /><br />　　2．如果有疝气的宝宝出现的“气囊”很硬，无法还纳回腹腔，又有呕吐、腹痛、发烧的情形出现，预示着小肠出现嵌顿，应立即就医进行手术治疗，避免因肠坏死导致败血症而危及生命。 </p> 
+ <p>　　<strong><font face="楷体_GB2312" size="5">疝气Q&amp;A</font></strong> </p> 
+ <p>　　<font face="楷体_GB2312" size="5"><strong>Q：宝宝发生疝气不能回复原位怎么办?</strong></font> <br /><br />　　A：这种情况叫嵌顿疝，嵌顿时间在3～4小时内，局部疼痛不明显。也无腹部疼痛时，可先试行手法复位。复位的方法是先让宝宝取头高脚低位，给予镇静、解痉药后，由专科医生给予手法复位。手法复位成功后24小时内，必须严格观察宝宝的腹部情况，如有无肚子胀、排大便情况等。 </p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong><font face="楷体_GB2312" size="5">Q：何时手术好呢?术后复发可能性大吗?</font></strong> <br /><br />　　A：宝宝最佳手术时机在半岁至1岁。手术复发率只有1％～3％，所以父母们不必担心。 <br /><br />　　<font face="楷体_GB2312" size="5"><strong>Q：宝宝一侧患有疝气，另一侧也会有吗?</strong></font> <br /><br />　　A：宝宝在2岁以下发现腹股沟疝气，一侧有疝气，另一侧患疝气的机会是10％～40％，而女孩患两侧疝气的机会更高。在一侧做疝气手术治疗的时候，可以同时打开另一侧腹股沟看看是不是也有疝气。虽然这是见仁见智，不过为了消除父母的疑虑，减少再次手术麻醉的风险，在做一侧手术的同时，也可从肚脐切开，用内视镜探察。若另一侧也是疝气，两侧同时矫治是最适当的方法。 <br /><br />　　<font face="楷体_GB2312" size="5"><strong>Q：我家宝宝准备做手术治疗，要注意什么问题?</strong> </font><br /><br />　　A：要与你的主管医生沟通，了解术前的各种事项，比如从何时禁食禁水，手术中可能出现的情况等等。不要太过紧张。 <br /><br />　　<strong><font face="楷体_GB2312" size="5">Q：手水后如何护理宝宝?</font></strong> <br /><br />　　A：手术后的第二天就可以出院。出院后一星期内返院复诊。术后可以淋浴，直至返院复诊医师检视伤口无碍后，才可以盆浴。注意保护好伤口，尤其是婴幼儿，不要让孩子将覆盖在伤口上的纱布抓掉；更不能因大小便弄脏纱布面污染伤口，造成伤口感染、化脓。 <br /><br />　　让患儿侧身睡，用一块软的棉质尿布折成长条状夹在会阴部，如果右侧手术，应让孩子左侧卧位，一旦尿了，就不会尿在纱布上而污染伤口。如果非兜尿布不可，应把伤口处的纱布露在尿布外面。术后阴囊可有不同程度的肿胀，一般2～3天会消退；如果肿胀不消和发硬，可能有淤血，应请医生检查一下。如果肿胀和发硬不再发展了，淤血就会慢慢被吸收。 </p> 
+ <p>　　<font face="楷体_GB2312" size="5"><strong>妈咪经验</strong></font> </p> 
+ <p>　　<strong>妈妈：方悦<br /><br /></strong>　　宝宝5个月 <br />　　我家宝宝是吃奶粉后就便秘，结果1周后就发现了脐疝，宝宝倒是不哭，可是随着呼吸，那小肚脐向外一突一突的，看着就难受。西医说不要让他哭，等大了再做手术，可是小宝宝哪里懂得这些啊!家里的老人说拿个硬币堵在肚脐的地方就能长好。于是我们就找了若干硬币，发现1元钱的硬币大小、厚度、硬度都正合适。 <br />　　硬币消毒后，我们包裹一些棉花，再用柔软的棉布做个小口袋，两边用1寸宽的松紧带缝上，直接套在肚脐的位置。这松紧带要松紧正合适，松了，会跑到其他部位，紧了，会影响宝宝的血液循环和发育。我们把这个叫做肚肚宝，因为宝宝动的时候容易弄上BB，所以做了好几条，以备替换。每周还会重新丈量一下宝宝的肚围，以调整肚肚宝的长度。 <br /><br />　　因为宝宝的脐疝不是很严重，大约2个月后，就看不出来了，为了巩固成果，我们又多戴了1个月。现在，宝宝已经全好了，一点问题都没有! <br />所以，有时候还是要相信传统的经验。 </p> 
+ <p>　　<strong>妈妈：于青</strong> <br /><br />　　宝宝8个月 <br />　　宝宝1个月的时候，我发现有时候宝宝的肚脐上出现一个小包包，有小枣那么大。四十几天去医院复检时，我询问了医生，医生说这可能是脐疝气，如果没有哭闹，发硬的情况，就可以先观察一段时间。还好，洗澡时偶尔小包块出来，但随着她长大，小包包出来的机会越来越少。到现在，有2个月没见包块出来了。我们估计是好了。 </p> 
+ <p>　　<strong>妈妈：晓媛 <br /><br /></strong>　　宝宝9个月 <br />　　我家宝宝出生后没多久，学医出身的老公就发现宝宝有腹股沟疝，而且属于比较厉害的。有一次，疝气推不回去了，老公赶紧带宝宝到医院急诊，儿科的老专家费了好大劲才给复位成功。听着孩子的哭声，真是心疼。 <br />　　我们买了疝气带，但发现用处不是很大。我们想等他大一点就做手术，看情况吧!如果有紧急情况，手术也可能随时做。 </p> 
+ <p>　　<strong>妈妈：罗晓玲</strong> <br /><br />　　宝宝1岁 <br />　　宝宝满月后，有一天他不停地哭，怎么哄都不成，也不爱吃奶了，正好是洗澡时间，我们发现他左侧小肚子上有个“包”，一摸硬硬的，宝宝哭得更厉害了。赶到医院，发现是腹股沟疝气，医生说如果手法复位不成功的话，就需要手术，但是小宝宝手术风险较大。幸好宝宝手法复位成功。 <br /><br />　　为了肚子里面的“伤口”能愈合，不让他哭，不让他使劲，我们特意雇了身体强壮的保姆，保姆和家人轮流抱着他，满足他的各种要求，怕便秘，就坚持吃各种益生菌。每天，他只要一哭或者一用劲，我们都习惯性地摸摸他的肚子，看看疝气是否出来了。而且，全家人都学会了复位的手法，越来越熟练。 <br /><br />　　抬头、爬等锻炼方法也比别的小朋友都推迟1～2个月。但是，我们不属于那百分之几的自愈范围内，8个月后，宝宝只要一站起来，就会发生疝气，在医生的建议下，我们做了手术。手术后疝气再没出现过。 </p> 
+ <p>　　<strong>妈妈：刘佳<br /></strong><br />　　宝宝3岁 <br />　　我家宝宝出生后就发现了疝气，但不是很严重，一直拖到1岁半才做的手术。手术的时候，我们选择了传统的手术，而不是腹腔镜，虽然宝宝肚子上多了道2厘米的伤口，但我们觉得传统手术毕竟更直观，有利于医生的操作，万一发现新情况，也能及时处理。手术后的护理也要小心，比如要保护好宝宝，不能让宝宝摔跤，吃些青菜、香蕉等食物，减少便秘情况的发生，尽量不要招惹宝宝哭等等，过了1个月，基本就没有问题了。 </p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/55550">连续短促的急哭</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" class='thisclass'>疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/124964">如何判别小儿药物过敏反应？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124963">婴幼儿腹痛有哪些原因</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124962">被动吸烟严重危害哮喘儿童</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124961">春季常见病的防与治</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124960">宝宝腹泻，专家支招</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"125386"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

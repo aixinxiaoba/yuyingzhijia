@@ -1,0 +1,498 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>宝宝疫苗这么多，你了解了吗?-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/125378"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=97" rel="nofollow">疾病预防</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					宝宝疫苗这么多，你了解了吗?
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-27 23:05:21</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　<strong><font color="#dd226d">接种疫苗是&#xfffd;榱嗽し揽赡茉斐伤劳龌蛑丈&#xfffd;疾患等重大疾病的发生，尤其在传染疾病盛行时，按时接受疫苗接种，可大幅减少感染的机会，保障全民的健康。但是这&#xfffd;N多种疫苗，宝宝必须接种哪些，才能达到全方位的预防效果呢?</font></strong></p> 
+ <p>　　<u><font color="#0033ff">文／林佩蓉　&#xfffd;穹弥J询／国泰综合医院新竹分院小儿科主任谢承霖</font></u></p> 
+ <p>　　<strong>混合疫苗&#x2027;未来趋势<br /></strong><br />　　谢承霖主任表示，目前使用的混合疫苗有很多种，其中最新型的六合一混合疫苗，也早已符合世界卫生组织对於生物&#xfffd;u剂&#xfffd;u造的规范，因此家长可放心选用。六合一疫苗包含了白喉、百日咳、破伤风、小儿麻&#xfffd;w、b型嗜血&#xfffd;U菌、B型肝炎等疫苗，比三合一疫苗多了小儿麻&#xfffd;w、b型嗜血&#xfffd;U菌、B型肝炎疫苗，也比五合一疫苗多了B型肝炎疫苗。多合一混合疫苗中除了传统三合一疫苗之外，其&#xfffd;N皆&#xfffd;樽苑岩呙纾&#xfffd;但混合疫苗可以减少宝宝挨针的次数，不仅能获得相同的保护，也减少了进出医院受感染的机会。</p> 
+ <p>　　<strong>混合疫苗&#x2027;简化接种时程</strong><br /><br />　　混合疫苗让宝宝挨针数减少，以六合一疫苗&#xfffd;槔&#xfffd;，目前五合一疫苗接种的时程&#xfffd;&#xfffd;2个月、4个月、6个月和18个月大。而B型肝炎疫苗在出生后3～5天接种第1剂，第2、3剂分别&#xfffd;&#xfffd;1个月及6个月大时接种，除第1剂B肝疫苗必须单独接种外，第2剂起即可&#xfffd;裼昧&#xfffd;合一疫苗。因此六合一疫苗折衷这两种疫苗的接种时程，分别在宝宝1.5个月、3个月、6个月及18个月大时接种。</p> 
+ <p>　　<strong>基本预防．Basic</strong><br /><br />　　<strong>宝宝必打的7种常规预防疫苗</strong><br /><br />　　NO.1-卡介苗－BCG<br />　　出生满24小时，体重2,500公克以上，即可接种。<br />　　卡介苗是预防新生儿结核菌感染，一般来说预防效果可达85%以上，在新生儿时期尚未感染前，施打效果最佳。国泰综合医院新竹分院小儿科主任谢承霖指出，目前在国内使用乾燥活性减毒卡介苗来预防结核病，稀释过的卡介苗保存时间仅有5～6小时，因此有许多医院诊所，会集中接种卡介苗的时间。</p> 
+ <p>　　<strong>NO.2-B型肝炎疫苗－HBV</strong><br /><br />　　共3剂，分别在宝宝0、1、6个月大时接种。<br />　　B型肝炎疫苗可经由体液及血液传染，长期带原者可能会造成肝硬化、肝癌等严重的疾病，因此须透过接种疫苗来预防。谢承霖主任说，若妈妈&#xfffd;楦叽&#xfffd;染性带原者，婴儿出生24小时内，须尽早注射1剂B型肝炎免疫球蛋白及3剂疫苗。</p> 
+ <p>　<strong>　NO.3-三合一疫苗－DPT</strong><br /><br />　　共4剂，分别在宝宝2、4、6、18个月大时接种。<br />　　此疫苗利用破伤风和白喉&#xfffd;U菌，所分泌出来的外毒素，经减毒做成类毒素，并与被杀死的百日咳&#xfffd;U菌混合&#xfffd;u成。谢承霖主任指出，根据统计，接种此三合一疫苗的宝宝50%有发烧的副作用。</p> 
+ <p>　　<strong>NO.4-口服小儿麻&#xfffd;w疫苗－OPV</strong><br /><br />　　共5剂，分别在宝宝2、4、6、18个月大，及国小一年级时接种。<br />虽然台湾已被宣布&#xfffd;樾《&#xfffd;麻&#xfffd;w根除的地区，但因邻近国家仍有病例。谢承霖主任表示，目前用来预防小儿麻&#xfffd;w的疫苗有2种，目前台湾是选用口服沙宾疫苗（另一种&#xfffd;樽⑸湫蜕晨艘呙纾&#xfffd;，使用方便容易推行，预防效果也很好且持久，不但自身会&#xfffd;a生抗体，也可由接种后的小孩粪便排泄后，散&#xfffd;训街芪В&#xfffd;得到群体免疫的效果。</p> 
+ <p>　　<strong>NO.5-水痘疫苗－Varicella vaccine</strong><br /><br />　　只有1剂，须在宝宝满1岁后接种。<br />　　在台湾，水痘是非常流行的传染病，几乎一年四季都会发生，最常见於冬末春初时期。谢承霖主任说明，水痘疫苗是一种活性减毒疫苗，注射后几乎100％&#xfffd;a生抗体，保护效果至少数10年，12个月至12岁儿童只须注射1剂，13岁以上间隔4～8&#xfffd;L注射2剂。</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong>NO.6-麻疹、腮腺炎、德国麻疹疫苗－MMR</strong><br /><br />　　共2剂，在宝宝12～15个月大时接种，国小一年级再追加1剂。<br />宝宝若遭受到麻疹、腮腺炎、德国麻疹等感染，可能就会&#xfffd;a生一些严重的&#xfffd;惴⒅&#xfffd;，甚至死亡。谢承霖主任指出，MMR疫苗是利用组织培养&#xfffd;u造出来的活性减毒疫苗，使用皮下注射，对3种疾病的预防效果可达95％以上，并可获长期免疫，在15个月大时接种效果最好。</p> 
+ <p>　　<strong>NO.7-日本脑炎疫苗－JEV</strong><br /><br />　　共4剂，在宝宝适合接种年纪时的3～5月份间接种。<br />台湾地区每年尚有数十例的日本脑炎确定病例，主要传染途径&#xfffd;槲贸娑ＲВ&#xfffd;因此除保持良好居家环境外，按时接种疫苗也是很重要的。谢承霖主任表示，日本脑炎疫苗&#xfffd;橐恢植换钚圆《疽呙纾&#xfffd;如果要得到最好的免疫效果，必须在一定的时间内完成3剂的基础疫苗接种，国小一年级再追加1剂。</p> 
+ <p>　　<strong>完整呵护．All-round</strong><br /><br />　　流行性传染病疫苗&#x2027;保护宝宝滴水不漏<br />　　b型流感嗜血&#xfffd;U菌疫苗－Hib vaccine<br />　　共4剂型，须在宝宝2、4、6、18个月大时接种。<br />　　谢承霖主任指出，b型流感嗜血&#xfffd;U菌好发於5岁以下幼童，若感染到此病菌，极有可能引发全身各部位的严重疾病。目前接种方式是建议婴儿在2、4、6、18个月分别接种4剂疫苗，可以跟三合一疫苗、B型肝炎疫苗、口服小儿麻&#xfffd;w疫苗、MMR疫苗等同时接种。</p> 
+ <p>　　<strong>A型肝炎疫苗－HAV</strong><br /><br />　　共2剂，於宝宝满&#xfffd;L岁后施打第1剂，并於施打后6个月施打第2剂。<br />　　虽然台湾现在卫生条件良好，较不易出现感染A肝，但因目前国人盛行国外旅游，在没有A肝抗体的情况下，到了疫区很容易会受到感染。谢承霖主任建议，家中若有病毒性肝炎的患者，感染A型肝炎的机率较高，因此建议成人与小孩皆须接种疫苗。</p> 
+ <p>　　<strong>流感疫苗－Influenza vaccine<br /></strong><br />　　每年皆须接种，但宝宝须满6个月大，才可接种。<br />　　宝宝感染到流感，除了会有呼吸道症状外，还会有腹泻等胃肠疾病。流感疫苗是一种非活性疫苗，可以达到70～90%的保护效益。谢承霖主任强调，因&#xfffd;榻又忠呙缢&#xfffd;&#xfffd;a生的抗体，隔一年以后就会明显下降，而且每年的流行病毒株都可能不一样，所以必须每年接种。</p> 
+ <p>　　<strong>肺炎链球菌疫苗－Pneumococcus vaccine</strong><br /><br />　　注射方式&#xfffd;多，主要分2岁以下及2岁以上，两类注射剂型。<br />　　谢承霖主任表示，肺炎链球菌会潜伏在鼻腔当中，一旦免疫力下降，就有可能遭受病菌侵袭。尤其婴幼儿容易引起肺炎、败血症、脑膜炎等致命&#xfffd;惴⒅&#xfffd;。肺炎链球菌疫苗可以保护婴幼儿免於感染肺炎链球菌，导致如脑膜炎、菌血症等的侵入性肺炎链球菌疾病。</p> 
+ <p>　　<strong>轮状病毒疫苗－Rotaviurs vaccine<br /></strong><br />　　分&#xfffd;榱郊良叭&#xfffd;剂型；最迟在6个月大前口服完毕。<br />　　谢承霖主任指出，两种轮状病毒疫苗效果都达95%以上，以两剂疫苗&#xfffd;槔&#xfffd;，建议分别在宝宝2、4个月大时口服，即可在到达疾病高峰期的月龄（6～24个月大）前，及早给予宝宝保护。目前除了不建议与口服小儿麻&#xfffd;w疫苗同时使用外，其&#xfffd;N疫苗皆可同时接种。</p> 
+ <p>　　<strong>小病毒&#x2027;大威胁</strong><br /><br />　　轮状病毒主要是由粪口传染，其病毒传染力相当强。轮状病毒感染的潜伏期约2天左右。受感染的宝宝会先出现呕吐的症状，数个小时之后，会解出黄绿色并带有酸臭味的水便。1～2天之后，会变成非常厉害的腹泻，主要是水泻，次数多达1天10次左右，症状维持约1～2星期。若未妥善治疗与照顾，可能会有脱水现象。若发现宝宝有昏迷嗜睡、小便减少、嘴乾无口水，皮肤乾燥无汗等，都是脱水现象，应及早就医，不可延误。</p> 
+ <table style="WIDTH: 507px; HEIGHT: 253px" bordercolor="#458b74" width="507" align="center" border="2"> 
+  <tbody> 
+   <tr> 
+    <td width="115" bgcolor="lightsteelblue" height="25"></td> 
+    <td width="115" bgcolor="lightsteelblue" height="25"><b>口服二&#xfffd;┹&#xfffd;&#xfffd;畈《疽呙&#xfffd;</b></td> 
+    <td width="115" bgcolor="lightsteelblue" height="25"><b>口服三&#xfffd;┹&#xfffd;&#xfffd;畈《疽呙&#xfffd;</b></td>
+   </tr> 
+   <tr> 
+    <td><b>疫苗&#xfffd;N&#xfffd;</b></td> 
+    <td>人&#xfffd;活性&#xfffd;p毒疫苗</td> 
+    <td>人牛重&#xfffd;M活性&#xfffd;p毒疫苗</td> 
+   </tr>
+   <tr> 
+    <td width="115" bgcolor="lightsteelblue" height="25"><b>&#xfffd;&#xfffd;&#xfffd;</b></td> 
+    <td width="115" bgcolor="lightsteelblue" height="25">2&#xfffd;&#xfffd;</td> 
+    <td width="115" bgcolor="lightsteelblue" height="25">3 &#xfffd;&#xfffd;</td>
+   </tr> 
+   <tr> 
+    <td><b>&#xfffd;r格</b></td> 
+    <td>5,000元</td> 
+    <td>6,000元</td> 
+   </tr>
+   <tr> 
+    <td width="115" bgcolor="lightsteelblue" height="25"><b>口服&#xfffd;r程</b></td> 
+    <td width="115" bgcolor="lightsteelblue" height="25">第一&#xfffd;&#xfffd;：2&#xfffd;&#xfffd;月<br />第二&#xfffd;&#xfffd;：4&#xfffd;&#xfffd;月<br />(最晚在&#xfffd;&#xfffd;&#xfffd;&#xfffd;6&#xfffd;&#xfffd;月大以&#xfffd;仁褂猛&#xfffd;&#xfffd;&#xfffd;)</td> 
+    <td width="115" bgcolor="lightsteelblue" height="25">第一&#xfffd;&#xfffd;：2&#xfffd;&#xfffd;月<br />第二&#xfffd;&#xfffd;：4&#xfffd;&#xfffd;月<br />第三&#xfffd;&#xfffd;：6&#xfffd;&#xfffd;月<br />(第一&#xfffd;┳钔碓&#xfffd;&#xfffd;&#xfffd;&#xfffd;3&#xfffd;&#xfffd;月大以&#xfffd;仁褂&#xfffd;)</td>
+   </tr> 
+   <tr> 
+    <td><b>可&#xfffd;A防&#xfffd;&#xfffd;畈《局&#xfffd;</b></td> 
+    <td>G1、G2、 G3、 G4、 G9</td> 
+    <td>G1、G2、 G3、 G4、 G9</td>
+   </tr>
+  </tbody>
+ </table>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/55550">连续短促的急哭</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" class='thisclass'>疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/124964">如何判别小儿药物过敏反应？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124963">婴幼儿腹痛有哪些原因</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124962">被动吸烟严重危害哮喘儿童</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124961">春季常见病的防与治</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124960">宝宝腹泻，专家支招</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"125378"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

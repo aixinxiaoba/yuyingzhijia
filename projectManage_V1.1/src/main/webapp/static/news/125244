@@ -1,0 +1,476 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>专家解答宝宝呼吸系统疾病-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/125244"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=97" rel="nofollow">疾病预防</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					专家解答宝宝呼吸系统疾病
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-27 22:56:54</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　<strong>主持人：</strong>咱们大家都知道在儿童疾病中，呼吸系统疾病应该是属于第一类大系统的疾病，可能父母也是在这个方面遭遇的问题最多，我们也是希望了解中西医怎么更好的治疗宝宝在呼吸系统的疾病？</p> 
+ <p>　　<strong>佘继林：</strong>呼吸系统疾病应该是在儿科里面发病率最高的一个疾病，也是我们常见病里面占比较主导地位的一大疾病，最近几年来，在这个系统里面过敏性疾病，也就是说从鼻子开始过敏性鼻炎，由于鼻子影响到嗓子，我们目前叫后鼻道滴流症，如果这种炎症不被控制，再往下走就可以引起喉炎、气管炎，严重的还会出现一些哮喘或者是肺炎。</p> 
+ <p>　　目前来讲，由于咱们有时候生存环境受到一些污染，过敏性疾病在呼吸系统目前来讲应该说是发病率比较高的，很多的小孩由于本身是过敏性体质，由于感染或者是其他过敏因素引起呼吸道的炎症，目前发病率也是比较高的。</p> 
+ <p>　　有些孩子表现不是很典型，实际上本质上来讲他已经是属于呼吸系统的过敏性的表现了。有时候我们治疗还按照炎症治疗，有时候往往效果不好，所以就出现了临床上的一些久咳，咳嗽老也不好，久嗽，嗓子老是不好。西医不分咳、嗽，咳嗽就是咳嗽，中医不一样，中医咳跟嗽是分家的，是两个概念。嗽一般是指咽喉部位，咳一般是指下呼吸道。</p> 
+ <p>　　但是从中医来讲它有一个定义，你又有痰，又有咳嗽的声音，有咳有痰就叫咳嗽，如果单有一个或者叫咳或者叫嗽，比如你有声音，没有具体的分泌物，或者有分泌物没有声音，所以中医实际上在西医这方面来讲，它对咳嗽的概念就更为明细，所以实际上这就是咱们中医治疗的优势。</p> 
+ <p>　　从最近几年来讲，我觉得国外已经看到这个问题了，你比如说西医现在治疗哮喘也提出来了叫同一器道同一疾病，哮喘的同时有很多的孩子，比如说有将近70%、80%都伴有不同程度的过敏性鼻炎，喘的孩子里面有鼻炎的，有累积到咽部，有后鼻道滴流症，严重的还有过敏性结膜炎，眼睛发痒，眼睛红赤，有的直接伴随皮肤特别的痒痒，发作的时候。所以实际上呼吸系统的疾病实际上对全身的影响也是很大的，因为它有些疾病表现在呼吸道，或者主要表现在呼吸道，实际上它的全身各个部位都有一些反映，比如一些湿疹。所以说呼吸系统这个病应该引起广大家长的注意。</p> 
+ <p>　　<strong>主持人：</strong>就是说它不会单单表现成发烧、咳嗽这些症状，还会引起其他的一些症状，比如皮肤会有一些湿疹之类的，是吗？</p> 
+ <p>　　<strong>佘继林：</strong>对，我指的是呼吸系统的过敏性疾病，比如治疗哮喘的当中就要注意这些问题。</p> 
+ <p>　　<strong>网友：</strong>我家宝宝一周岁四个月，很容易上火，一上火便喉咙红、发炎，肿大，声音嘶哑，中西医都试过了，都不好，急的我也上火，向专家求救。</p> 
+ <p>　　<strong>佘继林：</strong>首先看看小孩是不是过敏体质，因为小孩太小，没有做过客观上的检测，但是你应该注意这么几个方面，第一个是看看你这个家族，特别是父母有没有过敏体质，比如说父母有没有过敏性鼻炎，有没有湿疹，有没有蚊虫叮咬长大包，比一般人反应大，有没有不能打青霉素，或者一些食物、肉类、鸡蛋过敏，如果他有这种体质，他的孩子也很有可能是这种体质，这是第一点，看家族。</p> 
+ <p>　　另外看看小孩，因为小孩太小，观察他有没有一些过敏的反应，比如他吃奶的过程当中皮肤上是不是会出现一些湿疹，或者说有时候用小手老动鼻子，揉眼睛，有没有这种痒的表现，这些都可以看出这个小孩是不是有过敏的现象，但是严格来讲应该做一些检测。</p> 
+ <p>　　如果是这样的话，就是说过敏性的体质一般来讲在1岁以后就逐渐表现出来了，他表现的就是一种慢性的炎症，时好时坏，时轻时重，但是呼吸系统总是处在一种慢性炎症状态，咱们觉得他的症状很轻，实际上他不是没症状，一遇到感冒，激了它就发作了，慢性炎症急性发作，经过治疗以后又变成慢性炎症，一直是处在慢性炎症状态下，实际上过敏性疾病呼吸道两大特点，第一就是慢性炎症，第二就是高反应性，有一些刺激以后马上就激了它，就有大的发作，治疗以后又下来。</p> 
+ <p>　　慢性炎症急性发作，一般的应该从两岁左右就可以表现出来，5岁左右开始好转，11、12岁绝大部分可能就缓解了，有一部分人如果11、12岁不缓解，很可能留下一个终身的比如像过敏性鼻炎，极少部分可能有些成人了也有哮喘，但是比例比较小。这种人一般到晚年又发作，凡是老头、老太太喘的，小时候很可能也喘，他就是这种规律。</p> 
+ <p>　　<strong>主持人：</strong>他是因为青壮年期间会由于体质相对好一些，所以不是症状表现特明显？</p> 
+ <p>　　<strong>佘继林：</strong>不是，我个人认为跟一生的生理周期有关系，因为一两岁的时候免疫系统逐渐成熟起来，他会发挥它的作用，也就是说它对外来的这些不明因素开始有反应，因此你的过敏现象就出现了。同时，你体内的这些病菌，由于内源性激素产生的量不够，它表现出来了，但是你内源性激素压不住它，因为你这是特殊性体质，治疗的时候为什么有激素，激素是一种免疫抑制剂，可以切断这种反应，他是一种免疫反应，当你不足的时候，治疗就补给你，为什么用内源性激素来治疗。</p> 
+ <p>　　随着年龄的增长，你的内源性激素不断的分泌，你的炎症水平可以控制住，病情就缓解了，当你老了的时候，你的内源性激素又少了，又压不住，肯定到老年的时候又表现出来了，就跟爬坡的时候，小孩儿是往上爬没到高峰，老人是从坡上爬下来，总而言之，跟内源性激素分泌特点是有关系的。</p> 
+ <p>　　另外，人这一天的分泌周期也不是均衡的，像哮喘的发作一般都集中在后半夜和天亮，后半夜比如说三四点以后到早晨大概七点左右之间，一般哮喘发作比较频繁，一天当中这个时候内源性激素分泌是最低的，到七八点以后内源性激素逐渐分泌多了，这个阶段，一般哮喘典型的一般都是快天亮的时候发作，天亮的时候出现高峰，所以这种小孩儿有时候早晨醒来以后打喷嚏，流鼻涕，过了八点就没事了，跟一天的激素分泌周期有关系。</p> 
+ <p>　　所以比如说你育儿方面，比如你掌握了这种规律就特别好，比如起来的时候马上喝一点儿温水，第一，你知道他有一个不典型的鼻炎，可能他鼻前面没有症状，但是他有过敏性鼻炎，躺了一宿，鼻子后面的分泌物由于早晨起来肯定要往下流，这也是引起早晨咳嗽的一个原因，有激素的原因，也有体位改变，这个时候喝一点儿温水，冲刷疗法，把咽喉壁这些分泌物冲刷下去，第二，用温水给他热敷一下，减少起来以后冷空气对鼻腔的刺激。</p> 
+ <p>　　很可能咳嗽这些过敏的症状就会好转，包括打喷嚏，这样本身对小孩有一种保护，这种小孩起来以后，先给他准备半杯温水，不要很烫，一定是温水，慢慢喝下去，把分泌物冲刷掉，有些家长反映这样做了以后明显的早晨起来以后症状减轻多了。像这些知识，我一讲你就明白了，你在实际当中就对小孩有一种保护，像这些细小的知识就特别重要。</p> 
+ <p>　　<strong>网友：</strong>我的儿子现在两岁4个月，因感冒引起过敏性咳嗽，每天晚上咳的特别厉害，白天一般，咳两个多月了，吃药没有什么效果，请问应该怎么办？</p> 
+ <p>　　<strong>佘继林：</strong>他如果以咳嗽为主，他现在有一个问题，他咳嗽超过一个月，凡是从理论上来讲，咳嗽超过一个月你就要考虑这不是一般的咳嗽。首先，你就要考虑他是不是一种过敏性咳嗽，进而你要高度怀疑他是不是另外一种哮喘形式，叫咳嗽变异性哮喘，哮喘基本上有两种形式，第一种就是我们平常看到的那种喘，听起来吼吼的，有些人不是，就是咳嗽，用咳嗽表现的喘，叫咳嗽变异性哮喘。</p> 
+ <p>　　它的诊断依据临床上就是说不明原因的咳嗽超过一个月。因为你感冒的咳嗽不治一个月也自愈，我们感冒不吃药，好好休息，有一周也好了，咳嗽一个月不好你就要考虑不是咱们一般的感冒咳嗽，肯定是一种特殊的咳嗽。当然，鉴别的病很多，首先最常见的就要考虑咳嗽变异性哮喘，当然还有一些其他的比如由消化系统引起的胃、食道的倒流，还有一些其他原因引起的咳嗽都有，异物什么的。</p> 
+ <p>　　像我刚才所讲的，你要高度怀疑他，有几条，你家族里头父母有没有明显的过敏性体质，过敏性疾病的人，如果有，因为这种体质是遗传的，你要考虑到你的孩子，要密切观察他有没有过敏性的反应。比如说在一两岁他吃奶的过程当中，有没有出现湿疹，皮肤有没有湿疹的表现。比如他老爱用手揉鼻子、动鼻子，因为他鼻子痒痒，有时候揉眼睛，眼睛痒痒，过敏性结膜炎。</p> 
+ <p>　　另外，每次一感冒，有时候就有那种痰鸣，吐不出来那种声音，这种情况下你要考虑你的孩子很可能是一种过敏性体质引起的咳嗽变异性哮喘，但是你不要轻易给他下结论，要有这根弦，像这么小的小孩儿，我的意见是不要轻易使用激素类和抗生素类的药物，如果小孩体内没有明显的感染，我觉得应该吃一些中药，效果还是不错的。</p> 
+ <p>　　<strong>网友：</strong>佘继林老师，我家宝宝现在是10个月，在6个月的时候，从六个月开始几乎每个月都有发烧一次，大概都要一个星期左右才会好，7月10号发烧后，大约15号烧完全退后，偶尔也咳嗽一两声，坚持吃医生开的奥斯特咳嗽药水，23号注射流感疫苗，但是25号咳嗽的比较厉害，感觉比较喘和痰多，晚上睡觉呼吸的声音很大，28号看医生，那是一家诊所，但是朋友说那家诊所的医生不错，说是喘息性肺炎。请问他这种情况对今后的发育有何影响，是否可以痊愈，平时需要注意一些什么？</p> 
+ <p>　　<strong>佘继林：</strong>首先可以说你这个小孩儿已经进入到呼吸性感冒了，每个月都感冒，当母体的抗体消失以后，呼吸道抵抗力特别弱，这里面有两个问题。第一，你的小孩是不是过敏体质，刚才我讲了。第二点，是不是真正的免疫功能低下，你是不是免疫功能低下必须要拿出证据来，这就要正规的医院抽血，查查你的免疫球蛋白，特别是反应呼吸系统的免疫球蛋白是不是真的低，如果真低，你可以考虑，这个小孩儿的抵抗力弱、免疫力低下。</p> 
+ <p>　　如果正常，就很可能像我说的过敏性体质，现在不要下结论，定他是哮喘还太早，比如小孩儿太小现在没法做他的肺功能，没法做他免疫方面的检测，但是他现在表现出来的是喘，一感染就喘，再看看你的家族，你的父母有没有过敏体质，小孩儿本身有没有湿疹，有没有过敏性结膜炎的表现，如果这些都存在，你的小孩儿就要注意了，他很可能目前只诊断一个喘息性支气管炎，或者暂时诊断一个肺炎喘型，不管怎么样这种诊断是没有到位的。</p> 
+ <p>　　因为现在诊断婴幼儿哮喘过于仓促或者是证据不足，但是已经高度的怀疑了，所以这种小孩儿你要注意，很可能除外免疫功能低下，你这个小孩儿将来可能就是一个过敏体质，他感染以后可能就要发生一些婴儿哮喘的表现。</p> 
+ <p>　　<strong>主持人：</strong> 这种经常性的问题对今后有什么发育的影响吗？</p> 
+ <p>　　<strong>佘继林：</strong>呼吸道感染是这样的，你生病肯定要有影响，特别是喘，喘本身带来什么？严重的话，急性发作可以引起肺炎，长期的喘可以形成肺气肿，长大以后的肺气肿肯定要影响学习、工作，甚至生命，肺脏有问题要影响心脏的，这个东西肯定对身体会造成影响，但是这个病你也不要作为一种负担，你要尽快的诊断清楚，我认为你现在诊断清楚他目前是不是有过敏性体质的表现。</p> 
+ <p>　　你要加强护理，尽可能的减少感冒，减少发作，你比如说像我上面所讲的，这种小孩儿要有充足的睡眠，因为小孩儿的健康第一是睡眠，睡比吃还重要，因为你睡好了，大脑皮层休息的就好了，大脑皮层是司令部，负责全身各个部位的指挥，司令部没有问题，下面都没有问题，睡眠好了，睡的好吃的香，消化系统也好了，因为中央司令部控制你的消化，你消化液的分泌，你的肠道蠕动都很好，因为你的司令部很好。</p> 
+ <p>　　如果你反过来，这个小孩儿吃的好，睡不好，这很不好，因为你吃多了以后司令部有问题反而要出问题，一定是司令部要好，也就是说睡比吃还重要，这种小孩儿一定要注意睡眠，睡眠要充足，另外注意呼吸道的护理，比如像居住环境你要注意，要比较干净，比如说要避免一些潮湿，花草不要太多，远离动物，因为现在不知道他对什么过敏，环境需要干净、简洁。</p> 
+ <p>　　另外，让他少接触一些外界的生病的小孩儿，或者到公众场所去，先保证在1岁之前减少感冒，因为小孩儿日生夜长，他的抵抗力逐渐加强，退一天是一天，退到一岁抵抗力会比现在好的多，这样实际上用支持疗法让他渡过现在最危险、最容易生病的时期，哮喘随着年龄的增长，到四五岁以后也许就趋于缓解了，是这样。</p> 
+ <p>&nbsp;</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/55550">连续短促的急哭</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" class='thisclass'>疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/124964">如何判别小儿药物过敏反应？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124963">婴幼儿腹痛有哪些原因</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124962">被动吸烟严重危害哮喘儿童</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124961">春季常见病的防与治</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124960">宝宝腹泻，专家支招</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"125244"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

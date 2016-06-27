@@ -1,0 +1,452 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>5种方法了解宝宝为何肚子痛-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/125109"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=97" rel="nofollow">疾病预防</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					5种方法了解宝宝为何肚子痛
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-27 22:48:51</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> 　&nbsp;&nbsp;&nbsp; 宝贝一叫肚子痛，妈妈就惊慌，刚才还是好好的，这会儿却捂着肚子在地乱打滚，急急忙忙带着孩子去医院，折腾一番，却没事了，浪费时间又耽误了工作。<br />　<br />　　专家说，孩子肚子痛，自己很难跟医生讲清楚，父母要学会辨别宝宝的腹痛是功能性的，还是器质性的病变。日常生活中可以从以下5个方法来观察：<br /><br />　　方法1 从年龄看腹痛<br /><br />　　不同年龄宝宝的腹痛，其好发疾病亦各异。对于3岁以下尤其小婴儿而言，其语言功能尚未发育完善，所以不能完全用语言表达自己的感受，仅用哭吵来表达自己的不舒服，这时候家长一定要引起注意了，注意观察孩子的症状，好向医生介绍便于诊断。这一阶段多见肠套叠、小婴儿肠绞痛、嵌顿性疝以及肠道感染。<br /><br />　　肠套叠<br /><br />　　对于婴幼儿尤其2岁以下的阵发性的哭吵，不容易安慰，哭吵持续约10-15分钟，间隔15分钟至一两个小时，可伴呕吐以及排暗红色或者果酱色大便，一定要当心，可能是肠套叠。<br /><br />　　婴儿肠绞痛<br /><br />　　多见于生后早期，多在4个月后缓解。<br /><br />　　嵌顿疝<br /><br />　　在婴幼儿中也能见到，一般这样的小儿有疝气的病史，一定要告诉医生，家长还当注意疝皮肤的颜色改变。<br /><br />　　婴儿肠胀气<br /><br />　　表现为婴儿突然大声啼哭，腹部膨胀，两拳紧捏，两腿间及腹部蜷曲。多见于一岁内的小婴儿，因过食奶类、糖类或腹内吞人了大量气体产生腹胀而导致腹痛。<br /><br />　　TIPS：特别提醒：<br /><br />　　这一阶段的孩子在护理上，尽量少让婴儿空吸奶嘴，不要在配方奶粉中加糖，对莫名的婴儿哭吵应当去医院。此外小儿夜啼，一到夜晚就不睡觉而哭吵，反复发作，可能与维生素D缺乏、内脏神经发育未成熟有关的。<br /><br />　　方法2 从疼痛特点看腹痛：<br /><br />　　阵发性疼痛或绞痛――有梗阻性疾病，若局部喜按或热敷后腹痛减轻者，常为胃、肠、胆管等空腔脏器的痉挛。<br /><br />　　持续腹痛――加剧多见于胃肠穿孔；持续性钝痛，改变体位时加剧、拒按，常为腹腔脏器炎症、包膜牵张，肿瘤以及腹膜脏层受到刺激所致。<br /><br />　　隐痛――多见于消化性溃疡。<br /><br />　　急性腹痛――不能耐受伴有其他症状如呕吐，便血，面色苍白，意识改变，可能是急腹症如肠套叠、肠梗阻、肠穿孔、过敏性紫癜、胃肠的扭转、胰腺炎等。这时候就不要轻易使用镇痛药，不但掩盖病情，而且加重病情使之恶化。也不要热敷和揉腹部了，应当立即禁食禁水而迅速去医院接受治疗。<br /><br />　　慢性反复发作的腹痛――多呈隐痛能忍受，可伴随植物神经症状如面色苍白，心率加快等，多见于再发性腹痛、慢性胃炎、消化性溃疡、慢性肠炎、铅中毒、镰状细胞性贫血、腹型偏头痛、腹型癫痫、肠激惹综合征、功能性消化不良等；对于功能性病变如肠激惹综合征、功能性消化不良，这样的儿童应当养成按时排便和规律进食的习惯。<br /><br />　　再发性腹痛――疼痛是痉挛性或绞痛性的，多在脐周，也可在腹部其它部位；可每日、每周、每月发作，或数月发作一次，每次发作不超过1－3小时，可自行缓解；发作以晨起、下午3―4点时比较多见，常于空腹或进餐时突然加重。再发性腹痛90%是功能性的，与生长过快导致的钙缺乏、植物神经失调，内脏感觉高度敏感，胃肠动力功能失调，心理因素如突然受打击、焦虑、忧郁症、学校恐怖症等有关。<br /><br />　　TIPS 特别提醒：<br /><br />　　1．发病急骤或阵发性加剧者常为外科性疾病，如急性阑尾炎、绞窄性肠梗阻、胃肠道穿孔、肠套叠及腹股沟疝嵌顿等。发病缓慢而疼痛持续者常为内科性疾病，如肠蛔虫症、胃及十二指肠溃疡、肠炎及病毒性肝炎等。但要注意有时慢性腹痛和急性腹痛的病因可以相同，这是</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>因为疾病在不同阶段其性质发生变化所致，如溃疡病原属慢性腹痛，在合并穿孔时即为急腹症。所以对那些原来有慢性腹痛的孩子，如果腹痛转为持续性或突然剧痛的话，应注意急腹症的可能。<br /><br />　　2．腹部器质性病变的疼痛特点为：①持续性绞痛，阵发性加剧；②局部压痛明显；③有腹肌紧张；④肠鸣音异常；腹部功能性病变的疼痛特点为：①发作性钝痛，反复发作；②局部压痛不明显；③腹部柔软；④肠鸣音无改变。<br /><br />　　3．如果腹痛是在食用牛奶、蛋类、鱼虾等食物后发生，一般为过敏性腹痛，只要停止给小儿食用这类食物，腹痛就会好转。避免暴饮暴食，或者过食冷饮，也可减少小儿腹痛。<br /><br />　　4．有一种腹型癫痫引起的腹痛，会突然发作，突然自愈。腹痛消失后，小儿精神及体力上均无异常。这种类型的腹痛，需要到医院做脑电图才能确诊。<br /><br />　　方法3 从大便性状看腹痛<br /><br />　　小儿的腹痛一定要观察孩子的大便情况，有无大便，没大便几天里孩子的进食情况。<br /><br />　　1．几天无大便伴腹胀者，可能是肠梗阻。<br /><br />　　2．便脓血尤其在夏秋季节当注意是痢疾、出血性大肠杆菌性肠炎、麦克尔憩室炎等。<br /><br />　　3．大便呈蛋花汤样或者水样便，伴呕吐，尤其秋冬季节，多是轮状病毒性肠炎。这种疾病多见于幼儿可能发生脱水、电解质紊乱和代谢性酸中毒，家长当注意给孩子多喝水。<br /><br />　　4．如果有便秘与腹泻交替出现，应当注意不完全性巨结肠症和肠激惹综合征，这种便秘可以用开塞露以通便。此外多吃富含纤维素的食物，少喝碳酸饮料。<br /><br />　　TIPS：特别提醒：<br /><br />　　对于新换种类或者刚开始喝的奶制品，有可能发生过敏，常表现腹痛后发生腹泻。这样的话，家长就应当换回原来牌子的奶制品，或者用少过敏的奶制品，小婴儿不要吃纯牛奶。一般而言孩子不要时常更换奶制品的品牌，一来孩子可能会因为口味不适应而导致不喝奶，二来有可能发生过敏。<br /><br />　　方法4．从腹部体征看腹痛<br /><br />　　家长可以适当地掌握怎样检查孩子腹部的体征。一般的方法是：家长让孩子仰面躺在床上，下肢弯起来，家长一边与孩子交谈，一边用温暖的手指平贴在孩子的腹壁上，手指轻弯曲感觉孩子腹壁肌肉的紧张度。如果柔软无抵触感，则一般病变较轻或者是功能性病变；如果腹壁硬或者孩子不让抚摩腹部或者全腹疼痛，则大多是器质性病变。<br /><br />　　TIPS：特别提醒：<br /><br />　　不要随便采取措施，如果孩子腹痛是器质性病变，此时如果按揉儿童肚子，或做局部热敷，就可能促进炎症化脓处破溃穿孔，形成弥漫性腹膜炎。按揉腹部，只会刺激虫体，甚至引起胆道蛔虫症；蛔虫还可能穿破幼儿娇嫩的肠壁，引起弥漫性腹膜炎；而盲目按揉，可能造成套入部位加深，加重病情。<br /><br />　　方法5 从伴随症状看腹痛<br /><br />　　1．应注意腹痛与发热的关系。先发热，后腹痛多为内科疾病如上呼吸道感染、扁桃体炎常并发急性肠系膜淋巴结炎；反之先腹痛，后发热多为外科疾病，如急性阑尾炎、继发性腹膜炎等。<br /><br />　　2．伴随恶心呕吐的多是消化道的病变；伴随咳嗽、发热的要注意腹外器官的病变而导致的腹痛，如下叶肺炎所引起的牵涉痛。<br /><br />　　3．注意皮肤出血点、瘀斑和黄疸，有助于流行性脑脊髓膜炎、败血症、紫癜及肝胆疾病引起腹痛的诊断。<br /><br />　　4．阵发性腹痛伴有频繁呕吐，明显腹胀，不排气及不排粪者，常提示肠梗阻。<br /><br />　　5．急性腹痛伴中毒性休克多见于胃肠穿孔、急性坏死性肠炎、急性胰腺炎、卵巢囊肿扭转等。<br /><br />　　6．腹痛剧烈不敢翻动体位且拒按者，常有局限性或弥漫性腹膜刺激症，如阑尾炎，腹膜炎等。<br /><br />　　7．还要注意孩子的心理问题，心理疾病如忧郁症、幼儿园恐惧症等</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>也会产生腹痛<br /> </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/55550">连续短促的急哭</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" class='thisclass'>疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/124964">如何判别小儿药物过敏反应？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124963">婴幼儿腹痛有哪些原因</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124962">被动吸烟严重危害哮喘儿童</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124961">春季常见病的防与治</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124960">宝宝腹泻，专家支招</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"125109"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>
