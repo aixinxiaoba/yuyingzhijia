@@ -1,0 +1,534 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>视觉刺激促进宝宝脑力发展(图)-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/125697"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=101" rel="nofollow">潜能开发</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					视觉刺激促进宝宝脑力发展(图)
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-27 23:52:53</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p align="center"><img alt="视觉刺激促进宝宝脑力发展(图)" src="/upload/101/20070828140259812.jpg" border="1" /><br />
+  <!--?XML:NAMESPACE PREFIX = STYLE=PADDING-TOP /-->
+  <style=padding-top:5px>
+   视觉刺激促进脑力发展
+  </style=padding-top:5px></p> 
+ <p>　　从孩子睁开眼睛的那一刻起，视觉启蒙亦同步启动了。视觉功能良善与否，除了和先天构造有关，后天培养及刺激更是重要无比。建议爸妈配合孩子的发展，将启蒙游戏带进生活中，藉由培养视觉能力，奠定整体发展的基础。</p> 
+ <p>　　没有人能否定视觉的重要性，因为不管是一个简单的动作，或复杂的认知，都需仰赖“视觉”的辅助。家长别以为只要孩子的眼睛看得见，就轻忽其视觉发展，要先了解孩子的发展及行为背后的含意，才能适时提供足够的刺激，提高孩子“看”的品质及能力。</p> 
+ <p>　　<strong>透过“视觉”带动各项能力发展！</strong></p> 
+ <p>　　比起自胎儿时期就已经开始运作的听觉系统，视觉几乎可以说是从宝宝出生才开始有机会接受大量的刺激。如同所有的感觉系统一样，视觉系统必需在接受讯息→输入至大脑→大脑指挥身体针对讯息做反应的过程里，加速活化及往外连结。因此婴幼儿时期如能接触丰富的视觉刺激，不仅有助于建立良好的视觉通路，之后随着年龄增长，还能结合其他能力发展，去做更精准而复杂的表现。反之，宝宝在早期缺乏足够的刺激，除了会妨碍视觉通路形成，甚至可能使大脑的视觉能力慢慢退化丧失，严重的还可能妨碍其他官能的发展。</p> 
+ <p>　　小朋友的学习发展，一向是家长关注的焦点，而视觉在其中又扮演何种角色呢?三之三国际文教机构婴<span class="yqlink">幼儿教育</span>顾问&amp;可言心理咨询所主任梁仲怡，及儿童发展教育公益协进会理事许翠端表示，其影响层面约可分以下两方面来讨论：</p> 
+ <p>　　<strong>讯息接受量占所有感觉之冠</strong></p> 
+ <p>　　人和动物最大的不同处之一，在于人类仰赖视觉的比例远超过其他感官。大脑掌管各种感官输入的区域中，负责视觉功能的范围总和最大，而人每日透过感觉神经系统输入大脑的讯息，更有八成以上是透过视觉而来。因此我们可以说，唯有丰富且品质优良的视觉刺激，方能提高其视觉敏感度，同时促进大脑其他功能区域的开发。</p> 
+ <p>　　<strong>多元智能由此扎根</strong></p> 
+ <p>　　视觉影响的层面涵盖一般生活操作及多项发展、学习能力。如以多元智能中的运动、语言、人际、自然观察为例，都和视觉有着密不可分的关系。而视觉跟其他智能的搭配，更是生存及一切学习的基础，所以家长在进行视觉启蒙时，别忘了同时按照孩子的年龄，做整体性的观察。</p> 
+ <p>　　<strong>孩子眼中的世界&times;发展7阶段！</strong></p> 
+ <p>　　对大人来说，“看”是件再简单不过的事，但却是孩子多阶段的学习历程。小宝宝的视觉是所有感觉中发展最慢的，虽然出生时，眼睛及大脑的构造已几近完成，但仍需要后天的刺激及培养，让双眼能够协调运作，并随着身体肌肉能力发展，提升整体能力。</p> 
+ <p>　　许翠端表示，视觉神经约到孩子五至六岁左右，才能发展完整。因此在这段期间，家长要特别密切注意孩子的视觉能力是否符合阶段性发展，以便及时透过检查及治疗，矫正发展不良的问题。特别是在3岁前，亲子互动的机会最多，爸妈若能具备正确观念及相关知识，相对能提供孩子更多的协助，并早一步发现问题，否则待6岁后视觉系统已经发展完成，再接受矫正通常效果有限。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　梁仲怡表示，视觉发展可分为7大阶段，各有其启蒙重点，父母应配合孩子的发展，提供合适的刺激，使各阶段能顺利地衔接。</p> 
+ <p><strong>　　STEP1 模模糊糊的世界</strong></p> 
+ <p>　　宝宝还在妈妈肚子里时，就已经有一定听觉发展了，甫一出生，触觉亦派上用场，唯有视觉通路尚未形成，且双眼不能对焦，以致外面的世界对出生没多久的小宝宝而言，就像是一张张模糊的画面。须待后天的刺激及培养，建立良好的视觉通路，配合肌肉等各方面发展，才能启动视觉功能向上提升。</p> 
+ <p>　　<strong>STEP2 区别明暗、黑白及轮廓</strong></p> 
+ <p>　　不到l个月的小宝宝，虽然看什么还是模模糊糊，但已能感受到空间内有无光线，而出现转头看光源的动作。平均1.5～2.5个月时，他对黑白对比强烈、亮度高的图案或物品，会出现明显反应，及能够感受所处环境中的光源与背光的暗区，但尚无法清楚区分其边界；他所看到的物品，也仅是粗略的轮廓。</p> 
+ <p>　　<strong>STEP3 辨认内部细节及色彩</strong></p> 
+ <p>　　6个月前的宝宝对物品的形状、颜色感受越来越强烈，家长可以从他表现出对某些颜色及亮度的喜好，察觉其视觉功能的进步。虽然孩子还不认识何谓红色、黑色，不过能够更清楚地知道这些颜色是不同的，所以如果孩子对色彩反应不错，家长平时不妨多和他玩色彩游戏。至于什么颜色效果最好呢?根据研究指出，四大基本色：红黄蓝绿，及黑白对比强烈的玩具，最能吸引小朋友的注意，而粉红、粉蓝、自然色等色彩刺激不足且区分不易，不适合于视觉启蒙初期使用。而6、7个月大的孩子，看别人的五官越来越清楚，不像之前只能感觉到模糊的轮廓，因此爸妈应增加和孩子互动的机会，提供视觉刺激的机会！</p> 
+ <p>　　<strong>STEP4 深度知觉逐步提升</strong></p> 
+ <p>　　深度知觉即所谓的立体知觉。在视觉发展初期，孩子眼中呈现的均为平面影像，之后慢慢发展出远近、左右、高矮等立体影像。立体知觉究竟从何时萌芽，每个孩子的情况都不太一样，不过平均约至l岁后确立成型。</p> 
+ <p>　　人之所以能视物，在于利用眼部的感觉接收器吸收光源，聚焦至视觉中枢，再呈现出影像。立体观念的确立，代表双眼运作正常且更为协调，相反地，如果深度知觉不能顺利发展，可能会影响孩子的动作、立体感、方向感等，重要性不容小觑！</p> 
+ <p>　　<strong>STEP5 分辨两个相似物的异同</strong></p> 
+ <p>　　l岁半左右的孩子，对于生活中常见且相似的物品，已具有一定分辨异同的能力，并且随着练习次数的增加，及各方面能力提升，能分辨的部份更多、更细微。家长一开始可以将简单的图片，或者将两个设计略有不同的娃娃作为道具，请孩子找出两者的不同，训练他视觉的精辨能力。</p> 
+ <p>　　视觉的精辨能力，深深影响孩子的发展。像是要妥善的学习，或处理生活中的大小琐事，都需要精辨力来帮忙。值得庆幸的是，视觉的灵敏度不只和先天构造有关，能否看得更快、更精准，后天的练习绝对是关键，而这都需仰赖家长带着孩子一同进行。</p> 
+ <p>　　<strong>STEP6 认识文字符号</strong></p> 
+ <p>　　认识文字符号，是l岁半～3岁孩子视觉的启蒙重点，不过这个时期的“认字”，和大人想像中的可不同喔！因为3岁前孩子就像是照相机，不管是文字或图像，在他眼中同样是一个画面，识字指的是看出字和字的不同，只不过孩子会感觉文字符号不如图片丰富罢了!</p> 
+ <p>　　“认字“不是为了提早学会写或认知，而是为了启发他对文字的兴趣，为将来培养阅读习惯奠基。建议家长采取比较趣味化的方式，教导孩子认识千变万化的文字，同时连结生活周遭事物，将文字自然地存放于脑海里。不过进行认字游戏有两点不能忽略，一是字要够大，小朋友才能看得清楚；二是不要同时加入注音符号，以免孩子误以为注音符号也是该文字的一部份。</p> 
+ <p>　　<strong>STEP7 阅读累积学习力</strong></p> 
+ <p>　　针对3～6岁的孩子，最好的视觉启蒙，及观察孩子各方面能力发展的方式，莫过于阅读了；尤其透过亲子共读，带领孩子认识书上的文字、图片，有助于加强观察力、认知、口语表达能力，并增进彼此的感情。从小培养孩子阅读的习惯，随着年龄增长，更能理解书中的内容，获得许多宝贵的知识。</p> 
+ <p>&nbsp;</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong>Let’s play!</strong></p> 
+ <p><strong>　　启蒙游戏乐无穷～</strong></p> 
+ <p>　　家长在了解孩子的视觉发展时，相信对于各阶段的视觉启蒙，也具备一定概念了。以下为根据视觉发展各阶段所设计的小游戏，梁仲怡建议爸妈可利用闲暇时，多和孩子玩一玩，在游戏中达到良好的启蒙效果。</p> 
+ <p>　　<strong>1.光影游戏</strong></p> 
+ <p>　　适用年龄：出生起</p> 
+ <p>　　功用：利用光影作为视觉刺激，且培养孩子的追视能力。</p> 
+ <p>　　道具：手电筒、小手帕</p> 
+ <p>　　玩法：妈妈可先用小手帕盖住手电筒前端，让光线柔和一些，接着将手电简放在宝宝眼前30公分的距离，缓慢地移动，刺激宝宝去追寻光源。之后待他大一点时，可用色彩鲜艳的小球代替手电筒。</p> 
+ <p>　　<strong>2.黑白轮廓游戏</strong></p> 
+ <p>　　适用年龄：l～6个月</p> 
+ <p>　　功用：以强烈的黑白对比吸引孩子注意，辨识色彩及其轮廓。</p> 
+ <p>　　道具：黑色色纸、白色书面纸</p> 
+ <p>　　玩法：取黑色色纸</p> 
+ <p>　　裁成不同的形状，再将它贴在白色的书面纸中间，两者颜色亦可对调。接着将完成后的图卡，放在孩子的眼前让他看，每张图卡约需停留3～5秒。</p> 
+ <p>　　<strong>3.认识生活小物</strong></p> 
+ <p>　　适用年龄：6个月左右</p> 
+ <p>　　功用：结合视觉及触觉启蒙</p> 
+ <p>　　道具：孩子的玩具、音乐铃或水果</p> 
+ <p>　　玩法：准备几个孩子喜欢的玩具、音乐铃，或者是颜色鲜艳的水果如橘子、<span class="yqlink">苹果</span>等，先由父母用趣味化的方式介绍它颜色、特点，提高孩子的好奇心，接着让他自行把玩，用眼睛、用手来认识这个新奇的物品。孩子的专注力较短暂，如果孩子玩一下就将玩具丢下，家长不必刻意勉强，另寻空档再开始即可。</p> 
+ <p>　　<strong>4.小车过山河</strong></p> 
+ <p>　　适用年龄：7个月大起</p> 
+ <p>　　功用：空间知觉启蒙及物体恒存概念</p> 
+ <p>　　道具：书面纸、小玩具车</p> 
+ <p>　　玩法：先将大张书面纸卷成纸筒，接着在孩子面前将玩具车由纸筒的一端推入，这时小朋友会想要找出被藏起来的小车，妈妈再慢慢将纸筒倾斜，让小车滑下来。初期先由妈妈做示范，待他熟悉这个游戏后，便可改为孩子自己操作。这个游戏略有难度，通常无法一天内即学会，家长可得保持耐心喔。</p> 
+ <p>　　<strong>5.猜猜有哪些不同</strong></p> 
+ <p>　　适用年龄：1岁后</p> 
+ <p>　　功用：辨别异同</p> 
+ <p>　　道具：造型相近的两只玩偶</p> 
+ <p>　　玩法：准备两只造型相近的玩偶，先拿出其中一只，向孩子一一点出它的特色后收起来。接着拿出另外一只玩偶，重复上述的动作。最后把两只玩偶一起拿出来，请孩子指出两者的差异之处。孩子最初能辨别的部分少，即使只有l、2个发现，家长都要给予鼓励喔！</p> 
+ <p>　　<strong>6.符号无所不在</strong></p> 
+ <p>　　适用年龄：l岁半起</p> 
+ <p>　　功用：将所认识的符号和生活连结。</p> 
+ <p>　　玩法：这时候的孩子大都已能辨认简单的图形了，如圆形、三角形等，带他外出时，可以引导他注意外边的事物，其实都和图形有关，像是红绿灯、公共电话标志、电梯标志等。</p> 
+ <p>　　<strong>7.彩色世界妙妙妙</strong></p> 
+ <p>　　适用年龄：1.5岁一2岁</p> 
+ <p>　　功用：认识色彩变化及启发创造力</p> 
+ <p>　　道具：红、黄、蓝玻璃纸各l张</p> 
+ <p>　　玩法：把三色玻璃纸，裁成各约20&times;30公分大小，先将其中一张放在自己的手上，引导孩子注意你的手，再将另一张玻璃纸叠上去，提醒他：“妈妈的手变颜色&#xfffd;&#xfffd;！”然后利用不同的玻璃纸组合出更多样的色彩，孩子必定会感到非常新奇。</p> 
+ <p>　　<strong>8.亲子共读</strong></p> 
+ <p>　　适用年龄：1岁起</p> 
+ <p>　　功用：培养爱书的孩子</p> 
+ <p>　　道具：布书、图画书、绘本</p> 
+ <p>　　玩法：1岁开始，妈妈可以选择图片大、内容简单且与生活相关的童书，和他一起享受看书的乐趣。之后配合孩子各阶段身心发展，选择合适的童书，达到不同的启发效果。亲子共读时，通常是大人和小孩最专心的时候，还能增进语言能力、认知、想像力等，好处说也说不完！</p> 
+ <p>　　<strong>轻松学习有“FUN”法！</strong></p> 
+ <p>　　优异的视觉功能，应囊括认知、判断、精辫、观察及记忆五大条件，而这都不是短时间，或者单靠视觉发展就能完成的。许翠端表示，家长最重要的任务，是了解孩子阶段性的成长目标，提前制造机会练习，接着观察他有无按照应有的历程进步。切勿担心孩子捣蛋而强加限制，事实上，玩是孩子的本能，家长要做的应是扫除环境的危险，让孩子能够尽情的探索。另有部分家长希望孩子表现超前，习惯要孩子遵从指示来完成大小事物，短时间看来虽有小小领先，但对他将来实际运用却不见得有太大帮助。</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/57318">冬季备孕须严防流感和空气污染</A>
+						</LI>
+						<LI>
+							下一篇：
+								<A href="/static/news/125698">家庭游戏轻松养成全能宝宝</A>
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" class='thisclass'>潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/125410">你应该读懂的宝宝小动作</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125409">新妈妈如何预防婴儿吞气症</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125408">四月婴幼儿须防六种疾病</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125407">解除问题,让宝宝一夜好眠</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125406">春季要预防小儿麻疹的发生</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"125697"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>
