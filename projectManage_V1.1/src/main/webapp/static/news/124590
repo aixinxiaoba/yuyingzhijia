@@ -1,0 +1,427 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>上班族的哺乳妈妈-新生儿-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/124590"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/xinshenger2.png)'
+			 href="/static/menu/bm/xinshenger2" alt="新生儿" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=150" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/xinshenger2'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/tezheng/1">新生儿特征</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jibing/1">新生儿疾病</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/huli/1">新生儿护理</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/zaochaner/1">早产儿</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/weiyang/1">新生儿喂养</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=150" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=150&menuID=155" rel="nofollow">新生儿喂养</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					上班族的哺乳妈妈
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=150" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-26 21:09:20</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> 给孩子喂奶是很多上班的新妈妈最头疼的事，每天跑来跑去的很辛苦。有什么办法既不影响工作又能保证孩子吃得好、吃得饱呢？<br /> <br /> 　　上班的新妈妈都很辛苦，虽然每天有法定的喂奶时间，但是路上的奔波和刚刚返回工作岗位的压力时常让他们疲惫不堪。其实喂好宝宝与从容工作并不矛盾，只要你看完了我们提供的这10个好办法：<br /> <br /> 　　第一个办法：第一个工作周应尽量简短回到工作岗位的第一个星期对于新妈妈来说是一个重要的转折。在上班前的一两个星期先回到办公室熟悉一下环境是十分明智的。带上你的孩子给同事们看一看，最好能安排与老板商谈一下回来工作的细节问题(例如：你将会与哪些同事合作，参与哪些项目，负责哪些工作等)。<br /> <br /> 　　上班的第一个星期最好只有两到三天（可以选择在星期三或星期四上班），有利于你适应工作环境又不至于太累，因为你要适应的东西太多了。在投入真正的工作之前（例如：大的项目或正在执行的方案），最好给自己留出两到三天时间熟悉工作，做好调整。<br /> <br /> 　　第二个办法：在返回工作岗位前3周开始使用吸奶器很多的母亲使用吸奶器把奶水吸出来，冷藏或冷冻起来备用，这样就很容易适应重新工作，不必因为无法给孩子喂奶而烦恼。在返回工作岗位前3-4周时开始使用吸奶器，可以有充分的时间熟悉这种方式。用吸奶器抽奶所需时间一般为每次15分钟，加上清理的时间整个过程不超过20-25分钟。<br /> <br /> 　　使用吸奶器抽取奶水最理想的时间一般是在两次喂奶之间，每天2-4次。妈妈应该先给孩子喂奶，45分钟左右后，再开始吸奶。最初的几天可能只吸出少量的奶。不过，坚持抽奶（每天2-4次），48小时内你就会发现吸出的奶量有所增加。<br /> <br /> 　　冷冻起来的奶足够孩子吃上一整天，直到你下班回家。这样可以令你不必疲于奔波，因过度劳累而影响身体健康，进而影响奶水的质量威胁到孩子的健康。<br /> <br /> 　　第三个办法：不同的环境需要不一样的吸奶器吸奶器是吸取母乳用的机器，分为自动和半自动两种。下面是根据特殊环境的不同需要建议你选择的各种不同的吸奶器：<br /> <br /> 　　工作时选用的吸奶器特点：双泵全自动循环式抽取，节省时间小巧的外型设计，具有冷藏选项，即便公司内没有冰箱或冰柜也便于奶水储存。重量轻，便于出游时携带。<br /> <br /> 　　家用吸奶器这种吸奶器偶尔在你晚上外出，或出门做兼职时使用。大概每天使用一到二次。特点：单泵全自动循环式抽取高效节能，省时，减少肌肉的疲劳程度。轻便设计，经济实惠。注：如果不习惯使用吸奶器，也可以用手直接挤奶。<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;　第四个办法：找到可以应付紧急情况的亲戚或者朋友回去工作不管从情绪还是体力上来说都是很疲惫的。你刚刚适应了妈妈的角色，突然同时又要投入另一个角色。每天下班后你都会觉得很累。与丈夫商量一下，让他帮你分担一些家务，这样会让你轻松很多。同时也让他体会到同时扮演两个角色的感受。另外，如果有什么困难可以请朋友或亲戚帮忙。也许是帮着做做饭、买买菜，或仅仅是请他们“随叫随到”应付一些紧急情况。<br /> <br /> 　　第五个办法：教会宝宝用奶瓶在让宝宝完全用瓶子喝奶之前，应该给他一个充足的适应变化的过程。可以在每次喂奶之前或喂奶快结束的时候，让他吮吸一下人工的奶嘴，体会一下有什么不同，因为这完全是两种不同的喝奶方式。母乳喂养时，宝宝是用舌头很熟练地采用波浪式的动作将母乳吸出来的；而用瓶子喂奶，液体很容易地就从瓶子里流出来了。<br /> <br /> 　　尽管有些瓶子经过专门的“慢流”设计，但是太早使用瓶子，很可能宝宝会不适应，完全是勉强接受，甚至拒绝进食，直接影响到宝宝的健</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>康。要在宝宝出生一个月左右开始让他练习使用奶瓶，否则超过2-3个月他就会很难接受用瓶子吃奶。<br /> <br /> 　　现在市场上有专门的“学饮杯”，可以让宝宝很轻松地适应用瓶子喝奶。无论如何要有耐心和毅力才可能成功。<br /> <br /> 　　第六个办法：为宝宝培养一个保姆保姆可不仅是去找一个那么简单。你需要对宝宝的保姆做一些适当的培训。教给她必须的急救常识，帮助她熟悉你家附近的情况。起初的几天可以只让孩子和保姆呆上几小时，慢慢适应这个变化。每天要求保姆详细地汇报和孩子在一起的情况，自己也要仔细观察孩子的行为和情绪。如果觉得保姆不合适要马上更换。找保姆不仅仅是让孩子有人带，也给自己留出时间调整，适应离开孩子的感觉。<br /> <br /> 　　第七个办法：对你有帮助的一些提示你的吸奶的时间表应尽量配合工作的进度。每次抽奶可能要15-25分钟。不要与工作的时间冲突。<br /> <br /> 　　如果家离工作的地方比较近，可以午休时给孩子喂奶或选择午休时间抽奶。吸奶时需要注意的事项*安静不受打扰的环境有助于奶水被抽出。<br /> <br /> 　　*上班时不要喝含有酒精的饮料。不管渴不渴都要多喝水。<br /> <br /> 　　*吃有营养的工作餐，多吃蔬菜。<br /> <br /> 　　*吸奶时想一想孩子对你是有帮助的。可以使奶水反射性的流出。<br /> <br /> 　　*吸奶期间按摩乳房有助于增加奶量。<br /> <br /> 　　*每次吸奶的时候都用同一种方式会形成条件反射，便于顺利完成任务。<br /> <br /> 　　*即使再忙也不要中断吸奶，哪怕是只有5分钟。<br /> <br /> &nbsp;&nbsp;&nbsp;&nbsp;第八个办法：哺乳期妈妈该穿什么衣服？设想一下吸奶时穿什么样的衣服比较方便：<br /> <br /> 　　*带纽扣的开身服装是最实用的。<br /> <br /> 　　*颜色最好与奶渍的颜色相近或相同。<br /> <br /> 　　*衣服里子要100 %纯棉的，吸水性要好。<br /> <br /> 　　第九个办法：吸奶所需的装备一个专门的吸奶器电源插头装奶的瓶子(密封要好)标签防止奶水渗出的胸罩垫最好有冰箱或小型的冰柜<br /> <br /> 　　第十个办法：保存奶水需要注意的事项<br /> <br /> 　　*每次抽完奶水，应在瓶子的外面贴好标签，注明详细的时间，给孩子按时间先后食用。<br /> <br /> 　　*保存奶瓶时最好在外面裹一层保险膜，有利于保鲜。<br /> <br /> 　　*冷藏的奶水不得超过24小时，冷冻的奶水最好应该在一个星期内喝完。<br /> <br /> 　　*不要使用微波炉加热，高温会破坏奶水中的营养成分。可以放在一碗温水里解冻，使用前要摇晃，因为奶水冻结后会产生分离。<br /> <br /> </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/124334">产妇生奶疖如何喂奶？</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/tezheng/1" >新生儿特征</A>
+				<A href="/static/menu/sm/jibing/1" >新生儿疾病</A>
+				<A href="/static/menu/sm/huli/1" >新生儿护理</A>
+				<A href="/static/menu/sm/zaochaner/1" >早产儿</A>
+				<A href="/static/menu/sm/weiyang/1" class='thisclass'>新生儿喂养</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=150&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/124333">5大要点护理早产儿</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124332">怎样给早产儿供氧(图)</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124331">早产儿的袋鼠保育法</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124330">早产与母亲牙周炎有关</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124329">早产儿语言理解能力滞后</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"124590"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>
