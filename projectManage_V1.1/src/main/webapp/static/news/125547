@@ -1,0 +1,526 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>井深大---零岁教育(二)-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/125547"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=101" rel="nofollow">潜能开发</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					井深大---零岁教育(二)
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-27 23:44:33</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> </p>
+ <p> </p>
+ <center>
+  <b>第一章　胎儿具有惊人的能力</b>
+ </center> 
+ <center>
+  &nbsp;
+  <b>幼儿期和新生儿期最适合进行幼教</b>
+  <br />
+  <br />&nbsp;&nbsp;&nbsp; 有一点我想提出来，当初我在幼儿教育问题上犯了严重的错误，认为胎儿和新生儿
+  <br />不具备接受教育的能力。由于对幼儿的能力缺乏认识，使自己的幼儿教育开始于完全不
+  <br />同的幼儿教育条件。
+  <br />&nbsp;&nbsp;&nbsp; 首先，我想谈一下胎儿的问题。要了解胎儿的状况必须使用Ｘ光，而在二十年前，
+  <br />只能通过听胎儿的心跳，检查胎儿的脉搏来了解胎儿的状况。但是，近年来，由于Ｂ超
+  <br />的出现，人们对胎儿的状况知道的更多，更细。以前，我们不了解婴儿对外部刺激的反
+  <br />应，但是现在我们可以知道。
+  <br />&nbsp;&nbsp;&nbsp; 过去，人们就常说：音乐和母亲的交谈对婴儿有益。而真正证明这种说法的是日本
+  <br />医科大学已故的室冈一先生他证实子宫外的声音能进入胎儿的耳膜。
+  <br />&nbsp;&nbsp;&nbsp; 室冈先生把婴儿在子宫内所听到的声音，母亲的心跳和血液流动的声音进行了录音。
+  <br />他发现让刚出生的婴儿听这种录音能止住他／她的哭声。制作动物玩具&quot;小绵羊&quot;，把录
+  <br />有上述声音的装置缝进玩具内，然后放到哭个不停的婴儿的枕边进行试验，我们发现婴
+  <br />儿会天天的睡去。太令人不可思议了。尤其是出生一周左右的婴儿，其效果就更加明显。
+  <br />这说明，胎儿不仅能听到外部的声音，而且能记住外部的声音，婴儿在未出世之前就开
+  <br />始学习优美的声音。
+  <br />&nbsp;&nbsp;&nbsp; 这样的实例还很多。我想由此而进一步地指出，婴儿的感情来源于母亲，他／她和
+  <br />母亲一起喜怒哀乐。最近，随着生理学的进步。不断有研究成果表明：当人的感情发生
+  <br />变化时，他所分泌的化学物质（大脑传递物质）会作用于大脑。这种看法使人很容易想
+  <br />到，母亲血液中分泌的化学物质会通过脐带对婴儿产生巨大的影响。这是靠以往的看法
+  <br />所完全不能明白的，因为以往的看法只局限于通过神经纤维的电流变化来捕捉大脑的运
+  <br />动。人们相信所谓的胎教迷信，甚至教科书都白纸黑字地写上：别说胎儿，就是出生三
+  <br />个月的婴儿也看不见任何东西。最近教科书作了修改。即婴儿在出生后一个月可以看见
+  <br />东西。也就是说，认为刚出生的婴儿看不见东西的说法还在堂而皇之地流行着。
+  <br />&nbsp;&nbsp;&nbsp; 这种说法也许是来源于心理学权威，精神分析奠基人弗洛伊德的学说。我曾经看过
+  <br />弗洛伊德的文献，文献中说：&quot;婴儿在出生获得两个半月到三个月不会笑。这是因为在
+  <br />这段时间里婴儿还没有智力。&quot;&quot;婴儿的心智要在二，三年后才能发育形成。&quot;等等。由
+  <br />此看来，教科书的主张与弗洛伊德的学说哟极深得渊源，因而，设置开始教育的时间段
+  <br />完全不同，这也是一种常识。
+  <br />&nbsp;&nbsp;&nbsp; 就是在从事幼儿教育的世界里，也曾经有人断言：出生不超过两个月的婴儿只会睡
+  <br />觉，哭叫和喝奶，对他/她进行能力和智能的研究毫无价值可言。例如，著名的巴顿.赫
+  <br />怀特博士在国际儿童年时，曾应幼儿开发协会的邀请前来日本，她当时就是这么说的。
+  <br />赫怀特是哈巴特儿童发展研究中心教授，世界幼儿教育的权威人士。
+  <br />&nbsp;&nbsp;&nbsp; 其他还有许多学者，他们和赫怀特一样，把婴儿看作如同植物一样的，&quot;心智未开
+  <br />的有机体，&quot;他们认为：婴儿没有意识，没有知觉，没有感觉，根本不具备心理机能。
+  <br />这似乎就是学问世界的现状。令人吃惊的是，在欧美，人们把出生不超过两个月就微笑
+  <br />的婴儿当作病人看
+  <p></p> 
+  <p></p> 
+  <p><strong></strong></p>
+  <p></p>
+ </center>
+</div><div class="Newscontent">
+ <p>待，称之为乳儿微笑症。<br />&nbsp;&nbsp;&nbsp; 以前，之所以有如此之多的人否定幼儿教育和早期教育，是因为人们想当然地认为：<br />身心都没有发育起来的婴儿没有接受教育的&quot;感受性&quot;和&quot;学习能力&quot;。从前的研究从来不<br />把胎儿当作人来看待，即便不是胎儿，就是出生后不满1岁的婴儿，能否看作人也还存<br />在着问题。<br />&nbsp;&nbsp;&nbsp; 只是，如果从这个角度去考虑的话，就不仅仅是一个现象论的问题。还必须涉及到<br />妇女生产方式等深层次的问题。尽管这样的问题很棘手，我处理不好，但是我很愿意想<br />大家介绍几个与之相关的有趣例子。<br /><br />&nbsp;&nbsp;&nbsp; <b>乌干达的婴儿出生六周就会爬</b><br /><br />&nbsp;&nbsp;&nbsp; 1985年来到日本的哲在夫.齐尔顿.皮阿斯著有《神童养育法》一书。尽管本中有苦<br />涩南懂的地方，但是他在我思考幼儿教育时，给了我许多启迪。而且书中信息量惊人，<br />汇集了许多鲜为人知的珍贵报告。<br />&nbsp;&nbsp;&nbsp; 本章的标题是'胎儿的惊人能力'，关于它的内容，我想首先从该书中引用马鲁歇尔.<br />吉班关于乌干达婴儿的报告。<br />&nbsp;&nbsp;&nbsp; 聚集班说，乌干达的母亲在临产之前还和平常一样干活。然后找一个没人的地方自<br />个儿蹲下来生孩子，或者找人帮助接生。大约一个小时后，该母亲便去串亲戚，让大家<br />看自己刚生下来的婴儿。<br />&nbsp;&nbsp;&nbsp; 出生的婴儿被光着身子放进母亲胸前的吊带里，他/她在母亲身边长大，连睡觉都<br />不离开母亲。由于婴儿经常和母亲在一起，所以婴儿可以随时吃奶。据说，母亲也能通<br />过一条布吊带明白婴儿的要求并作出反应。<br />&nbsp;&nbsp;&nbsp; 据说，以前从来没有人在任何地方看见过如此生养的乌干达婴儿。这些婴儿出生后<br />的第二天（48小时）就能通过前臂支撑坐起来。而且后背伸直，头部中症，目光集中。<br />婴儿睡眠很少，长时间处于睡醒状态。<br />&nbsp;&nbsp;&nbsp; 通过对出生六，七周的300名婴儿的调查发现，所有的婴儿都能自己爬行和自己坐<br />立，甚至还会在镜子前长时间注视自己的模样。而这种能力在欧美的婴儿，要经过24州<br />（6个月）才能显示出来。<br /><br />&nbsp;&nbsp;&nbsp; <b>无痛分娩剥夺了母子/女之间的肌肤情结</b><br /><br />&nbsp;&nbsp;&nbsp; 为什么我们能从乌干达婴儿的身上看到这种能力呢？就乌干达的婴儿与众不同吗？<br />&nbsp;&nbsp;&nbsp; 不仅在乌干达，就是在一般的发展中国家&quot;生产&quot;也是很自然的过程。人们常说：在<br />温暖的南方，孩子好生养，婴儿自立早，但是，在俄罗斯有个游牧民族镇库斯，孩子分<br />娩都在零下40度的露天进行。镇库斯人把&quot;生产&quot;看作一种简单的生理现象，而不是看作<br />一件特别的事情，所以他们不会在产前作任何的准备。<br />&nbsp;&nbsp;&nbsp; 据说，大部分荷兰人现在还在自己家里进行分娩。荷兰的紧急救护体制十分完备，<br />妇女分娩时备有助产医师。如果在医院进行助产顺理成章的话，多少会让人觉得不安。<br />在荷兰，其婴幼儿的死亡率很低，仅次于瑞典。有一位接生无事故一万六千例的助产医<br />生说：在日本，从助产学校毕业后，即使想挂牌开业也开不起来，因为产妇们都到医院<br />生孩子。现在，去医院生产是一件顺理成章的事情，可是仔细想一想又觉得滑稽可笑。<br />又不是生病，为什么要去医院呢？<br />&nbsp;&nbsp;&nbsp; 大家普通认为：去医院有大夫，能用麻醉要消除</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>生产的痛楚，进行无痛分娩。蒙特<br />乔有一本书叫《肌肤之亲》（英文名：TOUCHING），书中描述了母亲分娩阵痛的意义，<br />内容十分感人。TOUCHING在日语当中时SKIN SHIP的意思。顺便提一句，据说，把SKIN<br />SHIP作为一般词语来使用的国家只有日本，因为他本来是精神病学科上的特殊用语。也<br />就是说，尽管存在着微妙的差别，但能和日语的SKIN SHIP相对应的词，在外国只有<br />TOUCHING的说法。这种差异会不由得让人想到西方育儿和日本育儿，乃至文化之间的差<br />异。<br />&nbsp;&nbsp;&nbsp; 有许多动物在生孩子后，妈妈会用舌头舔便孩子的全身。据说，如果妈妈不舔孩子<br />的屁股，孩子就不能排泄，以至于不能活下来。当然，人不会去舔自己的婴儿。但是据<br />蒙特乔推测，婴儿出生要通过狭小的产道，产道与婴儿有强烈身体接触，这可能和舔的<br />作用差不多。因此他说：在妇女没有做妈妈的意识状态下出生的婴儿和通过剖腹产出生<br />的婴儿，都会与妈妈失去身体的接触。<br />&nbsp;&nbsp;&nbsp; 生命是神秘的，目前，我们还难以揭开它的面纱。就拿生孩子来说，婴儿和母亲的<br />关系十分微妙，他们互相影响，如荷尔蒙得分迷惑减少，它们相互作用，并且具有各自<br />的意义。<br />&nbsp;&nbsp;&nbsp; 那么，什么是现代的生产呢？有一间带空调的，经过消毒得分娩室，有足够的照明<br />和数不清的医疗仪器，根据近代医学进行一般化的计划麻醉分娩，平静地使用&quot;分娩管<br />理&quot;字眼。下面，我想详细说明一下出生瞬间的重要性。<br />&nbsp;&nbsp;&nbsp; 例如，通常分娩室的照度为三千多LX（勒库司）。这也许是出于对医生和助产医生<br />的考虑，以使他们能看清婴儿出生时的状况。但对一个刚从子宫出来的婴儿来讲，我们<br />不难想象室内的灯光实在太刺眼了，因为子宫光线昏暗，约30LX。因此，刚出身的大部<br />分婴儿都因为刺眼而闭上眼睛。以前，人们将婴儿闭眼的情况解释为刚出生的婴儿目不<br />能视。<br />&nbsp;&nbsp;&nbsp; 生孩子是人的一种生理现象。自从有了西方医学，婴儿的死亡率情况明显改善，同<br />时也损害了婴儿所具有的能力。但我并不是说：孕妇应该自然生产，不必考虑卫生和危<br />险的状况。我是说，在医学和医疗技术进步，人类可以控制&quot;生产&quot;的今天，人类更应该<br />多为婴儿着想。<br />&nbsp;&nbsp;&nbsp; 把生产看作病，优先考虑医生和医院的合适与否，这就是现状。面对这种状况，我<br />们不能忘记对生命地敬畏，必须站在胎儿也是&quot;人&quot;的立场，重新思考婴儿的问题。<br />&nbsp;&nbsp;&nbsp; 前面，我向大家介绍了《神童养育法》一书，书中记载了用现代医疗对妊娠猴子的<br />试验。在猴子发生阵痛和即将分娩时，按它与普通人的体重之比进行配药和麻醉。普通<br />猴子出生后能够搂住母猴，经过麻醉而出生的猴子四肢乏力。而且母猴也因为麻醉而延<br />长了阵痛的时间，显得精神恍惚，无法帮助自己的孩子。<br />&nbsp;&nbsp;&nbsp; 虽然我们不能把人和猴子等同起来，但是如果从&quot;环境&quot;的角度去考虑妊娠，生产和<br />养育的话，我们就应该更多地关注孩子出生瞬间的环境问题。不仅要考虑胎儿的环境，<br />新生儿的环境和幼儿的环境，同时还要认真考虑生产的问题，决不能人云亦云。<br /><br />&nbsp;&nbsp;&nbsp; <b>婴儿什么时候有个性？</b><br /><br />&nbsp;&nbsp;&nbsp; 我们往往把&quot;胎儿&quot;和&quot;新生儿&quot;分开来考虑，细想一下，他们作为一个有&quot;能力&quot;的人<br />而存在的事实并没有改变，只不过是经历没经历&quot;生产</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>&quot;的途径而已。婴儿在母亲的肚子<br />里，有的非常爱动，有的不怎么爱动。而且，刚出生的婴儿也表现出不同的个性和差别，<br />如有的婴儿爱睡，有的婴儿不爱睡，拿眼睛看东西，有的婴儿手舞足蹈，十分活跃。婴<br />儿的哭声也不同，有的哭声很响，哇哇大哭，有的哭声很低，长长哭叫。这种差别和个<br />性的产生是理所当然的，因为母亲肚里的环境和母子/女之间的组合不尽相同。<br />&nbsp;&nbsp;&nbsp; 为了建立较好的母子（女）关系，在孩子一生下来，我们就要注意他（她）的&quot;个<br />性&quot;。推动这项研究的是哈巴特大学的布拉寨鲁顿博士。<br />&nbsp;&nbsp;&nbsp; 布拉寨鲁顿博士创找了一套自成体系的观察法，叫&quot;新生儿行动评价法&quot;。博士的观<br />察手段多种多样，如使用手电筒的光束和摇晃有嗝啦声的婴儿玩具以及搂抱和哄逗婴儿<br />等。而这些手段可以观察婴儿的反应速度，反应强度，注意力的持续时间以及适应能力<br />和精神能力的稳定程度等，而这些因素最能表现人的个性特征。<br />&nbsp;&nbsp;&nbsp; 通过看博士对婴儿的检查发现，即使是出生才一天的婴儿，其差别也很大。有的婴<br />儿会仅仅盯住博士的眼睛，即使博士的脸部上下左右移动了位置，她也紧追不放；而有<br />的婴儿则会很快放弃追踪。但放出嘈杂声时，有的婴儿则马上适应并浅浅地睡去；而有<br />的婴儿则十分敏感，哭个不停，还有的婴儿很好哄，一哄就不哭；而有的婴儿则需抱起<br />来颠几下彩绘老实下来……<br />&nbsp;&nbsp;&nbsp; 据说，婴儿出院回家后，由于环境的变化，同一名婴儿，一个月后的结果与一个月<br />前的结果会有很大的不同。例如，在第一周检查时，婴儿还有很好的耐性和稳定得情绪。<br />可是，当婴儿随母亲回娘家后，由于受到姥姥和姥爷的百般疼爱，仅仅一个月，就是婴<br />儿的自控能力减弱，对刺激反应消极。据说这样的实例时常可见。<br />&nbsp;&nbsp;&nbsp; 日本的婴儿一般都能得到很好的疼爱，所以他们情绪非常稳定，而且注意力也很集<br />中。这也许就是日本养育文化的特征吧，因此我们不能说她是好还是不好。而在美国人<br />们更注重培养婴儿的自控能力。布拉寨鲁顿说：凭感觉，我十分担心一个受到过分保护<br />的婴儿，因为我不知道他（她）在一岁或两岁会变成什么样子。<br />&nbsp;&nbsp;&nbsp; 布拉寨鲁顿时儿科大夫，他亲手的婴儿有数千人。据说，要对不同的母亲进行育儿<br />指导，就必须有对个性的观察。这位博士说：&quot;对一个婴儿的跟踪检查，其结果大体能<br />通过这位婴儿当时的结果进行预测。&quot;她有说：&quot;一个刚出生的婴儿之所以会有个性，似<br />乎与母亲的妊娠环境，胎内环境和行为方式有关，如母亲活泼，爱大声说话等。&quot;<br /><br />&nbsp;&nbsp;&nbsp; <b>刚出生的婴儿也能分辨母亲的声音</b><br /><br />&nbsp;&nbsp;&nbsp; 近年来，这种对学问进行细致研究的做法越来越盛行。我们也觉得，如果得不到学<br />术上的承认，就失去了研究的价值。例如&quot;胎教&quot;。传说，&quot;胎教&quot;的想法产生于中国的汉<br />代，到朱子整理成书是，就出现了象&quot;胎教&quot;诊所之类的东西。从江户时代（1603年――<br />1867年）开始，日本也推广胎教，并在结合人们经验的基础上，对胎教进行了各种形式<br />的继承。其中有些东西，内容空泛，意思不明。当西方医学走进国门时，由于没有时间<br />对&quot;胎教&quot;的真正含义进行重新考证，所以便舍弃了这些内容，并作出了&quot;胎教是迷信&quot;的<br />解释。<br />&nbsp;&nbsp;&nbsp; 但是，真正懂得胎教含义不是西方医学，也不是学问，而是和婴儿在一起的母亲。<br />母亲不被所谓的常识所束缚，重视对每</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>天生活的观察和发现，并对婴儿的能力做出正确<br />的评价。为此，就必须把婴儿看作有心智和有能力的&quot;人&quot;。<br />&nbsp;&nbsp;&nbsp; 我自己也一样，在考虑幼儿教育问题时，或收集信息，或听人说，或读书学习，而<br />且还去进行实际的观察，有许多婴儿和孩子的事情让人感动，然我深受教益。<br />&nbsp;&nbsp;&nbsp; 其中，有我1982年访问委内瑞拉首都卡拉卡斯国力妇产医院的事情。把一个前天刚<br />生下来的婴儿刚在当中，母亲和护士分别作在床的两侧，并同时轻轻呼喊婴儿的名字。<br />在委内瑞拉，在婴儿没有出世之前，大人留给婴儿起好了名字。当母亲和护士在多次呼<br />喊婴儿的名字后，婴儿将头脑缓缓地转向了母亲的一边。医院为了让我看到这种现象，<br />给我安排了好几次实验，结果都一样：婴儿们听到呼喊後，都将头转向自己的母亲。<br />&nbsp;&nbsp;&nbsp; 我请母亲们放低声隐含，护士提高声音喊，结果也还是一样。这是我明白：婴儿时<br />能够听懂声音的，一个出生才两天的婴儿也能分辨母亲的声音，看到这种情形，真的令<br />人十分感动。这也证明胎儿在学习。委内瑞拉是一个十分重视培养婴儿能力的国家。婴<br />儿的能力培养被列入国家项目。据说，一半的母亲们在进妇产医院三天候就出院开始劳<br />动。医院特意作实验给大家看，是为了让母亲们明白：婴儿和母亲割舍不断的深厚情结。<br /><br />&nbsp;&nbsp;&nbsp; <b>母子（女）的情绪从怀孕开始</b><br /><br />&nbsp;&nbsp;&nbsp; 也许会有很多人说；&quot;我知道！出生没几天的婴儿听到声音后会把头脑转向母亲。&quot;<br />这种现象在日常生活中太平常了，所以大家不会引起注意，以至于认为婴儿就应该是这<br />样的。<br />&nbsp;&nbsp;&nbsp; 但是，大家不要忘了，婴儿是在他（她）的日常生活中发挥出能力的。我觉得，在<br />大家忽视的地方隐藏着吧打开教育大门的&quot;钥匙&quot;。尽管这不是西红柿的故事，但是，有<br />很多情况是：本来的能力被&quot;常识&quot;所封杀。没有引起大家的注意。<br />&nbsp;&nbsp;&nbsp; NHK电视台制作的《婴儿――从怀孕开始》的节目引出了大家很多的话题。这个节<br />目在1984年秋首次播放，后来又多次重播，相信有很多人会有印象。这个节目向大家通<br />俗易懂地介绍了婴儿所具有的各种能力。<br />&nbsp;&nbsp;&nbsp; 例如，刚出生不久的婴儿，能单手拉住绳子支撑住自己的全身重量，能够通过嗅觉<br />分辨自己母亲的乳汁等。面对电视镜头当中，婴儿如此神奇的能力，我再次惊叹不已。<br />&nbsp;&nbsp;&nbsp; 其中印象最深地是：刚出生的婴儿想和母亲进行视线交流的场面和证明婴儿出生第<br />三天就能分辨母亲声音的实验。<br />&nbsp;&nbsp;&nbsp; 通常，在日本的医院里，当婴儿出生后，会首先剪断脐带并将婴儿清洗干净，然后<br />才让母子（女）见面。这种处理过程最长需要二十分钟，在这当中婴儿和母亲是不在一<br />起的。<br />&nbsp;&nbsp;&nbsp; 那么，如果婴儿生下来后就马上放在母亲的胸前会怎么样呢？节目对日本和美国的<br />母婴情况作了介绍。无论是在日本还是在美国，婴儿都会觉得很刺眼，像挣开眼睛看看<br />周围的一切.当他(她)看到母亲慈爱的目光后就一直盯着母亲看.过了一会儿，婴儿就会<br />自己去寻找母亲的乳头吮吸起来.<br />&nbsp;&nbsp;&nbsp; 据说，当帮助摄影的大夫看到这样的情景时，他们也惊呆了.婴儿出生没几分钟就<br />想看自己的母亲……居然会有这样的事情，这在以前他们可是连想都不敢想的呀。不过，<br />以前，爱与病院名誉院长内藤寿七郎先</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>生就曾经发表过这样的主张。他说：当你抱起刚<br />出生的婴儿并盯着他（她）时，婴儿大多会把目光投向你。我们不仅能和婴儿进行目光<br />交流，而且还能看懂婴儿的目前状态。<br />&nbsp;&nbsp;&nbsp; 分辨母亲声音的实验是在国力小儿病院院长小林登先生的主持下，在厚生省母子相<br />互作用研究班的共同努力下进行的。该研究办事有意识和学者所组成的研究团体。<br />&nbsp;&nbsp;&nbsp; 首先，让母亲对出生才三天的婴儿说话。听到说话后，婴儿的手动个不停。其次，<br />让护士对婴儿说同样的话。婴儿听到说话後，手不怎么动。<br />&nbsp;&nbsp;&nbsp; 爱育综合母子保健中心客员部部长高桥悦耳郎先生是一位经验丰富的小儿科医生。<br />正因为他经验丰富，处理婴儿很有一套，所以当他跟婴儿说话时，婴儿反应也很强烈，<br />手无足蹈的。<br />&nbsp;&nbsp;&nbsp; 有趣的事让婴儿听机械合成声音时的反应，这种声音以母亲的声音为主，并混进各<br />种人的声音。尽管这些合成声音构成语言，但是婴儿对他却毫无反应，手脚连一动都不<br />动。岂止如此，婴儿还十分不乐意听，并把脸背了过去。<br />&nbsp;&nbsp;&nbsp; 专家门将婴儿的这种举动用录像机录了下来，并用电脑进行分析，以了解婴儿是如<br />何对不同说话人的声音进行反应的。电脑分析结果显示，母亲说话的声音和别人说话的<br />声音有着明显的区别。<br />&nbsp;&nbsp;&nbsp; 以前，人们一直认为，婴儿总得对母亲呼唤等声音做出反应。但从电脑的分析结果<br />来看，我们知道：能让婴儿做出反应的不是单纯的人或物的声音，而是母亲的声音。<br /><br />&nbsp;&nbsp;&nbsp; <b>婴儿能记忆胎儿时的事情</b><br /><br />&nbsp;&nbsp;&nbsp; 其实，我所主持的幼儿开发协会，在爱育医院的协助下也进行了一个尝试性的实验。<br />实验以俳句作材料，以调查婴儿能否听到声音，并对声音进行记忆。<br />&nbsp;&nbsp;&nbsp; 首先让播音员录制一茶的排句&quot;小猫之扑竟是树叶&quot;，然后把录音磁带交给怀孕的母<br />亲，让他每天听。一天两次，一次三分钟。就这样，同一首俳句每天能重复好几遍，同<br />一种刺激每天能让腹中的婴儿听到好几遍。由于俳句具有日常话语和音乐所没有的独特<br />旋律，所以选俳句作为实验的素材有助于我们今后了解婴儿的记忆情况。<br />&nbsp;&nbsp;&nbsp; 尽管一天才六分钟，但因为视听同一首俳句，所以开始时还很担心母亲们不予配合，<br />没想到大家都热情地支持我们。<br />&nbsp;&nbsp;&nbsp; 婴儿出生后，我们选定第二天到第六天的时间段做测试。测试分两组，一组是出生<br />前听过俳句的婴儿，一组是出生前没有听过俳句的婴儿，以进行比较。要让婴儿听的磁<br />带内容有三种。一种是实验磁带，路有&quot;小猫之扑竟是树叶&quot;的爱句，一种是录有其他俳<br />句的磁带，再有一种是录有普通说话声的磁带。为了了解婴儿对这些声音的反映情况，<br />我们通过记录婴儿的心跳变化来进行实验。<br />&nbsp;&nbsp;&nbsp; 实验结果耐人寻味。在出生前没听过俳句的婴儿，听到三种内容不同的磁带後反应<br />一致。而出生前听过俳句的婴儿，当他（她）听到在出生前重复播放的俳句时，也许是<br />因为听惯了的缘故，他（她）显得十分平静。而当播放他（她）没有听过的俳句时，他<br />（她）反应强烈，脉搏和心跳都发生了变化。但当他（她）听到普通的说话声时，他<br />（她）的反应则是平静的。<br />&nbsp;&nbsp;&nbsp; 其实，我们对婴儿的上述反应频感意外。在世燕子前，我们均预测：如果婴儿能记
+  <br<></br<></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>&gt;住他出生前听过俳句的话，那么他就应该对他听惯的俳句有所反应。实际上，婴儿在听<br />他以前没有听过的俳句时才会做出强烈的反应。<br />&nbsp;&nbsp;&nbsp; 从上述结果可以看出：婴儿是能够区分该俳句自己听没听过的。<br />&nbsp;&nbsp;&nbsp; 因册，我们可以认为：婴儿能够对出世前听过的俳句进行记忆。当他（她）在听韵<br />律相同的不同俳句时，也许会想：&quot;这是什么啊？&quot;，从而作出反应。<br />&nbsp;&nbsp;&nbsp; 苏联已故的著名小提琴家烈奥尼特.科昂曾经对我进过这样的事，他说，他准备在<br />某音乐会上演奏苏联作曲家的一首新曲子，为此在夫人的伴奏下进行了短暂的练习。当<br />时他夫人刚好林月儿。<br />&nbsp;&nbsp;&nbsp; 后来，夫人生下一男孩。在孩子四岁那年，它能够拉弹小提琴，并突然眼周期它没<br />有学过得曲调来。正是那首我专门为音乐会演奏的曲子，过去没人弹过，将来也不会有<br />人弹而且也没有灌制唱片。因此，儿子生下来后不可能会听过这首曲子。<br />&nbsp;&nbsp;&nbsp; 太不可思议了，连科昂自己也惊呆了。当他知道我对幼儿叫和胎教十分感兴趣时，<br />他便将上述的亲身体验告诉了我。我想，不仅科昂，而且和科昂一样同样目睹过婴儿惊<br />人能力的人也一定不在少数。<br />&nbsp;&nbsp;&nbsp; 例如，有一则是婴儿在母亲肚子里就开始学习的例子。<br />&nbsp;&nbsp;&nbsp; 这是一个关于4岁法国女孩的故事。女孩得了自闭症，它不仅不想听父母说话，而<br />且也不想听周围人说话。但是，当他听到负责治疗的一位大夫无意中说出的英语时，它<br />的态度发生了变化。于是，大夫便尽量用英语跟他交谈，结果，小女孩封闭的心灵被渐<br />渐地打开了。<br />&nbsp;&nbsp;&nbsp; 小女孩的父母都是法国人，小女孩自己也在法国长大。一直听着法语长到4岁时，<br />还几乎没有听人说过英语。可是，小女孩为什么会对英语有反应呢？觉得不可思议的大<br />夫向她的父母询问有关小女孩英语的情况。开始时，她的父母也白思不得其解，但后来<br />想起了一件事。<br />&nbsp;&nbsp;&nbsp; 那时小女孩的妈妈在怀上这小女孩时，曾经在一家贸易公司供职，每天听英语，说<br />英语。也就是说，小女孩在母亲的肚子里时，就和妈妈一起工作，一起生活。<br /><br />&nbsp;&nbsp;&nbsp; <b>真正的幼儿教育是&quot;虚岁教育&quot;</b><br /><br />&nbsp;&nbsp;&nbsp; 通过这样的例子，使我们深深地感觉到：婴儿所吸收和学习的东西远比我们的想象<br />要多得多。但是关于婴儿的能力从胎儿开始的说法，在东方，很久已前就形成了共识。<br />&nbsp;&nbsp;&nbsp; 京良药师寺的高田好胤管长留下了一段耐人寻味的文字。<br />&nbsp;&nbsp;&nbsp; 佛教终有&quot;生有&quot;、&quot;本有&quot;、&quot;死有&quot;和&quot;中有&quot;等&quot;四有&quot;的说法。&quot;生有&quot;指人投胎的一<br />刹那；&quot;本有&quot;指人从投胎後的瞬间道临终之前的时间。&quot;死有&quot;指人临终的瞬间，&quot;中有&quot;<br />指从人死后到降生于下一个世界之前的时间。<br />&nbsp;&nbsp;&nbsp; &quot;实际上，婴儿在胚胎里的时期极其重要。我们把婴儿&quot;哇&quot;的一声由胚胎内走道胚<br />胎外的过程叫诞生。这似乎是婴儿一声的开始了。因此，真正的诞生是&quot;生有&quot;，是降生<br />到母亲肚子里的一刹那，人的正确年龄应该包括在母亲肚子里的266天。&quot;（摘自1986年<br />1月16日的《产经新闻》）<br />&nbsp;&nbsp;&nbsp; 佛教认为受孕意味着新生命的诞生，即使胎儿尚未成形，她也是一个人。确实，承<br />不承认胎儿是</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>人，是一个极其重要的问题，因为它关系到对零岁教育的思考问题。<br />&nbsp;&nbsp;&nbsp; 现在，人们已经站在了解和认识源自胎内的婴儿能力的立场上，开始进行认真的观<br />察和研究。以前被西方医学所抛弃的自然生产法，肌肤之亲的作用以及胎教，最近预备<br />当作一门新的学科进行重新研究。我觉得&quot;胎儿&quot;是不是&quot;人&quot;的问题十分微妙，现在它已<br />经成为人们的研究对象。<br />&nbsp;&nbsp;&nbsp; 以前我们没有弄清楚的感情问题、精神问题、睡眠问题和记忆问题，今后也将随着<br />新的研究方法的出现而变得真相大白。以前利用人的视觉和听觉等五官功能只能说明人<br />的感觉，而今后我们将能深入到五官之外的感觉和感情。<br />&nbsp;&nbsp;&nbsp; 我想在本章重新审视的胎儿及新生儿的能力并不仅仅是可以看到和可以听到，而是<br />更高层次的。更广泛意义上的&quot;感觉能力&quot;，这才是我说必须考虑的问题。我们必须站在<br />了结合认识胎儿高超能力的立场上，从妊娠，生产，育儿和教育的角度出发，重新看待<br />什么是可能的，什么是必要的以及什么在失去和什么不足等问题。<br /> </p>
+ <p></p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/57318">冬季备孕须严防流感和空气污染</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" class='thisclass'>潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/125410">你应该读懂的宝宝小动作</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125409">新妈妈如何预防婴儿吞气症</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125408">四月婴幼儿须防六种疾病</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125407">解除问题,让宝宝一夜好眠</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125406">春季要预防小儿麻疹的发生</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"125547"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

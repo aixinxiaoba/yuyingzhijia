@@ -1,0 +1,467 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>井深大---零岁教育(三)-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/125548"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=101" rel="nofollow">潜能开发</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					井深大---零岁教育(三)
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-27 23:44:38</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> </p>
+ <p>降生後的瞬间&quot;才是幼儿教育最关键的时期我认为，对一个成长期的人而言，什么<br />时候该做什么，什么时候最适合做什么是教育上的一大问题。<br />&nbsp;&nbsp;&nbsp; 这就是人们通常所说的&quot;临界期&quot;，无论做什么事情，一旦错过了一定的时期，人就<br />很难培养自己在某方面的能力，也就是说有时间制约。这个时期是能否掌握某一功能的<br />重要分水岭，因此将这一时期称作&quot;临界期&quot;也许是最好不过的了。关于&quot;临界期&quot;的实验，<br />其中被引用最多的例子是关于猫的视觉实验。把一只刚出生的猫放在四面墙壁画有横线<br />的环境中喂养，两个礼拜後，当这只猫进入一般的环境时，猫的视力会出现障碍，此猫<br />不认识竖线，只认识水平方向的横线。也就是说，当猫生下来后，如果只看横线，不看<br />竖线，猫就不具备看竖线的能力。这意味着，在猫生下来的两周时间里，由他获得正常<br />视力的&quot;临界期&quot;。据说，当猫生下来后，用布蒙住他的一只眼睛；那么当此猫长大后，<br />在把布取下来时，该猫的这只眼睛的视力就一直没有发育。<br />&nbsp;&nbsp;&nbsp; 当我们调查引起猫眼视力障碍的原因时，发现猫的身体并没有发生什么异常。猫本<br />来就具备看的功能，只不过是在猫眼能力的发育时期，没给他适当的环境而已，所以猫<br />眼没有发挥出它的应有能力。<br />&nbsp;&nbsp;&nbsp; 人的情况也一样。据说，当我们给一个天生的盲人做手术并让他（她）获得视力后，<br />该盲人过了五岁，还是目不能视。眼睛看到的信息进入大脑后形成完整的图像。但是，<br />如果大脑的成像功能没有得到很好的发挥，那么大脑就不能将眼睛看到的物体组成图像。<br />也就是说，大脑的视觉神经细胞接受外部刺激后，促成视觉神经网络的发育，从而在五<br />岁之前完成目能视物的过程。但是，如果人超过五岁，即使刺激它的视觉神经细胞，她<br />才的神经网络也很难正常发育。<br />&nbsp;&nbsp;&nbsp; 我们知道，当人生下来后，它的脑细胞网络就接受刺激，并通过刺激使人脑得到发<br />育和形成。最近，人们在研究大脑功能发育的不同时期，他们相信不同的机能发育分别<br />对应着不同的最佳时期。<br />&nbsp;&nbsp;&nbsp; 不仅是看的能力，而且人所具有的其他能力，再开始时都是以潜在的方式存在。潜<br />在的能力只有接受刺激，才能成为真正的能力。因此，如果人的潜在机能不接受锻炼，<br />人的这方面能力就会被淹没，永久地从这个人的身上消灭。就跟人一开始就不具备这方<br />面的能力一样。<br />&nbsp;&nbsp;&nbsp; 最先对世人公布存在临界起的著名人物是诺贝尔奖获得者昆拉多.劳轮滋博士.她发<br />现鸟类有&quot;铭记&quot;的现象。一只经过人工孵化的鸟出世后，会把最先看到的物体当作自己<br />的母亲和保护者，然后平静地跟着她走。<br />&nbsp;&nbsp;&nbsp; 但是，听说这种&quot;铭记&quot;也要在小鸟孵化后的几个小时到十几个小时才能产生。因此，<br />这种&quot;铭记&quot;与其说是&quot;临界期&quot;倒不如说是&quot;临界时&quot;。<br />&nbsp;&nbsp;&nbsp; 即便港生下来的小鸟把气球认作了&quot;自己的母亲&quot;，我觉得这也是一种心智的发育和<br />萌芽。<br />&nbsp;&nbsp;&nbsp; 当我们在考虑临界期的问题时，我开始觉得不仅人体机能隐藏着临界期，而且人在<br />心智的选择上也隐藏着几个严密的临界期分支。关于心智发育的临界期问题，以前几乎<br />没有人涉及，但是，正如谚语所说，&quot;百岁看小&quot;。一个人小时候形成得性格和思维定式，<br />在她长大后是很难改变的。一个心里有问题的孩子，其问题会持续到他长大后很长的一<br />段时间。我觉得，从某种意义上讲，这是临界期所种下的</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>孽障。<br />&nbsp;&nbsp;&nbsp; 也许大家会觉得，我向大家说临界期，说过了临界期就无法挽回的话语是故意吓唬<br />大家，其实我并没有这样的意思。光从结果看来，大家的解释是：理所当然。可是，以<br />前大家想没想过自然界当中存在着象临界期那样的严密法则呢？我想大家没有，这是正<br />我想说的。因为大家觉得理所当然而忽视了法则的存在，所以只有当日出现某种结果和<br />困难时，大家才会变得惊慌失措。<br /><br />&nbsp;&nbsp;&nbsp; <b>出生后15分钟在母子（女）身上会发生什么？</b><br /><br />&nbsp;&nbsp;&nbsp; 从1975年后，美国发生了许多关于母子（女）关系的新问题，如母亲虐待子女问题，<br />孩子得了自闭症等心理障碍疾病等问题。<br />&nbsp;&nbsp;&nbsp; 原因之一是因为婴儿出生后就马上被放进了新生婴儿时，从而使母亲失去与婴儿接<br />触的时间。婴儿出生后不能和母亲相见会导致母子（女）关系不和。如果婴儿早产，婴<br />儿一出生就被长时间的放进保育器当中，婴儿在出院之前都难得和自己的母亲见上一面。<br />如果，回到家后，母子（女）关系不好，母亲不好好抚养婴儿，甚至有虐待婴儿的现象。<br />这种现象在报纸上被大写特写。<br />&nbsp;&nbsp;&nbsp; 母子（女）最早的接触应在什么时间之前为好呢？我的瑞典朋友，医学工作者唐.<br />沙桐曾为此作过试验。<br />&nbsp;&nbsp;&nbsp; 实验分两组进行。一组按医院通常的程序进行生产，婴儿生下来后给他（她）两体<br />重，进行一系列的处理（30分钟），然后把婴儿交给母亲看一眼，之后抢走，放进新生<br />婴儿室，使母婴分开。另一组设定了母子（女）接触的时间。婴儿出生后，进行6分钟<br />左右的必要处理，然后让他（她）趴在母亲的肚子上，之后用毯子盖住婴儿和母亲的腹<br />部。接触约5分钟后，把婴儿往母亲的胸部挪一挪，使婴儿能吮吸母亲的乳房。母婴接<br />触的时间约15分钟。然后按医院通常的程序进行处理，把婴儿放进新生婴儿室。之后的<br />情况和条件与第一组一样。<br />&nbsp;&nbsp;&nbsp; 这15分钟的差距是如何反映到母亲和孩子的身上的呢？唐.沙桐对这两组母婴的情<br />况进项了追踪调查。调查共考察35个项目，并分36个小时后，一个月后，一年后和两年<br />后等四个时间段来进行。结果表明，这两组母婴在两年后还因这15分钟而存在差距。<br />&nbsp;&nbsp;&nbsp; 其差距不仅表现在婴儿的哭泣次数上，还表现在母亲的行动上。<br />&nbsp;&nbsp;&nbsp; 和婴儿有过15分钟接触的母亲常常爱抚婴儿，报婴儿，亲婴儿，对婴儿说话等。和<br />婴儿没有过接触的母亲则很少爱抚婴儿，对婴儿的清洁过分敏感，总担心婴儿尿湿了尿<br />布。而且，在抱怨带孩子烦人，带孩子辛苦的问题上，两者也有明显的区别。尤其是男<br />孩子与母亲的关系问题上，两者的差别就更加明显，这是十分有趣的问题。<br />&nbsp;&nbsp;&nbsp; 在此实验基础上再作进一步研究的是古力布兰特大学的古拉乌斯教授。他也发现：<br />两年前，在孩子生下来的三天之内，能否给母婴创造15分钟的接触机会，会影响到两年<br />后母亲对孩子的誉爱以及言行举止。根据这种观点，古拉乌斯博士首先提出了&quot;母子<br />（女）情结&quot;的看法。它的研究对后来的美国小儿医学和心理学都产生了巨大的影响。<br />&nbsp;&nbsp;&nbsp; 确实，母亲和孩子早早接触会对母亲的心理产生重大的影响。唐.沙铜箔使研究发<br />现：孩子出生后的15分钟是母子（女）关系的分水岭。<br /><br />&nbsp;&nbsp;&nbsp; <b>母亲的心</b></p>
+ <b> <p></p> <p><strong></strong></p><p></p></b>
+</div><div class="Newscontent">
+ <p>理发育也有&quot;临界期&quot;<br /><br />&nbsp;&nbsp;&nbsp; 森永良子先生是日本为数不多的，专门对小孩进行心理咨询和治疗的儿科专家。于<br />1985年，他出版了一本题为《人的孩子和狗的孩子――-母亲和孩子相互作用的心理》<br />的书。读后，我深受启发，于是便马上约见森永先生，并向他进行了认真的请教。<br />&nbsp;&nbsp;&nbsp; 森永先生是一味心理学学者，曾在芝加哥伊利诺斯州大学儿童研究所认客座研究员。<br />1976年后，开始在伊豆递信病院工作，专门对儿童进行心理治疗。病院位于伊豆半岛的<br />一个小镇上。小镇叫函难，座落在半岛与大陆接壤的正当中。医院喂养了一群狗，专门<br />供医院进行动物实验。爱狗的森永先生在照看狗的当中，因为一个突如其来的契机，决<br />定对狗进行心理实验，并将实验记录汇集成书。<br />&nbsp;&nbsp;&nbsp; 说到进行心理实验的契机，最早是因为森永先生要在犬舍前给狗建一个小小的运动<br />场，使狗有一个自由活动的场所。当时的实验用狗有二十多条，一天二十四个小时关在<br />笼子里，过的也不是真正狗过的日子。森永先生于心不忍，向医院提出建运动场的申请，<br />结果得到了批准。运动场建成后，有一只狗死活不去运动场，整天躲在笼子深处，谁要<br />靠近他就哇哇大叫，而且和其他的同伴也没有丝毫的交往。这只可怜的狗一生下来就在<br />犬舍中长大。既不懂得什么是狗的生活，也不懂得什么是狗感情，就好像人患上了自闭<br />症一样。森永先生心想：我一定要让这只狗到运动场上去玩。为了让狗心理放松，森永<br />先生每天都坚持跟这只狗进行接触。<br />&nbsp;&nbsp;&nbsp; 渐渐地，这只曾经十分固执的狗开始在态度上发生转变。最后，狗王举行戏剧般的<br />仪式，欢迎这只狗作为自己的成员加入他们的行列。这只狗终于能够自己走向运动场了。<br />&nbsp;&nbsp;&nbsp; 以此为契机，森永先生开始对狗是否存在心理临界期的问题感兴趣，并着手进行实<br />验，以了解母狗和小狗的相互关系是否会影响到小狗在狗群当中的生存问题。<br />&nbsp;&nbsp;&nbsp; 实验从虎犬――-蒂罗生孩子开始。蒂尼一共生下12只小狗。但因为是高龄生产，<br />最后活下来的只有5只小狗。到第12天，我决定把一只叫小甜饼的小母狗从蒂民身边抱<br />走，放到家里养他三个礼拜。尽管我不忍心让狗仔这么小就和它的母亲分离，但为了了<br />解母狗和小狗隔离后所造成的影响，我不得不这样做。<br />&nbsp;&nbsp;&nbsp; 小甜饼太小，养它可真不容易。据说，要用纱布裹住奶瓶喂它喝奶，要用温水浸过<br />的布擦拭肛门，帮助它排泄。通常小狗排泄是母狗的事情，母狗会用舌头去舔，以对小<br />狗的肛门产生刺激。三周后，既小甜饼出生的第五周，它在森永家里可以自己喝碟子里<br />的奶，自己吃狗食，自己拉屎拉尿。它被养成了一只聪明伶俐得宠物狗。<br />&nbsp;&nbsp;&nbsp; 三周后，&quot;小甜饼&quot;被重新送到母亲蒂罗的身边。当其它在母亲身边长大的兄弟姐妹<br />在蒂罗身上找乳房吃奶时，小甜饼站在一旁远远地但着。过了好一会，它才想起大家在<br />找母亲的乳房，于是它自己也走了过来。结果，蒂罗拒绝它，并用低低的吼叫威吓它，<br />不许它过来喝自己的奶。同时，也不许它吃饲料盒子里的狗食。<br />&nbsp;&nbsp;&nbsp; 回来后的第四天，小甜饼趁蒂罗不注意，吮上了妈妈的乳房。蒂罗发现后，对小甜<br />饼进行了威吓。不过，后来还是默认了小甜饼，允许小甜饼吸自己的奶。但是，与其他<br />在母亲边长大的兄弟姐妹相比，小甜饼明显受到了歧视，因为它的身体从来没有得到过<br />母亲的亲吻。<br />&nbsp;&amp;nbs</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>p;&nbsp; 也许是小甜饼还记得妈妈的缘故，所以它向妈妈撒娇。可是，不管它怎样撒娇，妈<br />妈就是不接受。三周的分别决定了母犬的心理变化，同时也使&quot;小甜饼&quot;有别于其它的兄<br />弟姐妹。<br /><br />&nbsp;&nbsp;&nbsp; <b>有一种&quot;能力&quot;是错过出生后的瞬间所难以培养的</b><br /><br />&nbsp;&nbsp;&nbsp; 出生第八周，蒂罗开始带孩子们到运动场。据森永的观察，我们知道：当孩子们在<br />自由活动的时候，蒂罗的眼睛一直在警惕孩子们周围的情况。一旦有别的狗要靠近它的<br />孩子，蒂罗会上前暗中进行牵制，或飞跑到自己孩子的身边。但是，对于小甜饼，蒂罗<br />却一点都不想保护。<br />&nbsp;&nbsp;&nbsp; 进入第十六周，蒂罗的孩子们开始和别的狗住在一起，过集体生活。在狗的群体当<br />中，狗有狗的规则，如是饲料时，按座次的先后顺序进行排列等。但是，小甜饼对此一<br />无所知，常常做出莽撞的事情来。随着小狗的长大，周围的成年狗不再对它们宽容。当<br />小狗过于恶作剧时，成年狗会真的发起火来。一般而言，两只力量均衡，相差无几的狗<br />会发生战争；而两只力量悬殊的狗则不会发生战争。但是，小甜饼却毫无力量悬殊的概<br />念，常常挑起争端。<br />&nbsp;&nbsp;&nbsp; 终于，在即将迎来出生六个月的某一天，发生了一件大事情。不知道小甜饼惹的是<br />什么祸？它的后背被严重咬伤，伤口化脓，陷入死亡的边缘。在森永等大夫的看护下，<br />伤口得到了恢复，但要彻底痊愈至少还需要六个月的疗程。<br />&nbsp;&nbsp;&nbsp; 尽管实验馆舍中的狗是一个特殊的群体，但是它们却不折不扣地遵守这狗群世界当<br />中的法度和规则。一直自打出生以来就没有在群体中生活的狗，因为没有规则的概念，<br />轻率向其它狗发起攻击，结果遭到了其它狗的沉重反击。据说，这样的例子还不只小甜<br />饼一例。<br />&nbsp;&nbsp;&nbsp; 说到小甜饼，从它出生的第二天开始，它离开母犬只有短短的三周，而且它还记得<br />它的犬妈妈。可是，正是这短短的三周时间决定了它与其它兄弟姐妹的不同。<br />&nbsp;&nbsp;&nbsp; 伤后复出的小甜饼开始对座次比自己高的狗表示恭敬和顺从，不再鲁莽行事，不再<br />挑起无畏的争端。这是小甜饼用生命换来的教训。在小时候应当轻而易举掌握的事情，<br />到了小甜饼那里，却要付出巨大的牺牲才能狗掌握。<br />&nbsp;&nbsp;&nbsp; 六年后的1985年年底，当我带上牛肉去伊豆造访实验馆舍时，小甜饼已经在狗群中<br />坐上了第二把交椅，看上去精神饱满。小甜饼的功成名就让我始料不及，也让我悬着的<br />心踏实了下来。<br /><br />&nbsp;&nbsp;&nbsp; <b>孩子的能力是遗传决定的？还是环境决定的？</b><br /><br />&nbsp;&nbsp;&nbsp; 虽然上述的实验不能直截了当地告诉我们结论性的东西，但是我觉得它对我们是有<br />启发意义的。无论是人也好，动物也好，其最基本的心理和生理机能都必须通过各种微<br />妙事情的积累来完成。<br />&nbsp;&nbsp;&nbsp; 那么，人的能力到底是遗传决定的呢？还是环境决定的呢？遗传和环境的界线应该<br />划在什么地方呢？我想，今后人们会越来越清楚地认识到：人的大部分能力，素质和性<br />格，绝不是因为遗传和偶然的因素在不知不觉中形成的，而是由包括怀孕其在内的环境<br />所决定的。<br />&nbsp;&nbsp;&nbsp; 最近，人们对遗传基因的研究进展很快。对一个外行人来讲，很容易产生错觉，以<br />为什么都是由基因所决定的。其实不然。为此，我走访了从事遗传基因实际研究的工作<br /></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>人员。三菱化成生命科学研究所的中村桂子先生告诉我：不同遗传基因所拥有的信息量<br />是巨大的，而真正表现出来的信息只有其中的1%，因此我们不能简单地认为，才能全部<br />来自遗传。另外，我们还压根不知道：什么信息会表现出来，表现出来的信息会选择何<br />种组合方式。<br />&nbsp;&nbsp;&nbsp; 另外，筑波大学遗传基因实验市中心的村上和夫也告诉我：遗传基因所拥有的信息<br />量用文字表示，相当于30亿个文字量。至于，会出现哪一种信息，有&quot;场&quot;=环境所决定；<br />而记录的信息归根结底是组建身体的程序。<br />&nbsp;&nbsp;&nbsp; 以前，我考虑问题时，一直是以遗传与人的能力和性格无关作为前提条件的。听到<br />学者们的教诲后，我进一步增强了自己的信心。<br />&nbsp;&nbsp;&nbsp; 我想告诉大家的是：尽管我们不能完全否认遗传力量的存在，但是如果那它和环境<br />的力量相比，我们完全可以无视遗传的存在。此外，根据这种想法，人的环境就大大地<br />突破了人们已有的思考范围。为此，我们必须对称之为环境的内容，时期以及所有的问<br />题进行重新思考。<br />&nbsp;&nbsp;&nbsp; 而且，从上述的观点来看，一直沿袭至今的教育观和养儿育女观也必须对&quot;时期&quot;的<br />问题进行从新思考。什么时期适合做什么？怎么做才能最有效？以前被看作常识的问题<br />是不是真的正确呢？对于这些问题，我们都必须进行一次深入的思考。我觉得：只有这<br />样，我们才能一个一个地去寻找临界期，找到了临界期就找到了从零岁进行真正教育的<br />方法。<br />&nbsp;&nbsp;&nbsp; 下面，我举一个我们身边常见的例子。例如，我的英语听力很糟糕，不能区分R和L。<br />发音也很差劲。听英美说话，分不清对方说的R还是L。<br />&nbsp;&nbsp;&nbsp; 不能区分R和L是许多日本人普遍存在的问题，并不只是我一个人的问题。我曾经把<br />有过驻外经历的索尼公司职员招集到一起作R和L的测试，我发现：尽管他们的英语说的<br />呱呱叫，但是能够真正区分R和L的人毕竟凤毛麟角。<br />&nbsp;&nbsp;&nbsp; 当然，这并不是说日本人的听说能力要比欧美人差。事实上，大家知道：婴儿的咿<br />呀学语，包括了所有的语音，而且全世界都一样。但是，日本人从初中开始学英语错过<br />了能够区分R和L的临界期，所以日本人不能区分R和L。也就是说，能否区分R和L的临界<br />期应该是早于初中阶段的某个时期。与其说它是教育和学习的问题，到不如将它看作纯<br />心理的问题。而且，关于发音定了型，学习其它语言就会带上浓重的日本调。<br />&nbsp;&nbsp;&nbsp; 反过来讲，就是：学习一定要把握好时期，否则就要付出巨大的努力。但是，任何<br />人都有一种潜在的，能够发出各种声音的能力。让一个从小只接触日语的人从初中开始<br />学习英语，无疑是对人的能力的极大浪费。<br />&nbsp;&nbsp;&nbsp; 在日本，从古代流传至今的谚语有&quot;三岁看小&quot;和&quot;先入为主&quot;等。贝原益轩在《和俗<br />童子训》中也认为：如果开始有一样东西定了型，以后再想让别的东西定型就很难。<br />&nbsp;&nbsp;&nbsp; 他说：&quot;大概小孩都没有善恶之分，从小学到了什么，长大了便会成为什么样的人。<br />最先进入孩子心中的东西一旦定性，以后无论是遇到好事还是坏事都很难动摇孩子的意<br />志。因此，我们应该让孩子从小接近好人，给孩子指引一条好的道路。&quot;<br />&nbsp;&nbsp;&nbsp; 二十年来，我一直对现有的教育方法忧心忡忡。我觉得，在现有的儿童教育方法指<br />导下，即使儿童有了无限发展的可能性。也会因为能力生成临界期的耽</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>搁二白白地被葬<br />送了。<br />&nbsp;&nbsp;&nbsp; 这样的话，我曾经说过多次。但是，却没有引起什么反应。既没有人提出批评，也<br />没有人对教育的时机和顺序进行研究和实验，更没有人再重新问起。我觉得，想铃木镇<br />一先生对小提琴教育的毕生探索和实践，以及石井勋先生对汉字教育的毕生探索和实践<br />都是特例中的特例。他们两人的教育方法在开始时，都受到了社会的百般阻挠。<br />&nbsp;&nbsp;&nbsp; 但是，我相信：在将来某一天会有更多的人携起手来，共同去研究教育问题并掀起<br />真正意义上的教育革命。并且相信：人们对儿童以及婴幼儿的思考也必将会得到进一步<br />的深化。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/57318">冬季备孕须严防流感和空气污染</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" class='thisclass'>潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/125410">你应该读懂的宝宝小动作</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125409">新妈妈如何预防婴儿吞气症</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125408">四月婴幼儿须防六种疾病</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125407">解除问题,让宝宝一夜好眠</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125406">春季要预防小儿麻疹的发生</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"125548"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

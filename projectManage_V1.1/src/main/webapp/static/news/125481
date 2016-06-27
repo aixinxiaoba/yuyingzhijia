@@ -1,0 +1,524 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>0―12个月早早教方案-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/125481"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=101" rel="nofollow">潜能开发</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					0―12个月早早教方案
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-27 23:40:48</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> </p>
+ <p>　　0-4个月婴儿的早早教方案</p> 
+ <p>　　从3个月开始，宝宝就喜欢双手相握，在眼前玩耍，小手就像是一个非常有趣的玩具。现在，宝宝的双手灵巧多了，抓握玩具不但比以前牢固，而且双手都可抓起。纸是宝宝喜欢的玩具，偶尔抓到一张纸时他会在手里揉搓；抓到有把手的玩具他会胡乱摇动，让它发出声音。这个年龄段的宝宝，5个手指头没有分工，还是大把抓；手的动作和视线不协调，有时手在玩具周围转好几圈才能抓到。宝宝对声音的感觉非常灵敏，吃奶的时候不像以前那样安静了，只要注意到有响声，他立刻停止吃奶，把头转过去。宝宝的眼睛特别喜欢追随大人的活动，他对周围环境中的各种物品都感兴趣。现在，宝宝每天的睡眠时间在16－17小时左右，觉醒时间大大延长。<br />　　4个月的宝宝已经硬朗多了，动作有了较大的发展。抱着时，宝宝的头能稳稳地直立起来，不需要再特意防护；趴着时，宝宝抬头挺胸，能用胳膊支撑起上半身，把头抬起并和肩成90度角；躺着时，宝宝的手脚不闲着，用力翻身还翻不过来。宝宝的小腿更有力了，扶着腋下，双腿能支撑一会儿身体。4个月的宝宝显得很懂事了，哭叫明显减少；喜欢让人抱，会把头转来转去地找人，要没人在身边会不高兴，又哭又闹。宝宝在语言发育和感情交流上进步较快，高兴时会大声笑；看到妈妈时，脸上会露出甜蜜的微笑，嘴里还会不断地发出咿呀的学语声，似乎在向妈妈说着知心话；妈妈和他讲话时，他会发出咯咯咕咕的声音，好像和妈妈一问一答的对话。这是宝宝最愉快的时间，也是妈妈最幸福的一刻。</p> 
+ <p>　　一、认知能力的训练</p> 
+ <p>　　1、视觉训练：婴儿仰卧位，在小儿胸部上方20－30cm用玩具，最好是红颜色或黑白对比鲜明的玩具吸引小儿注意，并训练小儿视线随物体作上下、左右等方向运动，来刺激视觉发育，发展眼球运动的灵活性及协调性。</p> 
+ <p>　　2、听觉训练：家长可在小儿周围不同方向，用说话声或玩具声训练小儿转头寻找声源。可选择不同旋律、速度、响度、曲调或不同乐器奏出的音乐或发声玩具，也可利用家中不同物体敲击声如钟表声、敲碗声等，或改变对婴儿说话的声调来训练小儿分辨各种声音。</p> 
+ <p>　　3、触觉训练：婴儿面颊、口唇、眉弓、手指头或脚趾头等处对触压觉很敏感。可利用手或各种形状、质地的物体进行触觉练习。光滑的丝绸围巾、粗糙的麻布、柔软的羽毛、棉花、头梳齿、粗细不同的毛巾或海绵、各种形状的玩具均可让小儿产生不同的触觉感，有助于发展小儿的触觉识别能力。</p> 
+ <p>　　4、味、嗅、温度等感知觉训练：利用日常生活，发展婴儿各种感觉。如吃饭时，用筷子蘸莱汁给婴儿尝尝；吃苹果时让婴儿闻闻苹果香味、尝尝苹果味道；洗澡时，让小儿闻闻肥皂香味，用奶瓶喂奶时，让孩子用手感受一下奶瓶的温度等等，均有助于婴儿感知觉的发展。</p> 
+ <p>　　二、动作能力的训练</p> 
+ <p>　　1、抬头练习</p> 
+ <p>　　俯卧抬头：使小儿俯卧，两臂屈肘于胸前，父母在小儿头侧引逗小儿抬头，开始训练每次30秒钟，以后可根据小儿训练情况逐渐延长至3分钟左右。</p> 
+ <p>　　2、侧翻训练</p> 
+ <p>　　先用一个发声玩具，吸引小儿转头注视，然后，父母一手握住小儿一只手，另一只手将小儿同侧腿搭在另一条腿上，辅助小儿向对侧侧翻注视，左右轮流侧翻练习，以帮助小儿感觉体位的变化，学习侧翻动作。每日2次，每次侧翻2－3次。</p> 
+ <p>　　3、手部动作训练</p> 
+ <p>　　抓握练习：用带响、色彩鲜艳的玩具如摇铃、响圈儿等训练。开始可将玩具放在婴儿手中让握住，逐步地再用玩具的声音和色彩逗引他的注意，同时触碰他的手，吸引他去抓握，每天多次训练，发展手和眼的协调能力。</p> 
+ <p>　　三、言语能力的训练</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p> </p>
+ <p>　　父母亲要利用婴儿醒着的时间不断地和他说话、逗笑。婴儿的名字、婴儿的吃、喝、拉、洒、睡等所有活动都是说话的内容。</p> 
+ <p>　　1、说笑逗引：抱起孩子，与孩子面对面，用愉快的口气和表情与他说笑、逗乐，使孩子发出“啊、呃、呀”声或笑声。父母在模仿发音时应有相应的动作，如抱着他摇晃或者把脸贴在婴儿的脸上等。为了更能引起婴儿的注意，父母有时可以夸大口型，因为夸张的口型更能引起婴儿的注意。</p> 
+ <p>　　2、玩具逗引：用孩子喜欢的玩具、图片逗引他发音，一旦他兴奋地手舞足蹈时，就会发出“啊、呀”声。</p> 
+ <p>　　3、户外活动逗引：在户外活动，遇到孩子感兴趣的人和物，他也会高兴的咿呀作声。一旦逗引孩子发出了咿呀声，父母就要富有感情地称赞他、触摸他，与他“你一言，我一语”地交谈。</p> 
+ <p>　　四、社交及生活能力的训练</p> 
+ <p>　　1、培养清洁卫生的习惯：小儿每次哺喂完，都帮他擦擦嘴。早晨起床后为他洗脸、洗手，入睡前再给他洗脸、洗手、洗脚、洗臀部，在固定时间洗澡等等，均可培养小儿爱清洁的良好习惯。</p> 
+ <p>　　2、逗引时会微笑，见人能自动微笑、发声或挥手蹬脚，表现出快乐的神情；喜欢大人和他在一起玩耍；见生人盯看、躲避、哭等。</p> 
+ <p>　　3、哭吵的特征随环境而变，不同原因有了不同的哭吵声。善于辨别婴儿哭声，并作出应答：哭声是婴儿表示不满的主要手段。婴儿啼哭时，闭着眼晴，嘴左右觅食或吮吸手指，双脚紧蹬、嚎叫不停，说明小儿是饥饿或口渴，应给婴儿喂奶或喂水。持续不断悲悲切切地嗯叫流泪，可能为尿布湿、衣着太紧或身体不舒服，父母可给婴儿宽衣带、更换尿布。</p> 
+ <p>　　5－8个月婴儿的早早教方案</p> 
+ <p>　　5个月的宝宝更加强壮，更加活泼。趴着时，宝宝可以用双臂撑起上身，伸长脖子看周围的世界发生了什么；坐着时，宝宝用手支撑着床面，头和身体还有些前倾；躺着时，宝宝喜欢抓住自己的小脚丫，然后把它放进嘴里。到6个月时，宝宝已经能够熟练地翻身；每次爸爸扶着他的掖下，他就借劲蹬着两条小腿不停地上下跳跃。宝宝已经有了移动自己身体的欲望。</p> 
+ <p>　　半岁以后，宝宝的运动能力有了很大的发展。在妈妈的引导下，他能够独立地坐，自如地爬。由于能够移动自己的身体，过去只能远远看到的有趣的东西，现在可以接近、触摸、甚至放到嘴里品尝，这对宝宝来说，可是一件非常激动愉快的事情。同时，这也是一个极其重要的探索时期，身体位移能力的发展，一方面扩大了宝宝的探索范围，提供了认识周围世界的机会，满足了宝宝的好奇心；另一方面也打破了以前整洁的环境、安宁的生活，使父母的担心增加了几许。</p> 
+ <p>　　七个月的宝宝已经能看懂大人的表情，明白大人的喜怒，也逐渐听懂大人的话语了。宝宝能明白爸爸、妈妈、没有、再见等词的含义，经常发出“da-da”“ma-ma”的音节，爸爸听到以后，高兴地说：“宝宝会叫爸爸了！宝宝会叫爸爸了”。实际上，宝宝并不是有意识地叫“爸爸”“妈妈”，只是发出一些连续的音节，但是爸爸这些积极的反应，强化了宝宝发音的行为。</p> 
+ <p>　　一、认知能力的训练</p> 
+ <p>　　1、方位听觉训练：训练小儿追寻物体。用玩具声，吸引孩子寻找前后左右不同方位、不同距离的发声源，以刺激小儿方位觉能力的发展。每日训练2－3次，每次3－5分钟。</p> 
+ <p>　　2、颜色感知练习。让孩子多看各种颜色的图画、玩具及物品，并告诉孩子物体的名称和颜色，可使婴儿对颜色认知发展过程大大提前。</p> 
+ <p>　　二、动作能力的训练</p> 
+ <p>　　1、练习坐</p> 
+ <p>　　（1）拉坐练习：婴儿仰卧位，父母双手的大拇指插入婴儿手中，让他握着</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>，其他手指则轻轻抓着婴儿的手腕，使小儿双手伸直前举，手掌向内相对，两手距同肩宽，然后轻轻向前拉起婴儿双手，使小儿头、肩膀离开床面抬起。此时婴儿会试图屈肘用力坐起来，保持此姿势5－6秒，再轻轻让小儿躺下，再重复2－3次。</p> 
+ <p>　　（2）靠坐练习：将小儿放在有扶手的沙发上或有靠背的小椅子上或在小儿身后放些枕头、棉被让练习靠坐，以后逐渐减少小儿靠垫的东西，每日1－2次，每次2－3分钟。</p> 
+ <p>　　2、手部动作训练</p> 
+ <p>　　（1）伸手够物：通过伸手够物来延伸小儿的视觉活动范围，使小儿感觉距离、理解距离，发展手眼协调能力。</p> 
+ <p>　　（2）发展玩法：通过游戏，教小儿玩不同玩法的玩具，如摇晃、捏、触碰、敲打、掀、推、扔、取、传递等，使他从游戏中学到手的各种技能。</p> 
+ <p>　　三、言语能力的训练</p> 
+ <p>　　1、应随时随地教小儿周围东西的名称。多听多练，孩子的言语能力很快就会发生惊人的变化。和小儿说话，不仅有意识地给予不同的语调，还应结合不同的面部表情，如笑、怒、淡漠等，训练小儿分辨面部表情，使他对父母不同语调，不同表情有不同的反应，并逐渐学会正确表露自己的感受。</p> 
+ <p>　　2、发音训练。和孩子说话时，应坐在孩子正对面的位置，使小儿能够清楚看到您的口形、表情，说话速度要慢、而明确。</p> 
+ <p>　　四、社交和生活能力的训练</p> 
+ <p>　　1、睡眠：可将小儿白天的睡眠时间逐渐减少1次，即白天睡眠3－4次，每次1.5－2小时。夜间如小儿不醒，尽量不要惊动他。如果小儿醒了，尿布湿了可更换尿布，或给他把尿，孩子若需要吮奶、喝水可喂喂他，但尽量不要和他说话，不要逗引他，让他尽快转入睡眠。要注意孩子睡觉的姿势，经常让小儿更换头位，以防小儿把头睡偏。</p> 
+ <p>　　2、饮食：有规律地进食，可使神经系统、内分泌系统、消化系统等协调工作，并建立起对进食时间的条件反射，如，在接近喂奶的时间，胃肠就开始预先分泌消化液，并产生饥饿感，这有助于增加食欲，促进食物的消化与吸收。每日喂养次数可减为6次，白天哺喂4－5次，间隔3－4小时。夜间视小儿需要情况进行哺喂，一般1次即可，若小儿夜间不醒或不愿进食，可不哺喂。可开始逐渐训练让小儿学会用勺吞咽食物，为以后断奶用勺进食做准备。开始可先用勺喂开水，若不出现呛，可逐渐开始用勺喂果汁、菜汁、稀糊、蛋黄糊、果泥等。</p> 
+ <p>　　3、认识自我：将小儿抱坐在镜子前，对镜中的小儿说话，引小儿注视镜中的自己和家长及相应的动作，可促进小儿自我意识的形成。4、捉迷藏爸爸抱着孩子，妈妈用一块手绢遮住自己的脸，并逗引他说，“宝宝，妈妈在哪儿？妈妈在哪儿？”接着露出笑脸，同时说，“宝宝，妈妈在这儿？”重复多次后教他用手去拉妈妈们的手或脸上的手绢。逐渐训练到他可以用手绢遮住自己的脸，互相捉迷藏。</p> 
+ <p>　　9－12月婴儿的早早教方案</p> 
+ <p>　　10个月的宝宝很好动：坐着时，能拉着栏杆站起来；扶着家具，他甚至还要迈出人生的第一步。宝宝喜欢爬台阶，还想往沙发上爬，妈妈在沙发四周给他开辟了一块活动区域，宝宝在这里活动时，妈妈也在一边守护，因为这个年龄段的宝宝还没有安全意识。</p> 
+ <p>　　等宝宝快一岁的时候，能牵着大人的一只手行走，偶尔也能踉踉跄跄地独走几步。这个时期的宝宝喜欢扔东西，扔了后“嗯嗯哎哎”地让大人给他拣起来，可是，等大人刚把拣起来的东西递到宝宝手中，宝宝立刻再把它扔掉。 </p> 
+ <p>　　一、认知能力的训练</p> 
+ <p>　　1、视觉训练。除了在日常生活，不断引导小儿观察事物，扩大小儿的视野外，可培养小儿对图片、文字的注意、兴趣，培养小儿对书籍的爱好。教小儿认识实物，图</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>片，把几种东西或几张图片放在一起让小儿挑选、指认，同时教小儿模仿说出名称来。</p> 
+ <p>　　2、听觉训练。积极为婴儿创造语言环境，可促进婴儿更多听到语言，熟悉语言和渐渐理解语言。用语言逗引婴儿活动和玩玩具，听磁带，观看周围的人物交谈，唱儿歌给婴儿听，小儿咿呀对话。</p> 
+ <p>　　二、动作能力的训练</p> 
+ <p>　　1、爬行动作：在小儿前方放个玩具，引诱他爬过去取玩具，父母扶住小儿的小腿，或用手托住小儿脚掌，左右交替地弯曲其膝关节，助其向前爬行，重复2－3遍，每日1－2次。</p> 
+ <p>　　2、站立练习：两手扶站。当小儿两手扶站较稳时，可训练一手扶站，可让小儿一手扶站，另一只手去取玩具。</p> 
+ <p>　　3、行走练习：可拉着小儿的双手训练其迈步，或让小儿扶着栏杆或床边迈步走，还可用较长的围巾从婴儿前胸、腋下围过，父母在孩子后方，拉紧围巾，让孩子练习独立走步。孩子会独走数步后，可在小儿的前方放一个他喜欢的玩具，训练他迈步向前取，或让婴儿靠墙独站稳后，父母后退几步，手中拿玩具，用语言鼓励婴儿朝父母方向走去，小儿快走到父母身边时，父母再后退几步，直到婴儿走不稳时把婴儿抱起来，夸奖他走得好并给他玩具。</p> 
+ <p>　　4、手部动作训练。</p> 
+ <p>　　(1)训练小儿手的控制能力。在小儿能够有意识地将物品放下后，训练小儿将手中的物品投入到一些小的容器中。让小儿将小木块放到一个小盒子中，将小粒的东西拾起来放进小瓶中。还可给小儿选择一些带孔洞的玩具，让小儿将一些东西从孔洞中投入。</p> 
+ <p>　　(2)训练小儿用手的能力。可通过游戏，父母示范，教小儿学会手的多种用途。比如把木块搭起来，打开或盖上盒盖、瓶盖，拉电灯开关线，用笔画线条，用手翻书，按按钮、扔皮球，拾东西，模仿用手推玩具火车，拿勺子在碗中搅拌，用勺吃饭，用手挖抠东西等等。</p> 
+ <p>　　三、言语能力的训练</p> 
+ <p>　　在日常生活中引导小儿主动发音和模仿发音，积极为婴儿创造良好的语言环境。父母可在婴儿面前拉着动物玩具走，并且模仿动物的叫声，让婴儿学，如狗是“汪汪”，鸡是“咕咕”，鸭是“呱呱”，猫是“喵喵”等。认识家里日常用品，会用手指要东西。</p> 
+ <p>　　四、社交和生活能力的训练</p> 
+ <p>　　1、与人交往。此时，婴儿已经有一定的活动能力，对周围世界有了更广泛的兴趣，有与人交往的社会需求和强烈的好奇心。因此，家长每天也应当抽出一定时间和小儿一起游戏，进行情感交流。教会婴儿“拍手、再见”等手势。</p> 
+ <p>　　2、睡眠。白天睡眠次数可逐渐减至每日2次，每次睡眠时间2小时。每天应定时让小儿上床睡觉，睡眠前不要引导小儿过分地兴奋。</p> 
+ <p>　　3、饮食。随着小儿年龄增长，喂养次数每日可逐渐减到4－5次。定时进餐，有助于消化系统有节律地工作，进餐时要有固定的坐位，训练进食自理的能力，如让小儿自己用手拿饼干吃，独自抱奶瓶吃奶、用杯喝水，试着拿汤匙舀东西吃。</p> 
+ <p>　　4、穿衣服。教小儿配合父母穿衣、戴帽、穿袜、穿鞋等，这不仅能培养小儿生活自理能力，而且能强化左右的方位意识。<br /></p> 
+ <br /> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/57318">冬季备孕须严防流感和空气污染</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" class='thisclass'>潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/125410">你应该读懂的宝宝小动作</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125409">新妈妈如何预防婴儿吞气症</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125408">四月婴幼儿须防六种疾病</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125407">解除问题,让宝宝一夜好眠</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125406">春季要预防小儿麻疹的发生</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"125481"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

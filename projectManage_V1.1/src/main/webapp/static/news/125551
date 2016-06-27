@@ -1,0 +1,540 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>井深大---零岁教育(六)-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/125551"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=101" rel="nofollow">潜能开发</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					井深大---零岁教育(六)
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-27 23:44:50</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> </p>
+ <p> </p>
+ <p> </p>
+ <center>
+  <b>第五章　类型教育的推进</b>
+ </center> 
+ <strong></strong>&nbsp; 
+ <strong>人的认识和电脑的认识完全不同</strong>
+ <br />
+ <br />&nbsp;&nbsp;&nbsp; 人是通过什么方法去认识某一个事物的呢？为了了解这个问题，我曾经偷偷地对别
+ <br />人看报纸的方法进行观察。
+ <br />&nbsp;&nbsp;&nbsp; 虽说是看报纸，却没有哪一个人是一字一句去看的。一般都是一个版面看上一、两
+ <br />秒钟，然后再看下一个版面。也许有人觉得纳闷：他们在看报纸么？在看，他们在一个
+ <br />劲的找自己想看的地方看，当他们在找到自己所需要的内容时，他们会根据需要记到脑
+ <br />子里。
+ <br />&nbsp;&nbsp;&nbsp; 可以说，大部分人都在用这种方法看报纸和周刊杂志。不，准确的说不是看，而是
+ <br />翻阅。
+ <br />&nbsp;&nbsp;&nbsp; 有一种说法叫&quot;用眼睛的余光看&quot;。我们用这种方法看报纸。一眼看上去，就能了解
+ <br />整个版面的内容。因此，与其说是&quot;看&quot;，倒不如说是&quot;浏览&quot;更贴切。我把这种认知和认
+ <br />识的方法叫&quot;类型认识&quot;。
+ <br />&nbsp;&nbsp;&nbsp; 我下面所说的内容稍稍有点专业性。类型认识的用语在计算机领域十分流行，而且
+ <br />类型认识的研究也十分热门。可以认为，这种研究的次序是颠倒的。为了开发高度发达
+ <br />的计算机技术，必须首先解决人的类型认识结构问题，然后才能研究如何将人的类型认
+ <br />识应用到计算机当中去的问题。但是，在这里，我们必须明白：人的类型认识和计算机
+ <br />的类型认识完全是两码事。
+ <br />&nbsp;&nbsp;&nbsp; 现在有&quot;数码&quot;和&quot;模拟&quot;两种说法。如果用这两种说法去套，那么人的类型认识就是
+ <br />&quot;模拟&quot;性的，而计算机的类型认识则是&quot;数码&quot;性的。例如，画面上有一点。计算机为了
+ <br />发现这一点，必须将整个画面从头到位扫描一遍；而人则不同，他只要往画面上看一眼
+ <br />就能瞬时地找到那一点。
+ <br />&nbsp;&nbsp;&nbsp; 如果根据第四章　中&quot;左脑和右脑&quot;的观点，也许我们就会好理解一些。即，人的类型
+ <br />认识具有右脑性的特点，计算机的类型认识具有左脑性的特点。
+ <br />
+ <br />&nbsp;&nbsp;&nbsp; 
+ <b>婴儿有原封不动的接收影像的&quot;特殊能力&quot;</b>
+ <br />
+ <br />&nbsp;&nbsp;&nbsp; 近二十年来，我一直主张孩子是把事物作为类型去接受的，即进行类型认识。在
+ <br />《母亲从零岁开始教育的方略》一书当中，我也曾使用&quot;类型与年龄&quot;的词语，以对零岁
+ <br />的特征进行说明。
+ <br />&nbsp;&nbsp;&nbsp; 我在陪孙子一起玩的时候，就开始注意到孩子的类型认识问题。当时，我孙子的年
+ <br />龄还很小，说话还不是很利落。从我家的公寓，能看到窗外闪烁的霓虹灯。当我用手指
+ <br />着一个个的霓虹灯考问他时，他看了一眼上面的文字和标牌，就能准确地说出&quot;那是日
+ <br />立&quot;、&quot;那是丰田&quot;和&quot;那是NEC&quot;等等。这令我十分惊讶。
+ <br />&nbsp;&nbsp;&nbsp; 而且，不仅我的孙子，而且许多幼小的孩子也有这方面的&quot;特殊能力&quot;。当他们看到
+ <br />某辆车时，他们能说出车的种类。当他们听了两、三遍的广告词以后，他们能记住广告
+ <br />词。我想，象这样让大人吃惊的事情绝对不会少见。
+ <br />&nbsp;&nbsp;&nbsp; 可以认为，孩子常常能发挥这方面的&quot;特殊能力&quot;是因为孩子和大人的认识方式存在
+ <br />着差异。
+ <br />&nbsp;&nbsp;&nbsp; 例如，当你看到&quot;COCA COlA&quot;的招牌时，你是通过一个
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>字母一个字母去认，然后才<br />读出&quot;可口可乐&quot;的呢？还是把招牌的变形的字体作为一个整体去看，然后才认识&quot;可口<br />可乐&quot;的呢？这两者是存在差异的。<br />&nbsp;&nbsp;&nbsp; 我从发生在我孙子身上的事情开始注意到：孩子具有把事物作为一个整体去看的能<br />力。但是，我发现：即使在教育机构，孩子的这种能力也没有得到重视和理解。<br />&nbsp;&nbsp;&nbsp; 因此，我一有机会就向大家呼吁，要重视孩子们的&quot;特殊能力&quot;；一有时间就赶紧收<br />集有关孩子&quot;特殊能力&quot;的资料。在此过程当中，我原来对类型教育的模糊认识也变得明<br />朗起来，并且越来越认识到类型教育的重要性。<br /><br />&nbsp;&nbsp;&nbsp; <b>孩子通过&quot;类型认识&quot;去发展各方面的能力</b><br /><br />&nbsp;&nbsp;&nbsp; &quot;类型&quot;一词在现在的日常生活中已被广泛使用。&quot;类型&quot;一次来自英文&quot;pattern&quot;，<br />而&quot;pattern&quot;译成日文后，它的意思很难把握。<br />&nbsp;&nbsp;&nbsp; 通过查阅字典，我们发现&quot;pattern&quot;的日文意思有&quot;模范、型、式样、机构组织、模<br />样、纸样、模和图案&quot;等。而且对于一些我们不能用眼睛直接看到的抽象事物，如&quot;活动<br />的类型&quot;和&quot;人际交往的类型&quot;等，我们也常常使用类型一词。这些抽象的事物都具有共<br />同点和有序性，可以在某种程度上归类。&quot;pattern&quot;一词在日语当中找不到贴切的词，<br />所以在本书中，我为了保留其意义的完整性，采用了音译的做法。（注：译者将<br />&quot;pattern&quot;译成&quot;类型&quot;）<br />&nbsp;&nbsp;&nbsp; 说到&quot;类型&quot;认识，我们很容易想到：它是对肉眼可以看到的事物的认识方法。其实<br />不然。因为我们通过&quot;类型&quot;，不仅可以认识声音和文字，而且还可以认识无形的东西和<br />抽象的事项。例如，当我们听到巴赫和肖邦的音乐时，即使是象我这样不太懂得音乐的<br />人，一听到那样的曲调，也能分出哪是巴赫的音乐和哪是肖邦的音乐。尽管我们不能将<br />两者的音乐特点清楚的罗列出来，但是我们却能分出是谁的音乐。之所以如此，是因为<br />两个作曲家创作该曲子的意象已分别留在我们的记忆当中。<br />&nbsp;&nbsp;&nbsp; 在第一章　中，我向大学介绍了自己在委内瑞拉时的经历。一个出生才几天的婴儿能<br />够分辨母亲的声音，这也是一个通过&quot;类型&quot;来进行认识的极好例子。婴儿在母亲的肚子<br />里时就记住了母亲声调和说话方式，所以他一生下来就能知道那一种声音是自己母亲的<br />声音，并对此做出反应。在从婴儿区分母亲的长相来看。眼前的人是母亲还是他人？婴<br />儿能通过自己对母亲长相信息的掌握，如通过对眼睛和鼻子的大小、形状和配置等的掌<br />握，在瞬间做出判断。<br />&nbsp;&nbsp;&nbsp; 我们一直认为婴儿能够分辨母亲的声音和长相是理所当然的事情。但是，如果我们<br />仔细想一想就会发现：这样的事情并不简单。你想，这样的事情是连计算机都难以做到<br />的复杂事情，可是一个刚出生的婴儿却能轻而易举地做到。这难道不是令人惊奇的事情<br />吗？<br />&nbsp;&nbsp;&nbsp; 还有一件我们常常忽视的事情。那就是：婴儿不仅仅是通过看母亲的长相去认识自<br />己的母亲，而且还通过母亲身上的气味、声音、搂抱方式和姿势等综合性的感受去认识<br />自己的母亲。对婴儿来讲，&quot;母亲&quot;是包涵有自己全部感受的母亲。因此，婴儿应该能感<br />受到&quot;母亲&quot;对自己的疼爱和温柔。所谓的&quot;类型&quot;正是包涵有有形物和无形物的&quot;类型&quot;。<br />&nbsp;&nbsp;&nbsp; 作为典型的&quot;类型&quot;势力，我想起了以前从日本棋院高川格名誉本因</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>坊那里听来的话。<br />据该棋院的调查发现：该棋院的名人们在三、四岁的时候，就在一旁看父亲或家人和别<br />人对弈。因此，在刚开始学棋的时候，并没有谁手把手地教过他们。<br />&nbsp;&nbsp;&nbsp; 我觉得，他们之所以成为名人，与他们小时候在一旁看别人对弈有关。小孩小时候<br />看人对弈，其围棋的棋型会根植于小孩的脑海深处。这与从初中开始学棋的情形完全不<br />同。小孩对棋型好坏的判断靠的是直觉本能，而初中生对棋型好坏的判断靠的是理论。<br />当然，下围棋不仅需要直觉，而且还需要良好的理论功底。但是，小时候灌输到脑子里<br />的基本类型，会在人长大以后发挥作用。<br />&nbsp;&nbsp;&nbsp; 不仅是学围棋，而且学习文艺和体育也是同样的道理。如果是你小时候懵懵懂懂读<br />过的文艺书籍和照葫芦画瓢学过的体育动作，那么当你长大以后，它们就会成为你进一<br />步学习的基础。<br />&nbsp;&nbsp;&nbsp; 刚才，我向大家谈到无形事物和抽象事项的问题。在这里，我想以&quot;信仰&quot;为例对这<br />个问题进行考虑。谚语云：&quot;耳濡目染，不学自会&quot;。对这句话，我们也深有体会。假如<br />我们从小就听人念佛，听人唱赞美歌和进行祷告，那么，即使我们不懂得其中的含义，<br />在我们一遍遍的听到以后，我们也能掌握其中的类型。<br />&nbsp;&nbsp;&nbsp; 简单地说，当一个一岁的小孩每天早上都看到父母在佛龛前双手合十的时候，他就<br />会学父母的样子，跟在他们的身后合上自己小小的双手。渐渐地，孩子也有了信仰，一<br />走到佛龛跟前，他就不由得叩拜起来。<br />&nbsp;&nbsp;&nbsp; 这与要理解难懂的道理之后才能掌握的信仰不同。<br />&nbsp;&nbsp;&nbsp; 当你年龄稍长，开始有自我或者自我意志的时候，你就会问自己：我为什么要祈祷？<br />我为什么要念佛？我念佛是为了谁？如果你不明白，你就不能去祈祷和念佛。这样一来，<br />你要掌握这些事情就会相当困难，需要付出数倍的努力。<br />&nbsp;&nbsp;&nbsp; 如此这般，即使我们不明白其中的含义，只要我们对该事物进行重复，我们也能掌<br />握该事物的&quot;类型&quot;。因此，我认为，我们会找到一种方法将它应用到教育的中的。<br />&nbsp;&nbsp;&nbsp; 反过来，当我们开始探索事物的含义时，也就是说，当我们的头脑开始出现条理时，<br />我们对事物进行&quot;类型&quot;吸收的方法就会变得笨拙起来。<br />&nbsp;&nbsp;&nbsp; 我们要正确地把握孩子所拥有的能力，并通过&quot;类型&quot;的重复来对其能力进行积极的<br />推动。这种通过重复来推动孩子的l类型认识力、并让孩子自然掌握事物的学习方法，<br />叫&quot;类型教育&quot;。在这里我主张将它作为广泛的教育问题来思考。<br /><br />&nbsp;&nbsp;&nbsp; <b>零岁的婴儿也能读懂汉字</b><br /><br />&nbsp;&nbsp;&nbsp; 关于类型，以前我们有各种各样的思考。其内容不仅涉及到我们肉眼看得见的东西，<br />而且还涉及抽象的东西。下面，我想就眼睛看得见的&quot;汉字&quot;为例，谈谈我对&quot;类型&quot;的看<br />法。<br />&nbsp;&nbsp;&nbsp; 汉字和罗马字母一样，它不单单是被用作语言的标记符号。当我们在考虑东洋或者<br />日本的文化和素养时，我们绝对不能忘记汉字的巨大作用。根据MIT（麻省理工大学）<br />对世界字体d的研究发现，&quot;横写的汉字假名混合字体&quot;无论是从粗略的角度，还是从详<br />细的角度，都能帮助人们最有效地掌握含义。前面所提到的浏览报纸，也正是因为有了<br />汉字，才使日语占了很大的便宜。<br />&nbsp;&nbsp;&nbsp; 过去，人们认为：汉字复杂，</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>字数多，笔画多，不利于教学。就是在中国，人们也<br />认为复杂的汉字会阻碍教育的发展，于是由国家对汉字进行了简化。（现在已停止对汉<br />字的简化）。<br />&nbsp;&nbsp;&nbsp; 但是，如果从类型认识的角度来考虑的话，我们就会发现一个截然相反的事实。即，<br />汉字并非越简单越容易认识，而是越复杂就越容易认识。计算机也一样，用作判断的材<br />料信息越多，其做出的判断就越准确。说到这里，我们终于可以请石井先生出场了。<br />&nbsp;&nbsp;&nbsp; 我已在前面介绍过，石井先生是汉字教育的先驱，是他首先在幼儿园教育中引进了<br />汉字。&quot;汉字教育最好从小时候开始&quot;，&quot;孩子喜欢笔划多的汉字&quot;等等，这些都是石井先<br />生经过长期资料积累和研究的成果。<br />&nbsp;&nbsp;&nbsp; 据说，石井先生在开始对幼儿进行汉字教育的时候，当时还未满一岁的长子就开始<br />懂得&quot;教育&quot;的&quot;教&quot;字。不过，虽说是开始懂得，但是因为孩子还小，还不怎么能说话，<br />所以它不可能将这个汉字念出来。可是，孩子总得想个办法告诉父母：这个字，我看了<br />这么多天，记住了。有一天，当他看到在有本书名上出现的&quot;教&quot;字时，他拼命地通过身<br />体的姿势将它告诉母亲。当石井太太明白孩子要告诉她什么时，他非常感动，并将此事<br />告诉了石井先生。<br />&nbsp;&nbsp;&nbsp; 当然，也有人对石井先生所说的事情提出质疑：如此之小的小孩怎么能认得如此之<br />难的&quot;教&quot;字呢？！我想，当我们被婴儿的超凡能力所打动的同时，也肯定有人会对此表<br />示怀疑，这毫无疑问的。<br />&nbsp;&nbsp;&nbsp; 试想一想，婴儿生下来不久就能认出自己的母亲来。所以我想，当有人说孩子长到<br />一岁就能够认得汉字时，大家也不要觉得有什么奇怪。<br />&nbsp;&nbsp;&nbsp; &quot;婴儿没有理由认得汉字&quot;，&quot;汉字教育，胡闹！&quot;与过去的一片责骂声相比，现在的<br />人们已经相当宽容，不再墨守成规，并且能够对各种做法进行探索。即使是我所主管的<br />幼儿开发协会，也在吸引石井先生的观点，积极推动幼儿从零岁开始进行汉字教育。<br />1986年1月，朝日新闻以&quot;幼儿从零岁开始也能认得汉字&quot;为题，介绍了在福冈县屋形原<br />托儿所的试验结果，内容之惊人，相信有很多人还记忆犹新。<br /><br />&nbsp;&nbsp;&nbsp; <b>&quot;能读&quot;、&quot;明白&quot;和&quot;会写&quot;属于各自不同的能力</b><br /><br />&nbsp;&nbsp;&nbsp; 从1984年开始，我在年轻母亲们的协助下，开始对汉字进行类型教育的实践。实践<br />主要使用汉字卡片，以便通过类型将汉字告诉幼小的婴儿，可是我并没有特别的教育计<br />划。我将我的类型教育的想法告诉了母亲们，在得到她们理解的基础上，我让母亲们按<br />照各自的方法去进行具体的实践。我的愿望是：通过母婴之间的交流积累去寻找类型教<br />育的实际方法。<br />&nbsp;&nbsp;&nbsp; 现在，在我的手头积累了好几个纪录，但是这些记录要转化成成果还需要相当长的<br />时间。在这里，我想一边向大家介绍具体的事例，一边向大家谈一谈有关类型教育的实<br />际情况。首先，我要向大家谈的是：我为什么要选择汉字来作为类型教育的实践尝试呢？<br />&nbsp;&nbsp;&nbsp; 关于在类型教育中选择汉字的问题，也许会有人提出疑问：汉字和早期教育中的左<br />脑知识性教育有什么不同呢？关于这一点，我想大家会慢慢明白。就我而言，我觉得任<br />何属于类型教育的素材都行，并不仅仅局限于汉字。我之所以选择汉字，是因为：①如<br />果把汉字作为图形去看，它在视觉上非常有意思。②汉字不象外语存在着的发音等问题。<br /></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>③我想挑战已有的汉字教育，并对其中的错误进行指正。<br />&nbsp;&nbsp;&nbsp; 通常，很多人都认为：只有具备&quot;能读&quot;，&quot;明白含义&quot;和&quot;会写&quot;三项能力，人才算懂<br />得汉字。文部省的教育方针也完全是这种想法。因此，从笔划少而简单，意义明确的文<br />字开始教学就成了汉字教学的计划。<br />&nbsp;&nbsp;&nbsp; 但是，根据类型认识，我们知道小孩从很小的时候开始就能够区分汉字。&quot;能读&quot;需<br />要嘴巴开始会说，&quot;明白意义&quot;需要语言的体系，&quot;会写&quot;需要手指的运动能力。这三种能<br />力有各自不同的发展时期，不可能同步发展，而且还有着很大的差距。<br />&nbsp;&nbsp;&nbsp; 例如，母亲让婴儿看几张写有汉字的卡片，然后给他念其中一张卡片。母亲念哪一<br />张卡片，婴儿的视线便会转移到哪一张卡片上。通过这种方法，我们可以充分地了解婴<br />儿是否能够区分不同的汉字。也就是说，还不会说话的婴儿即便能够区分汉字，他也不<br />能将汉字说出来。当然，这样的时期会因教法和指导方法的不同而有很大的差距，所以<br />我们不能具体地说出是什么时候。<br />&nbsp;&nbsp;&nbsp; 在这里，我想大声地告诉大家：婴儿早在还不会说话之前就开始具备了认识汉字的<br />能力。<br />&nbsp;&nbsp;&nbsp; 能够区分汉字的时期、能念的时期、懂得意义的时期和会写的时期，这四种时期各<br />不相同。如果忽视了这一点，就肯定会出现：不到最后会写的时期就什么都不教，或者<br />不都具备这几种能力就毫无意义的想法。但是，有这样的想法并不奇怪。而且，既然孩<br />子具有类型认识的能力，孩子不会读、不会写也不要紧，那么为什么不开展汉字教育呢？<br />汉字作为类型教育的材料之一，它适合培养孩子的类型认识能力。基于上述想法，我开<br />始对类型教育进行了实践的尝试。<br /><br />&nbsp;&nbsp;&nbsp; <b>作为类型教育的&quot;汉字教育&quot;</b><br /><br />&nbsp;&nbsp;&nbsp; 丸山美轮子的父亲赞成我对类型教育的看法，在美轮子一岁零三个月的时候，他们<br />就开始对美轮子实施汉字教育，九个月后，当美轮子满两周岁的时候，她记住了144张<br />汉字卡片中的99张。在报纸和电视上找出自己所熟知的汉字进行阅读，已成为她的一种<br />愉快游戏。<br />&nbsp;&nbsp;&nbsp; 但是，美轮子的父母并没有对美轮子进行特别的训练，而是原封不动地按照我们所<br />提供的方法去做。<br />&nbsp;&nbsp;&nbsp; 首先，我们的做法是使用写有汉字的卡片。具体做法是由大人给婴儿看卡片和读卡<br />片。例如，大人给婴儿看写有&quot;象&quot;字的卡片，并读给她听。全部读完（开始以2-4张为<br />度）后，再从第一张开始重复。当婴儿看熟后，就给他做游戏。如，给以儿童同时看两<br />张卡片并念&quot;象&quot;，让婴儿猜哪一张是写有&quot;象&quot;的卡片。通过这种方式，婴儿能够识别的<br />卡片就会渐渐地多起来。<br />&nbsp;&nbsp;&nbsp; 准备卡片不见得非要局限于具体事物的名称，也可以准备一些如同&quot;爱情&quot;和&quot;诚实&quot;<br />的抽象概念。开始的时候，母亲不妨选择一些自己感兴趣和喜欢的汉字来制作卡片。<br />&nbsp;&nbsp;&nbsp; 据说，美轮子的汉字识别是从&quot;丸&quot;、&quot;痛&quot;、&quot;新闻&quot;和&quot;太鼓&quot;四张卡片开始的。开始<br />时，母亲给美轮子看一张张卡片，并念给她听。据母亲的纪录，美轮子看卡片时显得十<br />分高兴。然后，母亲给她做游戏，给她看两张卡片，并念其中的一张。据说，在不到一<br />个月的时间里，美轮子就猜对了60%以上。<br />&nbsp;&nbsp;&nbsp; 在使用卡片的时候，我特别希望母亲们注意</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>：一定要始终抱着做游戏的心态，决不<br />能强求。而且，给婴儿看完卡片后，也一定要特别陪婴儿玩一玩。这是因为婴儿十分敏<br />感，一旦发现母亲在摆出我来教你的架势时，她就会显得十分紧张。<br />&nbsp;&nbsp;&nbsp; 类型教育，说白了，就是利用婴儿的非凡&quot;感受能力&quot;进行教育。因此，最重要的是<br />给婴儿创造出一种让他感到愉快的氛围，就向美轮子看到卡片时能感到万分喜悦的心情。<br />给婴儿以愉快的类型，正是类型教育的第一步。<br />&nbsp;&nbsp;&nbsp; 当美轮子长到一岁零四个月的时候，母亲同时给她看两张卡片，并让她猜：母亲念<br />的是哪一张卡片，做这种猜卡片的游戏，美轮子的准确率渐渐地能达到80%到90%。这时<br />候，母亲就给美轮子多增加一张叫&quot;花粉&quot;的卡片，一共变成五张卡片。看美轮子这时候<br />的反应确实发人深省。<br />&nbsp;&nbsp;&nbsp; 当给美轮子看她看惯的卡片时，她眉开眼笑。而当给她看新的卡片&quot;花粉&quot;时，她不<br />笑了，并且一动不动的盯着卡片看。不用说，大家也能明白：一岁零四个月的美轮子知<br />道这张卡片和以前的卡片不同。<br />&nbsp;&nbsp;&nbsp; 给美轮子做了三个月的汉字卡片游戏后，即美轮子一年龄五个月的时候，因为美轮<br />子一会感冒，一会荨麻疹的，母亲多数时间不能给她做汉字游戏，只好每十天给她做一<br />次。<br />&nbsp;&nbsp;&nbsp; 有一天，美轮子的母亲做了这样的纪录。<br />&nbsp;&nbsp;&nbsp; &quot;我终于有了片刻的闲暇。晚上，我看美轮子情绪很好，于是我给她拿出了卡片。<br />我从第一张卡片做起，给她读，给她看。美轮子显示微微一笑，然后咯咯的大笑起来。<br />可是，她对新放进来的'花粉'，只是一味地盯着看，看了三遍也面无表情。直到第四遍，<br />她的神情才有所改变，嘴角的肌肉开始微微放松。而看其他卡片时，她咯咯地大笑，一<br />副'我知道了'的神情。其中的差距之大，令人吃惊。&quot;<br />&nbsp;&nbsp;&nbsp; 从上述母亲的纪录可以看出：美轮子能够清楚的区分&quot;花粉&quot;与其他四张卡片的不同。<br /><br />&nbsp;&nbsp;&nbsp; <b>汉字也可以成为幼儿游戏的素材</b><br /><br />&nbsp;&nbsp;&nbsp; 在做汉字卡片游戏的第四个月，美轮子年满一岁零六个月，这时候，母亲稍稍改变<br />了原来的做法。以前，母亲担心美轮子会弄脏卡片，把卡片放到了美轮子够不着的地方。<br />而且，在做游戏的时候，母亲也很少让她触摸卡片。而现在，母亲决定让美轮子随意触<br />摸卡片，把卡片放到她能够的着的地方。开始，给美轮子的卡片有20张。美轮子看到后，<br />十分高兴。她先将卡片在地板上摊开，然后，就高兴的玩了起来。或涂或写或扔……<br />&nbsp;&nbsp;&nbsp; 由于卡片常常放在美轮子的身边，所以美轮子玩卡片的机会就自然多了起来。开始，<br />母亲每天陪美轮子玩卡片的机会只有一次。后来，父亲高兴的时候也陪美轮子玩。这对<br />十分喜欢父亲的美轮子来讲，实在是一件求之不得的高兴事。<br />&nbsp;&nbsp;&nbsp; 等父母亲给她念完卡片后，美轮子就会顺手去摸卡片，把自己喜欢的一声挑出来，<br />然后说声&quot;哈依&quot;就交到父母手上。父母发现，美轮子挑出的卡片多是笔划多的汉字，如<br />&quot;新闻&quot;、&quot;麒麟&quot;、&quot;友情&quot;和&quot;优美&quot;等。当父母把这些汉字念给她听时，她显得异常的兴<br />奋。虽然她还不能够正确地发音，但是，她已经开始自个儿读卡片玩了。<br />&nbsp;&nbsp;&nbsp; 在给心情不好的美轮子看卡片并念给她听的时候，母亲发现了意见值得注意的事情。<br />&nbsp;&nbsp;</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>;&nbsp; &quot;为了让美轮子开心，我给她读卡片。尽管她显得有些倔强，但还是跟着我反反复<br />复地读了。中间有一次，我把卡片翻到了背面。美轮子看到是白纸就沉默不语。看来，<br />美轮子是先看汉字，然后读，然后发音的。&quot;<br />&nbsp;&nbsp;&nbsp; 从开始做汉字卡片游戏的时候起，即使母亲不是特别强调：&quot;你说说看！&quot;，美轮子<br />在模仿母亲的读音过程中也能自然明白：汉字有不同的读音，而且读音与汉字有着密切<br />的关系。<br />&nbsp;&nbsp;&nbsp; 让小孩看汉字，然后由大人读给她听。这种事情十分简单，而正是因为这种简单的<br />刺激，使孩子能通过自身的力量发现许许多多的事情。我想，这从美轮子的事例当中就<br />可以略见一斑。<br />&nbsp;&nbsp;&nbsp; 后来，美轮子母亲还在不停地在做纪录。其中有两处纪录可以证明：美轮子在半年<br />的时间里在进行类型认识。一处纪录的是美轮子一岁零七个月的情形。&quot;美轮子已经记<br />住汉字的上下，她能上下无误的拿出汉字。&quot;另一处纪录的是美轮子一岁零八个月的情<br />形。&quot;美轮子曾让奶奶陪她玩汉字卡片。奶奶不知道汉字的读法，于是按照自己的读法<br />去念，结果，孩子露出不可思议的神情。&quot;<br /><br />&nbsp;&nbsp;&nbsp; <b>对大人越简单的汉字，对幼儿就越难</b><br /><br />&nbsp;&nbsp;&nbsp; 到美轮子一岁零九个月的时候，她已经做了半年的汉字卡片游戏。从这个时候开始，<br />父母决定让她远离卡片游戏，把所有的卡片收了起来。直到两个月后，喜欢卡片游戏的<br />美轮子才有重新玩上卡片。<br />&nbsp;&nbsp;&nbsp; 当父母看到象美轮子那样的幼小孩子能够不断记住新的汉字时，他们一定会十分高<br />兴，并产生给孩子&quot;加码&quot;的念头。而给孩子&quot;加码&quot;则会使孩子产生压力。之所以暂停美<br />轮子的汉字游戏、让她&quot;饿上一饿&quot;，是因为父母担心：自己的欲望会碾碎孩子自身的学<br />习愿望，过分严肃气氛会降低孩子的学习兴趣。<br />&nbsp;&nbsp;&nbsp; 在不做汉字游戏的两个月里，母亲通过时不时在速记本上写汉字给美轮子看等方法，<br />刻意培养美轮子对汉字的兴趣。两个月后，当父母重新拿出汉字卡片给美轮子看时，美<br />轮子表现出令父母吃惊的记忆速度，很快记住一个又接的汉字。&quot;饥渴&quot;法在教育中的作<br />用巨大，所以有必要痛下决心进行&quot;饥渴&quot;休整。<br />&nbsp;&nbsp;&nbsp; 在美轮子一岁零十一个月的时候，父母又重新和美轮子一起开始汉字做卡片游戏。<br />游戏的做法是：父母把卡片胡乱摆在地板上，然后读其中一张卡片，接着让美轮子找出<br />那张卡片。<br />&nbsp;&nbsp;&nbsp; &quot;在摆卡片的时候，顺便读其中的一张卡片。然后问：'在哪里呢？'，于是四下里<br />寻找，'啊，找到了'。边说边把那张卡片捡起。就这样，拼命地找呀找，直到把自己所<br />说的那一张卡片正确地捡出来。开始时，摆大约三十张卡片。等美轮子能猜对其中的二<br />十张后，便又新添二十张。&quot;<br />&nbsp;&nbsp;&nbsp; 在前面说过，类型教育最重要的是要做得愉快。从美轮子母亲所做的纪录可以看出：<br />汉字卡片游戏使父母和孩子都得到了身心的愉悦。<br />&nbsp;&nbsp;&nbsp; &quot;汉字卡片的别名叫'父母过分促进卡片'。孩子的记忆力如此之好，以至于连我自<br />己都觉得孩子是天才。一听到朋友或挚友对我孩子的极力称赞时，我就心里美滋滋的。<br />（虽然我知道每个孩子都能做到。）&quot;<br />&nbsp;&nbsp;&nbsp; 当美轮子满两周岁的时候，她的父亲将上述的感想写信告诉了我。<br />&nbsp;&amp;nb</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>sp;&nbsp; 做汉字卡片游戏进入到第九个月后，美轮子记忆汉字的速度有了显著的提高。即使<br />是一个新的汉字，当父母给她念过两、三遍之后，她也能记住。而且美轮子还能够把自<br />己所知道的汉字和发音结合起来。如：当卡片中出现&quot;鼻&quot;和&quot;耳&quot;的汉字时，美轮子能一<br />边指着自己的鼻子和耳朵，一边将这两个汉字的读音读出来。确实，美轮子所吸引的新<br />事物在逐日增加。<br />&nbsp;&nbsp;&nbsp; 这时候，美轮子已经能够读出九十七张汉字卡片了。<br />&nbsp;&nbsp;&nbsp; 据说，在九十七张的汉字卡片当中，既有大人觉得难学的&quot;麒麟&quot;、&quot;斗魂&quot;和&quot;八面<br />六臂&quot;等汉字，也有孩子常常弄错的&quot;日&quot;、&quot;目&quot;、&quot;种&quot;、&quot;重&quot;、&quot;家&quot;和&quot;象&quot;等汉字。虽<br />然&quot;日&quot;和&quot;目&quot;等汉字是大人能够轻易记住的代表性汉字，但是幼儿却很难根据其类型认<br />识力去识别。<br />&nbsp;&nbsp;&nbsp; 从意义上来看，表示具体事物的汉字要比表示抽象概念的汉字简单。这种看法只是<br />大人的感觉而已。<br />&nbsp;&nbsp;&nbsp; 但是，对于平生第一次看见汉字的婴儿来讲，无论该汉字是表示抽象的事物，还是<br />表示具体的事物，其难度都是一样的。<br />&nbsp;&nbsp;&nbsp; 而当孩子长大到5、6岁以后，他们开始通过理性把握事物。这时候，他们会觉得：<br />有具体意义的事物更容易理解。<br />&nbsp;&nbsp;&nbsp; 在这里，请允许我谈一下我自己的看法。由于在小孩进入幼儿期后，我们会不断的<br />教给他具体的事物。所以，在小孩尚未进入幼儿期时，我觉得，我们不妨多教给他一些<br />抽象的要素。<br /><br />&nbsp;&nbsp;&nbsp; <b>不同的类型教育、不同的成长</b><br /><br />&nbsp;&nbsp;&nbsp; 在前面，我以美轮子的事例为主，向大家介绍了类型教育的实践，但是有一点我要<br />事先声明，那就是：美轮子的事例并不特殊。当说到美轮子在满两周岁时能读九十七个<br />汉字，或者说到美轮子能马上记住她所喜欢的&quot;麒麟&quot;和&quot;八面六臂&quot;等复杂的汉字时，也<br />许会有人认为，美轮子的父母对教育格外热心，也许还会有人认为美轮子本来就是一个<br />聪明的孩子。但是我希望大家明白：美轮子的事例绝对不是特别的事例。<br />&nbsp;&nbsp;&nbsp; 孩子的成长主要看培养的方法。我认为，无论是哪一个孩子都可以向美轮子那样学<br />会汉字，甚至还有可能学会更多的汉字。即使是美轮子，如果从零岁开始就通过汉字卡<br />片对她进行类型教育的话，那么其结果也许就会更加不同。<br />&nbsp;&nbsp;&nbsp; 因此，说真的，我很想在本书当中给大家介绍孩子从零岁开始使用汉字卡片的事例。<br />但是说到零岁，与美轮子的年龄相比，孩子对汉字卡片的反应并不明显。当然，我们不<br />能因为零岁孩子的反应不明显，就说零岁的孩子使用汉字卡片毫无意义，而应该说在零<br />岁的那一时期，不断向孩子灌输各种要素是十分重要的。这就是我的想法，虽然美轮子<br />的年龄稍稍大了一些，但是，用这一事例却能让大家清楚的看到类型教育的实践，所以<br />我在这里向大家做了详细的介绍。<br />&nbsp;&nbsp;&nbsp; 当然，在其他研究成员的报告当中也有非常有趣的事情。下面我将简单地介绍各位<br />母亲所说的小故事，这些小故事让人觉得：小孩捕捉事物的方式是大人难以想象的。<br />&nbsp;&nbsp;&nbsp; &quot;孩子过了两岁以后，我开始在速记本上给他写汉字。而不是在卡片上。例如，我<br />要写'勇气'两字，当我刚开始写'ㄡ'的时候，孩子就会把'勇气'念了出来。又如，我要<br />写'大地'</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>两字，当我开始写'大'的时候，孩子就把'大地'念了出来。因此，汉字的形状<br />一旦进入孩子的头脑当中，孩子便能记住该汉字的读法。我想，这就是类型认识吧。<br />&nbsp;&nbsp;&nbsp; 有趣的事，孩子会常常把'会社'和'金鱼'弄错。这是因为'会社'和'金鱼'的形状相<br />似，孩子把他们的形状记到了一块。&quot;<br />&nbsp;&nbsp;&nbsp; &quot;孩子不会念'电车'和'新干线'，但是却从一开始就记住了抽象的'勇气'和'努力'，<br />因此我们不能说具体的'电车'或'新干线'容易记。我们的出发点是要培养孩子的'勇气'<br />和'努力'精神，所以我们希望孩子能永远记住这两个单词。&quot;<br />&nbsp;&nbsp;&nbsp; &quot;也许是从两个多月前开始，孩子就进入了对抗期的缘故吧。在他一岁零九个月的<br />时候，我给他看卡片，他要不故意说错，要不反着说。情绪好的时候很配合，情绪不好<br />的时候不乐意去做。于是，我不再给他看卡片。在不给他看卡片之前，我想让他挑一张<br />他自己喜欢的卡片。当我把所有的卡片交给他时，他从中挑了一张'爱'。然后嘴不停的<br />说：'爱，爱'。当他看到写着'爱情'的卡片时，他就说'一起，一起'。总而言之，他现<br />在喜欢的卡片只有'爱'&quot;。<br />&nbsp;&nbsp;&nbsp; &quot;当父母弹钢琴、看乐谱的时候，孩子就模仿着父母唱歌或者看乐谱。当我读英文<br />报纸的时候，孩子就看英文报纸，并模仿着我的声音读，并且，读出的语调还真跟日语<br />不一样。看来，孩子似乎已经感受到这种语言是不一样的。&quot;<br />&nbsp;&nbsp;&nbsp; &quot;在孩子未满一岁的时候，我就开始给他看卡片、读汉字，当时我想：这么小的孩<br />子能明白吗？可是，在孩子超过一岁的时候，他却能将哪一张是'爱情'的卡片指出来。<br />在他一岁零八个月的时候，他掌握了许多单词，并且能够进行自我表达。因此，现在我<br />觉得：孩子从老早就能认识汉字，只不过他不能用言语将它表达出来而已。看来，孩子<br />虽小，他做得事可真不少。&quot;<br />&nbsp;&nbsp;&nbsp; &quot;超过一岁零六个月后，孩子开始自己问：'这个汉字是什么呢？'。在这之前，孩<br />子没有任何的反应，我真不知道他是懂还是不懂。现在，我同样给孩子看四张卡片，并<br />问他：'哪一张是XX？'。他真的能明白我的问话，并将那一张卡片指给我看。这四张卡<br />片给他看过一遍后，他就能迅速而准确的将它们指出来。可是，当我摆出十天前他看过<br />的七、八张卡片时，他似乎有一半都忘记了。&quot;<br />&nbsp;&nbsp;&nbsp; &quot;孩子一岁零六个月，开口说话晚，现在还不会说话。碰到想知道的东西，就用手<br />指着它问父母'这，这！'。凡是写有文字的东西，如杂志和报纸等，他都很喜欢。用手<br />指这上面的字装腔作势地念起来，'哇，太棒了！'当父母表扬他后，他就念得更起劲了。&quot;<br />&nbsp;&nbsp;&nbsp; &quot;对我家孩子而言，如果给他看的汉字是他所熟知的事物，他就能很快地记住。所<br />以，下雪的时候，我给他看'雪'字；打雷的时候，我给他看'雷'字。这些汉字，他都能<br />牢牢地记住。因此，我教他汉字的时候，首先从他所熟知的事物入手。&quot;<br />&nbsp;&nbsp;&nbsp; &quot;孩子从两岁左右开始能够说话了。从一年前开始，我就一直给孩子看汉字，而且<br />孩子的兴趣也似乎很高。孩子会说话后，我读卡片的次数也就多了起来。我乐意给孩子<br />读卡片，孩子看到我高兴，他自己也很高兴。就这样，我给孩子读卡片的次数就多了起<br />来。现在，我手头有60张卡片，经常反反复复的拿给孩子看。孩子看多了，我怕孩子会<br />觉得腻烦，所以每次我让孩子看完，就马上把卡片藏起来。</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>现在看来，这个办法很好。&quot;<br />&nbsp;&nbsp;&nbsp; &quot;我家的孩子似乎并不在意汉字是抽象的还是具体的，他统统都往脑子里记。当我<br />给孩子看'椅子'的卡片时，我就找椅子；当我给孩子看'被子'的卡片时，我就打开壁橱<br />找被子。虽然很花时间但也是没有办法的事情，谁让我想通过类型认识去教孩子汉字呢？<br />最近，孩子终于能说出'梦'和'月'来了。当孩子在画册上或者在什么地方看到自己认识<br />或者喜欢的字时，他会高兴地念出来。也许就是因为这个缘故，现在他开始读车牌号，<br />把我们公寓停车场的车牌读了一个遍，如，碰到'练马'的车牌时，他会把不会念的'练'<br />字跳过去，只念'马'字。我在想：要不要把数字也教给孩子呢？&quot;<br />&nbsp;&nbsp;&nbsp; &quot;我的汉字卡片是从'风'开始的。现在，我的卡片做到了'风邪'。可是，当我给孩<br />子看'风邪'的时候，他却怎么也不能将'风邪'说出来，而是把以前学过的'风吕'说了出<br />来，给人一种从记忆中去搜索的感觉。两岁后，他给人的感觉是读汉字，通过最近的卡<br />片去读以前学过的汉字。为什么会出现这种情况呢？我想，可能是因为他以前记住的汉<br />字已经刻在他脑海的深处的缘故吧。&quot;<br />&nbsp;&nbsp;&nbsp; &quot;因为孩子毫无含义的概念，所以，他要么把字型弄错，把'熊'看成'指'；要么把<br />发音听错，把'星'听成'足'或者'石'。从一开始，我就把汉字当作一种游戏，所以70多<br />张卡片，我能很快就把它们读完。当孩子会读汉字的时候，他似乎特别愿意听我说：'<br />啊，对啦！'看来，孩子把父母的高兴和称赞当成了他的一种乐趣。&quot;<br />&nbsp;&nbsp;&nbsp; &quot;或许是因为对字感兴趣的缘故，一起外出的时候，孩子不仅看图画，还念字呢。<br />世界在他眼前真的是开阔起来了！就是他心情不佳的时候，当我向他说起他喜欢的汽车<br />或者问起某一汉字时，他的心情也会稍稍好转。看来，兴趣广泛真是一件好事情。&quot;<br />&nbsp;&nbsp;&nbsp; 以上是几位母亲们所写的心得体会。关于汉字的问题，我想再多积攒一些资料，然<br />后对它进行统一的阐述，所以在这里我就不再一一的去说它。但是有一点引起了我的兴<br />趣，那就是孩子开始接触汉字的时期。<br />&nbsp;&nbsp;&nbsp; 我觉得，在一岁前记住的汉字和会说话后记住的汉字时有区别的。这种区别是什么<br />时候形成的呢？是一岁前还是一岁后？或者是什么别的时期？这就是汉字记忆的界限问<br />题。<br />&nbsp;&nbsp;&nbsp; 在小组当中，有一个是孩子从4个月开始接触汉字的案例，我想把它留到最后再作<br />介绍。<br /><br />&nbsp;&nbsp;&nbsp; <b>零岁的孩子对汉字也有反应</b><br /><br />&nbsp;&nbsp;&nbsp; &quot;我加入小组早，所以婴儿从4个月就开始接触汉字。开始我的干劲很足，一天能给<br />他看十遍卡片。可是，他还只是一个喝了奶就睡觉的婴儿，所以他当然就不会有什么反<br />应。<br />&nbsp;&nbsp;&nbsp; 开始后半年，有一天，我抱孩子在保健所排队，其间，我看到了一副广告画，小孩<br />也看到了。他伸出小手，拼命地往广告上的字够。'&#xfffd;G，这不就是孩子的反应吗？'这是<br />我第一次感到孩子对汉字有反应。&quot;<br />&nbsp;&nbsp;&nbsp; &quot;我一到厨房忙家务，孩子就不停地把书拿进来，嘴里'书，书'的叫。当我念给他<br />听后，他又会把别的书拿出来。一天不来回几趟，他就不会善罢甘休。有一次，他还把<br />卡片拿了出来。<br />&nbsp;&nbsp;&nbsp; 孩子拿的是'川'的卡片。进来的时候，他显得很着急，跟我说：</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>字母一个字母去认，然后才<br />读出&quot;可口可乐&quot;的呢？还是把招牌的变形的字体作为一个整体去看，然后才认识&quot;可口<br />可乐&quot;的呢？这两者是存在差异的。<br />&nbsp;&nbsp;&nbsp; 我从发生在我孙子身上的事情开始注意到：孩子具有把事物作为一个整体去看的能<br />力。但是，我发现：即使在教育机构，孩子的这种能力也没有得到重视和理解。<br />&nbsp;&nbsp;&nbsp; 因此，我一有机会就向大家呼吁，要重视孩子们的&quot;特殊能力&quot;；一有时间就赶紧收<br />集有关孩子&quot;特殊能力&quot;的资料。在此过程当中，我原来对类型教育的模糊认识也变得明<br />朗起来，并且越来越认识到类型教育的重要性。<br /><br />&nbsp;&nbsp;&nbsp; <b>孩子通过&quot;类型认识&quot;去发展各方面的能力</b><br /><br />&nbsp;&nbsp;&nbsp; &quot;类型&quot;一词在现在的日常生活中已被广泛使用。&quot;类型&quot;一次来自英文&quot;pattern&quot;，<br />而&quot;pattern&quot;译成日文后，它的意思很难把握。<br />&nbsp;&nbsp;&nbsp; 通过查阅字典，我们发现&quot;pattern&quot;的日文意思有&quot;模范、型、式样、机构组织、模<br />样、纸样、模和图案&quot;等。而且对于一些我们不能用眼睛直接看到的抽象事物，如&quot;活动<br />的类型&quot;和&quot;人际交往的类型&quot;等，我们也常常使用类型一词。这些抽象的事物都具有共<br />同点和有序性，可以在某种程度上归类。&quot;pattern&quot;一词在日语当中找不到贴切的词，<br />所以在本书中，我为了保留其意义的完整性，采用了音译的做法。（注：译者将<br />&quot;pattern&quot;译成&quot;类型&quot;）<br />&nbsp;&nbsp;&nbsp; 说到&quot;类型&quot;认识，我们很容易想到：它是对肉眼可以看到的事物的认识方法。其实<br />不然。因为我们通过&quot;类型&quot;，不仅可以认识声音和文字，而且还可以认识无形的东西和<br />抽象的事项。例如，当我们听到巴赫和肖邦的音乐时，即使是象我这样不太懂得音乐的<br />人，一听到那样的曲调，也能分出哪是巴赫的音乐和哪是肖邦的音乐。尽管我们不能将<br />两者的音乐特点清楚的罗列出来，但是我们却能分出是谁的音乐。之所以如此，是因为<br />两个作曲家创作该曲子的意象已分别留在我们的记忆当中。<br />&nbsp;&nbsp;&nbsp; 在第一章　中，我向大学介绍了自己在委内瑞拉时的经历。一个出生才几天的婴儿能<br />够分辨母亲的声音，这也是一个通过&quot;类型&quot;来进行认识的极好例子。婴儿在母亲的肚子<br />里时就记住了母亲声调和说话方式，所以他一生下来就能知道那一种声音是自己母亲的<br />声音，并对此做出反应。在从婴儿区分母亲的长相来看。眼前的人是母亲还是他人？婴<br />儿能通过自己对母亲长相信息的掌握，如通过对眼睛和鼻子的大小、形状和配置等的掌<br />握，在瞬间做出判断。<br />&nbsp;&nbsp;&nbsp; 我们一直认为婴儿能够分辨母亲的声音和长相是理所当然的事情。但是，如果我们<br />仔细想一想就会发现：这样的事情并不简单。你想，这样的事情是连计算机都难以做到<br />的复杂事情，可是一个刚出生的婴儿却能轻而易举地做到。这难道不是令人惊奇的事情<br />吗？<br />&nbsp;&nbsp;&nbsp; 还有一件我们常常忽视的事情。那就是：婴儿不仅仅是通过看母亲的长相去认识自<br />己的母亲，而且还通过母亲身上的气味、声音、搂抱方式和姿势等综合性的感受去认识<br />自己的母亲。对婴儿来讲，&quot;母亲&quot;是包涵有自己全部感受的母亲。因此，婴儿应该能感<br />受到&quot;母亲&quot;对自己的疼爱和温柔。所谓的&quot;类型&quot;正是包涵有有形物和无形物的&quot;类型&quot;。<br />&nbsp;&nbsp;&nbsp; 作为典型的&quot;类型&quot;势力，我想起了以前从日本棋院高川格名誉本因</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/57318">冬季备孕须严防流感和空气污染</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" class='thisclass'>潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/125410">你应该读懂的宝宝小动作</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125409">新妈妈如何预防婴儿吞气症</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125408">四月婴幼儿须防六种疾病</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125407">解除问题,让宝宝一夜好眠</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125406">春季要预防小儿麻疹的发生</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"125551"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>
