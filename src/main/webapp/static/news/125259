@@ -1,0 +1,504 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>宝宝消化系统的6种状况-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/125259"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=97" rel="nofollow">疾病预防</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					宝宝消化系统的6种状况
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-27 22:57:46</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p align="center"><img alt="宝宝消化系统的6种状况" src="/upload/97/20070829091649107.jpg" border="1" /><br />小儿消化不良如何防治</p> 
+ <p>　　喂奶期间，经常会出现这样或那样的问题，初为人母的我们手忙脚乱还心急如焚。其实，我们只要知道了这些问题的原因、掌握了解决这些问题的方法就会确保宝宝安全度过哺乳期。</p> 
+ <p>　　以下是吃奶宝宝经常遇到的6种健康问题，针对这6种健康问题的原因，向您介绍几种常用的解决方法。</p> 
+ <p>　　<strong>问题1宝宝打嗝</strong></p> 
+ <p>　　宝宝打嗝的原因很多，一般是因为消化系统受刺激而引起的。比如在哺乳后(有时在哺乳中)，宝宝若吃得过快，吃奶太急，将空气吞入胃内、或者吃的过饱，都会引起打嗝。打嗝不是病，随着宝宝的长大，神经系统发育完善，打嗝自然会消失。</p> 
+ <p>　　宝宝产生打嗝，大部分情况下是因为喂奶方法不当引起的。正确的喂奶方法是：</p> 
+ <p>　　母乳喂养 </p> 
+ <p>　　哺乳时婴儿应处于斜坐位，以利于乳汁的下咽及空气的呃出。乳母除最初几天处于半卧位外，宜坐在有扶手的矮椅子上，哺乳一侧的脚稍搁高。抱婴儿于斜坐位，让婴儿头肩枕在母亲哺乳侧的肘弯，用另一手食、中指夹乳晕两旁，手掌扶着乳房，使婴儿含住乳晕及乳头而能自由用鼻呼吸。注意一定让宝宝同时含住乳头和乳晕，以免只含乳头而吃进空气。</p> 
+ <p>　　人工喂养</p> 
+ <p>　　1在用奶瓶给宝宝喂奶之前，须先洗净双手，取出消毒好的奶瓶、奶嘴，注意奶嘴不要随意放置，应竖直向上，一定不要弄脏奶嘴。将调好的奶倒入奶瓶，拧紧瓶盖。将奶瓶倾斜，滴几滴奶液在手背上，试试温度，感觉不烫即可。奶液滴落的速度以不急不慢为宜。</p> 
+ <p>　　2坐稳后，一只手把宝宝抱在怀中，让宝宝上身靠在你肘弯里，你的手臂托住宝宝的臀部，宝宝整个身体约呈45度倾斜；另一只手拿奶瓶，用奶嘴轻触宝宝口唇，宝宝张嘴含住，开始吸吮。</p> 
+ <p>　　3宝宝开始吃奶后要注意，奶瓶的倾斜角度要适当，让奶液充满整个奶嘴，避免宝宝吸入过多空气。如果奶嘴被宝宝吸瘪，可以慢慢将奶嘴拿出来，让空气进入奶瓶，奶嘴即可恢复原样，否则可以把奶嘴罩拧开，放进空气再盖紧即可。</p> 
+ <p>　　4注意宝宝吸吮的情况，如果吞咽过急，可能奶嘴孔过大，如果吸了半天奶量也未见减少多少，就可能是奶嘴孔过小，宝宝吸奶很费力。不要把尚不会坐的宝宝放在床上，让他独自躺着用奶瓶吃奶，而大人长时间离开，这样非常危险，宝宝可能会呛奶，甚至引起窒息。</p> 
+ <p>　　5给宝宝喂完奶后，不能马上让宝宝躺下，应该先把宝宝竖直抱起，靠在肩头，轻拍宝宝后背，让他打个嗝，排出胃里的空气，以避免宝宝吐奶。</p> 
+ <p>　　如果宝宝打嗝了，也不要慌张，只要将孩子竖起来.不停地轻轻地拍打孩子背部或者让他(她)大哭几声，打嗝马上就停了。</p> 
+ <p>　　还有个方法是让宝宝喝水或者喝奶，如果你的宝宝很小或还不会说话的话建议不要采用这个方法，以免被呛着。</p> 
+ <p>　<strong>　问题2吐奶</strong></p> 
+ <p>　　尽管很多妈妈都知道宝宝由于生理原因才容易导致吐奶，但一看到自家宝宝吐奶时，还是紧张得不知所措。</p> 
+ <p>　　[专家说法]新生儿容易吐奶的原因在于他们的胃部和喉部还没有发育成熟。新生儿的胃部，从正面看是横躺着的，呈不稳定状态，同时胃部入口还比较松。也就是说，大人吃饭时，当食物进入胃部后，贲门会通过收缩来防止食物逆流回食道；但由于婴儿的胃贲门部位还不能很好地进行收缩，从而导致进入胃部的奶汁比较容易地流回食道。另外，与大人相比，新生儿的喉头位置要高一些，再加上他们含乳头的方式比较笨拙，从而导致吃奶时空气容易与奶汁一起吸入胃部，所以当孩子打嗝或身体晃动时，吃进去的奶也就比较容易被吐出来了。</p> 
+ <p>　　宝宝吐奶的原因很多，一般4个月前生理性吐奶较为多见，5个月以上的宝宝如仍常吐奶,可以给予少食多餐，每次吃后竖抱拍后背至宝宝打嗝，如以上处理后仍常吐奶，需上医院消化科就诊。</p> 
+ <p>　　宝宝吐奶，其实没什么好担心的。但宝宝吐奶后的精神状态和身体状态却是需要年轻的父母多加留意的。如宝宝出现连续呈喷射状吐奶或在呕吐得到缓解后仍有精神不振、只想睡觉、情绪不安、无法入睡、发烧、肚子胀等现象，则可能是生病了，应该看医生。</p> 
+ <p>　<strong>　问题3便秘</strong></p> 
+ <p>　　引起便秘的原因很多，一般而言，便秘主要与宝宝的喂养方式、饮食质量和数量、排便习惯、胃肠道消化吸收能力、腹肌压力、肠道平滑肌的发育和推动力有关。</p> 
+ <p>　　宝宝便秘后，往往数天不解大便，有时大便中夹有血丝及黏液(这是由于干燥的粪便擦伤肠黏膜所致)，排便时肛门疼痛，甚至可导致外痔及直肠脱垂。多日未排便的宝宝，由于粪便中毒素的影响，往往会出现精神不振、食欲不佳、腹胀等表现。排便困难的宝宝排便时还会因肛门疼痛而哭闹不安。</p> 
+ <p>　　牛乳喂养的婴儿发生便秘，可酌减牛奶总量，在牛奶内增加糖量至8%～10%，还可以加橘子汁、菠萝汁、枣汁或白菜水，以刺激肠蠕动。</p> 
+ <p>　　对婴幼儿来说，合理的食物搭配不仅可以预防便秘的发生，而且对便秘有良好的治疗作用。食物中鱼、肉、蛋与谷物的比例要适当，多吃蔬菜和水果，可以让宝宝吃一些玉米面和米粉做成的食物。要训练小儿养成按时排便的习惯。</p> 
+ <p>　　婴儿在接受新的食品时，容易出现便秘，因此，家长们在给宝宝添加辅食时一定要遵循由一种到多种，由少到多的原则，让宝宝慢慢适应。以婴儿营养米粉为例，对于3～4个月的宝宝来说。刚开始时喂1～2汤匙即可，2周以后再增加至4～5匙。另外冲调米粉时还要注意米粉和水的比例，正确冲调，不要太稠，避免宝宝大便干燥。4、5个月的宝宝，适当喂哺蔬菜泥及果泥等含纤维素的食物，可防止便秘。较大的宝宝可多吃香蕉等水果，芹菜、韭菜等含纤维素高的食物；同时米面不要太精，适当多吃些粗粮。</p> 
+ <p>　　对于发生便秘的宝宝，父母可用如下几种简便方法帮助宝宝排便：</p> 
+ <p>　　按摩法：右手四指并拢，在宝宝的腹部肚脐周围按顺时针方向轻轻推揉按摩。这样不仅可以帮助排便而且有助消化。</p> 
+ <p>　　肥皂条通便法：用肥皂削成铅笔粗细、3厘米多长的肥皂条，用水润湿后插入婴儿肛门，可刺激肠壁引起排便。</p> 
+ <p>　　咸萝卜条通便法：将萝卜条削成铅笔粗细的条，用盐水浸泡后插入肛门，可以促进排便。</p> 
+ <p>　　开塞露：将开塞露注入小儿肛门，可以刺激肠壁引起排便。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong>问题4腹泻</strong></p> 
+ <p>　　以往对于非病菌性腹泻的宝宝，比较强调限制饮食，或干脆禁食。理由是让胃肠道得以休息，并认为禁食后，腹泻会减轻。近年来，专家们认为禁食有害无益。特别是在腹泻大量丢失水分的情况下，会加重脱水和酸中毒；同时进食太少，小儿处于饥饿状态，会引起肠蠕动增加和肠壁消化液分泌过多而加重腹泻。所以，现在学者们认为，腹泻时不必禁食，应多补充水分，特别是营养丰富的流质或半流质饮食，如米粥、面条、牛奶、肉汤之类。只要孩子能吃，精神好，给予适当的饮食，宝宝即使腹泻次数多一些，也会逐渐好起来的。</p> 
+ <p>　　宝宝腹泻时，要停止进食高 </p> 
+ <p>　　脂肪和难以消化的食物，以减轻胃肠负担，逐渐恢复消化功能，补充维生素和电解质对因治疗，切忌滥用抗生素。积极采取饮食治疗对恢复体力非常重要。母乳喂养者可调整缩短喂乳时间，人工喂养者可先给米汤或稀释牛奶，1/2水加1/2奶，或1/3水加2/3奶，由少到多，由稀到稠，易于消化的奶制品有 </p> 
+ <p>　　酸奶、脱脂奶，自制脱脂奶(将牛奶煮熟后，将浮在上面的奶皮去掉)。</p> 
+ <p>　　下面为患儿家长介绍几例治疗膳的做法：</p> 
+ <p>　　伤食型腹泻有腹胀腹疼、泻前哭吵、大便酸臭如蛋花状、口臭、不思食等症状，可采用以下食疗：荠菜汤：取鲜荠菜30克，加水200毫升，文火煎至50毫升，1次服完，每日2～3次。</p> 
+ <p>　　糯米固肠汤：糯米30克(略炒)，山药15克，共煮粥，熟后加胡椒末少许、白糖适量调服。</p> 
+ <p>　　<strong>问题5腹涨</strong></p> 
+ <p>　　如果宝宝经常啼哭、腹部突出，敲击时有空响，并且有时伴随食欲减退、呕吐、放屁等现象，这说明宝宝腹胀了。</p> 
+ <p>　　能够引起腹胀的原因有以下几种： </p> 
+ <p>　　吸入空气 </p> 
+ <p>　　宝宝哺乳时，因母亲乳头凹陷或含接不好，人工喂养时，因奶嘴孔大小不合适，或哭闹时均可吸入大量空气，而引起肠胀气。 </p> 
+ <p>　　胃肠道中气体吸收障碍 </p> 
+ <p>　　正常情况下，腹腔内大部分气体，经肠壁血管吸收后，由肺部呼吸排出体外。有些疾病，如肠壁血循环发生障碍，影响肠腔内气体吸收，从而引起腹胀。 </p> 
+ <p>　　胃肠道内气体排出障碍 </p> 
+ <p>　　肠腔内的气体排不出体外，因而引起腹胀。 </p> 
+ <p>　　请去医院检查是哪种原因引起的腹胀再做对症治疗。</p> 
+ <p>　　对于情况较轻的可以帮宝宝轻轻按摩小肚子，记住要围绕肚脐顺时针地按摩，经常这么做可以帮助宝宝消化排便。母乳喂养的妈妈不要吃元葱、蒜苔等刺激性食物。如果宝宝连续数日不见好转，应立即去看医生。</p> 
+ <p>　　<strong>问题6厌食</strong></p> 
+ <p>　　宝宝厌食就是指较长期的食欲减低或消失。宝宝厌食从医学的角度来讲，主要有两种病理、生理因素。一种是疾病影响消化系统功能，使胃肠消化能力下降；另一种是由于环境剌激的影响，使消化功能的调节失去平衡。</p> 
+ <p>　　许多宝宝在3个月左右均有不同程度的厌奶，一般不需要特殊处理，也不适宜过早添加辅食，一般2～4周会自行好转。</p> 
+ <p>　　发现宝宝厌食后可以适当给宝宝变换一下食谱，或根据医生的建议服用一些健胃消食类的药品。如果一个月后仍不见好转，应该去医院检查，最好化验一下宝宝的微量元素是否正常。微量元素缺乏也会引起宝宝厌食。</p> 
+ <p>　　宝宝的健康是每个父母心中最为关注的，只要我们对宝宝多注意营养均衡、注重喂养方法和喂养安全，我们的宝宝就一定会健康安全地度过哺乳期。</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/55550">连续短促的急哭</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" class='thisclass'>疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/124964">如何判别小儿药物过敏反应？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124963">婴幼儿腹痛有哪些原因</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124962">被动吸烟严重危害哮喘儿童</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124961">春季常见病的防与治</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124960">宝宝腹泻，专家支招</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"125259"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

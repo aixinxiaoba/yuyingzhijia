@@ -1,0 +1,457 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>小儿便血，怎么办？-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/124991"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=97" rel="nofollow">疾病预防</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					小儿便血，怎么办？
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-27 22:41:47</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> &nbsp;&nbsp;&nbsp;&nbsp;安安是个健康活泼的孩子，&nbsp;平常身体有任何不适都由陈医师照顾。&nbsp;这天妈妈带着她来门诊，&nbsp;神色紧张地诉说安安近日来排便后，于擦拭时卫生纸上发现有鲜红的血迹，&nbsp;甚至有时鲜血如雨滴般地滴在马桶。&nbsp;陈医师先安慰妈妈不用紧张，&nbsp;然后让安安侧躺在床上，&nbsp;轻轻地扳开双臀，&nbsp;指着肛门口给妈妈看，原来在肛门边缘有一裂痕而且正有鲜血渗出。&nbsp;做肛诊时发现直肠里积有很多粗大且如石头般硬的粪便。&nbsp;陈医师告诉妈妈说安安是由于便秘，&nbsp;所以粗硬的粪便通过肛门造成肛裂。&nbsp;这时妈妈晃然大悟回忆着说安安上学后不愿在学校上厕所而且平常就不喜欢多吃蔬菜，才造成这样的情形。&nbsp;陈医师交待按时服用软便剂及在肛裂处擦消炎止痛的药膏，&nbsp;多补充青菜水果及水份(如现在盛产梨子有软便作用)，&nbsp;要妈妈每天早餐晚餐后提醒安安排便，&nbsp;经过一段时间，&nbsp;安安恢复正常排便，&nbsp;肛裂自然痊愈了。<br /> &nbsp;&nbsp;&nbsp;&nbsp;像上述的安安因大便带血而到小儿胃肠科求诊相当的常见，&nbsp;通常家属都觉得很忧心。&nbsp;排出的血量通常多是很微量，&nbsp;只是在擦拭的卫生纸上沾有血迹，&nbsp;或是在粪便表面带有血丝，&nbsp;但少数也可能是很大量鲜血或是呈沥清样黏状大便甚至造成病人休克。&nbsp;临床上小儿便血要鉴别诊断的疾病相当多。&nbsp;很多家属直觉地怀疑是由痔疮引起，&nbsp;事实上痔疮在小儿科相当罕见，&nbsp;通常是发生在肝硬化引起肝门静脉高压的病患&nbsp;(由胆道闭锁造成肝硬化的情形最常见)。但只要读者看过本文后，&nbsp;再遇到类似情形，&nbsp;将不再手足无措而且可以仔细观察血便的情形，&nbsp;提供可靠的资讯来帮助医师快速地做正确的诊断。<br /> &nbsp;&nbsp;&nbsp;&nbsp;为了让读者容易明了，&nbsp;底下文章就常见的疾病举实际的病例来说明，&nbsp;之后再归纳鉴别诊断的要点，&nbsp;若能用心体会你也能成为孩子的家庭医师。<br /> &nbsp;&nbsp;&nbsp;&nbsp;病例一：&nbsp;小明今年五岁，&nbsp;妈妈最近因他时常大便带有血丝心里猜想是否大肠癌引起而忐忑不安，&nbsp;经由朋友介绍来求诊。&nbsp;医师仔细问诊发现原来是小明最近几周来有几次大便表面带有鲜红血丝，&nbsp;大便是成形的软便。&nbsp;(和安安粗硬的粪便不同)肛门检查也无肛裂，&nbsp;医师用带指套之食指仔细检查直肠后怀疑是直肠长息肉。&nbsp;详细解释并征求家属同意后，&nbsp;小明接受了大肠镜检查，&nbsp;发现在直肠有一圆形约一公分大小之息肉，&nbsp;陈医师很熟练地进行了内视镜息肉切除术，&nbsp;病理检查是幼年形息肉，&nbsp;从此小明就不再便血了。<br /> &nbsp;&nbsp;&nbsp;&nbsp;幼年形息肉是小儿科特有的大肠息肉疾病，&nbsp;好发于三到五岁的孩童，&nbsp;很少发生在小于一岁的婴儿和青期以后。&nbsp;最常见的症状是鲜红的血丝附着在成形的软便外表，&nbsp;这和引起肛裂的粗硬粪便不同。&nbsp;临床上这样的症状加上肛诊时未发现有肛裂即要怀疑此疾病。&nbsp;文献报告约有25%至75%幼年形息肉位在直肠内。&nbsp;所以医师首先会做指诊仔细检查直肠，&nbsp;再安排大肠镜检查，&nbsp;若发现有息肉可直接进行内视镜切除息肉，&nbsp;可免除剖腹手术之痛苦和危险。&nbsp;因幼年形息肉属良性瘤，&nbsp;不</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>会转变为恶性，&nbsp;切除的息肉会送病理检验，&nbsp;若报告是幼年形息肉即可安心。<br /> &nbsp;&nbsp;&nbsp;&nbsp;病例二：&nbsp;+个月大的小强，&nbsp;腹泻已经数日，&nbsp;同时有发烧的现像。&nbsp;粪便呈恶臭绿色糊便且带有血丝和鼻涕样的黏液。&nbsp;医师诊断是细菌性肠炎。&nbsp;嘱咐多补充电解质液、&nbsp;改用腹泻用奶粉及按时服药，&nbsp;经数日恢复健康。<br /> &nbsp;&nbsp;&nbsp;&nbsp;小孩腹泻时父母应注意有无脱水现像，&nbsp;也应注意粪便有无带黏液和血丝。&nbsp;造成出血性肠炎包括细菌(如沙门氏杆菌、&nbsp;志贺氏菌)和原虫(如阿米巴原虫)。&nbsp;其中以沙门氏杆菌最常见，其主要症状是发烧、&nbsp;绿色糊便并带有血丝和黏液。&nbsp;临床上之所以重要是因为约有5%病患细菌会入侵至循环内造成败血症甚至脑膜炎而留下严重后遗症甚至危及生命，&nbsp;为人父母不得不慎。<br /> &nbsp;&nbsp;&nbsp;&nbsp;病例三：&nbsp;+个月大的凯凯长得白胖可爱，&nbsp;来门诊前一天开始有哭闹不安严重至无法入眠，&nbsp;渐渐有呕吐现象，&nbsp;隔天发现肛门排出多量鲜血和黏液的混合物。&nbsp;陈医师看见此排出物，&nbsp;立即进行腹部超音波检查证实是肠套叠，&nbsp;紧接着在放射科医师帮助下使用钡剂灌肠进行肠套叠解除术。&nbsp;很幸运成功打通套肠现像，&nbsp;哭闹的症状随即消失，&nbsp;日后没有再复发的情形。<br /> &nbsp;&nbsp;&nbsp;&nbsp;小儿肠套叠是小儿科医师每天在看诊时时保持高度警觉的疾病，&nbsp;所以父母也应对其有所了解才能收集到可信的病史，&nbsp;帮助医师做正确诊断。&nbsp;其是由一段近端肠子套进远端肠子内腔而造成，&nbsp;通常是由小肠套进大肠，&nbsp;套进时间太久会造成肠子坏死。&nbsp;较常发生在三个月到三岁的年纪，&nbsp;特别是六个月到一岁的健康婴儿。临床表现开始是阵发性的哭闹(间歇的哭闹，&nbsp;两次哭闹间隔时间稍有规则性)，&nbsp;接着可能有呕吐的情形，&nbsp;最后可能会排出类似草莓浆的血便。&nbsp;如已到此地步要诊断肠套叠应无困难，&nbsp;但相对地此时用钡剂灌肠进行肠套叠解除术成功机会也会降低，&nbsp;有很多病患因此而必须接受外科手术。&nbsp;(钡剂灌肠解除术是由肛门灌入钡剂藉着钡剂产生的重力，&nbsp;将套进的肠子推出。&nbsp;其原理类似轮胎打气。)所以最好能在小儿开始阵发哭闹时即警觉到此疾病的可能性，&nbsp;赶快藉腹部超音波做正确的诊断，&nbsp;如此才能增加钡剂灌肠解除术成功的机会。&nbsp;最后还要提醒家属在钡剂灌肠解除术成功后，大约有5%到10%的病患会复发，&nbsp;所以出院后再有间歇性哭闹务必尽速回医院。<br /> &nbsp;&nbsp;&nbsp;&nbsp;病例四：&nbsp;小明是个二岁健康的男孩来急诊前一天突然肛门排出大量砖红色的糊便，&nbsp;但并无腹痛哭闹不安的情形。&nbsp;身体检查发现脸色苍白呈贫血现像。&nbsp;住院后紧急安排核子医学摄影，&nbsp;证明在右下腹部疑有美克尔憩室，&nbsp;接受剖腹手术证实术前之诊断并予切除。&nbsp;开刀后迅速恢复健康，&nbsp;不再有出血的情形。<br /> &nbsp;&nbsp;&nbsp;&nbsp;美克尔憩室是由迥肠往外长出的先天性的囊状构造，&nbsp;正常人中约2%有此憩室，&nbsp;但仅2%有并发症产生。&nbsp;在儿童时期以出血的并发症最常见，&nbsp;偶而会并发美克尔憩室炎、&amp;</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>nbsp;肠阻塞。&nbsp;出血系美克尔憩室的异位性胃黏膜分泌胃酸而造成溃疡所引起。&nbsp;一般是由肛门排出砖红色且大量的血便，&nbsp;小孩显得脸色苍白甚至休克，&nbsp;但并无明显腹痛。&nbsp;诊断可利用核子医学扫描，&nbsp;由于此检查敏感度不高可能须经数次检查才能确定诊断。&nbsp;治疗方面要请外科医师做憩室切除。<br /> &nbsp;&nbsp;&nbsp;&nbsp;病例五：&nbsp;小雄是三个月的婴儿，来院前一天开始整天哭闹无法入眠，&nbsp;隔日早上肛门排出一些鲜血和黏液之混合物。&nbsp;医师解开小雄之尿布，&nbsp;发现右侧腹股沟有一鼓起的肿胀，&nbsp;外观呈现瘀青，&nbsp;检查有触痛感。&nbsp;诊断为钳制性腹股沟疝气，&nbsp;紧急接受手术，&nbsp;术后无并发症。<br /> &nbsp;&nbsp;&nbsp;&nbsp;腹腔内肠子掉入未封闭的腹膜鞘状突时，&nbsp;会在腹股沟处形成鼓出的肿胀，&nbsp;即所谓的腹股沟疝气。&nbsp;通常是在用力时(如哭闹、&nbsp;咳嗽)，&nbsp;在腹股沟处出现无痛性肿胀，&nbsp;于休息状态时即消失或可藉外力推回。&nbsp;当无法推回时，&nbsp;即形成所谓钳制性疝气。&nbsp;钳制性疝气会产生肠阻塞，&nbsp;也可能因肠管缺血而造成坏死及腹膜炎，&nbsp;必须切除坏死的肠子并危及生命。&nbsp;钳制性疝气通常发生于一岁内的婴儿，&nbsp;所以在年纪较小的幼儿，&nbsp;特别是一岁内，&nbsp;如果有哭闹不安、&nbsp;呕吐时，&nbsp;务必要解开尿布注意有无腹股沟之肿胀，&nbsp;才不致延误诊断而造成钳制性疝气。<br /> &nbsp;&nbsp;&nbsp;&nbsp;病例六：&nbsp;大熊今年+五岁，&nbsp;时常有上腹痛的情形。&nbsp;今天突然由肛门排出大量沥清样恶臭的黏便，&nbsp;脸色苍白。&nbsp;鼻胃管插入胃部，&nbsp;反抽出多量咖啡样的物质。&nbsp;随即进行胃镜检查发现十二指溃疡。&nbsp;经由输血后情况逐渐稳定，&nbsp;按时服用治疗溃疡的药物两个月后，&nbsp;第二次胃镜检查溃疡已痊愈。<br /> &nbsp;&nbsp;&nbsp;&nbsp;若是在食道、&nbsp;胃、&nbsp;十二指肠有出血，&nbsp;血红素在经过大肠时被细菌时作用变成黑色物质，&nbsp;最后由肛门排出黑便，&nbsp;若出血量很大即会形成沥清样的黑色黏便。&nbsp;这一病例主要目的是要告&#xfffd;D各位血便不是仅限小肠、&nbsp;大肠所引起，&nbsp;也有可能是上消化道(食道、&nbsp;胃、&nbsp;十二指肠)的问题。<br /> &nbsp;&nbsp;&nbsp;&nbsp;以上仅就便血常见的疾病做介绍，&nbsp;其他罕见的原因，&nbsp;如血管瘤等不多赘述。&nbsp;至于上消化道出血如溃疡，&nbsp;若有机会再介绍给读者。&nbsp;耐心读完上面的内容，&nbsp;各位可能已被各种疾病弄得迷糊不清。&nbsp;相信看完底下的归纳后，&nbsp;必能使各位茅塞顿开。&nbsp;首先把引起便血的疾病分成有腹痛的和不具腹痛两大类。&nbsp;若小孩排出血液和黏液的渗合物，&nbsp;同时有腹绞痛，&nbsp;首先一定先排除小儿肠套叠、&nbsp;钳制性腹股沟疝气及肠子旋转不良造成肠子扭结等引起之肠阻塞。&nbsp;若是便血但没有腹痛症状要考虑：(1)排出的粪便又硬又粗，&nbsp;在粪便表面有血丝附着，或在擦拭的卫生纸沾有血迹，&nbsp;或是在大便后有鲜血如雨滴般滴在马桶，&nbsp;要考虑是肛裂，&nbsp;仔细检查肛门即可得到答案。(2)排出的是成形的软便，&nbsp;且</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>肛诊未发现肛裂，&nbsp;即要考虑是大肠息肉，&nbsp;医师会帮病患指诊检查直肠，&nbsp;必要时会安排大肠镜检查。(3)排出的是砖红色或暗红色的大量糊便要考虑美克尔憩室，&nbsp;安排核子医学摄影扫描。<br /> &nbsp;&nbsp;&nbsp;&nbsp;最后再次提醒各位，&nbsp;小孩大便带血时，&nbsp;应仔细观察是否有腹泻现像？&nbsp;还是粗硬的大便？&nbsp;或是正常的软便？&nbsp;注意粪便和血液的关系，仅是血丝附着于大便表面呢？&nbsp;或是大量的血液和粪便均匀混合成砖红色、&nbsp;暗红色、或呈沥清状的糊便？&nbsp;千万不要忘记最好的办法就是把小孩的排便带到诊室请医师鉴定。 <br /> </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/55550">连续短促的急哭</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" class='thisclass'>疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/124964">如何判别小儿药物过敏反应？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124963">婴幼儿腹痛有哪些原因</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124962">被动吸烟严重危害哮喘儿童</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124961">春季常见病的防与治</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124960">宝宝腹泻，专家支招</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"124991"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

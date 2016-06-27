@@ -1,0 +1,475 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>哭闹：全是绞痛惹的祸-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/125083"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=97" rel="nofollow">疾病预防</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					哭闹：全是绞痛惹的祸
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-27 22:47:17</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 很多家长都对宝宝几个月时无休止的哭闹记忆犹新，也有很多妈妈正在经历这样的烦恼而且束手无策。医生对这种现象的解释通常是――肠绞痛。这里有些关于肠绞痛的最新观点，以及如何辨别肠绞痛的具体方法，让你和宝宝面对它的时候不再苦恼！ </p>
+ <p>　　宝宝2个月了，最近突然变得很爱哭了，而且哭得很伤心，尤其时夜晚最频繁。 我还发现这种哭闹慢慢地形成了一种固定的模式：白天哭闹减少，而且很容易哄；夜晚哭闹的次数逐渐增多、强烈，甚至每天夜里都会出现。束手无策之下，我只得带他到医院检查，医生告诉我孩子身体很健康，哭闹应该与肠绞痛有关，这是正常现象，并无大碍。但是看到孩子痛苦的样子，我还是放心不下，为什么他会出现肠绞痛，该如何应付呢？</p> 
+ <p>　　<strong>孩子为什么会出现肠绞痛？</strong></p> 
+ <p>　　肠绞痛严格的说并不是一种病，而只是新生儿常见的典型症状，没有具体的原因。最明显的表现就是孩子因腹痛而出现有规律的哭闹，尤其是夜晚，每次会持续30分钟左右。所以有些人也叫它“夜间腹痛”、“三个月腹痛”、“阵发性哭闹”。肠绞痛通常不需要治疗，除了让家长神经紧张外，并没有不良后果。事实上，一些研究者根本否认这种绞痛的存在，认为那只不过是新生儿哭闹的一种极端表现。这个词用在这儿是因为家长的神经过分紧张，如果你的宝宝每天晚上都哭闹的厉害，一个并不十分科学的名词也可以帮你渡过你要面对的两、三个月的郁闷时光。你将不得不接受这个事实，并且尝试你所能想到的让宝宝不哭的所有方法――尽管只能达到短期效果。</p> 
+ <p>　　<strong>帮宝宝渡过肠绞痛阶段最好注意以下三点：</strong></p> 
+ <p>　　<u>1、想要对付肠绞痛，先要排出对它的误会。</u></p> 
+ <p>　　本来照顾宝宝已经很疲惫，如果这时孩子因为肠绞痛而哭闹不止，肯定会让爸爸妈妈招架不住。在找不到病因和应对方法的情况下，你可能会听信一些传言：小宝宝发生肠绞痛是因为喂得太饱或不够、营养过剩、牛奶太热或太冷、喂奶流量过快或过慢、过敏、疝气、阑尾炎、胆囊问题以及妈妈精疲力尽的时候喂奶等等。实际上，这种解释存在很多误区：如果是以上的某一个原因引起的腹痛，那么为什么问题仅仅出现在一天里的某一次喂奶之后？而且你给宝宝喂奶的时候，不可能只在某一钟点时是用特别的方式；还有如果宝宝有身体不适，那么那些病症也不可能仅仅在一天中固定的时候显现出来；如果妈妈的疲劳是引起绞痛的原因，那么为什么问题在爸爸或保姆轮流用奶瓶喂奶的时候同样会发生。</p> 
+ <p>　　事实上，肠绞痛是小宝宝生长过程中一种很正常的现象。虽然没有有效的应对方法，但它会在一段时间内自动消失。因此不要把它看得很恐怖，耐心地陪着宝宝渡过这段痛苦的时间，给他安抚才是明智的选择。</p> 
+ <p>　　<u>2、分辨出哪些是肠绞痛的表现，哪些不是，才能对症解决。</u></p> 
+ <p>　　下面的列表将帮助你识别宝宝的哪些举止是肠绞痛的表现。如果宝宝的举止部分符合、部分不符合，你还是把他看作是肠绞痛，之后你就会发现因绞痛引起的哭闹很容易忍受。</p> 
+ <p>　　<strong>如果你的宝宝有以下举止，那么他就是肠绞痛：</strong></p> 
+ <p>　　宝宝在傍晚或者晚上吃过奶后不能平静下来，而且一旦停止吃奶就开始哭闹，即使哭着睡着了，不到半个小时又会哭醒。</p> 
+ <p>　　宝宝不仅仅是哭，还会叫嚷、</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>把腿蹬到肚子上面，好像疼得难以忍受。</p> 
+ <p>　　所有的安抚好象都只在一分钟之内有效，孩子可能因为吸吮你的乳头和安抚奶嘴而停止哭闹，让你觉得找到了安抚的方法，但是马上哭闹又开始了；轻轻摇他也会使他停止哭闹，但同样仅仅在几秒钟内有效；轻轻揉擦他的小肚肚也能让他奇迹般地停止哭闹，同样也不能持久。</p> 
+ <p>　　一旦你打断这种可怕的哭闹，宝宝就会抖动着抽泣，直到下一次哭闹开始。</p> 
+ <p>　　整个哭闹过程将持续至少一个小时，甚至是三、四个小时，要折腾到半夜才结束。</p> 
+ <p>　　这些类似的举止每天都在相同的时间重复，而且从不在其它时间出现。</p> 
+ <p>　　<strong>如果你的宝宝像下面那样，那么他就不是腹痛：</strong></p> 
+ <p>　　宝宝在傍晚或晚上吃过奶后不能平静下来，哭一阵，嘟囔一阵，最后睡着，但仅仅是嘟囔，没有丝毫叫嚷。</p> 
+ <p>　　宝宝的哭声尽管稍大一些，也把腿蹬到肚子上，但和其他时候的哭闹区别不大。</p> 
+ <p>　　你的安抚可以让孩子在半小时内渐渐停止哭泣。如果喂奶或安抚奶嘴可以让宝宝停止哭泣，那么就是他饿了或者需要吸吮；任何一种安抚的方法起了作用都表明他没有腹痛；如果轻拍宝宝背部让他打嗝能使他入睡，那就是他受风了，也不是肠绞痛；如果拥抱宝宝，晃动摇篮或者抚摸他能让他安静下来，那么就是他感到孤独或者太过紧张以至难以入睡。</p> 
+ <p>　　一旦你打断他的哭闹，他就安静下来，直到你把他放回床上。</p> 
+ <p>　　哭闹过程持续在半小时以内，再次哭闹之前他会睡觉或者愉快地呆上15分钟。对你来说确实是倒霉的一天，但不是宝宝腹痛。</p> 
+ <p>　　这种偶尔的哭闹可能发生在白天或晚上的任何时间，或许很难对付但不是腹痛引起的。</p> 
+ <p>　　<u>3、“治疗”肠绞痛，先要放松心情。</u></p> 
+ <p>　　在这里，我们提醒爸爸妈妈们，对宝宝的肠绞痛，你千万不要自责和怨天尤人，也不用担心宝宝，尽量保持泰然处之的心态。因为并不是你给带来宝宝痛苦，对于怎样阻止这些痛苦你也无能为力，你只要对即将来临的糟糕日子做好准备就可以了。</p> 
+ <p>　　专家建议，当宝宝出现肠绞痛时，可以通过改变他的饮食来减少疼痛。吃配方奶的孩子，可以换另一种牌子试试；母乳喂养的孩子，需要妈妈多变换自己食用的乳制品类型。另外即使这些建议对治疗宝宝的腹痛没有帮助，你也不要到处去寻觅偏方，或者让你的宝宝去尝试其他治疗方法。因为对于宝宝的肠绞痛，基本是无解。</p> 
+ <p>　　另外，你还可以尝试各种各样的安抚方法，可能会缓解宝宝的疼痛。比如抱着他边走边轻摇、给他一个安抚奶嘴或是让他吸吮妈妈的奶头、揉搓小肚肚等。如果这些方法起作用，宝宝哭闹的时间相对减少了，那就可以把你的安抚循环往复。与此同时，你最好把生活的其他方面打理得越井井有条，这样才能使你在宝宝出现肠绞痛而哭闹不止的时候有足够的空闲去安抚他。比如，家务事尽量让别人帮着做，或是简单处理；家里的电话调到自动接听状态，带着宝宝去散步，让孩子和大人都得到放松；放点音乐听，让孩子把注意力从疼痛中转移出来，同时也让你得到放松。另外要记住：尽管这种腹痛可能确实很可怕，但它不会伤害宝宝，而且最多持续十二周左右。 </p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/55550">连续短促的急哭</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" class='thisclass'>疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/124964">如何判别小儿药物过敏反应？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124963">婴幼儿腹痛有哪些原因</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124962">被动吸烟严重危害哮喘儿童</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124961">春季常见病的防与治</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124960">宝宝腹泻，专家支招</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"125083"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

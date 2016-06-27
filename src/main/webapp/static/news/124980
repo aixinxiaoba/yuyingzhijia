@@ -1,0 +1,520 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>宝宝发烧急救有方-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/124980"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=97" rel="nofollow">疾病预防</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					宝宝发烧急救有方
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-27 22:40:54</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> </p>
+ <p>&nbsp;&nbsp;&nbsp; “小宝的身体摸起来热热的，是不是发烧了？” </p> 
+ <p>&nbsp;&nbsp;&nbsp; 妈妈们，当你们惊觉小朋友的体温稍为有点高时，千万别胡乱退烧，急着带宝宝去医院，或是要求医师施打退烧针哦！看看我们给你的建议再行动吧！ </p> 
+ <p>&nbsp;&nbsp;&nbsp; 宝宝体温好象有点高，看样子宝宝是发烧了！小朋友发烧时只要精神及活动力尚佳，其实并不需要立即送医，家长只需随时帮宝宝量体温，观察体温变化即可。之后再找儿科医师检查，针对引起发烧，咳嗽、鼻水、腹泻或呕吐的原因来治疗。 </p> 
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;脸红红&nbsp;&nbsp;宝宝发烧了？ </p> 
+ <p>&nbsp;&nbsp;&nbsp; 小宝宝脸红红的、活力、食欲都差，是发烧了吗？ </p> 
+ <p>&nbsp;&nbsp;&nbsp; 当身体体温大于38℃时(肛温、耳温)，可称为发烧。它是人类身体的一种正常生理反应，也是一种身体的警讯，提醒我们 “宝宝可能生病了。” </p> 
+ <p>&nbsp;&nbsp;&nbsp; 许多家长会误以为发烧都是有害的，烧太久可能会把小宝宝的脑子烧坏掉。但一般来说，41℃以下的发烧，并不会对脑神经组织直接造成伤害，因此，家长不必过分紧张。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; 民间有一种说法叫“烧坏脑袋”，其实烧坏脑袋的并不是单纯的发烧，而是由于小宝宝罹患了脑炎、脑膜炎等疾病所引起。一般而言，发烧只是这些疾病的一种症状，真正影响脑部的是脑部严重感染病症。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; 发烧是孩子生病的警讯，也是身体要提高抵抗力的一种自动反应，发烧处理的重点是：先探讨是什幺疾病引起的，再来治疗，而不是马上退烧到正常体温。虽然适度地给予退烧药，可以减轻发烧生病的不舒服，但无法缩减病程，轻度的发烧反而可以提升免疫系统的效能，因此，发烧不完全是坏事！ </p> 
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;找一找&nbsp;&nbsp;发烧症状有哪些？ </p> 
+ <p>&nbsp;&nbsp;&nbsp; 小宝宝如果发烧，可能会有很多不舒服的症状，如：脸红、咳嗽、全身倦怠无力、酸痛、头晕、头痛、呕吐、腹痛、嗜睡、活动力差、食欲不振、吵闹、不安、哭泣等，让妈咪感到很心疼。不过，也有些宝宝发烧时并无任何异状，有的宝宝发烧会被长辈误认为是在长牙，而遭到忽略。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; 遇到宝宝体温偏高，建议妈咪不妨先做客观的评估，如小宝宝是否刚洗完热水澡，或是天气太热、穿太多、室内通风不良、刚喝完热的饮料等，约待半个小时后再帮孩子量一次体温，通常会有1～1.5℃的落差。排除上述的原因之后，再来考虑是否需要送医院的问题。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; 通常来说，如果小朋友体温在38～38.5℃左右，且没有特别不舒服、精神状态良好，也就是说照样吃、照样睡及照样玩，就不必着急地送孩子就医，或是使用退烧药。但若有热性痉挛病史的宝宝(4%幼童)则需积极的治疗。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; 大部份儿科医师认为，发烧在38.5～39&deg;C以上时，可适度地使用退烧药，以减轻小孩的不舒服及减轻父母亲的焦虑，并防止小孩热痉挛发生。但如果出现40.1℃以上的高温，就得紧急治疗才行。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; 生病了，来量量体温吧！ </p> 
+ <p>&nbsp;&nbsp;&nbsp; 当家长怀疑小朋友发烧时，就应该替宝宝量量体温。此</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>外，当宝宝出现下列情况时，妈咪也得考虑是否该给宝宝测量体温了。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; *过度流汗。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; *皮肤干热。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; *脸色非常苍白，或不寻常的潮红。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; *呼吸异常过快、过慢或暂停。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; *感冒症状：流鼻涕、鼻塞、咳嗽、声音沙哑，或喉咙痛。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; *情绪改变：焦躁不安或注意力不集中、无精打采。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; *宝宝自己抱怨身体的任何部位不舒服或疼痛。如宝宝自己说“妈妈，我觉得我生病了”。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; *小朋友呕吐或拉肚子。</p> 
+ <p><br />&nbsp;&nbsp;&nbsp;&nbsp;Baby发烧照顾指南 </p> 
+ <p>&nbsp;&nbsp;&nbsp; Baby发烧了，先不必急着退烧。由于发烧是一种抵抗病毒的自然现象，所以如果家长硬要替孩子退烧，反而削弱了孩子的抵抗力。一般来说体温在38℃~38.5℃以下，且精神不错，都是可以接受的。不过，为了减少宝宝的不舒服感，家长在照顾上要特别留心。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; *不建议同时使用两种以上的退烧药。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; *一天使用退烧药不要超过五次以上。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; *不宜在半夜叫醒小孩服用退烧药，除非可能因发烧导致抽筋时。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; *不要给小朋友覆盖湿毛巾，应尽量保持干爽。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; *尽量给予容易消化的食物，如稀饭等。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; *注意水份及电解质的补充，以免小便过于浓黄。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; *要多休息，避免过度活动。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; *在适当的处置后，应观察小朋友的精神状态及食欲等，并于就医前记录发烧的天数(需精准计算发烧满几日)、间隔时间、温度变化及其它不适症状，以供医师参考。 </p> 
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;40.1℃&nbsp;&nbsp;紧急就医指针 </p> 
+ <p>&nbsp;&nbsp;&nbsp; 由于发烧是一种症状，不是一种疾病，因此找出产生发烧的原因，才是首要的目的，如果确定孩子是感冒，且高烧至40.1℃则建议紧急就医。其它需紧急就医的情况还包括： </p> 
+ <p>&nbsp;&nbsp;&nbsp; ＊小于两个月以下的婴儿。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; ＊宝宝哭得很惨，且无法安慰的哭，不断呜咽。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; ＊移动或父母接触时会哭。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; ＊幼儿不易叫醒且脖子僵硬。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; ＊出现皮肤紫斑。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; ＊排除鼻口影响呼吸之障碍物后仍感觉呼吸困难。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; ＊幼儿流口水且无法吞咽任何东西。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; ＊</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>痉挛发生，而且感觉很疲倦。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; 除此之外，如果宝宝发烧超过40℃(尤其是三岁以下幼儿)，而且是2～4个月大的宝宝，不是由于三合一疫苗引起发烧；小便有烧灼感；烧退超过24小时，又反复烧起来；且发烧超过72 小时，则建议在24小时内立刻就医，以确保孩子的安全。 </p> 
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;发烧小常识 </p> 
+ <p>&nbsp;&nbsp;&nbsp; Q1：宝宝假日发烧，无法就医，可以购买市售的成人感冒糖浆给宝宝喝吗？ </p> 
+ <p>&nbsp;&nbsp;&nbsp; 市售的感冒糖浆多含有抗组织胺，有些含咖啡因，大多不适合幼儿使用。而且不同厂家生产的产品，所用的剂量也不尽相同，如果不能确定药品成份，还是建议询问过医师后，再决定是否让孩子服用。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; 其次，由于发烧只是一种症状，所以最好待确定原因之后再给予退烧。如果只是一般轻微感冒症状，可以给予小朋友专用的小儿退烧药。但6个月以下小婴儿仍不建议服用成药，须经医师诊断后再使用。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; Q2：使用冰枕及退烧贴替宝宝宝退烧，是否适当呢？ </p> 
+ <p>&nbsp;&nbsp;&nbsp; 当小孩发烧不舒服时，是否需要适时地运用一些工具来减轻发烧所带来的不适，如：冰枕、退热贴等。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; 一般若幼儿的肛温及耳温介于38℃~38.5℃时，仅需多补充水分即可，不需要着急地给予退烧药(曾有热性痉挛病史者例外)。当肛温及耳温大于38.5℃，且小孩出现寒颤或手脚冰冷的状况时，应先给予适度的衣服或添加盖被，待手脚温暖后，再依情况给予冰枕。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; 此外，虽然不少家长会选用传统的冰枕来替宝宝退烧，但有不少幼儿不喜欢睡冰枕，因为无法适应长时间使用带来的冰凉感，且退烧效果也不好，因此，不必一定要使用。此时，建议不妨让宝宝洗温水澡(水温约28℃~32℃)，达到退烧散热的效果。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; 其次，要提醒父母，使用凝胶状退烧用贴布，感觉上可以舒缓一些高烧所带来的不适，但并无明显的退烧效果，且使用时需注意，应避免滑落至婴幼儿口鼻部位，以免造成婴幼儿窒息。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; Q3：我家宝宝发烧三天，还是没有好转，怎幺办？可以使用塞剂退烧吗？ </p> 
+ <p>&nbsp;&nbsp;&nbsp; 塞剂是什么？简单说就是形状像子弹，内含药物或甘油或是遇热会融化的油脂、腊的药物。由于有些小孩很难喂药，因此就会使用退烧塞剂来退烧，使用塞剂时，要让小朋友侧身弯曲躺好，并将塞剂轻轻推进肛门至一节手指的深度，它就会融化并经由肛门黏膜吸收。但提醒家长，六个月以下的幼儿不宜使用退烧塞剂，且一岁以下幼儿建议少用。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; 医学上很多退烧药都有做成口服剂与塞剂两种剂型，如果一样的剂量，无论口服或塞剂其效果是完全相同的。在使用时需注意： </p> 
+ <p>&nbsp;&nbsp;&nbsp; *由于塞剂退烧效果十分快速，因此，要避免过量，以免小朋友体温急速下降。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; *若用塞剂，一日不宜超过三次以上，否则容易过度刺激肛门内的肠粘膜而造成拉肚子。如果小朋友已经有腹泻症状也不宜再选用塞剂退烧。 </p> 
+ <p>&nbsp;&nbsp;&nbsp; *容易造成肛门疼痛，大便时亦会疼痛，甚至于引起腹泻及反射性肚子痛。 </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>&gt; </p>
+ <p>&nbsp;&nbsp;&nbsp; *若使用于小女生身上，应注意避免塞错至阴道。 </p> 
+ <br /> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/55550">连续短促的急哭</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" class='thisclass'>疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/124964">如何判别小儿药物过敏反应？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124963">婴幼儿腹痛有哪些原因</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124962">被动吸烟严重危害哮喘儿童</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124961">春季常见病的防与治</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124960">宝宝腹泻，专家支招</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"124980"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

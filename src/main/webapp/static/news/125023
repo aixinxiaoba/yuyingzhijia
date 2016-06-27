@@ -1,0 +1,553 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>支气管肺炎-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/125023"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=97" rel="nofollow">疾病预防</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					支气管肺炎
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-27 22:43:37</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> </p>
+ <p>　　支气管肺炎是小儿时期各型肺炎中最常见的一种，尤好发于婴幼儿。一年四季均可发病，北方以冬春季多见，在南方则多发于夏秋季节。可呈散发或流行。小儿可因居住拥挤、通风不良、空气混浊易患本病外，营养不良、维生素缺乏、先天性心脏病等也使肺炎发病率增高，且病情更趋严重。</p> 
+ <p>　　【病因】</p> 
+ <p>　　病原体多为细菌和病毒。细菌以肺炎双球菌最为多见，金黄色葡萄球菌、溶血性链球菌、B型流感杆菌、大肠杆菌和副大肠杆菌亦较常见。病毒以呼吸道合胞病毒、腺病毒、流感病毒和副流感病毒为多见。本病常在病毒感染的基础上继发细菌感染，即所谓混合性感染。</p> 
+ <p>&nbsp;　【病理】</p> 
+ <p>　　主要以肺泡炎症为主，支气管壁与肺泡间质炎性病变较轻。肺泡毛细血管扩张充血，肺泡壁水肿，肺泡内有大量中性粒细胞、红细胞、纤维素渗出液及细菌。炎症通过肺泡间通道和细支气管向邻近组织蔓延，呈小片状的灶性炎症，小病灶可互相融合扩大。当小支气管、毛细支气管发生炎症时，管腔更加狭窄导致管腔部分或完全阻塞，引起肺气肿或肺不张。病毒性肺炎时，支气管和毛细支气管壁及肺泡间隔均有水肿，管壁内有粘液及被破坏的细胞堆积。肺泡及肺泡导管、间质可见单核细胞浸润。</p> 
+ <p>　　【病理生理】</p> 
+ <p>　　(一) 呼吸功能不全 </p> 
+ <p>　　主要表现为低氧血症，严重者可有二氧化碳潴留。肺炎时由于炎症，一方面使肺泡壁增厚，弥散阻力增加，另一方面，支气管粘膜充血、水肿及分泌物潴留，使小儿原已相对狭窄的管腔变得更窄。其结果导致通气和换气功能严重障碍，机体缺氧与二氧化碳潴留。在疾病早期患儿可通过增加呼吸频率和呼吸深度来增加每分钟通气量，由于二氧化碳弥散能力比氧大，此时往往仅有轻度缺氧而尚无明显的二氧化碳潴留。</p> 
+ <p>　　当病变进展，严重妨碍有效的气体交换，动脉血氧分压(PaO2)及血氧饱和度(SaO2)明显下降而发生低氧血症。若SaO2下降至0.85以下，还原血红蛋白达50g儿以上时即可见紫绀。当肺通气严重降低，影响到二氧化碳排出时，则在Pa02降低的同时动脉血二氧化碳分压(PaCOc)增高。当Pa02～6.65kPa(50mmHg)，PaC02≥6.65kPa(50mmHg)，Sa02≤0.85，即可发生呼吸衰竭。</p> 
+ <p>　　(二) 毒血症 </p> 
+ <p>　　由于病原体作用，重症肺炎常伴有毒血症，引起不同程度的感染中毒症状，如高热、嗜睡、惊厥等。缺氧和二氧化碳潴留及毒血症不仅影响呼吸功能，同时也使全身代谢与重要器官功能发生障碍。</p> 
+ <p>　　1．酸碱平衡失调 <br />　　缺氧时体内有氧代谢发生障碍，酸性代谢产物发生堆积，加上高热，饥饿、脱水、吐泻等因素，常伴有代谢性酸中毒。此外，二氧化碳潴留，PaCO2增高，碳酸及氢离子浓度上升，pH值下降，从而导致呼吸性酸中毒。由于缺氧及二氧化碳潴留，致肾小动脉痉挛而引起水钠潴留，缺氧致ADH分泌增加造成稀释性低钠血症。因酸中毒时H+进入细胞内，K+向细胞外转移，血K+增高或正常。伴有腹泻或营养不良者血Cl-由于代偿性呼吸性酸中毒有偏低倾向；少数患儿早期因呼吸增快，通气过度，可能出现呼吸性碱中毒。重症肺炎时，常出现混合性酸中毒。 </p> 
+ <p>　　2．循环系统 <br />　　缺氧与二氧化碳潴留可引起肺血管反射性痉挛，肺循环压力增高，导致肺动脉高压．肺部病变广泛也使肺循环阻力增加，致右心负荷加重。心肌受病原体毒索损害，易出现中毒性心肌炎。上述因素可导致心功能不全。少数病例因严重毒血症和低氧血症而发生微循环障碍。</p> 
+ <p>　　3．中枢神经系统 <br />　　缺氧可影响脑细胞膜上的钠泵功能，使细胞内Na+增多并吸收水</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>分，加之缺氧可使毛细血管扩张，血脑屏障通透性增加而致脑水肿，严重时可致中枢性呼吸衰竭。病原体毒素作用可致中毒性脑病。</p> 
+ <p>　　4．消化系统 <br />　　胃肠道在缺氧和毒素的作用下易发生功能紊乱，严重病例可发生中毒性肠麻痹。胃肠道毛细血管通透性增加可致胃肠道出血。</p> 
+ <p>　　【临床表现】</p> 
+ <p>　　(一) 一般症状 <br />　　起病急骤或迟缓。在发病前可先有轻度上呼吸道感染数日，骤发者常有发热，早期体温在38～39℃之间，亦可高达40℃，多为弛张热或不规则热。体弱婴儿大都起病迟缓，发热不明显或体温低于正常。</p> 
+ <p>　　(二) 呼吸系统症状 <br />　　咳嗽较频，早期呈刺激性干咳，极期咳嗽反略减轻，恢复期转为湿咳。剧烈咳嗽常引起呕吐。呼吸急促，呼吸频率每分钟可达40～80次。重症患儿可出现口周、鼻唇沟、指趾端紫绀、鼻翼扇动及三凹征。</p> 
+ <p>　　肺部体征早期不明显，可有呼吸音粗糙或减弱，以后可听到中细湿罗音，以两肺底及脊柱旁较多，于深吸气末更明显。由于多为散在性小病灶，叩诊一般正常，当病灶融合扩大，果及部分或整个肺叶时，可出现相应的实变体症。如发现一侧肺有叩诊浊音及(或)呼吸音减弱，应考虑胸腔积液或脓胸。</p> 
+ <p>　　(三) 循环系统症状 <br />　　轻者心率稍增快，重症者可出现不同程度的心功能不全或心肌炎。合并心衰者可参考以下诊断标准：<br />　　①　心率突然超过180次／分；<br />　　②　呼吸突然加快，超过60次／分；<br />　　③　突然极度烦躁不安，明显发绀，面色苍灰，指(趾)甲微循环再充盈时间延长；<br />　　④　肝脏迅速增大；<br />　　⑤　心音低钝，或有奔马律，颈静脉怒张；<br />　　⑥　尿少或无尿，颜面、眼睑或下肢水肿若出现前5项者即可诊断为心力衰竭。</p> 
+ <p>　　若并发心肌炎者，则表现为面色苍白，心动过速、心音低钝、心律不齐，心电图表现为ST段下移和T波低平、双向和倒置。</p> 
+ <p>　　重症患儿可发生播散性血管内凝血，表现为血压下降，四肢凉，皮肤、粘膜出血等。</p> 
+ <p>　　(四) 神经系统症状 <br />　　常出现嗜睡、烦躁不安，或两者交替出现。重症者可出现抽搐、昏迷或反复惊厥等中毒性脑病的表现。</p> 
+ <p>　　(五) 消化系统症状 <br />　　可出现食欲不振、呕吐、腹泻、腹胀等。重症肺炎常发生中毒性肠麻痹，出现明显腹胀，以致膈肌升高进一步加重呼吸困难。胃肠道出血可吐出咖啡样物、便血或柏油样便。<br />　　</p> 
+ <p>　　【几种常见不同病原体所致支气管肺炎的特点】</p> 
+ <p>　　(一) 金黄色葡萄球菌肺炎 <br />　　金黄色葡萄球菌肺炎(staphylococciaureus pneumonia)　简称金葡菌肺炎，多见于新生儿及婴幼儿，且常为原发的金葡菌肺部感染。年长儿则多继发于金葡菌性败血症。 </p> 
+ <p>　　病理改变以肺组织广泛的出血坏死及多发性小脓肿为特点。胸膜下小脓肿如破裂，则可形成脓胸或脓气胸。有时可侵蚀支气管形成支气管胸膜瘘。若继发于败血症之后，则除肺脓肿外，常引起其他器官的迁徙性化脓病灶。</p> 
+ <p>　　起病急，病情笃重，发展快。一般先有数天的上呼吸道感染症状，然后突起高热，多呈弛张热型。咳嗽，痰呈粘液脓性，不易咳出。呼吸困难，缺氧明显，可见鼻翼扇动，青紫及三凹征。中毒症状显著。可出现面色苍白、发灰、皮肤发花、肢端冰凉＼心音低钝、心率快、血压下降等休克表现。肺部体征出现早，早期即有呼吸音减弱和中细湿罗音。病变进展迅速，极易发展成肺脓肿、脓胸、脓气胸、肺大泡等。皮肤可出现红色丘疹、猩红热样或荨麻疹样皮疹。周围血白细胞总数及中性粒细胞增高，有核左移现象。少数</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>病例白细胞明显降低，但中性粒细胞百分比仍高。X线检查早期可见肺纹理增粗或小片状浸润影，病变发展很快，可在数小时内出现脓胸、脓气胸、肺大泡等相应的征象。</p> 
+ <p>　　(二) 腺病毒肺炎 <br />　　腺病毒肺炎(adenovirus pneumonia)由腺病毒引起，我国以3，7型腺病毒为婴幼儿肺炎的主要病原，多见于6个月至2岁的小儿，病死率高。</p> 
+ <p>　　病理改变为病灶性或融合性坏死性肺浸润和支气管及肺泡间质炎。气管、支气管广泛坏死，坏死组织和炎症浸润物充满支气管腔内，引起支气管管腔堵塞。</p> 
+ <p>　　起病急骤，往往1-2日内突然发热达39℃，多为稽留热，偶呈不规则高热。热程较长，不受抗生素影响，轻症7-10日开始退热，重症可持续2～3周，神经系统症状明显。不论病情轻重，早期即有嗜睡、精神萎靡、烦躁不安，重者可出现昏睡或昏迷，甚至反复惊厥、颈项强直等中毒性脑病或脑炎的表现。多数起病时即有频发的阵咳，有白色粘稠痰，不易咳出。发病4～6天后出现呼吸困难，面色苍白或发灰，且逐渐加重，表现为喘憋、青紫、鼻，翼扇动及三凹征。肺部体征早期不明显，一般在发热4～5天后才听到少许湿性罗音，并逐渐增多。病变融合后可出现肺实变体征。病程中常合并胸膜反应和少量胸腔积液，无继发感染者渗出液为草黄色，不混浊，有继发感染时则有混浊，患儿易发生中毒性心肌炎，心力衰竭。半数以上的病例有腹泻、呕吐、腹胀。少数有中毒性肝炎、肝脾肿大。</p> 
+ <p>　　白细胞数早期大都正常或减少，少数病例可在10X109／L(10 000／mm3)以上，分类以淋巴细胞为主。</p> 
+ <p>　　X线肺部改变较肺部体征出现早，呈现大小不等的片状阴影，分布较广，可互相融合成大病灶，以肺下野及右肺多见，亦可见肺气肿。病灶吸收缓慢，2～4周才完全吸收，少数病例可有胸膜改变。 </p> 
+ <p>　　(三) 呼吸道合胞病毒肺炎 <br />　　呼吸道合胞病毒肺炎(respiratory syncytial virus pneumonia)　系由呼吸道合胞病毒引起，多见于3岁以下的婴幼儿，尤以6个月以内的婴儿多见。</p> 
+ <p>　　病理改变可为脱眉性坏死性支气管炎、毛细支气管炎、支气管肺炎及间质性肺炎。毛细支气管的粘膜大部分脱落，混以粘液、炎症渗出物堵塞管腔，继发肺气肿或肺不张。支气管周围肺泡及肺间质亦有渗出物。</p> 
+ <p>　　起病急骤，常在上呼吸道感染以后2～3日出现持续性干咳，突然喘憋，呼吸明显加快，每分钟可达60～80次，偶可超过100次。呼气延长伴呼气呻吟。呼吸困难、鼻翼扇动、口周青紫及三凹征明显，心率增快。发热不高，一般不超过38℃，热程短，仅持续1～4天，甚至可不发热。肺部叩诊呈过清音。呼吸音减弱，当毛细支气管接近完全梗阻时，呼吸音微弱甚至听不清。喘憋发作时往往听不到罗音。喘憋稍有缓解时可听到哮鸣音及中细湿罗音。由于过度换气引起不显性失水量增加和液体摄入量不足，患儿可出现明显的脱水征。因喘憋、呼吸困难，出现低氧血症及高碳酸血症，易致呼吸性酸中毒。</p> 
+ <p>　　X线呈全肺梗阻性肺气肿，肺纹理增粗，间质性肺炎、肺气肿。也可有小点片状淡薄阴影。</p> 
+ <p>　　(四) 肺炎支原体肺炎<br />　　肺炎支原体肺炎(mycoplasma pneumoniae pneumonia)　由肺炎支原体引起，多见于5～15岁的儿童，但近年来婴幼JL感染的报道日渐增多，可散发流行。</p> 
+ <p>　　病理改变以下呼吸道的气管、支气管、毛细支气管壁充血、水肿、变厚，单核细胞及浆细胞浸润，分泌物及脱屑可堵塞气道为其特点。肺间质亦有单核细胞浸润。</p> 
+ <p>　　发病缓慢，病初可有全身不适、乏力、头痛、低热或中度发热，热程1～2</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>周。以刺激性干咳为突出表现，初为干咳，后转为顽固性剧咳，有时似百日咳样咳嗽，咯出粘液稠痰，甚至带血丝。咳嗽持续时间长，可达1～4周，常伴有胸痛。婴幼儿以喘憋症状较突出，有时不易与呼吸道合胞病毒肺炎区别。肺部体征较轻，有1／3左右病例在整个病程中无任何阳性体征。一般可在肺局部听到少许干湿罗音，呼吸音减弱。部分病例可并发胸膜炎，胸水多为浆液性，偶为血性。</p> 
+ <p>　　白细胞计数正常或偏高，中性粒细胞增多。血沉增快。血清冷凝集试验阳性对诊断有帮助。</p> 
+ <p>　　X线检查有以下4种改变：①以肺门阴影增浓较突出；②支气管肺炎改变，以右肺中下野为多； ③间质性肺炎改变，呈网状或条索状由肺门向中外带放射，周围有小片薄影或粟粒状阴影；④部分病例出现大片阴影，密度不均匀，呈节段状分布。少数为大叶性阴影，多在下叶。往往一处旧病灶吸收，另处新病灶又出现。 </p> 
+ <p>　　(五) 衣原体肺炎 <br />　　衣原体肺炎(chlamydiaepneumonia)　是由沙眼衣原体引起。多由受感染的母亲在分娩时传染，约20％受感染的婴儿发生肺炎，为6个月以内婴儿肺炎的主要病原之一。</p> 
+ <p>　　潜伏期2～3个月，起病多在3周龄左朽，约50％于新生儿期患有结膜炎病史。起病隐匿，多有呼吸道症状，如流涕、鼻塞及咳嗽，持续且逐渐加重，咳嗽多呈阵发性，一般不发热，有时可见中耳炎。肺部典型症状和体征可见呼吸加快，偶尔见呼吸暂停，肺部町闻罗音和呼气性喘鸣音，病程迁延可达数周至1～2个月。</p> 
+ <p>　　X线胸片可见肺气肿，伴弥漫性、对称性间质性病变及散在斑片状浸润阴影，少数病例可见胸膜反应。</p> 
+ <p>　　一般而言，细菌性肺炎湿罗音较清楚，病毒性肺炎，尤其在疾病早期(1周内)罗音常不多。白细胞计数、NBT阳性细胞及CRP均明显升高，绝大多数属细菌性肺炎，反之则多为病毒性肺炎。支气管肺炎合并有迁徙化脓性病灶，或合并脓胸、脓气胸、肺大泡，常提示为金葡菌肺炎。几种常见肺炎临床鉴别要点详见表4。但是，最终病原学诊断有赖于细菌培养、病毒分离及病毒快速诊断技术。</p> 
+ <p>　　【并发症]】</p> 
+ <p>　　重症肺炎、体弱儿或治疗不当时常出现并发症，如心力衰竭、呼吸衰竭、中毒性脑病、感染性休克、败血症、水电解质紊乱等。如病原体致病力强或治疗不当者，还可引起脓胸、脓气胸、肺大泡等并发症。</p> 
+ <p>　　(一) 脓胸(empyema) <br />　　是指胸膜腔因化脓感染造成积脓。最常由葡萄球菌引起，其次是革兰阴性杆菌。临床表现为呼吸困难加重，患侧呼吸运动受限，语颤减弱，叩诊浊音，听诊呼吸音减弱或消失。当积液较多时，患侧肋间隙饱满，气管移向健侧。</p> 
+ <p>　　(二) 脓气胸(pyopneumothorax) <br />　　是肺脏边缘的脓肿破裂，脓液与气体进入胸腔所致。表现为在肺炎病程中突然病情加重，剧烈咳嗽、呼吸困难、烦躁、发绀。呼吸音明显减低或消失，胸腔积液的上方叩诊呈鼓音。</p> 
+ <p>　　(三) 肺大泡(pneumatocele) <br />　　由于细支气管管腔因炎性肿胀狭窄，分泌物粘稠，形成活瓣性阻塞，空气只进不出，导致肺泡扩大、破裂而形成肺大泡。肺大泡小者可无症状，大者可引起急性呼吸困难。</p> 
+ <p>　　【诊断】<br />　　根据发热、咳嗽、气促或呼吸困难，肺部有中、细湿罗音，可作出诊断。对体征不明显的病例做X线检查，有助于确诊。对已诊断为肺炎的病例，应结合临床表现及有关实验室检查结果，力求作出病因诊断，以便指导治疗和估计预后。</p> 
+ <p>　　【预后】 <br />　　小儿肺炎预后受多种因素影响。年长儿患肺炎并发症较少，预后好，婴幼儿 则病死率较高。在营养不良、佝偻病、先天性心脏</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>病、结核病、麻疹、百日咳的基础上并发肺炎，则预后较差。病原体方面，肺炎双球菌对青霉素敏感，此类型肺炎预后良好；而金葡菌肺炎并发症多，病程迁延，预后较差。腺病毒肺炎病情较重，病死率也较高。支原体肺炎病情轻重不一，自然病程虽较长，但多能自然痊愈。重症肺炎预后亦较差。</p> 
+ <p>　　【治疗】</p> 
+ <p>　　(一) 护理</p> 
+ <p>&nbsp;　　病室应保持空气流通，室温维持在20℃左右，湿度以60％为宜。给予足量的维生素和蛋白质，经常饮水及少量多次进食。保持呼吸道通畅，及时清除上呼吸道分泌物，经常变换体位，减少肺淤血，以利炎症吸收及痰液的排出。为避免交叉感染，轻症肺炎可在家中或门诊治疗，对住院患儿应尽可能将急性期与恢复期的患儿分开，细菌性感染与病毒性感染分开。</p> 
+ <p>　　(二) 氧气疗法 <br />　　是纠正低氧血症，防止呼吸衰竭和肺、脑水肿的主要疗法之一。因此，有缺氧表现时应及时给氧。最常用鼻前庭导管持续吸氧，直至缺氧消失方可停止。新生儿或鼻腔分泌物多者，以及经鼻导管给氧后缺氧症状不缓解者，可用口罩、鼻塞、头罩或氧帐给氧。给氧浓度过高，流量过大，持续时间过长，容易导致不良副作用，如弥漫性肺纤维化或晶体后纤维增生症等。严重缺氧出现呼吸衰竭时，应及时用呼吸器间歇正压给氧或持续正压给氧以改善通气功能。</p> 
+ <p>　　(三) 抗菌药物治疗 <br />　　抗生素主要用于细菌性肺炎、支原体肺炎、衣原体肺炎及有继发细菌感染的病毒性肺炎。治疗前应作咽部分泌物或血液、胸腔穿刺液培养加药敏试验，以便于针对性选用有效药物。在病原菌未明，对未用过抗生素治疗的患儿，应首选青霉素，每次20～40万U，每日肌内注射2次，直至体温正常后5～7天为止。重症者可增加剂量2～3倍，静脉给药。年龄小或病情严重者需用广谱抗生素联合治疗，可用氨苄青霉素，每日50～100mg／kg，分2次肌内注射或静脉注射，加用庆大霉素或卡那霉素等。青霉素疗效不佳或对青霉素过敏的患儿改用红霉素，每日15～30mg／kg，用10％葡萄糖溶液稀释成0.5～lmg／ml，分2次静滴。疑为金葡菌感染可用新青霉素Ⅱ，Ⅲ加庆大霉素或氯霉素等，亦可应用先锋霉素、万古霉素等。疑为革兰阴性杆菌感染可用氨苄青霉素加庆大霉素，或卡那霉素等。病原体己明确者，根据药敏试验选择有效抗生素治疗。支原体、衣原体感染首选红霉素。真菌感染应停止使用抗生素及激素，选用制霉菌素雾化吸入，每次5万U，4～6小时一次，亦可用克霉唑、大扶康或二性霉素B。</p> 
+ <p>　　(四) 抗病毒药物治疗 </p> 
+ <p>　　国内用病毒唑治疗早期腺病毒肺炎有一定疗效，对晚期的病例疗效不明显。该药尚可试用于流感病毒肺炎。呼吸道合胞病毒对上药疗效不明显。</p> 
+ <p>　　近年来国内运用免疫制剂治疗病毒性肺炎，如特异性马血清治疗腺病毒肺炎，对早期无合并感染者疗效较好。干扰素(interferons)可抑制细胞内病毒的复制，提高巨噬细胞的吞噬能力，治疗病毒性肺炎有一定疗效。</p> 
+ <p>　　用乳清液雾化剂气雾吸入治疗合胞病毒肺炎，对减轻症状缩短疗程均有一定作用。</p> 
+ <p>　　(五) 对症治疗 </p> 
+ <p>　　咳嗽有痰者，不可滥用镇咳剂，因抑制咳嗽而不利于排痰。为避免痰液阻塞支气管，可选用祛痰剂如复方甘草合剂、10％氯化胺溶液、吐根糖浆、敌咳糖浆等。</p> 
+ <p>　　痰液粘稠可用n-糜蛋白酶5mg加生理盐水15～20ml超声雾化吸入，也可用鱼腥草雾化吸入。干咳影响睡眠和饮食者，可服用0.5％可待因糖浆，每次0.1ml／kg，每日偶用1～3次，该药能抑制咳嗽反射，亦能抑制呼吸，故不能滥用或用量过大。美沙芬dextromethorphan)每次0.3mg／kg，每日3～</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>4次，有镇咳作用，但不抑制呼吸。</p> 
+ <p>　　(六) 其他治疗</p> 
+ <p>　　1．急性心力衰竭的治疗 <br />　　重症肺炎及先心肺炎的患儿，往往发生心力衰竭，故除吸氧、镇静、平喘止咳外，应选用作用快、排泄快的洋地黄制剂，必要时可加用血管活性药物和利尿剂。</p> 
+ <p>　　(1) 毒毛旋花子甙K <br />　　饱和量0.007～0.01mg／kg，加于10％葡萄糖溶液中缓慢静脉注射，时间不短于10分钟，或直接加入莫菲管内缓慢静脉滴注。根据病情需要，6～12小时后可再给首次剂量的1／2。</p> 
+ <p>　　(2) 西地兰 <br />　　饱和量2岁以下0.03～0.04mg／kg，2岁以上为0.02～0.03mg／kg，分次给予。首次给饱和量的1／2，余量分2次，每隔4～6小时给药1次，可肌内注射或加入10％葡萄糖溶液10～20ml中缓慢静脉注射。</p> 
+ <p>　　一般不用维持量，但心力衰竭严重或伴有先天性心脏病者需维持用药。应用洋地黄制剂一般只能用一种，不应同时使用两种，以免发生中毒。使用以上药物时不宜同时静脉应用钙剂，若合并低钙抽搐必需使用钙剂时，应注意钙剂与洋地黄对心肌的协同作用，故两药至少应相隔4～6小时方可使用，且注射宜缓慢，密切注意心音及节律的变化。</p> 
+ <p>　　(3) 血管活性药 <br />　　此类药物能扩张周围小动脉，减少心排出阻力，扩张小静脉，减少回心血量。常用药物有东茛菪碱、酚妥拉明(苄胺唑啉)。东茛菪碱每次0.02～0.03mg／kg，稀释后静脉注入，5～10分钟1次，待患儿安静、症状好转后，逐渐延长给药时间直至停用。酚妥拉明每次0.3～0.5mg／kg，最大剂量不超过lOmg／次，5天以内的新生儿用3mg／次，加入10％葡萄糖10～20ml缓慢静脉注射，必要时可于2～6小时后重复使用或持续静脉滴注，病情好转后改为口服血管扩张剂。</p> 
+ <p>　　2．呼吸衰竭的治疗。</p> 
+ <p>　　3．中毒性脑病的治疗 <br />　　主要纠正缺氧，此外可快速静脉滴注20％甘露醇，每次1g／kg，根据病情需要，1日静脉滴注4次，一般不超过3天。必要时加入地塞米松，每日2～5mg，分2次静脉滴注。尚可加用利尿剂、冬眠灵和能量合剂。</p> 
+ <p>　　4．中毒性肠麻痹的治疗 <br />　　主要改善肠道微循环，促进肠蠕动。常用酚妥拉明或加用阿拉明。阿拉明剂量为上述酚妥拉明的半量，两药合溶于10％葡萄糖5～10ml中缓慢静脉注射，亦可溶于10％葡萄糖20～30ml中静脉滴注。必要时30分钟一1小时后可重复使用，1日3～4次。亦可用新斯的明或肛门排气减轻腹胀，以利呼吸。当长期不能进食、脱水酸中毒、应用激素和利尿剂的患儿出现腹胀时，应注意钾的补充。</p> 
+ <p>　　5．肾上腺皮质激素的应用 <br />　　高热、中毒症状明显、中毒性休克、中毒性脑病、中毒性心肌炎、严重喘息、呼吸衰竭及胸膜有渗出的病例，在应用足量抗生素的同时，均可加用激素治疗。常用氢化可的松，每日4～8mg／kg，或地塞米松(剂量如前述)加入葡萄糖溶液中静脉滴注。</p> 
+ <p>　　6．输血或血浆 <br />　　病情较重或体弱儿、营养不良、贫血者，可酌情少量输血或血浆，用量为每次5ml／kg，必要时3～5天可重复一次。</p> 
+ <p>　　7．物理疗法 <br />　　对肺部罗音较难吸收者，在急性感染基本控制后，应及早用各种物理疗法，以促进肺部炎症的消散；如选用超短波、微波、紫外线、红外线、特定电磁波潜等。</p> 
+ <p>　　8．治疗并发症及伴随症 <br />　　合并脓胸、脓气胸应抽气排脓，或做胸腔闭式引流。伴佝偻病、营养不良、贫血者应分别给予治疗。 </p> 
+ <p>　　9．中医疗法<br />　　中药治疗肺</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>炎除有抗菌、抗病毒作用外，还有增强机体免疫力等功能。近年来国内用中医辩证治疗小儿肺炎已积累了不少经验。常用方剂有麻杏石甘汤及加减。对单纯病毒性肺炎应首选中药治疗，在上述基本方剂中重用银花、连翘、板兰根、大青叶、青黛、贯仲等清热解毒及生地、丹皮等清热凉血。亦可用丹参、红花、桃仁等活血化淤的药物。</p> 
+ <br /> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/55550">连续短促的急哭</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" class='thisclass'>疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/124964">如何判别小儿药物过敏反应？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124963">婴幼儿腹痛有哪些原因</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124962">被动吸烟严重危害哮喘儿童</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124961">春季常见病的防与治</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124960">宝宝腹泻，专家支招</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"125023"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>
