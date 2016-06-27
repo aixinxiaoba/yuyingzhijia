@@ -1,0 +1,459 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>发展性照顾运用于早产儿护理-新生儿-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/124288"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/xinshenger2.png)'
+			 href="/static/menu/bm/xinshenger2" alt="新生儿" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=150" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/xinshenger2'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/tezheng/1">新生儿特征</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jibing/1">新生儿疾病</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/huli/1">新生儿护理</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/zaochaner/1">早产儿</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=150" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=150&menuID=154" rel="nofollow">早产儿</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					发展性照顾运用于早产儿护理
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=150" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-26 16:32:27</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p><font face="宋体"></font> </p>
+ <p style="TEXT-INDENT: 2em">2004年我院新生儿救护中心运用早产儿发展性照顾的护理理念和方法，针对1例胎龄26W，体重800g的极早早产儿实施了护理，经过近两年的定期跟踪观察，患儿体格、智力发育正常。现将护理经验介绍如下：</p> 
+ <p style="TEXT-INDENT: 2em">■临床资料</p> 
+ <p style="TEXT-INDENT: 2em">患儿男孩，第3胎第3产，胎龄26W，自然分娩，出生体重800g，Apgar评分1分钟为6分，5分钟为7分，娩后15分钟入院。查体：T36℃，P130次/分，R30次/分，SpO272%，发育幼稚，皮肤红嫩。以极早早产儿、超低出生体重儿、新生儿窒息、RDS收住入院。</p> 
+ <p style="TEXT-INDENT: 2em">患儿入院后病危，频发呼吸暂停，予CPAP供O2不能缓解，即行呼吸机辅助通气，固尔苏气管插管内滴入，至23天后撤机，改用CPAP、头罩吸O2、鼻导管间断给O2逐步过渡，两月后完全离O2。入院两小时后行PICC置管，成功静脉给药、营养。后期经口喂养逐渐耐受，体重增长良好，于出生后95天痊愈出院，出院时体重3420g。期间护理方式以突出早产儿发展性照顾与支持护理为主要措施，结合传统的常规护理对其进行照顾。</p> 
+ <p style="TEXT-INDENT: 2em">■早产儿发展性照顾</p> 
+ <p style="TEXT-INDENT: 2em">概念减少不良环境刺激，能促进早产儿发展、发育良好，给予支持，使患儿能够适应环境的刺激，并取得生理、肢体活动互动间的平衡，以利于自己的发展。</p> 
+ <p style="TEXT-INDENT: 2em">护士的角色维持早产儿从子宫内到子宫外理想的持续发展性支持。</p> 
+ <p style="TEXT-INDENT: 2em">■护理措施</p> 
+ <p style="TEXT-INDENT: 2em">★护理原则</p> 
+ <p style="TEXT-INDENT: 2em">早产儿发展性照顾原则就是减少不良的环境刺激，根据早产儿个体的具体情况，给予早产儿能促进自身发展的良好支持。</p> 
+ <p style="TEXT-INDENT: 2em">★一般护理</p> 
+ <p style="TEXT-INDENT: 2em">按早产儿护理常规进行护理并加强基础护理：暖箱每日清水擦拭、更换蒸馏水、每周终末消毒；床单、衣物必须消毒后使用并每日更换；擦浴、脐部护理每日一次；操作轻柔，避免搬动，减少刺激。</p> 
+ <p style="TEXT-INDENT: 2em">★模拟子宫环境</p> 
+ <p style="TEXT-INDENT: 2em">温度：保持患儿肛温在37℃，皮肤温度在36.5℃左右，2～4小时测体温一次；</p> 
+ <p style="TEXT-INDENT: 2em">湿度：随着日龄的增长暖箱内室温从80%逐渐过渡到60%；保持相对无菌的住院环境：按保护性隔离严格执行消毒隔离措施，医护人员接触患儿前要进行手的消毒，防止交叉感染。</p> 
+ <p style="TEXT-INDENT: 2em">★减少光线噪音对患儿的影响</p> 
+ <p style="TEXT-INDENT: 2em">进行各项操作时尽量关闭大灯，开启床旁灯，并根据昼夜调节亮度，培养患儿感觉昼夜的能力；</p> 
+ <p style="TEXT-INDENT: 2em">患儿睡眠时用毯子遮盖暖箱，减少噪音，保证其充足的睡眠；</p> 
+ <p style="TEXT-INDENT: 2em">声音的刺激&lt;60分贝，尽量避免突发高频声音如监护仪的报警声、电话铃声等。</p> 
+ <p style="TEXT-INDENT: 2em">★针对患儿身体特征所采取的措施</p> 
+ <p style="TEXT-INDENT: 2em">头部预防头部和颈部过度伸展，下巴在中心位置或轻微向下内收；</p> 
+ <p style="TEXT-INDENT: 2em">鼻部保持正常的鼻孔形状，避免鼻部T形区域受损和维持中隔的完整，使用CPAP时避免鼻部长期受压，鼻中隔处涂红霉素软膏每日三次，很好的固定鼻孔中的导管，避免过度牵拉，如鼻饲管等；</p> 
+ <p style="TEXT-INDENT: 2em">躯干和四肢用床单或绒毯围成舒适的鸟巢，将患儿置于其中，使其肢体有边界感，维持躯干直，四肢避免过度的外展和内收，维持膝盖在中心位，臀部和膝盖屈曲90度，肩膀向前屈曲以避免肩膀的内收，手放嘴边安慰，发展手、嘴综合能力，预防不正确的姿势及骨骼发育变形。</p> 
+ <p style="TEXT-INDENT: 2em">★非营养性吸吮</p> 
+ <p style="TEXT-INDENT: 2em">在患儿喂养尚未耐受时、实施侵入性操作前、哭吵时均可进行非营养性吸吮，它可促进吸吮-吞咽-呼吸协调能力，安抚婴儿，减轻疼痛，减少哭泣，增加氧饱和度，促进食物消化。</p> 
+ <p style="TEXT-INDENT: 2em">★袋鼠式照顾(KangarooCare)</p> 
+ <p style="TEXT-INDENT: 2em">这是一种家庭化的护理，从患儿体重超过一千克时开始，生命体征稳定，离开保温箱，只穿尿布，其父亲或母亲在暖箱旁裸露前胸，患儿爬于其胸腹部使肌肤贴在一起，患儿与父母心跳几乎合二为一，进行皮肤接触，每天一次或两次抚慰早产儿，增加亲子关系，使父母学会如何在家中照顾早产儿，增加父母的信心。</p> 
+ <p style="TEXT-INDENT: 2em">★减少、减轻疼痛刺激</p> 
+ <p style="TEXT-INDENT: 2em">给予有效的静脉、动脉置管，如PICC、脐动静脉置管等，尽量减少频繁穿刺对患儿的刺激；有创操作时口服30%的葡萄糖溶液0.5ml或安慰奶嘴。</p> 
+ <p style="TEXT-INDENT: 2em">★提供完整睡眠时间，避免打扰</p> 
+ <p style="TEXT-INDENT: 2em">集中护理，使其有不被打扰的睡眠时段，若发现患儿疲惫，给予休息时段促进其复原；不要突然惊醒患儿，在治疗前用轻柔的声音唤醒或触摸患儿，使其有准备。</p> 
+ <p style="TEXT-INDENT: 2em">★同步综合感觉刺激的训练</p> 
+ <p style="TEXT-INDENT: 2em">触觉方面让患儿睡在用冰袋自制的水床上，水温为50℃左右；撤离呼吸机后每日用专业手法进行抚触两次；</p> 
+ <p style="TEXT-INDENT: 2em">听觉反面每日定时播放音乐；</p> 
+ <p style="TEXT-INDENT: 2em">视觉方面在患儿暖箱上放置色彩鲜艳的玩具；</p> 
+ <p style="TEXT-INDENT: 2em">患儿觉醒时，在其20CM左右的视距内让他注视物体如玩具、人的脸等；</p> 
+ <p style="TEXT-INDENT: 2em">双子同床(co-bedding)患儿病情稳定，完全离氧，出暖箱后和另一位早产儿同置于远红外辐射床上，双子可以通过触摸，肢体缠绕，相互抚慰，促进生长发育。</p> 
+ <p style="TEXT-INDENT: 2em">■总结</p> 
+ <p style="TEXT-INDENT: 2em">通过发展性照顾与支持护理的实践运用，该患儿在院期间体重增长良好，无护理并发症的发生，安全渡过了体温、感染、呼吸、喂养、颅脑损伤等多项大关。经NBNA、CDCC的相关评分，分值均处于中等水平。脑CT、脑干诱发电位、头颅MRI的检查未见明显异常。</p> 
+ <p style="TEXT-INDENT: 2em">脆弱的早产儿有时也表现出惊人的适应力，但更需要父母的帮助，而暖箱会把父母与婴儿隔离开，袋鼠式照顾提供了亲子间皮肤接触的机会，让其父母陪伴并参与早产儿的照顾，父母会感到自己能为孩子做一些事情，更好地满足孩子的需要，提高亲子互动，培养感情，促进治疗及恢复家庭功能；父母的关心、照顾使早产儿免受外界的干扰，减少NICU的过度刺激对神经行为系统造成的不良影响，使他们有安全感。</p> 
+ <p style="TEXT-INDENT: 2em">发展性照顾与支持护理的实践运用，使NICU的护士们看到了未来早产儿护理的发展方向，改变了以往只按程序表对患儿进行护理的工作方法，我们认识到：早产儿自己不能有效地控制正常的生理和行为反应，无法适应环境的刺激，而护士们在观察和评估早产儿生理反应的基础上通过改变监护环境和护理活动，尽量减少环境和医疗护理活动给患儿带来的有害刺激，使刺激适度，从而真正提高早产儿的生活质量。 </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/front/yuyingshi/detail.do?lProjectMenuID=150&newsID=124207">家庭护理早产儿的多项要点</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/tezheng/1" >新生儿特征</A>
+				<A href="/static/menu/sm/jibing/1" >新生儿疾病</A>
+				<A href="/static/menu/sm/huli/1" >新生儿护理</A>
+				<A href="/static/menu/sm/zaochaner/1" class='thisclass'>早产儿</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=150&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/124206">按摩能增进母子间的感情</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124205">新生儿头发稀少不是病</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124204">注意新生儿这些情况不宜洗澡</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124203">8个“想当然”造成的护理误区</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124202">新生儿有望　落户即参保</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"124288"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

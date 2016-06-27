@@ -1,0 +1,432 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>不必一觉到天亮-新生儿-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/124635"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/xinshenger2.png)'
+			 href="/static/menu/bm/xinshenger2" alt="新生儿" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=150" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/xinshenger2'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/tezheng/1">新生儿特征</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jibing/1">新生儿疾病</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/huli/1">新生儿护理</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/zaochaner/1">早产儿</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/weiyang/1">新生儿喂养</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=150" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=150&menuID=155" rel="nofollow">新生儿喂养</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					不必一觉到天亮
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=150" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-26 21:13:08</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> 与很多事物一样，对育儿理念和方式方法的研究也在不断地进行新的探索，有新的发现，得出新的结论。许多原来盛行的理念和手段，现在已经过时了落伍了。我们在采纳的时候，需要鉴别，需要不断地更新。 <br /> <br /> 　　我的主张是妈妈不应该为了自己的方便，不管不顾孩子的需求，不给孩子应有的爱抚，甚至不给孩子吃奶，把孩子推到一边儿去，让他自己睡觉。 这其实是一种违背人性的理念和做法。<br /> <br /> 　　无论过去还是现在，很多中外父母都受到过一个错误观念的引导和影响，就是必须想尽一切办法，让宝宝一觉睡到天亮。<br /> <br /> 　　然而从科学的角度来看，这是一件mission impossible――不可能完成的任务！<br /> <br /> 　　因为没有任何人可以一觉睡到大天亮，大人不会，婴儿更不会。每个人都是在入睡、熟睡（深度睡眠）、浅睡（REM睡眠）之间循环往复，总要醒几次。只是成年人能够自主入睡、能够自我调整再次入睡，婴儿却不能够，他们需要父母的辅助。<br /> <br /> 　　我们应该了解婴儿睡眠的一些科学事实：首先，婴儿的睡眠迥异于成年人的睡眠。成年人入睡快，能够马上进入深睡状态；婴儿则入睡慢，需要在父母的辅助下，经由20分钟左右的浅睡状态而后进入熟睡阶段。相信大多数父母都有这样的经验：宝宝看似睡着了，但是一放下来就会苏醒大哭。这是因为他还没有进入深度睡眠，还需要更多的哺乳、安抚、拍哄、轻摇等等。<br /> <br /> 　　其次，婴儿的睡眠周期也较成年人短，熟睡程度亦较成年人轻，醒来后，还是需要父母的辅助才能重返梦乡。这其实是他们的一种生存本能，便于一旦发生意外或感到不适，能够马上醒来向父母发出信号。另外，轻度睡眠也有利于婴儿大脑发育。<br /> <br /> 　　睡眠不是我们能够强加于宝宝身上的一种状态。把孩子放下来让他自己入睡，是不现实的。宝宝在妈妈肚子里安睡了9个月，并非出生后就可以马上脱离母体单独行动，而是同样需要母亲的怀抱，需要听到妈妈的心跳、闻到妈妈的体味、感受到妈妈肌肤的温暖，藉此获得安全感。有些小宝宝在出生后头几个星期甚至几个月，都更乐意在父母怀抱里睡觉，这不是什么必须更改的坏毛病，而是自然正常的需要。<br /> <br /> 　　比较合适的态度是创造一个适宜睡眠的环境，将睡眠逐渐导入宝宝。最重要的是，我们要达到的目的，不仅仅是让宝宝安睡，更是要宝宝将睡眠看作是一件愉悦的事情，快乐地入睡，安心地睡着。<br /> <br /> 　　其实，医学上对婴儿睡整夜觉的定义是连续睡眠5个小时，而不是通常人们认为的8个小时以上。<br /> <br /> 　　掌握了科学知识，你会立刻发现，强行训练宝宝单独入睡，是多么不理智、不人道、也无法实现的愚蠢举措。得不到父母的安抚，宝宝无法入睡，大哭不已；父母不理睬宝宝渴求爱抚的信号，让宝宝在那里哭啊哭，且不说有多少父母能够做到如此忍心，这样做的直接后果――<br /> <br /> 　　一是给宝宝幼小的心灵留下重重的创伤：我是孤独的，爸爸妈妈是不爱我的，我呼唤他们，他们不理我。好吧，我哭也没有用，反正你们不来，我不哭了，我累了，我睡了，但是我悲伤，我愤怒，我不喜欢睡觉，我也不喜欢这个世界！<br /> <br /> 　　二是将父母变得冷淡漠然，对孩子的需求不再敏感，不再细心地观察孩子哭闹的具体原因，很容易忽略孩子因为生病或其他不适而发出的求救信号。?<br /> <br /> 　　婴儿出生后头几个月里，由于生长迅猛，兼之胃口小，消化快，夜里起码要起来一次吃奶。很早的一项研究表明，即使10个月大的婴儿，对于母乳的汲取也有25%是在夜间。如果早在4个月就断掉夜间的哺乳，无异于掐断了宝宝四分之一养分的来源。4个月并非添加辅食的一刀切时间，美国儿科学会在1997年更新了他们的立场</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>，将辅食添加的推荐月份从4个月更改为6个月，并且明确阐明，纯母乳喂养的婴儿在6个月之前无需进食添加物（包括果汁），因为辅食的营养不如母乳的营养全面。而且，睡前给宝宝多吃辅食并不能有效延长他的睡眠时间，吃多了消化不良反而会让他撑的睡不着。<br /> <br /> 　　6个月以上的婴儿夜间醒来的原因则可能更复杂一些，比如出牙的不适，由于白天可玩儿的东西多，分散他们的注意力，到夜间才会感到疼得厉害，醒来吃母乳对于宝宝是减轻痛苦的最佳途径。<br /> <br /> 　　其他导致婴儿夜间频繁苏醒的原因包括尿片过湿，感觉要撒尿，睡衣不舒服，衣着、被褥或室温过热，吃得过饱或饥饿感，生病的不适等等。稍大一些的孩子夜间频繁醒来的原因有时与白天的活动有关，有时与情感方面的波动有关，总之孩子夜里醒来的原因多种多样，需要父母细心观察，找出缘由，对症下药。<br /> <br /> 　　还有些孩子到晚上不愿意睡觉，或者夜间睡不安稳，是因为白天与父母相处的时间过短，他要利用晚上来弥补和爸爸妈妈在一起的需要。<br /> <br /> 　　一个小孩子如何睡觉，与这个孩子本身的脾气性格有很大关联。有些孩子几个月大就能基本上安睡一夜，但大多数孩子要到两岁半甚至三岁才睡整夜觉。所以孩子夜里醒来，并不意味着做父母的失败。更不能使用任何硬性手段，强迫孩子入睡。<br /> <br /> 　　西尔斯医生在《亲密育儿百科》里批评在西方盛行了100多年的婴儿睡眠训练法，将其称之为“比我们培训宠物还缺少人性的训练法”。其造成的后果就是大批婴儿和成年人患上睡眠失调症，在美国，几乎所有的大城市都有睡眠调整中心，来治疗这些无情训练法遗留下来的问题。<br /> <br /> 　　至于让孩子孤零零地留在一件屋子里单独入睡，也越来越多地遭到广大母亲和育儿专家的反对。他们极力推崇中国母亲的做法：让孩子跟着妈妈睡。这其实是一个流传于世界各地文化的古老习俗，不仅有利于哺乳的方便、有利于母婴双方的睡眠，更会增进母子感情联络与交流，增进母亲对孩子的了解以及孩子对母亲的信任感，为将来顺利而成功地教养孩子打下坚实的基础，也为孩子留下终身难忘的快乐记忆。夜间同床使得婴儿得到与母亲更多的肌肤接触，对于宝宝大脑的发育有着得天独厚的促进。人类学家蒙太古就此题目曾有专著，他指出，“婴儿有着无比强烈的对于身体接触的需求。”<br /> <br /> 　　即使不和宝宝同床，很多父母都乐意让宝宝和自己睡一间屋子，爸爸妈妈睡大床，宝宝自己睡小床。让宝宝单独一个屋子，不利于父母及时发现孩子的问题，对孩子的需求做出及时的反应，甚至会增加摇篮猝死症的几率。想想看，假如宝宝一夜不在身边，你要么频繁起床去察看他，自己也睡不安稳；要么你不管他，出了问题也不知道，难道你就放得下心？<br /> <br /> 　　除了欧美一些发达国家之外，全世界各民族的母亲几乎都让孩子和自己同屋或者同床睡眠。但是突然间，一些中国母亲们开始盲目效仿西方人的做法，把孩子留在单独的一间屋子里，并美其名曰“培养孩子的独立性”。<br /> <br /> 　　殊不知，孩子的独立性无需这么早培养，更何况独立性也不是培养出来的。婴儿从出生到3岁，需要的不是什么独立性，而是最大程度上满足对父母的依恋。一个饥饿的人是无法肩挑重担远足旅行的，只有填饱了肚子才能够胜任其他。同样，一个依恋感没有被满足、情感精神上处于饥饿状态的儿童，也无法独立。宝宝从出生到18个月，无论你怎样爱抚、亲吻、拥抱他，都不会“惯”坏了他。对父母的依恋感得到充分的满足、安全感建立的好的孩子，会自动脱离父母，走向独立。<br /> <br /> 　　如果妈妈为了自己省事，逼迫孩子遵循自己的作息时间，竭尽全力让孩子一夜睡到大天亮，最终结果不仅达不到自己的期望，而且会因为厌烦孩子的起夜而情绪低落，怨天尤人。这样恶性循环，两败俱伤。<br /> <br /> </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p> 　　不如就接受这个事实，孩子每夜都要起来，把这化作与孩子亲密交流的良好时机。并非白天做父母，夜里就可以下岗放假了。做父母是24小时的工作。宝宝每天有50%的时间都在睡觉，这并非无所作为的消磨，而是在对于睡眠，以至对于人生，开发积极健康的态度。<br /> <br /> 　　协助宝宝愉快入睡的tips：<br /> <br /> 　　* 白天多拥抱安抚宝宝，会让宝宝更在夜晚加顺利地进入睡眠状态。<br /> <br /> 　　* 固定睡眠时间，孩子月龄越大，越需要固定一致的睡眠时间和睡前活动。<br /> <br /> 　　* 抚触按摩或洗个温水澡有助于舒缓紧张的肌肉和忙碌的大脑。<br /> <br /> 　　* 在妈妈乳头上吃着母乳入睡是自然入睡的最佳方式――从温暖的洗澡水到温暖的怀抱到温暖的乳头到温暖的床，一路畅通无阻。<br /> <br /> 　　* 父亲哄拍孩子入睡：应该让宝宝习惯跟着爸爸妈妈都能入睡。<br /> <br /> 　　* 宝宝即将入睡却不愿意被放下来单独睡觉，不妨和宝宝一起躺下来，让他在你的怀抱里进入酣睡状态。<br /> <br /> 　　* 坐在摇椅上摇着宝宝入睡，珍惜这种独特的入睡需求吧，宝宝也就在头几年需要你摇晃他，这种宝贵的时光会很快过去的。<br /> <br /> <br /> <br /> </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/124334">产妇生奶疖如何喂奶？</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/tezheng/1" >新生儿特征</A>
+				<A href="/static/menu/sm/jibing/1" >新生儿疾病</A>
+				<A href="/static/menu/sm/huli/1" >新生儿护理</A>
+				<A href="/static/menu/sm/zaochaner/1" >早产儿</A>
+				<A href="/static/menu/sm/weiyang/1" class='thisclass'>新生儿喂养</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=150&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/124333">5大要点护理早产儿</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124332">怎样给早产儿供氧(图)</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124331">早产儿的袋鼠保育法</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124330">早产与母亲牙周炎有关</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124329">早产儿语言理解能力滞后</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"124635"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

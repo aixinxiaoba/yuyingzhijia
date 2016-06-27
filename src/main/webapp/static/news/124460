@@ -1,0 +1,489 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>喂养宝宝的18糊涂之举-新生儿-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/124460"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/xinshenger2.png)'
+			 href="/static/menu/bm/xinshenger2" alt="新生儿" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=150" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/xinshenger2'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/tezheng/1">新生儿特征</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jibing/1">新生儿疾病</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/huli/1">新生儿护理</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/zaochaner/1">早产儿</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/weiyang/1">新生儿喂养</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=150" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=150&menuID=155" rel="nofollow">新生儿喂养</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					喂养宝宝的18糊涂之举
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=150" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-26 20:59:47</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> 　　妈咪都想把宝贝喂得聪明又结实，但有时却不一定知道自己做得不恰当，结果是事与愿违。以下十八种做法，就是妈咪经常发生的糊涂之举：&nbsp; </p>
+ <p>　　糊涂之举1：吃鸡蛋多多益善 </p> 
+ <p>　　有家长以为，鸡蛋富有宝贝生长发育最需要的高蛋白，所以给宝贝吃再多鸡蛋都不怕。 </p> 
+ <p>　　明智之举：以6个月前的宝宝为例，他们的消化系统还未发育成熟，鸡蛋中的白蛋白经过肠壁直接进入到血液中，刺激体内产生抗体，引发湿疹、过敏性肠炎、喘息性支气管炎等不良反应。另外，过多吃鸡蛋会增加消化道负担，使体内蛋白质含量过高，引起血氨升高，同时加重肾负担，容易引起蛋白质中毒综合征，发生腹部胀闷、四肢无力等不适。营养专家认为，1岁至1岁半的宝贝最好只吃蛋黄，每天不能超过1个；1岁半至2岁的宝宝隔日吃1个整鸡蛋，待2岁以后才可每天吃1个整鸡蛋。 </p> 
+ <p>　　糊涂之举2：多吃鱼松营养好 </p> 
+ <p>　　也有家长认为，鱼松营养丰富，口味又很适合宝贝，应该多多给宝贝吃。 </p> 
+ <p>　　明智之举：研究表明，鱼松中的氟化物含量非常高。宝贝如果每天吃10~20克鱼松，就会从鱼松中吸收氟化物8~16毫克。加之从饮水和其他食物中摄入的氟化物，每天摄入量可能达到20毫克左右。然而，人体每天摄入氟的安全值只有3至4.5毫克。如果超过了这个安全范围，氟化物就会在体内蓄积，时间一久可能会导致氟中毒，严重影响牙齿和骨骼的生长发育。平时可把鱼松作为一种调味品给宝贝吃一些，但不要作为一种营养品长期大量给宝宝食用。 </p> 
+ <p>　　糊涂之举3：多吃肝脏补维A </p> 
+ <p>　　有父母觉得，动物肝很有营养，又含有很多维生素A，给宝贝吃得越多越好。 </p> 
+ <p>　　明智之举：研究表明，肝脏具有通透性高的特点，血液中的大部分有毒物质都会进入到肝脏，因此动物肝中的有毒物质含量要比肌肉中多出好几倍。除此之外，动物肝中还含有特殊的结合蛋白质，与毒物的亲和力较高，能够把血液中已与蛋白质结合的毒物夺过来，使它们长期储存在肝细胞里，对健康有很大影响。其实，动物肝只吃上很少的量，就可获得大量的维生素A并储存于肝脏。一般来讲，未满1岁的宝贝每天需要1300国际单位的维生素A，1~5岁每天需要1500国际单位，相当于每天吃动物肝时吃12至15克左右。 </p> 
+ <p>　　糊涂之举4：鸡汤比鸡肉有营养 </p> 
+ <p>　　更有父母认为，给宝贝吃鸡时，要多喝汤少吃肉，鸡汤的营养比鸡肉好。 </p> 
+ <p>　　明智之举：营养学家指出，这种说法是没有科学道理的。鸡汤虽然味道十分鲜美，但鸡汤中所含的蛋白质仅是鸡肉的10%，脂肪和矿物质的含量也不多。但是，鸡汤中的营养虽然比不上鸡肉，可汤能刺激胃液分泌，增加食欲，帮助消化。因此，最适宜的做法是汤和鸡肉一起吃。 </p> 
+ <p>　　糊涂之举5：维生素和矿物质摄入越多越好 </p> 
+ <p>　　有父母认为，给宝贝补充维生素和矿物质越多越好，比如多补充维生素A、D。 </p> 
+ <p>　　明智之举：虽然维生素和矿物质对婴幼儿十分重要，然而也不能给宝宝过量地摄入或滥用，否则会对宝宝身体产生不利影响，造成的危害比如会有维生素A、D中毒等。 维生素C对人体有许多益处，但长期大量服用，血浆中维生素C的浓度一直处于饱和状态，幼儿容易产生草酸盐尿。现在市场上有许多专为儿童配制的口服营养补剂，含有大量的维生素、脂肪、蛋白质及糖类，具有较高的营养价值，但也不能长期多量服用，否则会造成消化不良，发生腹胀、腹泻等症状，反而阻碍了小儿的生长发育。 </p> 
+ <p>　　糊涂之举6：母乳不如奶粉有营养 </p> 
+ <p>　　有父母觉得，母乳看上去稀稀的，没有奶粉冲出来的牛奶那样</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>浓，所以放弃母乳喂养，以牛奶替代母乳。 </p> 
+ <p>　　明智之举：母乳喂养对宝宝有很多好处，母乳中含有抵抗多种疾病的抗体，实践证明用母乳喂养的宝宝少生病；母乳与牛奶相比，所含营养较全面、充分，母乳喂养的宝宝较健康；母乳对于宝宝来说更容易消化吸收，且吸收率最高。对妈妈来说，母乳喂养更方便、更省钱，不用消毒，且温度适宜；母乳喂养的妈妈身体恢复较快，并不易患上乳腺疾病。 </p> 
+ <p>　　糊涂之举7：初生儿吸奶嘴比吸乳头好 </p> 
+ <p>　　有父母觉得：在宝宝未习惯吮吸母乳前用奶嘴喂宝宝比较好。 </p> 
+ <p>　　明智之举：用奶嘴吃奶，比吮吸母乳省力。但是如果宝宝习惯了奶嘴，就会拒绝吸妈妈的乳头，妈妈的母乳量就是会减少。因此，在宝宝未习惯吮吸母乳前，不要随意用奶嘴喂宝宝，更不该使用安慰奶嘴。 </p> 
+ <p>　　糊涂之举8：鲜奶比配方奶粉好 </p> 
+ <p>　　有父母认为：用鲜奶代替配方奶粉喂养2岁以内的宝宝 </p> 
+ <p>　　明智之举：对宝宝来说，除母乳外的其他乳汁，如牛乳、羊乳都有不可避免的缺陷，如牛乳蛋白质中的酪蛋白太高，不利于宝宝消化；牛乳中蛋白质、钙、钠、钾等的高含量与宝宝未成熟的肾脏能力不相适应。因此，2岁以内的宝宝最好选用配方奶粉，尽量不用鲜奶。 </p> 
+ <p>　　糊涂之举9：辅食添加比母乳喂养更重要。 </p> 
+ <p>　　有父母认为：从宝宝4个月开始，辅食添加对宝宝的发育来说更重要，此时的母乳已经没有什么营养了！ </p> 
+ <p>　　明智之举：在宝宝4――6个月内，一直给其喝流质食品。4――6个月后，宝宝需要补充一些非乳类的食物，包括果汁、菜汁等液体食物，米粉、果泥、菜泥等泥糊状食物以及软饭、烂面、小块水果、蔬菜等固体食物。此时补充食物与母乳喂养同样重要。添加可掌握以下原则：逐渐由1种食物添加到多种，不能在1――2天内加2――3种，以免宝宝消化不良或对食物过敏；添加过程中，如果出现消化不良或过敏症状，应停止喂这种食物，待恢复正常后，再从少量重新开始。如果仍出现过敏，应暂不使用并向医护人员咨询；宝宝患病或天气炎热时，应暂缓添加新品种，以免引起消化不良。 </p> 
+ <p>　　糊涂之举10：宝宝肚子痛是因为食物不易消化 </p> 
+ <p>　　有父母认为：宝宝腹痛是因为进食的食物引起消化不良。 </p> 
+ <p>　　明智之举：婴儿腹痛，也称为婴儿肠绞痛，常见于3个月内的宝宝，多发生在夜里，表现为婴儿突然大声哭闹，烦闷不安，两腿屈曲，喂奶或抱起仍啼哭不止。常见的原因有：奶嘴的孔过小或过大，或者奶嘴未充满乳汁，宝宝吸奶时就会吞入大量空气，气泡在宝宝肠里移动会引起腹痛；吃得过饱，胃胀不适，易引起腹痛；宝宝剧烈哭闹时，也会吸入空气，引起腹痛。 </p> 
+ <p>　　糊涂之举11：吃牛初乳和蛋白粉能提高宝宝的免疫力 </p> 
+ <p>　　有父母认为：吃牛初乳和蛋白粉能提高宝宝的免疫力，宝宝就不容易得病。 </p> 
+ <p>　　明智之举：给宝宝多吃牛初乳和蛋白粉能否提高婴幼儿免疫力尚无定论，不能用它替代母乳喂养宝宝。蛋白粉的蛋白质纯度太高，食用时容易加重肝肾负担，父母不应该给宝宝吃蛋白粉，更不能用它代替乳品。 </p> 
+ <p>　　糊涂之举12：牛奶＋鸡蛋是最好的营养早餐 </p> 
+ <p>　　有父母认为：牛奶＋鸡蛋是最好的营养早餐，光吃这两种就可以补充所需的营养。 </p> 
+ <p>　　明智之举：营养质量好的早餐一定要包括4个部分：谷物、动物性食品、奶类、蔬菜或水果。包含其中三部分的早餐质量为一般，只包含一二部分的属于质量差的早餐。谷类食品，如馒头、面条、稀饭等，对孩子的身高发育有着很重要的作用。蔬菜和水果提供了一上午的维生素供给。 </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>&gt; </p>
+ <p>　　糊涂之举13：多给孩子吃钙片补钙 </p> 
+ <p>　　有父母认为：如果想要长高个子，就必须经常补钙。 </p> 
+ <p>　　明智之举：婴幼儿如果保证了奶制品的摄入，那么他们的体内就并不缺钙，而是缺乏促使钙吸收的维生素D。与其给孩子吃钙片，还不如给孩子补充一些鱼肝油，或者多做户外活动晒晒太阳。 </p> 
+ <p>　　糊涂之举14：豆制品是蔬菜 </p> 
+ <p>　　有父母认为：让宝宝多吃蔬菜好，豆制品就是蔬菜。 </p> 
+ <p>　　明智之举：实际上，豆制品可看作荤菜，里面的主要成分是植物蛋白，而并没有蔬菜所富含的维生素和粗纤维。所以平时不要把豆制品当成蔬菜，吃了豆制品还是需要食用一些蔬菜。 </p> 
+ <p>　　糊涂之举15：孩子大便干燥需吃香蕉、麻油 </p> 
+ <p>　　有父母认为：如果遇到宝宝便秘，最好是吃些香蕉、麻油可以帮助消化。 </p> 
+ <p>　　明智之举：吃这些并不管用，最重要的是养成孩子良好的排便习惯，排便时间要固定。因为食物消化到达大肠的时候，大肠的主要功能是，吸水―造血；蠕动―将食物残渣排出体外；如果能养成每天排便的习惯，把食物残渣及时排出体外，那么大便干燥就能得到缓解。如果食物残渣滞留在大肠中的时间越长，那么水分就被吸收的越彻底。 </p> 
+ <p>　　糊涂之举16：孩子不能晒太阳 </p> 
+ <p>　　有父母认为：如果晒太阳，孩子很容易被晒伤，最好是不晒得好！ </p> 
+ <p>　　明智之举：晒太阳可促进人体的血液循环，增强人体新陈代谢和免疫功能，特别是在防治儿童佝偻病或成人骨质疏松症方面，有着特殊的疗效。 </p> 
+ <p>　　可有些父母在孩子晒太阳时，给孩子蒙上纱巾、戴上帽子，还隔着玻璃晒。专家指出，这样晒并没有效果。晒太阳要尽量使皮肤直接与阳光接触，给孩子晒头后部、手腕、脚腕、屁股，防止生病。如果担心阳光强烈刺激皮肤，父母可利用清晨或傍晚的阳光，或在树荫、屋檐下，或开着窗利用折射光，使宝宝受益。 </p> 
+ <p>　　糊涂之举17：吃零食有害健康 </p> 
+ <p>　　有父母认为：零食有害健康，孩子吃了这些垃圾食品，会影响生长发育。 </p> 
+ <p>　　明智之举：零食不等同于垃圾食品。高热量低营养的食品才是垃圾食品。而对于一些有营养的零食，专家建议在不影响正餐的情况下，可以给孩子适量摄入，补充体内营养成分。特别是身材瘦小的孩子，最好晚饭后就给他吃零食，一直吃到睡觉前为止。上了小学的孩子也可以采用这种方法增强发育。 </p> 
+ <p>　　糊涂之举18：蔬菜，水果削皮吃卫生 </p> 
+ <p>　　很多父母都认为，蔬菜瓜果的皮是不卫生的，总想去掉皮食用。 </p> 
+ <p>　　明智之举：殊不知在你去掉皮的同时，也去掉了很多营养物质。其实蔬菜连皮煮汤很有营养，菜叶比菜梗有营养，而苹果皮中含有大量铁质。正确的做法应该是：充分清洁蔬菜水果表皮以后，连皮一起吃。&nbsp;&nbsp;&nbsp; </p> 
+ <br /> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/124334">产妇生奶疖如何喂奶？</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/tezheng/1" >新生儿特征</A>
+				<A href="/static/menu/sm/jibing/1" >新生儿疾病</A>
+				<A href="/static/menu/sm/huli/1" >新生儿护理</A>
+				<A href="/static/menu/sm/zaochaner/1" >早产儿</A>
+				<A href="/static/menu/sm/weiyang/1" class='thisclass'>新生儿喂养</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=150&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/124333">5大要点护理早产儿</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124332">怎样给早产儿供氧(图)</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124331">早产儿的袋鼠保育法</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124330">早产与母亲牙周炎有关</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124329">早产儿语言理解能力滞后</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"124460"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

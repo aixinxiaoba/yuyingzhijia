@@ -1,0 +1,477 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>新生儿喂养全解答-新生儿-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/124859"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/xinshenger2.png)'
+			 href="/static/menu/bm/xinshenger2" alt="新生儿" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=150" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/xinshenger2'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/tezheng/1">新生儿特征</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jibing/1">新生儿疾病</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/huli/1">新生儿护理</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/zaochaner/1">早产儿</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/weiyang/1">新生儿喂养</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=150" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=150&menuID=155" rel="nofollow">新生儿喂养</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					新生儿喂养全解答
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=150" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-26 21:36:22</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　<strong>母乳喂养有哪些优越性？<br /></strong><br />　　小儿的发育、健康与喂养方式有着非常重要的关系。母乳是小儿最理想、最适宜的天然营养品，它的热量很高，285焦耳（68卡）／100毫升，所含蛋白质、脂肪、碳水化合物的量及比例都适合于小儿的消化能力及小儿生长发育的需要。</p> 
+ <p>　　母乳中所含的免疫球蛋白（主要是分泌型IgA）的性质稳定，能忍受酸碱变化及蛋白分解酶的作用，并能保护肠粘膜不被病毒或细菌侵入。母乳中还含有乳铁蛋白、溶菌酶和其他酶类。补体以及吞噬细胞，乳铁蛋白有较强的抗感染作用，近来发现，初乳中含有丰富的免疫物质，可用来治疗某些疾病，如对新生儿致病性大肠杆菌所致的腹泻有一定的疗效。</p> 
+ <p>　　母乳直接喂养，既经济、卫生、方便，又无污染的危险性，且具有广泛的抗细菌、病毒和真菌的抗钵活性，包括对大肠杆菌、白喉杆菌、肺炎双球菌的抗体，对脊髓灰质炎、麻疹等病毒的抗体及对轮状病毒的中和抗体等等。母乳中还含有较多的乳糖，乳糖可酵解产酸，使母乳喂养儿的粪便pH值降低，不利于大肠杆菌等致病菌的生存，而使不致病的双歧芽胞杆菌大量繁殖，减少了新生儿大肠杆菌及其他病菌感染的机会。经母乳喂养的小儿，发生过敏症状的极为少见。</p> 
+ <p>　　此外，母乳喂养还可激发和促进母子的感觉，以及内分泌、生理、免疫及行为的变化，促发母子一系列的天赋行为，增加母子之间的感情。因此，母乳喂养不仅可降低婴儿的发病率与死亡率，还可对婴儿的智力发育及情绪稳定有很大的影响。所以一定要提倡母乳喂养，鼓励母乳喂养，并为此创造良好的条件。</p> 
+ <p>　　<strong>牛乳喂养有何缺点？<br /></strong><br />　　牛乳的化学成分平均含蛋白质3．3％、脂肪3，7％、糖4．8％、矿物质0．7％。牛乳与人乳比较，在质与量的方面相差甚多，特别是蛋白质与脂肪。牛乳中酪蛋白的含量较高，而酪蛋白遇到胃酸后形成较大的凝块，不易消化；牛乳脂肪中的不饱和必须脂肪酌含量较人乳少，且牛乳的脂肪球较人乳的脂肪球大，不利于小儿消化吸收；牛乳中的乳糖含量较人乳少，缓冲物质较人乳高出约三倍。牛乳经胃液消化后的酸碱度（pH）为5．3（人乳为3．6），对新生儿来说难以适应；牛乳易受细菌污染，如结核杆菌、链球菌、伤寒杆菌及布氏杆菌等，都可经牲畜或人手的媒介侵入乳中。</p> 
+ <p>　　因此，要大力提倡母乳喂养，尽可能地做到母乳喂养。如因某些特殊情况而实在无法取得人乳时，可请健康乳母代哺乳或从爱婴医院的奶库中获取乳汁，尽可能地做到母乳喂养6个月。</p> 
+ <p>　　<strong>生后多长时间可喂奶？<br /></strong><br />　　母乳是宝室最好的饮食，由于宝宝在母亲体内时一切的营养均由母亲通过血液循环而供给。当宝宝离开母体后，一切的营养均须自己摄取。同时，宝宝离开母体后，易受外界环境、温度的影响，因此，就必须尽快获取营养，以维持生长、发育的需要。</p> 
+ <p>　　生后多长时间可开始喂奶呢？过去一直认为出生12小时后可开始喂奶，在此之前可给宝宝喂少许糖水。但最新观点认为生后半小时内即可喂奶，让宝宝自己吸吮奶头，以刺激乳汁的分泌。并提出喂奶前不喂任何食品或饮料，除非有医学指征。</p> 
+ <p>　　<strong>怎样给新生儿喂奶？</strong><br /><br />　　喂奶时母亲及宝宝都应采取最适当的体位，母亲可坐在沙发上或卧在床上（侧卧或仰卧），也可坐在沙发上或舒适的椅子上，宝宝的身体转向母亲，紧贴母亲身体，下颏接触乳房，鼻尖对着乳头。让宝宝含着乳头及大部分乳晕，母亲用上臂托住宝宝的头部、以免过度后仰而妨碍乳汁的吞咽，同时还可听着轻松的音乐或心平气和边与宝宝交谈。这样可使母子心心相印，情感交融。</p> 
+ <p>　　过去一直认为，每次可先吸空一侧乳房，再吸另一侧乳房，下次喂奶时应先吸上一次后吸的一侧乳房，以防泌乳功能受到影响，而引起少乳或无乳。但最新观点认为，两侧乳房可同时交替吸吮，不要等一侧吸空后再吸另一侧，这样，每次哺乳时两侧乳房都可受到相同的刺激，因为吸吮是对乳汁分泌最有效的刺激，特别是乳汁不足的母亲，更应勤喂多吮，可使乳量增加。每次吸出的乳汁愈多，下次分泌的乳汁亦愈多。</p> 
+ <p>　　<strong>什么情况下不宜给新生儿哺乳？<br /></strong><br />　　母乳是宝宝最好的食品，当宝宝有病而不能直接吮奶或因母亲奶头内陷面不能直接喂奶时，可将乳汁挤出，用小勺或滴管喂给宝宝吃。</p> 
+ <p>　　当乳母患有急性甲型肝炎，血清中HBsAg、HBeAg、抗HBc阳性（大三阳）或HBsAg、抗HBc阳性（双阳），严重的心脏病，中至重度肾功能不全，糖尿病合并心脏病，肾脏疾病，眼底病变，高血压，癫痫，精神病，单纯疱疹，乳腺脓肿等疾病时，暂不宜哺乳，当乳母因病而服用某些药物，如：苯巴比妥，可待因，吗啡，溴隐亭，麦角碱，狸，扑痫酮，氯霉素，四环素等。由于这些药物可通过乳汁分泌，而进入新生儿体内，使新生儿的身体受到伤害，所以，这种情况下亦暂不能哺乳。但这些暂不能哺乳的母亲每天应挤奶6～8次或更多，以防病好后乳汁也不分泌了。</p> 
+ <p>　　<strong>如何促进母乳分泌？<br /></strong><br />　　乳汁的分泌受诸多因素的影响，为了确保乳汁充足，应做到以下几点：<br />　　（1）增加对乳房吸吮的次数及采取正确的吸吮姿势。有效而正确地吸吮是对乳汁分泌最有效的刺激，吸吮的次数愈多，愈有利于乳汁的分泌。一般是根据宝宝饥饱的要求灵活掌握，每次应两侧乳房同时交替吸吮。如乳汁较多，一次吃不完，则应将未吃完的乳汁挤掉，因为每次吸出的乳汁愈多，下次分泌的乳汁亦愈多。<br />　　（2）吃容易消化的含营养丰富的食物及多喝鸡汤、鱼汤或骨头汤等。<br />　　（3）乳母必须保证充足约睡眠、休息，做到生活有规律，心情舒畅，环境优雅，空气清新。<br />　　（4）如做到以上三点，乳汁分泌仍不充足，则应在医生的指导下服用一些下奶药。</p> 
+ <p>　　<strong>间隔多长时间喂一次奶？</strong><br /><br />　　有规律的生活习性对于小儿来说是十分有利的。极大多数消化系统功能及其他各方面均正常的新生儿，每饱餐一次母乳，一般能维持3～4小时后才有饥饿感。这样，慢慢地自然形成了一定的规律。但个体的差异性很大，有些生后较虚弱或体重较轻的新生儿在每次饱餐后可能要维持4～5小时，而生前发育良好，生后体重较重的新生儿对奶的需求量可能要大些，有时在餐后2～3小时就又想吃奶。因此，最新观点认为，不必给新生儿人为地订一个喂奶的间隔时间，而是只要新生儿有饥饿感，需要吃奶，就可以喂。这样将更利于新生儿的生长发育。</p> 
+ <p>　　<strong>怎样判断新生儿已吃饱？</strong></p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong>光凭吃奶时间的长短来判断宝室是否吃饱的方 <br /></strong><br />　　法是不科学的。由于新生儿有先天的吸吮动作，往往在吃饱过后还会继续吸吮乳头15～30分钟。另外，宝宝每次吃奶的时间与量是不相同的。但到底怎样判断宝宝是否吃饱了呢？这也不是千篇一律的，因为每个宝宝都有一定的个体差异性，所有的父母亲一开始就要密切观察宝宝每次吃奶后的反应，如吃过奶一会儿又不停地大哭，且未发现其他异常情况，则说明宝宝很可能没有吃饱，可再给予喂奶，如宝宝又有滋有味地吃着，说明判断是正确的。而宝宝吃奶后又很快甜甜地入睡，则说明已经吃饱。所以，每位父母亲应根据自己的观察与感觉而正确地进行判断。</p> 
+ <p>　　<strong>唇、腭裂新生儿如何母乳喂养？<br /></strong><br />　　正常情况下，乳汁是通过口腔的吸吮以及乳房的喷乳反射将乳汁喷入新生儿的口腔内。而唇、腭裂的新生儿吸吮对口腔内负压不够，吸吮力不强，有时乳汁可误入气道或鼻腔，甚至发生窒息。所以，喂养这种孩子时应让新生儿垂直坐在母亲的大腿上，母亲可用手挤压乳房促进喷乳反射。如系唇裂，患儿母亲可用手指压住唇裂处，增加新生儿的吸吮力。由于唇、腭裂患儿吸吮力的低下，每次吃进的乳汁可能相对较少，故在每次哺乳后应用手挤空乳房中的乳汁，然后再用小勺子或滴管喂给新生儿吃，使得新生儿能健康地成长。</p> 
+ <p>　　由于这种小儿有反复呼吸道感染的潜在因素，而母乳中又含有多种免疫物质及溶菌酶等，可增加新生儿的抗病能力。所以，对于唇、腭裂新生儿，更应采取正常的母乳喂养。</p> 
+ <p>　　<strong>代谢异常新生儿可喂母乳吗？<br /></strong><br />　　1．苯丙酮尿症本病是较常见的一种氨基酸代谢异常性疾病）由于肝内缺乏苯丙酸羟化酶，使苯丙氨酸不能正常代谢成为酪氨酸，因此，大量的苯丙氨酸及苯丙酮酸蓄积于体内，而对中枢神经系统造成损害。所以，应限制苯丙氨酸的摄入量。人乳中的苯丙氨酸含量较低，但对于患苯丙酮尿症的新生儿来说仍偏高。因此，对这些小儿可采取部分母乳喂养，同时加用低苯丙氨酸的配方奶，并定期检测血苯丙氨酸的含量，以作为母乳和配方奶比例调整的依据。</p> 
+ <p>　　2．枫糖尿病本病是一种较为罕见的氨基酸代谢异常性疾病。主要是由于分支酮酸脱羧酶的先天性缺陷所致，可造成严重的脑损伤，而导致智力低下。本病可采取适量母乳与低蛋白质饮食代用品混合喂养，定期检测血中氨基酸浓度，以调整饮食的比例。</p> 
+ <p>　　3.半乳糖血症本症是由于酶的缺陷，使乳糖的代谢产物半乳糖-1-磷酸和半乳糖醇增多，这些物质蓄积于体内后可引起神经系统损害而导致智力低下，并可伴有黄疸、低血糖、白内障、肝脏肿大、继发性出血等较为严重的症状。因为乳糖是乳汁中一的主要糖类，所以，患本症的新生儿应立即停止母乳喂养，而改喂不含乳糖的大豆类代乳品较为合适。</p> 
+ <p>　　<strong>新生儿发热时能喂母乳吗？<br /></strong><br />　　发热是小儿常见的临床症状，可由多种疾病引起。发热时机体要消耗较多的能量及水分，退热时往往因大量出汗而致体内水分消耗增加。而母乳中含有较多的免疫物质，可使新生儿受感染的机会相对减少，发热的发生率亦相对减低，发热的程度也相对减轻。另外，母乳中还含有大量的水分及多种微量元素，可供给因发热而丢失的液体及电解质，同时也供给了足够的热量。因此，当新生儿发热时不但可以正常母乳喂养，而且还要增加喂奶的次数。如做到了这一点，新生儿不但不会因发热出大汗而致虚脱，同时还能促进身体健康的恢复。</p> 
+ <p>　　<strong>母乳不足的原因是什么？<br /></strong><br />　　1.喂养不当新生儿出生后没有及早地吸吮乳房，也没有按需哺乳，每24小时哺乳的次数及吸吮的时间不够，吸吮的姿势不正确。母婴分离，使用奶瓶喂奶而造成“乳头错觉”，导致新生儿不愿吸吮母乳。乳头疼痛而不愿让新生儿吸吮。过早地增加辅食等因素，均可导致乳汁不足。</p> 
+ <p>　　2．指导不当医务工作者没有正确地指导哺乳，或由于一些客观原因而使得母亲产生自己乳汁不足的错觉，导致新生儿对乳房吸吮刺激的以少，最终导致乳汁不足。</p> 
+ <p>　　3．暂时性母乳供应减少由于乳母疲劳，精神抑郁，对母乳喂养缺乏信心，母亲或新生儿患病，母亲月经恢复等因素均可使乳汁暂时性分泌不足。</p> 
+ <p>　　4．其他乳房发育不良，乳房手术，乳头凹陷，再次妊娠，母亲甲状腺功能低下或使用了某些影响乳汁分泌的药物，均可使乳汁分泌减少。</p> 
+ <p>　　新生儿可添加补充食品吗？<br />　　有下列情况之一者，可加用补充食品。<br />　　1．极低体重儿（＜1500g）或早产儿（＜32周）。<br />　　2．严重未成熟有潜在性低血糖或低血糖儿。<br />　　3．患先天性代谢性疾病，如：苯丙酮尿症、枫糖尿病、半乳糖血症。<br />　　4．当新生儿脱水而母乳不能满足需要时。</p> 
+ <p>　　<strong>母乳不够时怎么办？<br /></strong><br />　　母乳是宝宝最理想的食品，但当母乳不足时，为了不影响宝宝的生长发育，应加用代乳品，以满足宝宝的需要，但仍应以母乳为主。代乳品以牛奶为最佳，所增加牛奶的量及浓度应根据宝宝的日龄、母乳缺少的程度而定。增加代乳品的方式一般分为两种，一种是用代乳品在两次喂乳之间完全代替母乳喂室宝一次，但这种方式使得喂母乳的间隔时间延长，减少了吸吮对乳房的刺激，更加不利于乳汁的产生；另一种是在每次喂母乳后，再喂代乳品，所喂的量以到宝宝不愿吃为止，这样经过几天的试验，如宝宝消化功能正常，则说明这种方式已被宝宝所接受，同时也知道了每次应增加代乳品的量。以上两种方式以后一种较为合理，但每人可根据实际情况而选择。</p> 
+ <p>　　<strong>用鲜牛奶好还是用牛奶粉好？<br /></strong><br />　　当乳母乳汁不足或无乳汁时，可加用母乳代用品，如果有鲜牛奶，应尽量用鲜牛奶喂养，因为鲜牛奶的营养成分比较接近人乳，如没有鲜牛奶，亦可用牛奶粉或其他母乳代用品喂养。有些小儿对鲜牛奶较适应，有些小儿则对牛奶粉较适应，故可根据每个小儿的实际情况而走。</p> 
+ <p>　　<strong>牛奶煮多长时间为宜？<br /></strong><br />　　为了给牛奶消毒，常将牛奶煮沸，但牛奶到底煮多长时间为好呢？有人认为煮得时间越长越能将牛奶彻底消毒，其实不然，因为牛奶中含有丰富的蛋白质，当牛奶加热到摄氏60度左右时，这些蛋白微粒就发生变化，由液体状变成凝胶状而发生沉淀。牛奶中还含有一种很不稳定的磷酸盐，当加热时也能发生沉淀。另外，牛奶加热到100摄氏度左右时，其中的乳糖开始分解，使牛奶变褐，同时还产生少量甲酸，使牛奶带有酸味。因此，最科学的方法是将牛奶加热到65～68摄氏度，约30分钟；如温度不好控制，就将牛奶煮沸2分钟。千万不能长时间的煮沸而破坏了牛奶中的营养成分。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong>牛奶如何调配？<br /></strong><br />　　牛奶粉是用鲜牛奶加热干缩而成，用时必须先用水稀释。一般先将牛奶粉按奶粉和水的比例（按容量为1：4、按重量为1：8）调配成全奶，然后再根据新生儿日龄的不同在全奶中加水配成不同浓度的稀释奶，见表1-1。</p> 
+ <p>　　表1-1不同日龄儿所需牛奶的调配<br />　　出生天数全奶：水加糖（％）<br />　　1～21：15～8<br />　　3～72：15～8<br />　　8～153：15～8<br />　　16～28全奶5～8</p> 
+ <p>　　<strong>牛奶中一定要加糖吗？<br /></strong><br />　　牛乳与人乳中的糖均为乳糖，但牛乳中的乳糖含量较低，因此，新生儿所吃的牛奶中要一定量的糖，一般是100ml牛奶中加糖5～8克，即5％～8％的浓度。因为，牛奶中本身的糖所提供的热量仅占人体总需热量的1／3，如不另外加糖则不能满足新生儿能量的需求而影响生长和发育。但牛奶中加糖不能过多，如超过8％，则可能导致小儿出现虚胖、腹泻，进而引起抵抗力下降，易受细菌感染。加糖量亦不可低于5％，否则小儿获取的热量不足，使生长、发育受影响，最终导致营养不良等疾病。所以，牛奶中一定要加糖，但要适量。</p> 
+ <p>　　<strong>怎样给新生儿喂牛奶？</strong><br /><br />　　把新生儿斜放在膝盖上或抱在怀里，头略仰起，是最理想、最符合自然规律的喂奶方式。在这种姿势下新生儿和父母亲相对而视，还可增加相互间的亲密感。喂奶前应按要求将牛奶配制好，然后用小勺子将牛奶慢慢地喂给新生儿吃。由于新生儿有天生的吸吮条件反射，当小勺子接触口唇时，新生儿则会发生吸吮动作，将牛奶吞咽入胃中。大多数新生儿以吃饱为止，但有些新生儿在吃到一半时就不肯再吃，这时要将新生儿斜抱起，轻拍背部，让胃中的空气排出后再喂；如仍不肯吃，则应查找原因，是真正地吃饱了，还是由于身体不舒服而不想吃。</p> 
+ <p>　　有些家长有时因忙不过来，就让新生儿躺在床上，然后将传统的喂奶工具奶瓶斜垫、奶嘴放在新生儿口中，让新生儿自由地吮奶，这种喂奶方法极不好，而且极为危险；因为在这种情况下，如新生儿吮奶过猛，可发生吐奶现象，家长若不能及时发现，呕吐的乳汁就有可能被吸入气管而导致窒息。因此，这种喂奶方式不可取。<br /><br />　　每次吃剩下的奶一定要倒掉，不能留到下一餐再吃。因为，牛奶是很好的细菌培养基，剩奶留到下一餐再吃时很可能已被细菌污染，新生儿吃后可能会发生腹泻、食物中毒等疾病，特别是在炎热的夏天更应注意。</p> 
+ <p>　　<strong>新生儿不同阶段的牛奶喂养<br /></strong><br />　　正常新生儿在不同的时期所需牛奶的量及浓度亦不同，随着日龄的增加，牛奶的量及浓度亦随之增加，以满足机体生长发育的需要，见表1-2。</p> 
+ <p>　　表1-2不同日龄儿所需奶的浓度及量<br />　　出生天数全奶：水加糖（％）每次吃奶量（ml）<br />　　1～21：15～820～40<br />　　3～72：15～840～80<br />　　8～153：15～880～100<br />　　16～28全奶5～8100以上</p> 
+ <p>　　如果新生儿的消化功能好，每次的奶量和浓度可根据实际情况而有所增加，并在每两次喂奶之间喂少许温开水以减轻大便的干燥程度，及清洁口腔以减少鹅口疮等口腔疾病的发生。奶的温度以将奶水滴在喂奶者的手背上不烫为宜。</p> 
+ <p>　　<strong>新生儿能喂米汤吗？<br /></strong><br />　　米汤的主要成分是碳水化合物，一般100ml米汤中含有10克左右的糖，如果用米汤喂养新生儿，仅满足了新生儿能量的需要，而其他方面的营养如蛋白质、脂肪供给不足，这将影响新生儿的正常生长、发育，最终导致营养不良等疾病。因此，不可用米汤喂新生儿。</p> 
+ <p>　　<strong>能用麦乳精喂新生儿吗？<br /></strong><br />　　麦乳精是由乳粉、炼乳、蛋粉、麦精为主要原料加入一定量的砂糖、奶油、可可粉、柠檬酸、维生素等，经一系列复杂的工艺精制而成。虽然含有多种营养成分，但作为母乳代用品，是不利于新生儿生长发育的。由于麦乳精中的蛋白质多属于植物蛋白质，其营养价值较动物蛋白质低，而蛋白质是组成人体所必须的原料，特别是对于生长发育中的小儿糖的比例是1:0.83:3.35，由此可看出麦乳精中糖、脂肪的含量对于小 <br />儿来说相对过高，除不易被小儿消化吸收外，同时，还影响了其他营养成分的摄取，最终也将导致营养缺乏。</p> 
+ <p>　　另外，麦乳精中含有一定量的可可粉，而可可粉可使小儿神经系统处于兴奋状态，久而久之，则可严重影响小儿神经系统的正常发育。所以，不可用麦乳精喂新生儿。</p> 
+ <p>　　<strong>新生儿呕吐后能马上再喂奶吗？<br /></strong><br />　　新生儿刚吃过奶后，不一会儿就似乎全吐出来了，这时有些家长可能怕新生儿受饿，马上就再喂。遇到这种情况时要根据新生儿当时的状况而定，有些新生儿吐奶后一切正常，也很活泼，则可以试喂，如新生儿愿吃，那就让新生儿吃好。而有些新生儿在吐奶后胃部不舒服，这时如马上再喂奶，新生儿可能不愿吃，这时最好不要勉强，应让新生儿胃部充分休息一下。一般情况下，吐出的奶远远少于吃进的奶，所以，家长不必担心，只要新生儿生长发育不受影响，偶尔吐一次奶，也无关紧要。当然，如每次吃奶后必吐，那么就要作进一步检查，以排除疾病而致的吐奶。</p> 
+ <p>　　<strong>乳母能吃盐吗？</strong><br /><br />　　成人一般每日需盐量为5～9克，而钠是食盐中最主要的成分之一，食盐经消化道吸收后，大部分的钠随尿排出，少部分从汗中排泄。钠是人体所必需的物质成分，当一个人体内缺钠时就可能出现恶心、呕吐、纳差、乏力、头晕、眼花，甚至血压下降等一系列症状、体征。如乳母禁盐，同样会出现上述症状、体征而影响乳母的食欲与健康，随之影响乳汁的分泌，紧接着就会影响新生儿的生长、发育。因此，乳母可吃盐，但不可过量。</p> 
+ <p>　　<strong>乳母能吃味精吗？<br /></strong><br />　　哺乳期妇女常进食富含高蛋白的饮食，如在此同时摄入过量的味精，体内就会产生大量的谷氨酸钠，谷氨酸钠通过乳汁进入新生儿体内，与新生儿血液中的徽量元素锌发生特异性结合，生成谷氨酸锌，这种物质不能被人体吸收、利用，而引起新生儿体内缺锌；体内缺锌时，就可影响味蕾细胞的代谢，导致味觉迟钝、食欲下降，出现厌食、味觉异常等症状，严重者会造成智力低下等不良后果。所以，乳母不宜摄食味精。</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/124334">产妇生奶疖如何喂奶？</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/tezheng/1" >新生儿特征</A>
+				<A href="/static/menu/sm/jibing/1" >新生儿疾病</A>
+				<A href="/static/menu/sm/huli/1" >新生儿护理</A>
+				<A href="/static/menu/sm/zaochaner/1" >早产儿</A>
+				<A href="/static/menu/sm/weiyang/1" class='thisclass'>新生儿喂养</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=150&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/124333">5大要点护理早产儿</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124332">怎样给早产儿供氧(图)</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124331">早产儿的袋鼠保育法</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124330">早产与母亲牙周炎有关</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124329">早产儿语言理解能力滞后</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"124859"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

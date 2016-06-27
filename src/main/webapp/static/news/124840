@@ -1,0 +1,499 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>新生儿母乳喂养的诀窍-新生儿-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/124840"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/xinshenger2.png)'
+			 href="/static/menu/bm/xinshenger2" alt="新生儿" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=150" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/xinshenger2'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/tezheng/1">新生儿特征</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jibing/1">新生儿疾病</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/huli/1">新生儿护理</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/zaochaner/1">早产儿</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/weiyang/1">新生儿喂养</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=150" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=150&menuID=155" rel="nofollow">新生儿喂养</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					新生儿母乳喂养的诀窍
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=150" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-26 21:32:23</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p><strong>　　<strong>母乳喂养</strong>是一个充满艰辛与困难的历程，各位妈妈一定要有<span class="articleLink"><u><font color="#0000ff">心理</font></u></span>准备，但同时又是充满快乐与幸福的过程，一切的成果都会在<span class="articleLink"><u><font color="#0000ff">健康</font></u></span>美丽的<span class="articleLink"><u><font color="#0000ff">宝宝</font></u></span>身上呈现出来，你最终会发现，所有的苦与乐都是值得的。</strong></p> 
+ <p>　　<strong>一、<span class="articleLink"><u><font color="#0000ff">母乳</font></u></span>的阶段性分类</strong></p> 
+ <p>　<strong>　1、初乳：</strong></p> 
+ <p>　　<span class="articleLink">产后</span>至5～7天内母亲乳房分泌的乳汁称初乳，它呈蛋黄色、质稠、量少，含有丰富的蛋白质，脂肪较少，有大量的分泌型IgA和吞噬细胞、粒细胞、淋巴细胞，这有助于增进<span class="articleLink">新生儿</span>呼吸道及消化道防御病菌入侵的能力，提高宝宝的抵抗力，因此，不管今后是采用<span class="articleLink">母乳喂养</span>还是<span class="articleLink">人工喂养</span>都一定要将母亲在生后数天内分泌的初乳喂给宝宝，使之有效地保证初到人世的宝宝健　康，切勿将其弃之，这实在太可惜了。 </p> 
+ <p><strong>　　2、过渡乳：</strong></p> 
+ <p>　　生后7天至满月内母亲分泌的乳汁称为过渡乳，脂肪含量高，蛋白质与矿物质有所减少。</p> 
+ <p><strong>　　3、成熟乳：</strong></p> 
+ <p><strong>　　</strong>生后2个月至9个月内母亲分泌的乳汁称为成熟乳，脂肪比较多，蛋白质、矿物质进一步减少。</p> 
+ <p><strong><font color="#000000">　　4、晚乳：</font></strong></p> 
+ <p><strong>　　</strong>生后10个月后母亲分泌的乳汁称为晚乳，其量及各种营养成分较前更减少。</p> 
+ <p><strong><font color="#000000">　　二、进行母乳喂养的正确姿势</font></strong></p> 
+ <p>　　母乳喂奶的姿势有坐位和卧位两种。一般采用坐位，有利于宝宝吸吮乳汁。也可避免宝宝被奶呛着，夜间可采用卧位喂奶。</p> 
+ <p>　　每次喂奶前先换<span class="articleLink">尿布</span>，母亲最好用热毛巾把手和乳房擦干净之后才让宝宝吃奶，母亲用<span class="articleLink">手指</span>夹住乳房的前部，将乳头连同乳晕大部分放入宝宝的口中，使宝宝的嘴里塞得满满的，有利于宝宝靠牙床对乳窦的挤压吸吮到乳汁，光靠叨住乳头吸吮是不可能吸到乳汁的，有时需要母亲的帮助，帮助宝宝含住乳头和大部分乳晕，其方法是母亲用示指和中指将乳房托起一些，并将乳头向里压平些。宝宝吃奶先吸吮一侧乳房，乳房乳汁被吸吮净换另一侧乳房，尽可能把两侧乳房都吸吮净，若未吸吮净一侧乳房，母亲可用手或吸奶器将它吸干净，这样有利于乳汁的分泌，防止乳汁在乳房内积存而引起“郁乳”，进而可引起急性<span class="articleLink">乳腺炎</span>。宝宝吃完奶后，把宝宝抱直，上身靠在妈妈的肩部，轻轻拍宝宝背部，把吞入胃内的空气排出来，让宝宝打嗝，这样可以减少<span class="articleLink">吐奶</span>。</p> 
+ <p><strong><font color="#000000">　　三、按需<span class="articleLink"><u><font color="#0000ff">哺乳</font></u></span>好还是按时哺乳好</font></strong></p> 
+ <p>　　目前提倡<span class="articleLink"><u><font color="#0000ff">母婴</font></u></span>同室，按需哺乳。生后30分钟内让宝宝吸吮第一口奶，既可预防新生儿低血糖的发生，又可促进母乳分泌，按需哺乳有利于宝宝的生长发育，有利于宝宝的营养补给，又能通过较频繁的吸吮刺激脑下垂体分泌更多的催乳素，使奶量不断增多，同时也避免母亲不必要的紧张和焦虑。</p> 
+ <p>　　至于每次喂奶时间，第一天每次每侧喂奶约2分钟，第二天约4分钟，第三天约6分钟，以后大约为8至10分钟，即一次喂两侧共约15至20分钟。吸奶时间过久，会咽入过多空气，易引起<span class="articleLink"><u><font color="#0000ff">呕吐</font></u></span>，而且也会养成日后吸吮乳头的坏习惯。</p> 
+ <p>
+  <!--adsense-->　　一般来说，在新生儿及小婴儿时按需哺乳比较好，随着婴儿月龄的增加，渐渐过渡到按时哺乳，3～4个月后每隔3～4个小时要哺乳一次，夜间可以间隔1次喂奶时间，慢慢养成按时吃奶的习惯。&nbsp;</p> 
+ <p>　　<strong>有些妈妈以为她们没有足够的奶水，而事实上她们奶水的供应是正常的。她们不了解喂母乳喂养的婴儿的一些正常的差异，有时会为一点点特别的症状而烦恼。其实如果孩子<span class="articleLink"><u><font color="#0000ff">体重</font></u></span>增加正常，换尿片情形也正常，那么便没有什么好烦恼的。</strong></p> 
+ <p><strong>　　以下的情形表明你的奶水不是真的存在奶水不足：</strong></p> 
+ <p>　　１、需要时常喂奶：这是许多婴儿需要时常吸吮或时常与妈妈在一起的需求，这都表示他得到足够的奶水，而不是缺乏奶水。 </p> 
+ <p>　　２、似乎老是饥饿：母奶较<span class="articleLink">牛奶</span>易于消化，也不象牛奶给婴儿未成熟的胃肠增加负荷，所以吃母乳的婴儿需要更经常喂奶。 </p> 
+ <p>　　３、你了解自己孩子的喂奶习惯、体重及睡眠，不需与其他婴儿比较。 因为每一个婴儿都是独立的个体，一般的正常情形下有着个别的差异。 </p> 
+ <p>　　４、突然需要时常喂奶，时间也久些：新生儿时睡眠多的孩子突然醒的多而且需要更经常喂奶，往往在经历“猛长”期(通常差不多在三个星期、六个星期、三个月大时)。这时他们需要更加频繁的喂奶，也刺激你有更多的奶水来配合他们<span class="articleLink">成长</span>的需要。 </p> 
+ <p>　　５、突然缩短吃奶的时间，也</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>许每次喂奶会减少5-10分钟。这时他吃奶可能较有经验了，所以能吸的比较快。 婴儿表现烦燥：很多婴儿每天都有烦燥的时候，又常常在同一时间。有些婴儿大部分的时间都很烦燥，烦燥的原因不是饥饿，但就是不知道为什么，就算喂奶也没用，试试看用一条薄毯子包他，或者换个位置、走走路、摇摇他，总之，切记不管婴儿烦燥的原因是什么，他就是需要你抱抱他。 </p> 
+ <p>　　６、你只有一点点或者完全没有漏奶:漏奶和你奶水的多少并没有关系，通常在喂完奶就停止，这是因为母亲与婴儿的供需平衡了。 你的乳房似乎突然变软了:这是因为你的奶水已经配合你的婴儿的需要而不再胀奶了。 你不再觉得乳房有喷奶或麻麻的感觉，或者似乎不再有象以前那么强烈的感觉。这是因为久了成自然的缘故。有些妈妈们一点感觉都没有，但她能从婴儿的吸吮及吞咽感觉到。</p> 
+ <ul></ul> 
+ <ul></ul> 
+ <p><strong><font color="#000000">　　四、哪些情况禁止母乳喂养</font></strong></p> 
+ <p>　　能不能哺乳完全看母亲的身体情况，母亲患有活动性肺结核、乙型肝炎、急性乳腺炎、急性传染病暂不要哺乳，待疾病治愈后再喂奶。母亲患有<span class="articleLink">心脏病</span>、慢性肾炎、慢性气管炎、糖尿病等疾病，一般可以给宝宝喂奶，如果体力不行再考虑停喂。母亲患感冒<span class="articleLink">发热</span>仍可哺乳，但母亲必须戴口罩，以免将病毒传染给宝宝。由于母亲服用的许多<span class="articleLink">药物</span>可以渗透到乳汁中通过喂奶进人宝宝体内，影响宝宝的生长发育。因此，哺乳母亲一定要注意到药物是否会影响到宝宝，哺乳母亲不要使用氯霉素、四环素、磺胺类药物以及阿托品、苯妥英钠、地西泮(安定)。可待因、吗啡等药。如母亲长期服用四环素，就会使宝宝长出来的牙齿变成黄色。哺乳母亲要生活规律，不要过度疲劳，有足够的睡眠，精神愉快，不要过多地忧虑、生气、吵架。多吃些高蛋白饮食，如鱼、鸡、蛋等，多煨汤喝。禁忌烟酒。这样，均有利于乳汁的分泌，有足够的奶来哺乳自己的宝宝。</p> 
+ <p><strong><font color="#000000">　　五、如何使产妇奶水足</font></strong></p> 
+ <p>　　宝宝出生后许多妈妈发现自己的乳汁少，不够宝宝吃，常因宝宝吃不饱而<span class="articleLink">哭</span>闹时，感到十分焦急，有的甚至失去了母乳喂养的信心，而改用牛乳喂养，这是十分可惜的。当奶水不足时需要采取一定的方法促进下奶：</p> 
+ <p>　　１、坚持母乳喂养，要相信自己一定能行，通过宝宝的吸吮来刺激体内催乳素及泌乳素的产生，促进乳汁的分泌。也可用挤奶的方法来促进母乳的分泌。</p> 
+ <p>　　２、要有充足的睡眠时间，精神愉快。</p> 
+ <p>　　３、在饮食中保证有充足的营养和水分，可以通过某些食物来促使母亲更好的下奶。如鲜鲫鱼汤、猪蹄汤、墨鱼炖鸡汤、牛奶、豆浆等，吃这些食物的效果要比注射催奶药物好，而且没有副作用。</p> 
+ <p>　　４、中药方剂催乳。</p> 
+ <p><strong><font color="#000000">　　六、怎样知道宝宝吃饱了</font></strong></p> 
+ <p>　　人工喂养的宝宝可以根据每次吃奶量的多少就能知道宝宝是否吃饱。然而，怎样知道母乳喂养的宝宝是否吃饱，我们可以根据宝宝的表情、体重、增长的情况来判断，，常用的估测方法如下。</p> 
+ <p>　　若宝宝已吃饱，则有满意的表情，很安静，体重增长较快，每日有2―3次黄色软便。反之，没有吃饱，宝宝常有不满足的表情，如哭闹不安、四处张望、体重不增或增长慢，<span class="articleLink"><u><font color="#0000ff">大便</font></u></span>色泽偏绿色等表现。可以通过表情及体重增长情况来判断宝宝是否吃饱。</p> 
+ <p><strong>　　从以下几点可以肯定你的婴孩获得了足够的奶水</strong>：</p> 
+ <p>　　１、每天换6到8次很湿的尿片以及排大便约二至五次。稍大时(六至八周以后)排大便次数会渐减，可能一天一次或三、四天才一次，仍可从湿尿片来观察他是否得到足够的奶水。 </p> 
+ <p>　　２、他体重每星期平均增加4到7盎司或一个月一英磅(453克)。虽然一般婴儿一星期增加4到7盎司，但不一定每星期都一样，有时多，有时少，这都是正常的。 </p> 
+ <p>　　３、孩子第一次检查身体时切记，大部分的婴儿在刚出生后体重都会减轻。而体重增加的计算应由婴儿体重的最低点算起而不是出生时的体重，有些婴儿过了三、四星期才增加至出生时的体重。 </p> 
+ <p>　　４、他需要时常喂奶―在一天24小时内须喂8到12次或者每2或3小时喂一次。这是平均情况，但有些婴儿吃的次数多，有些少。吃的次数少不见得是不正常，除非他的体重增加情形不良好。</p> 
+ <p>　　５、他看起来是健康的―他肤色很健康、皮肤很有弹性，长胖了、长高了而且机警有活力，肌肉有弹性。</p> 
+ <p><strong><font color="#993300">　　</font><font color="#000000">七、母乳喂养的新生儿是否需喂水或果汁</font></strong></p> 
+ <p>　　在母乳充足的情况下，母乳喂养的新生儿一般不需要喂水或<span class="articleLink">果汁</span>，此期的母乳为初乳及过渡乳，乳汁中除了含有蛋白质、脂肪、糖、维生素、矿物质外，还有丰富的免疫成分及水分，都能满足宝宝生长发育的需要。因此，在新生儿期母乳喂养的宝宝不需要喂水及果汁，以及添加任何<span class="articleLink">辅食</span>。</p> 
+ <p><strong><font color="#000000">　　八、宝宝<span class="articleLink"><u><font color="#0000ff">睡觉</font></u></span>时吃奶弊端多</font></strong></p> 
+ <p>　　有些妈妈为了让孩子睡得快一点，特别喜欢让宝宝在临睡时吃奶，宝宝吃着奶才能渐渐睡去。其实这是个错误的做法，而且对宝宝的影响很大。</p> 
+ <p>　　1、容易造成乳牙<span class="articleLink">龋齿</span>&nbsp;</p> 
+ <p>　　睡眠时唾液的分泌量对<span class="articleLink">口腔</span>清洗的功能原本就会减少，加上奶水长时间在口腔内发酵，会破坏乳齿的结构。要避免此后遗症可在吸完奶水后再塞一瓶温开水给宝宝吸两口，稍微清洗一下口腔内的余奶。</p> 
+ <p><strong>　　</strong>2、容易吸呛</p> 
+ <p>宝宝意识不清时，口咽肌肉的协助性不足，不能有效保护气管口，易使奶水渗入造成吸呛的危险。</p> 
+ <p><strong>　　</strong>3、降低食欲</p> 
+ <p>　　因为</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>肚子内的奶都是在昏昏沉沉的时候被灌进去的，宝宝清醒时脑海里没有饥饿的感觉，所以以后看到食物会降低欲望。</p> 
+ <p>　　4、养成被动的心理行为&nbsp;</p> 
+ <p>　　人类因有需求才会去谋取，因饿所以要吃，因冷所以要穿衣，因不了解所以要求知。心理行为模式就是这样逐步发展而成的。宝宝如果从小切都是被动地由大人准备妥当，连最基本的动物求食行为都未能健全具备，则更何况培养日后在众人社会中的求知、求发展，竞争求胜利的主动进取心态呢？所以要养成宝宝有主动觅食的习惯，而非被动给予。</p> 
+ <p><strong><font color="#000000">　　九、不要让宝宝含着奶头睡觉</font></strong></p> 
+ <p>　　有些母亲为了不让宝宝哭闹，常常养成让宝宝含着奶头睡觉的习惯。实际这种习惯不好，易造成新生儿窒息而死亡，其原因：</p> 
+ <p>　　１、吃奶后如果发生溢奶或吐奶时，由于口含着奶头，奶汁或呕吐物不能随口吐出，只能反流入气管或肺内造成急性窒息而死亡。</p> 
+ <p>　　２、含着奶头的宝宝紧贴母亲睡觉，若母亲劳累过度，夜间睡得很熟，不自觉地翻身，出现压迫宝宝的情况，而宝宝本身无反抗能力，常可造成宝宝窒息死亡。</p> 
+ <p>　　因此，不要养成宝宝含着奶头睡觉的习惯，最好让宝宝单独睡自己的床，头侧向一边，这样可以防止吐奶后引起窒息。</p> 
+ <p><strong><font color="#000000">　　十、<span class="articleLink"><u><font color="#0000ff">新生儿呕吐</font></u></span>后能马上再喂奶吗</font></strong></p> 
+ <p>　　新生儿刚吃过奶后，不一会儿就似乎全吐出来了，这时有些家长可能怕新生儿挨饿，马上就再喂。遇到这种情况时要根据新生儿当时的状况而定：有些新生儿吐奶后一切正常，也很活泼，则可以试喂，如新生儿愿吃，那就让新生儿吃好；而有些新生儿在吐奶后胃部不舒服，如马上再喂奶，新生儿可能不愿吃，这时最好不要勉强，应让新生儿胃部充分休息一下。一般情况下，吐出的奶远远少于吃进的奶，所以家长不必担心，只要新生儿生长发育不受影响，偶尔吐一次奶也无关紧要。当然，如每次吃奶后必吐，那么就要做进一步检查，以排除疾病而致的吐奶。</p> 
+ <p><strong><font color="#000000">　　十一、腹部按摩减轻吐奶</font></strong></p> 
+ <p>　　吐奶是婴儿常见的胃肠道症状，由于婴儿胃容量小，胃肠蠕动差，易发生胃食管反流。对于吐奶，最简便易行的治疗方法是腹部按摩。一般为每隔4～6小时一次，夜间可延长至6小时以上。每次按摩均在喂奶后半小时进行，以肚脐为中心，手指并拢，顺时针运行，同时给予腹部一定压力，速度适中，每次按摩时间5～10分钟。吐奶减轻后，按摩次数减至每日2―3次，直至吐奶现象消失。</p> 
+ <p>　　腹部按摩可通过神经系统促进胃泌素分泌，增加胃肠蠕动；同时使胰岛素水平升高，促进糖脂等物质代谢，改善消化吸收功能。</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/124334">产妇生奶疖如何喂奶？</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/tezheng/1" >新生儿特征</A>
+				<A href="/static/menu/sm/jibing/1" >新生儿疾病</A>
+				<A href="/static/menu/sm/huli/1" >新生儿护理</A>
+				<A href="/static/menu/sm/zaochaner/1" >早产儿</A>
+				<A href="/static/menu/sm/weiyang/1" class='thisclass'>新生儿喂养</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=150&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/124333">5大要点护理早产儿</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124332">怎样给早产儿供氧(图)</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124331">早产儿的袋鼠保育法</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124330">早产与母亲牙周炎有关</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/124329">早产儿语言理解能力滞后</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"124840"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>
