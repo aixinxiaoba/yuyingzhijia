@@ -1,0 +1,459 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>婴儿辅食的家庭制作-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/126087"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=157" rel="nofollow">婴儿辅食</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					婴儿辅食的家庭制作
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-28 23:52:54</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　<strong><font color="#ff8533">肝泥<br /><br /></font></strong>　　做法：将新鲜的猪肝或鸡肝浸泡。洗净、除去筋膜后，用刀切细斩成泥。可直接加入粥或面条中煮熟食用。<br />&nbsp;<br />　　<strong><font color="#ff8533">鱼泥<br /></font></strong><br />　　原料：新鲜草鱼或鲤鱼一条，精盐、香油少许，葱、姜、蒜、黄酒<br />　　做法(1)：<br />　　将鱼去鳞及内脏洗净。取无刺的鱼肉约100克，剁碎盛入碗内，上火蒸熟。在蒸熟的鱼泥中加入几滴香油和少许精盐，待稍凉后即可喂食。<br />　　做法(2)：<br />　　取无刺的鱼肉约100克剁成泥茸状后放入锅内。加入少量的精盐和适量的水，以小火将鱼泥煮至熟烂即可，稍凉后滴入香油喂食。<br />　　做法(3)：<br />　　将鱼去鳞及内脏洗净后涂上少许精盐，放入碗，加入葱段、姜片、蒜瓣及黄酒上屉隔水蒸熟。取无刺的熟鱼肉适量，碾压成鱼泥，淋入少许鱼汤，稍凉后即可喂食。<br />&nbsp;<br />　　<strong><font color="#ff8533">肉末菜粥<br /></font></strong><br />　　原料：瘦猪肉50克，青菜两小棵，植物油10克，酱油、姜末各少许<br />　　做法：<br />　　① 将猪肉洗净去筋，剁成细末；青菜洗净切碎。<br />　　② 锅内加入植物油。油热后下入肉末不断偏炒，加葱姜末烧香。再加入少许酱油炒至全熟即成肉末。<br />　　③ 将炒好的肉末及碎菜加入熬好的米粥内煮沸。待稍凉后即可喂食。<br />&nbsp;<br />　　<strong><font color="#ff8533">水煎蛋<br /></font></strong><br />　　原料：鸡蛋1个，香菜一棵，淀粉少许，食盐、香油适量，鸡汤或肉汤100克<br />　　做法：<br />　　① 将鸡蛋打入碗内调匀；香菜洗净切成细碎末；淀粉溶于少量水中。<br />　　② 将100克鸡汤（清水亦可）放入锅中以旺火烧开，倒入水淀粉收汁，待再次开锅后将鸡蛋液倒入，并加入盐、香油和香菜末，不停地翻炒，使之成熟，其形态很像搅碎的豆腐，质地软嫩，即可出锅。<br />　　【小提示】 烹调时应注意将鸡蛋炒熟就立即出锅，若炒制过老水分从鸡蛋中溢出，就不宜婴儿食用了。<br />&nbsp;<br />　　<strong><font color="#ff8533">苹果藕粉<br /></font></strong><br />　　原料：藕粉30克，苹果1个，白糖20克<br />　　做法：<br />　　① 将苹果洗净去皮、去核，切成细末待用；藕粉加少量清水调匀。<br />　　② 将苹果碎末放入锅中，加适量清水旺火煮开后，再用微火煮5分钟左右，然后将藕粉慢慢倒入锅中，边熬边搅拌，直至熬透明为止。<br />　　③ 加入少许白糖，拌匀，稍凉后即可喂食。<br />&nbsp;<br />　　<strong><font color="#ff8533">肝末西红&#xfffd;{<br /></font></strong><br />　　原料：猪肝50克，西红柿1个，葱头半个，精盐少许<br />　　做法：<br />　　① 将猪肝洗净剁碎；西红&#xfffd;{洗净用开水略烫一下剥去皮，切碎；葱头洗净，去皮切碎待用。<br />　　② 将猪肝、葱头末同时放入锅内，加入清水煮沸，然后加入西红&#xfffd;{和盐，使其有淡淡的咸味即成。<br />&nbsp;<br />　　<strong><font color="#ff8533">花生（芝麻）粥<br /></font></strong><br />　　原料：花生或芝麻<br />　　做法：将花生（或芝麻）炒熟后用擀面杖碾成细粒状，加入煮好的粥中搅拌，再放入少量精盐即成营养味美的花生粥。<br />&nbsp;<br />　　<strong><font color="#ff8533">什锦豆腐糊<br /></font></strong><br />　　原料：嫩豆腐1／6块，煮后切碎的胡萝卜末1大匙，肉末少许，调匀的鸡蛋、肉汤各1大匙<br />　　做法：<br />　　① 将豆腐放入开水锅中焯一下，去掉水分切成碎块。<br />　　② 将肉末放入锅内，加肉汤、白糖和酱油，再以小火煮至收汤为止。将调匀的鸡蛋糊倒入状即可。<br />&nbsp;<br />　　<strong><font color="#ff8533">花生红枣粥</font></strong><br /><br />　　原料：花生米20粒，红枣5枚，大米30克，白糖适量<br />　　做法：<br />　　① 将花生米洗净去皮，入锅加清水煮至六成熟时，再加入枣继续煮烂。将煮熟的红枣去皮核后和花生米一同碾成泥备用。<br />　　② 将米淘洗干净放入锅中，加清水煮成稀粥。<br />　　③ 粥熟后，混入红枣花生泥，并加白糖适量，搅拌均匀即可出锅。<br />&nbsp;<br />　　<strong><font color="#ff8533">香菇鸡粥<br /></font></strong><br />　　原料：大米50克，鸡胸肉50克，香菇2朵，青菜2棵，食用油10克，葱、盐酱油少许<br />　　做法：<br />　　① 将大米淘净；香菇用温水泡软剁碎；鸡胸肉剁成泥状；青菜、葱切碎。<br />　　② 油锅热后，加入葱花、鸡胸肉、香菇末翻炒，滴入少许酱油炒入味。<br />　　③ 把洗净的大米下入锅中翻炒数下，使之均匀地与香菇，鸡肉等混合。<br />　　④ 加入适量清水于锅中，加盖熬煮成粥，待熟后再放入碎青菜。<br />　　⑤ 用少许食盐调味即可出锅。<br />&nbsp;<br />　　<strong><font color="#ff8533">肉末青菜<br /></font></strong><br />　　原料：肉末2大匙，青菜2大匙，酱油、糖、酒、植物油各少许<br />　　做法：<br />　　① 将肉末放入锅内，加少量水，用微火煮熟后加入少许酱油、糖、酒。<br />　　② 另起锅放植物油，油热后倒入肉末翻炒片刻，再倒入青菜末一起炒，炒熟即可。<br />&nbsp;<br />　　<strong><font color="#ff8533">豆腐羹<br /></font></strong><br />　　原料：嫩豆腐2大匙，打好的鸡蛋1个，青菜末少许，盐、香油<br />　　做法：将豆腐放入开水中焯一下控去水分，捣成糊状，与调好的鸡蛋液混合，放少许盐和水，用微火蒸7-8分钟，蒸好后撒上青菜末，滴几滴香油即可。<br />&nbsp;<br />　　<strong><font color="#ff8533">肝黄粥</font></strong><br /><br />　　原料：猪肝25克，熟鸡蛋1个，粳米30克，黄酒、精盐少许<br />　　做法：<br />　　① 将猪肝洗净，用刀刮成茸，加少量精盐与黄酒腌渍10分钟。<br />　　② 熟鸡蛋去皮取出蛋黄压成泥备用。<br />　　③ 将粳米淘洗干净，加适量清水于锅中煮开后，用小火继续煮成稀粥。<br />　　④ 将肝泥、蛋黄泥加入稀粥中，再加入少量的精盐调味，煮10分钟即可食用。<br />&nbsp;<br />　　<strong><font color="#ff8533">炸馒头片<br /></font></strong><br />　　原料：馒头半个，鸡蛋1个，植物油1两，淀粉、食盐少许<br />　　做法：<br />　　① 将馒头切成约5厘米的薄片。<br />　　② 将鸡蛋打入碗中调匀，加入少量淀粉、精盐调成细糊状。<br />　　③ 油锅加热，然后将馒头片在鸡蛋糊中两面涂抹均匀后，放入油锅内煎炸，待成金黄色时即可捞取，待凉后即可食用。<br />　　【小提示】 炸馒头片香脆稍硬，可以锻炼孩子的咀嚼功能。<br />&nbsp;<br />　　<strong><font color="#ff8533">金针菇面<br /></font></strong><br />　　原料：龙须面一小把，金针菇50克，虾仁20克，青菜 2小棵，葱、植物油、盐、香油适量<br />　　做法：<br />　　① 金针菇洗净，切成约1厘米长的小段；青菜切碎，葱切成末备用；虾仁切成小颗粒。<br />　　② 油锅热后，放入金针菇、葱花，并加入少量食盐炒入味。<br />　　③ 加适量清水(肉汤更佳)入锅中，并放入虾仁和碎菜，水开后下龙须面。<br />　　④ 面熟后，滴入几滴香油即可出锅。<br />&nbsp;<br />　　<strong><font color="#ff8533">猪肉豆腐羹</font></strong><br /><br />　　原料：肥瘦猪肉100克，豆腐50克，酱油、淀粉适量，葱、姜、盐少许<br />　　做法：<br />　　① 将猪肉洗净剁成肉糜，加酱油搅拌均匀备用；葱、姜切成末备用。<br />　　② 将豆腐搅碎，加拌好的肉馅、葱姜末、湿淀粉、盐及少量清水一共搅拌成泥。<br />　　③ 将豆腐肉泥上屉蒸30-40分钟，即可食用。<br />&nbsp;<br />　　<strong><font color="#ff8533">胡萝卜丝汤</font></strong><br /><br />　　原料：胡萝卜丝2大匙，洋葱末1小匙，肉汤半小碗，盐及植物油<br />　　做法：将锅内放少许植物油，油热后将洋葱末放入，翻炒片刻后将胡萝卜丝放入。反复翻炒至胡萝卜半熟时，倒入肉汤，用中火煮3-4分钟即可。<br />&nbsp;<br />　　<strong><font color="#ff8533">绿豆粥<br /></font></strong><br />　　原料：糯米50克，绿豆50克，豌豆20克，白糖20克<br />　　做法：<br />　　① 将绿豆放入锅中加适量的水用小火煮1.5小时左右，将绿豆煮熟。<br />　　② 将糯米、豌豆放入，加足水量，煮开后用小火再煮40分钟，待完全煮烂后停火。加入适量的白糖，稍凉后即可食用。<br />&nbsp;<br />　　<strong><font color="#ff8533">太阳豆腐<br /></font></strong><br />　　原料：嫩豆腐1／6块，鸡蛋1个，盐、香油少许<br />　　做法：<br />　　① 将蛋的蛋黄、蛋清分开。<br />　　② 豆腐与蛋清混合加少量的水和盐，用筷子向一个方向反复搅拌。搅拌好以后将整个蛋黄放在中间，放入锅中隔水蒸7-8分钟，再滴在几滴香油即可。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong><font color="#ff8533">荷包蛋<br /></font></strong><br />　　原料：鸡蛋1个，肉汤1小碗，芹菜末、盐少许<br />　　做法：把肉汤倒入锅中加热，烧开后加少许盐，并把火调小。整个鸡蛋整个打入肉汤中，煮熟后撒入少许芹菜末即可。<br />&nbsp;<br />　　<strong><font color="#ff8533">浇汁蛋羹<br /></font></strong><br />　　原料：鸡蛋1个，肉末、青菜末少量，番茄酱20克，虾皮、淀粉、盐、香油少许<br />　　做法：<br />　　① 鸡蛋磕入碗内调成蛋液，加盐和温水搅匀后，上火蒸熟。虾皮剁成细末。<br />　　② 锅内放适量清水（肉汤更佳），水开后放入虾皮末、青菜末、肉末、番茄酱和盐同煮，最后加淀粉勾兑成浓汁。<br />　　③ 将浓汁浇在蒸好的蛋羹上，滴几滴香油即可食用。<br />&nbsp;<br />　　<strong><font color="#ff8533">三色猪肝粥<br /></font></strong><br />　　原料：粳米30克，猪肝30克，胡萝卜半个，菠菜3棵，葱姜末、精盐、香油少许，鸡汤（或肉汤）1大勺<br />　　做法：<br />　　① 将米淘净入锅加清水煮成稀粥。<br />　　② 猪肝洗净剁碎，胡萝卜切成碎末，西红柿去皮切碎，菠菜用开水焯过后切碎。<br />　　③ 将猪肝泥、胡萝卜末放入锅内，加鸡汤煮熟后，和西红柿、菠菜一道放入煮好的粥内。加精盐调味后再煮片刻，最后滴少许香油，待温后即可食用。<br />&nbsp;<br />　　<strong><font color="#ff8533">肉汤煮饺子</font></strong><br /><br />　　原料：小饺子皮5～6个，碎肉末1大匙，切碎的青菜1大匙，鸡蛋液1小匙，肉汤或鸡汤、盐少许<br />　　做法：将碎肉末、青菜末、鸡蛋液混合拌匀，加盐少许做成馅包成饺子。将肉汤烧开，放入饺子煮熟即成。<br />&nbsp;<br />　　<strong><font color="#ff8533">蛋饺<br /></font></strong><br />　　原料：鸡蛋1个，鸡肉末1大匙，青菜末1大匙，盐、植物油<br />　　做法：<br />　　① 锅内放入少许植物油，油热后，放入鸡肉末和香蕉末同炒，并加少许盐，炒熟后倒出备用。<br />　　② 将鸡蛋打匀，平底锅内入少量油，将鸡蛋液倒入推成圆饼，待鸡蛋半熟时，将炒好的肉末青菜放在蛋饼的一侧。将另一侧对折，翻个再煎一煎即成蛋饺。<br />&nbsp; </p> 
+ <p><br />　　<strong><font color="#ff8533">西红柿肉末<br /></font></strong><br />　　原料：西红柿50克，猪肉50克，葱头、胡萝卜各20克，酱油、盐、姜各少许，植物油适量<br />　　做法：<br />　　① 将胡萝卜、葱头洗净切末备用。西红柿用开水烫后去皮切末；猪肉剁成碎末。<br />　　② 炒锅上火，油热后加入猪肉末煸炒，加入葱姜末爆香，加酱油和精盐少许入味，再加入切碎的葱头、胡萝卜末翻炒几下，加入适量清水煮软。<br />　　③ 起锅前加入切碎的西红柿。<br />&nbsp;<br />　　<strong><font color="#ff8533">鸡蛋饼<br /></font></strong><br />　　原料：面粉50克，鸡蛋1～2个，苏打粉、葱末、盐、植物油少许<br />　　做法：<br />　　① 将面粉、鸡蛋液、苏打粉、盐及适量的水调稀湖状（不要有生面疙瘩）再放入葱花搅拌均匀。<br />　　② 不粘锅刷上少许植物油。每次摊上薄薄一层稀面称，烙至浅黄色后翻面再烙。注意面糊一次不要倒得太多，否则烙成的饼会太厚。<br />&nbsp;<br />　　<strong><font color="#ff8533">八宝粥<br /></font></strong><br />　　原料：糯米50克，薏仁20克，红豆30克，莲子20克，桂圆肉、白糖少许，清水适量<br />　　做法：<br />　　① 将红豆、薏仁洗净后用水泡软备用。糯米、莲子洗净备用。<br />　　② 把红豆、薏仁放入锅中，约煮20分钟。<br />　　③ 把糯米、莲子、桂圆肉放入锅内，继续煮至熟透。<br />　　④ 将适量白糖加入粥中，待凉后即可食用。<br />&nbsp;<br />　　<strong><font color="#ff8533">肉丝面</font></strong><br /><br />　　原料：龙须面一小把，猪肉30克，虾仁20克，青菜2棵，葱半根，植物油适量，酱油、盐少许<br />　　做法：<br />　　① 锅内放入清水，煮沸将面条投入，加少许盐煮几分钟，待面条熟软后，捞起过凉水后沥干备用。<br />　　② 将猪肉、青菜、葱切碎备用。虾仁切成小颗粒状。<br />　　③ 锅内加入植物油，油热后放入葱花及肉末翻炒，然后滴少许酱油炒入味。<br />　　④ 加入适量清水于锅中，将肉末煮熟后再倒入热面条。<br />　　⑤ 把碎虾仁和青菜末放入锅内，待沸腾之后再加少许精盐即可。<br />&nbsp;<br />　　<strong><font color="#ff8533">拌茄泥<br /></font></strong><br />　　原料：小茄子半个，青菜末1小匙，香油、盐少许<br />　　做法：将茄子切块后蒸熟、捣烂成泥，放凉后加青菜末、少许盐及香油，拌匀即可。<br />&nbsp;<br />　　<strong><font color="#ff8533">京糕梨丝<br /></font></strong><br />　　原料：京糕（又称山植糕），梨半个<br />　　做法：将京糕切成碎末，梨去皮去核后切成细丝。将京糕末与梨丝混合后拌匀即成。<br />&nbsp;<br />　　<strong><font color="#ff8533">桂花白薯粥<br /></font></strong><br />　　原料：白薯50克，粳米30克，糖桂花少量，白糖适量<br />　　做法：<br />　　① 锅内放入适量清水，加入淘洗干净的粳米，旺火烧开后，用小火熬成稀粥。<br />　　② 白薯洗净蒸熟去皮后碾成泥，调入稀粥中，再加适量白糖再次煮沸，最后撒上少许糖桂花即可。<br />&nbsp;<br />　　<strong><font color="#ff8533">牛肉金笋粥<br /></font></strong><br />　　原料：胡萝卜20克，牛肉30克，粳米30克，黄酒、盐、香油适量<br />　　做法：<br />　　① 将粳米洗干净，下锅放入适量清水，旺火煮开后，继续用小火煮成烂粥。<br />　　② 牛肉洗净，剁成碎末加黄酒及盐腌渍5分钟。胡萝卜蒸熟去皮碾成泥，同时拌入粥内，加适量精盐调味后再煮5分钟，稍凉后，淋入几滴香油即可食用。<br />&nbsp;<br />　　<strong><font color="#ff8533">肉末圆白菜</font></strong><br /><br />　　原料：猪肉50克，圆白菜50克，葱头10克，植物油5克，酱油、精盐、水淀粉、葱、姜各少许<br />　　做法：<br />　　① 将圆白菜用开水略烫一下，切碎。葱头、葱、姜均切成碎末备用。猪肉洗净亦切成末待用。<br />　　② 锅热后加入植物油，然后加入肉末煸炒，加入葱、姜末、酱油拌炒数下，加入切碎的葱头、水，煮软之后再加入圆白菜稍煮片刻，最后加入精盐，用水淀粉勾芡即成。<br />&nbsp;<br />　　<strong><font color="#ff8533">萝卜豆腐汤<br /></font></strong><br />　　原料：豆腐1／4块，萝卜50克，植物油5克，葱、香菜少许，盐、香油少许<br />　　做法：<br />　　① 萝卜洗净去皮切成细丝，放入开水中焯一下捞出。<br />　　② 豆腐切成细条，葱、香菜洗净切成末。<br />　　③ 锅内加油，烧热后放入葱丝炝锅，添入清水（肉汤更好），放入萝卜、豆腐，用旺火烧开后改用中火烧至萝卜丝已烂，汤汁呈乳白色时，加入精盐调味出锅，撒入香菜末及香油即可。<br />&nbsp;<br />　　<strong><font color="#ff8533">青菜肉丸<br /></font></strong><br />　　原料：猪肉馅100克，番茄酱30克，葱1根，青菜1棵，盐、淀粉、姜、香油少许<br />　　做法：<br />　　① 将葱、姜切末，青菜切成小段备用。<br />　　② 将肉馅、葱末、姜末、盐、湿淀粉搅拌均匀后加入番茄酱，用筷子用力朝一个方向搅拌。<br />　　③ 锅内加清水煮沸后，将拌好的肉馅捏成汤圆大小的丸子入锅内，再加青菜、盐煮几分钟即可，食用前可滴些香油。<br />&nbsp;<br />　　<strong><font color="#ff8533">烩三丝<br /></font></strong><br />　　原料：白豆腐干1块，鸡胸肉30克，瘦猪肉30克，鸡汤100克，盐、葱、姜、料酒、香油各少许<br />　　做法：<br />　　① 分别将豆腐干、鸡胸肉、瘦猪肉切成细丝备用。<br />　　② 鸡汤放入锅中烧开后。将猪肉丝放入煮至变色，再将鸡丝放入，开锅后撒去泡沫，加入豆腐丝同煮，并加入葱、姜、盐调味，煮好后盛入碗中，淋入香油即可食用。<br />&nbsp;<br />　　<strong><font color="#ff8533">红烧豆腐<br /></font></strong><br />　　原料：嫩豆腐1／4块，瘦猪肉30克，鸡蛋1个，酱油、盐、姜、淀粉各少许<br />　　做法：<br />　　① 将豆腐在开水中焯一下，滤干水分后剁成碎块；葱、姜切成碎末。<br />　　② 猪肉洗净剁烂，加少量酱油、半个鸡蛋、水淀粉拌匀。<br />　　③ 炒锅内放入少量香油，把肉放入翻炒成熟后加入碎豆腐，再加入葱姜末、白糖、盐、清水(或汤)同烧10分钟，最后用淀粉勾芡收汁即可出锅。<br />&nbsp;<br />　　<strong><font color="#ff8533">拌双泥<br /></font></strong><br />　　原料：茄子50克，土豆50克，熟鸡蛋1个，番茄酱5克，盐、香菜、香油各少许<br />　　做法：<br />　　① 把茄子、土豆用清水洗净、去皮，分别捣成泥茸状，加入精盐拌匀。<br />　　② 把熟鸡蛋剥去皮；将蛋黄取出碾成泥并加入少许精盐拌匀。<br />　　③ 将拌好的茄泥、土豆泥对码在盘中，再将蛋黄和番茄酱堆放在中间，撒上香菜段，淋上几滴香油即成。<br />&nbsp;<br />　　<strong><font color="#ff8533">肉末米饭<br /></font></strong><br />　　原料：软米饭1小碗，鸡肉或猪肉末1大匙，白糖、酱油、酒、植物油各少许<br />　　做法：锅内放植物油烧热后，下肉末翻炒，并加入白糖、酱油、酒，边炒边用筷子搅拌使其混合均匀。炒好后倒在米饭上即可。<br />&nbsp;<br />　　<strong><font color="#ff8533">家常鸡蛋汤<br /></font></strong><br />　　原料：鸡蛋1个，水发木耳30克，青豌豆15克，发好的海米若干，香油、盐、淀粉各少许，大葱及香菜各1棵<br />　　做法：<br />　　① 将鸡蛋磕入碗中调匀。<br />　　② 把木耳、豌豆洗净，用开水略烫一下，捞出后浸入凉水中待用。<br />　　③ 炒锅内放少许香油，下葱花和海米略炸一下，然后加入木耳、豌豆及适量开水同烧几分钟。<br />　　④ 将湿淀粉与鸡蛋液混合后，一起倒入炒锅，烧开后加入少许香油及香菜末，即可食用。<br />&nbsp;<br />　　<strong><font color="#ff8533">什锦水果羹<br /></font></strong><br />　　原料：时鲜水果若干种(如香蕉半支，苹果半个，草莓3棵、桃子半只)，白糖30克，精桂花(市售)少许，水淀粉少量<br />　　做法：<br />　　① 将各种水果切成小片。<br />　　② 锅内放入适量清水，用旺火烧沸后，加入白糖及切好的水果片。再次烧沸后用水淀粉勾薄芡，再撒入精桂花，即可出锅。<br />&nbsp;<br />　　<strong><font color="#ff8533">虾仁炒鸡蛋</font></strong><br /><br />　　原料：虾仁20克，鸡蛋1个，盐、水淀粉、植物油少许<br />　　做法：<br />　　① 将鸡蛋打入碗中调匀。<br />　　② 锅热后加入少许植物油，油热后放入洗净的虾仁煸炒。倒入鸡蛋液快速翻炒后加入精盐，最后用水淀粉勾芡即成。<br />&nbsp;<br />　　<strong><font color="#ff8533">蔬菜肉饼</font></strong><br /><br />　　原料：肉末2大匙，熟土豆泥1大匙，西红柿1片，青菜末少许，盐、植物油适量<br />　　做法：<br />　　① 将肉末与土豆泥混合，放入少许盐。</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/125819">教你做宝宝爱吃的火腿土豆泥</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" class='thisclass'>婴儿辅食</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/125818">宝宝长牙－清洁篇</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125817">宝宝长牙－发育篇</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125816">婴儿出牙常识--宝宝何时长牙？出牙...</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125815">婴儿出牙晚忌盲目补钙</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125814">宝宝长牙的必修3堂课</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"126087"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>
