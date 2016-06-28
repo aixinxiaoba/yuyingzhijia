@@ -1,0 +1,554 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>17种危害宝宝饮食杀手与对策-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/125940"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=157" rel="nofollow">婴儿辅食</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					17种危害宝宝饮食杀手与对策
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-28 23:43:46</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p align="center"><img alt="17种危害宝宝饮食杀手与对策" src="/upload/157/20070705144054743.jpg" border="0" /></p>
+ <br /> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">有调查报告显示：近年来不仅常见的儿童肿瘤发病率上升，如淋巴瘤、白血病等，而且一些中年老人多发的鼻咽癌、食道癌、肝癌、肺癌、脑癌等在14岁以下的孩子中也屡见不鲜。但医学专家发现，这些病儿的疾病发生和他们的饮食关系密切。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">这里我们特别提醒：我们的妈妈在为孩子增加营养的同时，是否想到了：好些美味食物，在不知不觉中给孩子埋下疾病的种子。为了给孩子健康的身体，我们要特别小心这17种影响孩子健康的饮食杀手！</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">饮食杀手1、食物污染</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">造成今天这种局面原因是多方面的，如环境的恶化、家电的辐射、儿童生活习惯的改变以及高蛋白、高脂肪的食谱等。专家们尤其注意到食物污染所带来的危害，特别是亚硝酸盐、黄曲霉素、农药以及铅、汞、镉类重金属等难辞其咎。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">分析发现：食物中的硝酸盐进入体内后可转化成致癌物亚硝酸盐；黄曲霉素是诱发肿瘤（特别是肝癌）的一大“元凶”，有人用发霉饲料（富含黄曲霉素）喂养小动物，仅仅三个月就患了肝癌；食物中的残留农药潜入人体并蓄积下来，轻者损害肝、脑、肾等器官，重者可致急性中毒而丧命。你看，食物污染的危害多么可怕。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">对策：首要一条是对孩子的食物巧加选择，选择那些无农药污染、无霉变、硝酸盐含量低，且新鲜干净的食物，如米、面、豆类、芹菜、葱、蒜、韭菜、土豆、萝卜、地瓜等。对疑有农药污染的蔬菜可用臭氧解毒机处理，或用蔬菜清洗剂或小苏打浸泡后再用大量清水冲洗。根茎类蔬菜和水果，一律要削皮后再烹调或直接食用之，以维护孩子的身体健康。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana"></font></p>
+ <font face="Verdana"> <p></p> <p><strong></strong></p><p></p></font>
+</div><div class="Newscontent">
+ <p></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana"></font>&nbsp;</p> 
+ <p style="TEXT-INDENT: 2em" align="center"><img alt="17种危害宝宝饮食杀手与对策" src="/upload/157/20070705144054273.jpg" border="0" /></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">饮食杀手2、补品</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">玲玲刚满5岁，长得活泼可爱，惟嫌不足的是身体偏瘦。父母为此费尽心机，到年打听长胖的秘方。后来从报上看到一则广告，说花粉制剂不仅滋养身体，而且能健脑益智，喜出望外，随即购来按药品标签上的说明给孩子服用。想不到20天后孩子两侧乳房长大……吓得父母急忙将女儿带到医院，专家的诊断是性早熟，罪魁祸首就是花粉补品。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">对策：以平常心对待补品，拒绝广告误导。专家建议，5岁以下的孩子不服补品，5岁以上的应根据具体情况由医生决定。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">饮食杀手3、洋快餐</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">近几年来，洋快餐风靡国内。由于其良好的就餐环境、新颖的就餐方式以及诱人的风味，很受儿童的青睐。而一些家长为了迎合孩子的口味，也不惜慷慨解囊满足孩子的要求。可是问题就来了，不少儿童因为体重超标，成了“小胖墩儿”。而“小胖墩儿”又易与高血压、糖尿病、脂肪肝、肥胖脑等多种“文明病”结缘，严重危害其身体与智力发育。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana"></font></p>
+ <font face="Verdana"> <p></p> <p><strong></strong></p><p></p></font>
+</div><div class="Newscontent">
+ <p></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana"></font>&nbsp;</p> 
+ <p style="TEXT-INDENT: 2em" align="center"><img alt="17种危害宝宝饮食杀手与对策" src="/upload/157/20070705144054919.jpg" border="0" /></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">饮食杀手4、糖食</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">糖食口感好，加之包装精美、做工考究的糖类点心与零食比比皆是，这便成为儿童又一种“挡不住的诱惑”。然而，长时间嗜吃糖食却可给儿童带来精神卫生方面的问题，使儿童情绪失常，表现为激动好哭、撕书毁物、爱好脾气、打架斗殴等，医学上谓之“嗜糖性精神烦躁症”。研究表明，由于糖分摄取过多，致使大量维生素B因帮助糖分代谢而消耗掉，从而引起神经系统的维生素B[1]缺乏而产生上述症状。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">对策：限制甜食，减少零食，三餐蛋白质、脂肪与碳水化合物物的比例应维持在1:3:6的水平。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">饮食杀手5、酸性食物</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">孤独症是一种心理障碍，特别是性情孤僻、不爱交往、对环境的适应能力特别差。为什么专家将其与酸性食物挂上了钩呢？要弄清其中的奥妙，首先得明白何谓酸性食物。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">这里说的酸性食物并非指食物的味道而是指其性质而言，如各种肉、蛋及糖类等。这类食物正是被人们所看重的“高营养食品”，往往被家长作为首选食品而列入儿童的食谱中。但是，它们进入人体后的最终代谢产物为酸性成分，可使血液呈酸性，改变血液正常的弱碱性状态，导致酸性体质，从而使参与大脑正常发育和维持大脑生理功能的钾、钙、镁、锌等元素大量消耗掉，引起思维紊乱，使孩子患上孤独症。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">对策：调整三餐结构，适当减少蛋白质、脂肪、糖类所谓“营养性食物”的比重，增加蔬菜、水果等富含的食物。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana"></font></p>
+ <font face="Verdana"> <p></p> <p><strong></strong></p><p></p></font>
+</div><div class="Newscontent">
+ <p></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana"></font>&nbsp;</p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">饮食杀手6、精食</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">时下不少家庭追求“食不厌精”，将进食精米白面视为时尚。医学专家却不这样看，他们认为长期吃过于精细的食物，不仅减少了B族维生素的摄入而影响神经系统发育，而且因损失过多的铬元素还会影响到视力。现已确认，铬元素的不足乃是近视眼的一大成因。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">原来，铬是人体内一种重要荷尔蒙――胰岛素的辅因子，其量不足可使胰岛素的活性减退，调节血糖的能力下降，致使食物中的糖分不能正常代谢而滞留于血液之中，导致眼睛的屈光度改变，最终形成近视。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">对策：适当给孩子安排一定量的粗粮糙米，供给足量的铬元素。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">饮食杀手7、方便面</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">方便面是时下流行的快餐食品之一，其制作方法也是从国外引进的，为与麦当劳、肯德基等洋快餐区别，不妨称之为“土快餐”吧。这种“土快餐”是油炸面条加上食盐、味精组成的，最大弊端在于缺乏蛋白质、脂肪、维生素以及微量元素，而这些恰是儿童生长发育必不可少的养分。 </font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">对策：不能让方便面成为孩子的主食，否则可诱发营养不良，危害孩子的身体与智力发育。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana"></font></p>
+ <font face="Verdana"> <p></p> <p><strong></strong></p><p></p></font>
+</div><div class="Newscontent">
+ <p></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana"></font>&nbsp;</p> 
+ <p style="TEXT-INDENT: 2em" align="center"><img alt="17种危害宝宝饮食杀手与对策" src="/upload/157/20070705144054375.jpg" border="0" /></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">饮食杀手8、巧克力</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">巧克力虽然是一种历史较为悠久的食品，但由于其多种保健功能（如保护心脏、防癌、减肥、振奋情绪等）的相继发现，越来越受到保健专家的瞩目与提倡，因而逐渐“热”起来成为一种时尚食品。但要注意，儿童应适当限制，否则易与遗尿症结缘。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">美国一位医学博士的解释是：巧克力可在小儿体内产生过敏反应，使膀胱壁膨胀、容量减少、平滑肌变得粗糙、产生痉挛，同时这一过敏反应又使小儿睡得过深，使其在尿液充盈时不能及时醒来，于是造成尿床。随着小儿进入青春期，巧克力不再产生过敏反应了，遗尿现象即可消失。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">对策：小儿期，临睡前应少吃或不吃巧克力。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">饮食杀手9、咖啡</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">咖啡含有较多的咖啡因，而咖啡因有阻碍婴儿骨骼发育的不良作用，故常饮咖啡、吃咖啡糖果或咖啡饼干的孩子，有成为“武大郎”的危险，父母不可不当回事儿。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">对策：提倡孩子多喝白开水，少接触或不接触咖啡。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">饮食杀手10、鱼片干</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">鱼片干是由海鱼加工制成，含有丰富的蛋白质、钙、磷等营养元素，加上味道美，故家长乐于买，孩子也乐于吃。但要警觉的是鱼片干有一种称为氟的元素含量往往过多。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">据测量，鱼片干中的氟元素是牛、羊、猪肉的2400多倍，是水果、蔬菜的4800多倍。而人体每日对氟元素的生理需要量仅为1毫克―1.5毫克，故每天从食物等摄入氟的安全限度不得超过4毫克―6毫克。如果超过这一限度，氟就会在体内积蓄起来，时间一长，便会引起慢性氟中毒，使牙齿变得粗糙无光。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">对策：为了孩子有一口洁白整齐的“玉齿”，对鱼片干一定要限量，绝对不可长年累月让孩子大量摄入。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana"></font></p>
+ <font face="Verdana"> <p></p> <p><strong></strong></p><p></p></font>
+</div><div class="Newscontent">
+ <p></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana"></font>&nbsp;</p> 
+ <p style="TEXT-INDENT: 2em" align="center"><img alt="17种危害宝宝饮食杀手与对策" src="/upload/157/20070705144054600.jpg" border="0" /></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">饮食杀手11、豆奶</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">豆奶作为婴幼儿喂养的最佳替代品，多年来一直无人质疑，但近年来陆续有研究报告指出婴儿喝豆奶的弊端。首先是美国从事转基因农产品与人体健康研究的人士发现，吃豆奶长大的孩子，成年后引发甲状腺和生殖系统疾病的风险系数增大，原因在于婴儿对大豆中高含量植物雌激素的反应与成年人不同，婴儿摄入体内的植物激素只有5%能与雌激素受体结合，余下的植物雌激素便在体内积聚，这样就可能为将来的性发育埋下隐患。有资料显示，喝豆奶长大的孩子日后罹乳腺癌的风险概率是常人的2-3倍。接着又有报告指出豆奶和大豆代乳品中的锰含量高于母乳50倍，而吸收过量的锰元素，将影响6个月以下婴儿的脑发育，从而增加了以后罹注意力缺陷、多动症和青春期暴力冲动的可能性。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">对策：提倡母乳喂养，婴儿特别是6个月以下的婴儿最好不喝豆奶。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">饮食杀手12、冷饮</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">一到夏季，不少孩子离不开冷饮，如冰棍、冰淇淋等。殊不知，孩子的肠管相对成人的长而薄，肠系膜松弛而固定能力差，一旦受到冷饮刺激，可导致肠管平滑肌痉挛和蠕动增强，进而诱发肠套叠，造成肠道梗阻而危及生命。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">对策：夏季孩子吃冷饮要慎重，切忌放纵，以防不测。一旦出现腹痛、呕吐等症状，应立即就医。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">最后，我们的生活条件和营养状况比起10年前虽然有了很大的改善，但一些孩童的营养状况却并没有得到相应提高，甚至还衍生出一些“高级垃圾食品”。因此，父母在日常生活中为孩子选择食品一定要慎重。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana"></font></p>
+ <font face="Verdana"> <p></p> <p><strong></strong></p><p></p></font>
+</div><div class="Newscontent">
+ <p></p>
+ <font face="Verdana"></font> 
+ <p style="TEXT-INDENT: 2em" align="center"><img alt="17种危害宝宝饮食杀手与对策" src="/upload/157/20070705144054384.jpg" border="0" /></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">饮食杀手13 烧烤食物</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">危害：1．减低了蛋白质的利用率：在烧烤食物的过程中，会发生“梅拉德反应”。肉类在烤炉上烧烤时散发出诱人的芳香气味，可是随着香味的散发，维生素遭到破坏,蛋白质发生变性，氨基酸也同样遭到破坏，严重影响维生素、蛋白质、氨基酸的摄入。因此，长期食用烧烤类食物会影响上述物质的利用度。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">2．隐藏着致癌物质：肉类中的核酸在梅拉得反应中，与大多数氨基酸在加热分解知产生基因突变物质，这些基因突变物质可能会导致癌症的发生，另外，在烧烤的环境中，也有一些物质致癌如3、4-苯比,通过皮肤、呼吸道、消化道等途径进入人体内而诱发癌症。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">3．烧烤外焦里嫩：有的肉里面还没有熟透，甚至还是生肉，若尚未烤熟的生肉是不合格的肉，如“米猪肉”，食者可能会感染上寄生虫，埋下了罹患脑囊虫病的隐患。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">对策：不要带孩子贪吃烧烤食品。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">饮食杀手14 含铅食品</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">危害：铅是脑细胞的一大“杀手”，据调查，当血铅浓度达到5--15微克/100毫升时，就会引起儿童发育迟缓和智力减退，年龄越小，神经系统受损程度越大。因此，应注意儿童食品中要减少铅的摄入量。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">含铅高的食品有：爆米花、皮蛋、罐装食品、软饮料等。另外，尽量少用铝铅品器皿。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">对策：少吃含铅类食品和少用铝铅品器皿。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana"></font></p>
+ <font face="Verdana"> <p></p> <p><strong></strong></p><p></p></font>
+</div><div class="Newscontent">
+ <p></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana"></font>&nbsp;</p> 
+ <p style="TEXT-INDENT: 2em" align="center"><img alt="17种危害宝宝饮食杀手与对策" src="/upload/157/20070705144055579.jpg" border="0" /></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">饮食杀手15 铝食品的危害</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">危害：铝对脑细胞有强的亲和力，食入过多含铝食品会造成智力减低。油条、粉丝、凉粉、以及含铅添加剂，一拉罐，铝锅炒菜等都会增加铝的摄入，尤其是当加入醋或加热时铝离子就可游离出来。 </font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">饮食杀手16 过氧脂质食物</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">过氧脂质食物破坏维生素，阻碍和干扰蛋白质和氨基酸的吸收，煎炸类食品，油温过高(200摄氏度以上)时也可出现上述现象。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">对策：尽量少食用煎炸类食品。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">饮食杀手17 食盐、味精、糖精</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">危害：小儿每日食盐应控制在4克以下。食盐过多易导致肾动脉硬化，糖精以苯酐为原料，除了甜以外，没有任何营养价值，婴儿应禁用。味精含谷氨酸钠，可造成缺锌，肝脏细胞损害。婴儿和孕妇应少用，最好不用。孩子食盐过多不利于健康。</font></p> 
+ <p style="TEXT-INDENT: 2em"><font face="Verdana">对策：尽量别样成孩子口重的习惯，饮食中注重营养搭配，少放上述调味料！ </font></p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/125820">宝宝辅食添加全程指导</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" class='thisclass'>婴儿辅食</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/125818">宝宝长牙－清洁篇</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125817">宝宝长牙－发育篇</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125816">婴儿出牙常识--宝宝何时长牙？出牙...</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125815">婴儿出牙晚忌盲目补钙</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/125814">宝宝长牙的必修3堂课</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"125940"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>
