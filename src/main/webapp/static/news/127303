@@ -1,0 +1,502 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>和偏食说bye-bye-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/127303"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=158" rel="nofollow">婴儿喂养</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					和偏食说bye-bye
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-29 23:40:00</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　宝宝会坐、会走、会跑、会跳了,他们就像小竹笋般脱掉层层外衣开始茁壮成长,妈妈刚刚感到欣慰紧接着又添了新的烦恼――不知从何时起宝宝开始偏食了。对于偏食,你认识多少,了解多少,仅仅是“宝宝不好好吃饭”一句话就能笼统地概括吗?想要让宝宝不输在“吃”的起跑线上,就要让宝宝和偏食说“bye―bye”,用什么方法才能达到最佳的效果呢?让我们一起听听营养专家的建议,爱宝宝,就从爱宝宝的胃开始吧! </p> 
+ <p>　　<strong>你的宝宝偏食吗?</strong> </p> 
+ <p>　　为了了解宝宝偏食的一些情况,做了一个简单调查,共有104位妈妈参与调查并回帖。调查显示,有6s%的妈妈认为自己的宝宝存在偏食现象,在这其中,89%的宝宝是不吃蔬菜,8%的宝宝不爱吃水果,其他的偏食现象有:有的宝宝特别爱吃面条,甚至顿顿饭要吃面条:有的宝宝只吃海鲜,而不吃其他肉类…… <br /><br />　　从调查中看,也有的妈妈对这个问题存在一些认识上的误区。大多数的宝宝都会对食物挑挑拣拣,犹如我们成人有着各自的口味与喜好,有的喜欢酸酸甜甜,有的顿顿不离辣椒,但这并不能称为偏食,只是个人口味有差异。我们不可能每顿都吃得营养均衡,对于宝宝也是如此。有时宝宝看起来一连几天除了面条和粥什么都没有吃,但还是小脸红扑扑、活蹦乱跳。实际上,在较长的一段时期内他还是得到了身体发育所需要的均衡营养,如果不相信,你可以对宝宝的食物做个记录哦。 <br /><br />　　所以,宝宝如果偶尔胃口不佳,并不是真正意义上的偏食。想要确定你的宝宝是否真的偏食,妈妈们先来做三道选择题。 <br />&nbsp;<br />　　如果以上有一个描述情形正是你宝宝的表现,说明有一定的偏食倾向;如果你的选择全部是“是”,那你的宝宝偏食很严重,想必你对此非常苦恼,或许你还为此特意请教过儿科医生。 <br /><br />　　<strong>儿科医生通常会这样专业地描述偏食的危害：</strong><br /><br />　　偏食是一种不良的摄食习惯,可导致某些营养素摄入不足或过剩,影响宝宝的生长发育和身体健康。宝宝免疫力降低、个子长得慢、情绪异常、常常哭闹等等都或多或少与偏食有关。一些生活方式相关疾病如肥胖、脂肪肝、糖尿病、冠心病、高血压等就可能是由于长期偏食肉类等荤食、不爱吃蔬菜造成的。要知道,医生的描述并非危言耸听,偏食的危害有时比妈妈们预想的还要更糟。 </p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong>我家的偏食宝宝</strong> <br /><br />　　<strong>“我只爱吃海鲜” 文/朋朋妈</strong> <br /><br />　　从小开始,朋朋好像就特别喜欢吃水产海鲜类的东西,什么鱼啁虾啁,她总是百吃不厌,而对于肉和蔬菜的兴趣就明显缺乏。有时妈妈在朋朋的碗里夹一些蔬菜,朋朋就会很快地挑出来,嘴巴里还不停地说,不吃不吃,这个不好吃。大一点了,她还会找理由:妈妈,这个颜色绿绿的好难看啊!让人哭笑不得。对于肉,朋朋则更不喜欢了,夹到她碗里她就夹出来,一遍又一遍,好像和爸爸妈妈玩游戏一样乐此不疲,完全拿她没辙。<br /> <br />　　而且朋朋个性比较倔强,做这件事的时候,她永远是不急不恼,到最后总是爸爸妈妈忍无可忍,而她则总是一副胜者的姿态,在旁边喜笑颜开。偶尔朋朋也会在爸爸妈妈的软硬兼施下咬一口肉,可是刚进嘴巴就立刻吐了出来,并且做出一副很痛苦的表情:也太难吃了吧!在吃饭问题上,朋朋永远是温和地拒绝,一场旷日持久的攻防战就这样日日在家里上演。 </p> 
+ <p>　　<strong>都是水果惹的祸?</strong> <br /><br />　　文/July <br /><br />　　宝宝好像从2周岁那时起就开始拒绝一切水果了,那种程度简直叫人觉得不可思议。 <br /><br />　　我是个酷爱水果的妈妈,有一次我在吃橘子,宝宝突然就哭着说:“妈妈,求求你不要吃了。”我说我马上就吃完了。她转身就跑到房间里,并把门关上。期间两次伸出脑袋问:“妈妈,你吃完没有啊?”我告诉她吃完了。她跑过来,看到桌上的橘子皮,马上掩着鼻子带着哭腔说:“快把橘子皮扔掉!” <br />为此我想了很多办法。 <br /><br />　　买过果粒酸奶,心想那么细小的果粒藏在厚厚的酸奶里总能逃过她的眼睛了吧!没想到她一尝就吐水果粒,后来干脆连最爱的酸奶都不要了。我还特意跑去买了榨汁机,兴冲冲地榨好了橙汁端过去,多希望她能赏脸喝下去呀!可是她用小鼻子闻了闻,立刻捏紧鼻子转过头去。 <br /><br />　　真的不知道如何才能叫宝宝重新爱上水果! </p> 
+ <p>　　<strong>4大因素让宝宝偏食</strong> </p> 
+ <p>　　为什么宝宝对食物如此挑三拣四?每餐总是坚持重复地吃同样几种食物,而对其他新食物连看都不看一眼呢?或者,为什么宝宝会对某种食物如此讨厌?像上面的宝宝,讨厌水果甚至到了那样的程度。当我们开始为宝宝的饮食这般操心的时候,不免要追寻偏食的原因了。 </p> 
+ <p>　　<strong>1、添加辅食阶段的失误</strong> <br /><br />　　在宝宝出生4个月后准备开始添加辅食时,有一个辅食添加原则:辅食的添加种类与量要从少到多,味道从轻到重,尽量不要过早给宝宝接触甜食。因为这个阶段的宝宝无论是口腔的味蕾,还是胃肠道功能都不完善,过甜、过咸的食物都会刺激宝宝正在发育中的味蕾,而没有添加任何佐料的原汁原味就是最鲜美的滋味。虽说这样的食物没有油水、不可口,但辅食的正确添加可以为以后宝宝不偏食不挑食、保持均衡营养打下基础。相反,如果我们任意给宝宝安排辅食,没有循序渐进的过程,忽视了宝宝的发育特点,那就为以后的偏食埋下了隐患。 </p> 
+ <p>　　<strong>2、爸爸妈妈的影响</strong> <br /><br />　　父母是宝宝的榜样,宝宝是父母的镜子,从宝宝的一曰三餐中可以看到父母的饮食习惯,宝宝的膳食结构是否丰富、营养是否均衡搭配,那就首先需要父母做个好榜样。 <br /><br />　　宝宝的饮食习惯受家人影响非常大,父母看似无意地;平价哪种菜好吃,哪种菜不好吃,喜欢吃什么,不喜欢吃什么,都会被小小人儿听到耳朵里。当某一天幼儿园阿姨告诉你宝宝挑食,当保健医生测量宝宝身高达不到正常值时,你的宝宝就输在了“吃”的起跑线上。 </p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　要培养宝宝良好的饮食习惯,父母首先要以身作则,改变、调整自己的饮食习惯,最起码在宝宝面前不要显露出特别的饮食偏好,努力让他吃到各种各样的食物,以保证身体发育所需的营养。 </p> 
+ <p>　　<strong>3、心理因素 <br /></strong><br />　　宝宝对食物的挑三拣四有时是源于自我保护,对待新事物人们都会有一种“陌生感”,有的宝宝会因为陌生而产生好奇,进而希望能够破解并得到答案,但对于敏感、生性小心翼翼的宝宝,陌生会让他们产生“恐惧”,结果当然就是排斥。的确,对于大多数宝宝来说,不愿意尝试新食物,是因为他们不知道这个新食物是否安全,宝宝只会喜欢熟悉的食物,只有这个食物反复出现在餐桌上,宝宝才会试着去尝试。 <br /><br />　　对于偏食还有另外一种解释,那就是渐渐独立的宝宝,希望自己更加独立的另一种方式――自己决定吃什么!宝宝从出生到他们学会自主吃饭以前,一直都是被动的,也就是他们自己基本没有选择食物的权利,唯有的办法就是把不喜欢吃的食 </p> 
+ <p>　　物从嘴里吐出来,但还是无法完全掌握自己的饮食。当宝宝能够独自进食后,他们开始向家长的权威挑战,通过挑选食物来表明自己决定事情的态度,这与到底吃什么食物没有很直接的关系。因此,如果宝宝是在这一心理因素下偏食,当父母强制他去吃某一种食物时,就会遭到宝宝的激烈反抗,这时你就要学会判断――他是真的不喜欢吃,还是需要一定的自主空间。 </p> 
+ <p>　　<strong>4、食物的外观、气味 <br /></strong><br />　　另外,如果宝宝曾经对某一食物留有不好的印象,也会排斥这一食物。例如,便秘期间吃过的含粗纤维的韭菜、芹菜,病愈后宝宝自然就会将这两种蔬菜与疾病联系起来。还有某些食物的外观、气味、纹路等也会影响宝宝进食的选择,很少有宝宝喜欢吃水萝卜和带苦味的食物也是这个原因。 </p> 
+ <p>　　<strong>7招让宝宝不再偏食</strong> </p> 
+ <p>　　每个宝宝的脾气秉性不同,饮食习惯和喜好口味也就各不相同。但如果宝宝偏食严重,甚至影响到宝宝的身体健康,妈妈可就要万分小心了。 <br /><br />　　宝宝偏食的表现和偏食的原因各种各样,但纠正偏食,还是有一些基本的章法可循的。下面就介绍7招,大家可以试一试,希望你的宝宝能“吃嘛嘛香,身体倍儿棒”! </p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong>有足够耐心去等待 <br /></strong><br />　　“吃完这些青笋,妈妈就给你拿饮料。”这样的许诺只能让宝宝产生对饮料的喜爱和对青笋的厌恶,并让他渐渐学会讨价还价:“妈妈,你先拿饮料我再吃这个。”其实没有必要用宝宝喜欢的其他食物做诱饵,只需要你不断地将青笋同其他食物放在桌子上,不用特别唠叨或许诺,也不用“威胁”,只要用足够的耐心去等待就可以了。当宝宝看到父母津津有味地吃新鲜的青笋,几次之后,他就会改变自己的主意,模仿你们的行为,一点一点地接受青笋。 </p> 
+ <p>　　<strong>不要给宝宝过多的选择</strong> <br /><br />　　妈妈们都知道,在很多情况下不能给宝宝太多的选择余地,吃饭也是如此。如果你问宝宝:“宝宝,今天想吃什么?”宝宝的回答肯定是他熟悉的食物。可是如果你换一种方式问宝宝“今天晚上想吃南瓜粥还是玉米粥?”让宝宝只能在这两种食物中进行选择,他的余地就小了。当然,妈妈们不会真的只准备这两样食物,宝宝的口味还是要照顾的,不用多,有一种他喜欢吃的东西做搭配就够了。 </p> 
+ <p>　　<strong>正确估计宝宝的食量</strong> <br /><br />　　宝宝虽然活动量大,但胃口小,我们不能对他们的食量有太高的期望值。事实上,有时宝宝吃掉一个鸡蛋饼,就已经能够为他提供足够的谷类和蛋白质了。如果你还是很担心,那就采取少食多餐的饮食原则,在下一餐给他提供含维生素较多的水果,以弥补前一餐营养不均衡的缺憾。 </p> 
+ <p>　　<strong>让宝宝尝试动手的快乐</strong> <br /><br />　　宝宝都是妈妈的小帮手,当你在厨房忙着准备饭菜时,可以让宝宝适当地“劳动”一下.例如开冰箱自己取酸奶、帮妈妈拿蔬菜.搅拌凉菜等,尽管很多人认为对于宝宝来说厨房里的危险太多,应该让宝宝远离厨房.但事实上.如果父母在做饭时能照看到宝宝,并且教给宝宝避免危险的方法,厨房也不失为宝宝的一个快乐天地.在这里,既充实了宝宝的游戏,又培养了他劳动的兴趣,在吃饭时他还能享受自己的劳动成果.或许那个时候,宝宝就不会挑剔食物的种类而只专心品尝他参与劳动后的食物变得多么美味了。 </p> 
+ <p>　　<strong>游戏引导</strong> <br /><br />　　每个宝宝都是喜欢做游戏的,在游戏中扮演着生活中不能扮演的角色,妈妈可以利用宝宝的这一特性“饮食”子乐,在游戏中完成宝宝对新食物的尝试。例如在进餐前专门挑选一些与饮食有关的儿歌,通过儿歌引导宝宝吃青菜。“小白兔,白又白,爱吃萝卜和青菜”、“老奶奶拄拐杖,爱吃韭菜炒鸡蛋”等等,潜移默化中改变宝宝的不良饮食结构。曾经有个妈妈为了让宝宝吃胡萝卜,就编了一个好长的故事告诉宝宝,胡萝卜来自火星,宝宝可是个天文爱好者,这样一来,立即喜欢上胡萝卜了。妈妈是不是很聪明呢? </p> 
+ <p>　　<strong>妈妈做“大厨” <br /></strong><br />　　妈妈要练好厨艺“内功”,饭菜要常变花样,上下餐之间不要重样。如果每天都是西红柿、茄子、黄瓜、豆角,做法也很单调,炒、蒸、炖,即使是我们大人也会吃腻的,更何况宝宝。所以,不妨向有经验的其他妈妈取点厨艺经,或者上网去交流,关于如何变换宝宝饭菜的花样,很多妈妈都有自己的心得和经验。例如平平妈妈,她能将普通茄子做出20多种味道,鱼香茄子、煎酿茄子、炸茄合、地三鲜、菊花茄子、糖醋茄条等等,想必有了这样的变化,她的宝宝自然会爱上妈妈做的饭菜,胃口好好哦。 </p> 
+ <p>　　<strong>让宝宝按自己的需要选择食物 <br /></strong><br />　　美国饮食协会曾做过一项关于宝宝偏食的调查研究,在接受调查的这些家庭中,有49%的母亲认为自己的宝宝偏食。而研究人员调查后发现,这些宝宝已经从食物中摄取了足够身体需要的营养。 <br /><br />　　所以,我们可以这样认为;宝宝或许天生就有一种本领――他能根据自己的感觉决定吃什么食物以保证身体健康发育,就好像宝宝夜间的睡眠,当身体某一部分被压迫感觉不舒服时,他们就会自主地改变睡眠姿势。 <br /><br />　　饮食也是如此,可以让宝宝自主地选择吃什么,我们应该做的是给宝宝尽可能提供健康、丰富的食物,创造宽松、积极的进餐环境,在他们过于偏食时给予提醒。随着年龄的增长和生活圈子的扩大,他们选择的食物种类与饮食结构会受外界的影响,当然发生改变,到那时,曾经令妈妈们头疼的偏食也许将不复存在。 </p> 
+ <p>　　<strong>纠正偏食,我有高招</strong> </p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　<strong>朋朋妈出招 <br /><br /></strong>　　首先,家长要以身作则。其实妈妈以前自己就有严重的挑食问题,一般类似芹菜、蒿菜、香菜等有味道的蔬菜妈妈通通都不吃。但现在我会做这些菜,上桌后,妈妈主动给朋朋夹菜,并且和爸爸以大口吃菜和之后满意的夸张表情来“诱导”朋朋。 <br /><br />　　其次,和宝宝讲各种菜肴的营养成分,让宝宝主动地接受食物。朋朋一直很渴望长大,爸爸妈妈就会以此为切入点,引导朋朋接受食物。比如告诉她:骨头汤里面有很多的钙质,钙质是长骨头的,会让朋朋长高;蔬菜里有很多的维生素,可以让朋朋身体壮壮;鱼有好多的蛋白质,而且还可以让朋朋变得更聪明……在这些话语的鼓励下,朋朋吃东西的主动性强了很多。现在朋朋每吃一样东西都会很流利地进行解说,这个补什么,那个对什么好。特别是看到别的小朋友吃饭不好时,朋朋就会“教育”他:哥哥你这样不行的,你不吃的话就永远都长不大了,这个会让你变聪明的,你想不想当三好学生啊?俨然一副小大人的样子。 <br /><br />　　再次,适时地创造一些竞争和比赛的机会,提高宝宝就餐的欲望和兴趣。在外婆家吃饭时,朋朋会主动地和哥哥比赛。而在自己家,爸爸妈妈就是朋朋的竞争对象,朋朋很小就知道冠军、亚军、季军和殿军的区别,所以力争冠军是她的“追求”。在这上面朋朋也闹过一个笑话,有一次朋朋因为不好好吃饭得了最后一名,朋朋很生气地看着大家,然后说:哼,我才不做冠军呢,第五名最好了,因为殿军后面就是解放军,我是最厉害的解放军! </p> 
+ <p>　　<strong>慧慧妈出招</strong> <br /><br />　　小孩子的模仿力和好胜心都是超强的,我家慧慧也不例外,我决定好好利用一下这两点。这天正好是周末,中午我煮了菠菜汤,慧慧照例是看都不看。 <br /><br />　　我拿起调羹喂了老公一口:“来,爸爸,多喝素菜汤,人会变得漂亮的。”“是吗?”老公很配合地喝掉了,又拿起调羹喂了我一口:“来,妈妈也喝一口,大家一起漂亮。” <br /><br />　　慧慧在旁边瞪着大眼睛很好奇地看着,我又拿起调羹送到她面前:“慧慧要不要也来一口?”慧慧拼命摇着脑袋身子往后退,我也不逼她,就跟老公两个人你一口我一口地把汤喝掉了,那顿饭看得出慧慧吃得有点落寞,因为没人理他。 <br /><br />　　晚上吃饭我又煮了鸡毛菜汤,事起调羹送到老公嘴边;“哎呀,爸爸,你好像漂亮多了!”我夸张地叫了起来。“是吗,好像妈妈也漂亮很多,一定是中午我们喝汤的缘故。”老公也异常配合。“那我们再多喝一点,就会变得越来越漂亮!”然后我假装压低嗓子:“我们不要给慧慧喝,让她长得难看点。”老公用力地点点头。 <br />这时一旁的慧慧不干了,跳了起来:“慧慧也要漂亮。”我和老公相视一笑:“那么,爸爸一口,妈妈一口,慧慧也一口,好吗?”慧慧点头,就这样你一口我一口,一碗汤就被我们“干”掉了。 </p> 
+ <p>　　<strong>非非妈出招</strong> <br /><br />　　有一次在幼儿园里,非非不知道什么原因,出鼻血了。看到非非紧张害怕的神情,我就认真地对他说:“非非,你看,你不喜欢吃蔬菜,所以你的鼻子就出血了哦!”这一掐很灵验,非非在这之后也开始主动要求吃蔬菜了。 <br />在平时的餐桌上,我也尽量地将各种颜色的蔬菜放在一起做,非非看着五颜六色的蔬菜拼盘,边说着菜的颜色,边津津有味地吃着。然后我会摸着他的小肚子,逗趣地说:“哇,黄黄的胡萝卜跑到这里来了啊,哦,这个地方一定是豆豆。”非非也会骄傲地摸着小肚子说:“还有这里呢,有黄瓜、菠菜、白菜……” </p> 
+ <p>　　<strong>专家点评:</strong> <br /><br />　　宝宝的口味偏好是由遗传因素、刚开始添加辅食时养成的口味.长期的生活环境中的饮食习惯等诸多方面的因露造成的。前面提到的不爱吃水果的宝宝的情况看起来有些特殊.她原来是吃水果的,突然就变得不爱吃了,而且是坚决拒绝所有的水果.我认为可能是一些特殊的原因导致这个宝宝如此地拒绝水果。我向意妈妈的看法,可以带宝宝去看心理医生,主要是弄清楚宝宝坚决拒绝水果的原因,然后对其进行有针对性的引导。<br /> <br />　　至于朋朋妈.她本来就挑食,但尽量不把这个不良习惯带到家庭中来,而且鼓助宝宝去勇敢尝试新的食物:其次还给宝宝讲解食物的营养知识.引导宝宝主动选择多样化的食物,让宝宝既学到了知识又得到了营养,朋朋妈做得非常好.慧慧妈和非非妈也做得非常漂亮哦!但在让宝宝跟小朋友或家人比赛吃饭时要把握好度,不要因此而摄入过量的食物,走向另一个极端。 </p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/126156">怎样喂宝宝喝水</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" class='thisclass'>婴儿喂养</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/126155">十八般武艺解决宝宝吃饭难</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126154">宝宝饮食追求高蛋白吗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126153">婴儿过早添加辅食不利健康</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126152">防过敏，半岁前只给宝宝吃蛋黄</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126151">洋葱干酪蛋奶面包</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"127303"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

@@ -1,0 +1,494 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>宝宝健脑计划书，物质基础篇-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/126946"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=158" rel="nofollow">婴儿喂养</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					宝宝健脑计划书，物质基础篇
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-29 23:18:55</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　要使大脑生长发育良好应从两方面努力：一是良好的营养，充足的氧气，优越的环境，促使大脑组织的生长，完善大脑结构；二是良好的信息刺激，提高大脑的功能。前者为大脑发育奠定物质基础，后者为大脑功能提供精神粮食，两者结合才能使宝宝的大脑得到充分开发。</p> 
+ <p>　　今天我们就先和大家聊聊如何为宝宝的大脑发育打好物质基础。</p> 
+ <p>　　<b>培养良好的饮食习惯和观念</b></p> 
+ <p>　　<b>&middot;吃足主食</b></p> 
+ <p>　　人脑这台机器用的能量，主要是由血液中的血糖（葡萄糖）提供。如果血液中葡萄糖不足，脑子的工作就会受影响，因此，人的血液中必须保存一定浓度的葡萄糖，不然就容易发生能源不足。生理学家发现，脑子体积虽然不大，但消耗的葡萄糖却很多&#x2014;&#x2014;正常人血液中大约有2/3的葡萄糖要被 脑子消耗掉。紧张脑子消耗的氧也跟着减少，人就要出现脑部疲劳现象，不仅思维、记忆、想象等功能会下降，而且还会出现头晕脑涨、疲乏等现象。因此，常用脑的人特别应当吃足米、面、杂粮、薯类等主食，这些食物中的演粉在体内将被消化成葡萄糖，吸收到血液里，从而可向脑子提供足够的能量。</p> 
+ <p>　　<b>&middot;增加蛋白质</b></p> 
+ <p>　　在人的大脑中，大约云集着人体蛋白质的50%。因此，大脑对蛋白质的匮乏是相当敏感的，并且也极易造成大脑损伤。</p> 
+ <p>　　<b>&middot;注意食蛋黄</b></p>
+ <p　　除了蛋白质，脑子还特别需要一种叫卵磷脂是构成乙酰胆碱的原料。乙酰胆碱能帮助脑传递兴奋，还有帮助增强记忆的作用。科学家通过实验正实，人吃了卵磷脂后，精力变得充沛，脑力劳动效率有所提高，神经衰弱的毛病也被治好了。所以，常用脑的人，应该多吃富含卵磷脂的食物，如大豆、牛奶、鸡蛋等，其中以蛋黄含量最多。< p=""> 
+  <p>　　<b>&middot;强化维生素B</b></p>
+  <p　　维生素b族是维持人体代谢所必须的物质，他对神经系统有很大作用。如vb1是糖代谢过程中酶的辅助因子，可影响大脑中能量的供应，缺乏时可引起记忆减退、思维迟钝；vb6可参与蛋白质和脂肪的代谢过程，缺乏时可导致脑发育受阴以及智力发肩迟缓；vb12缺乏也会导致神经系统的变化，缺乏vb12可患&#8220;智力衰退性精神病&#8221;。因此，我们平时应注意补充上述与大脑活动有密切影响的维生素，使自己变得更为聪明。富含vb1的食物有花生仁、黄豆、小米、猪肝、核桃、蛋黄、芝麻酱，黄花菜等；富含vb6的食物有甘薯、香蕉、白菜、豆类等；富含vb12的食物有瘦牛肉、牛肾、牛肝、猪心、青鱼、牡蛎等。 <p=""> 
+   <p>　　<b>&middot;中和酸食</b></p> 
+   <p>　人体在正常状态下，血液为弱碱性，Ph值为7.35~7.45，用以应付源源不断涌入的酸性物质。当Ph值近于7时，血液就接近了酸性。血液酸性化就称为酸性体质。酸性体质的人常有一种特殊的倦感，这种疲倦感会影响大脑的正常工作。开始时人常感到手脚发凉，容易感冒，伤口不易愈合。酸性体质达到严重状态时，会直接影响到脑神经功能，从而引起记忆力减退、思维能力下降以及神经衰弱等症状。有的人以为自己常常疲倦是因为睡眠时间不足、用脑过度、体力劳动过多等因素引起，殊不知偏食酸性食物也会造成这样的后果。</p> 
+   <p>　　哪些食物属酸性食物呢？一般我们吃的主食米和面就属酸性食物；副食中的肉、鱼、贝类、虾、鸡蛋、花生、紫菜、还有啤酒、白糖等都属酸性食物。由于主食都属酸性，所以，我们每天都在食用大量酸性食物。但这样并不可怕，问题是如何吃一定的碱性食物来中和酸性食物。使我们的头脑处于清醒活跃状态。哪些食物属碱性食物呢？一般我们吃的蔬菜、水果、豆类、海藻类、茶、咖啡、牛奶等都属碱性食物。因此，如果大量吃鱼、肉、蛋而忽视吃蔬菜、水果，看起来营养水平提高了，但却形成了酸性体质，反而容易使大脑疲倦，记忆、思维功能也会减弱，这是要注意避免的。</p> 
+   <p>　　<b>&middot;适度进食</b></p> 
+   <p>　　尽管各种营养素对脑的作用毋庸置疑，但切不可因此拼命提高营养村准，尤其是蛋白质的供应量。因为人的消化、吸收能力是有限的。倘若过分地摄食，就会增加消化器官的负担，容易引起消化功能紊乱。而且，动物蛋白的过理摄入还会危及身体健唐，如诱发心血管疾病。还有，不能认为维生素摄入越多越好。因为一旦摄入过多，维生素就不再起补养作用，反而产生一定的药理作用，甚至会出现严重的副作用。</p> 
+   <p>　　另外，还要注意的是蛋白质、脂质一结构的脂肪、糖类、维生素B族、维生素C和E、钙、磷、镁等是人脑的主要成分。含有这些成分容易被消化和吸收的食物，都可以作为增进智慧和健脑的食品加以利用。如家禽的肉，以及蛋、奶、鱼类等。结构脂肪在野兔、猪、牛、羊、鸡、鸭、鱼等动物体内以及花生、芝麻、核桃、葵花子、西瓜子、南瓜子和杏仁里含有维生素C的有各种新鲜的蔬菜和水果。其中枣、橘子、波菜、辣椒、中含量尤为丰富。钙如果极度缺乏，会引起失眠，不安，智力减退乃至神经错乱，其重要来源是鱼类、贝类、虾、蟹。脑力劳动还会大量消耗磷，因此要用玉米、粗面粉、黄豆等含磷多的食品来补充。　　 </p>
+   <p>　　这些食物要全面地恰当摄入，而不是多多益善。因为脂肪吃得太多，反而会损伤大脑的功能。</p> 
+   <p>　　<b>了解我们身边的“健脑”和“损脑”食品</b></p> 
+   <p>　　爸爸妈妈如何安排健脑食物，为孩子智力发育提供帮助呢？建议注意以下几点：<br /><br />　　<b>&middot;健脑食物应适宜于孩子的消化吸收。</b>要根据孩子的年龄、消化吸收能力来选配健脑食物。比如一岁以内的孩子适宜于食母乳，而不适宜于食硬壳类食物。只有能够消化吸收，才能使大脑得到营养。否则，不但达不到健脑的目的，反而易损伤孩子的消化功能。<br /><br />　　适宜于孩子的健脑食物主要有以下几种：<br /><br />　　(1)母乳。母乳是最佳的补脑食物，它可以提供大脑发育所不可缺少的不饱和脂肪酸，特别是亚麻油酸，这些牛奶几乎是没有的。所以母乳喂养是孩子大脑发育的重要营养保证。<br /><br />　　(2)动物内脏及瘦肉、鱼等含有较多的不饱和脂肪酸及丰富的维生素和矿物质，因此孩子可适量吃一些动物的脑、肝、瘦肉及鱼等。<br /><br />　　(3)水果。特别是苹果，不但含有多种维生素、无机盐和糖类等构成大脑所必需的营养成分，而且含有丰富的锌，锌与增强孩子的记忆力有密切的关系。所以常吃水果，不仅有助于孩子身体的生长发育，而且可以促进智力的发育。<br /><br />　　(4)豆类及其制品。含有丰富的蛋白质、脂肪、碳水化合物及维生素A、B等。尤其是蛋白质和必需氨基酸的含量高，以谷氨酸的含量最为丰富，它是大脑赖以活动的物质基础。所以孩子常吃豆类及其制品有益于大脑的发育。<br /><br />　　(5)硬壳类食物。含脂质丰富，如核桃、花生、杏仁、南瓜子、葵花子、松子等均含有对发挥大脑思维、记忆和智力活动有益的脑磷脂和胆固醇等，因此，可以适量让孩子吃些硬壳类的食物。<br /><br />　　另外，蔬菜、海鲜等食物也有助于孩子大脑的发育。<br /><br />　<b>　&middot;健脑食物应适量、全面，不能偏重于某一种或是以健脑食物替代其他食物。</b>食物种类要广泛，否则易致孩子营养不全甚至营养不良，不仅影响身体的发育，也会影响智力的发育。<br /><br />　　<b>&middot;健脑食物的种类及数量应逐步添加，食物种类全面不等于一哄而上，要注意孩子的特殊进食心理和尚未完善的消化机能。</b>食物要安排得丰富且应经常变换。孩子对陌生的食物或是特殊气味的食物如海鲜等不易接受时，家长在增加新的食物时应尽量烹调得可口，色香诱人，如应设法说服孩子，诱导孩子进食。<br /><br />　　<b>&middot;均衡食用酸类食品和碱类食品。</b>对酸类食品如谷物类、肉类、鱼贝类、蛋黄类等的偏食，易导致记忆力和思维能力的减弱，故应与碱类食品如蔬菜、水果、牛奶、蛋清等科学搭配，均衡食用。<br /><br />　　值得注意的是，两周岁以后的孩子大脑发育仍需加强营养。另外还要让孩子经常呼吸新鲜空气，这样才会使孩子更加聪明。</p> 
+   <p>　　&middot;<b>宝宝健脑不宜食用下列食品</b></p> 
+   <p>　　(1)含铅食品</p> 
+   <p>　　铅是细胞的一大“杀手”。当血铅浓度达到15微/100毫升时，就会引起儿童发育迟缓和智力减退，而且年龄越小神经受损越重。含铅食品主要有爆米花、皮蛋、缸装食品或饮料等。</p> 
+   <p>　　当前儿童铅中毒情况增多，中毒症状有动作过多，兴奋，睡眠差，食欲不振，尿频遗尿，脾气急躁，喜怒无常，精神不易集中，听觉和语言表达差，学习能力欠佳等。</p> 
+   <p>　　(2)含铝食品</p> 
+   <p>　　油条、粉丝、凉粉、油饼等食品中的铝含量很高，如果经常吃就会造成铝摄入过多，从而影响脑细胞功能，导致记忆力下降，思维能力迟钝。常用铝锅、铝壶的家庭应注意。</p> 
+   <p>　　(3)含过氧脂质的食品</p> 
+   <p>　　过氧脂质对人体有害，在胃肠内会破坏食物中的维生素，阻碍和干扰人体吸收蛋白质，还可使人体内某些代谢酶系统遭受破坏，促使大脑早衰或痴呆。含过氧脂质较多的食品主要有油温达200摄氏度以上的煎炸食品，炸过食物的油会很快氧化并产生过氧脂质，长期曝晒的食物里的脂肪酸也会产生过氧脂质。</p> 
+   <p>　　(4)含食盐、糖精过多的食品</p> 
+   <p>　　过咸的食物，不仅会引起孩子高血压、动脉硬化等症，还会损伤动脉血管，影响脑组织的血液供应，使脑细胞长期处于缺血、缺氧状态，导致智力迟钝，记忆力下降。糖精是以苯酐为原料加工合成，有甜味，无任何营养价值，用量应限制，否则会损害大脑。</p> 
+   <p>　　(5)烧烤牛、羊、鸡、鱼肉等</p> 
+   <p>　　牛羊肉在熏烤过程中会产生有害物质，对大脑发育极为不利，还可诱发癌症。富含蛋白质的牛羊肉，在烧烤过程中蛋白质焦化变性，不仅失去了原有的营养价值，使大脑得不到应有的营养补充，还可能转化为对人体细胞具有致突变性的化合物。如果经常吃烧烤鸡、牛、羊、猪肉，可使大脑逐渐趋向迟钝，影响智力发展。</p> 
+   <p>　　(6)巧克力</p> 
+   <p>　　巧克力是一种高能量食品，但不是孩子的营养佳品，绝不能贪食巧克力。因为巧克力主要含有糖和脂肪，贪食巧克力会损伤小儿食欲，达不到营养的目的，反而常发生厌食症，使孩子的体型又瘦又小。巧克力蛋白质、无机盐和维生素含量低，由于缺乏这些生长发育所必需的营养素，贪食巧克力就会影响少儿大脑的生长发育，妨碍神经胶质的增殖，使智力落后。</p> 
+   <p>　　(7)泡泡糖</p> 
+   <p>　　泡泡糖嚼起来特别香甜。含在口中咀嚼，可使颌骨和牙齿得到协调发育，有利于牙齿的健康生长。泡泡糖的主要成分是橡胶和增塑剂。增塑剂的代谢产物&#x2014;&#x2014;苯酚，在消化道被吸收后，对脑的发育不利。所以，泡泡糖也不可多吃。</p> 
+   <p>　　中国孕育网采编整理</p> 
+   <p></p> 
+   <p></p> 
+   <p><strong></strong></p>
+   <p></p>
+  </p　　维生素b族是维持人体代谢所必须的物质，他对神经系统有很大作用。如vb1是糖代谢过程中酶的辅助因子，可影响大脑中能量的供应，缺乏时可引起记忆减退、思维迟钝；vb6可参与蛋白质和脂肪的代谢过程，缺乏时可导致脑发育受阴以及智力发肩迟缓；vb12缺乏也会导致神经系统的变化，缺乏vb12可患&#8220;智力衰退性精神病&#8221;。因此，我们平时应注意补充上述与大脑活动有密切影响的维生素，使自己变得更为聪明。富含vb1的食物有花生仁、黄豆、小米、猪肝、核桃、蛋黄、芝麻酱，黄花菜等；富含vb6的食物有甘薯、香蕉、白菜、豆类等；富含vb12的食物有瘦牛肉、牛肾、牛肝、猪心、青鱼、牡蛎等。>
+ </p　　除了蛋白质，脑子还特别需要一种叫卵磷脂是构成乙酰胆碱的原料。乙酰胆碱能帮助脑传递兴奋，还有帮助增强记忆的作用。科学家通过实验正实，人吃了卵磷脂后，精力变得充沛，脑力劳动效率有所提高，神经衰弱的毛病也被治好了。所以，常用脑的人，应该多吃富含卵磷脂的食物，如大豆、牛奶、鸡蛋等，其中以蛋黄含量最多。<>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/126156">怎样喂宝宝喝水</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" class='thisclass'>婴儿喂养</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/126155">十八般武艺解决宝宝吃饭难</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126154">宝宝饮食追求高蛋白吗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126153">婴儿过早添加辅食不利健康</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126152">防过敏，半岁前只给宝宝吃蛋黄</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126151">洋葱干酪蛋奶面包</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"126946"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

@@ -1,0 +1,525 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>微量元素与儿童健康-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/126441"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=158" rel="nofollow">婴儿喂养</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					微量元素与儿童健康
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-29 22:51:43</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p>
+  <!--画中画开始--> 
+  <!--画中画结束--> </p>
+ <p>　　人体是由各种元素组成的一个有机体。按各种元素在人体中所占的比例可分为宏量元素和微量元素。宏量元素共有11种，按需要量多少的顺序排列为：氧、碳、氢、氮、钙、磷、钾、硫、钠、氯、镁。其中氧、碳、氢、氮占人体质量的95％，其余约占4％，此外，微量元素约占1％。在生命必需的元素中，金属元素共有14种，其中钾、钠、钙、镁的含量占人体内金属元素总量的99％以上，其余10种元素的含量很少。习惯上把人体内所占比例高于0.01％的元素，称为宏量元素，低于此值的元素，称为微量元素。如铁、锌、铜、碘、铅等。人体若缺乏某种宏量元素，会引起人体机能失调，但这种情况很少发生，一般的饮食含有绰绰有余的宏量元素。微量元素分必需元素、非必需元素和有害元素三类。必需微量元素虽然在体内含量很少，但它们在生命过程中的作用不可低估。没有这些必需的微量元素，酶的活性就会降低或完全丧失，激素、蛋白质、维生素的合成和代谢也就会发生障碍，人类生命过程就难以继续进行。因此，儿童的许多疾病与元素有关，缺少了或过多了都有可能导致疾病。 </p> 
+ <p>　　几个重要元素与儿童健康的关系</p> 
+ <p>　　元素构成了人体，每种元素都有其重要的作用。对儿童的生长发育来说，最受重视的宏量元素就是钙和磷，其中钙更是家喻户晓、人人皆知的元素。而微量必需家族中较受重视的是铁、锌、铜、铬、钴、锰、钼、碘、硒、氟、铅和汞等元素。</p> 
+ <p>　　钙在人体内的确非常重要，钙是构成骨骼、牙齿的重要成分，而且对保持肌肉和神经系统的兴奋性特别重要，维持心跳节律、参与凝血过程，还是细胞内的第二信使，参与信号传导，体内许多酶的活性都离不开钙。儿童，特别是婴儿由于种种原因，很容易出现缺钙，医学上称之为“佝偻病”，是由于儿童体内维生素D的缺乏所导致的钙吸收不良所引起的一系列钙磷代谢紊乱的临床表现，可出现低钙血症，甚至低钙惊厥，俗称&quot;缺钙&quot;是婴儿期常见病之一。</p> 
+ <p>　　铁是人体需要量最多的微量元素，一个成年人，全身含铁量约3～5克，其中除了70～80％是以血红蛋白的形式，存在于红细胞中外，约10％分布在肌肉和其他细胞中，是肌红蛋白及含铁酶的构成成分之一。还有一部分称为贮备铁，贮备在肝脏、脾脏、骨髓、肠和胎盘中，约占总量的15～20％。此外，还有少量的铁，以与蛋白质相结合的形式，存在于血浆中，称为血浆铁，数量约为3毫克。血红蛋白能将氧气送至全身组织，肌红蛋白和氧的结合力很强，能储备部分氧气，在骨骼肌缺氧时可以释放这部分氧。铁是血红蛋白的重要组成部分，如果铁供给不足，血红蛋白的合成就会受到影响，就会患贫血，医学上叫营养性缺铁性贫血，是儿童的一种常见病。对婴儿来说，由于母乳中铁含量较低，胎儿期从母体获得并储存在体内的铁会在生后6个月左右消耗完毕，如果辅食添加不及时，婴儿会在出生6个月左右开始发生铁缺乏症，进而出现贫血症状。</p> 
+ <p>　　锌是仅次于铁的需要量较大的微量元素，是200多种含锌酶的组成成分，也是酶的激活剂，以锌为主要成员的锌指蛋白在核酸代谢和蛋白质合成中发挥重要作用。婴儿每天需锌量为3～5毫克，1～10岁儿童每天需锌量为5～10毫克。婴幼儿锌供给不足，影响生长和智力发育，也影响味觉和免疫功能，缺锌是厌食症的主要原因。</p> 
+ <p>　　铜元素对于人体也至关重要，它是生物系统中一种独特而极为有效的催化剂。铜是30多种酶的活性成分，对人体的新陈代谢起着重要的调节作用。由于中国人的膳食结构，临床上很少发现铜缺乏症，但部分喂养不当的早产儿，则可能会有铜缺乏的危险，而损害脑细胞的成熟。</p> 
+ <p>　　铬在由胰岛素参与的糖或脂肪的代谢过程中，铬是必不可少的一种元素，也是维持正常胆固醇所必需的元素。</p> 
+ <p>　　钴是维生素B12分子的一个必要组分，B12是形成红细胞所必需的成分。钴缺乏时会发生巨幼红细胞性贫血，又叫恶性贫血，影响儿童智力发育。</p> 
+ <p>　　锰参与许多酶催化反应，可促进骨骼的生长发育，保护细胞中细粒体的完整，保持正常的脑功能，维持正常的糖代谢和脂肪代谢，可改善肌体的造血功能。锰缺乏可引起神经衰弱综合症，影响智力发育。锰缺乏还将导致胰岛素合成和分泌的降低，影响糖代谢。</p> 
+ <p>　　钼是某种酶的一个组分，这种酶能催化嘌呤转化为尿酸。钼也是能量交换过程所必需的。微量钼是眼色素的构成成分。</p> 
+ <p>　　碘在体内的主要功能是参与合成甲状腺素。缺碘会导致甲状腺机能亢进。沿海地区由于可通过食用海产品从饮食中得到碘，因而不易发生碘缺乏，而内陆地区由于食物和饮用水中多缺乏碘，长期缺碘成人很容易发生地方性甲状腺肿，儿童发生克汀病，表现智能迟缓，听力障碍，常伴有体格生长落后。目前世界各国均通过食用碘盐补充碘，我国目前基本消灭因碘缺乏而发生的大面积碘缺乏症。但内陆省份，要警惕因食用私盐（为加碘）而造成的儿童克汀病。</p> 
+ <p>　　硒作为谷胱甘肽过氧化酶的成分，具有抗氧化作用；调节免疫、抗肿瘤作用。硒缺乏症又叫克山病，是因硒缺乏造成的骨骼肌、心肌及肝脏变质性病变为基本特征的一种营养代谢病。</p> 
+ <p>　　氟是形成坚硬骨骼和预防龋齿所必需的一种微量元素。儿童氟缺乏影响牙的生长，易患龋牙，氟过多则引起氟中毒和氟斑牙。</p> 
+ <p>　　铅和汞是重金属，属于有害微量元素，在人体内会造成蓄积，并且可以通过胎盘和乳汁，由母体传给胎儿和婴儿，当蓄积超过一定的量，就会对儿童的生长发育产生毒性，特别受到关注的是影响儿童的神经系统发育。</p> 
+ <p>　　元素补充的误区和注意事项</p> 
+ <p>　　孩子是父母的掌上明珠、是家庭的希望、是祖国的未来，尤其在六个大人一个孩子的家庭结构时代，随着人们生活水平的提高，如今的家长对儿童健康的关注比以往任何时候都更高了，不惜花大价钱给孩子补这补那，这些年我们从各种媒体可以听到或看到关于儿童“铅毒”、“缺钙”、“缺锌”、“缺铁”等等，父母也就跟着广告走，今天给孩子补钙、明天改补锌、后天再排铅，忙得不亦乐乎。其实父母在认识上存在许多误区，亟待提高广大父母在科学育儿方面的知识，不能盲目地跟着广告和传言走。</p> 
+ <p>　　婴儿“缺钙”－认识上的误区</p> 
+ <p>　　人们通常所说的孩子“缺钙”实际上是指佝偻病，佝偻病的实质是婴幼儿缺乏维生素D导致钙磷吸收和代谢障碍，而不是真正缺钙，这是人们认识上的一个误区，佝偻病的预防和治疗均是以补充维生素D为主，同时可以适当补充钙元素。这就是为什么孩子出生以后一个月左右必需开始补充鱼肝油（主要含维生素D和A）的原因。如果妈妈乳量充足或用配方奶喂养，其中的钙元素通常足够婴儿的需求，不必额外补充。人体是可以自己合成维生素D的，这需要得到适量的紫外线的照射，当日光中的紫外线照射直接皮肤时，皮肤就在合成维生素D了；需要指出的是，隔着玻璃晒太阳，紫外线不能透过玻璃，不能达到效果。居住在北方的婴幼儿，由于室外气温低、着装多、户外活动少，受到光照的机会也就少；特别是秋冬季节出生的孩子，由于长时间不能接受紫外线的照射，自己不能合成维生素D，如果同时不能按照要求给予足量补充鱼肝油，就会发生佝偻病。当孩子长到1岁以后，夏天户外活动较多，就可暂停补充鱼肝油；当孩子2岁以后，特别是那些居住在南方的孩子，由于全年多有较多的户外活动，身体内合成的维生素D通常已经够用，就不必再服用鱼肝油了，因为鱼肝油中的维生素D和A补充过量也会导致中毒，所以给孩子服用鱼肝油要根据医嘱，不可擅自使用或加大剂量。</p> 
+ <p>　　补钙误区</p> 
+ <p>　　误区之一：广告宣传铺天盖地，宣传全民缺钙，人们补钙跟着广告走。而实际上，经过这些年的宣传，目前我国城市儿童牛奶饮食习惯已经大大改善，很多孩子坚持每天喝牛奶，喝酸奶、牛奶的量已经达到300～500毫升，基本上可以从牛奶中获得400毫克左右的钙元素，加上从其他食物中获得的300～400毫克钙，摄钙量已经达标，并非每个孩子都缺钙。</p> 
+ <p>　　误区之二：在商场、药店通过仪器的简单测试就能确定是否缺钙。事实上，这些场所摆放的“单光子骨密度测试仪”只能测人体手臂的尺骨和桡骨，而人体钙流失的主要危害是造成腰椎和骨盆髂骨的缺钙，同时骨密度测定的干扰因素很多，因此这种测试并不准确。</p> 
+ <p>　　误区之三：必须通过吃钙保健品才能迅速补钙。其实，通过饮食补钙是最好最安全的途径。</p> 
+ <p>　　误区之四：补钙产品卖得越贵，含钙量越高，吸收率就越高，效果也越好。有的补钙品宣称“沉积好、吸收快”，有的宣称“颗粒小”，甚至推出了“原子钙”、“纳米钙”，让人们觉得钙越细小越易吸收。实际上人体对钙的吸收利用率和钙产品的颗粒大小无关。要看膳食中钙磷比例是否协调，机体合成足够的维生素D。</p> 
+ <p>　　误区之五：补钙首选含维生素Ｄ的产品。如果孩子正在服用鱼肝油，或每天户外活动较多，应慎服大量添加维生素Ｄ的补钙剂，服用过量会产生积蓄中毒现象。</p> 
+ <p>　　误区之六：多种元素一起补。钙、镁、锌、铁同时服，由于元素间的在肠道内对吸收用的转运蛋白存在竞争作用，钙的剂量大大高于其他元素，服用钙剂的同时会干扰铁、锌、铜等其他元素的吸收，效果不佳。</p> 
+ <p>　　如何正确补钙？</p> 
+ <p>　　至于补钙，经过媒体广告整日价地狂轰滥炸，人们似乎得到这样一个概念，全民都缺钙，人人得补钙。当然，钙是人体必需元素，根据中国营养学会2000年7月制定的“中国居民膳食营养素参考摄入量”，儿童每日对钙的需求量约在500～900毫克之间，年龄越大需要量越高。通过食物补充是最安全的，对婴儿来说，母乳是最佳钙源，其次是配方奶，再次是鲜奶。而对2岁以上的儿童来说，配方奶中的营养已经不能适应生长发育所需，鲜奶、酸奶或全脂奶是最佳钙源。如果儿童每日能喝两杯牛奶（每100毫升牛奶含该元素约110毫克），加上其他食物中的钙应该能够满足每日生长发育所需，不必额外补充保健品钙。因为过量摄取钙，对儿童健康也是有害的。一方面，过量摄取钙会增加肾结石形成的危险性；另一方面，钙和其它矿物质元素之间存在着不良的相互竞争作用，摄入多量的钙可明显抑制铁吸收，高钙还会减少人体对膳食中磷的吸收。即使是真正钙摄入量不足的孩子，钙制剂也不是补钙的首要选择。我们通常还是提倡以调整膳食结构的方式补钙，这样比较安全保险，不容易出现过量。像牛奶、豆制品、虾皮等动物性食物，含钙量都很高，可以作为全家日常食物钙源。如果一定要用钙制剂来补钙，大家也要对钙剂有个正确的认识。钙制剂五花八门，有乳酸钙、氯化钙、葡萄糖酸钙、碳酸钙等等。品种选择上应该注意，婴儿胃酸浓度低，最好选择葡萄酸钙、乳酸钙等有机钙；2-3岁后胃酸浓度逐渐增高，可选择含钙量较丰富的无机钙，如碳酸钙。</p> 
+ <p>　　补锌注意事项</p> 
+ <p>　　锌对促进儿童身体及智力发育、增强体质非常重要。缺锌可引起食欲减退、异食癖（例如吃土、吃墙皮等）、免疫功能减低；严重缺锌可导致认知行为改变，影响智力发展。但如果大量补锌，又会导致高锌血症，甚至锌中毒，同样危害健康。因此，如果孩子存在上述的缺锌症状，父母怀疑孩子可能缺锌，可以到正规医院进行血清锌水平测定，得到确诊后根据缺锌的程度，一般可先采用食补的方法，多吃海产品、肉类、动物肝脏、禽蛋等含锌丰富的食物，必要时可在医生的指导下服用葡萄糖酸锌等锌制剂进行适当补充治疗，疗程通常在2～3个月。父母切勿盲目给孩子补充锌制剂，尤其是含有多种微量元素的复合制剂是不科学的。</p> 
+ <p>　　对锌缺乏症的实验室诊断，最好采用火焰法原子吸收分光光谱仪分析儿童血清中的锌含量，而化验头发锌经常受到被检者头发生长速度、环境污染、发样洗涤方法等因素的影响，结果往往不准确；而目前许多医院开展的取末梢血测“一滴血”测定的全血微量元素的方法同样不够准确。所以，诊断锌缺乏症应主要依据临床症状，如厌食、异食、生长发育落后等，结合实验室血清锌的测定。</p> 
+ <p>　　服用锌制剂时，应当与其他元素制剂分开服用，以免相互竞争转运蛋白，抑制吸收。比如钙制剂会影响锌的吸收，而锌不大会影响钙的吸收，早晚吃钙，中午吃锌，应间隔3小时以上。</p> 
+ <p>　　补铁注意事项</p> 
+ <p>　　儿童易患营养性缺铁性贫血，并且发病率较高，根据我国不同地区经济发展水平和饮食习惯不同，儿童的缺铁性贫血患病率大约在10％～40％之间。儿童缺铁会导致抵抗力下降，容易疲劳，面色苍白，易烦躁哭闹或精神不振，不爱活动，食欲减退。年长儿可诉头晕、眼前发黑，耳鸣等。贫血诊断比较容易，化验血常规结合病史和体检就可初步确定诊断，铁剂是治疗缺铁性贫血的特效药，由于铁剂对胃肠道粘膜具有一定剌激作用，小儿多不用片剂，而服用糖浆，配合维生素C可促进铁的吸收，疗程通常需3个月左右，以补足储备铁。临床上很多孩子治疗1个月后症状显著好转，父母就擅自停药，结果容易导致复发。因此，即使症状好转，也要继续补充铁剂，同时合理喂养，及时添加辅食，改善膳食结构，多增加富含铁的精肉、动物血等食物，必要时进行驱虫治疗。</p> 
+ <p>　　需要强调的是，铁剂具有较强的副作用，如果孩子不存在贫血或缺铁的情况，千万别把铁剂当作补药服用，擅自购买补血铁制剂给儿童食用，如有贫血应请医生诊治，严格遵照医嘱合理用药，否则不仅可能影响儿童的生长发育，而且可以导致铁中毒。预防应该从日常的膳食结构和饮食搭配着手，避免偏食、挑食。</p> 
+ <p>　　正确认识儿童铅中毒问题</p> 
+ <p>　　前一段时间上海及国内许多城乡出现“排铅热”，甚至在有些地方由于保健品厂家或销售商的不当吵作，导致人们谈铅色变，呈现“铅恐慌”。铅毒真的那么可怕吗？铅恐慌是怎么来的？到底什么是儿童铅中毒？我国儿童铅中毒的现状究竟如何？铅对儿童有什么危害？日常生活中儿童所接触到的铅在哪里？铅是通过什么途经进入儿童体内的？在孩子体内又是如何代谢的？如何进行儿童铅中毒的预防？如果对这些问题有了正确的认识和了解，那么人们就会不再“谈铅色变”，社会也就不会“铅恐慌”了。</p> 
+ <p>　　“铅恐慌”的由来</p> 
+ <p>　　当前，各种对儿童铅中毒的宣传铺天盖地，“驱铅”、“铅魔”、“排铅”等字眼充斥媒体。到目前为止，全国多数省会乃至地县级城市成立了无数个“铅防中心”、“排铅指导中心”。早在前年下半年，北京就出现大面积的“血铅筛查”，许多孩子服用了“排铅保健品”。去年在上海，“免费测铅”的网点多达数十个，以此推销“驱铅保健品”的厂商至少7-8家，每家都多处设点。南京路上某商务楼，一层楼上就有2家“排铅中心”。他们推销的排铅保健品一个疗程所需费用高达4、5千元，且生意兴隆，今年初，河北省石家庄市委书记出面辟谣，以消除“铅恐慌”。</p> 
+ <p>　　那么，这些厂商甚至医疗机构是通过怎样的招数，制造“铅恐慌”，利用铅恐慌“生财有道”的呢？</p> 
+ <p>　　第一招，在各种报纸和广播中大量的、几乎是铺天盖地的“免费测铅”的广告宣传，并在这些广告中罗列10条左右的铅中毒非特异性表现，甚至与铅中毒根本毫无关系的临床症状，如“多动”、“注意力不集中”、“孩子吃饭不香”、“听力、视力下降”、“学习不好”、“腹部疼痛”、“免疫能力下降，易感冒”等。这些非典型的表现总能让父母对上几条，造成“人人自危”的局面。</p> 
+ <p>　　最典型例子的是，在这些不科学的宣传下，不少父母以为“孩子多动”、“注意力不集中”就是“铅中毒”。其实，好动是孩子的天性，只有极少部分过度好动的学龄儿童被诊断为注意力缺陷多动障碍综合症，俗称“多动症”。多动症的原因其实十分复杂，营养、环境、遗传等因素都有关联，铅中毒只是其中之一。在多动症儿童门诊中发现，绝大多数的孩子血铅水平都正常。</p> 
+ <p>　　第二招，采用不恰当的检测方法进行测铅，如采用国际上已经取缔的儿童铅中毒筛查指标－锌卟啉法或是对诊断铅中毒完全没有意义的尿铅、发铅检测。即使少数地方提供血铅检测，也多为“一滴血”末梢血铅检测，虽然末梢血铅测定可以作为血铅水平的筛查指标，但由于末梢血铅极易被污染，要确诊孩子是否真的铅中毒应该采用测静脉血铅的方法。</p> 
+ <p>　　第三招，更改铅中毒的诊断标准，提出只要血铅超过30μg/L（微克/升）就是超标，就要驱铅，按照这一标准，绝大多数儿童都得驱铅，那么服用保健品的适用人群就大大增加，按照这一标准全国就有数亿人需要驱铅，甚至还有人提出要打一场驱铅的人们战争！简直是骇人听闻！</p> 
+ <p>　　什么是儿童铅中毒？ </p> 
+ <p>　　当儿童血铅水平连续测定超过200μg/L，可诊断为临床铅中毒，在该血铅水平可能伴有一些非特异的临床表现，如食欲下降、胃部不适、便秘、持续疲劳、多动、注意缺陷、冲动和失眠等临床表现，也可能仅出现其中一些表现，即使出现其中一些临床表现，如果没有血铅水平的支持，也不能诊断为临床铅中毒，因为很多其他疾病都有可能伴有这些临床表现。此外，当儿童血铅水平低于200 g/L时，存在两种情况，一是儿童血铅水平低于100 g/L属于目前可以接受的血铅水平，表明目前这一血铅水平不会对儿童的健康产生危害；当儿童血铅水平处于100～199 g/L时称之为高铅血症，表明这一血铅水平对儿童，特别是0～6岁铅的高危年龄段的儿童具有潜在的健康危害，需要给予重视，寻找铅暴露来源和途经，并积极进行健康教育，减少铅暴露以降低血铅水平。血铅低于100 g/L的儿童，不需进行任何医学干预。</p> 
+ <p>　　铅对儿童有什么危害？</p> 
+ <p>　　铅对儿童危害与孩子的血铅水平及接触铅时的年龄及持续时间长短密切相关。孩子越小，对铅的毒性越敏感；接触铅时间越长，铅的毒性越大；血铅水平越高，对孩子的危害也越严重。通常认为0～6岁的儿童是对铅的毒性的高度敏感阶段，以后随着年龄的增大，对铅毒性的抵抗力也就逐步越强。</p> 
+ <p>　　那么，铅对儿童的危害究竟有多大？一般来说，当儿童血铅水平高于或等于700μg/L以上时，可对儿童全身多系统造成损害：如损害造血系统引起严重贫血；损害肝脏和肾脏功能；损害消化系统导致严重腹绞痛、便秘、恶心和呕吐；损害神经系统严重影响孩子的智力、产生头晕、头疼，甚至导致中毒性脑病出现昏迷和死亡等等。</p> 
+ <p>　　当儿童血铅水平在200～449μg/L之间时，可能产生轻微贫血症状；影响儿童的行为发育，导致儿童产生冲动、暴力、痼癖等异常行为，甚至增加成年后犯罪的几率；损害儿童的记忆力、注意力、阅读能力和抽象思维能力，影响儿童的智力发育；干扰儿童体内维生素D的代谢，影响钙的吸收，甚至影响体格生长；有些儿童可能会出现便秘、腹痛等消化系统症状。</p> 
+ <p>　　而对于高铅血症（血铅水平在100～199μg/L），通常不会产生明显的症状，特别是对6岁以上的儿童，不会产生明显的影响，但这一血铅水平对胎儿或年幼儿童神经系统的发育有可能产生不良影响，因为快速发育中的神经系统对铅的防御能力较差，对铅毒性的抵抗能力最脆弱，极易受铅毒性作用的损害。大量的研究证实这样的血铅水平仍然对儿童的智力发育存在一定影响，流行病学调查和研究显示，与血铅水平正常甚至没有铅暴露的儿童相比，血铅水平每上升100μg/L，儿童的智商要下降6～8分；这样的血铅水平可能对儿童的行为产生不良影响，还有可能影响孩子的体格生长等。</p> 
+ <p>　　值得一提的是由于铅可通过胎盘进入胎儿体内，可通过乳汁造成婴儿的铅接触，因此怀孕前、怀孕时及哺乳期接触铅可造成胎儿及小婴儿的铅中毒，而此时孩子处于生命的最早期，对铅的抵抗力最差，最容易受到铅的毒害。</p> 
+ <p>　　我国儿童铅中毒现状如何？</p> 
+ <p>　　现在，随着各级政府和社会各界对控制环境污染的重视和综合治理，除少数工业污染区外，我国儿童平均血铅水平已出现明显的下降趋势。以上海为例，上世纪90年代初，血铅平均值为96 g/L，儿童血铅水平超过100 g/L的比例在40％以上；1997年，血铅平均值为83 g/L，达到“广义儿童铅中毒”的比例为37.8％；1998年，血铅平均值为80 g/L，中毒比例25.7％左右；1999年，血铅平均值为76 g/L，儿童血铅水平超过100 g/L的比例24.8％；最新统计结果显示，近三年新华医院儿保门诊就诊儿童中，进行血铅水平检测的有5564名，血铅平均水平为54 g/L，儿童血铅水平超过100 g/L的人数为552人，比例为9.9％。目前我国其它多数城市儿童的平均血铅水平也都在50～90 g/L，其中高于100 g/L的比例在10～40％，而真正达到临床铅中毒（儿童血铅\200 g/L）的比例小于1～2％。</p> 
+ <p>　　铅在哪里？是如何进入儿童体内的？</p> 
+ <p>　　知道铅在哪里及如何进入孩子体内的非常重要，因为这样我们就可以进行预防了。就胎儿而言，母体的铅是其唯一来源；当孩子出生以后，除了母乳中的铅外，外界环境中的铅是造成儿童铅接触的主要来源。</p> 
+ <p>　　铅进入儿童体内的途经主要有两条，一是消化道，大约占85％～90％，另一是呼吸道，约占10％～15％。</p> 
+ <p>　　外界环境中的铅主要来自地壳和土壤的本底，工业和交通污染的排放和日常用品及食品的污染。能够造成铅污染的主要工业有：与铅有关的采矿、金属的冶炼、蓄电池的制造和回收、电缆制造业、船舶制造业、拆船业、铸造业、渔具制造业、水晶玻璃、电脑和电视的显示屏和显象管制造业、电子线路的制造、聚氯乙烯塑料制品的生产、耐腐蚀及防x线的材料的制造业、工业燃煤所造成的铅烟排放等等；此外，以往使用的含铅汽油中大量添加的四乙基铅，致使全世界每年由汽油燃烧而将数十万吨的铅排到环境中，虽然我国自2000年7月1日起在全国范围内不再生产使用含铅汽油，但是以往排放在环境中的铅还会造成反复多次的再污染。由于铅在日常生活中的广泛使用，可以说现代社会已经离不开铅，同时铅也就是一个无处不在的一种重金属污染物。</p> 
+ <p>　　铅在体内是如何分布和代谢的? </p> 
+ <p>　　铅通过肠道和呼吸道吸收入人体后，随血流分布到全身各器官和组织，血液中的铅部分通过肾脏由尿液排出体外，部分从大便排出，部分储存在骨骼里。人体内的铅95％以上都以不易溶解盐的形式沉积在骨骼中，而且很难出来再回到血液，骨骼中的铅的半衰期约为20～30年，这部分铅对人体来说相对安全。而血液中的铅主要与红血球内的血红蛋白紧密结合进行运输的，血液中铅的半衰期约为3～5周，平均大约为1个月，血铅水平代表近一段时间内人体铅吸收的情况，但如果一个人的生活环境和生活习惯不发生改变，他的血铅水平通常会稳定在某个水平。不过如果停止进一步接触铅，理论上讲，一个月后他的血铅水平就会降低到原来的一半，两个月后血铅水平就只有原来的四分之一，这就是我们通过健康教育进行铅中毒防治的依据。</p> 
+ <p>　　高铅血症如何进行处理？</p> 
+ <p>　　当儿童血铅水平低于200μg/L时，不需驱铅治疗，但要对儿童及父母进行健康教育，积极寻找铅污染源，纠正不良的手－口行为，调整饮食习惯，切断铅进入儿童体内的途经。对无须使用药物驱铅的儿童滥施药物，结果无益有害。如果想要服用具有“排铅功能”的保健品，必须十分慎重，因为多数排铅保健品在促进铅排出的同时，也促进消化道内铅的吸收，所以前提条件是要先找到造成儿童血铅水平升高的原因，并去除铅污染源，纠正手－口不良习惯（如啃咬指甲、笔头等异物）。不然的话，必然是一边排铅，一边促进铅的吸收，那是非常危险的。</p> 
+ <p>　　如何预防儿童铅中毒？</p> 
+ <p>　　由于铅几乎无处不在，并且绝大部分铅是从消化道进入体内的，因此关键要把住“铅从口入”这一关，孩子的血铅水平就会降低。</p> 
+ <p>　　所以，生活习惯上：要注意培养儿童勤洗手、认真洗手的好习惯，特别注意在进食前洗手；给孩子勤剪指甲，指甲缝是特别容易匿藏铅尘的部位；纠正年长儿童吸吮手指、啃咬指甲、铅笔、玩具、钥匙、金属拉链和其它异物的不良习惯；经常清洗儿童玩具和其他一些有可能被小儿放到口中的物品；不要带小孩到汽车流量大的马路和铅作业工厂附近散步、玩耍。</p> 
+ <p>　　饮食习惯：少食含铅较高的食物，如普通皮蛋、爆米花等；儿童用的餐具切勿从街边地摊上购买价廉质次的陶瓷产品，内部花纹图案应选浅色或白色，避免使用色彩过分鲜艳的陶瓷餐具。切勿用水晶玻璃杯给孩子使用。儿童应定时进食，空腹时铅在肠道的吸收率成倍增加。不挑食，不偏食，保证饮食中含有足够量的钙、铁和锌。如果这些元素缺乏，铅的吸收就会增加。含钙丰富的食物有：乳制品、豆制品，建议孩子每天饮用2瓶牛奶（包括酸奶）。含铁丰富的食物有：动物肝脏、动物血、肉类、蛋类等。含锌丰富的食物有：肉类、海产品等。</p> 
+ <p>　　父母方面：直接从事铅作业劳动的工人在下班前必须按规定洗澡、更衣后才能回家。即使是工间为小孩喂奶，也必须认真彻底洗手并更衣。以煤作为燃料的家庭应尽量多开窗通风；避免儿童被动吸烟，因为香烟中含铅量较高，被动吸烟是血铅水平升高的危险因素之一；每日早上用自来水时，应先将水笼头打开约1分钟以上，使前一晚囤积于自来水管道中，可能遭到铅污染的部分水放弃（早年自来水管材料中含铅较高），切不可将早上的前一段自来水用以烹食和为小孩调制奶方，避免食用或饮用家庭供洗澡用热水管中的水。经常湿拖地板，用湿抹布擦桌面和窗台。</p> 
+ <p>　　作者系：上海市儿科研究所环境医学研究室主任<br />　　　　　　上海市第二医科大学儿童环境医学中心副主任<br />　　　　　　上海市第二医科大学附属新华医院教授、医学博士</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/126156">怎样喂宝宝喝水</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" class='thisclass'>婴儿喂养</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/126155">十八般武艺解决宝宝吃饭难</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126154">宝宝饮食追求高蛋白吗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126153">婴儿过早添加辅食不利健康</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126152">防过敏，半岁前只给宝宝吃蛋黄</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126151">洋葱干酪蛋奶面包</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"126441"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

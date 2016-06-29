@@ -1,0 +1,505 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>喂养：补钙新动向-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/127280"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=158" rel="nofollow">婴儿喂养</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					喂养：补钙新动向
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-29 23:38:34</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　<strong><font color="#ee1196">儿童补钙，对于医生已是“老生常谈”，对于家长来说也是“耳熟能详”，似乎再也没有什么值得罗嗦的了。其实不然，科学在发展，人类的认识在深化，昨天的结论很可能已成“昔日黄花”，需要不断更新知识与观念，做到“与时俱进”，补钙就是这样的课题之一。&nbsp;</font></strong><br /></p> 
+ <p align="center"><img onmousewheel="return bbimg(this)" height="300" src="/upload/158/20071208090456385.jpg" width="241" onload="resizepic(this)" border="0" /></p> 
+ <p>&nbsp;　　<strong>宝宝需要多少钙</strong></p> 
+ <p>　　时下有多少爸妈在为宝宝补钙奔忙呢？有个笑话是这样说的：一个花盆掉在大街上，砸伤了三个行人，两人手里攥着为宝宝购买的钙片，另一个人手里没有钙片，却攥着准备购买钙片的钱。笑话自然不可信，但补钙热的确方兴未艾，柳女士可谓典型，她信奉“宁滥勿缺”的观点，给宝贝女儿大补钙剂，致使不满周岁的柳柳已经尝遍了从“龙牡壮骨冲剂”到“1片顶5片”等新老钙产品的滋味，结果女儿经常腹泻，体重偏低，甚至出现了营养不良的迹象。儿科大夫提醒她：这都是补钙太多太滥，超过了儿童的生理需求惹下的祸。</p> 
+ <p>　　补钙过多有些什么危害呢？除了柳柳遭遇的不幸外，还可能造成儿童血压偏低，日后患心脏病的风险上升；导致尿中钙浓度过高，容易形成尿路结石。另外，宝宝体内钙水平过高，可抑制肠道对锌、铁、铜等元素的吸收，引起多种微量元素缺乏症。</p> 
+ <p>　　显然，了解宝宝各个年龄段的需钙量，做到心中有数，乃是柳女士一类家长的基本功之一。为此，笔者将儿童各个年龄段的生理需钙量介绍于后，希望爸妈们都能做个补钙的“明白人”</p> 
+ <p>　　<strong>[box]TIPS</strong></p> 
+ <p>　　*出生~6个月，每天400毫克。</p> 
+ <p>　　*6~12个月，每天600毫克。</p> 
+ <p>　　*1~5岁，每天800毫克。</p> 
+ <p>　　*6~10岁，每天1200毫克。</p> 
+ <p>　　*11~14岁，每天1200~1500毫克。</p> 
+ <p>　　<strong>何时开始补钙</strong></p> 
+ <p>　　郭女士也是一个“补钙狂”，还在孕期中就咨询过不少母亲，讨教给宝宝补钙的“妙招巧法”，打从宝宝呱呱坠地就将钙粉推入上了营养单，期望喂养出一个精壮的小男子汉。结果与柳女士“殊途同归”：喂出了一个营养不良儿。她茫然了，不知该怎么办才好。</p> 
+ <p>　　其实，郭女士所遭遇的是从何时起开始给宝宝补钙的问题。医学专家认为，给宝宝补钙要慎重，切忌过早，比如自宝宝出生就开始补钙，可使宝宝出现腹泻、消化吸收不良等情况，严重时导致营养不良发生。另外，过多摄入钙质，可使骨质过度钙化，机体骨骼过早成熟，造成个头矮小等恶果。</p> 
+ <p>　　一般说来，如果母亲在孕期有腿抽筋、营养素摄入不全面等情况，或宝宝没有母乳喂养，并出现了营养不良，宜从生后2个月后开始补钙。如果宝宝生长发育良好，则宜暂缓，当出现了下述“蛛丝马迹”时再补不迟。</p> 
+ <p>　　<strong>[box]TIPS</strong></p> 
+ <p>　　*不易入睡，更不易进入熟睡状态。</p> 
+ <p>　　*入睡后多汗、啼哭、容易惊醒。</p> 
+ <p>　　*白天常常烦躁，坐卧不安。</p> 
+ <p>　　*出牙迟，或者牙齿排列参差不齐。</p> 
+ <p>　　*学步迟。</p> 
+ <p>　　*阵发性腹痛，但又查不出肠道寄生虫，也无消化不良、肠炎等肠道疾患存在。</p> 
+ <p>　　*偏食或厌食。</p> 
+ <p>　　*手指关节明显增大，指节瘦小无力。</p> 
+ <p>　　*经常出现不明原因的抽搐症状。</p> 
+ <p>　　*指甲灰白或有白痕。</p> 
+ <p>　　补钙补到何时为止呢？如果是药补（如钙片），补到2岁左右就可以了。一来宝宝到了这个年龄段，户外活动增多，皮肤受阳光照射后合成的维生素D增多；二来已能吃各种各样的食物，钙和维生素D的来源得以扩展；三来生长速度较以前减慢，佝偻病的发病率大大减低，故不必再投用钙片、钙粉等药物钙剂了。但食补（即多安排富含钙质的食物，如牛奶、豆浆、绿叶蔬菜等）则要继续下去，持续终生。</p> 
+ <p>　　<strong>夏季也要补钙</strong></p> 
+ <p>　　一般认为，一年四季中，冬春季节儿童最容易缺钙，奥妙在于气温低，户外活动少，宝宝机体皮肤难以接触日光，导致维生素D的合成减少，而维生素D又是钙质吸收、利用的促进剂，故冬春季节补钙势在必行，而夏天则无此必要了。曲女士就是持这种观点母亲中的一个，出乎意料的是夏季还未过完，她的小宝宝就出现了方头、后脑勺脱发、多汗等症状，儿科大夫告诉她：这些都是婴儿佝偻病的典型信号。</p> 
+ <p>　　近年来的医学研究显示，曲女士们的观点已经过时，夏季与冬春季节一样成了儿童佝偻病的高发季节。症结有三：</p> 
+ <p>　　其一，夏天虽然日照充分，但气温太高，甚至酷热难当，限制了宝宝到户外活动的机会，接受日照的几率下降，比冬季多不了好多，这样便导致日光荷尔蒙――维生素D的合成减少，致使钙的吸收率降低，造成体内缺钙。</p> 
+ <p>　　其二，夏季炎热，体内的消化液分泌减少，宝宝的食欲普遍减低，吃入的维生素D和钙元素减少。</p> 
+ <p>　　其三，夏天气候炎热，加上宝宝的代谢又较高，出汗多，致使钙元素随汗液大量流失。</p> 
+ <p>　　上述三方面的因素加在一起，造成维生素D和钙元素“进少出多”，体内的储备下降而出现“亏损”，佝偻病不期而至也就顺理成章了。自然，及时补钙也就成为了夏令儿童保健中的一项重要举措。</p> 
+ <p>　　<strong>常吃钙片还是缺钙</strong></p> 
+ <p>　　一位林姓妈妈向笔者咨询：“大夫，我常给宝宝服钙片，可还是缺钙，怎么回事呢？”</p> 
+ <p>　　常补钙而还是缺钙，问题很可能出在补钙方法不当上。据了解，有的爸妈将钙片捣碎与牛奶混在一起吃，或在喂奶前后给宝宝吃，致使奶中的蛋白与钙结合形成奶块，造成钙质无法被机体所吸收；还有的只给宝宝服钙片，不同时服用维生素D或晒太阳，影响了钙剂的吸收与利用；另外，菜肴过咸，钠盐摄入太多而将钙元素大量“排挤”出体外，同样补钙效果不好。</p> 
+ <p>　　那么，正确的补钙方法如何呢？建议把握好四个环节：</p> 
+ <p>　　一是食补必须选对食物。哪些食物堪当此任呢？不少爸妈青睐动物骨，比如排骨汤，其实是“一相情愿”。原来，排骨中的钙含量低，1斤排骨大约只有25毫克的钙质，加上骨头中的钙又难以溶解在汤中（汤中的钙仅相当于排骨的十分之一），而宝宝每天的钙需求量至少在400毫克以上，显然排骨汤难以如愿。比较起来，无论就钙的含量或者吸收率来看，奶类才是最佳来源，母乳最优，其次是配方奶，再后是鲜奶。以半岁内的小宝宝为例，只要每天食母乳或配方奶600~800毫升，便可满足身体发育对钙的需求。这也是科学家倡导母乳喂养的奥妙之一。除了奶类，鱼、蛋、豆类、绿叶蔬菜等值得推荐。</p> 
+ <p>　　二是药补要抓好时机。如不可将钙剂与植物性食物或油脂类食物同吃，因为植物性食物如蔬菜大多含有草酸盐、碳酸盐、磷酸盐等盐类，可与钙质结合而妨碍钙的吸收；而油脂分解之后生成脂肪酸，同样可与钙结合而不易被肠道吸收。其次，为了避免奶汁干扰钙的吸收，最好将补钙安排在两次喂奶之间进行。</p> 
+ <p>　　三是无论食补或是药补，都要设法促进钙的吸收。俗话说：一个朋友三个帮。钙也是这样，当它随食物吃进以后，尚需要多种因素来促进机体的吸收与利用，才能充分发挥作用。如维生素D、C等能促进钙的吸收，荤素平衡能提高钙的利用率（如豆腐炖鱼，谷类与豆类混食等）等。</p> 
+ <p>　　四是减少钙流失。有些宝宝钙补了不少，也比较注重增加维生素D以及维生素C的摄取，结果仍然缺钙，那就得反思一下食物的搭配是否科学，很可能是某些不当的食物成分增加了钙的流失。</p> 
+ <p>　　・钙磷比例失衡。正常情况下，宝宝体内的钙、磷两种矿物元素的比例是2∶1，换句话说，钙是磷的2倍，如果宝宝的食谱恰恰是这个比例，那么钙的吸收利用率高。实际情况呢？由于爸妈大多迁就宝宝的口味，过多地摄入碳酸饮料、可乐、咖啡、汉堡包、比萨饼、小麦胚芽、炸薯条等食物，而这些食物都是磷的“富矿”，致使大量磷涌入体内，使钙与磷的比例高达1∶10以上，磷一旦多了，会把体内的钙“赶”出体外，导致缺钙。</p> 
+ <p>　　・补钙不补镁。钙与镁如同一对好搭档，当两者的比例为2∶1时，最利于钙的吸收与利用。遗憾的是家长往往注重补钙，却忘了补镁，导致体内镁元素不足，进而累及钙的吸收。镁在以下食物中较多，如坚果（杏仁、腰果和花生）、黄豆、瓜籽（向日葵籽、南瓜籽）、谷物（特别是黑麦、小米和大麦）、海产品（金枪鱼、鲭鱼、小虾、龙虾）等。</p> 
+ <p>　　・天天大鱼大肉。蛋白质摄入过量也可“排挤”钙。实验显示：每天摄入80克蛋白质，将导致37毫克的钙流失掉；若将每天的蛋白质摄取量提升到240克，即使额外补充1400毫克钙，也会导致137毫克钙的流失，表明额外补钙也不能阻止高蛋白所引起的钙流失。因此，天天给宝宝安排大鱼大肉，打破了食物的酸碱平衡，无论怎么补钙也是于事无补。</p> 
+ <p>　　・吃盐过多。最新研究发现，饮食中盐的摄入量是钙的排出量多与少的主要决定因素之一。也就是说，盐的摄入量越大，钙的吸收越差，尿中钙的排出量越多，减少盐的摄入等于补钙。大人如此，宝宝亦然。特别是小宝宝，对盐的敏感度较高，不可按照成人口味给盐。</p> 
+ <p>　　<strong>[box]钙锌不要同时补</strong></p> 
+ <p>　　平平几个月来不爱与小伙伴玩耍，沉默寡言，有时将报纸撕成屑片送往嘴里咀嚼。妈妈带他到医院查血，医生说钙、锌两种矿物元素含量都低于正常。吃报纸属于异食僻行为，是缺锌的典型症状之一。换言之，平平患上了营养不良，需要补充钙与锌。选用哪种制剂好呢？妈妈忽然想起电视里的一则广告――花一样的钱，补两种营养。嚯，一举两得，就买它了。</p> 
+ <p>　　平平妈妈的做法妥当吗？答案是否定的。因为她盲目跟着广告跑，忽略了一个大问题，那就是宝宝的机体能否吸收。就钙与锌而言，如果混合一起服用，虽然锌不会干扰钙的吸收，但钙能降低锌的吸收，故两者同用实际上只发挥了补钙的作用，补锌的功能因遭受抑制而无法发挥出来。奥妙在于两者会互争受体，造成了受体配比不合理，因而一种吸收多而另一种吸收少。</p> 
+ <p>　　正确做法是将两种矿物元素分开服用，比如早晚服用钙剂，中午则吃锌制剂，两者间隔至少3小时以上。</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/126156">怎样喂宝宝喝水</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" class='thisclass'>婴儿喂养</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/126155">十八般武艺解决宝宝吃饭难</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126154">宝宝饮食追求高蛋白吗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126153">婴儿过早添加辅食不利健康</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126152">防过敏，半岁前只给宝宝吃蛋黄</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126151">洋葱干酪蛋奶面包</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"127280"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

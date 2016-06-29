@@ -1,0 +1,475 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>透视“节日甜食病”-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/126937"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=158" rel="nofollow">婴儿喂养</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					透视“节日甜食病”
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-29 23:18:25</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　每逢佳节，数不清的甜食让孩子乐开了怀。可是节日一过，孩子却开始厌食、挑食、精神烦躁，节日里的好食欲不翼而飞。这究竟是这么回事呢？让我们的儿科医生来为孩子把把脉吧！ <br />　　 <br />　　<strong>您知道的“甜食病”</strong> <br />　　 <br />　　<strong>甜食病1：营养不良<br /></strong>&nbsp;<br />　　甜食很容易引起孩子的饱腹感，导致他不想吃正餐。由于甜食中除了大量的糖外，几乎没有孩子正常生长发育所需要的其他营养物质，如维生素、蛋白质等。长此以往必然会造成孩子营养不良，不是过于肥胖就是十分瘦弱。而孩子营养不良又会成为引发其他疾病的一个重要因素。 <br />　　 <br />　　<strong>甜食病2：龋齿</strong> </p> 
+ <p>　　龋齿的发生与甜食有着密切的关系。糖和其他碳水化合物既能给菌斑中的细菌提供生活和活动能量，又能通过细菌代谢作用使糖酵解产生有机酸。这些酸如果长期滞留在牙齿表面和窝沟中，破坏牙齿表面的釉质，而其中的某些细菌又会使牙齿中的蛋白质溶解形成龋洞。 <br />　　 <br />　　<strong>您不知道的“甜食病” <br /></strong>　　 <br />　　肥胖或者龋齿都是看得见的“甜食病”。但您是否知道，在这背后，还隐藏着其他与甜食有关的病症，虽然你看不出明显的迹象，但它们却正真真切切地影响着孩子的健康…… <br />　　 <br />　　<strong>病症1：“甜食依赖”</strong><br />&nbsp;<br />　　由于孩子甜食吃得太多，让他的味觉发生改变，一般的食物，如口味比较清淡的食物就不再能满足他的需要了。他必须吃那些口味浓烈的食物，如巧克力、很甜的糖果等才会有感觉。这就会导致孩子越来越离不开甜食，甜食也越吃越多，而对其他食物则缺乏兴趣。 <br />　　 <br />　　<strong>病症2：精神烦躁</strong> </p> 
+ <p>　　因为葡萄糖的氧化反应需要含有维生素B1的酶来催化。如果一直吃含糖分过多的食物，机体就会加速糖的氧化，同时消耗大量的维生素B1，使它供不应求。因为人体自身是不能合成维生素B1的，完全依靠从食物中吸收。孩子吃了过量的甜食就会影响他的食欲，造成含维生素B1的食物供应不足，最终使葡萄糖氧化不全，产生乳酸等代谢产物。这类中间产物在孩子的脑组织中蓄积，就会影响孩子中枢神经的活动，使孩子精神烦躁，出现精力不集中、情绪不稳定、爱哭闹、好发脾气等症状。它不仅对孩子的生长发育、生活学习不利，严重的还会影响孩子智力的开发。 <br />　　 <br />　　<strong>病症3：加重钙负荷</strong> </p> 
+ <p>　　孩子吃了过多的糖和碳水化合物，人体内的代谢过程中就会产生大量的中间产物如丙铜酸，它们会使机体呈酸中毒状态。为了维持人体酸碱平衡，体内的碱性物质钙、镁、钠就要参加中和作用，使孩子体内的钙质减少。而大量的钙被中和，会使孩子的骨骼因为脱钙而出现骨质疏松。此外，如果体内的钙不足，孩子就可能出现肌肉硬化、血管平滑肌收缩、调节血压的机制紊乱等症状。 </p> 
+ <p>　　此外，体内钙质减少，会使孩子眼球弹力减弱，容易使孩子患近视眼或者加重孩子近视的程度。 <br />　　 <br />　　<strong>病症4：降低免疫力、影响睡眠</strong> </p> 
+ <p>　　最近的一项研究发现，甜食会降低人体的免疫力。在正常情况下，人体血液中的一个白血球的平均吞噬病菌的能力为14，吃了一个甜馒头后会变成10，吃了一块含糖的点心后，会变成5，吃了一块奶油巧克力后会变成2。可见，甜食对免疫力是有一定影响的。 </p> 
+ <p>　　此外，吃过多的甜食对睡眠也有不良的影响。研究人员曾对1000例睡眠障碍者进行调查，发现87%以上的病人爱吃甜食。 <br />　　 <br />　　<strong>病症5：内分泌疾病</strong> </p> 
+ <p>　　如果孩子一直过多地食用含糖量很高的甜食，就会引发许多潜在的内分泌疾病。比如，孩子过多食用甜食，糖分摄入过多，血糖浓度提高，就会加重孩子体内代谢中胰岛的负担，从而诱发糖尿病。 <br />　　 <br />　　<strong>甜食真的一点好处也没有吗？</strong> <br />　　 <br />　　答案当然是否定的。对孩子来说，他可以从得到八种营养素，即蛋白质、脂肪、碳水化合物、无机盐、维生素、膳食纤维、水和微量元素。糖是一种碳水化合物，也是孩子必需的营养之一。而甜食的主要成分就是糖。 <br />　　 <br />　　<strong>关键词1：能量</strong> </p> 
+ <p>　　3岁以上的孩子的膳食应该向成人饮食过渡，这时给孩子的食物的分量要比幼儿时期有所增加，才能保证孩子能够得到足够的能量。其中，三类产热营养素的比例要合适。一般来说，蛋白质要占总能量的12～15%，脂肪占25～30%，碳水化合物占50%左右。甜食中所含的糖，就是人体内热量的主要来源。糖在人体内通过转化成为比分子更小的葡萄糖并进行氧化，成为二氧化碳和水，同时释放出能量。 <br />　　 <br />　　<strong>关键词2：愉快</strong> </p> 
+ <p>　　糖果等能影响孩子的血糖水平的甜食都含有一些“兴奋物质”，能使肾上激素迅速上升，导致孩子体内的能量大量的释放，使孩子感到愉快。 <br />　　 <br />　　<strong>结论</strong> </p> 
+ <p>　　可见，甜食虽然有它健康的一面，但是对于正处在生长发育关键期的孩子来说，还是少吃为妙。您还是应该在孩子平时正常的三餐之中，给他提供丰富多样的食物，保证营养的均衡，而不要指望通过甜食或者其他零食给孩子补充营养。 </p> 
+ <p>　　一句话，给孩子吃甜食一定要适可而止。 <br />　　 <br />　　<strong>给妈妈的“甜食病防御法” <br /></strong>　　 <br />　　◆培养孩子的口味。从婴儿期开始，您就不要给孩子吃口味过于浓烈的食物，让孩子享受食物天然的味道，而不要过早的用过甜、过鲜或者过咸的食物去刺激孩子的味觉，使他对于食物味道的要求提高，从而影响他接受其他营养丰富但口味清淡的食物。 </p> 
+ <p>　　◆保证孩子膳食中营养的均衡。在平时的饮食中，不要因为孩子爱吃甜食，而一味满足孩子或者一点甜食也不让孩子碰。这都是不正确的。在膳食中，一定要保证给孩子提供多样化的饮食，保证营养的均衡。 </p> 
+ <p>　　◆逐渐减少甜食的量。也许您觉得让孩子少吃甜食很困难，但您完全可以找一些健康的甜食来代替巧克力、糖果和蛋糕。比如纯果汁、葡萄干等，这些都是又营养又好吃的甜食。 </p> 
+ <p>　　◆控制孩子每天吃的甜食的量。从婴幼儿时期开始，您就要控制孩子的饮食中摄入的糖分的量。一般来说，孩子每天摄入的糖量不能超过孩子每千克体重的0.5克。也就是说，如果孩子的体重为15公斤，那么他每天摄入的糖量不应该超过7.5克（15公斤&times;0.5克）。 </p> 
+ <p>　　◆把甜食“隐藏”起来。不要把放甜食的罐子、瓶子等放在孩子一眼就可以看到，伸手就可以拿到的地方。 </p> 
+ <p>　　◆不要在饭前饭后以及睡觉前给孩子吃甜食。经常让孩子在饭前、睡前吃甜食，会导致孩子得牙病，使孩子食欲下降和发胖。而在孩子饱餐之后给他吃甜食，则最容易使孩子发胖，而且过多的胰岛素分泌容易诱发糖尿病。 </p> 
+ <p>　　◆吃完甜食后要让孩子漱口。 </p> 
+ <p>　　◆父母要以身作则。榜样的力量是无穷的。想让孩子少吃甜食，父母首先要控制自己吃甜食的量，这样才能给孩子树立一个好的榜样。 <br />　　 <br />　　<strong>特别提醒：不要给患病的孩子吃甜食</strong> <br />　　 <br />　　据报道，孩子患病之后，因为消化液分泌减少，消化酶活力降低，胃肠运动减慢，消化机能失常，所以往往食欲低下。如果这时再让孩子吃很多甜食，会使孩子体内大量维生素被消耗掉。人体缺乏了某些维生素以后，口腔内唾液、胃肠消化液就会减少，这样孩子的食欲会更差。尤其是让孩子在饭前吃很多甜食，会引起血糖升高，使孩子更没有饥饿感，也更不愿意吃饭。&nbsp; <br /></p> 
+ <p>　　中国孕育网采编<br />　　来源：为了孩子</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/126156">怎样喂宝宝喝水</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" class='thisclass'>婴儿喂养</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/126155">十八般武艺解决宝宝吃饭难</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126154">宝宝饮食追求高蛋白吗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126153">婴儿过早添加辅食不利健康</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126152">防过敏，半岁前只给宝宝吃蛋黄</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126151">洋葱干酪蛋奶面包</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"126937"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

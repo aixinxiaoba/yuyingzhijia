@@ -1,0 +1,517 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>物色保姆全攻略-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/127255"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=158" rel="nofollow">婴儿喂养</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					物色保姆全攻略
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-29 23:37:11</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　镜头聚焦：一本难念的经</p> 
+ <p>　　在今天的独生子女社会中，对于许多双薪家庭的父母来讲，既想把孩子照顾得好，又无法自己在家赋闲专职带宝宝，这样选择一位适合照顾孩子的人，显然是件重要且不易的事情。</p> 
+ <p>&nbsp;<br />　　一些年轻的妈咪在给孩子找保姆时，不是由于缺乏必要的经验，就是嫌麻烦，图省事，或碍于亲朋情面，错行一步，无意间却让孩子成了牺牲品――</p> 
+ <p>　　豆豆刚满两岁，妈妈因工作关系为其雇请了17岁的保姆小兰，她是一位朋友在乡下的远亲。大大咧咧的豆豆妈看小兰灵巧的模样与泼辣的身手，跟着自己带了豆豆没两天，就早出晚归只顾打理自己的事情去了。</p> 
+ <p>　　谁知，小兰带了豆豆一段时间后，妈妈每每下班回家，豆豆总是粘在自己的怀里，眼里流露出怯生生的反常神态。豆豆妈想保姆小兰也曾带过小孩子，不应该有什么问题呀。一天晚上，妈妈搂豆豆睡觉时，豆豆总喊“怪怪咬人”，还梦魇惊叫……原来，保姆小兰每天中午哄豆豆睡觉时为让他尽早入眠少折腾，用不立即闭眼睡觉“怪怪就来咬人”的恐怖故事吓唬他，还不时拿牙签一端往豆豆屁股上、小手上扎一扎，这方法挺奏效，豆豆真变乖了，以致一睡觉就想起“怪怪”来。</p> 
+ <p>　　一岁半的荧荧在托给保姆小郝带后不久，一天晚上妈妈在给荧荧换衣服时，发现她背部起了许多水疱样疙瘩。在让保姆小郝递毛巾的当儿，看到她的胳膊上也有同样的小疙瘩。荧荧妈遂就带她们俩去医院皮肤科就诊，被诊断为“传染性软疣”。弄清原委，方知保姆小郝进城后在公共浴池洗澡时不小心染上了软疣。来到荧荧家后常与荧荧共用一块毛巾，同盆洗涮，以致把疣体病毒传染给了荧荧。</p> 
+ <p>　　更有报道说，东北某省一名14岁的小保姆因情绪不佳，嫌2岁的孩子哭闹不止，赌气将其活活摔死！华南某省曾发生过一起保姆将孩子置入洗衣机中“洗澡”绞死的个案……如此看来，为幼小的孩子找保姆，某种意义直接关系到孩子的生命与健康，不可等闲视之！</p> 
+ <p>　　菁菁妈的抉择――寻思良久，无奈赋闲</p> 
+ <p>　　产假期满，出于现实的考虑，自己不得不重返职场了。可是家里没有老人能照看孩子，于是，找保姆的问题就提到日程上了。保姆的条件，当然是要有责任心、有爱心、勤快能干、手脚麻利了。既要带好孩子又要兼做些家务。关键是能带好孩子，我不会亏待她，人嘛，相处久了会生情。</p> 
+ <p>　　想到半岁的女儿，我的心里就会泛起柔情。 孩子是太小了，才半岁，还不会说话，就这样交到一个陌生的毫无亲情的人手里，不放心呀！若找个沾亲带故的，可能情况有所不同。于是把所有的亲戚搜索一遍，还真有合适的。可是一想到人家进门，一日三餐锅碗瓢盆的难免有个磕碰，咱花钱请了人，碍于亲友的情面又不好说什么，日子久了，再伤了和气，不好，唉！</p> 
+ <p>　　经人介绍找个外地小保姆吧，她们家境贫寒，比较容易知足，一般不会太懒散，可是她能有多少育儿经验呢，文化水平不高，素质有限的她们，万一虐待孩子怎么办？更可怕的是，真要遇到个人贩子，下班回家一眼看不到孩子了，那我会发疯的！</p> 
+ <p>　　请个本地小姑娘吧，一般由于世俗的观念，大多不想干这行，即使有，她们多是好吃懒做的。倘若真有个各方面都好的，多了一个异性在家，朝夕相处的，再无缝的“蛋”叮久了也会软“壳”的，不成！</p> 
+ <p>　　看来最佳人选是当地四五十岁的寡居老人，腿脚还算麻利，子女可能不大孝顺，老人缺钱花，出来做事既可攒两个钱，又可打发寂寞时光。她们的育儿经验是有，二来人老了，心地也坏不到哪去。可兜了一圈，还真没遇到个合适的，有的是儿女顾及情面不同意老人出来干这行，有的看起来身子骨不那么硬朗，万一有个急性病灾儿的，咱可负不起这个责！</p> 
+ <p>　　考虑再三，最放心的保姆只有自己啦。于是与老公商定，他辛苦些，想办法兼个职什么的，解决家里的财政问题。我呢还是等到孩子上了幼儿园再考虑上班的问题吧。</p> 
+ <p>　　现实生活中，有不少妈咪由于方方面面条件的限制，做不到索性居家专职带孩子。那么，退而求其次，还是进修一番如何能找到一个称职的保姆之道吧。</p> 
+ <p>　　理想保姆的必备“软件”</p> 
+ <p>　　保姆对孩子的影响，往往是直接的教与学，幼儿的条件反射的形成，在很大程度上需要保姆的刺激强化。幼儿处于模仿期，保姆的胸怀、处事原则、行事方法、语言、姿势、神态等都可能成为婴幼儿的模仿对象。最显著的是性格特点的影响，常有这种情况：父母的性格都比较开朗活泼，喜好交际，而他们的孩子却文静内向不善于与别人相处，原因是与他朝夕相处的保姆的性格正是如此。由此看来，保姆性格的优缺点很有可能为幼儿性格打上一定的烙印。</p> 
+ <p>　　那么理想的保姆形象大致是怎样的呢？</p> 
+ <p>　　首先是身体状况。保姆每天要照料宝宝，直接接触宝宝的衣食住行，如患有肝炎、结核等一类传染病，则会传染给孩子，这点切记！另外一定要讲究卫生，无不良生活习惯。</p> 
+ <p>　　其次是文化素养。你所选择的保姆应有初中以上文化程度。这样的保姆可塑性比较强，经过训练就能够掌握一定的教育基本常识，在与宝宝朝夕相处的日子里，可以把这些知识随手拈来，灵活运用。她可以经常给宝宝念一些儿歌、唱唱小曲儿，讲讲故事。显然，这些素质要求是那些文化程度低的保姆所无法具备的。</p> 
+ <p>　　可能的话，还应考虑到保姆的性格特点和某些专长。保姆性情温柔，活泼开朗些，就会耳濡目染地影响宝宝的性格；保姆沉默寡言，不善与人相处，孩子也会随之效仿。如果保姆有某些专长，如喜欢唱歌、擅长绘画、手工，也会潜移默化间影响宝宝的兴趣爱好。一纸随手折成的小鸟、随意画的民族娃娃、属相窗花，都会促进宝宝的想象力和形象思维的能力。这样的保姆与那些想方设法甚至粗鲁地强制孩子睡觉的保姆相比，显然高了一个档次。</p> 
+ <p>　　另外，受过正规培训的保姆，会对孩子的居家安全、应急措施等都有必要的知识储备，雇佣起来更放心。</p> 
+ <p>　　必要的细节　一个都不能少</p> 
+ <p>　　・保姆的来源：一般保姆多是来自农村，或是城市下岗女工。来自农村的保姆大多对城市生活不熟悉，年龄较小的未婚女子，没有带孩子的经历；城市下岗女工对城市环境比较了解，年龄一般为已婚中年妇女，相对来讲，生活经验要丰富一些。到正规、信誉好的中介机构找寻合适的保姆比较稳妥。</p> 
+ <p>　　・侧面了解脾性与动机：一个有爱心且喜爱孩子的保姆，通常愿意与孩子接触，会自然地与孩子进行交流，也愿意为孩子提供较多的接触新事物的机会，对孩子也较多包容；相反，如果仅仅是出于经济问题而从事托育工作，照顾孩子就比较形式化，缺乏爱心与情感融入，对孩子的身心健康总是欠缺些。</p> 
+ <p>　　・年龄与生活状况：照顾幼儿是一件非常烦琐与辛苦的事情，因此保姆需要有充沛的体力，通常年龄在35岁至50岁的妇女较适合做保姆。另外，保姆本身的生活与卫生习惯是否健康也很关键，如生活是否有规律、有无其他不良嗜好（是否抽烟、喝酒）等。</p> 
+ <p>　　・受教育程度：保姆要有基本的文化知识，因为孩子的心理需求，包括情绪、生活常识训练、饮食营养、卫生保健、安全问题及必要的急救措施等常识，是需要一定的文化才能掌握的。</p> 
+ <p>　　・家庭状况：选择保姆时，保姆的家庭状况不容忽视。看看保姆家中12岁以下的未成年人是否过多？若超过4人（含保姆自己生养的子女）则不太理想。另外，保姆与家人相处是否和谐也是应考虑的因素。</p> 
+ <p>　　再有，如果保姆家中有年幼的孩子，或与你的孩子年龄相仿，从人性的角度看，保姆很容易触景生情，觉得为何你家的宝宝这么“金贵”，而自己的宝宝则没有妈妈的照顾，心理上容易出现偏差。当然，有些有理性的保姆不会出现这个问题。</p> 
+ <p>　　・需要做的体检项目：需要验血，看有无慢性肝炎；需要验便，以查清是否患有伤寒病或是伤寒病的健康带菌者；需要验痰，以检查是否患有结核病；对某些保姆还需要做淋菌涂片和梅毒血清检查，以排除患有性病的可能。</p> 
+ <p>　　保姆进门三步曲</p> 
+ <p>　　A．培养宝宝与保姆的感情：</p> 
+ <p>　　过了周岁的宝宝，就应逐步培养其社会倾向性了，逐步淡化对妈妈的过分依恋。有时间多带宝宝去户外玩，去亲友家做客，多认识周围的小朋友，也为孩子乐意接触除家人以外的人做好准备。妈妈需要与保姆共同照顾宝宝一段时间，使之相互熟悉，避免突然交接，对宝宝情绪造成负面影响。</p> 
+ <p>　　妈咪逐步将令宝宝高兴的事情交给保姆来做，把能获得宝宝好感的机会留给保姆，如讲故事、读儿歌，去户外玩耍等，也使保姆对宝宝的生活习惯、性格特征有个了解，以便照顾宝宝时能够针对宝宝的特点。</p> 
+ <p>　　B．安全第一：你和保姆都应知晓的9个不要</p> 
+ <p>　　　1、不要离开孩子。</p> 
+ <p>　　无论何时何地，哪怕一分钟都不能离开孩子。尤其不能让孩子进入厨房、卫生间、近水处玩耍，这些都是婴幼儿的家庭危险区，因为他们即使在马桶里也可能溺水。有不少宝贝喜欢打开热水瓶把手指伸进去，他们还对刀具、洗衣粉和马桶颇感兴趣。</p> 
+ <p>　　2、不要使劲摇晃孩子。</p> 
+ <p>　　使劲摇晃宝宝是很多人对付宝宝哭闹的杀手锏，但科学已证明，使劲摇晃孩子引发的“婴儿摇晃综合症”，会使孩子大脑发育受损，严重时可导致瘁死。</p> 
+ <p>　　3、不要让孩子玩塑料袋、气球、硬币、戒指等物品，以免造成窒息。</p> 
+ <p>　　庆贺生日的气球可能在婴儿床边炸裂以至碎片飞溅，试图吹气球的幼儿可能会在应该吹气时反把气球吸进气管……另外，小宝宝几乎都对闪闪发亮的硬币、戒指、耳环之类感兴趣，你不能给他将这些小金属放入口中的机会。</p> 
+ <p>　　4、不要让孩子玩绳索、细线，以免缠绕脖颈或手指，造成窒息或肢体局部坏死。</p> 
+ <p>　　5、不要让孩子近火炉、电源插座等地方玩耍。</p> 
+ <p>　　宝贝们都很喜欢电源插座，他们会试图用小手指伸进那小黑洞洞，你知道这有多危险。所以，让他离得远一点。你还可以使用安全插座，或干脆封住暂不使用的插座。</p> 
+ <p>　　6、不要给婴幼儿吃开心果、瓜子、花生等坚果、硬糖块之类硬而光滑的食品和果冻。这些食物容易堵塞婴幼儿气管，引起窒息。</p> 
+ <p>　　7．不要让宝宝养成站在窗台上往外看的习惯。为避免悲剧的发生，有条件的家庭可安装护栏，并且在窗下不要放可攀爬的家具。</p> 
+ <p>　　8．不要让孩子在楼梯上打闹和做危险的游戏，如趴在楼梯扶手上向下滑等。</p> 
+ <p>　　9．告诉保姆不要随便给陌生人开门，可告诉陌生人等家长回来后再来。</p> 
+ <p>　　C．应急措施，防患于未然：</p> 
+ <p>　　1． 教会保姆如何使用急救电话，如报警110、火警119、救护车120等，如果家住高层，教会保姆使用电梯内的呼救电话。最好为保姆准备好一份应急电话表，将你和爱人的手机、办公室电话以及物业、小区保安、相关亲朋的电话都列在其中，以便必要时寻求帮助。若孩子稍大一些了，也可以教给孩子打电话。</p> 
+ <p>　　2． 每次出门前，应告诉保姆你此行的目的地以及联系方式，交代好保姆在家的任务。如果不希望保姆带孩子出去，或者不欢迎某些人进家，该对哪些电话作特别应答，都应明确告诉她。</p> 
+ <p>　　3． 预备一些应急款：万一孩子发烧生病，家长一时赶不过来，保姆可立刻叫车到医院。</p> 
+ <p>　　4． 家庭小药箱里准备好创口贴、红药水之类的外用非处方药。不过，告诉保姆不能给孩子擅作主张服用任何药物，应向孩子家长咨询清楚。</p> 
+ <p>　　5． 万一家里着火了，告诉保姆要①想办法带孩子离开房间脱离危险，并拨打119电话；②开门前先试试门把手的温度，如果很烫，说明火焰就在问口，这时绝对不能开门；③往毛巾、衣服上洒水，弄湿后塞住门缝，然后站在窗户旁等待救援；④如果门把手不是很热，可以用手巾捂住嘴和鼻子，把衣服弄湿裹在身上，打开门，贴着地面爬到最近的出口。</p> 
+ <p>　　6． 告诉保姆当她闻到煤气味儿，应该知道是漏煤气了。这时：①不要开电源开关，也不要点火柴，否则可能引起爆炸；②赶快打开窗户，让煤气散去；③关上厨房门，避免让煤气进入室内。</p> 
+ <p>　　7． 如果保姆和孩子从外面回家，发现家里门被撬开了，首先千万不要进门，因为有可能小偷就在里面，然后迅速去邻居家或公共电话或物业公司电话报警。</p> 
+ <p>　　雇主应知晓的三大戒条</p> 
+ <p>　　 1．避免24小时将宝宝甩手给保姆：如果你要求保姆24小时照看宝宝，保姆会因休息不够，而导致脾气暴躁，这样她可能会向毫无反抗能力的小孩子发泄，因此容易出现虐儿的问题。况且，也会淡化母亲与孩子的亲子关系。</p> 
+ <p>　　特别提示：父母白天已不在宝宝的身边，晚上最好自己带，一来可增加亲子感情，二来可让保姆有足够的时间休息。</p> 
+ <p>　　2．合理分配保姆需做的份内事宜：有时雇主分配给保姆太多的家务，比如既要买菜、煮饭、清洁，又要照看宝宝，时间很紧张，为了完成你指定的工作，当宝宝又不合作时，情急之下难免会对孩子发脾气，这可是你最不愿意看到的哦！</p> 
+ <p>　　特别提示：在聘请保姆时，明确列出保姆主要的工作是做什么，或说明其工作的主次轻重。如果你想要她把宝宝照看好的话，就应该分担做些家务，例如去市场买菜等。</p> 
+ <p>　　3．视其为家人，勿随意责骂：外地保姆从老远来到本地，因其文化背景、生活习惯与你不同，做出来的工作未必事事如愿，若因此而经常责骂她，会令她心存积怨，万一不善待孩子了，怎么办！如果你只视她为下人，保姆就缺乏归属感，当她与宝宝单独相处时，亦只当成一件机械的工作去做。因此，应视其为一家人，做得好时，别忘了称赞几句。平时多交流，建立良好的感情，对孩子和你来说，是必要的。</p> 
+ <p><br />&nbsp;</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/126156">怎样喂宝宝喝水</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" class='thisclass'>婴儿喂养</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/126155">十八般武艺解决宝宝吃饭难</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126154">宝宝饮食追求高蛋白吗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126153">婴儿过早添加辅食不利健康</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126152">防过敏，半岁前只给宝宝吃蛋黄</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126151">洋葱干酪蛋奶面包</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"127255"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>
