@@ -1,0 +1,477 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>1至2岁的宝宝如何喂养-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/127165"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=158" rel="nofollow">婴儿喂养</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					1至2岁的宝宝如何喂养
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-29 23:31:59</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　根据世界卫生组织和美国儿科协会的建议，1至2岁期间是宝宝断奶的最佳时机。断奶是此期间宝宝面临的最大问题之一。然而由于如今职业女性越来越多，能做专职太太的妇女越来越少，人们为了工作不得不提早给宝宝断奶。断奶对于大多数宝宝来说都是一个难熬的阶段，这里有许多问题及其处理的技巧，需要妈妈注意。</p>
+ <!--NEWSZW_HZH_BEGIN-->
+ <!--NEWSZW_HZH_END--> 
+ <p>　　<strong>断奶时机的选择</strong></p> 
+ <p>　　这里所说的断奶是指中断“母乳”喂养（而非中断牛奶）。虽然母乳是宝宝最理想的食物，但是到了1周岁以后，母乳中所含的营养成份已经无法提供宝宝生长发育所需的全部营养，必须以饭食为主。</p> 
+ <p>　　断奶需要选择适当的时机。首先必须选择宝宝身体状况最佳时断奶，否则会影响宝宝的健康。因为断奶、改吃牛奶和辅食后，宝宝的消化功能系统还需要适应一个阶段。此时宝宝的抵抗力会略有下降，所以断奶要考虑宝宝的身体状况。生病期间不宜断奶，体弱的宝宝可适当推迟断奶的时间。</p> 
+ <p>　　通常情况下，在宝宝周岁左右时断奶最合适。此时，宝宝的消化器官发育渐趋完善，咀嚼和消化功能增强，能适应断奶。在母亲患有大病的情况下，应立即给宝宝断奶。</p> 
+ <p>　　断奶季节的选择也比较重要。夏天宝宝出汗多，胃肠消化能力弱，食物容易腐败变质，从而导致宝宝腹泻、消化不良；冬季气候寒冷，宝宝容易着凉、感冒甚至患肺炎。因此，断奶最好选择在春暖或秋凉的季节。</p> 
+ <p>　　<strong>断奶的技巧</strong></p> 
+ <p>　　宝宝已经习惯于母乳，断奶需要有一个准备的过程。可用母乳和牛奶混合喂养一段时间，逐步让他接受牛奶和其他食物，从而断掉母奶乳。不要用药物或辛辣品涂在乳头上，迫使宝宝放弃母乳，以免给宝宝心理上造成不良影响。</p> 
+ <p>　　断奶要循序渐进。自宝宝6至8个月起，就逐渐减少哺乳的次数。可先减去1次，由奶粉、豆浆或鸡蛋羹代替。以后再根据宝宝的适应情况减少喂奶的次数，同时将宝宝的口味由单一逐渐变为多样。1岁左右的宝宝多数会长出部分乳牙，食物可以从流质逐步过度到半固体、固体，由泥、粥、羹状变为末、丁、小碎块。慢慢适应后，宝宝能进食了，也就可以做到自然断奶了。</p> 
+ <p>　　在断奶期间，要注意观察婴儿的食量与食欲是否相吻合。仔细观察宝宝每一顿的食量，是否与上次一样，还是逐渐增多了？喂饭应选择在婴儿有点饿，母亲也有空闲做饭的时间，而且最好把喂饭的时间固定下来。这样以后每到这个时间，宝宝就会叫饿的。</p> 
+ <p>　　要有目的地训练宝宝咀嚼食物。随着婴儿的舌头和上下颚灵活起来，可以让婴儿吃稍硬一点的东西了，但也不可以过硬。食物要烹调到婴儿用牙龈就可以咀嚼和咬碎的硬度。虽然此时婴儿已经长了牙齿，但仍不能直接用它咬碎食物。所以如果食物突然变得过硬过大，婴儿是吃不了的。当然食物也不能过于柔软，否则婴儿一下子吞了下去，也就无法让他练习咀嚼了。</p> 
+ <p>　　此外，父母还应重视宝宝断奶期的味觉体验，多给他尝试一些不同的食物，以防养成偏食的习惯。如果在此期间宝宝有了对各种食物的品尝体验，拥有广泛的味觉，以后就乐于接受各种食物。相反，假如我们给他的食物此较单一，宝宝的味觉发育就可能不够发达，以后接受食物的范围也会比较狭窄，而且不那么愿意接受其它食品和味道，孩子偏食就是这样造成的。</p> 
+ <p>　　婴儿习惯吃饭后，会想用手抓着吃，甚至还因为抓不到、吃不着而吵闹起来。这些现象都证明婴儿对饭食有兴趣，是好事。所以你不妨把宝宝想吃的东西切成细长条，让他自己用手抓着吃。</p> 
+ <p>　　<strong>宝宝应该吃什么？</strong></p> 
+ <p>　　母乳虽然断了，但奶类仍然是宝宝饮食中的一个重要组成部分，每天应保证摄入牛奶500毫升以上，并逐步过渡到以肉、蛋、谷物、蔬菜、水果为主的饮食结构，初步形成一日三餐的格局。</p> 
+ <p>　　刚满周岁时，宝宝能吃的食物已经很多，但由于臼齿还没有长出来，不能把食物嚼得很细，所以宝宝的饭菜还是要做得软烂一些，以利于宝宝消化吸收。主食可以吃粥、软饭、面条、馒头、包子、饺子、馄饨等。副食可以吃新鲜蔬菜（特别是绿色蔬菜）、水果、鱼、肉、蛋、动物内脏及豆制品，还应经常吃一些海带、紫菜等海产品。总之，完全断奶后，宝宝每日的饮食中应包含碳水化合物、脂肪、蛋白质、维生素、无机盐和水这6大营养素，避免饮食单一。只有多种食物合理搭配才能满足宝宝生长发育的需要。此时还要特别注意培养宝宝良好的饮食习惯，避免养成挑食、偏食和爱吃零食的习惯。</p> 
+ <p>　　原则上婴儿食品的味道要清淡。虽然随着婴儿日渐成长，也可以在食物中加入少许调料，但分量不应超过大人的三分之一，以防宝宝肝脏和肾脏负荷过重。要避免给宝宝吃油分多、刺激性强、 难消化的食物，及砂糖多的点心。尤其是刚刚开始吃代乳食物的婴儿，应避免食用动物性蛋白质的大骨头或小鱼汤汁，以免造成肾脏的负担，一定要等宝宝适应了蛋白质以后再慢慢转换。</p> 
+ <p>　　由于婴儿配方奶粉在营养结构方面优于普通鲜奶及全脂奶粉，且强化了多种维生素、矿物质及微量元素，各种营养素配比均衡，对于断奶后的宝宝来说仍然是非常理想的食品。而且，不少婴儿奶粉中还增添了一些母乳中含量不足的营养，有利于宝宝的生长发育。例如，有的奶粉中添加了卵磷脂，有助于婴幼儿的大脑发育；有的含有丰富的钙质及维生素D，保证宝宝的骨髓及牙齿健康；有的含有充分的铁质，可以预防缺铁性贫血。这些营养对于宝宝的健康成长非常重要。</p> 
+ <p>　　<strong>妈妈应该注意的问题</strong></p> 
+ <p>　　用慈爱的眼神向孩子传递母爱，让宝宝生活在关爱中。别小瞧了宝宝，他也是很敏感的，一旦从妈妈身上感受到不耐烦，就会变得烦躁不安。妈妈要抱着轻松、愉悦的心情来喂宝宝食物，要耐心细致、不厌其烦。把宝宝抱在膝上，一边跟他说话一边喂饭，将汤匙慢慢靠近宝宝的嘴边，等孩子把食物吸吮进去。如果他吐出来，也不要着急，一定是食物不合他的胃口，要么就是太凉、太热，给他擦干净就可以了。让孩子在爱与关怀下成长，才有利于他的身心健康。</p> 
+ <p>　　由于每个孩子的体质和发育速度不同，育儿的方法各式各样，而且如今书店里的育儿书也很多，众说纷纭，令人莫衷一是，认真的妈妈们往往因为孩子与书里所写的不符而担心孩子出了问题。其实，与其用育儿书作标准，将自己的孩子与其他孩子比来比去，不如认真观察自己的孩子，给予适量的关爱和充足的营养，有问题及时咨询医生，这才是聪明、正确的做法。<br /></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/126156">怎样喂宝宝喝水</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" class='thisclass'>婴儿喂养</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/126155">十八般武艺解决宝宝吃饭难</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126154">宝宝饮食追求高蛋白吗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126153">婴儿过早添加辅食不利健康</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126152">防过敏，半岁前只给宝宝吃蛋黄</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126151">洋葱干酪蛋奶面包</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"127165"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

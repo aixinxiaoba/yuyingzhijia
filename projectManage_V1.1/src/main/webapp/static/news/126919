@@ -1,0 +1,497 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>“夹缝中求生存”的母乳喂养-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/126919"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=158" rel="nofollow">婴儿喂养</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					“夹缝中求生存”的母乳喂养
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-29 23:17:26</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　背景：</p> 
+ <p>　　中央电视台《东方时空&middot;时空连线》记者在对安徽阜阳受“毒奶粉”侵蚀的“大头娃娃”进行追踪采访时发现：劣质奶粉的市场主要集中在农村一些贫困地区和落后地区，而购买这些劣质奶粉的，大部分都是老人；因为这些婴儿的父母，多是在外地打工的男女；他们一般在生下婴儿后不久，就交由公婆或孩子的外祖父母带养，而这种放弃母乳喂养的做法，恰恰给了劣质奶粉可乘之机。</p> 
+ <p><br />　　世界卫生组织建议，婴儿在6个月内应该是全母乳喂养，6个月后同时添辅食，不间断的母乳喂养应坚持到孩子满一周岁。</p> 
+ <p>　　据世界卫生组织估计，全世界每年有150万婴儿直接死于非母乳喂养。因此，婴儿喂养是儿童生存的重大问题。我国虽早在1991年就开始实施“推广母乳喂养项目”，然而，十几年过去了，通过调查显示，真正的推广和落实还不尽如人意。</p> 
+ <p>　　为了强化母乳喂养，有效控制有条件实施母乳喂养但又选择母乳替代品这一现象，国际社会制定并通过了《母乳替代品市场国际准则》，其宗旨在于：</p> 
+ <p>　　1、无论母乳或人工喂养，保证婴儿的营养和健康；<br />　　2、消除商业给婴儿喂养带来的影响和压力； <br />　　3、在认识到有一些婴儿不能得到母乳喂养时，“保护和提倡母乳喂养，并保证在有必要时适当地使用母乳替代品”。</p> 
+ <p>　　《母乳替代品市场国际准则》涉及的产品： </p> 
+ <p>　　1、婴儿奶粉配方和特殊奶粉配方； <br />　　2、成长期奶粉配方和其他适用于2岁以下儿童食用的奶粉配方； <br />　　3、奶瓶和奶嘴；<br />　　4、6个月以下孩子的辅食。</p> 
+ <p>　　专家指出，目前中国的法律中已包含《母乳替代品市场国际准则》，中国的法律与《母乳替代品市场国际准则》也十分相似，可以说真正做到了强调《母乳替代品市场国际准则》。国家卫生部通过推行爱婴医院来实施和强制实施《母乳替代品市场国际准则》。但现在的问题是如何进一步强制实施和一旦违反将会得到何种强制性的处罚？ </p> 
+ <p>　　一、城乡的儿童营养状况差别仍很大</p> 
+ <p>　　统计资料显示：在中国，儿童营养不良的主要表现在，儿童体重不达标的比率较高和个子矮小，同时衡量严重营养不良的标准却很低。在过去的10年内，这两个指数虽然都有了很大程度的下降，但目前城乡儿童的营养状况差距仍然很大。</p> 
+ <p>　　目前在农村，由于大多数家庭都没有养奶牛，所以喂婴儿鲜奶不具备条件。因此在农村，奶粉具有相当大的市场发展潜力。据中央电视台报道，此次劣质奶粉的受害者，主要集中在农村贫困地区。由于最终端的零售商，为了一己私利，力推一些劣质奶粉，而一些打工者的父母为了每袋奶粉能便宜四五块钱，不经意间让家中的孩子成了劣质奶粉的受害者。</p> 
+ <p>　　专家指出，要改善农村儿童的营养状况必须改变2个状况：</p> 
+ <p>　　1、有必要在农村这种比较闭塞的地方对婴儿家长进行营养教育，以保证孩子在6个月大时添加辅食而且不间断的母乳喂养，持续到孩子出生后第二年；<br />　　2、最大限度地减少婴儿母亲因外出打工而放弃母乳喂养的状况。</p> 
+ <p>　　二、奶粉公司采用各种形式违规促销</p> 
+ <p>　　英国救助儿童会作为英国一个主要的国际慈善机构，代表幼童严肃地承担起倡导母乳喂养的重任。英国救助儿童会官员李萍告诉记者，英国救助儿童会之所以大力提倡母乳喂养，是因为母乳是婴儿的最佳食品。母乳能提供给婴儿平衡和完整的日常饮食，而且既卫生又经济。母乳喂养有这些明显的益处，而人工喂养则有危险，这方面的文献记载还不少。</p> 
+ <p>　　当英国救助儿童会通过有关资料得知，他们正在监测的城市之一&#x2014;&#x2014;安徽省某市，母乳喂养率已达85％（在出院时母亲们全母乳喂养）。为了证实这些数字的真实性，考虑到中国母亲正成为奶粉生产公司目标的情况，奶粉公司通过强有力的市场营销手段推销母乳替代品，提供免费样品给怀孕和哺乳期的母亲，或推销成长期所需的奶粉及其他产品；从2000年9月至2001年6月，英国救助儿童会在中国的安徽省，进行了为期11个月的婴儿哺乳的市场调查。而由英国救助儿童会完成的随机婴儿喂养习惯调查表明：产后一个月内完全母乳喂养率低于57.7％，很多母亲尝试混合喂养而不采取完全母乳喂养，除喂母乳外还给孩子喂水或糖水。</p> 
+ <p>　　调查显示，奶粉市场具有相当大的发展潜力。奶粉生产厂商针对不同年龄设计了不同品种的奶粉。这就意味着任何时候一个母亲走进超市，她都面临着各种各样的选择。因为存在选择，奶粉公司就使用各种形式的促销手段。他们常常送出一些与婴儿喂养无关的免费礼品，同时使用各种渠道刊登其奶粉广告。</p> 
+ <p>　　三、许多奶粉的标签违反《母乳替代品市场国际准则》</p> 
+ <p>　　《母乳替代品市场国际准则》描述：“标签应提供有关正确使用产品的必要信息而不是设法阻止母乳喂养。配方奶粉的生产商和分销商应保证每罐奶粉上都印有一个清晰和明显的、易读懂的标签说明，或在整张标签上使用恰当的文字说明，说明包含以下内容：</p> 
+ <p>　　1、“重要注意事项”或类似的文字说明；<br />　　2、一个强调母乳喂养的声明。</p> 
+ <p>　　而据市场调查显示，有的厂家专门声称自己有“不含乳糖的婴儿配方奶粉”，有的奶粉罐上的插图覆盖了《母乳替代品市场国际准则》第九条规定的部分声明。这样一来声明不是“清晰和明确的”，也不能够很容易地看见。而依照《母乳替代品市场国际准则》规定，“奶粉罐的标签上既不能有婴儿的照片也不能印上其他图片或理想化反映和描述婴儿配方奶粉使用的内容。”中国销售的很多产品上有大量的图片，这些微笑的玩具熊理想化反映了产品的用途，这就违反了《母乳替代品市场国际准则》第九条。</p> 
+ <p>　　《母乳替代品市场国际准则》还规定，“对于母乳替代品市场国际准则范围内的产品，不能利用广告销售产品，不能提供样品，或以其他促销手段销售产品，或以优惠价格将产品直接零售给消费者，如产品展示、打折票券、额外奖励、特价销售、亏本销售和捆绑销售都是不允许的。”</p> 
+ <p>　　而市场调查显示，买一袋成长期配方奶粉可免费送一个奶瓶，或买一罐某牌奶粉送一把伞。这种鼓励购买违反了母乳替代品国际准则第五条的有关部分规定。</p> 
+ <p>　　《母乳替代品市场国际准则》规定，不应该使用广告或其他形式向公众推销母乳替代品的宣传资料。“有关资料只能由医疗机构(而不是药店或商店)分发，发送给母亲和怀孕妇女”。而一些公司的有关母乳替代品的宣传单都是由超市发送的，而这些资料按规定只能由医疗机构分发，这就违反了《母乳替代品市场国际准则》第四和第五条之规定。某国际著名公司代表还将免费样品送给带儿子去诊所接受免疫接种的英国救助儿童会的员工。这违反了《母乳替代品市场国际准则》第六条、第五条第二款和第五款的规定。</p> 
+ <p>　　《母乳替代品市场国际准则》规定，医疗保健机构不能被用作宣传和推销婴儿配方奶粉的地方。亦不能在此张贴各种相关产品的广告和海报等，或分发生产商或分销商提供的资料。生产商和分销商付钱或提供其他便利条件给医疗机构的“专业的服务代表”，育儿法指导护士或其他类似人员是不允许的。</p> 
+ <p>　　在关于婴儿喂养方式的调查过程中，调查人员共询问了41名医护人员，问他们是否接受过免费奶粉并在医院分发给母亲。虽然在正式场合被调查者都否认曾接受过免费奶粉，但在吃饭时一些人承认有过此类行为。</p> 
+ <p>　　而且媒体在传播母乳喂养信息方面也有缺失：婴儿配方奶粉在一周内至少三次在不同的时间在电视上播出。各公司利用杂志推销他们的产品，使用明显的品牌名称。</p> 
+ <p>　　业内人士分析，中国正成为奶粉公司的主要目标，由于对《母乳替代品市场国际准则》的内容缺乏了解，所以虽然很多地方母乳喂养率已有所提高，但不利因素依然很明显。主要表现在没有对混合喂养和配方奶粉喂养的潜在危险提供信息；因此使母亲们不能获悉有关信息，作出明智的选择；而只能很容易地受奶粉公司各种促销活动的影响。因此在中国需要加强对《母乳替代品市场国际准则》的宣传。</p> 
+ <p>　　四、完全母乳喂养的调查</p> 
+ <p>　　在对母乳替代品市场做上述调研的同时，从2000年至2001年，英国救助儿童会又在中国安徽省进行了历时两个多月的另一项调查。此次调研的主要目的是了解安徽省城乡地区母亲们对婴儿喂养的实施情况；调查共采访了10个不同的机构：包括保健站、妇产医院和区医院。走访的10个机构中有四个在合肥市，另外四个在乡镇和农村。采访的对象33.6％来源于城市，剩余66.4％来源于农村。</p> 
+ <p>　　调查人员共采访了190位母亲(从生下来几天到一周岁之间的孩子的母亲)。也采访了许多医务工作者，主要了解她们对婴儿喂养方面的相关知识和了解他们在产前和产后都给母亲们提了哪些建议。44个被采访的医务工作者中有一半是医生，其他是护士、助产士和健康教育工作者。</p> 
+ <p>　　1、怎样喂养孩子？是否已开始添加辅食？一直在给孩子吃什么？在关于孩子的喂养方面她们得到和接受过什么建议和信息？</p> 
+ <p>　　调查结果：<br />　　对于不满6个月的孩子，即1&#x2014;5个月大的婴儿：80.8％的母亲说是全母乳喂养，3.8％说是用奶瓶和其他方式喂养，15.4％说她们采用混合方式喂养婴儿。可是那些说是全母乳喂养的人在被问及在最近24小时是否给孩子喂过什么食物时，39.7％说是，60.3％说否。考虑到所有6个月以下孩子，42.3％的婴儿在先前24小时内除母乳外还进食过其他东西，依此信息则全母乳喂养率仅为57.7％。</p> 
+ <p>　　当被问及孩子生下来后，第一次母乳喂养时间时：<br />　　10.7％在产后1小时喂奶，60.6％在产后24小时内喂奶，28.7％在产后24小时之后喂奶。因此，可以看到及时初次喂奶率仅为10.7％。</p> 
+ <p>　　结论：在全母乳喂养的婴儿中，只有72.1％的婴儿吃过初乳。有资料显示开始母乳喂养的时间越早，母乳喂养婴儿的成功率越高。很多母亲喂奶较晚，有近30％的人在产后24小时才喂奶，这在很大程度上降低了母乳分泌，这样一来母亲们往往会用其他液体来补充母乳。</p> 
+ <p>　　2、为何停止母乳喂养？<br />　　25％的母亲回答：因为要回去工作；<br />　　75％的母亲回答：奶水不足。</p> 
+ <p>　　英国救助儿童会的一名员工最近在参加产前培训时发现，常常会有一些妈妈提到自己的母乳不足，这样会使更多乳母产生一个错误的想法&#x2014;&#x2014;相信母乳不足是很普遍的，从而意味着她们将不再努力增加母乳，而采取混合喂养，但目前混和喂养的危险性从来未被人提及，也没有提及用奶瓶喂养会导致疾病和腹泻的危险性。</p> 
+ <p>　　据悉，在合肥市的妇幼医院，门口和候诊区都张贴着提倡母乳喂养，禁止向母亲们提供低价或免费的婴儿配方奶粉的样品或其他相关样品的宣传画。然而，在其他医院，这些政策的宣传画却正好贴在奶粉公司提供的推销婴儿配方奶粉的宣传画的旁边。</p> 
+ <p>　　苏珊&middot;仙裴在她的《中国育儿文献》中有一篇文章写道，“很明显，虽然在中国的建议性文献中无异议地而且清楚地提倡母乳喂养，但在有关母乳喂养中也详细地描述了面临母亲和她们的婴儿的许多困难、问题和危险。奶量不足，母乳受到污染，奶头破裂，奶水受阻不畅，母乳成分不稳定，哺乳损害母亲身体，母乳养分不充分等都是讨论母乳喂养时收到的大量的备受关注的话题。”苏珊&middot;仙裴在书中总结说，虽然母乳喂养的确存在潜在的问题，但假如母乳喂养无法进行，那人工喂养就是唯一的选择。人工喂养的问题容易解决：对付棘手的母乳喂养问题的方法就是给婴儿一个奶瓶。</p> 
+ <p>　　为了争夺日益扩大的市场份额，母乳替代品公司之间的竞争毫无疑问是非常激烈的。专家指出，为了应对这种局面，全社会应携起手来，广泛开展母乳喂养的意识教育；同时有关职能部门也应加大力度，查处那些公然违反《母乳替代品市场国际准则》的商业行为，让每一个新生命从出生的那一瞬间，就能拥有一个健康、安全的生长环境。（张倩）</p> 
+ <p>　　采编自：新华网</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/126156">怎样喂宝宝喝水</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" class='thisclass'>婴儿喂养</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/126155">十八般武艺解决宝宝吃饭难</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126154">宝宝饮食追求高蛋白吗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126153">婴儿过早添加辅食不利健康</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126152">防过敏，半岁前只给宝宝吃蛋黄</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/126151">洋葱干酪蛋奶面包</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"126919"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>
