@@ -241,14 +241,12 @@ function loadCustomer()
 			<!-- /title -->
 			<DIV class="content1">
 				<font size='3'><div class="Newscontent">
- <p> 　　温度</p>
- <p>　　没有证据显示，用从冰箱里拿出的配方奶来喂养宝宝会给他造成伤害。如果你经常热奶，你的宝宝可能更喜欢喝加热过的奶。如果你的宝宝经常喝母乳，他可能也会喜欢喝加过热的配方奶。要注意配方奶不要过热。</p>
- <p> <br />　　种类</p>
- <p>　　大多数婴儿对以奶为基础的配方奶很适应，但有些婴儿需要特殊的配方。现在市场上有许多种与方奶可供选择，包括：</p>
- <p>　　以牛奶为基础的，不含乳糖的婴儿配方奶，用于喂养那些因为不能布景受奶中的乳糖而引起问题的婴儿，如喂奶后出现烦，产气和腹泻。</p>
- <p>　　以豆类为基础的婴儿配方奶，不含牛妥和乳糖，用于喂养对牛奶过敏或敏感的婴儿。</p>
- <p>　　低过敏原蛋白质的婴儿配方奶，比较容易消化，不含有乳糖，用于有急腹痛的婴儿或有对牛奶蛋白过敏的其他症状的婴儿。</p>
- <p>　<br /> <br /> <br /> </p> 
+ <p>　　<font size="4"><font face="楷体_GB2312"><strong>没有证据显示，用从冰箱里拿出的配方奶来喂养宝宝会给他造成伤害。如果你经常热奶，你的宝宝可能更喜欢喝加热过的奶。如果你的宝宝经常喝母乳，他可能也会喜欢喝加过热的配方奶。要注意配方奶不要过热。</strong><br /></font></font><br /> </p>
+ <p align="center"><img height="267" src="/upload/155/20080605165857690.jpg" width="400" border="1" /></p> 
+ <center>
+  <font style="FONT-SIZE: 12px"><strong>配方奶的温度和种类</strong><br /><br /></font>
+ </center> 
+ <p>　　<strong>种类</strong><br /><br />　　大多数婴儿对以奶为基础的配方奶很适应，但有些婴儿需要特殊的配方。现在市场上有许多种与方奶可供选择，包括：<br /><br />　　以牛奶为基础的，不含乳糖的婴儿配方奶，用于喂养那些因为不能布景受奶中的乳糖而引起问题的婴儿，如喂奶后出现烦，产气和腹泻。<br /><br />　　以豆类为基础的婴儿配方奶，不含牛妥和乳糖，用于喂养对牛奶过敏或敏感的婴儿。<br /><br />　　低过敏原蛋白质的婴儿配方奶，比较容易消化，不含有乳糖，用于有急腹痛的婴儿或有对牛奶蛋白过敏的其他症状的婴儿。 </p> 
  <p></p> 
  <p><strong></strong></p>
  <p></p>
@@ -307,7 +305,7 @@ function loadCustomer()
 						</LI>
 						<LI>
 							下一篇：
-								没有了
+								<A href="/static/news/124530">含奶嘴睡觉防猝死</A>
 						</LI>
 					</UL>
 				</DIV>
@@ -364,19 +362,19 @@ function loadCustomer()
 			</DIV>
 			<UL class="box" id="all2">
 					<LI>
-						<A href="/static/news/124333">5大要点护理早产儿</A><EM></EM>
+						<A href="/static/news/124926">新生宝宝喂奶大挑战</A><EM></EM>
 					</LI>
 					<LI>
-						<A href="/static/news/124332">怎样给早产儿供氧(图)</A><EM></EM>
+						<A href="/static/news/124925">宝宝吐奶不要慌</A><EM></EM>
 					</LI>
 					<LI>
-						<A href="/static/news/124331">早产儿的袋鼠保育法</A><EM></EM>
+						<A href="/static/news/124924">新生儿不可缺少维生素k</A><EM></EM>
 					</LI>
 					<LI>
-						<A href="/static/news/124330">早产与母亲牙周炎有关</A><EM></EM>
+						<A href="/static/news/124923">宝宝长壮?重要营养素分析</A><EM></EM>
 					</LI>
 					<LI>
-						<A href="/static/news/124329">早产儿语言理解能力滞后</A><EM></EM>
+						<A href="/static/news/124922">生了双胞胎后如何喂养呢？</A><EM></EM>
 					</LI>
 			</UL>
 		</DIV>
