@@ -73,7 +73,21 @@
 		
 		<!--wrapper-->
 		<DIV id="wrapper" style="padding-top: 9px;" class="div1">
-			友情链接：<script type="text/javascript" src="http://links.webscan.360.cn/index/index/158ff6300ac051d5beb79fd9b3275353"></script>
+			友情链接：
+			<a href="http://sifei.net" target="_blank">丝菲健康网</a>
+			<a href="http://katong.alihuahua.com" target="_blank">卡通花束</a>
+			<a href="http://www.nikedejia.com" target="_blank">妮可的家儿童摄影</a>
+			<a href="http://www.37woman.com" target="_blank">37度女人网</a>
+			<a href="http://www.ahkly.com.cn" target="_blank">男人帮时尚网</a>
+			<a href="http://mlnrc.com" target="_blank">美丽女人</a>
+			<a href="http://www.mangxia.com" target="_blank">HTML5网站设计</a>
+			<a href="http://www.tdtv.net" target="_blank">搞笑视频</a>
+			
+			<a href="http://www.at27.cn" target="_blank">三七粉的正确吃法</a>
+			<a href="http://www.food-un.com" target="_blank">中食联盟网</a> 
+			<a href="http://www.95v5.com" target="_blank">天狮儿童营养高钙</a>
+			<a href="http://www.sifayuandi.com" target="_blank">思法苑地</a>
+			<a href="http://www.mangxia.com" target="_blank">HTML5网站设计、APP界面设计欣赏、网页活动专题设计</a>
 		</DIV>
 		
 		

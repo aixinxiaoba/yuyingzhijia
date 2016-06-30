@@ -43,6 +43,7 @@ import com.manage.crm.service.ProjectService;
 import com.manage.crm.service.VisitLogService;
 import com.manage.crm.util.IPUtil;
 import com.manage.crm.util.Pagination;
+import com.opensymphony.xwork2.Action;
 
 @Controller("indexManageAction")
 @Scope("prototype")
@@ -284,6 +285,7 @@ public class IndexManageAtion extends BaseStruts2Action {
 			objFreemarkerUtils.init(getRequest().getSession().getServletContext());
 			objFreemarkerUtils.createFile("index.ftl", mapInData, "index.html");
 			
+			toWeb(Action.SUCCESS);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

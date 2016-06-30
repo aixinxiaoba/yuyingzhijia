@@ -77,7 +77,7 @@
 						<LI>
 								上一篇：
 							<#if objUpNews??>
-								<A href="/front/yuyingshi/detail.do?lProjectMenuID=${objProjectMenu.lId}&newsID=${objUpNews.lId?string('###')}">${objUpNews.strLongTitleTwo}</A>
+								<A href="/static/news/${objUpNews.lId?string('###')}">${objUpNews.strLongTitleTwo}</A>
 							<#else>
 								没有了
 							</#if>
@@ -85,7 +85,7 @@
 						<LI>
 							下一篇：
 							<#if objNextNews??>
-								<A href="/front/yuyingshi/detail.do?lProjectMenuID=${objProjectMenu.lId}&newsID=${objNextNews.lId?string('###')}">${objNextNews.strLongTitleTwo}</A>
+								<A href="/static/news/${objNextNews.lId?string('###')}">${objNextNews.strLongTitleTwo}</A>
 							<#else>
 								没有了
 							</#if>

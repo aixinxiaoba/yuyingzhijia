@@ -711,7 +711,7 @@ public class CS{
       out.write("\t\t</DIV>\r\n");
       out.write("\t\t<DIV id=\"goTop\" style='background: url(\"/m/common/top1.png\") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>\r\n");
       out.write("\t\t<DIV style=\"clear: both;\"></DIV>\r\n");
-      out.write("\t\t<DIV class=\"foot_nav\" onclick=\"location.href='/static/m/nav.html?a=1'\">\r\n");
+      out.write("\t\t<DIV class=\"foot_nav\" onclick=\"location.href='/static/m/nav.html'\">\r\n");
       out.write("\t\t\t<DIV class=\"font_wrap\">\r\n");
       out.write("\t\t\t\t<A>查看更多分类</A>\r\n");
       out.write("\t\t\t\t");

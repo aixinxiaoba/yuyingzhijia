@@ -227,6 +227,7 @@
 	<script type="text/javascript" src="/commons/js/bbtree/widget/slider/dots.min.js"></script>
 	<script type="text/javascript" src="/commons/js/bbtree/widget/slider/touch.min.js"></script>
 	<script type="text/javascript" src="/commons/js/bbtree/main.js"></script>
+	<%@include file="foot.jsp"%>
 <!-- 
 <script type="text/javascript" src="/commons/js/bbtree/stat.js"></script>
  -->

@@ -1,16 +1,25 @@
 package com.manage.crm.action;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.URL;
+import java.net.URLConnection;
+import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import javacommon.core.base.BaseStruts2Action;
+import javacommon.util.SearchCondition;
 import javacommon.util.freemarker.FreemarkerUtils;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
+import org.hibernate.criterion.Criterion;
+import org.hibernate.criterion.Restrictions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Scope;
@@ -124,6 +133,10 @@ public class MStaticDisposalAtion extends BaseStruts2Action {
 
 	// 育婴技能。
 	private List<News> lstYuYingSkill;
+	
+	private Long lProjectMenuID;
+	
+	private String param1;
 
 	/**
 	 * 移动端首页静态化。
@@ -423,12 +436,210 @@ public class MStaticDisposalAtion extends BaseStruts2Action {
 		toWeb(Action.SUCCESS);
 	}
 	
+	/**
+	 *  移动端 pc端 静态化。
+	 * 
+	 * @return
+	 */
+	public void detailStatic()
+	{
+		try {
+			this.newsID = Long.parseLong(this.param1);
+			// 获取消息详细信息。
+			if ((this.newsID == null) || (this.newsID.longValue() <= 0L)) {
+				setErrorText("没有获取到要查看的文章");
+				toWeb(Action.ERROR);
+				return;
+			}
+			this.objNews = this.objNewsService.getById(this.newsID);
+			lProjectMenuID = this.objNews.getObjProjectMenu().getObjParentProjectMenu().getlId();
+			if (this.objNews == null) {
+				setErrorText("无法获取到文章信息，请检查您的网址是否正确！");
+				toWeb(Action.ERROR);
+				return;
+			}
+			
+			// 设置小类。
+			this.objSubProjectMenu = this.objNews.getObjProjectMenu();
+			
+			// 获取项目主菜单。
+			objProjectMenu = this.objProjectMenuService.getByHql(" from ProjectMenu where id='" + this.lProjectMenuID + "'");
+			if (objProjectMenu == null) {
+				setErrorText("无法获取您的菜单信息，请检查后重试！");
+				return;
+			}
+			
+			// 加载项目信息。
+			this.objProject=objProjectMenu.getObjProject();
+			// 加载有效的子菜单
+			lstProjectMenu = this.objProjectMenuService.lstValidSubProjectMenu(lProjectMenuID);
+			
+			if (objProject == null) {
+				setErrorText("无法获取您的项目信息，请检查后重试！");
+				return;
+			}
+			
+			// 加载育婴师最新发布动态 获取前9个
+			this.objNewsService.lstAppointNumNews(lProjectMenuID, Pagination.PAGE_SIZE_5);
+			
+			// 设置推荐阅读栏。lstSuggestReading
+			this.lstSuggestReading = objNewsService.listBySql(" select " + DBSql.getNewsColumnWithOutContentOne() + " from News a,newstagrela b where a.id=b.nid and b.ntid=" + NewsTag.G_SUGGESTIONREADING
+					+ " and a.imageurl is not null and imageurl !='' ORDER BY a.id desc LIMIT " + Pagination.PAGE_SIZE_RIGHT);
+						
+			// 获取上一页第一个数据。
+			Pagination<News> objUpPagination = new Pagination<News>(1, 1);
+			Criterion objUpSQLCondition = Restrictions.sqlRestriction(" mid=" + this.objSubProjectMenu.getlId() + " and id < " + newsID);
+			objNewsService.listByCriteria(objUpPagination, new SearchCondition(objUpSQLCondition, null), null);
+			if (objUpPagination.getRows() != null && objUpPagination.getRows().size() > 0)
+			{
+				this.objUpNews = objUpPagination.getRows().get(0);
+			}
+			
+			// 获取下一页第一个数据。
+			Pagination<News> objNextPagination = new Pagination<News>(1, 1);
+			Criterion objNextSQLCondition = Restrictions.sqlRestriction(" mid=" + this.objSubProjectMenu.getlId() + " and id > " + newsID);
+			objNewsService.listByCriteria(objNextPagination, new SearchCondition(objNextSQLCondition, null), null);
+			if (objNextPagination.getRows() != null && objNextPagination.getRows().size() > 0)
+			{
+				this.objNextNews = objNextPagination.getRows().get(0);
+			}
+			
+			// 设置当前选中菜单。
+			strCurMenu = this.objSubProjectMenu.getMenuKey(); // 默认首页
+			
+			// 生成静态化文件
+			FreemarkerUtils objFreemarkerUtils = new FreemarkerUtils();
+			objFreemarkerUtils.init(getRequest().getSession().getServletContext());
+			Map<String, Object> mapInData = new HashMap<String, Object>();
+			
+			// 项目菜单id。
+			mapInData.put("lProjectMenuID", lProjectMenuID);
+			// 项目
+			mapInData.put("objProject", this.objProject);
+			// 项目菜单
+			mapInData.put("lstProjectMenu", this.lstProjectMenu);
+			// 项目子菜单
+			mapInData.put("lstChildMenu", this.lstChildMenu);
+			// 加载最新动态 获取前6个
+			mapInData.put("lstNewestMessage", this.lstNewestMessage);
+			// 设置推荐阅读栏。
+			mapInData.put("lstSuggestReading", this.lstSuggestReading);
+			// 阅读量排行 加载前六个。
+			mapInData.put("lstTopOfReading", this.lstTopOfReading);
+			// 设置选中菜单
+			mapInData.put("strCurMenu", this.strCurMenu);
+			mapInData.put("objNews", this.objNews);
+			mapInData.put("objUpNews", this.objUpNews);
+			mapInData.put("objNextNews", this.objNextNews);
+			mapInData.put("objProjectMenu", this.objProjectMenu);
+			
+			// 静态化PC端。
+			// objFreemarkerUtils.createFile("menu/news.ftl", mapInData, "static/news/" + this.objNews.getlId());
+			// 静态化移动端。
+			objFreemarkerUtils.createFile("menu/m_news.ftl", mapInData, "static/m_news/" + this.objNews.getlId());
+			
+			// 推送url到百度。
+//			pushUrlToBaiDu();
+			
+			// 更新静态化状态。
+			objNews.setStaticFlag(0);
+			objNewsService.update(objNews);
+			toWeb(Action.SUCCESS);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	/**
+	 * 将链接推送到百度。
+	 * 一次推送两条数据。
+	 */
+	private void pushUrlToBaiDu()
+	{
+		long projectMenuId = this.objNews.getObjProjectMenu().getlId();
+		logger.info("开始向百度推送url");
+		String url = "http://data.zz.baidu.com/urls?site=www.yuyingzhijia.cn&token=aHy5BwoLTA7ZGSUJ";//网站的服务器连接
+		String[] param = {"http://www.yuyingzhijia.cn/detail/M" + projectMenuId + "/" + this.objNews.getlId() + "",// pc端
+				          "http://www.yuyingzhijia.cn/detail/P" + projectMenuId + "/" + this.objNews.getlId() + ""//mobile 端
+		};
+		// json为推送返回信息。
+		String json = Post(url, param);//执行推送方法
+		logger.info("向百度推送url结束：" + json);
+	}
+	
+	/**
+	 * 百度链接实时推送
+	 * @param PostUrl
+	 * @param Parameters
+	 * @return
+	 */
+	public static String Post(String PostUrl,String[] Parameters){
+		if(null == PostUrl || null == Parameters || Parameters.length ==0){
+			return null;
+		}
+        String result="";
+        PrintWriter out=null;
+        BufferedReader in=null;
+        try {
+            //建立URL之间的连接
+            URLConnection conn=new URL(PostUrl).openConnection();
+            //设置通用的请求属性
+            conn.setRequestProperty("Host","data.zz.baidu.com");
+            conn.setRequestProperty("User-Agent", "curl/7.12.1");
+            conn.setRequestProperty("Content-Length", "83");
+            conn.setRequestProperty("Content-Type", "text/plain");
+             
+            //发送POST请求必须设置如下两行
+            conn.setDoInput(true);
+            conn.setDoOutput(true);
+             
+            //获取conn对应的输出流
+            out=new PrintWriter(conn.getOutputStream());
+            //发送请求参数
+            String param = "";
+            for(String s : Parameters){
+            	param += s+"\n";
+            }
+            out.print(param.trim());
+            //进行输出流的缓冲
+            out.flush();
+            //通过BufferedReader输入流来读取Url的响应
+            in=new BufferedReader(new InputStreamReader(conn.getInputStream()));
+            String line;
+            while((line=in.readLine())!= null){
+                result += line;
+            }
+        } catch (Exception e) {
+            System.out.println("发送post请求出现异常！"+e);
+        } finally{
+            try{
+                if(out != null){
+                    out.close();
+                }
+                if(in!= null){
+                    in.close();
+                }
+            }catch(IOException ex){
+            	System.out.println("关闭流出现异常！"+ex);
+            }
+        }
+        return result;
+    }
+	
 	public Long getProjectMenuID() {
 		return projectMenuID;
 	}
 
 	public void setProjectMenuID(Long projectMenuID) {
 		this.projectMenuID = projectMenuID;
+	}
+
+	public String getParam1() {
+		return param1;
+	}
+
+	public void setParam1(String param1) {
+		this.param1 = param1;
 	}
 
 }

@@ -12,52 +12,14 @@
 <script type="text/javascript">
 function pageStatic(flag)
 {
-	var strURL = "/front/m/static/";
-	var strFlag = "";
-	
-	if (flag == 1)
-	{
-		strFlag = "indexStatic";
-	}
-	else if (flag == 2)
-	{
-		strFlag = "subMenuGlobalStatic";
-	}
-	else if (flag == 3)
-	{
-		strFlag = "subMenuStatic";
-	}
-	else if (flag == 4)
-	{
-		strFlag = "appointSubMenuStatic";
-	}
-	else if (flag == 5)
-	{
-		strFlag = "scrollPhotoStatic";
-	}
-	else if (flag == 6)
-	{
-		strFlag = "amScrollPhotoStatic";
-	}
-	else if (flag == 7)
-	{
-		strFlag = "scrollPhotoLevel2Static";
-	}
-	else if (flag == 8)
-	{
-		strFlag = "subMenuPageStatic";
-	}
-	else if (flag == 9)
-	{
-		strFlag = "nav";
-	}
+	var strURL = "/front/m/static/" + flag + ".do";
 	$("#div_data").hide();
 	$("#div_msg").show();
-	strURL = strURL + strFlag + ".do";
+	
 	$.ajax({
         url:strURL,
         type:"post",
-        data:{},
+        data:{"param1":$("#param1").val()},
         dataType:"text",
         async: true,
         success:function(data)
@@ -80,25 +42,21 @@ function pageStatic(flag)
 </script>
 </head>
 <body style="margin:100px;font-size:16px;">
-    <div id="div_return_msg" style="display:none;">
-		
-	</div>
-	<div>
-	<li>汇总最新数据：<a href="/front/yuyingshi/gatherlatestNews.do">执行</a></li>
-	</div>
+    <div id="div_return_msg" style="display:none;"></div>
 	<div id="div_data">
+		<div>参数1：<input type="text" name="param1" id="param1" /></div>
 		<div>
 			<ul style="line-height:35px;">
-			    <li>1、移动端首页静态化：<input type="button" value="执行" onclick="pageStatic(1);"/></li>
-				<li>2、移动端子菜单全局静态化：<input type="button" value="执行" onclick="pageStatic(2);"/></li>
-				<li>3、移动端所有子菜单前七条知识静态化：<input type="button" value="执行" onclick="pageStatic(3);"/></li>
-				<li>4、移动端指定的二级分类的静态处理：<input type="text" value="" /><input type="button" value="执行" onclick="pageStatic(4);"/></li>
-				<li>5、移动端子菜单最新滚动知识静态化：<input type="button" value="执行" onclick="pageStatic(5);"/></li>
-				<li>6、移动端静态化指定一级菜单下的滚动图片：<input type="text" value="" /><input type="button" value="执行" onclick="pageStatic(6);"/></li>
-				<li>7、移动端静态化二级级菜单下的滚动图片：<input type="button" value="执行" onclick="pageStatic(7);"/></li>
-				<li>8、移动端二级菜单下所有知识分页：<input type="button" value="执行" onclick="pageStatic(8);"/></li>
-				<li>9、移动端导航静态化：<input type="button" value="执行" onclick="pageStatic(9);"/></li>
-				
+			    <li>1、移动端首页静态化：<input type="button" value="执行" onclick="pageStatic('indexStatic');"/></li>
+				<li>2、移动端子菜单全局静态化：<input type="button" value="执行" onclick="pageStatic('subMenuGlobalStatic');"/></li>
+				<li>3、移动端所有子菜单前七条知识静态化：<input type="button" value="执行" onclick="pageStatic('subMenuStatic');"/></li>
+				<li>4、移动端指定的二级分类的静态处理：<input type="text" value="" /><input type="button" value="执行" onclick="pageStatic('appointSubMenuStatic');"/></li>
+				<li>5、移动端子菜单最新滚动知识静态化：<input type="button" value="执行" onclick="pageStatic('scrollPhotoStatic');"/></li>
+				<li>6、移动端静态化指定一级菜单下的滚动图片：<input type="text" value="" /><input type="button" value="执行" onclick="pageStatic('amScrollPhotoStatic');"/></li>
+				<li>7、移动端静态化二级级菜单下的滚动图片：<input type="button" value="执行" onclick="pageStatic('scrollPhotoLevel2Static');"/></li>
+				<li>8、移动端二级菜单下所有知识分页：<input type="button" value="执行" onclick="pageStatic('subMenuPageStatic');"/></li>
+				<li>9、移动端导航静态化：<input type="button" value="执行" onclick="pageStatic('nav');"/></li>
+				<li>10、移动端内容静态化：<input type="button" value="执行" onclick="pageStatic('detailStatic');"/></li>
 			</ul>
 		</div>
 		<div id="btm_start_cap" style="margin-top:40px;">

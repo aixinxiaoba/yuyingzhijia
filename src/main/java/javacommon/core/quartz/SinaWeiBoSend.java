@@ -71,11 +71,11 @@ public class SinaWeiBoSend {
 			logger.info("==========================【育婴之家网】微博定时发送开始=========================");
 			send("2895295707"); // 育婴之家网
 			logger.info("==========================【育婴之家网】微博定时发送结束=========================");
-//			Thread.sleep(10*60000L); // 十分钟后触发
+			Thread.sleep(2*60000L); // 十分钟后触发
 			logger.info("==========================【育婴知识分享网】微博定时发送开始=========================");
 			send("5601769804"); // 育婴知识分享网
 			logger.info("==========================【育婴知识分享网】微博定时发送结束=========================");
-//			Thread.sleep(10*60000L); // 十分钟后触发
+			Thread.sleep(2*60000L); // 十分钟后触发
 			logger.info("==========================【知识分享网】微博定时发送开始=========================");
 			send("3216094902"); // 知识分享网
 			logger.info("==========================【知识分享网】微博定时发送结束=========================");
@@ -153,8 +153,8 @@ public class SinaWeiBoSend {
 			try {
 				logger.error("=======================微博发送异常，异常信息：" + e.getMessage());
 				status = tm.updateStatus(statuses);
-				// 更新新闻。
-				objNews.setSendStatus(0);
+				// 更新新闻。  虽然发送失败依然将发送状态设置为已发送
+				objNews.setSendStatus(1);
 				objNews.setShortURL(strShortURL);
 				this.objNewsService.update(objNews);
 //				e.printStackTrace();

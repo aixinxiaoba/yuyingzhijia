@@ -8,7 +8,9 @@
 <script type="text/javascript" src="/commons/js/jquery/jquery-1.3.2.min.js"></script>
 <script type="text/javascript" src="/commons/js/jquery.form.js"></script>
 <script type="text/javascript" src="/commons/js/nicEdit.js"></script>
-
+<style type="text/css">
+.u1 li{list-style-type:none;}
+</style>
 <script type="text/javascript">
 function dataCapture()
 {
@@ -21,8 +23,8 @@ function dataCapture()
         	"categoryNum":$("#categoryNum").val(),
         	"menuKey":$("#menuKey").val(),
         	"startPageNo":$("#startPageNo").val(),
-        	"webType":$("#webType").val()
-        	
+        	"webType":$("#webType").val(),
+        	"urlType":$("#urlType").val()
         	},
         dataType:"text",
         async: true,
@@ -45,13 +47,18 @@ function dataCapture()
 		<br/>
 		分类号：72
 		</p>
-		
 		<div>
-			<ul>
+			<ul class="u1">
 				<li>http://baby.5721.net/Newborn/List_1_1.shtml</li>
 			</ul>
 		</div>
-		
+		<div>
+			type(url地址拼接方式):
+			<select id="urlType">
+				<option>1</option>
+				<option>2</option>
+			</select>
+		</div>
 		网站标志：<input type="text" name="webType" id="webType" value="5721"/>
 		</p>
 		菜单ID：<input type="text" name="menuKey" id="menuKey" value=""/>

@@ -370,7 +370,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       out.write("\t\t\t\t\t\t\t\t\t\t<td><img align=\"absmiddle\" src=\"/commons/image/left_tree5_1.gif\" width=\"16\" height=\"16\"><a href=\"/jsp/MPlatform/data/dataCapture.jsp\" class=\"nav\" target=\"right_window\"> 数据抓取 </a></td>\r\n");
       out.write("\t\t\t\t\t\t\t\t\t</tr>\r\n");
       out.write("\t\t\t\t\t\t\t\t\t<tr>\r\n");
-      out.write("\t\t\t\t\t\t\t\t\t\t<td><img align=\"absmiddle\" src=\"/commons/image/left_tree5_1.gif\" width=\"16\" height=\"16\"><a href=\"/jsp/MPlatform/pageStatic.jsp\" class=\"nav\" target=\"right_window\"> 页面静态化 </a></td>\r\n");
+      out.write("\t\t\t\t\t\t\t\t\t\t<td><img align=\"absmiddle\" src=\"/commons/image/left_tree5_1.gif\" width=\"16\" height=\"16\"><a href=\"/jsp/MPlatform/pageStatic.jsp\" class=\"nav\" target=\"right_window\"> 移动端页面静态化 </a></td>\r\n");
+      out.write("\t\t\t\t\t\t\t\t\t</tr>\r\n");
+      out.write("\t\t\t\t\t\t\t\t\t<tr>\r\n");
+      out.write("\t\t\t\t\t\t\t\t\t\t<td><img align=\"absmiddle\" src=\"/commons/image/left_tree5_1.gif\" width=\"16\" height=\"16\"><a href=\"/jsp/MPlatform/pcStatic.jsp\" class=\"nav\" target=\"right_window\"> PC端页面静态化 </a></td>\r\n");
       out.write("\t\t\t\t\t\t\t\t\t</tr>\r\n");
       out.write("\t\t\t\t\t\t\t\t</table>\r\n");
       out.write("\t\t\t\t\t\t\t\t</td>\r\n");

@@ -115,6 +115,7 @@ public class NewsManageAtion extends BaseStruts2Action {
 		String categoryNum  = getRequest().getParameter("categoryNum");
 		String startPageNo  = getRequest().getParameter("startPageNo");
 		String webType  = getRequest().getParameter("webType");
+		String urlType  = getRequest().getParameter("urlType");
 		// 判断分类
 		if (StringUtils.isEmpty(category))
 		{
@@ -155,7 +156,7 @@ public class NewsManageAtion extends BaseStruts2Action {
 				}
 				else if ("5721".equals(webType))
 				{
-					dealsFor5721(i, category, Integer.parseInt(categoryNum));
+					dealsFor5721(i, category, Integer.parseInt(categoryNum),urlType);
 				}
 			}
 			
@@ -360,11 +361,26 @@ public class NewsManageAtion extends BaseStruts2Action {
      * 
      * @throws IOException
      */
-    private void dealsFor5721(int pageNo, String type, int totle) throws Exception
+    private void dealsFor5721(int pageNo, String type, int totle, String urlType) throws Exception
 	{
 		Document doc;
 		String webURL = "http://baby.5721.net";
-		doc = Jsoup.connect(webURL + "/"+type+"/list_"+totle+"_" + pageNo + ".shtml").get();
+		
+		if ("2".equals(urlType))
+		{
+			if (pageNo == 0)
+			{
+				doc = Jsoup.connect(webURL + "/"+type+"/Index.shtml").get();
+			}
+			else
+			{
+				doc = Jsoup.connect(webURL + "/"+type+"/List_" + pageNo + ".shtml").get();
+			}
+		}
+		else
+		{
+			doc = Jsoup.connect(webURL + "/"+type+"/list_"+totle+"_" + pageNo + ".shtml").get();
+		}
 //		Elements es = doc.getElementsByClass("endText");
 //		Elements ec = es.get(0).getElementsByClass("listA");
 		Elements ec = doc.getElementsByClass("listA");
