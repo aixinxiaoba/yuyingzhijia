@@ -77,7 +77,7 @@
 			<a href="http://sifei.net" target="_blank">丝菲健康网</a>
 			<a href="http://katong.alihuahua.com" target="_blank">卡通花束</a>
 			<a href="http://www.nikedejia.com" target="_blank">妮可的家儿童摄影</a>
-			<a href="http://www.37woman.com" target="_blank">37度女人网</a>
+			
 			<a href="http://www.ahkly.com.cn" target="_blank">男人帮时尚网</a>
 			<a href="http://mlnrc.com" target="_blank">美丽女人</a>
 			<a href="http://www.mangxia.com" target="_blank">HTML5网站设计</a>
@@ -87,7 +87,7 @@
 			<a href="http://www.food-un.com" target="_blank">中食联盟网</a> 
 			<a href="http://www.95v5.com" target="_blank">天狮儿童营养高钙</a>
 			<a href="http://www.sifayuandi.com" target="_blank">思法苑地</a>
-			<a href="http://www.mangxia.com" target="_blank">HTML5网站设计、APP界面设计欣赏、网页活动专题设计</a>
+			
 		</DIV>
 		
 		
