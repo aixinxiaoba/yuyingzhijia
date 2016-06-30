@@ -602,7 +602,7 @@ function loadComments()
 		</DIV>
 		<DIV id="goTop" style='background: url("/m/common/top1.png") no-repeat center rgba(0, 0, 0, 0.5); width: 30px; height: 30px; right: 10px; bottom: 50px; position: fixed;'></DIV>
 		<DIV style="clear: both;"></DIV>
-		<DIV class="foot_nav" onclick="location.href='/static/m/nav.html?a=1'">
+		<DIV class="foot_nav" onclick="location.href='/static/m/nav.html'">
 			<DIV class="font_wrap">
 				<A>查看更多分类</A>
 				<%---

@@ -47,6 +47,10 @@ function pageStatic(flag)
 	{
 		strFlag = "subMenuPageStatic";
 	}
+	else if (flag == 9)
+	{
+		strFlag = "nav";
+	}
 	$("#div_data").hide();
 	$("#div_msg").show();
 	strURL = strURL + strFlag + ".do";
@@ -79,6 +83,9 @@ function pageStatic(flag)
     <div id="div_return_msg" style="display:none;">
 		
 	</div>
+	<div>
+	<li>汇总最新数据：<a href="/front/yuyingshi/gatherlatestNews.do">执行</a></li>
+	</div>
 	<div id="div_data">
 		<div>
 			<ul style="line-height:35px;">
@@ -89,7 +96,8 @@ function pageStatic(flag)
 				<li>5、移动端子菜单最新滚动知识静态化：<input type="button" value="执行" onclick="pageStatic(5);"/></li>
 				<li>6、移动端静态化指定一级菜单下的滚动图片：<input type="text" value="" /><input type="button" value="执行" onclick="pageStatic(6);"/></li>
 				<li>7、移动端静态化二级级菜单下的滚动图片：<input type="button" value="执行" onclick="pageStatic(7);"/></li>
-				<li>8、移动端静态化二级级菜单下的滚动图片：<input type="button" value="执行" onclick="pageStatic(8);"/></li>
+				<li>8、移动端二级菜单下所有知识分页：<input type="button" value="执行" onclick="pageStatic(8);"/></li>
+				<li>9、移动端导航静态化：<input type="button" value="执行" onclick="pageStatic(9);"/></li>
 				
 			</ul>
 		</div>

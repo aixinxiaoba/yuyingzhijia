@@ -29,12 +29,13 @@
 <script type="text/javascript">
 $(function(){
 	$("#rec_div").load("/static/m/p/${objSubProjectMenu.lId }_1.html");
-	$("#j-slider-home").load("/static/m/scroll/l2/${objSubProjectMenu.lId}.html");
+	//$("#j-slider-home").load("/static/m/scroll/l2/${objSubProjectMenu.lId}.html");
 });
 
 function nextPage(data)
 {
 	$("#type_div").load("/static/m/p/" + data + ".html");
+	$("#rec_div").hide();
 }
 </script>
 </head>
@@ -56,7 +57,19 @@ function nextPage(data)
 		<div class="m-main">
 			 <!-- 滚动图片显示 -->
 			<div class="u-slider u-slider-home">
-				<div class="sliderbox gg gg-item" id="j-slider-home" ></div>
+				<div class="sliderbox gg gg-item" id="j-slider-home" >
+					<s:iterator value="lstRollingOfReading" id="news">
+						<div class="item">
+							<a
+								href="/front/yuyingshi/detail.do?newsID=${news.lId}">
+								<img lazyload="${news.imageUrl}" />
+							</a>
+							<p class="caption">
+								${news.strLongTitleTwo}
+							</p>
+						</div>
+					 </s:iterator>
+				</div>
 			</div>
 			<div class="u-box">
 				<a name="type"></a>
@@ -98,7 +111,7 @@ function nextPage(data)
 			clickDom2Hide : false
 		})
 	</script>
-	
+	<%@include file="foot.jsp"%>
 </body>
 
 </html>

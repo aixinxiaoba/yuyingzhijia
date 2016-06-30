@@ -51,7 +51,8 @@ $(function(){
 			<nav id="ty_nav" class="m-nav">
 				<div class="nav-wrap show">
 					<div class="m-nav-row">
-						<a appstr="shouye" href="<%=basePath %>front/m/index.do">首页</a>
+<%-- 						<a appstr="shouye" href="<%=basePath %>front/m/index.do">首页</a> --%>
+						<a appstr="shouye" href="<%=basePath %>front/m/index.do">首页</a> 
 						<s:iterator value="lstMainProjectMenu" id="projectMenu"
 							status="myStatus">
 							<s:if test="#myStatus.index < 4">
@@ -65,8 +66,7 @@ $(function(){
 					</div>
 
 					<div class="m-nav-row">
-						<s:iterator value="lstMainProjectMenu" id="projectMenu"
-							status="myStatus">
+						<s:iterator value="lstMainProjectMenu" id="projectMenu" status="myStatus">
 							<s:if test="#myStatus.index >= 4">
 								<a appstr="shouye"
 									href="/front/m/subMenuShow.do?lProjectMenuID=${projectMenu.lId }"
@@ -129,8 +129,10 @@ $(function(){
 			<div class="u-box" id="dashang_div">
 				<div class="u-hd f-cf">
 					<h2>阅读排行</h2>
+					<!-- 
 					<a href="http://shang.tianya.cn/rank/m/dsRanking.do?from=t&type=1"
 						class="u-hd-more">排行榜>></a>
+					 -->
 				</div>
 				<div class="u-bd">
 					<!-- 

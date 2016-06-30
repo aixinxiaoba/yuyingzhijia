@@ -1,6 +1,6 @@
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
-<DIV class="footer_main" style="padding: 15px 0px 20px;">
-	<DIV class="footer" style="text-align: center; ">
+<DIV class="footer_main" style="">
+	<DIV class="footer" style="text-align: center;">
 			<A href="#" >寻求合作</A> ｜ 
 			<A href="#" >推广服务</A> 
 			<SPAN class="bookmark"> ｜

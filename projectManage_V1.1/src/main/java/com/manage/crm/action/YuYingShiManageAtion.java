@@ -48,6 +48,7 @@ import com.manage.crm.service.ProjectMenuService;
 import com.manage.crm.service.ProjectService;
 import com.manage.crm.util.DBSql;
 import com.manage.crm.util.Pagination;
+import com.opensymphony.xwork2.Action;
 
 @Controller("yuYingShiManageAction")
 @Scope("prototype")
@@ -766,7 +767,7 @@ public class YuYingShiManageAtion extends BaseStruts2Action {
 			}
 			
 			// 子菜单 阅读排行。
-			toWeb("执行成功");
+			toWeb(Action.SUCCESS);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

@@ -369,17 +369,18 @@ function loadComments()
 <BODY class="bg_1">
 	<div>
 		<DIV class="nav_header_wrap_fix">
-			<A class="nav_header_right" href="/front/m/nav.do"><IMG src="/m/common/gm/header_nav_btn.png"></A>
+<!-- 			<A class="nav_header_right" href="/front/m/nav.do"><IMG src="/m/common/gm/header_nav_btn.png"></A> -->
+			<A class="nav_header_right" href="/static/m/nav.html"><IMG src="/m/common/gm/header_nav_btn.png"></A>
 			<DIV class="nav_header_center_n" style="color:#fff">
 <!-- 				<a class="home" href="/front/m/index.do"></a> -->
 				 <a class="home" href="/static/m/index.html"></a>
 			   <div style="margin-left:50px;">
 			   	
-<%-- 			   	<A style="font-size:18px;float:left;" class="nav_header_breadcrumbs" href="/static/m/${objNews.objProjectMenu.objParentProjectMenu.lId}.html" --%>
-<%-- 					target="_self">${objNews.objProjectMenu.objParentProjectMenu.mobileMenuName}</A> --%>
-					
-			   	<A style="font-size:18px;float:left;" class="nav_header_breadcrumbs" href="/front/m/subMenuShow.do?lProjectMenuID=${objNews.objProjectMenu.objParentProjectMenu.lId}"
+			   	<A style="font-size:18px;float:left;" class="nav_header_breadcrumbs" href="/static/m/${objNews.objProjectMenu.objParentProjectMenu.lId}.html"
 					target="_self">${objNews.objProjectMenu.objParentProjectMenu.mobileMenuName}</A>
+					
+<%-- 			   	<A style="font-size:18px;float:left;" class="nav_header_breadcrumbs" href="/front/m/subMenuShow.do?lProjectMenuID=${objNews.objProjectMenu.objParentProjectMenu.lId}" --%>
+<%-- 					target="_self">${objNews.objProjectMenu.objParentProjectMenu.mobileMenuName}</A> --%>
 					
 			   	 <%--
 			   	 <A style="font-size:18px;float:left;" class="nav_header_breadcrumbs" href="/static/m/${objNews.objProjectMenu.objParentProjectMenu.menuKey}"
