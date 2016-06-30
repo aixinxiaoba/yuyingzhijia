@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                   http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                   http://www.springframework.org/schema/context
+                   http://www.springframework.org/schema/context/spring-context-2.5.xsd
+				   http://www.springframework.org/schema/aop
+				   http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+				   http://www.springframework.org/schema/tx 
+				   http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+	
+	<!-- 指定定时器文件目录 -->
+	<!-- <context:component-scan base-package="javacommon.core.quartz" /> -->
+		
+	<!-- 页面静态化 start -->
+	<bean lazy-init="true" autowire="no" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+  		<property name="triggers">
+  			<list>
+				<ref bean="topUpInquireTrigger" />
+				<ref bean="sinaWeiBoSendTrigger" />
+  			</list>
+  		</property>
+		<property name="quartzProperties">
+   			<props>
+    			<prop key="org.quartz.threadPool.threadCount">1</prop>
+   			</props>
+  		</property>
+  	</bean>
+  	
+  	<!-- =====================页面静态化=======================	start -->
+  	<bean id="topUpInquireTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+ 		<property name="jobDetail" ref="topUpInquireTask" />
+ 		<property name="cronExpression" value="0 0 0 * * ?" />
+ 	</bean>
+ 	<!-- Task -->
+	<bean name="topUpInquireTask" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="topUpInquireJob" />
+		<property name="targetMethod" value="execute" />
+		<property name="concurrent" value="false" />
+	</bean>
+  	<!-- Jobs( deal with class ) -->
+  	<bean id="topUpInquireJob" class="javacommon.core.quartz.StaticizePage"></bean>
+  	<!-- =====================页面静态化=======================	end -->
+  	
+  	
+  	<!-- =====================微博定时任务配置 start =========================-->
+  	<bean id="sinaWeiBoSendTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+ 		<property name="jobDetail" ref="sinaWeiBoSendTask" />
+ 		<property name="cronExpression" value="0 0 0 1 * ?" />
+ 	</bean>
+	<bean name="sinaWeiBoSendTask" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="sinaWeiBoSend" />
+		<property name="targetMethod" value="execute" />
+		<property name="concurrent" value="false" />
+	</bean>
+  	<bean id="sinaWeiBoSend" class="javacommon.core.quartz.SinaWeiBoSend"></bean>
+  	<!-- =====================微博定时任务配置 end =========================-->
+  	
+</beans>
