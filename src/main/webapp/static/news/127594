@@ -1,0 +1,740 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>零岁游泳进行式-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/127594"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/yyhl/1">婴儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=159" rel="nofollow">婴儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					零岁游泳进行式
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-30 22:43:25</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> 　我们相信，水可暂缓炎夏里细胞内的闷热，安抚<u><strong>宝宝</strong></u>的情绪，摆脱多灾酷暑； </p>
+ <p>　　我们相信，越早让宝宝嬉水，越能激发出其游泳的潜能；</p> 
+ <p>　　我们相信，游泳可以强化宝宝与生俱来的漂浮与屏气能力；</p> 
+ <p>　　我们相信，从0岁开始辅导，你的宝宝也可以像法国泳坛“童星”艾斯莉一样，两岁不到就能出色地完成仰泳和蛙泳</p> 
+ <p>　　我们相信，从小游泳的宝宝对水亲近多于恐惧，即使落水，也能保持冷静和平衡，减少溺水事故的发生。</p> 
+ <p>　　我们相信，这个季节，你一定会让宝宝远离“夏眠” ，享受自“游”。</p> 
+ <p>　　<strong>PART1 给游泳一个理由</strong></p> 
+ <p>　　如今，在美国等发达国家，婴幼儿“游泳”的概念已被广泛接受和应用，并取得了良好的效果。婴幼儿期是人一生中生长最重要、发育最迅速的时期，妙用这一黄金时期因地制宜的开展游泳活动，对身心的发育大有好处。</p> 
+ <p>　　1 更聪明：婴幼儿游泳的复杂动作，是在大脑的支配下完成的。游泳锻炼可以提高大脑的功能，促进大脑对外界环境的反应能力和智力发育。</p> 
+ <p>　　2 稳定情绪：游泳可以使婴儿身心得到抚慰，消除“孤独”、“焦虑”、“恐惧”等情绪，调整睡眠。</p> 
+ <p>　　3 强壮心脏：水的浮力作用及水波、水压力对皮肤的拍击，能对外周血管起到按摩作用，使婴儿的心脏得到更好的锻炼。</p> 
+ <p>　　4 提高肺活量：游泳时，水对胸廓的压力使得肺活量增加。经统计，游泳锻炼后幼儿的肺活量可提高74%。</p> 
+ <p>　　5 不易<u><strong>生病</strong></u>：有游泳习惯的<u><strong>孩子</strong></u>，身体对于外界温度变化的调节能力相应提高，血液中免疫球蛋白的指标较高，不易生病。　</p> 
+ <p>　　6 长得高：幼儿游泳时，能充分地接触阳光、水、空气，促进维生素D的吸收，有利于体格发育。</p> 
+ <p>　　7 形体优美：游泳时，身体呈水平状态，四肢关节和脊柱在<u><strong>运动</strong></u>中不会受到来自地面的反作用力的直接冲击。这样有利于骨骼的灵活性和柔韧性，更好地促进骨骼的生长发育，纠正不良姿势。</p> 
+ <p>　　8 助消化：为了补偿人在水中消耗的能量，消化系统会主动加强消化、吸收功能，来摄取大量的养分。</p> 
+ <p>　　<strong>PART 2 游泳，你想到什么</strong></p> 
+ <p>　　游泳，你想到什么？是在广告上温柔地说出“你有痛也要告诉我哦”的庄泳？或是英俊帅气的大脚索普，又或是《加勒比海盗》中Jack Sparrow船长漂亮的纵身入海、金色沙滩上的比基尼女郎、在盛夏泳池里插蜡烛，旱鸭子，瘦身中心昂贵的年费……</p> 
+ <p>　　还有什么？</p> 
+ <p>　　我听见有人清了清嗓子说：“我想到3岁时被妈妈死拖活拽地拉出小溪沟，却在8岁时因为不肯下水而被游泳班的教练抛起来扔到水里。”</p> 
+ <p>　　我们给出关于游泳的8个问题，不期待正确答案，只希望听到众说纷纭、七嘴八舌、各执一词，就算是胡说八道也没问题！</p> 
+ <p>　　1 用一个词形容你对婴幼儿游泳的看法。</p> 
+ <p>　　2 你赞成并会让自己的宝宝下水游泳吗？</p> 
+ <p>　　3 你觉得小宝宝游泳最大的好处是什么？</p> 
+ <p>　　4 如果你的宝宝害怕水，你能帮他克服恐惧感吗？</p> 
+ <p>　　5 你对宝宝游泳最大的担忧是什么？</p> 
+ <p>　　6 你一般会让宝宝在哪里游泳？</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p> </p>
+ <p>　　7 如果本地有专业的婴幼儿游泳中心，您会让宝宝参加吗？</p> 
+ <p>　　8 如果以单次计，你愿意花多少钱让宝宝游一次？</p> 
+ <p>　　<strong>关于游泳，妈咪自“游”发言</strong></p> 
+ <p>　　针对前面八个问题，我们请了四位妈妈进行自由发言。</p> 
+ <p>　　妈妈：Tina 29岁(编辑) </p> 
+ <p>　　宝宝：天赐、天赋(6个月)</p> 
+ <p>　　1 形容词：天性，尤其是新生儿对母体中的&quot;水环境&quot;还记忆犹新，对水并不畏惧。</p> 
+ <p>　　2 是否赞成：天赐、天赋刚刚出生50个小时、还没来得及取名字，就已经在特制的翠绿色游泳袋中游泳了。</p> 
+ <p>　　3 好处：我的想法很简单：德国、日本早在60年代就开展了新生儿游泳，既然如此经久不衰，好处自然是有的。</p> 
+ <p>　　4 克服恐惧感：他们对水比对我这个妈还亲，哪有会有恐惧这码事儿。</p> 
+ <p>　　5 最担忧：泳池水质。什么时候我们也弄个带游泳池的别墅住住就好了，外面的水太脏了。</p> 
+ <p>　　6 地点：天赐、天赋一直在我生产的那个医院里游，我们买了半卡(1500元/人)，可以游60次。</p> 
+ <p>　　7 去婴幼儿游泳中心：医院里办的放心，如果是其他机构就算了。</p> 
+ <p>　　8 费用：15元左右吧，生了双胞胎，一分钱真得掰成两瓣花。</p> 
+ <p>　　妈妈：袁樱 30岁(全职妈妈) </p> 
+ <p>　　宝宝：应采儿(1岁半)</p> 
+ <p>　　曾经是员工，目前是全职妈妈，未来是老板。准备与朋友合伙开一个幼儿游泳中心，名字也起好了，叫“游出未来”。</p> 
+ <p>　　1 形容词：健康，我们采儿是早产儿，体质不好，4个月的时候医生建议我们试试“水疗”，然后就一直坚持到现在，她的身体棒多了。</p> 
+ <p>　　2 是否赞成：当然，有效果嘛。</p> 
+ <p>　　3 好处：少生病了。</p> 
+ <p>　　4 克服恐惧感：我会和采儿<u><strong>聊天</strong></u>，问些和游泳有关系的问题来分散她的注意力。</p> 
+ <p>　　5 最担忧：感冒，所以室温应该在26-28℃之间，水温要保持在37-39℃之间。</p> 
+ <p>　　6 地点：现在我让她在家里的浴缸里游，今后会到我们自己的游泳中心去。</p> 
+ <p>　　7 去婴幼儿游泳中心：会，而且一定是在&quot;游出未来&quot;，呵呵，我们这里有经过专业训练的医生、护士和游泳教练。</p> 
+ <p>　　8 费用：50元，有时候品质还是要靠价格来保证的，太便宜的反而让人担心。</p> 
+ <p>　　<u><strong>准妈妈</strong></u>：韩国美 26岁 (运动员)</p> 
+ <p>　　孕3个月</p> 
+ <p>　　曾是省体校游泳队队员，奖拿得不多，伤倒受了不少，2002年与同门师哥完婚是最大的收获。现退队赋闲在家，安心等待宝宝的出世。当年的师哥也已富态弥现，改行从商，游泳器材店开得不温不火。</p> 
+ <p>　　1 形容词：折腾，我妈不也没让我打小在水里扑腾么，还不是照样干了这行。</p> 
+ <p>　　2 是否赞成：没感觉，到时候再说吧，我这人不愿考虑太远的事儿。</p> 
+ <p>　　3 好处：能成为伏明霞或田亮，虽然他俩儿都是跳水的。</p> 
+ <p>　　4 克服恐惧感：不知道，我记得在我小时侯教练是硬把我的头往水里摁，不知怎么的，有一次我就忽然不怕了。</p> 
+ <p>　　5 最担忧：抽筋。大人只要充分做好准备活动就可以避免抽筋，不知道小宝宝怎么办。</p> 
+ <p>　　6 地点：总是</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>在游泳池吧，或者是海边？</p> 
+ <p>　　7 去婴幼儿游泳中心：不会，我不放心，怕遇上恶教练。</p> 
+ <p>　　8 费用：10元。</p> 
+ <p>　　妈妈：陈非 32岁 (儿科医生)</p> 
+ <p>　　宝宝：许志倩 (4岁)</p> 
+ <p>　　大学学的是妇幼保健，毕业后到十堰市妇幼保健院工作，为该院 &quot;新生儿游泳抚触室&quot;负责人。每天她都辅助近20位宝宝游泳，并给家长做示范、培训。女儿在她的影响下俨然是个游泳小将，2003年7月获市&quot;优游杯&quot;幼儿组第一。</p> 
+ <p>　　1 形容词：<u><strong>游戏</strong></u>。父母总是想着可以健身增智，而孩子喜欢游泳根本不是因为这些，而是觉得这是个合法地玩水的机会。</p> 
+ <p>　　2 是否赞成：完全赞成，而且国内有关婴幼儿游泳的宣传还有待加强。有一次我在一本北京的母婴杂志上写新生儿游泳可以在家中浴缸里进行，这就缺乏科学性了。因为新生儿游泳必须有正规品牌的婴儿游泳圈和游泳附属设备，水质要用特殊游泳配方或洁净水。下水前还要在肚脐上贴上防水贴，以防感染。这些具体技术问题在家中都很难做到。当宝宝3个月大以后，才可以由医护人员教授家长一些技能，然后选取比较深的浴缸让宝宝在家中游泳。</p> 
+ <p>　　3 好处：稳定情绪。婴儿游泳时会有回到母亲腹中的舒适感，所以有些婴儿在刚放入小泳池内时还烦躁不安，哭哭闹闹的，可很快，他们就会安静下来，甚至有些宝宝还会在水中打起小盹。</p> 
+ <p>　　4 克服恐惧感：在医院里我们会鼓励爸爸妈妈不时握握宝宝的小手小脚，温柔地跟他说话。对女儿我是一步步让他从婴幼儿泳池--浴缸--公共游泳池--海滨，慢慢适应。</p> 
+ <p>　　5 最担忧：不愿受约束。我发现当志倩得了比赛第一名之后，他就越来越抵触我们的监护。那次我们去松兰山海滨浴场，他趁我们没有留意居然游出了安全区！</p> 
+ <p>　　6 地点：他爸爸宾馆里的游泳健身中心，高级会所、俱乐部里的设施、卫生比较理想。</p> 
+ <p>　　7 去婴幼儿游泳中心：志倩3个月后就没有去过了。</p> 
+ <p>　　8 费用：年卡，再加上儿童半价，一般30元差不多了。</p> 
+ <p>　　编辑手记:</p> 
+ <p>　　心里总有一个闷闷的声音在说：在这个越来越功利和浮躁的时代，还有多少人是因为单纯的喜欢而去游泳？而这些喜欢的人中又有多少知道婴幼儿也能游泳？知道的又是否愿意让自己的宝宝早早地接触水世界？……</p> 
+ <p>　　通过这次网络调查，我们从1536名妈妈那里找到了一些答案：</p> 
+ <p>　　近60%的人为亲水派，并有45%已付诸行动，地点多选择游泳池、浴缸，亦有23%经济条件较好的家庭会尝试妇幼保健机构开办的“婴幼儿游泳中心”。赞成宝宝游泳的原因大多集中在 “更聪明、健康”，能详细阐述理由的并不多；相反，反对的声音原因倒是五花八门，如 “怕溺水”、“水质不好，易感染”、“不会正确的指导”，甚至有妈妈说“肩膀变宽，不好看”。最<u><strong>可爱</strong></u>的是，有好几位妈妈在“游泳的好处”中写：不会溺水，而在&quot;对宝宝游泳最大的担忧&quot;一栏中又写：溺水。这样的调查结果，让我们原本乐观的估算受了一点点打击：能真正理解游泳意义的妈妈并不多，能给予正确指导的更是凤毛麟角，担心泳池水质、担心被婴幼儿游泳机构宰、担心这个、担心那个……真让人有些纳闷：这游泳还得要有点“勇”不成？</p> 
+ <p>　　<strong>PART3游泳从零岁开始</strong></p> 
+ <p>　　“游泳室里的水已经备好，护士用温度计插进水里，摄氏40度，水温正好。我的儿子凯凯24小时前刚刚离开小文的身体，现在他又要回到一个</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>他熟悉的水环境中去了。护士打开薄的包被，在他的肚脐眼上贴了一块“防水贴”，接着，在他的脖子上套一个充气的乳白色小圈，将他放进水里。凯凯好像还没有睡醒，很惬意地浮在水里，护士用手轻轻地推动他：“喔， B B，醒醒，开始游泳啦！” 这时，他的脚触到了游泳池的壁，蹬了一下，突然整个人在水里竖了起来，开始进入角色了。只见他&quot;四脚朝天&quot;，两个脚一打一划，就游了起来。然后，他开始挺用劲儿地哭，每哭一声，脚就往前一蹬。不一会儿，他屁股一翘，身子一侧，自己换了个方向，从池子这边游到了那边，再一会儿又换一个方向。呵呵，我的好儿子，你的水性比老爸好！”</p> 
+ <p>　　一位爸爸手记，写于2004年5月21日</p> 
+ <p>　　<strong>什么样的新生儿适合游泳</strong></p> 
+ <p>　　让小宝宝学习游泳，这项运动在国外已经深入人心，俄罗斯、德国、日本等成千上万个婴儿在还未学会走路之前就在医务人员和游泳教练的监护下，在浴缸及游泳池中学习游泳了。目前，新生儿嬉水在国内也逐渐展开，那新生儿需要满足什么样的条件才能游泳呢？</p> 
+ <p>　　1. 足月正常<u><strong>分娩</strong></u>的剖宫产儿、顺产儿。</p> 
+ <p>　　2. 2周-36周分娩的早产儿，低体重儿，出生评分低于8分不宜。(体重在2000-2500g，住院期间无须特殊处置者)</p> 
+ <p>　　3. 如果宝宝身体不适，脐部有感染，就不要参加。</p> 
+ <p>　　<strong>新生儿游泳准备工作：</strong></p> 
+ <p>　　1. 室温要求：28～30℃。</p> 
+ <p>　　2. 水池准备：把小宝宝的游泳水袋放入水池中，加入温水，放入医院提供的特质溶质(这种溶质能使水质接近羊水成分)。水温控制在38～40℃，如果宝宝已经大于1个月，可以不放溶质。　</p> 
+ <p>　　3. 防水贴：下水前一定要贴好脐带防水贴(使用脐带夹者除外)。</p> 
+ <p>　　4. 专用游泳项圈：新生宝宝游泳专用项圈是根据新生儿生理特点设计的，经过科学指导规范化的保护装置，避免宝宝发生呛水。戴泳圈时先测量宝宝的颈围，选择大小适当的泳圈，注意：从前往后将泳圈套入颈部，扣好双重保险粘贴，并检查一下。</p> 
+ <p>　　5. 清洁工作：请爸爸妈妈们用中性洗液洗干净自己的手臂，以免在陪护的时候污染池水。</p> 
+ <p>　　6. 需要专业护士的陪伴：受过专业训练的护士知道宝宝怎样的反射动作时觉得害怕或是喜欢，可以适时给于安抚或回应。</p> 
+ <p>　　新生儿游泳进行时：　</p> 
+ <p>　　游泳时间：</p> 
+ <p>　　一般在吃完母乳后1个小时以后下水为好。</p> 
+ <p>　　游泳时间不能太长，否则小宝宝会觉得疲劳，每次控制在10～20分钟左右。</p> 
+ <p>　　游泳方法：</p> 
+ <p>　　步骤一：将宝宝缓慢放入水中，</p> 
+ <p>　　步骤二：父母或医护人员把住宝宝腹部或背部进行练习，最好托住小宝宝的背部,使其面部露出水面,也可以在正面拉住两臂,使其头部抬出水面练习游泳。陪护人员始终在宝宝的一臂距离，如果小宝宝离开浮具漂浮时,父母或护士的双手应处于随时可能托住婴儿的位置。</p> 
+ <p>　　步骤三：然后逐渐减少帮助，让宝宝可以自己游动，但仍须在旁作好监护。</p> 
+ <p>　　步骤四：游泳完毕后要把宝宝迅速用大毛巾包裹，擦干水迹并注意保温。具体的擦干手法和宝宝洗澡后擦干一致。</p> 
+ <p>　　重点提示：</p> 
+ <p>　　如果是出生10天内的小宝宝，游泳前脐部必须贴防水护脐贴，游泳完毕后取下，并做消毒，再用一次性护脐带包扎好。不过爸爸妈妈们放心，这个阶</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>段一般是在医院里，有相关的医护人员会提供服务的。</p> 
+ <p>　　游泳时可以做些小的游戏。比如让小宝宝辨别大人声音的方向，或者在水里抓小<u><strong>玩具</strong></u>。总之，发挥你的想象力和宝宝的能动性，让宝宝玩得开心。</p> 
+ <p>　　一旦婴幼儿出现非常反应，比如“鸡皮疙瘩”，皮肤发青、发紫，过度兴奋或短暂的休克等症状，都应立即停止练习，并让医生采取相应医疗措施。</p> 
+ <p>　　有些家长主张宝宝游泳完后接着做抚触，这点呢，要按宝宝的身体承受能力来，一般来说，两者最好错开，避免宝宝过度疲劳。</p> 
+ <p>　　<strong>新生儿游泳问与答：</strong></p> 
+ <p>　　Q：新生儿一般在出生后多长时间可以下水游泳？频率应该是怎样的呢？ </p> 
+ <p>　　A：不论平产或剖宫产，出生48小时后就可以。以每天1次，每次10-20分钟比较好。</p> 
+ <p>　　Q：有哮喘的宝宝可以游泳吗？</p> 
+ <p>　　A：在医生的同意下，可以。因为游泳可以增加肺活量，增强宝宝的肺功能来抵抗哮喘的发作。另外，患有脑性麻痹、小儿麻痹等肌肉较为僵硬的小宝宝，游泳可帮助他们肌肉恢复，但要遵医嘱进行。</p> 
+ <p>　　Q：我可以在家里给宝宝学游泳吗？</p> 
+ <p>　　A：事实上，婴儿泳疗并不是一般的游泳，对游泳设备、室温、水温、水质、游泳时间都有严格要求，特别小宝宝的第一次开游，必须在专门培训过的医护人员的全程密切指导下才能进行，如果爸爸妈妈也要参与，就要在医院里进行培训，这也是对宝宝负责哦。　　</p> 
+ <p>　　Q： 是不是所有的宝宝都会喜欢游泳？</p> 
+ <p>　　A： 有些宝宝天生就比较拘谨，害怕陌生环境和陌生人。有一些小宝宝则非常怕水，所以爸爸妈妈们千万不要强迫宝宝下水，有条件的话，让他们参加集体训练，慢慢培养对水环境的适应。</p> 
+ <p>　　Q：小宝宝游泳时应该穿什么？</p> 
+ <p>　　A： 一个月内的宝宝要带好防水贴，裸泳。如果排泄大小便，则立刻抱开水面，以免吸入污水。</p> 
+ <p>　　相关链接 各地婴幼儿游泳中心</p> 
+ <p>　　近年来我国各地相继开出婴幼儿游泳中心，让宝宝充分享受人生第一“游”。据了解，目前在医院完成一次游泳价格约为50-60元/次(包括一次性羊水溶液、脐带防水贴、泳袋)。</p> 
+ <p>　　广东省妇幼保健院产科</p> 
+ <p>　　医院在给婴儿游泳之前，会给婴儿的父母发一张&quot;新生儿游泳知情介绍&quot;。如果家长同意，再签一张&quot;新生儿游泳意向书&quot;。此外还提供上门服务，主要是将一些专业的方法和技巧教给家长。 </p> 
+ <p>　　广州添爱母婴公司</p> 
+ <p>　　特别配备了如下设施：宝宝游泳池、一次性游泳薄膜袋、一次性肚脐防护贴、舒适干净的按摩床、温馨的按摩室等。而且每个宝宝在游泳时都会有一名专业的护士在旁边陪伴，并适时给予安抚。游完泳后接着由此名专业护士帮宝宝进行抚触按摩。</p> 
+ <p>　　重庆医大附属二院妇产科 </p> 
+ <p>　　目前，该院&quot;新生儿游泳及抚触&quot;项目在西南地区尚属首家，该院下一步将向市内各社区推广。</p> 
+ <p>　　上海母婴健康中心婴儿游泳馆</p> 
+ <p>　　是沪上首个婴儿、准妈妈和新妈妈的健康“水疗吧”。妈妈们可以带着宝宝来游泳馆游泳、接受抚触，与此同时，自己参加<u><strong>产后</strong></u>训练操的练习，既节省时间，母婴双方又同时达到保健效果。该中心不仅对院内产妇和新生儿开放，其它婴儿和准妈妈也都可购票入场。</p> 
+ <p>　　青海省红十字医院 </p> 
+ <p>　　是青海省首家开展新生儿游</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>泳抚触的医院，有过“游泳”经历的婴儿的父母都希望出院后还能带婴儿来游泳。</p> 
+ <p>　　还有这些</p> 
+ <p>　　北京大学妇儿医院 北京市西城区西安门大街1号 010-66551122</p> 
+ <p>　　长春市妇产科医院 长春市西五马路129号0431-2956088 2956691</p> 
+ <p>　　湖北省妇幼保健院&quot;宝宝乐园&quot; 武汉市武昌街道口武珞路745号027-87648992</p> 
+ <p>　　<strong>PART 4 将游泳进行到底</strong></p> 
+ <p>　　“儿子1岁半始学游泳。他看到我在水下潜泳十分好奇，也往水里钻，并在水下睁眼找我，我就躲到他的背后，他便在水下不断地转身找我，竟能学会一口气在水下转三圈，还学会了在池边跳水，真令我惊奇。那年，我让他参加了幼儿游泳班，到了二岁，他已能水中潜泳数米。我给他看我在海里游泳的照片，进一步激发他的兴趣，使他萌发了下海游泳的念头，我同意他学会游泳后，带他到海里游泳。第三年他经过蛙泳训练，一次游下了50米。我说话算数，带他去普陀山下海游泳，摄下了海里游泳的照片，尝到了海水的味道，还带回了一瓶海水，回家蒸发制成盐。”</p> 
+ <p>　　口述人：周琦(儿子现年4岁，已被杭州市少体校游泳队破格录取)</p> 
+ <p>　　1-3岁宝宝学游泳</p> 
+ <p>　　1--3岁的幼儿是各种感觉的敏感期,是身体各器官协调发展、肌肉发展的生长期,所以在此阶段幼儿学习游泳是比较容易学会的。</p> 
+ <p>　　幼儿学游泳,如有条件应该在专门为儿童建造的小型、浅底的游泳池内学习,池水温度在32度左右,水的深度一般在孩子的腋下,不可超过肩。</p> 
+ <p>　　如果孩子是初次下水,那么首先要在水中循序渐进地经历体温调节的适应、入水、学习游泳三个阶段。 </p> 
+ <p>　　体温调节的适应阶段</p> 
+ <p>　　　培养孩子对水温作出的生理反应,初次下水,水温应在34--35度,大人抱着孩子慢慢地进入水中,让孩子慢慢体会在水中的平衡,同时准备一些浮具,如浮板,色彩鲜艳的充气玩具。</p> 
+ <p>　　(1) 托住幼儿肩背部,仰卧于水中,头部露出水面。</p> 
+ <p>　　(2) 托住幼儿胸部,俯卧于水中,使嘴巴和鼻子露于水面。</p> 
+ <p>　　(3) 让孩子垂直于水中,头在水面上。</p> 
+ <p>　　以上动作每次游可以反复两三次,经过这样训练,孩子会喜爱水,能逐步作出对水温的生理反应。</p> 
+ <p>　　入水阶段</p> 
+ <p>　　主要是教孩子头部浸入水中,自由呼吸。</p> 
+ <p>　　(1) 把头浸入水中。深吸一口气并闭上眼睛,双膝弯屈,脸浸在水中5--10秒。经过3--4天的训练后,再让孩子把头浸入水中,屏气10--15秒。</p> 
+ <p>　　(2) 水下睁眼。让孩子吸气并把头扎入水中,睁开眼睛,学会在水中看东西。训练时,可让孩子拾起预先放入游泳池中的一些玩具。</p> 
+ <p>　　(3) 呼气。让孩子下巴浸入水中,并往水面吹气。再深吸一口气,将脸浸入水中,长时间地呼气,这时水面将出现气泡。再让孩子深吸一口气,然后把头扎入水中,睁开眼睛,用力地呼气,直到把气全部呼完,头部才出水面。</p> 
+ <p>　　学习游泳阶段</p> 
+ <p>　　初识水性，身体也能在水中保持平衡,今后再进一步学习游泳技术就不难了。</p> 
+ <p>　　(1) 家长双手拉着孩子的双手,在水中向前(左、后、右)行走。</p> 
+ <p>　　(2) 让孩子面对池壁,双手扶池壁,家长在后保护,扶池壁左右行走。</p> 
+ <p>　　(3) 孩子背对池壁,面向家长,与家长保持1米的距离行走,家长可用一</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>些玩具引导孩子向前走。</p> 
+ <p>　　(4) 池中间拉一条水线,让孩子走至水线时,钻过水线,继续往前走,使孩子在钻水线的一瞬间,头部没入水中。</p> 
+ <p>　　(5) 孩子由家长托住颈后部,身体仰卧在水中,由家长帮助,在水中滑行。</p> 
+ <p>　　(6) 托住孩子的腋下,让孩子脸露在水面上,帮助滑行,滑行速度由慢到快。</p> 
+ <p>　　(7) 在水中将身体团成似一个球,背部向上,慢慢地球状般的身体就浮于水面。待气憋不住时,即抬头,张臂,一腿前跨一步,站稳于水中。</p> 
+ <p>　　水中的&quot;游&quot;戏</p> 
+ <p>　　游戏不是没有目的的活动，是为了将来面临<u><strong>生活</strong></u>的一种准备活动。例如，小猫抓线团是在练习抓老鼠，小女孩给布娃娃喂饭是在练习当母亲，男孩子玩打仗游戏是在练习战斗。</p> 
+ <p>　　因此，一切水中的游戏带来的也不仅仅是快乐，最终它会让孩子学会游泳。</p> 
+ <p>　　红绿灯 </p> 
+ <p>　　玩法：宝宝在水中自由站立，扮做一艘“小船”，妈妈给予口令行动。绿灯时，“小船”自由航行；黄灯时，“小船”原地慢慢旋转；红灯时，“小船&quot;原地&quot;抛锚”，下蹲至水浸至颈部。游戏反复进行。</p> 
+ <p>　　益处：水中行走与跳跃，可以让宝宝体会水的阻力和浮力，初步了解水的特性和掌握在水中维持身体平衡方法，逐步消除怕水心理。</p> 
+ <p>　　水底探宝 </p> 
+ <p>　　玩法：在池底放置若干物品(如钥匙、硬币等)，让幼儿自行去“探宝”，要求将头部浸入水中，睁开眼睛寻找“宝物”，并将其捡出水面。比比谁找到的“宝物”最多。 </p> 
+ <p>　　益处：学习浸水、闭气与呼吸，使宝宝初步掌握水中呼吸的方法，进一步消除怕水心理。</p> 
+ <p>　　竹竿漂 </p> 
+ <p>　　玩法：让宝宝双腿并拢伸直，双手夹紧耳朵向头顶伸直，像竹竿一样俯卧漂浮在水中。妈妈拉住他的手或脚前进、倒退。 </p> 
+ <p>　　益处：在水中漂浮可以使宝宝体会水的浮力，初步掌握控制身体在水中平衡的能力和在水中站立的方法，增强学习游泳的信心。</p> 
+ <p>　　小青蛙过河 </p> 
+ <p>　　玩法：宝宝在水中由站立开始，深吸气后两臂前伸，脚蹬池底，低头扑入水中，同时两脚向后自然伸直，向前滑行一段距离后，屈体收腿站立，然后再次向前扑入水中。照这种方法，从&quot;河&quot;(泳池)的一端到达另一端。</p> 
+ <p>　　益处：使宝宝掌握身体在水中保持平衡和体会身体在水中的滑行姿势，这是学习游泳动作的基础练习。</p> 
+ <p>　　螺丝钉打水 </p> 
+ <p>　　玩法：先由竹竿漂开始打水，然后翻转身体一周或数周，配合打水动作。速度由慢至快，就象螺丝钉一样。 </p> 
+ <p>　　益处：两腿打水的动作是爬泳(自由泳)的基础，动作相对地简单易学，是所有游泳动作中最适合幼儿学习的动作。</p> 
+ <p>　　水，不是宝宝的敌人</p> 
+ <p>　　有的母亲，眼里只有孩子，却看不见潜在的危险；有的母亲，只一味担心“臆想”中危险，却无视孩子的需要。无论何者，都不是孩子的福音。</p> 
+ <p>　　每年夏天，总不时听闻小孩溺水的事件。大多数的妈妈会有同样一种反应：惊讶、惋惜、唏嘘感慨一阵，然后把孩子的小手更紧地拽住，似乎他们站立的地方会突然成为一个吃人的水潭。</p> 
+ <p>　　事实上，只要作好安全<u><strong>教育</strong></u>，并给予适当的监护，溺水的可能性就会减少很多。可几乎鲜有母亲能给予孩子安全且自由的活动空间，更多的时候我们看见的是孩子在频繁的“不准”、“不许”、“危险”的惊呼中，渐渐失去了与水的亲近。</p>
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p> </p>
+ <p>　　正因为我们本身缺乏安全常识，所以才觉得危机四伏，防不胜防。一切恐惧皆源于无知，此话不假。</p> 
+ <p>　　<strong>父母该具备的能力</strong></p> 
+ <p>　　学会游泳：的确，万一不幸福发生意外，如在无人的海边或深山溪流旁，宝宝身处危险时，父母便可当机立断，掌握最佳抢救时机；反之，如果父母不会游泳，那可是眼睁睁目睹悲剧发生而无能为力。</p> 
+ <p>　　急救方法：心肺复苏术，这也是当代父母必备技能之一，如此才能完全保障宝宝的安全。包括人工呼吸：一般对婴幼儿使用口对口呼吸。另辅以胸外心脏按压，婴幼儿90~100次分钟，以胸骨下陷2cm，按压与放松时间比例为0.6：0.4最恰当。</p> 
+ <p>　　<strong>游泳池的安全</strong> </p> 
+ <p>　　一般而言，游泳池就应是较适合幼儿的戏水场所。不过父母仍应注意以下几点： </p> 
+ <p>　　1 太小的小孩不适合去游泳池，半岁以上为宜。</p> 
+ <p>　　2 &quot;游泳&quot;前要作健康检查，在疲倦、过饱、饿、生病、情绪不好等情况不宜游泳。</p> 
+ <p>　　3 选择有完好设施(包括救生员、救生设备)的游泳池，有时为起到杀菌作用，管理人员会加大池水中消毒剂用量，如果感到有刺激性的气体使你“留泪”不止,就说明水中的余氯已超标，还是换一家为好。</p> 
+ <p>　　4 泳池中应该有深水区和浅水区的标志，如果能有分割线区分则最好。选择在浅水区中进行训练，即使孩子已经会了游泳，水的深度也不要超过他的胸部。但也不可因是浅水池，便放心让宝宝自行在池中玩耍，因泳池旁多是湿滑的瓷砖地面，万一宝宝自己走出池子，很可能因此滑倒而跌倒、撞伤；或趁着父母不注意，跑到深水池里。</p> 
+ <p>　　5 浮具应佩带于婴幼儿的胸、背、肩等部位。佩带好浮具下水后，婴幼儿应头部浮出水面，身体保持直立姿势。年龄小的可以选择有中间两个小洞的，可坐在其中的游泳圈，年龄大的，就可以选择游泳圈或浮板的，还有手臂充气圈，但是无论那种设别，都必须有家长在身边的。</p> 
+ <p>　　6 千万不要临时找人替你照看孩子，即使有救生员在场也不行。</p> 
+ <p>　　7 下水之前做一些活动，例如活动四肢，模仿一些游泳动作，然后再帮他脱衣服，这样可以避免着凉、抽筋。</p> 
+ <p>　　8 下水之前，用冷水擦身，以便适应水的温度，在游泳过程中，因为坐在泳圈中，他们的上半身几乎是露出水面的，这样，大人要不断用水泼到他的身上，适应水温。</p> 
+ <p>　　9 婴幼儿每次游泳的时间不宜过长。初学阶段，10分钟即应起水，以后可根据情况适当延长。若出&#xfffd;F脸色苍白,嘴唇发紫,身体发抖或手脚起皱纹,则表示游泳过久,应立即上岸休息。</p> 
+ <p>　　10 起水上岸后，父母应该用大浴巾包裹孩子的身体，迅速擦干全身，穿上衣服，衣服可稍稍多穿一些，以利于保暖，再做几节放松体操及肢体按摩，以避免肌群僵化和疲劳。</p> 
+ <p>　　<strong>溪边戏水的安全</strong> </p> 
+ <p>　　渐渐地，鲜有人迹的深山溪流，成为现代人的最爱。在幽然僻静的深山里，除了享受都市没有的宁静之外，若再有一弯清流，便更是绝佳享受了！ </p> 
+ <p>　　不过值得注意的是，在深山里的溪流，多半是河川的源头，虽说其水质干净、清澈见底，颇适合宝宝玩耍，但其两旁河床多是石头，较不便于行；且溪流源头处多是深不可及的潭水，暗流无法预测，万一不小心，宝宝趁大人不注意，自行走到深水处或被湍急的流水冲走，都是为人父母的不愿见到的事情。 </p> 
+ <p>　　另外，深山野外的蚊蚋、毒虫、毒蛇较多，父母应为宝宝着长袖、长衫、预防被咬伤。建议父母尽量避免带宝宝到</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>鲜有人迹的深山野外的溪流戏水，避免大自然中无法预测的危险而又求救无门。 </p> 
+ <p>　　<strong>海边弄潮的安全 </strong></p> 
+ <p>　　海边弄潮比较适合较大的幼儿，父母应该选择干净、管理较好，并有救生员看顾的海水浴场为<u><strong>休闲</strong></u>据点，切忌因为怕人多、拥挤、而选无人海滩，这是极危险的行为。 </p> 
+ <p>　　另外，不要让宝宝赤足行走在沙滩上，以免踩到无公德心者任意丢弃的玻璃瓶、铁钉或其他尖刺物而受伤，甚至感染破伤风；父母也须时时看着宝宝，不要任意让孩子离开自己的身边；最后，时间的选择也是相当重要的，曾经发生父母在台风的夜晚带着孩子去海边观潮，而一家四口反被大浪卷走的悲剧，这不就是父母自己造成的吗？ </p> 
+ <p>　　<strong>宝宝戏水前后的预防措施 </strong></p> 
+ <p>　　除了戏水地点的选择及安全顾虑外，接下来我们要告诉您有关宝宝下水前后的准备及预防重点。 </p> 
+ <p>　　眼 </p> 
+ <p>　　1、不论是海边或是游泳池，下水时最好戴上蛙镜，以防感染结膜炎等传染疾病。 </p> 
+ <p>　　2、戏水结束后，可用生理盐水冲洗眼睛。 </p> 
+ <p>　　3、若再不放心，也可点专用的眼用药膏在眼睛上；或一般市面上所售的金霉素亦可。 </p> 
+ <p>　　耳 </p> 
+ <p>　　1、 下水前最好使用耳塞(不透水)，以免水进至耳朵，引发中耳炎。 </p> 
+ <p>　　2、 离水后，应将耳朝下，单脚跳一跳，将水抖流出耳；但若是较小的幼儿， 则可将他横抱、头低脚高、进水耳朝向地上，并轻轻摇晃，如此亦可让水流出。切记：千万不要用手拍打耳朵，这样做有将耳膜拍破之虞！ </p> 
+ <p>　　鼻、口 </p> 
+ <p>　　1、一般而言，从事水中活动之前，最好先让孩子学会游泳，比方应如何在水中运行呼吸，避免被水呛到口鼻。 </p> 
+ <p>　　2、年幼的孩子，可能无法学习游泳，若在戏水时不小心被水呛到口或鼻，父母不需太过担心，因为人类身体自有本能，自己会将水嗝出，适时帮孩子拍拍背、捏捏鼻子，使其感到舒服即可；而较严重的便是溺水，此时便需进行急救，在前文已提过，父母也应学习急救方法，像是口对口人工呼吸、心肺复苏术等。 </p> 
+ <p>　　3游泳后，要立即刷牙或漱口。因为游泳池中消毒清洁液漂白粉对牙齿釉质有侵蚀作用，易引起多种牙病。</p> 
+ <p>　　皮肤 </p> 
+ <p>　　1、下水前，应先以清水沐浴。 </p> 
+ <p>　　2、由于游泳池多加入特殊的清洁剂以求水质的澄净，因此游完泳，务必用香皂或沐浴乳将身体清洁，避免化学药剂残留皮肤上，造成宝宝刺痒不适或过敏。尤其要仔细清洁宝宝的小PP。</p> 
+ <p>　　母子泳圈 参考价：58元</p> 
+ <p>　　亲情装，更安全。 既让宝宝安全享受戏水的快乐，又增进母子感情！</p> 
+ <p>　　宽边婴幼儿充气游泳池 参考价：256元</p> 
+ <p>　　家中的嬉水乐园，让小宝宝远离泳池的细菌污染，宽大的池边增加了水池的安全性。除作为水池使用外还可作为宝宝活动场。</p> 
+ <p>　　带遮阳棚的婴儿游泳圈 参考价：65元</p> 
+ <p>　　让宝宝畅游水中，娇嫩的肌肤又远离烈日的暴晒。</p> 
+ <p>　　婴儿游泳脖圈 参考价：56元</p> 
+ <p>　　医院里的婴幼儿游泳中心都是用这个的哦，适合年龄0-10个月。但要提醒大家：此产品须在成人监护的浅水中使用 。</p> 
+ <p>　　充气游泳衣 参考价：28元</p> 
+ <p>　　让宝宝安全畅游的充气游泳衣，适用于2-6岁的幼儿。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　游泳坐圈 参考价：55元</p> 
+ <p>　　方向盘可以转动，还有喇叭，适合6个月至3岁的小宝宝。</p>
+ <br /> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/127382">小儿脉搏正确测试法</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" >婴儿喂养</A>
+				<A href="/static/menu/sm/yyhl/1" class='thisclass'>婴儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/127381">添加辅食从蛋黄开始对吗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127380">宝宝吐奶或溢奶怎么办？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127379">母亲胆固醇高可母乳喂养吗</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127378">宝宝到了厌奶期该怎么办？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127377">小宝宝的夜奶该不该减？</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"127594"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

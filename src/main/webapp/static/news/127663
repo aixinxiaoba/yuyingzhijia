@@ -1,0 +1,520 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>警惕BB睡觉时的另类声音-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/127663"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/yyhl/1">婴儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=159" rel="nofollow">婴儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					警惕BB睡觉时的另类声音
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-30 22:48:32</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> </p>
+ <p>　　“一家三口晚上睡觉时本该静静的，可却经常会有些奇怪声音出现，而始作俑者就是正在上幼儿园的宝贝儿子。几乎每晚都打呼，还时常说梦活或是磨牙，半夜常会因他的笑声而醒，听着他梦话后的呼噜声真是又觉得有可爱又无奈。孩子晚上睡觉打呼说梦话到底是因为什么原因？对孩子的身体有影响吗？”</p>
+ <p>　　<strong>磨牙</strong></p> 
+ <p>　<strong>　对健康的影响：</strong></p> 
+ <p>　　1、磨牙会使孩子的面部过度疲劳，吃饭、说话时会引起下颌关节和局部肌肉酸痛，张口时下颌关节还会发出响声，这会使孩子感到不舒服，影响他的情绪。<br />　　2、由于牙釉质受到损害，引起牙本质过敏，当遇到冷、热、酸、辣时就会发生牙痛。<br />　　3、磨牙时咀嚼肌会不停地收缩，久而久之，咀嚼肌增粗，下端变大，孩子的脸型发生变化，影响了美容。</p> 
+ <p>　　<strong>原因及解决方法：</strong></p> 
+ <p>　　<strong>原因：肠道寄生虫病</strong></p> 
+ <p>　　有的孩子患有蛔虫病，由于蛔虫扰动使肠壁不断受到刺激，也会引起咀嚼肌的反射性收缩而出现磨牙。</p> 
+ <p>　　<strong>解决方法：</strong>及时为孩子驱虫。</p> 
+ <p>　　<strong>原因：精神紧张</strong></p> 
+ <p>　　在白天受到父母或是幼儿园老师的的训斥，或是睡前过于激动，而使大脑管理咀嚼肌的部分处于兴奋状态，从而睡着后不断地做咀嚼动作。</p> 
+ <p>　　<strong>解决方法：</strong>父母尽量不要给孩子压力，给孩子营造一个舒适的家庭环境。在孩子睡前，避免过度兴奋，不看过于激烈或恐怖的电视。</p> 
+ <p>　　<strong>原因：消化功能紊乱 </strong></p> 
+ <p>　　孩子睡觉以前吃了太多的食物，增加了消化系统的负担，在睡觉时也会磨牙。</p> 
+ <p>　　<strong>解决方法：</strong>睡前不宜给孩子吃不消化的食物或者吃过多的零食。</p> 
+ <p>　　<strong>原因：营养不均衡</strong></p> 
+ <p>　　孩子不喜欢吃蔬菜，营养摄入不全面均衡，长期以往，导致缺乏维生素和微量元素，引起晚上面部咀嚼肌的不自主收缩，就产生了磨牙。</p> 
+ <p>　　<strong>解决方法：</strong>给孩子养成良好的饮食习惯，让孩子不挑食，充分摄取各种营养。</p> 
+ <p>　　<strong>原因：牙齿发育不良</strong></p> 
+ <p>　　孩子换牙期间，如果因为营养不良，先天性个别牙齿缺失，或是患了佝偻病等，牙齿发育不良，上下牙接触时会发生咬合面不平，也是产生磨牙的原因。</p> 
+ <p>　　<strong>解决方法：</strong>请口腔科的医生检查一下是否有牙齿咬合不良，如果有，需磨去牙齿的高点，并配制牙垫，晚上戴后可以减少磨牙。</p>
+ <p>　　<strong>说梦话</strong></p>
+ <p>　　<strong>对健康的影响：</strong></p> 
+ <p>　　经常说梦话的孩子往往有情绪紧张、虑、不安等问题，有时还会影响孩子的睡眠质量。</p> 
+ <p>　　<strong>原因及解决方法：</strong></p> 
+ <p>　　<strong>原因：说梦话与脑的成熟、心理机能的发生、发展是有较密切关系的，主要是由于宝宝大脑神经的发育还不健全，有时因为疲劳，或晚上吃得太饱，或听到看到一些恐怖的语言、电影等而引起的。</strong></p> 
+ <p>　　<strong>解决方法：</strong>如果孩子不经常说梦话：父母</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>不必担心也无须叫醒孩子，孩子说梦话的现象就越容易消失。</p> 
+ <p>　　如果孩子经常说梦话：在孩子入睡前不要让孩子做剧烈活动，不让孩子看打斗和恐怖电视。如果孩子白天玩得太兴奋，可以让孩子在睡觉前做放松练习，使自己平静下来，或者喝一杯热牛奶，有镇静安神的功效。如果有时孩子讲梦话是因为他精神紧张或焦虑。父母应注意听他说梦话的内容，如果你能听懂，第二天就尽量装作什么也不知道的样子，引导孩子谈出心事，帮助他解决问题。</p> 
+ <p>　　<strong>打呼噜</strong></p> 
+ <p>　　<strong>对健康的影响：</strong></p>
+ <p>　　宝宝打呼噜会引起宝宝的发育障碍，一是体形的发育障碍，如颌面发育畸形，二是智力发育障碍，注意力不集中，记忆力差，易激怒等。<br />　　而且，最近澳大利亚一家儿童医院的研究表明，打鼾孩子的智商、记忆力和注意力均显著低于无打鼾的孩子，其中以注意力缺陷最为显著。</p> 
+ <p>　　<strong>原因及解决方法：</strong></p> 
+ <p>　　<strong>原因：睡姿不好</strong></p> 
+ <p>　　有时孩子仅仅因为睡姿不好，所以舌头过度后垂而阻挡呼吸通道，所以有打呼的现象。</p> 
+ <p>　　<strong>解决方法：</strong>试试让宝宝将头侧着睡。</p> 
+ <p>　　<strong>原因：小婴儿奶块淤积</strong></p> 
+ <p>　　有些新生宝宝有时也会“打呼噜”，这是由于吞噎的关系，有些婴儿的喉部会有奶块淤积，一方面使婴儿吃奶不顺，另一个结果就是使气道不顺，造成婴儿睡眠时打呼噜。</p> 
+ <p>　　<strong>解决方法：</strong>妈妈给宝宝喂好奶后，不要立即将宝宝放下睡觉，而应将他抱起，轻轻拍其背部，就可以防止宝宝因奶块淤积而打呼噜。如果奶块淤积较严重，已经影响了喂奶，只需要往鼻腔里滴1～2滴生理盐水，稀释一下奶块就可以了。</p> 
+ <p>　　<strong>原因：扁桃体肿大</strong></p> 
+ <p>　　扁桃位于口咽部，正是气道的枢纽位置。孩子由于年纪小，气道空间相对也较小，所以颚扁桃若稍微肥大，就容易造成呼吸信道的阻塞，以至于形成打鼾。扁桃腺肥大的原因包括：先天性扁桃腺肥大，或因感染造成扁桃腺组织肿胀、分泌物增多。</p> 
+ <p>　　<strong>解决方法：</strong>若扁桃腺肥大已达到阻挡呼吸信道，影响正常呼吸时，可考虑于满5～6岁后以手术割除之。但若已严重影响呼吸，甚至已造成睡眠呼吸中止时，会发生超过10秒钟以上的呼吸气流停止，并在一整夜睡眠中多次发生，亦即临床上所谓的“睡眠呼吸中止症”，则可考虑提早切除。至于感染所造成的扁桃腺炎，只要针对感染源善加治疗，打呼情况就可获得改善。</p> 
+ <p>　　<strong>原因：腺样体肥大</strong></p> 
+ <p>　　腺样体就是位于鼻孔最后端，鼻咽部的淋巴组织，有些孩子的腺样体会随着年纪慢慢增生，肥大的腺体占据了鼻咽部和喉咽部，便出现睡觉打呼噜的现象。</p> 
+ <p>　　<strong>解决方法：</strong>在青春期后，绝大部分腺样体都会消失。若已阻碍气道，形成打鼾，并且临床上经X光检查确认后，可藉由扁桃腺腺样体切除术来施行治疗。</p> 
+ <p>　　<strong>原因：肥胖</strong></p> 
+ <p>　　肥胖儿童的呼吸道周围被脂肪填塞，使呼吸无法顺畅，当软腭与咽喉壁之间的震动频率超过30赫兹时，就会出现鼾声。</p> 
+ <p>　　<strong>解决方法：</strong>在不影响身体健康、不降低抵抗力的前提下，科学、健康地减肥。</p> 
+ <p>　　<strong></strong></p>
+</div><div class="Newscontent">
+ <p>贴心提示：打造宝宝的良好睡眠的小窍门</p> 
+ <p>　　<strong>创造良好的睡眠环境</strong></p> 
+ <p>　　室内温度最好在摄氏20度左右，不要有强烈的光照，被褥不要太软，而且透气性要好，再摆放一些孩子平时喜爱的玩具在他身边以便他入睡。</p> 
+ <p>　　<strong>提早一小时进入睡眠准备状态</strong></p> 
+ <p>　　在睡前至少1小时，不宜让孩子有兴奋的活动和看激烈的电视，然后进行刷牙、上厕所、脱衣服等程序，孩子也因此而做好了睡觉的心理准备。播放一些柔和的轻音乐或催眠曲，让孩子自己选择临睡前要看的书或要讲的故事。入睡前应将灯光调暗，待宝宝睡着后再关灯。</p> 
+ <p>　<strong>　给孩子轻松的家庭氛围</strong></p> 
+ <p>　　父母应该尽量避免在晚上责备孩子，不谈论令孩子不愉快的话题，使孩子保持良好的心境，不带任何心理负担和压力上床，也有助于他的睡眠。</p> 
+ <p>　　<strong>注意孩子的睡觉姿势</strong></p> 
+ <p>　　孩子睡觉的姿势最好是采取侧睡，以免在趴着睡时，压迫胸部而引起不适。<br /> </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/127382">小儿脉搏正确测试法</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" >婴儿喂养</A>
+				<A href="/static/menu/sm/yyhl/1" class='thisclass'>婴儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/127381">添加辅食从蛋黄开始对吗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127380">宝宝吐奶或溢奶怎么办？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127379">母亲胆固醇高可母乳喂养吗</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127378">宝宝到了厌奶期该怎么办？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127377">小宝宝的夜奶该不该减？</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"127663"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

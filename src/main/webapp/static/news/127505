@@ -1,0 +1,466 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>孩子35种症状快看医生-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/127505"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/yyhl/1">婴儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=159" rel="nofollow">婴儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					孩子35种症状快看医生
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-30 22:37:10</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> 　孩子<u><strong>生病</strong></u>在所难免，但父母需要了解的是，什么情况下该去看医生？出现哪些症状是片刻也不能耽误的？ <br /><br />　　孩子身体的一点点不舒服，都可能引起父母的内心不安或紧张，更不要说严重疾病带来的情绪波动了。在细心的观察和照顾下，父母经常能在第一时间发现疾病的蛛丝马迹，或只是孩子身体的轻微异常。 <br /><br />　　下面是婴幼儿常见的异常状况，有的稍微延迟看医生也无关紧要，但有些需要立刻去医院检查，哪怕是夜里一点钟。 <br /><br />　　出现下面症状，不要太紧张，但也不能大意，可以安排一个合适的时间带孩子去医院。 <br /><br />　　<b>1、行为异常：</b>婴儿不会说话，他无法用语言告诉你哪里不舒服，但他的身体会“说话”，如果他出现目光呆滞、反应缓慢、过度睡眠或难以入睡，持续不断地哭闹等现象，都预示着什么地方出问题了。 <br /><br />　　<b>2、疼痛：</b>婴儿的身体疼痛会让他表现得烦躁易怒，而且不容易安慰，甚至喂奶都很艰难。如果婴儿在平躺时尖声哭闹，可能是常见的耳部感染引起的。 <br /><br />　　<b>3、呼吸障碍：</b>如果看到孩子呼吸时有憋气现象，或持续不断的咳嗽影响了睡眠，都要去检查。 <br /><br />　　<b>4、四肢柔软无力：</b>婴儿的四肢无力或者不会摆动四肢，幼儿步态异常，都要去医院检查。 <br /><br />　　<b>5、颜色改变：</b>手指甲、脚趾甲发青，或者脸色发青或苍白，有时预示着呼吸或循环系统存在问题。皮肤发黄可能暗示出黄疸或肝脏有异。 <br /><br />　　<b>6、持续发热：</b>发热是人体对抗某种感染的反应，有些偶尔的体温略高持续时间很短，而且身体其他方面很正常，并无大碍。但是，假如身体高热或低热伴随着精神萎靡，就要及时看医生。 <br /><br />　　<b>7、呕吐或腹泻：</b>婴儿呕吐虽然让父母烦恼，但也有的并不严重，特别是有些吐奶并不意味着疾病，而是生理现象。但如果呕吐伴随着精神不振，显出病态，或是呕吐的频率和数量比较严重，就要看医生了。腹泻也如此。 <br /><br />　　<b>8、尿量的变化：</b>尿量显著的增多或减少要准确告诉医生。 <br /><br />　　<b>9、大便异常：</b>大便的频率或颜色、性状的异常改变要如实告诉医生。 <br /><br />　　<b>10、皮疹：</b>孩子皮肤上出现的色斑、水泡、溃疡、麻疹或者任何发红的、流液的、脱皮的斑点都需要医学诊断。 <br /><br />　　<b>11、皮肤感染：</b>任何发热、红肿、柔嫩或疼痛的部位有扩展迹象都要看医生。 <br /><br />　　<b>12、不愈合的小伤口：</b>手上割破一个小伤口问题不大，但如果你看到伤口处变得发红、发黄或流脓，或者两天后变得疼痛或更厉害，都要去医生处检查。 <br /><br />　　<b>13、流鼻血不易止住：</b>如果孩子流鼻血，你捏住他的鼻子或者在鼻子上敷了冰袋，过了10分钟发现鼻血仍然没有止住，应该马上去看医生。 <br /><br />　　<b>14、轻微症状变得更严重或无法解决：</b>感冒一般两周后会自愈，如果在此期间孩子发烧或咳嗽，应去看医生。 <br /><br />　　<b>15、肿胀的眼睛、手或脚：</b>任何浮肿都需要注意观察，找到原因。 <br /><br />　　<b>16、眼部疼痛或流液：</b>可能是结膜炎，也可能是眼部有异物。 <br /><br />　　<b>17、逐渐加剧的腹部疼痛：</b>轻微腹痛的孩子可能会扭动不安，一般在你轻轻地按揉腹部后就会有所好转。如果他不让你动他的肚子，宁愿自己待着，而且无法站立，可能是阑尾炎或其他问题。 <br /><br />　　<b>18、腹部胀大：</b>腹部的异常胀大或柔软值得警惕。 <br /><br />　　<b>19、肚脐或大腿根部</b></p>
+ <b> <p></p> <p><strong></strong></p><p></p></b>
+</div><div class="Newscontent">
+ <p>突出：这可能显示有疝气存在。 <br /><br />　　<b>20、阴囊胀大或疼痛(男孩)：</b>这可能是因为疝气或阴囊未正常下降引起的。 <br /><br />　　<b>21、上身出现多处青紫：</b>任何不明原因的青紫都需要经医生的仔细检查。 <br /><br />　　下面的症状需要你立即带孩子去看医生 <br /><br />　　半夜一点钟，你听到孩子的哭声后惊醒，发现他的体温突然异常升高，喂了退烧药，你会怎么做？守着他到天亮，还是马上出发去医院？有些症状当然可以等到天亮再去医院，但出现下面的紧急情况，你最好立刻带孩子去医院，也许耽误了一会儿，就可能耽误孩子的一生。 <br /><br />　　<b>22、高热</b> <br /><br />　　人体的发热是对感染的正常反应，很多时候不必过虑。但如果3个月以内的婴儿体温升到100。5&deg;F以上或大一点的婴幼儿体温升高到101。5oF以上，不要迟疑，立刻看医生。大多数情况下，这是病毒引起的，但也有的是细菌感染造成的，有些会对婴儿造成严重后果。 <br /><br />　　不同的孩子引起发热的原因是不同的，所以除了观察体温的变化以外，还要注意其他状况。比如一个孩子如果温度在101&deg;F，但同时伴有呻吟、昏睡或极度不安等状况，而另一个孩子已经发热到103&deg;F，但没有其他状况，那么前一个孩子会让医生更加警惕和担心。 <br /><br />　　<b>23、呼吸困难</b> <br /><br />　　如果孩子在白天感冒了，那么夜晚可能会出现咳嗽，表明咽喉发炎，是上呼吸道感染的现象。单纯的咳嗽可以在家里稍微处置，如让孩子呼吸清新空气或洗个淋浴以吸入水蒸气等，从而得到缓解。但是，如果孩子明显喘息，呼吸急促或非常缓慢，或者每次喘气会使肋骨随着牵动，都要立刻看医生。 <br /><br />　　当然，咽喉发炎不是引起呼吸困难的惟一原因，其他原因比如鼻窦炎、过敏反应等也会出现呼吸困难，这些都需要医学诊断。如果孩子有慢性疾病，如哮喘，当疾病发作时也要去医院。另外还有一种情况更要警惕，即气管异物带来的呼吸困难，如果孩子不小心吞下异物阻塞气管，你能用正确处置方法帮他排除异物最好，否则就要以最快的速度带他去医院取出异物，恢复呼吸。 <br /><br />　　<b>24、呕吐绿色物体</b> <br /><br />　　通常情况下，一般的呕吐不必夜里去医院，但如果孩子的呕吐物是深绿色，就很严重了。呕吐物的这种颜色通常显示胆汁分泌和作用异常，从而造成肠内消化异常。出现这种情况，也应该即刻去医院。(如果孩子在晚上吃了大量的豌豆泥或菠菜碎末，另当别论。) <br /><br />　　<b>25、惊厥</b> <br /><br />　　大多数情况下，惊厥是温度快速升高造成的，这种高热惊厥会使孩子四肢抽动、紧咬牙关，甚至昏迷。孩子的皮肤会出现淡蓝色，体温很高，双眼上翻，引起父母的极度惊慌。待孩子平定后去医院，医生会想办法使孩子的体温降下来，而且能够让孩子感觉舒服点，必要时做进一步检查。 <br /><br />　　另外一种罕见情况是，癫痫和脑膜炎引起的惊厥。如果孩子出现上述状况而体温却不高，惊厥的时间持续超过3~5分钟，赶快拨打急救电话。 <br /><br />　　<b>26、脱水</b> <br /><br />　　婴儿和低年龄幼儿在发热、呕吐或腹泻的情况下很容易脱水，为避免出现脱水，在上述情况下最好每隔15分钟就喂孩子一点电解液或者果汁水等，无论如何，要为他的身体补充水分。如果他拒绝喝水或者其他液体，而出现眼窝深陷，嘴唇干裂，或前囟门凹陷，必须立刻去医院。脱水不容忽视，严重时它可能引起休克甚至死亡。 <br /><br />　　<b>27、头部受伤</b> <br /><br />　　孩子从床上跌落或走不稳跌倒是很常见的现象，一般并不严重。但如果跌落或跌倒后他出现意识不清、甚至昏迷，视线模糊，或者喷射状呕吐现象，这表明情况严重，可能是脑震荡，不要迟疑</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>，立刻看医生。 <br /><br />　　<b>28、剧烈腹痛</b> <br /><br />　　大多数腹痛是病毒感染引起的，或只是单纯胀气，但个别情况是阑尾炎或肺炎造成的。如果孩子抓着胃部在床上翻转不安，或是用膝盖顶着胸部，而且尖声哭闹，无法控制，立刻去医院。婴儿无法告诉你他到底有多疼，你也无从判断，但如果你感到极度不安，还是去医院请医生检查比较好。 <br /><br />　　<b>29、尿中或便中带血</b> <br /><br />　　孩子尿中或大便中出现一丁点血迹有时无需担心，也许只是轻微的肠道撕裂。但出现这种症状还是要去看医生，以排除胃肠道异常，如梗阻或胃壁撕裂等。父母的直觉也很重要，假如你的直觉告诉你确实有问题，那就不要迟疑，马上看医生。 <br /><br />　　新生儿出现下列症状，马上看医生： <br /><br />　　30、直肠温度超过100。5&deg;F。 <br /><br />　　31、呼吸困难。 <br /><br />　　32、多次吐奶或呕吐呈喷射状。 <br /><br />　　33、脐部化脓或红肿 <br /><br />　　34、包皮环切处化脓或红肿(做了此手术的男孩)。 <br /><br />　　35、出生一周后每日尿量少于8次。 <br /><br /> </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/127382">小儿脉搏正确测试法</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" >婴儿喂养</A>
+				<A href="/static/menu/sm/yyhl/1" class='thisclass'>婴儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/127381">添加辅食从蛋黄开始对吗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127380">宝宝吐奶或溢奶怎么办？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127379">母亲胆固醇高可母乳喂养吗</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127378">宝宝到了厌奶期该怎么办？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127377">小宝宝的夜奶该不该减？</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"127505"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>
