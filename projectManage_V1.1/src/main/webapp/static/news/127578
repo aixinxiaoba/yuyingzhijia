@@ -1,0 +1,622 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>流行病季节，如何为宝宝保健康-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/127578"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/yyhl/1">婴儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=159" rel="nofollow">婴儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					流行病季节，如何为宝宝保健康
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-30 22:42:14</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> 　每到冬季，许多<u><strong>宝宝</strong></u>的健康状况会急转直下，看着宝宝楚楚可怜的模样，父母们看在眼里急在心里，恨不得自己代宝宝<u><strong>生病</strong></u>。专家表示：宝宝生病，父母们不必太过惊慌，只要掌握一些入门级的病理知识，作好日常护理和预防工作，宝宝就会慢慢恢复起来的！ </p>
+ <p>　　<strong>NO.1　肺炎</strong></p> 
+ <p>　　肺炎是感冒、气管炎的延续。它是呼吸道病变较重的疾病，儿科医院里约有1/4的宝宝是因为肺炎而住院的哦！</p> 
+ <p>　　支气管肺炎，也就是小叶性肺炎，小宝宝特别容易患上，病变主要散布在支气管附近的肺泡，有时病变范围很广泛。两三个月或6个月内的宝宝如果发生肺炎，往往症状很重，出现高热、气急、咳嗽、鼻翼扇动等现象。而大叶性肺炎则以成人居多。</p> 
+ <p>　　肺炎分为病毒性、细菌性和支原体肺炎，其中，支原体肺炎近年来有增多的趋势，它的表现为阵发性咳嗽、高热、呼吸时的罗音不明显，需要拍片才能诊断呢。</p> 
+ <p>　　<strong>居家护理要点</strong></p> 
+ <p>　　1、多翻身拍背，帮助呼吸道分泌物排出。宝宝咳嗽多时，睡觉时会很难受，爸妈记得多给宝宝翻身拍背，帮助宝宝把呼吸道的分泌物排出。</p> 
+ <p>　　2、多吃水果、汤汁，少吃鸡蛋。食物要清淡，要多补充水分和维生素C，但注意不要一次吃得太多，蛋白质过多会引起消化不良。</p> 
+ <p>　　3、鼻塞使用细棉棒、吸鼻器。宝宝鼻塞、鼻堵时可用沾有温水的棉棒湿润鼻痂，一点一点地将鼻痂取出，爸妈注意千万不可以用力过猛哦。选择细小的棉棒，它比传统的棉棒更好用。吸鼻器在这时也能派上用场。</p> 
+ <p>　　4、自备温湿度计，保持空气流通，每天开窗2到3次。自备一个温湿度计，大超市里就有卖的哦。保持室内的空气流通，每天开窗2到3次，控制室内的温湿度，温度约在18℃～22℃，湿度约在60％左右。</p> 
+ <p>　　5、敷额头（退热贴）、酒精擦身。如果宝宝有发烧的情况，冷毛巾敷额头可以给宝宝降热，去热贴也可以选用哦。另外，30％～50％的酒精擦身也可以帮助宝宝物理降温。</p> 
+ <p>　　6、厨房内的油烟、室内的香烟要尽量避免。这些油烟很容易让宝宝的抵抗力下降，得上疾病。</p> 
+ <p>　　7、按时接种疫苗。记得及时带宝宝去打预防针，像感冒疫苗一类的也要加以考虑。</p> 
+ <p>　　8、<u><strong>母乳喂养</strong></u>，及时添加鱼肝油。它们对增强呼吸系统黏膜抵抗疾病的能力都大有好处。</p> 
+ <p>　<strong>　NO.2　流行性感冒</strong></p> 
+ <p>　　天气转凉，尤其是进入冬季，流行性病毒感冒病例就会明显增加。流感病毒每一年流行的病原体都不一样。流感和一般感冒都会侵犯成人或小孩，但流感症状通常明显且较严重。</p> 
+ <p>　<strong>　症状表现</strong></p> 
+ <p>　　初期症状明显，包括有高烧、头痛、喉咙痛、肌肉酸痛、全身无力等，之后咳嗽和流鼻涕症状会陆续出现，部分幼儿可能出现腹痛、呕吐等肠胃症状。流感的发烧可能持续3～5天。严重时，还可能并发肺炎，需要住院治疗。</p> 
+ <p>　　<strong>预防方法</strong></p> 
+ <p>　　1、6个月大以上，抵抗力差的幼儿，可在流感流行高峰期前注射流感疫苗。记得小于8岁的<u><strong>孩子</strong></u>第一年打流感预防针要打2针，才有足够的抗体保护。</p> 
+ <p>　　2、爸妈回家后，要记得洗手，以避免把病菌带回家。</p> 
+ <p>　　</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>3、流感流行期间，学校和家中要注意环境卫生，如有幼儿感染流感，最好戴上口罩。</p> 
+ <p>　　4、减少出入公共场所，尤其是抵抗力差的幼儿。</p> 
+ <p>　　5、充足睡眠、<u><strong>饮食</strong></u>正常、多<u><strong>运动</strong></u>才能增强自身的抵抗力。</p> 
+ <p>　　<strong>居家护理要点</strong></p> 
+ <p>　　1、1～2周复原：经过父母悉心照顾，幼儿流感通常1～2周左右会复原。</p> 
+ <p>　　2、多休息：注意保养、多休息、不出入公共场所、按时服药，尽快恢复。</p> 
+ <p>　　3、多喝水：补充足够的水分。</p> 
+ <p>　　<strong>NO.3　秋季腹泻</strong></p> 
+ <p>　　秋季腹泻多发生在9月中旬至12月，以10月至11月为高潮。引起儿童秋季腹泻的病因，多是轮状病毒感染所致。轮状病毒在初秋气温下降这样的温度下滋生很快，因为小儿的抵抗力弱，耐受力比成人差，身体的免疫功不能很快适应这种天气的突变，因而容易受到病毒侵害。</p> 
+ <p>　　<strong>症状表现</strong></p> 
+ <p>　　轮状病毒是呼吸道感染的病原之一，可通过呼吸道传播，也可通过粪―口途径传播。对肠道侵犯最为严重，可引起轮状病毒肠炎。此病毒不仅引起肠道吸收功能障碍，破坏营养物质在肠道内的分解，而这些不能分解吸收的营</p> 
+ <p>　　养物质还会从肠壁吸收水分，从而形成稀水样便。本病病程一般7-10天。常表现为发热，水样大便，轻度呕吐；一半病人可出现咳嗽等呼吸道症状。</p> 
+ <p>　　<strong>居家护理要点</strong></p> 
+ <p>　　由轮状病毒引起的秋季腹泻本身是一种自限性疾病，预后良好，那为何还要积极治疗呢？</p> 
+ <p>　　家庭治疗秋季腹泻的关键是预防和纠正脱水。(脱水是指体内液体，特别是细胞外液的大量丢失体外，造成体内电解质紊乱，影响体内重要器官的正常功能，严重时可危及生命的一种现象。)所以，腹泻病的治疗原则包括预防脱水，纠正脱水，继续饮食及合理用药。</p> 
+ <p>　　如果你的孩子不幸得了腹泻，家人在处理急性腹泻时应遵循三点：</p> 
+ <p>　　1、预防脱水：服用量为头4小时服完20-40ml/kg的特定液体，以后随时口服，能喝多少给多少。</p> 
+ <p>　　有一点要特别注意：对于新生儿腹泻，父母要慎用口服补充液体疗法。在家庭治疗过程中，若孩子出现腹泻次数与量增加、不能正常进食、频繁呕吐、明显口渴、超过38℃的发热中的任意一项，即应到医院看医生。医生可根据小儿情况考虑是否需要静脉输液，纠正脱水。</p> 
+ <p>　　2、继续饮食：腹泻的孩子体内营养物质丢失较多，所以应给他足够的食物以预防营养不良，防止生长发育障碍。吃母乳的婴儿应该继续母乳喂养，若为人工喂养，可继续给予平时习惯的饮食，如米粥等。<u><strong>生活</strong></u>中，不少家庭一遇孩子患腹泻，马上给予禁食。实际上，禁食会影响孩子对营养素的摄入，削弱患儿的抗病能力，易致腹泻迁延或发生营养不良。“饥饿疗法”并不是处处适用的。</p> 
+ <p>　　3、合理用药：很多学者的研究表明，应用抗生素要有针对性，滥用抗生素不但不能治病，且能严重危害患儿健康。除抗生素本身的毒副反应外，不适当的应用抗生素会杀死体内有益的共生菌群，破坏微生态平稳，毁坏微生态对机体的屏障与保护作用；削弱了患儿的抗病能力，促使腹泻迁延不愈，或继发二重感染。由于秋季腹泻多由于病毒引起，不需要应用抗生素，只要做好脱水的预防和液体的补充，患儿可在几天内自愈。只对细菌感染引起的肠炎，如痢疾等，才可考虑</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>加用抗生素。</p> 
+ <p>　　为了尽快明确肠道感染的病因，医生需要对孩子的大便进行常规的检查，所以，当孩子出现腹泻，需要看医生时，父母应用干净的玻璃小瓶留取少许新鲜大便，带到医院，以协助早期诊断性检查。</p> 
+ <p>　　对于腹泻造成的小儿臀部皮肤破溃，应选外用药膏或霜剂涂于患处，如鞣酸软膏、氧化锌霜等。每次大便后，用清水洗净臀部，涂抹适量药物。</p>　　
+ <strong>预防方法</strong> 
+ <p>　　(1)2岁以内的婴幼儿要特别注意卫生条件，提倡母乳喂养、科学护理，做好<u><strong>奶瓶</strong></u>与餐具消毒；</p> 
+ <p>　　(2)养成良好的卫生习惯，看护人和小儿饭前便后要用<u><strong>香皂</strong></u>彻底洗净双手；</p> 
+ <p>　　(3)保证饮用洁净水；</p> 
+ <p>　　(4)不吃变质食物，生吃的瓜果要洗净；</p> 
+ <p>　　(5)避免孩子间的接触传染等。</p> 
+ <p>　　<strong>NO.4　水痘</strong></p> 
+ <p>　　水痘是由水痘疱疹病毒引起的，<br />　　主要发生在10岁以下孩子身上，冬末春初是流行季节。被感染后，通常经过11～20天的潜伏期就会开始发病，而潜伏期间就已经有传染给他人的危险性了。得过一次水痘，一般不会再得。</p> 
+ <p>　　<strong>症状表现</strong></p> 
+ <p>　　初期会出现轻微发烧、倦怠、食欲不振，之后会出现水泡、红疹，主要分布在躯干部分，接着是脸部、四肢，严重者可能连口腔内、耳朵都会长出疹子。约过1周后开始结痂，完全结痂脱落得需要2～3周的时间。</p> 
+ <p>　　<strong>预防方法</strong></p> 
+ <p>　　1、水痘传染力非常强，因此家中若有幼儿感染，最好让他在家休息，暂时不要去上学了，等到全身的疹子都结痂干掉，没有传染力后，才可以去学校或其他公共场所。</p> 
+ <p>　　2、出水痘时，不要使用阿司匹林等退烧药，以免并发其他症候群。</p> 
+ <p>　　<strong>居家护理要点</strong></p> 
+ <p>　　1、止痒。长水痘时，容易全身发痒，可以让医生开一些止痒的药物来，千万不要让孩子乱抓。</p> 
+ <p>　　2、冲凉。幼儿不舒服时，可以帮他简单冲凉，让身体清爽舒服。</p> 
+ <p>　　3、把指甲剪短。把孩子的指甲剪短，避免抓破伤口。如果是婴儿可以给他戴上棉质小手套。</p> 
+ <p>　　4、保持清洁。长水痘期间，还是要帮宝宝洗澡，洗完澡后，可用浴巾吸干身上的水分，再抹上止痒药。</p> 
+ <p>　　<strong>NO.5　手足口病</strong></p> 
+ <p>　　手足口病又叫发疹性口腔炎，是以手、足皮肤疱疹和口腔黏膜溃疡为主要临床特征。由数种肠道病毒感染所致，该病主要侵犯儿童，并有周期性流行的趋势。</p> 
+ <p>　　手足口病在1～2周内可自愈，不会留下后遗症，但也不是终身免疫。患病期间，只需对症治疗，多喝水，多吃清淡易于消化的流食或半流食，口腔用淡盐水或生理盐水擦拭或漱口，外涂金霉素鱼肝油，同时服用抗病毒药物。</p> 
+ <p>　　<strong>症状表现</strong></p> 
+ <p>　　手足口病是一种主要发生在儿童尤其是婴幼儿身上，由肠道病毒传播的传染病，潜伏期为3～5天，发病初期会出现类似感冒的症状，发热不高，约38℃左右，2天后口部出现疼痛性小水疱，四周绕以红晕，手足部位会出现米粒大小的水疱，数目不等。</p> 
+ <p>　　<strong>预防方法</strong></p> 
+ <p>　　1、保持空气流通。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p> </p>
+ <p>　　2、饭前、如厕后，以及处理被?便沾污过的物品后洗手。</p> 
+ <p>　　3、双手被呼吸系统分泌物弄污后立即洗手。</p> 
+ <p>　　4、打喷嚏或咳嗽时要掩?口鼻，并妥善清理分泌物。</p> 
+ <p>　　5、儿童的<u><strong>玩具</strong></u>或其他用品应常常彻底清洗。</p> 
+ <p>　　6、病童应留在家中，直至热度、红疹消退及水泡结痂。</p> 
+ <p>　　7、少到人群密集的地方。</p> 
+ <p>　　<strong>居家护理要点</strong></p> 
+ <p>　　1、服用抗病毒的药物，如病毒唑，病毒灵等；</p> 
+ <p>　　2、保持局部清洁，避免细菌的继发感染；</p> 
+ <p>　　3、口腔有糜烂，小儿吃东西困难时，可以吃一些流质食物，饭后漱口；</p> 
+ <p>　　4、局部可以涂金霉素鱼肝油，以减轻疼痛，促使糜烂面早日愈合；</p> 
+ <p>　　5、可以口服一些B族维生素，如维生素B2等；</p> 
+ <p>　　6、若小儿发热，也可以用一些清热解毒的中药。</p> 
+ <p>　　<strong>NO.6　高热惊厥</strong></p> 
+ <p>　　小儿惊厥是大脑运动神经元异常放电引起的肌肉抽动，伴意识障碍，为儿科常见急症。约40－50％的小儿至少发生过一次惊厥，5岁以下尤为多见。</p> 
+ <p>　　<strong>症状表现</strong></p> 
+ <p>　　小儿惊厥以高热惊厥最常见，发作之前有发热，多由上呼吸道感染引起，体温在38、5℃－40℃之间，惊厥发作多为全身性强直阵挛，同时伴意识丧失。最初患者呼吸暂停而有青紫，随后呼吸逐渐恢复，伴口吐白沫唾液。发作持续1－3分钟，苏醒后头痛、乏力。如果反复发作，会引起脑水肿甚至脑疝，造成永久性脑损害或生命危险。因此，对于小儿高热惊厥应积极作好防护，避免发作。</p> 
+ <p>　　<strong>居家护理要点</strong></p> 
+ <p>　　1、控制发热当小儿呼吸道感染并有38、5℃以上发热时，除针对原发病予以对因治疗，如抗生素，抗病素药外，还要积极控制发热。降温措施首选物理降温，把体温控制在38℃以内。</p> 
+ <p>　　具体方法：用纯棉毛巾轻擦颈部两侧、腋窝、腹股沟等体表有大血管处，擦至皮肤发红，时间为１５―２０分钟。禁擦胸前区、腹部、后颈，以防止不良反应。如果体温仍未下降，可在头部放置冰袋或配合药物降温，如肌注安痛定等。</p> 
+ <p>　　2、加强护理5岁以下小儿体温超过38、5℃时，最好住院治疗，并密切观察患儿病情变化，做好生命体征监护。在护理上应做到：</p> 
+ <p>　　①保持安静，减少一切不必要的刺激，父母不要搂抱或晃动患儿；</p> 
+ <p>　　②让患儿平卧，头偏向一侧，解开衣领，及时清理口鼻咽部分泌物，保持呼吸道通畅；</p> 
+ <p>　　③护理和治疗操作时动作要轻柔、准确、敏捷，避免刺激患儿；</p> 
+ <p>　　④给予清淡饮食，补充营养，专人护理，防止患儿坠床或碰伤。</p> 
+ <p>　　<strong>预防方法</strong></p> 
+ <p>　　预防复发小儿惊厥有复发倾向，因而当惊厥发作停止后仍应密切观察病情，防止再次复发。由于高热惊厥常见于体质较差的小儿，因而平日要加强体质锻炼，增强肌体免疫力，遇天气变化时要注意增添衣服，预防上呼吸道感染。有惊厥史的患儿要早作预防，早治疗，避免惊厥复发。</p> 
+ <p>　　<strong>NO.7　脑膜炎</strong></p> 
+ <p>　　脑膜炎是小孩中枢神经感染中最为常见的一种疾病，可以是由病毒或细菌感染所致。由于脑膜炎的症状有时难与上呼吸道感染作区分，容</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>易延误诊断及治疗，而其中细菌性脑膜炎常造成合并症甚至会危及生命，故特别需要父母的重视及关心。</p> 
+ <p>　　<strong>症状表现</strong></p> 
+ <p>　　儿童时期起病急，高热可达39℃以上，小儿常诉剧烈头痛，精神差，乏力，食欲减退，呕吐频繁。起病时小儿神志清醒，病情进展可发生嗜睡，神志模糊，言语杂乱，不能正确辨别方向，抽风，昏迷。病情严重者在发病后24小时内就出现抽风及昏迷。如果未及时治疗，病情进展，小儿颈部僵硬，头向后仰，背部僵硬，小儿整个身体向背后弯曲似“弓”样，医学上称角弓反张。小儿还可出现呼吸不规则，甚至出现呼吸衰竭，部分小儿皮肤有出血点。</p> 
+ <p>　　较小的病儿由于囟门还没有闭合，骨缝可以裂开，所以症状出现晚，先有发热和呼吸道感染或腹泻症状，以后出现嗜睡、烦躁、易受惊吓、尖声哭叫、眼球固定，有时用手打头，摇头，往往到出现惊厥时才引起父母注意。</p> 
+ <p>　　<strong>居家护理要点</strong></p> 
+ <p>　　如果你的婴幼儿或孩子有上述的症状，要立刻去找医生，或者是马上送孩子去医院急诊室求助，切勿拖延。如果医生怀疑孩子罹患了脑膜炎，可能会叫孩子住院，会对孩子进行腰椎穿刺检查。如果感染是属于细菌性的，医生会给孩子使用抗生素。如果是病毒性感染，这种疾病通常会自动痊愈。</p> 
+ <p>　　<strong>NO.8　风疹</strong></p> 
+ <p>　　风疹是由风疹病毒引起的急性呼吸道传染病。由于我国还没有将风疹疫苗列入计划免疫接种，所以在儿童中发生风疹者较多，约每两至三年有一次流行。</p> 
+ <p>　　各年龄期儿童均可发病，以5岁以内幼儿多见。6个月内婴儿因有来自母亲的抗体，所以发病者少。学龄儿童发病少的原因，可能是既往已有过风疹感染，因病情轻的没有确诊，但体内已有风疹抗体，所以不再得病。</p> 
+ <p>　　<strong>症状表现</strong></p> 
+ <p>　　风疹的病状轻，可有流涕、轻咳、但流泪少见，常有低热或中等度发热，高热少见，有些患儿甚至可无发热。由于出疹前的症状轻，父母往往在发现孩子出现皮疹时才来医院就诊。皮疹出现早，多在病后1-2天开始，在24小时内出齐，无分批出现现象。皮疹起始于耳后、颈部、继而胸背部，四肢少见。多为散在红色斑丘疹，偶见融合成片。皮疹须2-3天消退，不遗留色素沉着。总的病程约1周左右。医生检查时，口腔粘膜清洁光滑，无斑点。耳后的淋巴结常肿大。风疹也可并发脑炎，但较少见，而且也很轻，不会有不良后果。</p> 
+ <p>　　<strong>居家护理要点</strong></p> 
+ <p>　　孩子得风疹后，不必用抗生素，可服用板蓝根、双黄连等中成药。一般不必住院，可在家治疗。注意皮肤清洁卫生，不要让孩子抓搔，可避免继发皮肤感染。如病情轻，食欲多正常，饮食无须限制。发热高时应多喂水。即使孩子情况良好，也不该让孩子上学或去幼儿园，因为可传染别的孩子。一般在皮疹出现5天后即无传染性，可以解除隔离。得过一次风疹后，很少再得第二次。现已有单独的风疹疫苗，或与预防其他疾病的混合制剂，已在试用中。</p> 
+ <p>　　<strong>NO.9　川崎病</strong></p> 
+ <p>　　川崎病(Kawasakidisease)，又名皮肤粘膜淋巴结综合征(MucocutaneouslymphnodesyndromeMCLS)。1967年日本川崎氏首先报告，其病因不明，主要病理改变为全身血管炎，幼儿多发。临床特点为急性发热，皮肤粘膜病损和淋巴结肿大。部分患儿可侵犯冠状动脉，或形成冠状动脉瘤。其中少部分患儿冠状动脉可发生狭窄或血栓，甚至导致心肌梗塞。</p> 
+ <p>　　本病可见于2个月至8岁小儿。其中</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>5岁以内患者占大多数(80％)。</p> 
+ <p>　　<strong>症状表现</strong></p> 
+ <p>　　1、发热：多为突然发热，热程约为l-2周。为稽留热或弛张热．一般体温38℃一40℃。</p> 
+ <p>　　2、皮肤和粘膜表现：</p> 
+ <p>　　（1）四肢末端变化　在急性期手足硬性水肿，掌跖及指趾有红斑。在恢复期，甲床皮肤移行处有膜样脱皮。</p> 
+ <p>　　（2）皮疹　发病后2-3日，出现皮疹，疹型不一，可呈弥漫性红斑、猩红热样或麻疹样皮疹，面部及躯干较四肢为重，不见疱疹或结痂，在接种卡介苗的疤痕处，特别易发红斑。</p> 
+ <p>　　（3）粘膜表现　双眼球结膜充血，但无分泌物，球结膜充血多为一过性；唇部潮红、干燥、皱裂并有血痂形成；舌乳头突起呈杨梅舌，口腔、咽部粘膜呈弥漫性充血。</p> 
+ <p>　　3、淋巴结肿大：颈部单侧或双侧淋巴结肿大，不化脓。</p> 
+ <p>　　<strong>居家护理要点</strong></p> 
+ <p>　　1、卧床休息：急性期体温发烧患儿应绝对卧床休息，降低机体耗氧量，保护心脏。注意观察体温变化及伴随症状，并及时处理。</p> 
+ <p>　　2、饮食：给予清淡的高热量、高蛋白、高维生素的流食或半流食，供给充足的水分，勤给病儿喂水。患儿因有口腔粘膜溃疡，进食时万分痛苦，应将食物晾凉后再吃。</p> 
+ <p>　　3、皮肤粘膜的护理：密切观察皮肤粘膜病变情况，保持皮肤粘膜清洁，每天用柔软的毛巾或纱布擦洗孩子的皮肤，注意切勿擦伤；每次便后清洗臀部；剪短指甲，保持手的清洁，以免抓伤皮肤，脱皮处千万不可撕皮，以免引起皮肤感染；衣被质地柔软而清洁，避免穿着不透气的化纤布料做的衣服；每日用1-4％硼酸水棉球擦洗双眼，必要时涂抗生素眼膏；保持口腔清洁，鼓励孩子勤漱口，口唇干燥时可涂护唇油或金霉素鱼肝油。</p> 
+ <p>　　4、心血管系统的护理：注意观察患儿有无心血管损害症状，如面色苍白、精神萎靡、脉搏加快等，一旦发现异常情况，及时去医院就诊。</p> 
+ <p>　　5、定期复查心电图、超声心动图，注意恢复期可能会发生冠状动脉瘤、血栓形成和心肌梗塞。</p> 
+ <p>　　<strong>NO.10　玫瑰疹</strong></p> 
+ <p>　　玫瑰疹，也称“幼儿急疹”，好发于6个月～3岁的幼儿，春、秋两季最常出现。而玫瑰疹大多是良性的，不会留下后遗症，父母不用太过担心。</p> 
+ <p>　　<strong>症状表现</strong></p> 
+ <p>　　幼儿突然发高烧，甚至高达39～41℃，没有其他明显的病因，但是精神、活力大致正常；高烧通常持续3～5天，等差不多退烧的同时，全身开始出现小颗粒状的红疹，此时就离康复不远了；再过2～3天疹子就会退掉。部分孩子还并发腹泻、咳嗽、哭闹不安等症状。</p> 
+ <p>　　<strong>预防方法</strong></p> 
+ <p>　　还是和预防流行性疾病的方法相同，减少出入公共场所、增加抵抗力，避免受到感染。　</p> 
+ <p>　　<strong>居家护理要点</strong></p> 
+ <p>　　1、高烧时注意幼儿精神状况：感染玫瑰疹时，幼儿精神、体力都还不错，但若幼儿出现精神不佳或有其他状况时，就要到儿科门诊看看是否有其他的疾病了。</p> 
+ <p>　　2、退烧药：高烧时可服用医生开的退烧药。</p> 
+ <p>　　3、多喝开水：让孩子多喝开水、多休息。</p>
+ <br /> 
+ <br />
+ <strong>TAG:</strong> 宝宝 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/127382">小儿脉搏正确测试法</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" >婴儿喂养</A>
+				<A href="/static/menu/sm/yyhl/1" class='thisclass'>婴儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/127381">添加辅食从蛋黄开始对吗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127380">宝宝吐奶或溢奶怎么办？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127379">母亲胆固醇高可母乳喂养吗</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127378">宝宝到了厌奶期该怎么办？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127377">小宝宝的夜奶该不该减？</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"127578"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

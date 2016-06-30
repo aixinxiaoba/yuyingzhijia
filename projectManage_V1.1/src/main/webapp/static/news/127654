@@ -1,0 +1,522 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>尿布使用有讲究-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/127654"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/yyhl/1">婴儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=159" rel="nofollow">婴儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					尿布使用有讲究
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-30 22:47:52</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> 　　宝宝快要出生了，你收拾的住院用品中一定少不了尿布。从出生到能够大小便自理，尿布一直陪伴着宝宝，几乎就是他的第二层肌肤。宝宝的皮肤柔软嫩滑，保护好宝宝的小屁股是妈妈责无旁贷的义务。 </p>
+ <p>　　随着科技的发展，生活水平的提高，市场上的尿布品种也越来越多。除了传统的棉尿布外，还有纸尿裤、纸尿片、尿垫和尿布外罩。有时候简直弄不清它们究竟用来干什么？是不是这些东西宝宝都要用？究竟哪种适合宝宝的小屁屁？唉，要弄清楚还真不容易。年轻的妈妈不要心急，让我们一样一样地了解，你一定能找到最适合宝宝的尿布。</p> 
+ <p>　　传统的棉尿布</p> 
+ <p>　　有理由相信在所有的婴儿尿布中，棉尿布的历史最悠久。从我有记忆开始，印象中那些小孩子用的都是棉尿布。现在，我们自己也做了妈妈，但我们的妈妈还坚持要给她们的孙辈用棉尿布。现在大家都知道化纤面料会刺激婴儿的皮肤，吸水性也不好，所以现在的尿布基本上是纯棉面料的。A?&#xfffd;&#xfffd;优&#xfffd;?</p> 
+ <p>　　纯棉特有的舒适、透气性是棉尿布的一大优点。宝宝柔嫩的小屁股裹上软软的棉质尿布，多么舒服呀。不过，最重要的还是棉尿布价格较低，而且可以重复使用，真是名副其实的经济实惠。另外，老人通常比较喜欢棉尿布。如果家里有老人带小孩，千万别忘了多准备一些棉尿布。</p> 
+ <p>　　B?&#xfffd;&#xfffd;缺&#xfffd;?</p> 
+ <p>　　棉尿布尿湿一次就必须更换，所以要准备很多。而且妈妈要时刻注意宝宝是不是撒尿了，是不是要换尿布了，大人孩子都休息不好。再者，棉尿布洗涤比较麻烦，晾晒也是个问题，碰到接连几天下雨或阴天，孩子连换用的尿布都没有了。</p> 
+ <p>　　C?&#xfffd;&#xfffd;尿布DIY</p> 
+ <p>　　老一辈人用的尿布都是自己做的。不像我们，为了省事，当然还有一个原因是根本不会做，所以尿布都是买的。如果你是一个爱心泛滥的妈妈，事事想亲历亲为的话，倒可以试试自己做尿布。还有，家里的老人要给自己的孙辈准备尿布，了解下面的这些小常识以后，你这个准妈妈还可以把把质量关。</p> 
+ <p>　　做尿布最好的材料是细棉纱，吸湿性好而且柔软。两层棉纱做一块尿布正合适，既不会因为薄而影响吸水，也不会因为厚而影响活动。如果有人觉得这样的尿布太薄，那就用三层棉纱，不能再厚了，否则会影响宝宝腿部的活动。家里有半旧不新的棉毛衫、棉毛裤，可以就地取材，用棉毛衫、棉毛裤做尿布的原料。穿过的棉毛衫洗得很软，吸水性也好，是一个不错的选择。老人喜欢用旧床单做尿布，要注意消毒和吸水性这两个问题。用久的旧棉布摸起来不是很硬，但放在显微镜下观察就会看到表面有很多细小的毛刺，长期使用会摩擦宝宝娇嫩的小屁股，有引发尿布疹的可能。而且，洗涤多次的旧棉布吸水性相对减弱。自制尿布时要注意选择合适的材料，如果家庭条件允许，最好不要用太旧的棉布给孩子做尿布。</p> 
+ <p>　　D?&#xfffd;&#xfffd;使用技&#xfffd;?</p> 
+ <p>　　1、男女有别，包法不同。</p> 
+ <p>　　女孩的尿液容易向后流，尿布的后面要垫得厚些。男孩的尿液容易向前流，前面要折得厚些。</p> 
+ <p>　　2、掌握规律，方便多多。</p> 
+ <p>　　宝宝睡醒、吃奶后一般要尿尿，这时候要及时为宝宝换尿布，或者把尿。</p> 
+ <p>　　3、妈妈细心，宝宝开心。</p> 
+ <p>　　宝宝的尿布不要垫得太厚，太厚的尿布会使宝宝腿部分开较大，影响宝宝的活动和腿部的正常发育。</p> 
+ <p>　　4、尿布不是纸巾，不能用来擦屁股。</p> 
+ <p>　　宝宝大小便后不要直接用尿布给他擦屁股。因为长期使用的尿布表面比较毛糙，用它来擦屁股会摩擦小屁屁，使周围的皮肤变红。正确的做法应该是先用纸巾(条件允许的话，最好使用婴儿湿巾)把粪便擦干净，然后用温开水清洗屁股。清洗小女孩的肛门要特别注意，要从</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>前向后洗，避免粪便污染生殖器。</p> 
+ <p>　　E洗涤技巧</p> 
+ <p>　　1、准备一个小桶，里面放少量清水，以淹没尿布为准。把换下的尿布放在里面，积攒五块以上再集中清洗。这样可以节约时间和水。</p> 
+ <p>　　2、洗尿布时要用婴儿专用洗涤剂。普通的肥皂和洗衣粉含有磷等化学物质，婴儿皮肤娇嫩，容易造成过敏。</p> 
+ <p>　　3、尿布要放在阳光下晾晒，利用阳光中的紫外线消毒。如果所处的地区长期阴湿，最好使用烘干机，或者用熨斗烫干。阴干的尿布容易滋生细菌，破坏宝宝的皮肤。</p> 
+ <p>　　4、洗尿布时不要添加衣物柔软剂，柔软剂会降低尿布的吸水性。如果觉得尿布发硬，用手搓搓就会变软。及时淘汰变硬、吸水性差的尿布。</p> 
+ <p>　　推陈出新的纸尿裤</p> 
+ <p>　　纸尿裤又叫一次性尿布。与棉尿布相比，它是新生事物，在世界范围内只有五十年的历史。与其他一次性用品一样，纸尿裤凭借着方便的特点迅速赢得了许多妈妈的喜爱。</p> 
+ <p>　　A?&#xfffd;&#xfffd;优&#xfffd;?</p> 
+ <p>　　干净卫生、吸收强、渗透快、多次吸收尿液之后表面仍保持干爽是纸尿裤的特点。妈妈不用时刻担心宝宝是不是尿了，要不要换尿布，被子有没有尿湿等问题。对妈妈来说，使用纸尿裤既是体力上的解放，又大大减轻了心理上的负担。再者，纸尿裤能促进婴儿睡眠，减少宝宝因为尿湿或者换尿布而醒来的次数。纸尿裤穿着方便，剪裁合理，为婴儿提供充分的活动自由，并且清洁卫生。</p> 
+ <p>　　B?&#xfffd;&#xfffd;缺点&#xfffd;?</p> 
+ <p>　　与棉尿布相比，纸尿裤是一次性产品，价格较贵。最普通的纸尿裤每片价格也在一两元左右。进口的价格更贵，大约在四五元左右。而且婴儿的纸尿裤消耗量较大，每天大约要用六到十片。对一般的家庭来说，这是一笔不小的开销。</p> 
+ <p>　　婴儿纸尿裤是一次性产品，因此在处理上比较麻烦，对环境是一个不小的挑战。在我国，这个问题还没有得到重视，但在使用纸尿裤较早的西方国家已经引起广泛的讨论。</p> 
+ <p>　　C?&#xfffd;&#xfffd;纸尿裤的选购技&#xfffd;?</p> 
+ <p>　　1、安全第一</p> 
+ <p>　　购买尿布，特别是试用新品牌前，要检查外包装上的标志和卫生许可证标志。因为纸尿裤是贴身、长期使用的物品，劣质尿裤不仅会导致尿布疹、肛周炎等疾病，还对宝宝的生长发育有很大影响。</p> 
+ <p>　　2、透气干爽</p> 
+ <p>　　纸尿裤外层的透气性很重要。如果尿湿以后，不能有效地排出潮气，容易生尿布疹。拿过一块尿布，先从外观上看，如果看起来像是裹着一层塑料纸的尿裤，即使价格便宜也要慎买。</p> 
+ <p>　　3、剪裁合理，使用方便</p> 
+ <p>　　品牌不同，设计也不同。买尿布之前不妨仔细观察样品，看看宝宝兜起来是否舒服，妈妈用起来是否顺手。</p> 
+ <p>　　4、多听多问，心中有数</p> 
+ <p>　　多问问有经验的妈妈，她们会如数家珍地告诉你各品牌的优劣，综合下来你就会做到心中有数。</p> 
+ <p>　　尿布隔巾和尿布外罩</p> 
+ <p>　　尿布隔巾是放在尿布之上，把大便和尿布隔开的薄膜。新生儿期作用较大，因为新生儿的大便次数较多，一个纸尿裤没用多久就要扔掉，很浪费。有了尿布隔巾，婴儿大便之后，如果尿布还不湿，只要把隔巾扔掉就行了，纸尿裤还是清清爽爽的，可以继续使用。</p> 
+ <p>　　尿布外罩是用来固定尿布的。有些妈妈不喜欢用安全别针固定尿布，可以试试尿布外罩。尿布外罩有塑料的也有纯棉的，塑料外罩的防水性好但透气性差，纯棉外罩的透气性好些，但价格相对贵些。</p> 
+ <p>　　孰优孰劣，专家评说</p> 
+ <p>　　育儿专家认为，家长可以根据经济条件和生活习惯选择尿布。如果宝宝的屁股发红</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>或者患有尿布疹，最好的办法是让宝宝的屁股暴露在外边。如果一定要包尿布的话，应该选择柔软的棉尿布，而且要经常洗换尿布。为了不影响孩子的睡眠，晚上最好使用纸尿裤。</p> 
+ <p>　　纸尿裤导致男性不孕</p> 
+ <p>　　英国《每日电讯报》报道，过去25年来，男性不孕比例升高可能与使用纸尿裤有关。德国基尔的科学家发现，以塑胶为原料的纸尿裤会提高小宝宝阴囊内的温度，妨碍睾丸的正常发育。</p> 
+ <p>　　土耳其国立艾吉耶斯(Erciyes)大学医学院小儿科教授库特鲁表示，使用含有尼龙等非纯棉成分的尿布容易造成婴儿睾丸高温，将男婴的睾丸推向体内，长期使用可能造成日后不孕症。</p> 
+ <p>　　正确使用纸尿裤</p> 
+ <p>　　不影响生育</p> 
+ <p>　　“中国儿童网”报道，在中国造纸协会生活用纸专业委员会举办的一个专题研讨会上，五位中科院院士郑重指出，只要使用方法得当，年轻父母尽可放心地给孩子使用纸尿裤。中国科学院生物学部薛社普院士指出：“正确使用纸尿裤引起的温度变化不会对青春期的生殖健康产生不良影响。根据胚胎生物学的基本原理，在婴幼儿时期精子尚未形成，其时只有在胚胎时期就已形成的精原细胞存在，而这些精原细胞在婴儿出生之前是在温度约为37摄氏度的母体腹腔中发育的，而且发育良好。男子的精子发育发生在青春期，精原细胞在青春期分裂形成精母细胞，之后再经过两次减数分裂成为精子细胞，精子细胞经过分化才变成精子。也就是说，在胚胎期和婴儿期睾丸内的曲细精管是实心的细管，而且并无精子的发生和成熟过程。”</p> 
+ <p>　　据了解，目前，英国有90%以上的婴儿使用一次性纸尿裤；美国有80%的婴儿使用一次性纸尿裤。而在中国，纸尿裤的普及率还很低。</p> 
+ <p>　　哪种尿布更环保</p> 
+ <p>　　英国环保人士认为，一次性纸尿裤丢弃后可能要花费几个世纪的时间才会分解，在分解的过程中还会释放有毒的沼气。一次性纸尿裤耗费的能源是棉尿布的35倍。</p> 
+ <p>　　尿布制造业界人士则指出，一次性尿布是最佳的卫生选择，而且与棉尿布相比没有环保劣势。因为重复使用的棉尿布要耗费大量的电力、水源，而且洗涤尿布所用的清洁剂和消毒剂也会对环境造成污染。<br /> </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/127382">小儿脉搏正确测试法</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" >婴儿喂养</A>
+				<A href="/static/menu/sm/yyhl/1" class='thisclass'>婴儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/127381">添加辅食从蛋黄开始对吗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127380">宝宝吐奶或溢奶怎么办？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127379">母亲胆固醇高可母乳喂养吗</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127378">宝宝到了厌奶期该怎么办？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127377">小宝宝的夜奶该不该减？</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"127654"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

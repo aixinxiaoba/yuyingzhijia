@@ -1,0 +1,498 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>危害宝宝的安全隐患及对策-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/127458"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/yyhl/1">婴儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=159" rel="nofollow">婴儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					危害宝宝的安全隐患及对策
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-30 22:33:28</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p>&nbsp;&nbsp;&nbsp; 现代家庭中意外伤害对宝宝的危险越来越大，甚至在家中都隐藏着不少安全隐患。当你读到下面的一些家居常见的10个安全隐患时可能被震惊，但请先冷静，并仔细清查你家里是否也存在这些“不安全”。</p> 
+ <p>&nbsp;&nbsp;<strong>&nbsp; 1、洗碗机</strong></p> 
+ <p>&nbsp;&nbsp;&nbsp; 危险：它是宝宝最有机会接触锋利物品的地方，比如洗碗机里的刀子、叉子甚至烧烤用的叉子等等。一旦宝宝伸手去抓或用身体接触接触这些东西，它们锋利的边缘就很容易把宝宝的皮肤刮伤。另外，洗碗机里的洗涤剂对宝宝的皮肤和眼睛也会造成伤害，如果宝宝不小心把洗涤剂吃到嘴里，还可能损伤他的口腔粘膜，甚至进入食道。专家提醒大家，洗涤剂不仅有很强的腐蚀性，还可能造成宝宝中毒，所以一定要多加小心。</p> 
+ <p>安全策略：在你打开或关闭洗碗机的时候，要确保宝宝不在旁边，别给他机会接触里面的东西。像刀子、叉子或其他等锋利边缘的器具，清洗完后要及时收藏到宝宝够不到的地方。洗涤剂不要先放，最好在你开动洗碗机后再放到里面。而且，每次使用完洗碗机，要将剩余在洗碗机里的洗涤剂彻底擦干净。</p> 
+ <p>&nbsp;&nbsp;&nbsp; <strong>2、橡胶气球</strong></p> 
+ <p>&nbsp;&nbsp;&nbsp; 危险：生日聚会上五颜六色的橡胶气球也许很漂亮，但你可能不知道，它已经成为最危险的“宝宝杀手”之一。美国专家的调查显示，从1973年以来，有不少于110的宝宝因为吹气球或咀嚼气球碎片，出现咽喉堵塞窒息而死。专家解释说，气球之所以容易造成宝宝窒息，是因为它的宽度和大小和宝宝的喉咙差不多，一旦宝宝把它吞下，呼吸就会全完被堵住。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 安全策略：买一些聚脂薄膜气球代替原来的橡胶气球。它有丰富多彩的图案和各种各样的形状，而且不会有窒息的危险。宝宝玩橡胶气球的时候，妈妈一定要在旁边监督。绝对不要允许宝宝咬气球，无论是吹鼓的还是没吹的。还要注意别让宝宝把吹破的气球碎片放到嘴里。8岁以内的宝宝最好不要让他自己吹橡胶气球。当你看到宝宝用力呼吸，身边又有橡胶气球时，首先要检查宝宝没有把气球吸到嘴里。气球爆了的时候，要立即捡起所有的碎片，别让宝宝有机会捡到它们。另外，像橡胶手套这样东西最好不要让宝宝玩，同样会有窒息的危险。</p> 
+ <p>&nbsp;&nbsp;&nbsp; <strong>3、燃气灶</strong></p> 
+ <p>&nbsp;&nbsp;&nbsp; 危险：你也许知道宝宝会被热水或热锅烫伤，但是你是否知道这些烫伤往往是由于不正确的安装和使用灶具所导致。比如，宝宝可能爬到敞开的烤箱里，或者他玩弄燃气灶的开关，甚至他伸手去够放在燃气灶上的热水壶。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 安全策略：购买炉灶或烤箱后，请专业人员帮忙按照。如果在使用过程中出现损坏，最好请该公司的专业维修人员维修。天燃气的总阀门，使用结束后要马上关闭，并且要安装在较高的地方，让宝宝够不到。烤箱使用完后一定记得关好，如果是大的柜式烤箱，当它启动时，不要让宝宝斜靠着它。</p> 
+ <p>&nbsp;<strong>&nbsp;&nbsp; 4、床上用品</strong></p> 
+ <p>&nbsp;&nbsp;&nbsp; 危险：毛绒绒的靠枕、蓬松柔软的被褥，弹簧床垫可以使婴儿床看上去很温暖、舒适。但是这些舒适柔软的床上用品，很可能在宝宝，尤其是新生儿，睡觉时堵住他的脸部，使他无法呼吸甚至出现窒息。尽管1991年美国倡议的“安全睡眠”运动，使得婴儿猝死综合征(SIDS)有明显的</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>下降趋势。但是，美国消费品安全委员会调查发现，在美国每年仍有900名左右的新生儿因使用过大过软的床上用品而出现窒息。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 安全策略：给宝宝使用较硬的床垫，床罩和床单要紧紧裹在床垫上。最好不要给1岁以内的小宝宝使用枕头、靠垫、弹簧床垫，或在他的婴儿床上摆放毛绒玩具。宝宝睡觉时，不要给他使用过大、过软的被子。可以让他使用大小合适的睡袋，或者使用婴儿专用的小毯子，并把毯子的三边紧紧压在床垫下面，形成一个小睡被。</p> 
+ <p><strong>&nbsp;&nbsp;&nbsp; 5、旧的婴儿用品</strong></p> 
+ <p>&nbsp;&nbsp; 危险：旧的玩具和婴儿用品，可能已经有损坏或丢失的部分，也可能已经不符合近期的安全标准了。而且，这些旧的婴儿用品往往已经没有包装，也就无法找到它适合的年龄、使用说明和安全介绍。有个妈妈接受了朋友送来的旧的儿童餐椅，但她并不知道这个餐椅的安全带和托盘都有问题。正因如此12个月的女儿使用餐椅时没有安全带的保护而从上面滑下来，宝宝的头和脖子正好卡在餐盘和高脚椅中间。幸好妈妈及时抓住宝宝，否则宝宝可能会出现擦伤、流血。</p> 
+ <p>&nbsp;&nbsp; 安全策略：使用旧玩具、旧餐椅、旧家用秋千或其他二手婴儿用品前，要仔细检查它们的损伤或缺失的部分。它们所携带的带子、绳索、安全带，不要长于18厘米。关注一些国家最新颁布的产品安全标准，拿到旧婴儿用品时，先要一一核对。另外，出厂10年以上的金属或带油漆的玩具，可能带有一些有毒元素，不要给宝宝玩。</p> 
+ <p>&nbsp;&nbsp; <strong>6、洗澡椅</strong></p> 
+ <p>&nbsp;&nbsp;&nbsp; 危险：洗澡椅能帮助宝宝稳稳的坐在浴缸里，但是如果你离开宝宝，哪怕只有几秒钟，坐在洗澡椅上的宝宝就可能发生侧翻，掉到水里，甚至出现溺水。虽然洗澡椅下面都有吸盘可以吸附在浴缸里，但是它也可能在瞬间松离浴缸，宝宝就会倒翻在水里。美国消费品安全委员会调查发现，从1983年到2003年，有大约106名宝宝在使用洗澡椅时，因为没有人看管而出现溺水。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 安全策略：不要让洗澡椅给你造成一种错误的安全感。宝宝在浴盆里洗澡时，要让他在你的臂弯保护范围内。并确保其他在场的人也再和你做同样保护宝宝的工作。专家提醒大家，洗澡椅对宝宝来说，不是安全的设备。</p> 
+ <p>&nbsp;&nbsp;&nbsp; <strong>7、婴儿浴液</strong></p> 
+ <p>&nbsp;&nbsp; 危险：一些婴儿浴液里含有液体烃。如果宝宝将烃吸到肺里，那可能导致严重的肺炎的症状，形成永久的肺损伤，甚至死亡。2001年，一个16个月的美国小男孩，在喝下一整瓶婴儿油后的第28天去世。他的死和类似的悲剧，让美国消费品安全委员会重新要求生产商，要设计一些防止宝宝打开的包装，还要在产品标签上标明是否含有烃。</p> 
+ <p>&nbsp;&nbsp; 安全策略：购买前认真阅读产品的标签，即使你买的婴儿浴液有防止宝宝打开的安全包装，也要把它收藏在宝宝够不到的地方。(其他家用的美容用品也可能包含液体烃或矿物油，比如卸装水、按摩油、指甲油等)另外，专家提醒大家，即使有防止宝宝打开的安全包装，也只能减慢宝宝打开的速度，而不能真正防止宝宝打开盖子。</p> 
+ <p>&nbsp;&nbsp; <strong>8、家里的小狗</strong></p> 
+ <p>&nbsp;&nbsp;&nbsp; 危险：根据美国疾病控制预防中心调查显示，已经有大约100000的宝宝因为被狗咬到而送到急救中心。而且事故中，多半的宝宝都是被自己家的</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>狗，或者邻居、朋友家的狗咬到。曾经出现过一个6个月大的宝宝被他家的波美拉尼亚种小狗咬死，当时只有宝宝和这只狗在床上。另外，宠物的食物、玩具和一些被它们撕碎的小零件，还可能让宝宝面临咽喉阻塞的危险。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 安全策略：不要让宝宝和狗单独相处。英国公牛犬、洛特维勒牧犬以及奶奶的牧羊犬，可能比其他种类的狗更具有攻击性。而且任何狗都可能突然变得很暴躁。要告诉宝宝，狗正在吃东西、睡觉、照顾小狗时，不要打扰它、拿走它的东西或梳理它的皮毛。宝宝3岁以前，不要给宠物买那些带眼睛、钮扣或带有容易被咬下的小零件的宠物玩具。</p> 
+ <p>&nbsp;&nbsp; <strong>9、电动车窗</strong></p> 
+ <p>&nbsp;&nbsp;&nbsp; 危险：根据有关调查显示，不安全的汽车玻璃，每年都会导致许许多多宝宝压断手指、压碎腕关节。在这些受伤的宝宝当中，至少有28人已经死亡。当宝宝向车窗外探头或伸手时，他可能会无意中让身体向前倾斜，碰到车窗开关，上升的车窗就会夹到他。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 安全策略：如果你的电动车窗有安全锁或主控装置，那么最好使用它们，确保宝宝坐在后坐时也不法将窗户打开。当你坐在驾驶位置准备将车窗升起时，要先检查宝宝的头和手指是否在车窗外。购买汽车时，最好选择前后车窗都带安全锁的。不要把宝宝单独留在任何交通工具里。</p> 
+ <p><strong>10、各种书包</strong></p> 
+ <p>&nbsp;&nbsp;&nbsp; 危险：爷爷奶奶的零钱包、妈妈的化妆包、爸爸的公事包，外出时带的旅行箱，甚至来作客的朋友的皮包，里面的某些东西可能给宝宝带来中毒、窒息、割伤的危险。比如，药物、零钱、硬糖、笔帽、图钉、指甲油、弯刀。一个10个月大的宝宝偷吃了奶奶皮包里的降血压药，被送到医院急诊室洗胃。专家提醒大家，当大人忙于谈话聊天时，宝宝只需要几秒钟的时间就可以把他认为新奇的东西放到嘴里。</p> 
+ <p>&nbsp;&nbsp;&nbsp; 安全策略：当朋友、亲戚来访时，把他们的背包或行李收藏到橱柜里、房间里，总之是宝宝够不到找不到的地方。如果你们去别人家做客，把皮包放在你所能够到的地方，并时刻观察宝宝，别让他有机会接触危险的东西。专家提醒大家，监督是保证宝宝安全的法宝</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/127382">小儿脉搏正确测试法</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" >婴儿喂养</A>
+				<A href="/static/menu/sm/yyhl/1" class='thisclass'>婴儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/127381">添加辅食从蛋黄开始对吗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127380">宝宝吐奶或溢奶怎么办？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127379">母亲胆固醇高可母乳喂养吗</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127378">宝宝到了厌奶期该怎么办？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127377">小宝宝的夜奶该不该减？</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"127458"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

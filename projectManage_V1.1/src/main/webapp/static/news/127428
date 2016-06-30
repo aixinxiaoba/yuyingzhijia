@@ -1,0 +1,551 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>与孩子的病毒性腹泻对阵-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/127428"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/yyhl/1">婴儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=159" rel="nofollow">婴儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					与孩子的病毒性腹泻对阵
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-30 22:31:21</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p><font color="#000066">　　就在福宝妈盘点2005年带宝宝的经历，打算庆祝福宝这一年生病很少、顺利度过的时候，一场突如其来的腹泻，降临在福宝的身上！</font></p> 
+ <p>　　<strong>病程回放</strong></p> 
+ <p>　　05年12月11日晚上23时许：</p> 
+ <p>　　正在熟睡的宝宝突然翻身坐起，开始剧烈呕吐。 此后的一个小时，呕吐次数超过了10次，吐到后来就只有类似胃液、唾液一样的液体，并且呈现出橙黄色。</p> 
+ <p>　　05年12月12日凌晨0时：</p> 
+ <p>　　到达儿童医学中心，因为未发热所以挂了急诊内科。诊断，按压腹部之后，无压痛，宝宝也不呈现病痛性哭闹，内科医生要求化验大便。此时宝宝无任何腹泻表现，大便化验结果没有任何问题。</p> 
+ <p>　　05年12月12日凌晨1时许：</p> 
+ <p>　　内科医生看过化验结果后，要求进行X光拍片检查，拍片结果仍无明显异常，这个时候我们已经觉得就是患了秋季腹泻了。</p> 
+ <p>　　05年12月12日凌晨2时许：</p> 
+ <p>　　内科医生要求外科医生会诊。会诊下来终于完完全全地排除了“肠套叠”和“肠梗阻”的可能性。此时一家三口都疲惫不堪，宝宝把头靠在爸爸的肩上，都抬不起来了。</p> 
+ <p>　　05年12月12日凌晨3时许：</p> 
+ <p>　　医生做出“急性肠道炎”的诊断结果，鉴于呕吐的严重，无法口服补液和吃药，只能选择静脉输液了。</p> 
+ <p>　　05年12月12日清晨7时许：</p> 
+ <p>　　输液结束，宝宝醒来。在医生的要求下，做了B超，无异常。呕吐已经止住了，腹泻开始了。但因为当时刚刚才开始，并未显现出很严重的状况，医生没有开药，只是让回家观察，注意补液。</p> 
+ <p>　　05年12月12日至15日：</p> 
+ <p>　　剧烈腹泻，每日腹泻10～12次，我这个“家庭医生”参考了很多资料之后，决定不给宝宝吃别的药，只用了蒙脱石散剂和合生元。</p> 
+ <p>　　05年12月16日至19日：</p> 
+ <p>　　腹泻状况逐渐好转，每天腹泻次数减少到4～6次，就在全家都松了口气的时候，宝宝开始发红疹了。红色的疹子发得全身都是，尤其以头部为重灾区，头部又以脸颊为重中之重！</p> 
+ <p>　　05年12月20日傍晚7时：</p> 
+ <p>　　红疹越发严重，脸颊感觉都要滴血了！不敢怠慢，又跑医院了。医生检查过后，说是病毒引起的红疹。</p> 
+ <p>　　当时极其困惑，因为查阅了那么多资料，无一提及引起秋泻的轮状病毒会引发红疹，后来又加强了查阅，查到一种病毒引发红疹叫“传染性红斑”，又俗称“苹果脸”的，描述的症状极为相似，但这绝不是轮状病毒了！因此无法排除宝宝是否感染了不止一种病毒！可惜未对病毒进行进一步化验，无法得知更多信息了！</p> 
+ <p>　　这次的治疗除了静脉输液之外还开了些药物。在输液过程中，宝宝把针头挣脱了，脑袋上鼓个大包，于是这次输液只进行了一半，草草结束回了家。本次用到的药物是“利巴韦林颗粒/新博林”、“卡多曲颗粒/杜拉宝”和“培菲康”。</p> 
+ <p>　　05年12月21日至26日：</p> 
+ <p>　　状况越来越好，可就在26日傍晚，红疹和腹泻基本都结束，全家打算开始庆祝新年及福宝康复的时候，新一轮呕吐又袭来了！</p> 
+ <p>　　05年12月27日傍晚：</p> 
+ <p>　　再度入院，进行血液化验，还是病毒（这时全家都恨透了病毒）！第三次输液，全家都怕了头皮针了！本次用到的药物是“抗病毒口服液”、“吗丁啉止吐液剂”和“蒙脱石散剂/必奇”。 </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p> </p> 
+ <p>　　05年12月31日：</p> 
+ <p>　　第二轮腹泻结束，持续了20天的痛苦终于不再折磨宝宝了！</p> 
+ <p>　　<strong>病毒性腹泻，医生/医院通常给出的诊断和治疗方案</strong></p> 
+ <p>　　俗话说“久病成医”，宝宝这一趟病下来，对“病毒性腹泻”这个病，我这做妈妈的，也成了半个医生。通过对医生诊断过程的观察，基本上发现诊断和治疗方案的规律如下：</p> 
+ <p>　　第一步，排查掉“肠套叠”和“肠梗阻”的可能性</p> 
+ <p>　　如果宝宝还没有呈现腹泻的症状，仅仅只是剧烈呕吐，就进入医院急诊，医生就要做这一步排查。因为病毒性腹泻通常都是以剧烈呕吐开始，和肠套叠肠梗阻初期发病状态很相似，所以要做这一步――毕竟所有人的想法都是，不怕一万，只怕万一！</p> 
+ <p>　　<strong>诊断用到的方法是：</strong></p> 
+ <p>　　1． B超（如果是晚上或半夜急诊，无法B超时，则采用X光拍片）；</p> 
+ <p>　　2． 化验大便；</p> 
+ <p>　　3． 验血（可能采用，如果大便化验无果）；</p> 
+ <p>　　4． 内外科会诊（可能采用，如果上述三项诊断都无异状）；</p> 
+ <p>　　由此可见，如果宝宝没有呈现剧烈腹痛、哭闹不止的状况，或已经开始水样腹泻，完全可以不让宝宝做额外的检查（比如B超和X光拍片），直接进行大便化验！</p> 
+ <p>　　需要注意的是，在广泛向身边有宝宝的朋友咨询后发现，生过同样病的宝宝，在刚发病的初期，尤其只是呕吐的时期做大便化验，基本上都化验不出病毒的存在！能化验出来的，几乎都是腹泻开始了半天过后！</p> 
+ <p>　　第二步，静脉输液</p> 
+ <p>　　如果有以下两种情况，医生会很坚定的用到静脉输液：</p> 
+ <p>　　1． 宝呕吐剧烈，用输液来补液和添加止吐药物止吐；</p> 
+ <p>　　2． 宝宝的腹泻伴随有别的症状，如发热和发疹；</p> 
+ <p>　　第三步，口服用药</p> 
+ <p>　　当下稍微懂些儿童用药的妈妈都会知道，病毒性腹泻是不用抗生素的，但是如果腹泻严重，医生还是要开口服药的。一般情形下，会用到以下几种：</p> 
+ <p>　1． 病毒类：抗病毒口服液、抗病毒冲剂、利巴韦林颗粒（新博林）等；</p> 
+ <p>　　2． 止泻类：蒙脱石散剂（即必奇或思密达）、卡多曲颗粒（杜拉宝）等；</p> 
+ <p>　　3． 调整肠道菌群类：培菲康、合生元、妈咪爱等；</p> 
+ <p>　　<strong>可能选用的药：</strong></p> 
+ <p>　　1． 如果发热会用到一些去热的药，如美林、泰诺林等，个别会用到抗生素；</p> 
+ <p>　　2． 如果有炎症的，可能会用到抗生素（据说这样可以让宝宝的肠胃舒服一些，宝宝就能吃得多一点，病可以好得快一点）；</p> 
+ <p>　　3． 止吐类：吗丁啉悬混液、维生素B6等；</p> 
+ <p>　　4． 补液类：补液盐水、葡萄糖等。 </p> 
+ <p>　　<strong>护理心得</strong></p> 
+ <p>　　宝宝生病，除了积极配合医生治疗，妈妈的居家护理十分重要。</p> 
+ <p>　　起居照料</p> 
+ <p>　　1． 处理排泄：因为此病好发于两岁以下婴幼儿，此时的宝宝多数还无法做到有便意时事先告知，尤其是在严重腹泻难以控制的时候，所以能使用纸尿裤的就继续使用，不能的要注意衣裤的换洗；</p> 
+ <p>　　2． 注意被褥的更换和清洗，在太阳下多晒晒；</p> 
+ <p>　　3</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>． 外出玩耍时，适当和别的小朋友保持距离，以免传染他人；</p> 
+ <p>　　4． 洗澡不必太勤，尤其有发热症状时。但是要注意擦洗和保持衣服的干净；</p> 
+ <p>　　<strong>饮食安排</strong></p> 
+ <p>　　1．病时还在吃母乳，是比较幸福的，宝宝可以想吃就吃，没什么过多禁忌；如果已经完全吃奶粉了，可以换成腹泻奶粉。但不是所有的宝宝都接受腹泻奶粉的味儿，如果宝宝不吃，就只能选择给宝宝吃稀释的配方奶，可以根据宝宝的病程和消化情况由少到多的添加水和奶粉的分量。</p> 
+ <p>　　2．奶以外的饮食基本上根据腹泻状况的发展，遵循“米汤－&gt;稠米汤－&gt;稀粥－&gt;正常米粥－&gt;加辅食－&gt;米饭/面食”这个规律进行，辅食的重新添加可以晚一些才加不容易消化的肉类。注意观察宝宝的消化情况，适当的时候可以用搅拌机把食材研磨一下（比如把大米打碎做稠米汤或米粥）；</p> 
+ <p>　　3． 要注意的是补液。如果医院没有开口服补液盐水，也可以自制。方法如下：</p> 
+ <p>　　用150~180毫升的清水或米汤，四个手指头抓一小撮糖，三个手指头抓一小撮盐，摇匀即可！其成分和效果也差不多。</p> 
+ <p>　　特别要注意的是，糖只能选择婴儿或一般的葡萄糖，这是唯一不对肠胃代谢产生额外负担的糖类。其他的诸如蔗糖等，会加重肠胃负担，搞不好会使腹泻更加严重！</p> 
+ <p>　　如果宝宝不喜欢这个味儿，也可以分开补：米汤加盐，而葡萄糖另外兑水，总之还是以宝宝接受为原则。</p> 
+ <p>　4． 这个阶段的宝宝会显得异常饥饿，会缠着要吃的！作为家长一定要克制，如果心软给宝宝喂了别的东西，很可能是害了宝宝。当时我这做妈妈的就是一时心软，在中午吃面的时候喂了宝宝几根，结果下午腹泻得越发厉害，直到把那几根面条原样拉出才缓和下来！</p> 
+ <p>　　<strong>[TIPS]关于吃药：</strong>吃药一定要遵医嘱，或严格按照说明来操作！比如蒙脱石散剂，如果调药粉的水太多了，或者不是按照三口两口快速服下的方法，这个药是不能很好地到达肠胃的，也就没作用了！而抗病毒的药或者抗生素类药，最忌随意乱吃和随意停药！</p> 
+ <p>　　事后学习才知道，病毒性腹泻发病开始的最初四个小时是治疗的关键期，这四个小时如果用对了方法，宝宝可以少吃苦头，病也能好得更快！</p> 
+ <p>　　<strong>专家指点：</strong></p> 
+ <p>　　肠道病毒感染的病程中，一般轮状病毒不会发生皮疹，柯萨奇病毒和埃可病毒可能出现腹泻伴有皮疹。 </p> 
+ <p>　　护理方面：</p> 
+ <p>　　发现宝宝呕吐和腹泻时，爸妈的居家观察对诊断很重要。应该记录宝宝大便的次数、性状，呕吐的时间、呕吐物的性质。</p> 
+ <p>　　用药方面：</p> 
+ <p>　　病毒性腹泻不建议用中药抗病毒，此类药物多性味苦涩，也会引起大便稀薄。蒙脱石散剂这样的止泻药是比较合适的，具有保护胃肠黏膜的作用，调节肠道菌群的药亦可用。补液是口服或静脉输液，应视宝宝脱水程度而定。止吐或退热药物更是对症处理，不可一概而论。</p> 
+ <p>　　其他注意事项：</p> 
+ <p>　　病毒性腹泻不是宝宝的专利，成年人抵抗力差时也可能会被传染，照料宝宝时还要记得勤洗手，多开窗通风。</p> 
+ <p>&nbsp;</p>
+ <p></p> 
+ <p></p> 
+ <p></p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/127382">小儿脉搏正确测试法</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" >婴儿喂养</A>
+				<A href="/static/menu/sm/yyhl/1" class='thisclass'>婴儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/127381">添加辅食从蛋黄开始对吗？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127380">宝宝吐奶或溢奶怎么办？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127379">母亲胆固醇高可母乳喂养吗</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127378">宝宝到了厌奶期该怎么办？</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127377">小宝宝的夜奶该不该减？</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"127428"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>
