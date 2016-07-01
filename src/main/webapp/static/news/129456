@@ -1,0 +1,457 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>传染性疾病(二)-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/129456"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/yyhl/1">婴儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=159" rel="nofollow">婴儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					传染性疾病(二)
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-07-01 23:18:11</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p><u>(9)流行性腮腺炎</u><br /> <br /> ①原因：<br /> <br /> 病原体是腮腺炎病毒，直接接触或飞沫感染为传染的途径。潜伏期达2～3周，所以一旦流行，很难停止，与水痘一样，盛行于学校、幼儿园。自耳下腺肿胀之前一直到肿胀之后的数天内，都具有传染力，必须加以注意。<br /> <br /> ②症状：<br /> <br /> 最初是发烧、头痛。不久之后，单侧或双侧的耳下腮腺肿胀。腮腺位于耳后一直到耳下之处。触摸时很像一块橡皮。不会发红，轻压会感到痛感。咀嚼食物时亦有痛感。不过，疼痛的程度比不上淋巴腺炎的强痛，约1周左右即会消失，而且不会化脓。<br /> <br /> 青春期以后患病，可能并发其他的病症。男子会引起睾丸炎，女子会引起卵巢炎。两者都会并发不孕症，也很有可能并发脑膜炎，伴有轻微的头痛与呕吐，没有其他临床状况。检查脊髓液即可查出病因。不过，一般都是在不知不觉中痊愈。<br /> <br /> ③治疗：<br /> <br /> 采用抗病毒药和对症疗法，腮腺局部可外敷金黄散。进食时会感到疼痛，所以，以容易消化<br /> 的食物为生。若疼痛剧烈，必须进食流质或半流质食品，若要缓和局部疼痛，可采用冷敷或热敷。<br /> <br /> <u>(10)天花</u><br /> <br /> 由天花病毒感染所引起，传染力极强，死亡率亦高。不过，在我国几乎已经绝种。<br /> <br /> 经过12天的潜伏期之后，发高烧而发病，2～3天内全身出现疹子。出疹的顺序是红斑→水疱→脓疱。脓疱中央凹陷，不久即会结痂，留下斑痕而痊愈。<br /> <br /> 预防的方法是进行预防接种。<br /> <br /> <u>(11)小儿麻痹(脊髓灰质炎)</u><br /> <br /> ①原因：<br /> <br /> 由脊髓灰质炎病毒(Ⅰ、Ⅱ、Ⅲ)感染所引起。主要侵犯脊髓中的灰质前角，致使神经麻痹。<br /> <br /> 传染方法是经口感染，病毒在发病2周以后，即会自患儿的粪便中排出，然后经由各种途径，传染至其他孩子的口中。<br /> <br /> 主要流行于夏天，有些患儿完全没有症状出现，有些只有发烧等轻微的症状(不完全型)。发病的种类相当多。不过，自从疫苗普及以来，本病已基本消灭。<br /> <br /> ②症状：<br /> <br /> 潜伏期为1～3周，最初发烧３８℃～３９℃。2～3天退烧之后，才会发现手或脚麻痹。有时候麻痹会逐渐恢复，不过大部分会留下永久麻痹或因呼吸肌麻痹而死亡。<br /> <br /> ③治疗：<br /> <br /> 采用抗病毒药和对症治疗，然后以按摩、电气治疗等来对付麻痹。<br /> <br /> ④预防：<br /> <br /> 事先服用两次小儿麻痹的活疫苗，非常有效。<br /> <br /> <u>(12)乙型脑炎</u><br /> <br /> ①原因：<br /> <br /> 病原体是乙型脑炎病毒，经由蚊子作为媒介而传染，此病流行于夏天。<br /> <br /> ②症状：<br /> <br /> 大约2周的潜伏期之后，以发烧、头痛、呕吐而发病。不久之后会发生惊厥而意识不清。严<br /> 重的数天后即会死亡。大约1周后退烧而痊愈，不过几乎有1/3左右留下脑性麻痹、痉挛、性格变化等后遗症。<br /> <br /> ③治疗与预防：<br /> <br /> 只有采用对症疗法，没有其他特殊疗法。注射疫苗是最好的预防法。此外，在流行期时应努<br /> 力驱除蚊子，也须避免过度疲劳。<br /> <br /> <u>(13)其他的脑炎</u><br /> <br /> 患上麻疹、水痘、风疹、流行性腮腺炎、百日咳、流行性感冒、小儿麻痹时，可能会并发脑<br /> 炎。乙型脑炎的预防接种或狂犬病的预防接种之后，由于个人体质差也可能会发生脑炎。<br /> <br /> <u>(14)百日咳</u><br /> <br /> 起因于百日咳杆菌，细菌由飞沫感染自上呼吸道入侵。感染源是患者，由于没有先天免疫，<br /> 所以只要有感染机会，自出生起即可能感染。<br /> <br /> 自从百日咳的预防注射普及以来，此疾病已有显著的减少。<br /> <br /> ①症状：<br /> <br /> 潜伏期为1～2周，经过卡他期、痉咳期、恢复期之后，即逐渐痊愈。<br /> <br /> 卡他期：<br /> <br /> 潜伏期之后，以伤风的症状发病。流涕、发烧、咳嗽渐渐加重，几乎任何药皆没有效果，而且夜晚的咳嗽比白昼严重，此时期为传染力最强的时期。<br /> <br /> 痉咳期：<br /> <br /> 1～2周后会发生痉挛性的激咳。每次咳嗽连续十几至几十声，由于咳嗽频繁，难以正常呼吸，然后会深深的吸一口气。此情形反复发作两三次之后，会吐出透明的黏液，使发作暂时停顿。<br /> <br /> 婴儿一般不会产生痰。若有痰可以判断病情已十分严重，有时候咳嗽时脸部会肿胀，或是自鼻、结膜中出血。尤其是婴儿的症状容易趋向于严重，呼吸停止，发生痉挛。<br /> <br /> 夜间的发作次数多于白天，大约持续两个月。<br /> <br /> 恢复期：<br /> <br /> 痉咳期到达十分剧烈的咳嗽时，即逐渐转为恢复期。不过，轻咳仍持续进行，大约须经百天左右，故称之为百日咳。此病的经过极长，经常咳嗽容易引发食欲不振或呕吐，而影响营养状态，也经常会并发支气管炎或肺炎。<br /> <br /> ②治疗与护理：<br /> <br /> 可使用抗生素。对发病早期的卡他期十分有效。不过，到了痉咳期之后，效果大减，这是因为细菌进入支气管的组织中，而影响到药效。<br /> <br /> 照顾百日咳的患儿，最主要的是尽量减少诱发咳嗽的因素。例如避免过度兴奋的游戏；也尽<br /> 量少去人群众多之处或空气污染的场合；进食时，一次的食量不可太多；此外，气温变化<br /> 容易引起刺激，所以到了傍晚时，应待在屋内。<br /> <br /> 咳嗽发作时，孩子会因呼吸不畅而十分痛苦，甚至呕吐。此时可轻拍其背部，不使其吞下呕吐物。尤其是婴儿若激烈发作时，呼吸可能会停止，应加以注意。<br /> <br /> 注意不可消耗体力。由于疾病的过程很长，容易导致营养不良，应尽量摄取营养价值高的食品，并须充分的补给维生素。进行日光浴或户外游戏时，不可接触其他的孩子。<br /> <br /> 发病经过4周之后，传染力逐渐消除。所以，即使有轻微的咳嗽，也可和其他玩伴游戏。<br /> <br /> ③预防：<br /> <br /> 接受百日咳疫苗的预防接种十分有效，没有接种必须避免与患儿接触。尤其是卡他期的传染力最强，而且很容易误认为感冒，应多加注意。<br /> <br /> <u>(15)白喉</u><br /> <br /> ①原因：<br /> <br /> 起因于白喉杆菌，经由飞沫感染入侵鼻腔或咽喉，此菌会产生毒素，侵害局部的组织，使黏膜引起白喉特有的伪膜性变化，此乃本疾病之特征。白色厚膜紧贴黏膜而逐渐增殖，感染源<br /> 是患儿本身，潜伏期为2～7日。<br /> <br /> ②症状：<br /> <br /> 白喉杆菌的毒素所引起的伪膜性病变，会使身体的各个部分的黏膜发生障碍，然后发生各种<br /> 症状。<br /> <br /> 咽白喉：<br /> <br /> 白喉病大都属于此型，咽部黏膜发生伪膜性变化。发烧、喉咙痛、头痛这是发病的症状。白膜贴于扁桃腺，称之为伪膜，此白膜无法除去，若勉强除去，会出血。<br /> <br /> 严重时，不只是扁桃腺，而且会扩及周围的软腭与鼻腔，甚至颌下淋巴结肿大，而产生压痛感。<br /> <br /> 严重时，伪膜为污褐色，扁桃腺似乎腐烂一般，发生口臭、食欲不振、呕吐等现象。<br /> <br /> 喉白喉：<br /> <br /> 伪膜性变化发生于喉部黏膜，一般大都是连续发生咽白喉。不过，有时候却只侵犯喉头而已。<br /> <br /> 患病时，除了发烧之外，会发出如狗吠一般的咳嗽声。声音嘶哑，严重时会无法发出声音，呼吸痛苦，尤其是吸气时十分困难，此种状态会逐渐加强，若不加以理会，可能会窒息而<br /> 死。<br /> <br /> 鼻白喉：<br /> <br /> 病变发生于鼻黏膜的疾病，是比较轻微的白喉，多见于婴儿，大都不会发烧，直到鼻塞后，才被大人发觉，此时会流出浆液血性的鼻水，鼻孔变得红肿。鼻黏膜肿胀，可看到灰白色的伪膜。其他形成于眼睛结膜的眼白喉、皮肤白喉、阴部白喉等。主要特征是各处的黏膜都会形成白喉特有的灰白色伪膜，而且其周围的淋巴结肿大。<br /> <br /> 在白喉发病的过程中，会有很多并发症，而且都是白喉的毒素所引起的。最主要的是毒素侵<br /> 犯心肌，而损及心脏，有时候可能会死亡，早期的2周以内，与晚期的4～8周都可能发生。<br /> <br /> 白喉毒素也会侵犯肾脏，而引起中毒性肾病。<br /> <br /> 最可怕的是神经的障碍，白喉毒素侵犯神经，会发生麻痹。患病比例约为１%～５％。会侵<br /> 犯各种神经，比较常见的为软腭麻痹，使得患者无法吞咽。此外，手足也可能麻痹，不过，后果良好。横膈膜及胸部的呼吸肌也会发生麻痹，若不加以理会，易引起呼吸障碍而死亡，可用人工呼吸使麻痹复原。<br /> <br /> 此病经过治疗，可迅速消除细菌。不过，细菌可能残留达数个月，有些健康的带菌者，没有<br /> 任何症状，身上却带有细菌。<br /> <br /> ③治疗与护理：<br /> <br /> 对付白喉菌，有许多有效的抗生素，可使用青霉素、红霉素等。<br /> <br /> 另一种方法是使用血清(抗毒素血清)以中和局部病灶和血液中的毒素，控制疾病的进行，同时也可控制最可怕的心肌与神经系统的病变，病情严重的可使用大量的抗毒素血清。<br /> <br /> 严重的喉白喉，必须切开气管，输入氧气。<br /> <br /> 若心肌发生障碍务必保持安静，可使用心肌营养药。<br /> <br /> 要注意休息，即使没有任何症状，也必须静养两周，尤其是4～6周最容易发生心肌炎，所以，应多加注意，可做心电图确定。<br /> <br /> 此外，必须充分的补给营养与水分。<br /> <br /> ④预防：<br /> <br /> 接受白喉的预防接种，十分有效。<br /> <br /> <br /> 继续 <br /> <br /> 本文由北京中山响沙图书发行中心授权摇篮网发表，未经许可，禁止转载 </p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/128491">冬季，不宜给宝宝常泡脚</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" >婴儿喂养</A>
+				<A href="/static/menu/sm/yyhl/1" class='thisclass'>婴儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/127755">给宝宝选推车该注意些什么</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127754">尿布小常识</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127753">选择衣物　0-1岁</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127752">让宝宝内衣贴身更贴心</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127751">为10－12月的宝宝选衣服</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"129456"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

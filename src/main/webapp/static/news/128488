@@ -1,0 +1,546 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>好动宝宝35问-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/128488"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/yyhl/1">婴儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=159" rel="nofollow">婴儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					好动宝宝35问
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-30 23:59:35</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p>&nbsp;&nbsp;&nbsp; 你会为孩子活泼好动而欣喜，也会为孩子没“长性”、注意力难以集中而烦恼。对于专家们常说的“adhd”，妈妈们更是有一大堆疑问。我们总结了妈妈们最关心的35个问题，到里面找你想要的答案吧。</p> 
+ <p>　　关于“adhd”</p> 
+ <p>　　q：“adhd”是什么意思？</p> 
+ <p>　　a：“adhd”是英语单词“attention deficit hyperactivity disorder”的缩写，意思是“注意力缺陷多动性障碍”，指跟普通孩子相比，注意力欠缺、多动、行为冲动等症状尤为明显，出现不能适应家庭和学校生活的障碍。</p> 
+ <p>　　q：所有孩子似乎都有过一些多动现象，多动就是adhd吗？</p> 
+ <p>　　a：不是。多动只是adhd的一项代表症状，并不等于注意力缺乏，自闭症、重听以及精神迟滞的孩子也有多动的症状显现。</p> 
+ <p>　　q：如何区分普通孩子的不安分与adhd？</p> 
+ <p>　　a：两者没有明显的界限，主要看孩子的多动症状是否在多个场所出现，而且到了令你不能容忍的地步。如果只是比普通孩子稍微不安分一点的话，应该不必担心。</p> 
+ <p>　　q：有多少人患有注意力缺乏症？都是儿童吗？</p> 
+ <p>　　a：人群中约有3%-5%的人患有此症,一般开始于4至7岁，大概在8至10岁达到高峰，多数人没有得到治疗，成年后仍会存在明显的注意力不集中问题，并且容易冲动。</p> 
+ <p>　　q：注意力缺乏的孩子通常智力迟钝吗？</p> 
+ <p>　　a：两者没有直接的因果关系，不存在因为注意力缺乏而产生智力迟钝的现象。相反，没有智力迟钝是判断adhd的标准之一。</p> 
+ <p>　　症状表现</p> 
+ <p>　　q：注意力缺乏的孩子有什么特定症状？</p> 
+ <p>　　a：三大特征：(1)粗心大意(心不在焉，注意力不能持续集中)；(2)多动(坐不定，手脚不停)；(3)冲动(易发火)。美国精神医学会制定的“精神疾患诊断统计手册第4版”对此有具体说明(参见知识链接)。</p> 
+ <p>　　q：我家宝宝在幼儿园里常丢三落四，对周围的事物也好像漠不关心，这属于注意力缺乏吗？</p> 
+ <p>　　a：判断的标准不在于有无上述症状，而在于这些症状的程度以及发生频度是否太过极端，以至于造成孩子在幼儿园不能正常生活。只要能正常学习生活，就不是adhd。</p> 
+ <p>　　q：我总觉得自己的孩子注意力特别容易分散、多动，怎么办？</p> 
+ <p>　　a：“注意力不集中、多动”的判断标准是非常主观的，父母要做的不是在孩子身上“贴标签”，而是通过对他的帮助防患于未然，这才是最重要的。</p> 
+ <p>　　q：我的孩子尽管注意力不能集中，但从没有出现过偏激行为，这也是注意力缺乏症吗？</p> 
+ <p>　　a：注意力缺乏症分为三种：“粗心大意型”、“多动冲动型”和两种症状都很明显的“混合型”。单方面出现粗心大意或多动冲动，而另一方面完全没有症状显现的病例几乎没有。</p> 
+ <p>　　q：我的孩子总是不好好听大人说话，非常麻烦，怎么办才好？</p> 
+ <p>　　a：要让孩子认认真真听清你的话，就要创造一个让他容易集中注意力、刺激和信息量少的环境，比如没有声音的安静房间。一次谈话只讲一个问题，确认他明白后再讲下一个。</p> 
+ <p>　　q：我的孩子没有朋友，常常一个人呆在家里，怎么办呢？</p> 
+ <p>　　a：你的孩子很可能自尊心受到伤害，丧失了自信。可以告诉孩子“你的性格就是这样”，“这并不是你的责任”，强调这两点让他不至于陷入自我厌恶的局面，并鼓励他过集体生活。同时，向老师和同学家长进行说明</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>，寻求他们的支持。</p> 
+ <p>　　病因</p> 
+ <p>　　q：注意力缺乏的原因是什么？</p> 
+ <p>　　a：目前没有一个绝对肯定的原因。有研究认为主要是因脑内缺乏某种化学物质或新陈代谢异常，影响了集中和专注能力。幼儿脑部铅中毒或胎儿在母体中受到感染，也可能引发此症。</p> 
+ <p>　　q：注意力缺乏会遗传吗？</p> 
+ <p>　　a：研究显示，注意力缺乏可能有遗传因素，父母中一方有此异常，孩子有一半可能也有。</p> 
+ <p>　　q：营养不足会不会导致注意力缺乏？</p> 
+ <p>　　a：不会，目前还没有任何科学依据证明注意力缺乏与饮食有关。但是，对于成长中的孩子来说，均衡的营养无论何时都是必须的。</p> 
+ <p>　　q：孩子缺乏注意力，与教育方法有关系吗？</p> 
+ <p>　　a：没有关系。注意力缺乏的孩子单靠管教是治不好的，只能说，症状的程度会因教育方法而改变。</p> 
+ <p>　　治疗方法</p> 
+ <p>　　q：孩子出现什么症状后必须去医院就诊？</p> 
+ <p>　　a：当孩子在2个以上场合出现多动和注意力不集中现象，明显不适应集体生活，被同学疏远，老师提出这个孩子很难应付，他自己也为此烦恼消沉时，就是带孩子去医院的时机了。</p> 
+ <p>　　q：有没有专门治疗adhd的医院？</p> 
+ <p>　　a：目前还没有。可带孩子到小儿科的神经、心理部门或精神科的小儿部门就诊。</p> 
+ <p>　　q：去医院就诊时要注意哪些事项？</p> 
+ <p>　　a：事先多搜集孩子在家、在园的不适应表现，尽可能详细地向医生描述孩子的具体症状。</p> 
+ <p>　　q：有什么治疗adhd的特效药吗？长期使用有无副作用？</p> 
+ <p>　　a：目前使用最广的药是利他林(ritalin)，可以安全有效地减轻adhd的症状，但长期服用易引起失眠和食欲不振，还有极少的易刺激性和头痛。</p> 
+ <p>　　q：有没有药物以外的治疗方法？</p> 
+ <p>　　a：行为治疗，即对父母和老师进行教育，训练孩子的生活习惯和思维能力。临床观察和实验表明，这种方法能够起到一定的效果。</p> 
+ <p>　　q：是不是越早接受治疗越好？</p> 
+ <p>　　a：不是。只有当孩子出现社会性不适应现象后，才有进行诊断和治疗的必要。一般上小学是诊断时机的一个大致基准。</p> 
+ <p>　　q： 注意力缺乏是否长大后会自然痊愈？</p> 
+ <p>　　a：不会。随着孩子身心发育以及社会经验的累积，进入青春期后症状一般会减轻，也有部分患者会持续到青少年甚至成人阶段。</p> 
+ <p>　　家庭对策</p> 
+ <p>　　q：要不要告诉孩子他得了adhd呢？</p> 
+ <p>　　a：孩子被贴上“调皮鬼”的标签，自己也会闷闷不乐。父母就必须用他容易接受的说法让他了解，“你的性格就是比别人易动、坐立不安”，同时鼓励他为了弥补“性格上的差异”，付出比别人多的努力。</p> 
+ <p>　　q：孩子在家根本不做作业，怎么办才好？</p> 
+ <p>　　a：如果是孩子忘了有作业，可以做一本家园联系册提醒他记下作业内容；如果是作业太难做不了，则需要为孩子联系老师进行补习；如果孩子集中不了注意力，就有必要找一间刺激少、安静的房间，父母坐在旁边督阵了。</p> 
+ <p>　　q：孩子实在不听话，我常常忍不住动手打他，怎么办呢？</p> 
+ <p>　　a：深呼吸，告诉自己“冷静”，努力理解孩子不受控制的所作所为。别对孩子期望太多，纠正他错误的行为是必要的，但这也不对，那也不对，限制太多只会让大家都痛苦不堪。</p> 
+ <p>　　q：在表扬和批评孩子时，要注意些什么？</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　a：表扬不能光靠语言，而要给孩子看得见的奖励，如贴五角星、买糖果等；批评没有用处，但孩子会随着训练逐渐学会自控，因此，说“加油，试试看”对孩子很重要。</p> 
+ <p>　　q：有什么能让孩子集中注意力、控制情绪的好办法吗？</p> 
+ <p>　　a：没有什么妙招可以立竿见影。日常生活中，一般采取表扬和劝告相结合的对策，鼓励孩子做出父母期望的行为。如果症状过于明显，建议服药治疗。</p> 
+ <p>　　q：为了让孩子掌握基本的生活习惯，我该怎么做呢？</p> 
+ <p>　　a：四个字：以身作则。发动家庭所有成员作好表率，严格遵守就寝时间和起床时间，饮食规律，帮助孩子养成良好的生活习惯。</p> 
+ <p>　　q：究竟应该对孩子严厉一点还是宽松一点呢？</p> 
+ <p>　　a：首先要明白：孩子不是故意丢三落四，而是障碍引起的。因此，对孩子错误的行为说“no”很重要，对正确的行为表示赞赏更为重要。</p> 
+ <p>　　幼儿园应对</p> 
+ <p>　　q：我的孩子能不能上幼儿园？ </p> 
+ <p>　　a：完全可以。adhd的孩子在幼儿园里生活，并不会造成特别大的问题。如果孩子入园后产生不适应了，可以与老师沟通，麻烦她多关心一下。</p> 
+ <p>　　q：我的孩子被老师建议去特殊班级，怎么办？</p> 
+ <p>　　a：如果孩子症状特别激烈，危及其他孩子的生活，有必要考虑特殊班级这一建议。一般情况下，建议在普通班学习为好。</p> 
+ <p>　　q：怎样才能得到老师和同学家长的理解呢？</p> 
+ <p>　　a：客观地向老师和家长说明病症和治疗方法，提供相关内容的书籍。尤其注意避免说出“精神病的一种”、“有遗传性”、“服用类似兴奋剂的药物”等字眼，以免引起误解。</p> 
+ <p>　　q：孩子不听话，连老师也没有办法，我该怎么办呢？</p> 
+ <p>　　a：尝试把孩子是adhd的情况告诉老师，取得老师的理解和配合，然后把从医生那里得到的建议向老师说明，在座位的安排、分小组时的对手安排等方面予以照顾。</p> 
+ <p>　　q：孩子在幼儿园不好好听课，学习落下了很多，需要为孩子请一位家庭老师吗？</p> 
+ <p>　　a：这是个不错的选择！因为一对一的教育方法有较强的管制力，对adhd孩子最合适，赶上学习中落下的差距也能给孩子自信。</p> 
+ <p>　　q：被老师体罚后，孩子受了严重的打击，我怎么办呢？</p> 
+ <p>　　a：体罚有百害而无一利，父母在开导孩子，防止他出现自责之外，应以此为契机，取得老师对该病的理解与配合，切不可敌视老师。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/127382">小儿脉搏正确测试法</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" >婴儿喂养</A>
+				<A href="/static/menu/sm/yyhl/1" class='thisclass'>婴儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/127755">给宝宝选推车该注意些什么</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127754">尿布小常识</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127753">选择衣物　0-1岁</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127752">让宝宝内衣贴身更贴心</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127751">为10－12月的宝宝选衣服</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"128488"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

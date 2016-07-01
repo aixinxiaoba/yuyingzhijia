@@ -1,0 +1,524 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>细心父母会犯的危险错误-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/128664"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/yyhl/1">婴儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=159" rel="nofollow">婴儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					细心父母会犯的危险错误
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-07-01 00:12:29</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　经过仔细挑选，你买了一辆安全性能很好的家庭用车。开车时，如果带着孩子，你总是先为孩子系好安全带，然后才开始上路。这是很好的习惯，也是非常聪明的做法。但这足以保护孩子不受到伤害了吗？似乎还不够。原因是，你不可能完全避免汽车相撞事故，一些交通事故是由于别的汽车司机引起的。 由于各种原因，开车时你会不经意地将孩子置于各种危险之中。下面这些让人深思的故事说明，车祸是可以轻易地在一瞬间发生的――即使是当你认为孩子是“安全”的时候。</p> 
+ <p>　　<strong>“我只是让孩子单独呆在车内几分钟”</strong></p> 
+ <p>　　对于去年发生的事情，常敏至今懊悔不已。那天，她带着3岁的儿子去看望母亲，吃完晚饭后准备回家。为了确保没有忘带什么东西，她想迅速回去检查一下，于是，她把车停在车道上，让儿子呆在汽车里。可是，就在她离开的短短5分钟时间内，小男孩发现了汽车变速杆。出于好奇，他将变速杆拉到2档位置。此时，车的前门大开着。</p> 
+ <p>　　当汽车开始动起来时，孩子失去了平衡，摔出车外。结果是，头部严重受伤。常敏后悔莫及：“身为父母，我一直努力做到安全驾驶，然而，我却不知道孩子是绝不能单独留在车内的。”</p> 
+ <p><strong>　　惊人的事实一：</strong></p> 
+ <p>　　不少年轻父母认为，短暂地把孩子留在车内，应该问题不大。然而，这其实是非常危险的。将孩子单独留在车内引起的事故，除了孩子将车发动之外，还包括孩子被点火器烧伤、被车窗夹伤、被后备箱卡住，这些都是致命的。</p> 
+ <p>　<strong>　聪明而安全的做法：</strong></p> 
+ <p>　　* 无论车钥匙是否拔掉，千万不要将孩子单独留在车里，即使只是很短的时间。</p> 
+ <p>　　* 将车钥匙保管好，放在一个孩子拿不到的安全地方。因为孩子常会留意父母做的事，他知道钥匙是干什么的，以及怎样使用钥匙。</p> 
+ <p>　　* 不用车时，一定要记住将车锁上。</p> 
+ <p>　<strong>　“没想到，矿泉水瓶砸伤了我的宝宝”</strong></p> 
+ <p>　　小吉是一位细心的母亲，每次开车带1岁半的女儿喃喃外出时，她总是把女儿放在安全座椅上并系好安全带。然而，有一次，意想不到的事情却发生了。为了躲避前方的一个突然出现的行人，小吉紧急转向，车撞到路边的一棵大树上。尽管，小喃喃还一直在她的安全座椅中。但是，车后座头枕后方的几个矿泉水瓶惹了大祸：在碰撞中，这个装满水的矿泉水瓶砸到了喃喃的头部。小吉说：“当我知道是矿泉水瓶使女儿受伤时，我都惊呆了。我从来没有想到，一个矿泉水瓶会是如此危险。真是万幸，如果是个工具箱或是其他更危险的东西，那后果简直无法想像！”</p> 
+ <p><strong>　　惊人的事实二：</strong></p> 
+ <p>　　大多数人并不知道汽车相撞的力量。如果你开车的时速达到每小时35公里，在这样的速度下发生汽车相撞时，车内的所有东西还会以每小时35公里的时速运动，直到它们击中某物――你或孩子。统计数据表明，在汽车相撞事故中受伤的孩子，有15%是因为车内的东西击中他们而受伤的。这些东西包括没有固定住的任何东西，比如小装饰物，甚至小狗。</p> 
+ <p>　　<strong>聪明而安全的做法：</strong></p> 
+ <p>　　* 备一个汽车旅行箱，用它来装车内杂物。</p> 
+ <p>　　* 不要让小狗和孩子同时坐在车后座上。</p> 
+ <p>　<strong>　“我没有使用儿童安全增高椅”</strong></p> 
+ <p>　　洋洋4岁时，爸爸特意为她换了一个儿童安全增高椅。洋洋快5岁时，爸爸觉得她已经足够大了，可以不必再使用增高椅了。</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>&gt; </p>
+ <p>　　前几天，幼儿园放假了，洋洋的爸爸开车带她去看望住在郊区的奶奶。开车前，爸爸将洋洋安排在后座中央，并给她系了安全带。洋洋的爸爸说：“我以为会万无一失，因为我记得曾经有人告诉过我，小孩坐在后座中央位置最安全。”</p> 
+ <p>　　几个小时后，他们的车被一个醉酒司机迎面撞上。事故发生时，洋洋坐在后座正中位置，这个位置只有一条横向安全带。这条安全带对她来说太大了，她的上半身没有被安全带束住，而且正好勒住洋洋的腹部，造成了严重的消化道创伤。可怜的洋洋，在今后的日子里，不得不经常地出入医院，通过静脉注入她所需要的营养物质。</p> 
+ <p><strong>　　惊人的事实三：</strong></p> 
+ <p>　　尽管，后座中央位置最安全，但前提是孩子佩戴了合适的安全带。遗憾的是，车内的标准安全带并不是为孩子设计的。小孩只系一条横向安全带会更加危险，当孩子的头部撞向他的膝盖或车前座后面时，只使用一条横向安全带(孩子会觉得肩带不舒服而将它推向背后)很容易受伤。</p> 
+ <p>　<strong>　聪明而安全的做法：</strong></p> 
+ <p>　　* 体重15～36千克的孩子必须使用增高椅，增高椅能将孩子抬高，这样，安全带才能束住他的肩部和髋部。</p> 
+ <p>　　* 青少年以及成人也应该随时系好横向安全带和肩带。</p> 
+ <p>　　<strong>“我在车内喂宝宝”</strong></p> 
+ <p>　　周末，陆丽全家开车去郊外游玩，在返回的路上，3岁的女儿妞妞哭闹了起来。无论陆丽怎么安慰，女儿还是哭泣不止。于是，她只好将女儿从安全座椅中抱出来，搂在怀里面，哄着拍着。几分钟后，正当陆丽准备将女儿放回安全座椅时，妞妞的爸爸因为一时大意与其他车辆发生了剐蹭。 &lt;<i>script</i> language=java<i>script</i>&gt;ad_dst = 0; 
+  <!--<i-->script&gt; &lt;<i>script</i> language=java<i>script</i>&gt;<i>document</i>.write(&quot;&quot;);ad_dst = ad_dst+1;
+  <!--<i-->script&gt; 而此时，她还没来得及为妞妞扣上安全带。还好有惊无险，没有人受伤。但陆丽记住了这个教训：“车在行驶时，一定要让孩子坐在安全座椅上，尽量不要将她抱出来。”</p> 
+ <p>　<strong>　惊人的事实四：</strong></p> 
+ <p>　　孩子坐车时不系安全带，在交通事故中通常会被抛起来，甚至甩出车外。孩子的身体会撞在车内的其他物体或人身上。更糟糕的是，当你试图抓住孩子时，你极有可能会挤压到孩子。</p> 
+ <p>　<strong>　聪明而安全的做法：</strong></p> 
+ <p>　　* 如果孩子饿了或哭闹不止，找一个安全的地方将车停好，然后再安慰孩子。不要仅仅将车停靠在路边，这是极易发生车祸的地带。</p> 
+ <p>　　* 永远不要抱着你的小孩坐在车前座！永远不要将婴儿安全座椅放在车前座上！撞车时释放出的安全气囊会是最大杀手。</p> 
+ <p>　　<strong>“我让孩子们坐在货车车厢里”</strong></p> 
+ <p>　　炎热的夏日，8岁的则凯和他的表弟雨晨想出去玩，于是，则凯的爸爸妈妈便开着家里的微型小货车，带着小哥俩出发了。则凯的爸爸开车，妈妈坐在副驾驶座位上，两个孩子则坐在小货车的车厢里。</p> 
+ <p>　　过十字路口时，他们的微型小货车突然被一辆飞驰着横穿路口的大卡车撞上。两个孩子一下子就被甩了出去，撞击力使微型小货车飞到了附近的工地。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>　　“当我爬出来的时候，则凯和雨晨正躺在地上尖叫着，全身都是擦伤的痕迹。” 则凯的妈妈痛苦地回忆道。则凯的头皮上嵌有很多小砂砾，医生用小镊子把它们一个一个地夹出来。而雨晨的一条腿骨折了，还有轻微脑震荡，脊椎也受了轻伤。</p> 
+ <p>　　在则凯家居住的县城里，孩子们坐在微型小货车的后面是再平常不过的事情了。则凯的妈妈说：“在发生事故之前，可能每个人都会认为：这种事情不会发生在我身上。不过，我劝大家最好不要这样想，永远不要抱有侥幸心理。”</p> 
+ <p><strong>　　惊人的事实五：</strong></p> 
+ <p>　　现在，公路上有许多微型小货车，发生像则凯一家那样的灾难非常普遍。但大多数人却不明白，坐在卡车后面非常容易受伤，甚至死亡。研究表明，任何地方，25%~65%的微型小货车所发生的事故并不是与汽车相撞造成的：急转弯、猛调头以及急刹车，照样可以导致事故发生。统计数据显示，与坐在小汽车内系着安全带的乘客相比，货车上的乘客因车祸死亡的人数要多出8倍。</p> 
+ <p><strong>　　聪明的安全做法：</strong></p> 
+ <p>　　唯一的预防方法是，不要让你的孩子坐在货车车厢内，因为孩子并不是货物。</p> 
+ <p>　<strong>　“打手机让我分心”</strong></p> 
+ <p>　　下班后，胡丽娜开着车准备去接女儿。半路上，她突然想起来还有件重要的事没处理完，她想应该马上通知一下老公，让他去接女儿。于是，她拿起放在副驾驶座位上的手机，开始拨电话号码。正当她准备左转弯时，在她右边行驶的一辆SUV重型卡车快速插到她行驶的车道上。胡丽娜迅速急踩刹车，SUV重型卡车与她的车擦身而过。尽管她没受伤，但她的车牌照却被那辆车像撕纸一样撕了下来。</p> 
+ <p>　　胡丽娜的心狂跳不止。这时，她才意识到是刚才的电话让她分心太多，以致于她转弯时没来得及仔细看清楚情况。她望望身旁的空座位，倒吸了一口冷气，心想：如果女儿坐在车里，真不知会怎么样？</p> 
+ <p><strong>　　惊人的事实六：</strong></p> 
+ <p>　　现在，手机非常普及，开车时打手机的现象也很普遍。然而，美国和欧洲的研究表明，开车时打电话的习惯会大大增加撞车的危险，这种危险可达到400%。开车时打电话使司机的反应能力降低，而且会让司机的注意力转移，这就是为什么打电话导致的汽车相撞事件，几乎总是在司机就要转弯时或来不及停车时发生。这样引起的后果是十分可怕的。</p> 
+ <p><strong>　　聪明而安全的做法：</strong></p> 
+ <p>　　* 如果你有急事，一定先将车停到安全的地方后再打电话。</p> 
+ <p>　　* 不要被手机的耳机欺骗。耳机看起来似乎使开车打电话变得安全些，但实际上，拨电话号码时，你的眼睛还是得往下看才行。而且，电话交谈引起的分心也是主要危险因素。</p>
+ <sohumpbanner>
+  <mp1 /> 
+  <p></p> 
+  <p></p> 
+  <p><strong></strong></p>
+  <p></p>
+ </sohumpbanner>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/128491">冬季，不宜给宝宝常泡脚</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" >婴儿喂养</A>
+				<A href="/static/menu/sm/yyhl/1" class='thisclass'>婴儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/127755">给宝宝选推车该注意些什么</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127754">尿布小常识</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127753">选择衣物　0-1岁</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127752">让宝宝内衣贴身更贴心</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127751">为10－12月的宝宝选衣服</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"128664"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

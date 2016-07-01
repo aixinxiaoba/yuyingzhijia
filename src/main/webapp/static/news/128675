@@ -1,0 +1,476 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>宝贝哭声的真实意思表示-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/128675"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/yyhl/1">婴儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=159" rel="nofollow">婴儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					宝贝哭声的真实意思表示
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-07-01 00:13:06</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p>&nbsp;&nbsp;&nbsp;&nbsp; 如果我们把新生儿的每一次哭声都精确记录和计算的话，他们每天大约要哭3个小时。吃惊吗？你是否想过你的宝贝会哭这么久？他们当然不是一次把哭的时间用完的，他们每一次的哭声也不是在诉说着同一件事，如果你听不懂也没关系，毕竟这种语言太难了，你需要花些时间来学习。<br />1、“我饿了，快开饭吧！”<br />&nbsp;&nbsp;&nbsp;&nbsp; 在出生后的头3周里，大部分健康新生儿的哭是因为饥饿，而且大部分新妈妈听到宝贝哭声的第一反应也是赶紧喂奶。只要含上乳头或奶嘴，小家伙马上就安静下来，露出急不可待的样子。<br />&nbsp;&nbsp;&nbsp;&nbsp; 饿哭的典型“声音效果”是，低音调，有节奏，而且重复着一定的模式：先短促哭一声，然后有个停顿，再短哭一声，再停顿，就像在说“饿――饿――”一样，直到被妈妈抱起来喂奶，哭声才停止。<br />&nbsp;&nbsp;&nbsp;&nbsp; 如果此时婴儿同时张开嘴向四周寻觅，一旦有人抱他，马上把嘴扎到怀里，直奔主题，这也可以帮助判断宝贝是否因饥饿而哭。<br />2、“我太累了，快让我睡吧！”<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;累了就睡是婴儿大多数时间的本能反应，而且也不需要太多的安抚，他们很快就能睡着。劳累（真不知道他们怎么会劳累）的宝贝会打哈欠，揉眼睛，如果你没有发现他的这些暗示，还是一相情愿地哄他，逗他、抱他，那可就不妙了，宝贝大发脾气在所难免，谁让你不识实务呢。<br />&nbsp;&nbsp;&nbsp;&nbsp; 因为疲劳而发出的哭声很难让人想到他只是想睡觉，因为这种哭声一般很强烈，而且像花腔一样还带着颤抖和跳跃，此时最明智的做法是赶紧让周围安静下来，把他放到小床上，拍拍他，让他尽快入睡。<br />&nbsp;&nbsp;&nbsp;&nbsp; 宝贝越疲劳，他就越不容易安静下来，抗议的哭声也就越强烈。所以，照顾宝宝时，要全神贯注地观察他的一举一动，一旦发现他想睡觉的信号，就别再逗他开心了，否则只能好心办错事。<br />3、“我就想让你抱着我！”<br />&nbsp;&nbsp;&nbsp;&nbsp; 难道宝贝大哭只是想让你抱着他？太有可能了，这是那些比较“磨人”的宝宝的惯用手段。正哭得热闹的宝宝刚被抱起来就停止了哭泣，像音响开关一样有效，那就说明他或许需要皮肤与皮肤的接近。毕竟在长达9个多月的时间里，宝贝一直在一个温暖狭小的空间里生活，也许他还在怀念妈妈子宫里的幸福生活呢，外面的世界虽然很精彩，但那不是他熟悉的世界，适应还要慢慢来。<br />&nbsp;&nbsp;&nbsp;&nbsp; 有一些婴儿需要比其他宝宝更多地被抱着，也许你会觉得很累，但换个角度想，你还得到了比其他母亲更多的与宝贝亲近的机会呢。在宝宝3个月以内，你也不必担心这样做会宠坏他，他只不过是喜欢听到妈妈的声音，听到熟悉的心跳声，闻到妈妈的味道，这太正常了。<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 但有一点需要提醒的是，即使比较缠人的宝贝，也会在要求被抱的次数和频率上有所改变，也许上次他哭是想抱，而下次却是想让你放下他。很多婴儿哭是因为他想改变现状，你抱起他或放下他之后，看看他是否能安静下来，如果他不哭了，那就说明你做对了。<br />4、“真难受，快给我换尿布吧！”<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;婴儿对脏尿布的忍耐程度是有个体差异性的，有的宝宝会在第一时间让你知道出状况了，他需要“场地清洁服务”，也有的宝宝对这些小小的不适根本不放在心上，只要他的小屁股不红不肿不痒不痛，你稍微晚点换尿布没什么关系，要知道，很多情况下，真正更在意的是父母而不是宝宝，照顾不周会让父母有一种负疚感</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>，这比宝宝的脏尿布还让人不舒服。无论如何，这种需求很容易发现和满足，只要打开看看，一切全都明了了。<br />5、“太冷（热）了，我很不舒服！”<br />&nbsp;&nbsp;&nbsp;&nbsp; 新生儿喜欢身体暖暖的感觉，这和他们在妈妈肚子里的感觉一样舒服。用正常体温的手去摸摸宝贝的耳朵、脖子和鼻子等露在外面的部位，可以帮助判断宝贝的衣被是否合适。如果他的脖子和耳朵后面有汗，那是太热了，如果这些地方很凉，他很可能不够温暖，需要添加衣被。<br />&nbsp;&nbsp;&nbsp;&nbsp; 婴儿通常需要比成人多穿一层衣服，如果你在换尿布或者给他脱衣服准备洗澡时，他突然大哭，也许是他不喜欢被晾在外面，你需要学习更熟练地换尿布和穿脱衣服，以减少他暴露在空气中的时间。<br />&nbsp;&nbsp;&nbsp;&nbsp; 同冷相比，婴儿对热的抱怨不像成人那么直接，所以要注意别给他穿过多衣服，出汗也会让他不舒服。<br />6、“这儿太乱了，我受不了了！”<br />&nbsp;&nbsp;&nbsp;&nbsp; 如果宝贝的哭声里带着烦躁不安的情绪，你该看看是不是周围环境里的刺激太强了，比如强烈的灯光、嘈杂的声音、突然的移动或者只是你在抱他时摇动的幅度太大了。如果是这样，先尽可能地让周围的环境平静下来，把灯光调暗，让屋子里的声音降低，减小手臂的摆动幅度等。先让他躺在床上发泄一会儿，然后看看能否把他哄着。<br />&nbsp;&nbsp;&nbsp;&nbsp; 那些比较敏感的宝宝会倾向于有规律的生活，尝试建立一个日常作息时间表，努力使每天的喂奶、洗澡、散步、睡觉时间固定下来，这可以让他们更安心。<br />7、“快来陪我玩会儿吧！”<br />&nbsp;&nbsp;&nbsp;&nbsp; 为什么有的婴儿可以很长时间独自躺在自己的小床上不哭不闹，而有的婴儿却几乎不能离开人？那些比较警觉的宝宝有更强烈的与人交往的愿望。即使只有6周大，婴儿也有感到无聊的时候，他用低声的啜泣来告诉你，他需要看见你，或者需要换个环境。<br />&nbsp;&nbsp;&nbsp;&nbsp; 轻轻哼唱熟悉的歌或是让床头吊挂玩具转起来，能有效地安慰他，甚至有时你只要把他抱到另一个地方躺着，他也能高兴起来，因为他能看到不同的“风景”了。<br />8、“有什么东西伤到我了！”<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一般情况下，剧烈和大声的哭喊是因为宝贝的身体感到疼痛，而不是因为饥饿或疲劳。如果你听到宝贝突然尖声哭闹，就要马上检查是什么让他不舒服或受伤了。看看是否床栏卡住了他的腿或脚，是否有头发或线头缠住了他的脚趾使血液流通不畅了，或者有灰尘迷住了眼睛很难受等等。在确认没有问题后，适当地安慰安慰他，等他情绪稳定了再离开。<br />9、“我身体很不舒服！”<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果宝贝因为身体生病而不舒服地哭泣，和他平时的哭声是不一样的。大多数父母在此时能够本能地知道有什么地方出差错了。生病后，婴儿的哭声通常是虚弱地呜咽，而且表现得无精打睬、食欲不振，同时还可能有呕吐、腹泻、发烧等症状，这就需要抓紧时间去看医生了。<br />也有的孩子因为得了疝气而哭闹的时间比较长，并且不容易安慰，这就需要你付出更多的耐心和努力来度过这艰难的时间了。<br />&nbsp;&nbsp;&nbsp;&nbsp;</p> 
+ <p>&nbsp;&nbsp;&nbsp; &nbsp;面对啼哭的宝贝，还能做什么：<br />1、&nbsp;把他包起来抱住：</p> 
+ <p>&nbsp;&nbsp;&nbsp;&nbsp; 新生儿喜欢温暖和安全的感觉，就像在妈妈子宫中一样，因此可以用一个小毯子把他包起来抱在怀里。也有少数婴儿不喜欢襁褓，而是更喜欢有节奏的运</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>动或妈妈的奶头。<br />2、&nbsp;给他听有节奏的声音：</p> 
+ <p>&nbsp;&nbsp;&nbsp;&nbsp; 新生儿对心跳的声音很熟悉和习惯，那也是他们为什么喜欢被抱着的原因。你可以为他放一只轻音乐，或者他熟悉的胎教音乐，也可以轻声哼唱摇篮曲。<br />3、&nbsp;让他身体处在运动状态：</p> 
+ <p>&nbsp;&nbsp;&nbsp;&nbsp; 带着你的宝贝在屋子里转来转去，也能让他安静下来。或者把他放在摇蓝里轻轻摇动，或者开车带着他出去转一圈，你可以找到适合你们的方式。<br />4、&nbsp;揉揉他的肚子：</p> 
+ <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;轻轻按摩婴儿的后背或腹部，是许多妈妈最经常做的安抚宝贝的方式。特别是对那些因患疝气而肚子胀痛的婴儿比较有效。<br />5、&nbsp;照顾好你自己：</p> 
+ <p>&nbsp;&nbsp;&nbsp;&nbsp; 照顾一个哭泣的宝宝是容易让人紧张不安、心烦意乱的，但注意不要把你的情绪 带到你的孩子面前，如果你很焦虑，有一种失败感，婴儿可能会察觉你的感受，从而哭得更厉害了。若想照顾好宝宝，先要照顾好你自己。保证充足的睡眠、均衡的饮食，甚至偶尔给自己放一个假，让别人帮你照看半天宝宝，都有助于你振奋精神，保持快乐心态，从而也给你的宝宝一个微笑的理由。<br />如果你确信宝宝的需求已经被满足了，他没有不适没有受伤，而且你努力了半天还是没能让他平静下来，就是你考虑自己心态的时候了：<br />&nbsp;&nbsp;&nbsp;&nbsp; *放下你的宝贝，让他自己哭一会儿；<br />&nbsp;&nbsp;&nbsp;&nbsp; *打电话给你信任的有经验的亲友，看看她有什么建议；<br />&nbsp;&nbsp;&nbsp;&nbsp; *让别人帮你照看孩子，你找个方式透口气；<br />&nbsp;&nbsp;&nbsp;&nbsp; *放一些你喜欢的音乐来减轻压力；<br />&nbsp;&nbsp;&nbsp;&nbsp; *做几下深呼吸；<br />&nbsp;&nbsp;&nbsp;&nbsp; *提醒自己宝贝一切都好，而且哭不会伤害他；<br />*反复对自己说“这很快就会过去”；<br /></p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/128491">冬季，不宜给宝宝常泡脚</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" >婴儿喂养</A>
+				<A href="/static/menu/sm/yyhl/1" class='thisclass'>婴儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/127755">给宝宝选推车该注意些什么</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127754">尿布小常识</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127753">选择衣物　0-1岁</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127752">让宝宝内衣贴身更贴心</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127751">为10－12月的宝宝选衣服</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"128675"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

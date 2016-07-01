@@ -1,0 +1,578 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>把特别的爱给特别地带-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/128174"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/yyhl/1">婴儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=159" rel="nofollow">婴儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					把特别的爱给特别地带
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-30 23:22:23</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> 　　你的宝宝是男孩还是女孩，你能从容不迫地对待敏感地带出现的各种状况吗？ </p>
+ <p>　　<b>敏感地带之男宝宝</b></p> 
+ <p>　　敏感地带组成：&#xfffd;G丸、包皮、阴茎以及阴囊</p> 
+ <p>　　小花絮</p> 
+ <p>　　“我家宝宝经常在地上爬，有时候能看见有小毛毛粘在小鸡鸡上，我都是晚上洗澡时，往上推一推，用水冲一冲，好像翻不上去，怕宝宝痛，也不敢翻了，我想等宝宝大一点的时候带他去看医生。”</p> 
+ <p>　　――小微妈妈</p> 
+ <p>　　“我家宝宝现在刚刚1岁，洗澡时那个部位要不要翻开来洗？我弄不好，怕他疼，老公说还早，以后再说。那到底什么时候适宜翻开来洗？”</p> 
+ <p>　　――北京小妈</p> 
+ <p>　　“宝宝刚满月的时候，我就给他翻过来洗了，还真是有些白白的皮屑似的东西，不知道这个要不要也洗掉还是宝宝自身分泌的有益菌群，帮助杀菌的，不能随便洗掉的？”</p> 
+ <p>　　――羊羊妈妈</p> 
+ <p>　　“我给孩子洗屁屁时尝试着翻上去洗，可是没见到效果，不知要翻成什么样子，宝宝还一个劲地咯咯笑，他爸爸也笑了，弄得我都不好意思翻了。”</p> 
+ <p>　　――亦亦妈</p> 
+ <p>　　正确清洁方法：</p> 
+ <p>　　清洗时，妈妈用右手的拇指和食指轻轻捏着阴茎的中段，朝孩子腹壁方向轻柔地向后推包皮，让龟头和冠状沟完全露出来，再轻轻地用温水清洗。由于孩子的龟头平时都被包皮遮盖，所以龟头的黏膜很娇嫩，对外界触觉非常敏感，因此要用毛巾浸着温水轻轻地洗，水温不能太高，手势不能太重，否则会产生不适感。洗后要注意把包皮回复原位。</p> 
+ <p>　　过度刺激生殖器</p> 
+ <p>　　用温水冲洗孩子的生殖器，生殖器受到刺激，勃起、跳动，孩子也会随之发出咯咯的笑声，家长见孩子笑了，故意延长冲洗时间，这是不可取的。</p> 
+ <p>　　生殖器受热膨胀、尿道张开，可使泌尿系统感染，出现小便不正常的现象。孩子经常想尿却又尿不出来。还有更严重的是，过度刺激生殖器，会激惹孩子性倾向的活跃导致性的早熟。</p> 
+ <p>　　最易出现的8种状况</p> 
+ <p>　　包皮</p> 
+ <p>　　Tips</p> 
+ <p>　　包皮垢：宝宝出生后不久，包皮下方的龟头黏膜上皮细胞脱落以及冠状沟附近腺体分泌物混杂在一起，常常会在包皮上方形成一层白色的污垢，称为包皮垢，通常我们隔着包皮隐约可见或摸到一些白色小硬块，就是包皮垢。</p> 
+ <p>　　小男孩出生不久后，阴茎头就会出现尿垢，加上包皮垢，都会混合一些很有害的细菌，这些对生殖器的发育和健康是不利的，若不及时清理时常会导致龟头或冠状沟发炎。因此，家长应该经常给孩子清洗外生殖器。</p> 
+ <p>　　包皮：包皮位于男孩“小鸡鸡”的前端。仔细观察，你会发现皮肤在龟头部位形成双层皱褶，如同一件“夹层皮衣”，内层的皮肤叫做内板，外层皮肤即叫做包皮。两层皮肤将龟头包裹，在终端收成一个小口，叫做包皮口。</p> 
+ <p>　　包皮太长或太紧：龟头被包皮紧包，无法露出时就是包皮太长或太紧。大部份小男生都有这种现象，所以在儿童时期包皮太长或太紧但没有其它症状时，可以不急于治疗。</p> 
+ <p>　　包皮发炎：包皮炎症的多发时期出现在小鸡鸡的龟头快要露出却又没有完全露出的尴尬时候。几乎所有的男孩子在这个时期或轻或重都会有发炎的状况。</p> 
+ <p>　　在男孩子小的时候包皮将小鸡鸡包得好好的，通常不会有包皮炎症的情况发生。但随着男孩渐渐成长，包皮慢慢的与龟头分离，龟头就会有直接与外界接触的机会，细菌也会有机会进入包皮与龟头之间的空隙。这时，又因孩子的包皮尚未与龟头完全分开，无法清洗干净从而引起发炎。包皮的发炎会引起包</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>皮及周围地区的红肿、疼痛，严重时会流脓、小便困难及引起泌尿系统感染。发炎过的包皮常会一再发炎。</p> 
+ <p>　　急性发炎时以1：5000高锰酸钾溶液浸泡，早晚2次，或以棉签沾1：1000新洁而灭轻拭渗液，小便后要多冲洗，如有发热等全身症状时需服用或注射抗生素。经常发炎，有包皮过长或包茎可考虑割包皮，但事先必须征得医生的同意。　　</p> 
+ <p>　　箝顿包皮：包皮退回到冠状沟后，无法回到正常位置，且被固定住了，导致静脉血流不畅，发生水肿，孩子会感到龟头剧痛。</p> 
+ <p>　　如果爸妈发现得较早，可以使用润滑剂将包皮推回正常位置，如发现得晚，情况严重则必须去医院就医。</p> 
+ <p>　　包皮开口狭窄</p> 
+ <p>　　“我家宝宝尿尿时包皮前端会暂时被尿撑鼓出一个小包，尿完就没有了，其他方面也都很正常，这是否是正常的？”――东东妈</p> 
+ <p>　　包皮如果经常发炎，会使包皮开口处黏连，导致狭窄。狭窄可能是先天性的，也可能是长期发炎所引起的。你会看到孩子小便时包皮前端鼓出一个小包，小便完后仍会滴尿，内裤常有尿迹。</p> 
+ <p>　　可考虑把包皮开口撑开或割包皮，但记得要遵医嘱。</p> 
+ <p>　　阴囊</p> 
+ <p>　　阴囊里有肿块？ </p> 
+ <p>　　如果你在触摸孩子阴囊时发现有包块(睾丸除外)：</p> 
+ <p>　　可能是阴囊水肿。有些一出生就有，大多会在孩子6―12个月大时恢复正常。如水肿明显，张力高，则需就医。</p> 
+ <p>　　检测方法：家长可将室内灯光调暗，用手电筒照射肿胀的部位，如果透光则是阴囊水肿。</p> 
+ <p>　　可能是“疝气”。 用上述检测方法，若没有透光则为疝气。必须就医治疗。</p> 
+ <p>　　可能是睾丸或附睾结核。此时须及时就医，不可延误。 </p> 
+ <p>　　阴囊的护理</p> 
+ <p>　　　阴囊的“职责”是保护睾丸。当外界炎热时，阴囊皮肤变得壁薄如纸，加强散热；而当外界变冷时，阴囊皮肤立刻收缩呈橘皮状，起保温作用，目的是使阴囊内始终保持在33℃的恒温状态，此温度最适合于睾丸“生活”。 </p> 
+ <p>　　不要把孩子的阴部包裹得太紧(如穿紧身裤等)。</p> 
+ <p>　　不用高温热水洗澡，特别不可让孩子在高于33℃的热水里长时间浸泡，以免损害睾丸的产精功能。</p> 
+ <p>　　睾丸</p> 
+ <p>　　隐睾症：孩子出生3个月后，阴囊内仍是空的，就应诊断为隐睾症。隐睾症将导致精子不能产生，成年后还会丧失生育能力，甚至癌变，危及生命，所以治疗必须及时，2岁以内必须施行手术。</p> 
+ <p>　　<b>敏感地带之女宝宝</b></p> 
+ <p>　　敏感地带组成：子宫、卵巢、阴道、阴蒂</p> 
+ <p>　　小花絮：</p> 
+ <p>　　“我家宝宝2岁大了，晚上给她洗屁屁的时候，有时会发现一些白白的东西，周围也不发红，不知道这些白色的东西是什么？清洗的时候该注意些什么？”</p> 
+ <p>　　如果不伴有阴道周围红肿、痛、痒等异常症状，这种白色的东西可能为正常的阴道分泌物，也可能为尿垢，当然也需要及时清洗。</p> 
+ <p>　　――佳佳妈</p> 
+ <p>　　正确清洁方法：</p> 
+ <p>　　将阴唇分开，用凉开水冲洗。</p> 
+ <p>　　用蘸润肤油的棉签由上至下轻轻擦拭分泌物。，再用清水将润肤油冲洗掉。(适宜月龄较小的宝宝)</p> 
+ <p>　　这是每个女宝宝都会分泌的自洁物质，用不着特别清洗。</p> 
+ <p>　　用温开水反复冲洗。同男宝宝一样，过度刺激孩子的生殖器会导致性早熟。</p> 
+ <p>　　最易出现的3种状况</p> 
+ <p>　　婴幼儿外阴炎：外阴</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>、阴蒂、尿道口及阴道口粘膜充血、水肿、并有脓性分泌物。内裤上经常有脓性干痂形成，或有稀水样的痕迹，外阴发红、水肿，甚至皮肤剥脱。局部有抓痕、出血等现象。小阴唇粘连，尿流变细。</p> 
+ <p>　　婴幼儿阴道炎：外阴阴道瘙痒，阴道分泌物增多，可见宝宝经常挠其私处。</p> 
+ <p>　　婴幼儿外阴炎、阴道炎预防措施</p> 
+ <p>　　婴儿期(0―1岁)幼儿期(1―3岁)</p> 
+ <p>　　预防措施&#xfffd;~保持外阴清洁和干燥。</p> 
+ <p>　　尿布选择纯棉质地；不出门的时候最好不用尿不湿。</p> 
+ <p>　　小便后及时更换尿布，每天坚持清洗外阴1―2次，并轻轻拭干阴唇及皮肤皱褶处。擦洗时要注意自上而下拭净尿道口、阴道口及肛门周围。皮肤如有皲裂，应涂擦无刺激性的润肤油。最后在外阴及腹股沟处薄而均匀地扑上爽身粉，以保持干燥。扑粉不宜过多。&#xfffd;~尽量不让孩子在地板上坐卧。</p> 
+ <p>　　尽早穿死裆裤，不穿紧身裤、化纤的高筒袜。</p> 
+ <p>　　小便后，用柔软卫生纸拭擦尿道口及周围，并注意小便的姿势，避免由前向后流入阴道。大便后应用清洁的卫生纸，由前方向后方擦拭，以免将粪渣拭进阴道内。</p> 
+ <p>　　浴盆、毛巾要专用。</p> 
+ <p>　　习惯性擦腿</p> 
+ <p>　　“我女儿8个月，最近发现她坐在婴儿车和婴儿餐桌里时会出现双腿蹬直、全身紧张的样子，是什么原因呢？”</p> 
+ <p>　　有的专家称这种行为是“习惯性擦腿”，最多发生在女孩子身上。造成这种行为的原因是快感的而不是性感的。一开始是偶然的，渐渐就变成了习惯，因为这样做能得到快乐。</p> 
+ <p>　　帮你纠正：</p> 
+ <p>　　孩子的衣服要宽松，保持会阴部的清洁。清洗的时候水不要太冷也不要太热，以免刺激这个部分引起夹腿的兴趣。</p> 
+ <p>　　当孩子做夹腿动作时，可以转移她的注意力，不要揪住她的行为直接批评。</p> 
+ <p>　　安排丰富的生活，尽量避免孩子有长的时间独处。</p> 
+ <p>　　尽量不要让她赖床。</p> 
+ <p>　　男女有别</p> 
+ <p>　　入厕练习(目标对象：男宝宝)</p> 
+ <p>　　在对男宝宝进行排尿训练时，最好能有男性的模仿对象指导，让宝宝模仿着去做。也可以玩一些小游戏，在宝宝在游戏中学会站立排尿。</p> 
+ <p>　　示范练习1：</p> 
+ <p>　　让宝宝和爸爸一起进入厕所，让宝宝观察爸爸的举动，并告诉宝宝为什么要这样做。</p> 
+ <p>　　示范练习2：</p> 
+ <p>　　让一个年龄稍大的男孩(如7岁)带宝宝去卫生间小便，教宝宝怎么做。 </p> 
+ <p>　　示范练习3：</p> 
+ <p>　　妈妈直接教宝宝怎么站着小便，手把手指导宝宝完成整个过程。 </p> 
+ <p>　　在训练男孩站着小便时，关键点是孩子脱下裤子至大腿中部，分开两腿，掏出小鸡鸡，小便时不淋湿衣裤，并排便入坑即可。一般孩子教一两遍就会。</p> 
+ <p>　　性认识(目标对象：男女宝宝)</p> 
+ <p>　　0―1岁半 爱的感情教育</p> 
+ <p>　　新生儿出生后，男婴可有自发性阴茎勃起，女婴偶尔有阴道分泌物，这都是最初的性</p> 
+ <p>　　表现，婴儿的性满足是肌肤亲近时所体现出的舒适感。优美的环境及父母的爱抚，如喂奶时婴儿的小嘴与母亲的乳头接触，拥抱抚摸婴儿的皮肤，亲吻婴儿的小手小脸等都是不可少的。通过身体、目光等的接触，宝宝与父母建立密切的情感关系。</p> 
+ <p>　　1―2岁半 男女有别</p> 
+ <p>　　一岁半左右的宝宝开始对他(她)的生殖器感到好奇，可以开始教导他(她)对性别的认识了，不过千万不要复杂化了小宝宝的想法。仅</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>仅让他(她)知道，他(她)是男生还是女生就够了。知道一些男性、女性表面上的区别(如女孩有长发、穿花衣服，男孩站着小便)。</p> 
+ <p>　　示范练习：</p> 
+ <p>　　和教宝宝认识手、脸、眼、耳、鼻等一样，在洗澡时教宝宝认识肚脐、性器官等，告诉他(她)，“我是小小男子汉”或“我是漂亮的小女生”。“宝宝跟妈妈一样是女的。”或“宝宝跟爸爸一样是男子汗。”</p> 
+ <p>　　2岁半―3岁半 回答提问</p> 
+ <p>　　这时期的孩子对各种事物都感到新鲜、好奇，求知欲强，遇到不明白的事就要问，爸</p> 
+ <p>　　爸妈妈应该从正面作出简单的回答。</p> 
+ <p>　　示范练习：</p> 
+ <p>　　“为什么男孩子可以站着小便？”</p> 
+ <p>　　“小便的地方叫尿道，男孩的尿道在小JJ上，露在外面，可以掏出来的，所以要站着</p> 
+ <p>　　小便，而女孩的尿道在身体里面，不露在外面，如果站着小便的话会弄湿裤子，所以要蹲着或坐着小便。”</p> 
+ <p>　　安全教育(目标对象：男女宝宝)　</p> 
+ <p>　　当宝宝2岁以后，父母就有必要对宝宝进行安全教育。</p> 
+ <p>　　教育宝宝除了露在外的手外，其他部位(包括脸)不要让他人随意触摸，除了主要照顾者以外都不可触摸，包括近亲。除了主要照顾者以外都不可触摸，包括近亲。　</p> 
+ <p>　　示范练习：</p> 
+ <p>　　在给孩子洗澡或洗屁股时，妈妈可以有意碰一下宝宝的光屁股，让他(她)产生一点痛感，此时告诉孩子：“妈妈已很小心了，你还觉得痛。”，等衣裤穿好后，再碰一下宝宝的屁股，问孩子：“这下你没痛吧？”，孩子回答“不痛”后，妈妈乘势告诉宝宝“手直接碰到身上会很痛，隔着衣服就不会痛，如果其他人把手伸到你衣服里，直接碰到你身上，肯定比妈妈碰得更痛，你以后不要让其他人伸手到你衣服里摸你。”<br /> </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/127382">小儿脉搏正确测试法</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" >婴儿喂养</A>
+				<A href="/static/menu/sm/yyhl/1" class='thisclass'>婴儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/127755">给宝宝选推车该注意些什么</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127754">尿布小常识</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127753">选择衣物　0-1岁</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127752">让宝宝内衣贴身更贴心</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127751">为10－12月的宝宝选衣服</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"128174"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

@@ -1,0 +1,468 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>我的宝宝学走路啦-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/128603"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/yyhl/1">婴儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=159" rel="nofollow">婴儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					我的宝宝学走路啦
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-07-01 00:07:19</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p>一般来说，大部分周岁的宝宝已经会独站，被爸妈牵着手时也能走上几步，15个月时宝宝能独自走路很稳，但由于环境和抚养方式等因素的影响，相同年龄宝宝的动作发育并不完全一样，有的发育快一点，有的则慢一点。一些爸妈看着同龄的宝宝都已经纷纷开步行走，在草地上、花坛边玩得很是开心，而自己宝宝却还是紧紧依偎在身边不肯挪步，或是不肯下地，或是无法让爸妈轻松放手，心里头真是着急呢。<br /><br /><b>行走是长大的标志</b><br /><br />当宝宝开步行走之时，也是他长大的一个标志，他可以移动脚步去任何想去的地方。行走的宝宝可以更方便地接触物体，宝宝活动范围也更开阔了。<br /><br />10-11个月的宝宝自己能扶着东西行走，但从扶着行走到独立行走，常需要爸妈积极训练。<br />有一些小器具，可以帮宝宝顺利地行走。这些合适的辅助品，宝宝借助它们行走起来可是事半功倍呢。<br /><br /><u>借助学步带</u><br /><br />学步带是一种系住宝宝双肩和前胸的宽带子，爸妈可以将另一端捏住，并且可以自由调整和宝宝之间的长度，不用时时拉着宝宝的手臂，爸妈由此轻松解脱一只手哦。只是有时候，需要注意学步带的松紧。爸妈也可以用牢固的长布条或窄长毛巾代替学步带。<br /><br /><u>扶栏、扶家具和扶墙行走是独走的开始</u><br /><br />可千万不要小看宝宝扶墙、扶家具慢慢移动身体哦，它是宝宝行走的开始呢。虽然独自站立还不稳当，但通过脚步的挪移，手脚和身体的配合，宝宝的平衡感正不断得到提升呢。<br /><br /><u>推推小车走得快</u><br /><br />推推小车，让宝宝和小推车一起向前走，这也是锻炼宝宝行走的一个好方法。<br /><br />让宝宝站在小推车的后面，两只小手抓稳当，开始时爸妈可以通过掌控推车扶手来控制小推车前进的速度，等宝宝熟练以后，爸妈就可以放手让宝宝自己推小车哦。<br /><br />爸妈还可以教宝宝在碰到障碍的时候将小推车朝后，再进行转弯以避开障碍。相信宝宝的能力吧，他会很快掌握的。<br /><br /><u>玩具也能帮宝宝行走</u><br /><br />有些玩具可以为宝宝的行走助力，如一些品牌玩具就提供相应的学行车，它们有着非常可爱的造型，融坐车与学步于一体，宝宝坐着时可以锻炼腿部肌肉，这是学行车的一个重要特点，而等到宝宝会走之后，学行车所附的拉杆与音乐等又吸引宝宝走得更快更好。<br />此外，拖拉玩具也可以吸引宝宝，锻炼他行走或倒退。<br /><br /><u>过去很流行的学步车专家觉得帮助不大</u><br /><br />学步车曾经是很多爸妈的最爱，但是儿保医生现在认为，学步车对训练宝宝走路没有帮助，而且也不安全。新手爸妈在条件许可的状况下，最好还是考虑用其他辅助工具，让宝宝能够更安全学习走路。<br /><br /><b>爸妈帮助起大作用</b><br /><br />在宝宝的行走过程中，爸妈的帮助起着很大的作用，不管是心理暗示、语言鼓励还是实际的辅助，都将让宝宝早点开步哦。<br /><br /><u>爸妈一方扶腋下</u><br /><br />爸妈一方扶住宝宝的腋窝，让宝宝的双脚踏在爸妈的脚背上，让宝宝随爸妈一起走路，这样也减少了爸妈牵拉宝宝双臂的力量。过一个阶段，则可以让宝宝的双脚踏在地上，逐步向地面走路过渡哦。<br /><br /><u>爸妈面对面鼓励宝宝开步走</u><br /><br />爸爸和妈妈离开一定距离，这个距离视宝宝实际可走的路程而定。让宝宝离开一方的手臂保护，另一方则用欢迎的形式迎接宝宝，开始可以只隔几步远，逐渐地，爸妈就可以拉开距离喽。看着宝宝跌跌撞撞地向你走来，爸妈可不要动不动就去抱住宝宝哦。<br /><br /><u>用语言、表情、拍手、拥抱鼓励宝宝</u><br /><br />给宝宝信心，让宝宝不再胆小、勇敢向前迈步，时时给宝宝鼓励就很重要。<br /><br />当宝宝不敢向前走的时候，你一定要用诸如“宝宝，你过来吧”</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>、“妈妈在这里等着你”等言语加上微笑的表情和张开双臂努力迎接宝宝的姿势，让宝宝乐于向你走近。<br /><br />宝宝走到目的地了，要拍拍手表明他做得很好；也可以抱住他再拍拍他，让宝宝感觉到你对他的重要性；还要用言语“宝宝，你做得真好”、“宝宝，你真棒”、“真是个好宝宝”等来激励他；对他微笑，宝宝也会很高兴地笑出声的。时间长了，你会发现宝宝对自己的行为也会很满意，他还会学着拍手称赞鼓励自己呢。<br /><br /><b>营养要全面 健康不生病</b><br /><br />营养在宝宝的成长发育中占据重要地位，充足、合理的营养给宝宝的身体注入活力，宝宝的肌肉发育良好，大动作的发展才会顺畅哦。<br /><br />所以，每天必须保证一定份量的奶制品，而品种丰富的辅食则又给宝宝带来更多营养素，细心、精心为宝宝准备好每一餐，也是爸妈特别要做的呢。<br /><br />除充足的营养外，身体健康不常生病的宝宝自然发育较快较好，学起走路来也可能比常生病的宝宝快。宝宝一生病，身体虚弱需要休息少活动，当然就会使一些动作发展滞后啦。所以好好照顾宝宝，别让他被病魔袭击到哦。<br /><br /><b>让宝宝安全行走</b><br /><br />行走的宝宝比爬行的宝宝更容易受伤害，膝盖、手肘容易因为身体失重，触地摩擦而“挂彩”，头部会因为撞击而“长”出包包，这些部位需要爸妈特别“关照”。<br /><br />所以，当宝宝开始学走路、爱上走路之后，不要让宝宝远离你的视线；要避开湿滑的地面，注意路上的障碍物；小心家具边边角角的潜在危险；不让宝宝进入厨房；别让抽水马桶成为宝宝爱玩的宝贝；尖锐物品、器具尽量放置到宝宝够不着的地方，药品或细小用品也要妥善藏好；容易拉下的盖布、桌布上不要放置其他物品，以免宝宝将两者同时拉下而被物品砸伤；烫手的食物也不要让宝宝碰到；在宝宝行走之时不要喂他食物，以免呛住喉咙。<br /><br />给宝宝一个安全行走的环境，爸妈要做的有很多呢。<br /><br />经过爸妈和宝宝的共同努力，宝宝肯定能够迈开大步，用自己的双脚边走边看体会这个精彩的世界。<br /><br /><b>宝宝走路Q和A</b> <br /><br />走路跌跌撞撞怎么办，早走晚走有什么关系？……爸妈的问题很多呢。<br /><br />关于宝宝学走路的各种疑问，我们为您来一一解答哦。<br /><br />Q1.早走路好吗？<br /><br />A不能纯粹地说早走路好或不好，如果宝宝的身材比较轻盈灵巧，那么早些走路不会对宝宝有多大影响。而如果宝宝还没有达到走路的月龄段，但爸妈希望宝宝早走路的心情又比较迫切，很早就训练宝宝学步，那对宝宝的腿脚发育是不利的。<br /><br />Q2.不经爬行直接走路？<br /><br />A现在的观点是，如果宝宝缺少爬行的锻炼，宝宝不会因此而不聪明，但对他的大动作发育<br />将可能起到延迟作用。<br /><br />宝宝的爬行促进他的大脑发育，特别是对剖宫产的宝宝，更能促进他的前庭发育。<br /><br />Q3.头大、肥胖宝宝走路晚？<br /><br />A小年龄宝宝的脑袋和上身相对都比较大和沉重，头围较大和体重较胖的宝宝更是如此，所以这样的宝宝走路晚也是很正常的。遵循宝宝自身的发育进程，控制宝宝的体重，就不必太过于担心。爸妈对头围较大的宝宝更不能过于心急，要多听取儿保医生的意见。<br /><br />Q4.为学步宝宝选择鞋子要注意什么？<br /><br />A为宝宝准备一双合适的鞋子也能为宝宝顺利行走加分。鞋子除了要合季节之外，还要合脚。鞋码表示的是鞋底长度，鞋内长度才是宝宝的实际脚长，宝宝的脚长得很快，鞋子要比宝宝的脚长12、13毫米才比较合适。鞋的底子要硬一些，宝宝走路着力会更好，鞋面是棉料或皮质的，宝宝的脚才不会被捂着不透气。<br /><br />买鞋要试才知道合不合脚，带宝宝到买鞋处亲自试一下，鞋子应该可以轻松穿脱，还能放入1个手指头，或脚趾头处留出1手指宽的位置。<br /><br /></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>Q5.除了鞋子之外，对于学走路的宝宝，在衣服上也需要特别注意什么吗？<br /><br />A如果把宝宝裹得像个“粽子”一样，或衣服不合身，宝宝拔步也不会轻松自如。所以选择宽松舒适的衣服能让宝宝在不受束缚的状况下学着走路。<br /><br />衣服的领口、边及下摆应该不能勒着宝宝的皮肤，连身衣服要容易穿脱，因为宝宝一活动起来非常容易出汗，所以衣服需要经常更换。上下分开的衣服，裤子的腰头要松紧合适，否则宝宝的小肚肚上准会起一圈红红的勒印。<br /><br />爸妈喜欢给小宝宝穿开裆裤，但女宝宝最好要穿上尿不湿，而季节寒冷时，还是给宝宝穿上满裆裤吧。<br /><br />Q6.走路时腿是弯的怎么办？<br /><br />A这是一种生理现象，通常会逐渐消失。但如果爸妈过早训练宝宝走路，宝宝的下肢还没有强壮到可以支撑自己身体的程度，极易形成“外八字”，可能以后真的就会发生腿弯弯的情形哦。<br /><br />Q7.宝宝为什么一走就走不停？<br /><br />A这和宝宝会站时一站就站很长时间有点类似，宝宝可能不知道怎样让自己停下来。爸妈要当心宝宝别被障碍物给绊倒了，也许过不了几天，宝宝发现停下来再走走，感觉会更好些呢。<br /><br />Q8.宝宝走路跌跌撞撞的，让我们好担心。而且宝宝走路看起来像蟹行，一个肩膀还是耸着的，有什么问题吗？<br /><br />A宝宝刚开始学走路，当然是不稳当的啦。他要控制自己的身体平衡，所以看起来是有些侧着行走的，双手会举起，有时肩膀也会耸起。但只要宝宝的步伐并不是歪歪斜斜地失去方向，没办法到达目的地，爸妈就不用太过于担心。而如果宝宝一直无法控制好自己的行走方向，爸妈则要考虑带宝宝就诊。<br /><br />Q9.宝宝会走后，每天要不要给他限定一个时间，以免太累？<br /><br />A不需要。宝宝如果觉得累了的话，他自己会表现出来的，如蹲下来不愿意再站立，或者索性就坐在了地上；如果爸妈牵宝宝的手让宝宝行走，宝宝也会转回来抱住爸妈的两腿，而不再向前走呢。多给宝宝走路的机会，让他去探索更多的世界。<br /> </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/128491">冬季，不宜给宝宝常泡脚</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" >婴儿喂养</A>
+				<A href="/static/menu/sm/yyhl/1" class='thisclass'>婴儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/127755">给宝宝选推车该注意些什么</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127754">尿布小常识</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127753">选择衣物　0-1岁</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127752">让宝宝内衣贴身更贴心</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127751">为10－12月的宝宝选衣服</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"128603"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

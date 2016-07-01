@@ -1,0 +1,457 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>口腔及消化器官的疾病-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/129387"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/yyhl/1">婴儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=159" rel="nofollow">婴儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					口腔及消化器官的疾病
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-07-01 23:13:02</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p><u>(1)鹅口疮</u><br /> <br /> ①原因：<br /> <br /> 由白色念珠菌感染所致，主要出现口内黏膜，３个月的乳儿及营养失调的宝宝，最容易发生。<br /> <br /> ②症状：<br /> <br /> 舌头、脸颊、牙床、上颚等口内黏膜附着白色小斑点，严重的会形成一层薄膜，如果勉强剥落，会出血，身体较弱的宝宝，可能延伸至喉咙深处或食道附近。<br /> <br /> ③治疗与护理：<br /> <br /> 涂抹１％的龙胆紫非常有效，如果无效可服用制霉菌素。但如果营养欠佳时，难以治愈，因此应注意身体健康。<br /> <br /> 受到污染的奶嘴也会感染，所以妈妈的手指必须洗净，奶瓶的奶嘴也要消毒。<br /> <br /> <u>(2)地图舌</u><br /> <br /> 乳儿的舌面出现地图状的斑纹，不会疼痛，也没有其他症状，称地图舌，致病的原因不明，<br /> 可认为是属于体质性的反应。<br /> <br /> 不需要特殊的治疗，病程较久，有的可长达数年。<br /> <br /> <u>(3)口角炎</u><br /> <br /> ①原因与症状：常发生于婴幼儿、学童的口腔，口角形成龟裂、发红、结痂、张口会感到疼痛，碰到辛辣与热食也会疼痛。<br /> <br /> 不仅是口角周围，也会扩展肛门周围或手臂皮肤，主要原因是缺乏维生素Ｂ２、维生素Ｃ，营养不良及胃肠不好的宝宝也会出现。<br /> <br /> ②治疗：服用维生素Ｂ２或复合维生素，也可用硝酸银棒触摸局部，然后涂上１０％的硼砂、甘油。<br /> <br /> <u>(4)口腔炎</u><br /> <br /> ①原因：口中都含有许多细菌，由于黏膜抵抗力强，可防止细菌入侵，但是若体力衰退、营养不良，就容易感染。<br /> <br /> 致病菌有病毒、真菌、细菌、螺旋体，其他如维生素不足(尤其是维生素Ｂ２或维生素Ｃ)或口腔黏膜受到种种刺激，过敏也可能致病。<br /> <br /> ②症状：由疱疹病毒所引起的口腔炎，会在唇舌、口腔黏膜形成多个水疱，迅速破裂后形成浅溃疡，周围略带红色，从１～２个发展到无数个，一触摸就非常疼痛，无法进食。<br /> <br /> 细菌性口腔炎，会使口腔黏膜完全充血、发红且疼痛，伴有多个溃疡又称溃疡性口腔炎。有<br /> 强烈的口臭，局部淋巴结肿大、口腔黏膜或牙周会流血。<br /> <br /> 情况严重时，口腔肌肉及骨头都会受到腐蚀，或为坏疽性口腔炎。<br /> <br /> ③治疗与护理：可在患部涂上１％～２％的龙胆紫及硼砂、甘油，疼痛剧烈可加上镇痛剂，此外一天当中服用４次抗生素，也可擦拭抗生素软膏，注射维生素Ｂ６、维生素Ｃ。<br /> <br /> 最好进食刺激少、较软的食物，例如蒸蛋、豆腐，温度适中，味道应淡。流食更为合适，也可把牛奶加热至适当温度，以补充营养。<br /> <br /> 如果连液体都无法进食，则需住院接受点滴注射。<br /> <br /> <u>(5)兔唇与腭裂</u><br /> <br /> ①原因：胎儿在８～９周后，上颚骨的根基左右融合在一起，融合不完全，口唇会裂开(兔唇)或是腭部有洞(腭裂)。大约每４００～５００个宝宝中，就有一个属于此例，未必是遗传，如果家族中曾有此例，那么出生此畸形儿的比率就较高。<br /> <br /> 双亲有一方为兔唇，孩子出现同一畸形的危险率，兔唇为２％，腭裂为７％。<br /> <br /> 正常夫妇生下兔唇宝宝，则下一个宝宝出现兔唇的危险率为２％。<br /> <br /> ②症状：兔唇的程度不仅限于口唇，甚至达到上颌，或是破裂的情形到达鼻孔。<br /> <br /> 有时候腭裂可能单独发生，大部分都伴有兔唇，也可能只局限于硬腭和软腭部分。<br /> <br /> 兔唇及腭裂会引起哺乳困难。<br /> <br /> ③治疗与护理：<br /> <br /> 哺乳：兔唇和腭裂最令人困扰的是授乳问题，由于其吸奶方式十分笨拙，几乎无法吸到奶水<br /> ，此时可采用细管通入鼻孔哺育牛奶，若一直采用此法，则无法让宝宝具独自吸奶的能力，<br /> 因此最好能加以训练。可以加大奶嘴的孔，市面上有售有适于患儿使用的奶嘴。<br /> <br /> 宝宝的哺乳适应力是相当惊人的，即使是严重的腭裂，也能巧妙地吸奶，但是最重要的，还<br /> 是从新生儿开始训练，太迟的话，会影响哺乳。<br /> <br /> 手术：兔唇最好在出生后３个月进行手术，腭裂手术，则在１年半后进行，手术后，必须训<br /> 练其发音。<br /> <br /> <u>(6)舌系带短</u><br /> <br /> 舌的下部与下颌部是由舌系带连接，舌系带太短，舌头无法吐向前方，容易发生哺乳困难或语言障碍。<br /> <br /> 大部分在乳儿期就切断，即使不理会，也不会形成问题，只有在舌头无法吐向前方时，才切<br /> 断。<br /> <br /> <u>(7)先天性肥厚性幽门狭窄</u><br /> <br /> ①原因与症状：胃的幽门部肌肉先天性较厚，所以会发生通过障碍，哺乳后，会像喷水般呕吐，致病原因不明。<br /> <br /> 从出生后２～３周起，开始出现症状，呈进行性加重，几乎每次喂奶后立即呕吐，因此无法<br /> 吸取营养，逐渐瘦弱。<br /> <br /> ②治疗：症状轻微时，可服用阿托品，少量多次地授乳，有的在４个月左右即可痊愈，一般都需外科手术。<br /> <br /> (8)肠套叠<br /> <br /> ①原因：肠管的一部分及其系膜套入到邻近肠腔内，而发生肠闭塞，大都出现于出生后６个月到一岁半的宝宝，原因不明，很可能是由于肠道活动度大、肠蠕动节律紊乱所致。<br /> <br /> ②症状：突然激烈的哭泣，扭转挣扎身体，十分痛苦，而且脸色发青，精神欠佳，不会发烧，不久即呕吐，有便秘的倾向，有时候会排出少量的黏血便，由于肠套叠成香肠状，抚摸腹部，可感觉出腹部肿块。<br /> <br /> ③治疗：<br /> 早期发现是最重要的，太迟会有生命危险，如果宝宝突然哭泣、脸色发青，就必须就医。<br /> <br /> 治疗的方法是空气灌肠复位，若无效的话，则需进行外科手术。<br /> <br /> <u>(9)疝痛</u><br /> <br /> 体内的膜形成突出的带状，把器官一部分包裹起来，称疝痛，一般常见的是肠与腹膜一起突<br /> 出腹腔外，还有脐疝痛和鼠径疝痛。<br /> <br /> ①脐疝：<br /> <br /> 原因与症状：<br /> <br /> 主要是肠管从脐部向外突出，俗称突脐，乳儿期如果有脐疝，通常在６个月或1年内会自然<br /> 痊愈，无须特别治疗。<br /> <br /> 治疗：<br /> <br /> 突出严重时必须手术，在６个月到１年之间，最好先观察情形，如果１年后，仍然突出，则最迟在进入幼儿园或小学前进行手术。<br /> <br /> ②腹股沟疝：<br /> <br /> 原因与症状：<br /> <br /> 大腿的根部称腹股沟部，肠管脱出于此处，形成肿块，或在阴囊、阴唇处出现肿块，而使阴<br /> 囊加大，俗称脱肠。<br /> <br /> 只要挤压就会进入腹部，不过有时候却无法将其压入，这是因为肠突出于腹股沟部的小孔中<br /> ，而无法恢复。肠壁的血管受到压迫，使血液无法流动，长时间会造成肠坏死，非常危险，<br /> 必须立即接受手术。<br /> <br /> 治疗与护理：<br /> <br /> 发生腹股沟疝痛时，最普通的方法就是轻轻加以压回，如果无法恢复，可使用热敷，或使其<br /> 含住奶嘴，再轻轻压回，若仍无法完成，就必须接受诊疗。<br /> <br /> 经常发生疝痛是相当扰人的，除了轻微症状外，很少会自然痊愈，所以大部分的小儿外科医<br /> 生会在患儿乳儿期给其做手术，手术的方法十分简单，不必担心。<br /> <br /> <u>(10)先天性胆道闭锁症</u><br /> <br /> ①原因：肝脏生产的胆汁，经由胆管送达十二指肠，若胆管发生先天性闭锁，胆汁的排泄既而受阻，就会发生此病。胆汁无法到达肠部，滞留在胆管内或肝脏内，而引起肝脏功能障碍。<br /> <br /> ②症状：从出生后２周起，会出现黄疸，情况逐渐严重，这是由于胆汁滞留，血中胆红素增高，在２～３个月内，黄疸逐渐加强，使肝脏受到损害，而发生肝硬变。<br /> <br /> 由于胆汁无法流至肠部，所以粪便为白色。<br /> <br /> ③治疗：可以手术治疗。<br /> <br /> <u>(11)肝炎</u><br /> <br /> ①原因：有传染性肝炎和血清肝炎。<br /> <br /> 肝炎前者是由肝炎病毒引起的，由患者粪便经由口部传染，２～６周的潜伏期过后，就会发病，称甲型肝炎。<br /> <br /> 后者也是肝炎病毒引起的，接触患者血液而受感染(例如输血)，潜伏期为９～１０周，称乙型肝炎。乙型肝炎患者中，有些在外表上完全没有症状，却可成为带菌者，有些则在妊娠分娩时，传给宝宝，所以所以应特别重视。<br /> <br /> ②症状：甲型肝炎最初有发烧、头痛、食欲不振、呕吐、腹痛等症状，数天后出现黄疸，肝脏肿胀、疼痛、肝机能降低，大部分２～３周后痊愈，有时候，也会转变为肝硬化。<br /> <br /> 乙型肝炎一般属慢性，很可能转为肝硬化，而且有许多是无症状的患者。<br /> <br /> ③治疗与护理：注意安静与饮食，疾病初期缺乏食欲，应供给脂肪少易消化的蛋白质以及维生素、富含热量的食物。无法进食时，可注射葡萄糖、维生素。待有食欲后，就供给高蛋白食物。<br /> <br /> 乙型肝炎容易变成慢性，必须经常检查肝功能，加以控制。<br /> <br /> <u>(12)婴幼儿腹泻症</u><br /> <br /> 腹泻与感冒是婴幼儿最易发生的疾病，腹泻是指排便次数多，呈水状，不过单纯的水状软便<br /> 并不是痢疾，痢疾是指粪便呈黏液脓血样具有腐臭味。<br /> <br /> ①婴儿腹泻：<br /> <br /> 原因：婴幼儿腹泻可由消化不良或感冒引起，此外也可能是由于大肠杆菌，直接在肠内发生感染。喂养不当或气候因素也可能致病。<br /> <br /> 症状：腹泻为主要症状，粪便呈水或泥状，黏液多、味道酸臭，次数也增多。大多伴有高烧、呕吐，若起因是由于感冒，咽部会发红或咳嗽，精神、食欲不振。<br /> <br /> 呕吐、腹泻严重时，会形成脱水症，体重大为降低，皮肤弹力下降、呈干燥状，而且出现面部发紫、手脚冰冷等循环障碍，甚至意识不清，发生惊厥。<br /> <br /> 治疗与护理：可以进食时，尽量供给水分，由于大量呕吐，可以少量多次供给糖盐水，若脱水严重，需要通过输液补充水分。<br /> <br /> 依照病情决定饮食，最初不可供给任何食品，甚至在呕吐未消失前，等病情好转后，再逐渐进食，如果是轻微消化不良，只要限制牛奶次数即可。<br /> <br /> 为了控制细菌感染，可使用抗生素，腹泻过久，可服用止泻药。<br /> <br /> ②过敏性腹泻：<br /> <br /> 吃了特定的食物后会腹泻或呕吐时，可能是由食物引起的过敏。<br /> <br /> 早期的牛奶过敏是从出生后１～２个星期左右开始不断腹泻或呕吐，而最常发生过敏是在开<br /> 始吃鸡蛋等辅食的时候。<br /> <br /> 不过，宝宝由于消化系统尚未成熟，常会引起消化不良而腹泻，并且由于天生分解牛奶成分<br /> 的酵母素少，常会引起腹泻、呕吐、腹痛，因此腹泻或呕吐不一定是由过敏引起的。<br /> <br /> 觉得食物是引起腹泻的原因时，要每天写进餐日记观察宝宝的情形。如果知道是由食物引起的过敏，就少吃这种食物或看情形暂时完全不吃。<br /> <br /> <br /> 本文由北京中山响沙图书发行中心授权摇篮网发表，未经许可，禁止转载<br /> </p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/128491">冬季，不宜给宝宝常泡脚</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" >婴儿喂养</A>
+				<A href="/static/menu/sm/yyhl/1" class='thisclass'>婴儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/127755">给宝宝选推车该注意些什么</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127754">尿布小常识</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127753">选择衣物　0-1岁</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127752">让宝宝内衣贴身更贴心</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127751">为10－12月的宝宝选衣服</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"129387"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>
