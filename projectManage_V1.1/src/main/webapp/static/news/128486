@@ -1,0 +1,501 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>宝宝的口水流不停-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/128486"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/yyhl/1">婴儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=159" rel="nofollow">婴儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					宝宝的口水流不停
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-30 23:59:21</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　　哎！孩子怎么老是在流口水，滴得到处湿答答，该不会是生病了吧？相信爸妈在帮他清理的同时，自然会有这样的疑问。大部分的家长会发现，孩子在3-4个月开始，会有口水增多的趋势，长大之后就会慢慢减少。这是正常的生理现象，并不需要特别的治疗，妈咪只需加强平日的清洁卫生就可以了。</p> 
+ <p>　　<strong>小宝贝成长记事</strong></p> 
+ <p>　　看到孩子口水流不停，家长不免有些抱怨。不过爸爸妈妈们要知道，这可是宝宝身体日渐成熟的过程哦！其实大人和小孩一样，口腔的唾液腺一天二十四小时都不断地在分泌唾液，只是成人吞咽功能较好，所以不会产生口水流出嘴巴的问题。相反地，宝宝的控制能力还没有完善，在过渡时期，难免会将口水滴得到处都是。基本上来说，这阶段口水多属于正常的生理现象，并没有其他不好的影响，所以家长不用过于担心。</p> 
+ <p>　　★唾液的重要性</p> 
+ <p>　　人的口腔内有三对共六条唾液腺：分别为耳下腺、舌下腺和颚下腺，全天随时在分泌唾液。口水的功用包括：1、润滑口腔。2、唾液中含有淀粉的消化酵素，可以将食物做初步的处理。3、清洁口腔，减少牙齿产生http://search.39.net/result.aspx?words=蛀牙&amp;stype=0&quot;&gt;蛀牙的机会。所以对成人和孩子而言，它都是不可或缺的存在。</p> 
+ <p>　　★3-4个月起口水大增</p> 
+ <p>　　宝宝自出生起，唾液腺的发育也同时展开。一开始，由于变化不大，所以口水量并不多。</p> 
+ <p>　　直到宝宝长到3-4个月大时，唾液腺的发育过程比之前要好，所以口水量大增，加上孩子口腔小、吞咽功能还没有发育完全，没有办法将口水全吞下去，以致于形成所谓的“口水流不停”的现象。有些孩子从两个月大起就一直流口水了，这是每个人发育情形不同的关系。</p> 
+ <p>　　平时我们不会特别感觉到口水弥漫，那是因为成人能够不定时地吞咽口水。 “吞咽”虽是人类与生俱来的本能，但在年幼的宝宝身上，却还不能获得完善的控制。当他专注某项事物，或是放松的时候，口水就会流出嘴角，家长看了当然会觉得宝宝的口水量多得惊人！</p> 
+ <p>　　4-6个月大时，是宝宝口水量最多的时期，家长要留意相关的清洁卫生工作，不让病菌有可趁之机！随着http://search.39.net/result.aspx?words=辅食&amp;stype=0&quot;&gt;辅食的加入，增加他吞咽、咀嚼的练习机会，孩子的控制能力也会越来越好。大部分的孩子在1-2岁时，口水流不停的情形就已经消失了。有些成长较快的孩子，则是在一岁前就会慢慢减少，不像之前那样滴得到处都是了！有人结束的时间早，有人结束的时间晚，只要在一定的范围内，都属正常，家长不必紧张兮兮，或是以此来评断自己的孩子乖不乖巧、聪不聪明。</p> 
+ <p>　　<strong>我的孩子健康吗？</strong></p> 
+ <p>　　每个孩子都是父母的心肝宝贝，只要宝宝稍一出现任何不了解的状况，都足以让父母担心个老半天。宝宝口水流不停，固然属于生理现象的一部分，但家长不免担心这会不会是潜在疾病的预兆？又有哪些判断的依据呢？</p> 
+ <p>　　★生理现象VS疾病预告</p> 
+ <p>　　如果是4-5个月大的宝宝，正值口水分泌旺盛的时候，家长可以再多观察一阵子，留意宝宝有没有其他的生理变化。如果宝宝一岁后，或是原本吞咽能力已经控制得不错了，突然口水又一直流，或是口水闻起来有异味，那么家长就要小心了！也许有其他口腔和感染疾病，使得他不吃奶或是口水再度泛滥成灾，这时妈咪就应该尽快带宝宝去求诊，让专业的医生来评估。医生会视个别症状，采取适合的治疗方式。值得庆幸的是，因急性感染所引起的流口水问题，经治疗过后，很快</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>就能恢复以往的健康哦！</p> 
+ <p>　　至于神经肌肉障碍者，易有生长发育迟缓的问题，也会出现流口水的问题，但会合并其他症状，并不只是单纯的流口水而已。通常会出现生长曲线落后、发展迟缓等明显可辨的症状，所以不算在此列。</p> 
+ <p>　　★引起口水流不停的感染疾病</p> 
+ <p>　　1、口腔发炎和咽喉炎</p> 
+ <p>　　引起口腔发炎和咽喉炎的原因有很多，这些急性感染的症状所引起的疼痛，导致孩子吞咽困难，口水流出嘴角。病人应按时服用医生开立的药物，并多休息，补充水分和营养。等症状缓解后，宝宝口水一直流的情况就能获得改善了。</p> 
+ <p>　　2、肠病毒</p> 
+ <p>　　肠病毒是一群病毒的总称，特别容易在春、夏和初秋肆虐。当儿童接触到病毒或没有症状但是带病毒者的口鼻分泌物，或是吃进受病毒的粪便所污染的食物，都会造成感染。值得注意的是，玩具也是儿童间常见的传染媒介，尤其是带毛的玩具，因常接触幼儿嘴巴，留有大量病毒，所以妈咪更要小心，清洁时也别遗漏了它们哦！</p> 
+ <p>　　3、鹅口疮：</p> 
+ <p>　　原本就存在于婴儿的嘴巴内的口腔念珠菌，在他抵抗力不足的时候，容易引发http://search.39.net/result.aspx?words=鹅口疮&amp;stype=0&quot;&gt;鹅口疮。而妈妈乳头和奶嘴不洁也是感染源之一。鹅口疮好发于3个月以下的宝宝。症状为口腔黏膜出现像奶渣一样的白色斑点，和吃东西时会产生疼痛感，使得宝宝因疼痛而抗拒吞咽动作，造成流口水和排斥喝奶的现象！宝宝除了需要接受治疗外，家长平日应将奶瓶、奶嘴彻底清洁消毒，并定时帮宝宝清洁口腔、补充营养、增强抵抗力。</p> 
+ <p>　　<strong>日常照顾面面观</strong></p> 
+ <p>　　口水流不停，也许不是大问题，但如果因清洁不当，而感染其他疾病，那可就得不偿失了！一些家长心想宝宝口水流不听，既然是成长时的必然现象，所以便置之不理，任宝宝的口水留在皮肤上，沾湿颈脖和衣服，甚至是边滴边玩，让宝宝反复和脏污为伴。这样的话，不仅宝宝会因身上湿湿粘粘的而觉得不舒服，而且时间一长，也容易引起各种疾病。</p> 
+ <p>　　家长在享受为人父母的喜悦时，别忘了同样要学习着怎样给小宝宝全方位的照顾。在他还需要爸爸妈妈陪伴的阶段里，给他妥善的呵护和一个清洁舒适的环境。以下是医生提供的日常照顾守则，可作为父母平日的参考哦！</p> 
+ <p>　　★维持身体和环境的清洁</p> 
+ <p>　　父母如果担心因口水而引发细菌感染，可在宝宝口水流出嘴角时，用纸巾轻轻擦拭干净。</p> 
+ <p>　　平时也可以让宝宝穿上防水的围兜，或是将小纱布巾系在宝宝的颈部、衣领处，当围兜和纱布巾脏了，妈咪再解下来清洗即可。这样一来，既可避免宝宝因口水流不停而患http://search.39.net/result.aspx?words=湿疹&amp;stype=0&quot;&gt;湿疹，又能减少更换衣服的频率，爸爸妈妈也不用疲于清洁宝宝口水弥漫的“现场”！此外，冬天天气寒冷，宝宝比较不会抗拒使用这些用品，这些是便宜又使用的照顾小帮手呢！</p> 
+ <p>　　★嘴唇周围的照护</p> 
+ <p>　　宝宝口水太多，又没有适时的清理，口水便会沿着嘴角，蔓延到下巴、脖子、前胸，造成湿疹和种种过敏反应。父母应先带着孩子给医生诊断，视个别症状开立适合的类固醇药膏。年幼的孩子喜欢东舔西舔，翻坐不停，为免发生误食药膏的意外，白天家长可先为他擦掉嘴角、身上的口水，然后晚上趁他睡着的时候，在患处擦上薄薄的一层药膏和凡士林，作为肌肤的防护膜，加速其痊愈的时间。</p> 
+ <p>　　★勤洗手、保健康</p> 
+ <p>　　妈咪除了注意宝宝的嘴角，也不能忽略他可爱的小</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>手哦！6-7个月大的宝宝，虽然还不能到处爬，但双手已经有一定的活动力了，常常会抓住身旁的东西，然后放到嘴巴乱咬一通，形成口水滴落玩具→玩具沾染地上灰尘→宝宝抓着玩具放在嘴巴的恶性循环，所以妈妈要勤替宝宝洗手，整理宝宝活动环境，并且定时把这些玩具大清洗一番！到了宝宝8-9月时，他会到处乱爬，随便乱抓东西，这时妈咪就要扩大家里的清洁范围。尤其是口水会相互传染，家中如果有一个以上的婴幼儿，彼此都需要再增加洗手的次数，确实做好环境卫生。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/127382">小儿脉搏正确测试法</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" >婴儿喂养</A>
+				<A href="/static/menu/sm/yyhl/1" class='thisclass'>婴儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/127755">给宝宝选推车该注意些什么</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127754">尿布小常识</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127753">选择衣物　0-1岁</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127752">让宝宝内衣贴身更贴心</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127751">为10－12月的宝宝选衣服</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"128486"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

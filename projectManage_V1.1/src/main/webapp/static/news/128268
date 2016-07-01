@@ -1,0 +1,469 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>帮宝贝杜绝家庭情绪污染-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/128268"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/yyhl/1">婴儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=159" rel="nofollow">婴儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					帮宝贝杜绝家庭情绪污染
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-30 23:28:25</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p>　　情绪污染主要是指坏情绪。现代医学指出：不良情绪会造成心态失衡，还会促发和加重许多疾病。在一个大家庭，主要家庭成员，如父母的情绪暗示性大；而非主要成员，如幼儿则相对小一些。&nbsp; <br /><br />　　家庭常见情绪污染源&nbsp; <br /><br />&nbsp; <br />&nbsp; <br />　　1.&nbsp;产后忧郁&nbsp; <br /><br />　　案例：&nbsp; <br /><br />　　宝贝刚过百天就病了，总是哭闹个不停，睡觉也不安稳，偶尔还会发低烧，妈咪带他到医院检查，各项指标都合格，就是查不出原因来。望着焦虑不安的妈咪，医生建议她去看看心理门诊。经过心理专家的测试，宝贝的“病”是被妈咪的不良情绪传染的。 <br /><br />　　原来妈咪产后情绪波动很大，又担心自己奶水不够，长期处在焦虑的状态下，尽管宝贝还小，但也能够受到妈咪影响，出现情绪问题等不良反应。&nbsp; <br /><br />　　分析：&nbsp; <br /><br />　　废气、烟尘会对大气造成污染，妈咪的不良情绪也会成为污染源，对孩子的健康造成危害。&nbsp;特别是刚刚生产完的新妈咪，由于担心奶水不够、劳累、家人关注度不够等诸多因素，容易产生忧郁的情绪。这种情绪会“传染”给宝贝，影响他们的健康。忧郁症的产妇照看的宝贝更容易生病。因为妈咪的不良情绪让宝贝产生消极情绪，抵抗力下降。&nbsp; <br /><br />　　解决方案：&nbsp; <br /><br />　　*&nbsp;给产妇更多关爱 <br /><br />　　家人、朋友，特别是爱人，应该给产妇更多的关心，不仅仅从生活上照料，更应该及时为她们排解心中的忧郁。&nbsp; <br /><br />　　*&nbsp;饮食调理 <br /><br />　　增加锰、镁、铁、维生素B6、维生素B2等营养素的摄取。粗粮、全麦、麦芽、核桃、花生、马铃薯、大豆、葵花子、新鲜绿叶蔬菜、海产品、蘑菇及动物肝等食物，含有以上多种缓解紧张和忧虑的营养素。&nbsp; <br /><br />　　*&nbsp;正确引导 <br /><br />　　如果出现较忧郁的症状，可求助于专业医生进行心理疏导。&nbsp; <br /><br />　　2.&nbsp;办公室情绪污染&nbsp; <br /><br />　　案例：&nbsp; <br /><br />　　小东的父母都在外企工作，压力大，工作任务重，2岁的小东哪里懂得大人的人情世故，不免会淘气。一次爸爸刚进门，小东就跑了过去，一个劲地嚷嚷：“爸爸，抱抱！”谁知道爸爸冲他大吼一声：“抱什么抱，爸爸累了！”小东一下子就愣了，不知道自己做错了什么事。&nbsp; <br /><br />　　过了几个月，爸爸因肚子剧痛进了急救室，发现得了胃溃疡，医生说这也跟他平日的情绪有很大的关系。&nbsp; <br /><br />　　分析：&nbsp; <br /><br />　　当人们走进办公室时的情绪是积极的稳定的，就会很快进入工作状态，不仅工作效率高，而且质量好，反之，因为压力、人际关系等因素导致情绪低落，则工作效率低，质量差。&nbsp; <br /><br />　　解决方案：&nbsp; <br /><br />　　*&nbsp;公私分明 <br /><br />　　不把工作的事情带回家，更不把情绪带回来。&nbsp; <br /><br />　　*&nbsp;积极工作 <br /><br />　　无论什么样的工作都要做好，不是为你的老板，而是为你自己。&nbsp; <br /><br />　　*&nbsp;主动工作 <br /><br />　　把握你自己的工作，而不让工作把握你。&nbsp; <br /><br />　　*&nbsp;时刻提醒 <br /><br />　　你真正的生活是和你的家人在一起。&nbsp; <br /><br />　　*&nbsp;适当发泄 <br /><br />　　如果心烦，跑、跳、吼、叫、撕纸都是很好的自我发泄方法。&nbsp; <br />
+  <br<></br<></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>&gt;　　3.&nbsp;群居心理症候&nbsp; <br /><br />　　案例： <br /><br />　　老张两口都退休好几年了，觉得自己辛苦带孙女，却没有得到儿子的感谢，心里很不平衡，自己那些老战友又不在身边，自然少了唠叨的对象，心里的火越攒越大，终于有一天暴发出来，可儿子还不服气，认为没有亏待二老。你来我往，越来越生气，现在家里连笑声都很少听见。儿子和媳妇也觉得越来越压抑。&nbsp; <br /><br />　　分析：&nbsp; <br /><br />　　很多家庭往往是三代同堂，不同年龄、不同经历、不同生活方式的人在一起，难免有所磕碰。而这种情绪会影响到一起居住的其他家庭成员。&nbsp; <br /><br />　　老年人由于身体器官的功能减退，心理调适能力也有所下降，易发生心理障碍及身心疾病。调查资料表明，不少老年人处于消极状态，有27%-40%的老人有抑郁及焦虑情绪，许多躯体疾病的发生都与心理因素有关，如胃病、高血压、心脏病等等。&nbsp; <br /><br />　　解决方案：&nbsp; <br /><br />　　*&nbsp;自我暗示 <br /><br />　　许多研究表明，高寿老人对自身健康状况的感觉都是非常好的，然而实际上高寿老人中有70%患有躯体疾病，做到有病治病，不过分担心和关注疾病的不良预后、药物副反应等。每天可以对自己说“我的身体很好，我很快乐”等暗示性话语。&nbsp; <br /><br />　　*&nbsp;自我价值 <br /><br />　　老有所为，充满乐观向上，开朗积极的情绪。可适当参加老年大学、社会公益活动，在社会活动中找到自我价值。大多数长寿老人都有强烈的自我价值意识，男性长寿老人尤其如此。&nbsp; <br /><br />　　*&nbsp;消除不安 <br /><br />　　老年人由于退休后的角色转变，经济收入相对减少，以及子女婚嫁离家，配偶或自己患病等因素，容易产生不安感。一项调查显示，百岁老人不安感较其他年龄段的老人少。消除不安感、愉快、轻松地度过每一天，有利于健康长寿。&nbsp; <br /><br />　　4.&nbsp;装修污染&nbsp; <br /><br />　　案例： <br /><br />　　自从3岁的小波搬进新家后，就特别爱发脾气，还时不时地搞点破坏。开始，妈咪以为他是因为离开原来的小朋友不高兴，也没太在意，可谁知道这脾气是越来越大。带到医院咨询了一下，医生给他化验，发现血铅含量超标严重。这跟他家装修的污染密不可分。&nbsp; <br /><br />　　分析：&nbsp; <br /><br />　　如果装修材料不环保，就容易造成污染，特别是铅，对于婴幼儿情绪的影响更大。铅中毒会造成儿童生长发育迟缓、情绪不稳定、攻击行为、注意力不集中等。此外，对儿童视力、听力、身高也有一定影响。&nbsp; <br /><br />　　一般装修材料中含铅较多，容易引起铅中毒。离地面1米左右位置，是空气中含铅浓度最高的，婴幼儿是铅中毒的易感人群。同时，像金属玩具、彩色积木、注塑玩具、印有图案的气球、图书画册等带有喷漆的玩具，也是引起铅中毒的重要途径。&nbsp; <br /><br />　　解决方案：&nbsp; <br /><br />　　*&nbsp;装修房子尽量使用环保材料，装修完毕后，要尽量长时间敞晾，让含铅成分散发出去。&nbsp; <br /><br />　　*&nbsp;不要带宝贝到车流量大的马路和铅作业工厂附近玩耍。&nbsp; <br /><br />　　*&nbsp;少食含铅较高的食品，如皮蛋、爆米花、罐头等。&nbsp; <br /><br />　　杜绝家庭情绪污染的3个因素&nbsp; <br /><br />　　我们有了不愉快的事情不要表现得那样直接外露，污染别人的好心情。尤其是当别人的情绪影响到自己时，更不要充当“二传手”再将情绪传染给其他人―― <br /><br />　　1.&nbsp;运动&nbsp; <br /><br />　　</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>缺乏锻炼的人情绪的不稳定性远比经常锻炼的人高，由于经常锻炼，思维的敏捷性也相对提高，很容易意识到自己在哪方面出了缺陷，又由于处在运动之中，会把令人烦恼的东西丢在一边，转移了注意力，从而改变不良的情绪。经常坐办公室懒于运动者，性格内向的成分就居多，情绪一直受到压抑而不易改变。运动不仅是一种肌肉的锻炼，也是一种情绪的放松。&nbsp; <br /><br />　　2.&nbsp;饮食&nbsp; <br /><br />　　心理学家认为，对于几乎每一个人来说，食物和情绪之间都存在着一种基本的联系―― <br /><br />　　*&nbsp;碳水化合物&nbsp; <br /><br />　　是一种能起镇静作用的安慰“食品”，原因在于它能刺激大脑产生出一种使人感到镇静和放松的化学物质，50克左右的碳水化合物就能起到镇静作用。像爆玉米花和椒盐卷饼一类的低热量食品，能具有和炸面饼圈以及炸马铃薯薄片等食品相类似的效果。&nbsp; <br /><br />　　*&nbsp;蛋白质&nbsp; <br /><br />　　食用蛋白质有助于维持人的机灵和脑力，这方面最理想的食品有水生贝壳类、鸡和牛肉，一般有100-200克即可。&nbsp; <br /><br />　　*&nbsp;某些水果 <br /><br />　　例如香蕉，它能起到安神的作用，据说还要帮人产生幽默感。 <br /><br />　　3.&nbsp;环境&nbsp; <br /><br />　　颜色是精神的“营养物”，其作用如同维生素对身体一样重要。为了摆脱烦躁和愤怒，暂时避开红色会有帮助；在与沮丧和消沉“斗争”时，应该尽量不穿黑色或深蓝色这一类让人情绪低落的服装，多接触使人精神轻松的温暖、明快和活跃的色彩；减轻焦虑和紧张宜用具有抚慰和平静作用的中性颜色，医生的病房之所以时常运用柔和的浅蓝色，道理就在于此。&nbsp;(文/巧巧)&nbsp; </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/127382">小儿脉搏正确测试法</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" >婴儿喂养</A>
+				<A href="/static/menu/sm/yyhl/1" class='thisclass'>婴儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/127755">给宝宝选推车该注意些什么</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127754">尿布小常识</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127753">选择衣物　0-1岁</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127752">让宝宝内衣贴身更贴心</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127751">为10－12月的宝宝选衣服</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"128268"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

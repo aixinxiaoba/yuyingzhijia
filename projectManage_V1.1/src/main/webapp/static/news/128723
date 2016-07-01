@@ -1,0 +1,468 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>环境对发育的贡献0-1岁篇-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/128723"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/yyhl/1">婴儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=159" rel="nofollow">婴儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					环境对发育的贡献0-1岁篇
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-07-01 00:17:01</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p> <br /> 　　在生命的第一年中，宝宝以最快的速度成长发育，身体、智力及人际关系急速发展：宝宝学会了抬头、翻身、坐、爬甚至行走；他能有意识地抓握物体；他能听出自己的名字，用动作、表情和声音表达自己的意愿，可以说出第一个词；他开始参加社会交往并表现出自己独特的个性……<br /><br />　　这一年龄段培养的重点是：<br />　　建立良好的亲子依恋；<br />　　创设环境发展大运动能力和手眼协调动作；<br />　　为语言的发展做好充分的准备。 <br /><br />　　多年以来，科学家和教育工作者已经意识到，是先天因素和后天因素的共同影响最终决定了一个婴儿的性格。先天因素指那些决定大脑发育的基因因素，后天因素是指环境因素对发育的贡献。 <br /><br />　　视听触环境：提供丰富的视觉、听觉和触觉刺激<br /><br />　　丰富的视听触环境是指在宝宝出生后，依据宝宝的生长发育特点布置他的生活环境，以提供丰富的视觉、听觉和触觉刺激，促进宝宝感知觉的发展。<br />　　出生以后，宝宝就开始用自己身体的各个器官去感知、探索周围的世界。宝宝具有惊人的学习能力，丰富的环境刺激能激发宝宝的好奇心，有助于宝宝大脑的发育，并促进宝宝各种能力的发展。因此，创设丰富的视听触环境非常重要。 <br /><br />　　・在婴儿床上方悬挂色彩鲜艳、能发出悦耳声音的玩具，例如摇铃、吊琴、各种充气玩具等；还可以悬挂父母放大的照片、中度复杂性模式的图案（如靶心图、国际象棋棋盘图等）；由于宝宝喜欢看人的脸，在床上挂一面镜子可以让宝宝观察自己的脸。镜子应该由不易破碎的金属材料制成，宝宝在镜子中的形象要真实。 <br /><br />　　・在房间内的墙壁上贴上颜色鲜艳的人像、风景、动物、物品等图片，宝宝满月后就可以竖抱着他来看（视距20厘米），观察宝宝偏爱什么样的图片。可以根据宝宝的喜好更换图片。 <br /><br />　　・在宝宝醒着时，家长可以用自己的脸引起宝宝注视，一会儿把脸移向左，一会移向右，让宝宝用眼睛追随脸的移动；也可以用红球来逗引宝宝，当宝宝看到以后，缓慢地移动红球让他的视线追随，以发展宝宝的视觉。所有的这些活动都需要在距离宝宝眼睛20厘米处进行。 <br /><br />　　・照料宝宝的时候，不论是喂奶、洗澡、换尿布或抱他，都要在宝宝眼前20厘米左右用温柔的声音、富于变化的语调，反复地和他说话，轻轻地叫他的小名，用简洁的句子告诉他你正在做什么。在宝宝醒着的时候，可以用缓慢、柔和的语调对他说话，如“好宝宝，你醒啦？”“宝宝，我是妈妈，妈妈喜欢你”等等，这样还能促进亲子之间的情感交流。还可模仿宝宝那些无意义的发音，以激起宝宝发声的兴趣。可以对着宝宝不同侧的耳朵说话，让他感觉到声音从不同的方向传来。 <br /><br />　　・选择一些旋律优美的音乐给宝宝听（包括宝宝在子宫内听过的胎教音乐），音量比大人在室内说话的声音稍大一些。注意不要给宝宝听很多不同的曲子，一段乐曲一天中可以反复放几次，每次几分钟，过几周后换另一段曲子。　 <br /><br />　　・有意地触摸宝宝的身体和四肢，提供不同质地的玩具、材料让宝宝用手触摸、抓握。　<br /><br />　　早期阅读环境：对宝宝早期阅读能力的培养是至关重要<br /><br />　　早期阅读环境是指根据宝宝的心理特点，选择适宜的图书、图片、挂图等阅读材料，并且每天为宝宝朗读，让宝宝熟悉父母的声音，习惯看到书，抚摩书，以产生对书的兴趣，形成阅读的自然习惯。 <br /><br />　　阅读是将伴随宝宝一生成长的活动，早期阅读不仅能增加知识，使宝宝对图书和文字产生兴趣，还能培养宝宝良好的阅读习惯。对宝宝早期阅读的教育，应是终生养成性的教育：让他们通过多种途径，接受各种信息，形成看、听、读、写一整套习惯，为今后的学习打下基础。家庭教育的参与和配合，对宝宝早期阅读能力的培养是至关重要的</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>。所以，应尽早地创设一个早期阅读环境。 <br /><br />　　・读书时要以宝宝为中心。越小的宝宝注意力集中的时间就越短，1岁前宝宝阅读图书，主要是培养宝宝与书的情感，帮助宝宝弄明白书是什么。所以，要根据宝宝的表现来确定是继续读书还是暂告一段落：如果宝宝抓住大人的手指，轻拍或蹭大人的手臂，并主动对书拍、抓、打等，表明宝宝能从阅读中得到满足，这时可以根据宝宝的需要重复阅读内容；如果宝宝把目光从书上移开，情绪烦躁时，表明宝宝不再有兴趣，这时，就要及时终止，不能坚持看完一本书或一个段落。 <br /><br />　　・只要宝宝有兴趣，任何时间都可以与宝宝读书，哪怕只有短短的5分钟。1岁前，每天都要为宝宝朗读。在光线适度且安静的环境中，家长安详地、音量不高地边翻书指图画、边朗读，还可插入与宝宝的简单对话。简单的有韵律的儿歌，通常会引起宝宝的兴趣。　<br /><br />　　社会交往环境：社会交往环境促进宝宝社会化<br /><br />　　社会交往环境是指利用各种机会让宝宝认识、熟悉周围环境中的同龄伙伴和其他人，逐步让宝宝适应陌生的环境，以培养最初的社会行为，建立健康的亲子依恋。 <br /><br />　　从4个月起宝宝能认识妈妈，大约从6个月开始认生。认生标志着亲子依恋的开始，同时也说明宝宝需要在依恋父母的基础上建立更为复杂的社会性情感、性格和能力。一般来说，多数8个月的宝宝见到生人都有些拘谨或惊慌，8-12个月宝宝的认生达到高峰，以后逐渐减弱。要注意，这几个月是宝宝与父母形成巩固的亲子关系的关键期，所以利用社会交往环境来促进宝宝的社会化非常重要。 <br /><br />　　・父母一方面要给宝宝安全感，不要长期离开宝宝，尽可能减少必须离开宝宝的次数，尤其是丢下宝宝一个人；如果必须离开，随着宝宝对语言的理解，用他所听得懂得语言告诉他父母要离开一会儿，让宝宝有心理准备。　<br />　　・另一方面不要保护过度，应创造条件扩大宝宝的生活范围，让宝宝步入社会：可以经常带宝宝上街、上公园、串门，向宝宝介绍社区中经常见到的人；特别需要让宝宝及早步入“同龄小社会”，鼓励他与年龄相仿的宝宝接触、玩耍，虽然这么大的宝宝还不知道如何与别人交往，但是与同伴在一起的益处远远超出了我们的想象。宝宝接触的人、物越多，认生的程度就越轻，时间也就越短。那种怕宝宝受惊吓躲避生人的做法是不可取的。　 <br />　　・如果家里来了“陌生的客人”，父母注意不要急于让宝宝接近客人，更不要随便让客人突然靠近、抱走宝宝，也不要在客人到来时马上离开宝宝，否则会加重宝宝的恐惧心理。<br />　　・正确接触“陌生客人”的方法是：当客人到来时，父母可以把宝宝抱在怀里，不要急于走近客人，要用对客人的热情态度和友好的气氛去感染宝宝，使他学会“信任”客人；让客人逐渐接近宝宝，例如，让客人给宝宝一个漂亮的玩具；如果客人也带着自己的孩子，就可抱着孩子与宝宝接触；如果客人靠近宝宝时，他流露出害怕的表情，就立即抱他离远些，与客人谈笑，待一会儿再靠近，使宝宝逐渐适应、熟悉生人。<br /><br />　 　　爬行环境：促进生长发育<br /><br />　　爬行环境是指根据宝宝爬行的需要，对家里的环境重新规划和布置，给宝宝开辟一间专门的活动室或活动空间，创设一个安全、卫生、舒适的环境供宝宝爬行。 <br /><br />　　爬行可以促进宝宝身体的生长发育；爬行可以训练宝宝身体的协调能力，对学习走路有很大帮助；爬行可以扩大宝宝接触和探索环境的范围，增加认识事物的机会，发展思维和解决问题的能力；爬行还可以促进宝宝与他人更多的交往，锻炼宝宝的意志力。所以，为宝宝创设爬行环境非常重要。 <br /><br />　　・爬行的准备。爬行的地方必须软硬适中，摩擦力不可过大或过小。可在瓷砖、大理石等硬地板上面铺设软垫（注意：厚度较高的软垫才能发挥功用），并且避免使用有很多小拼块的软垫，以防宝宝将小拼块抠起来误</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>食；也可以把被褥拿掉，让宝宝直接在床垫上爬。在宝宝学习爬的时候，可以提供摩擦力小的接触面，这样有助于宝宝的活动；等宝宝熟练爬行后，可以增大接触面的摩擦力，以给宝宝提供不同的爬行体验。 <br /><br />　　・爬行的安全。不要让宝宝离开自己的视线，更不要让宝宝独自爬行；特别注意宝宝周围的环境应当没有坚硬锐利的物品，不要让他嘴里含着东西爬行；家具的尖角要用海绵包起来或套上护垫；药品不要放在宝宝能抓到的地方；特别是电线要绝对安全，不要让宝宝靠近，要使用安全插座或电插座的防护盖；如果让宝宝在床上爬行，一定要防护好，以免摔下床。每隔几天就要对家里所有东西的下边以及角角落落的地方进行一次全面的安全检查，对那些不太牢固的东西得随时检查或者干脆将它们移开。 <br /><br />　　・爬行的卫生。时常清洁、消毒地板和地垫等物品，不要让宝宝爬脏的小手直接拿东西吃。 <br /><br />　　・爬行的乐趣。为了增加宝宝爬行的乐趣，可以拿一些宝宝喜欢的玩具放在前面吸引宝宝来拿。会动的玩具，如汽车、球类等对已经熟练爬行的宝宝更具吸引力，宝宝喜欢追逐这些玩具，这样可以让宝宝更多地爬行。当宝宝努力爬到“终点”时，父母要适时给予鼓励。<br /><br />　　早期安全依恋环境：儿童心理健康发展的关键<br /><br />　　早期安全依恋环境是指成人对婴儿发出的信号做出及时、恰当、抚爱的反应，以帮助婴儿发展对成人的信任、亲近，形成安全型依恋。 <br /><br />　　所有文化环境内的婴儿都存在依恋的现象，依恋是一种社会性情感联结，是婴儿寻求并企图保持与父母亲密的身体联系的一种倾向。依恋是在婴儿与成人相互作用下形成的，依恋的性质取决于成人对婴儿所发出信号的敏感性和对婴儿的关心程度，因此，成人是否对婴儿敏感、有爱心，对婴儿安全依恋的形成至关重要。早期安全依恋的形成对儿童心理的发展具有深远的影响，安全的依恋可以使儿童自信、好奇、富有同情心和坚持性，在自我控制、社会交往与合作等方面有更好的表现。而消极的依恋关系将导致儿童焦虑、孤独、敌对和日后人际关系中信任感的缺乏。 <br /><br />　　・对宝宝精心照顾、关心、爱护，让他从父母那里获得温暖和爱，满足其生理的、情感的需要；<br />　　・增强父母的敏感性，对宝宝发出的如微笑、咿呀学语、哭叫、注视、依偎、追踪、拥抱等各种信号做出迅速而准确的反应，保证亲子之间积极而又愉快的相互作用；<br />　　・多与宝宝交往、说话，满腔热情、耐心细致地陪伴他们玩耍，施以语言示范，并与他们共享进步时的快乐；<br />　　・多与宝宝一起游戏，一起分享游戏的快乐，特别是父亲，要参与到游戏中来，让宝宝与父亲有更多的交往机会；<br />　　・建立稳定的亲子依恋关系，让宝宝学会等待，也非常重要。随着宝宝各方面的发展，会出现“撒娇哭闹”，如果处理不好，会养成总是让人抱的习惯。当宝宝第一次要求妈妈抱时，让他坐到妈妈腿上，5分钟内放下，让宝宝自己去玩；第二次要求抱时，把宝宝轻轻抱到腿上，接着马上放下他，反复几次，宝宝就会按妈妈的“干完这件事再来抱你，等一会儿”的要求去做。当然，让宝宝等待的时候，大人的活动都要在宝宝的视线之内。经过多次强化和重复，宝宝撒娇的时间间隔就会逐渐延长，逐渐地建立起安全的亲子依恋。 </p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/128491">冬季，不宜给宝宝常泡脚</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" >婴儿喂养</A>
+				<A href="/static/menu/sm/yyhl/1" class='thisclass'>婴儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/127755">给宝宝选推车该注意些什么</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127754">尿布小常识</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127753">选择衣物　0-1岁</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127752">让宝宝内衣贴身更贴心</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127751">为10－12月的宝宝选衣服</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"128723"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

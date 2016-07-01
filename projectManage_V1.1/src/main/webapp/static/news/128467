@@ -1,0 +1,552 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>与你的婴儿一同旅行-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/128467"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/yyhl/1">婴儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=159" rel="nofollow">婴儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					与你的婴儿一同旅行
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-06-30 23:57:25</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p><strong>飞机、火车和汽车――与你的婴儿一同旅行</strong></p> 
+ <p>　　仅仅因为家里添了个婴儿，就不再去阅读报纸的“旅游”版，这是没有理由的。儿童，甚至当他们还依然是婴儿时，通过看到新的地方、遇到新的朋友和家庭可以学到很多东西。你们一同进行的旅行会成为你们家庭传统的一部分，而且孩子的愉快经历可丰富她的生活。假期给了忙碌的、有工作的家庭一个机会，来松驰一下，花更多的时间在一起。而你也会享受到通过孩子的眼睛看事物所带来的那种特殊的欢乐。</p> 
+ <p>　　就和婴儿或学步儿童一起旅行来说，与某些年龄的儿童一起会容易些，而与另外一些年龄的儿童一起会不那么容易。与婴儿一同旅行要容易些，因为他们不会乱动。与两岁或大一些的儿童旅行也较容易，因为他们可以干起一件事情来时可以较为安静地坐在那里，只要他们不感到过于疲倦。最大的挑战是这两个年龄段之间的孩子，即从婴儿学会走路开始到大约2岁。对于处在这个阶段的孩子来说，保持安静、坐着不动和待在一个地方是最困难的。</p> 
+ <p>　　不过，当你旅行时，不论孩子的年龄有多大，如果你能够尽可能地维持原有的吃饭、睡觉和玩耍时间表，则孩子的表现就会最好。坚持固定的睡觉时间是特别重要的。有时，这意味着放弃一些观光或活动，以便多一些额外的时间或机动性。你、孩子和全体家人即便是在假期中也需要休息时间。</p> 
+ <p>　　因此，为了使全家旅行得到最大效果，首先一步是要接收这个事实，即在日程和速率方面，是你的孩子说了算。第二是做好计划和准备。如同进行所有伟大的探险一样，带一个婴儿去旅行要求你准备合适的食品、衣物和装备，其中包括药箱。</p> 
+ <p>　　<strong>食品</strong></p> 
+ <p>　　・ 如果婴儿尚在哺乳期，则无需专门为他准备什么。但是应当为你自己多准备一些水，因为旅行会使你觉得口渴。如果你给孩子喂的是奶粉，则应当用瓶装水冲奶粉。或者，更好的做法是多花些钱买即食奶粉。</p> 
+ <p>　　・ 应当为孩子随身携带两餐饭，以防出现意外的耽搁，或孩子拒绝吃饭。“儿童餐”对于你的孩子来说或许没什么吸引力，特别是如果她处在“狂闹”阶段的话，而且，当然，那也不算是航空餐。</p> 
+ <p>　　・ 对于一个能蹒跚行走的儿童来说，好吃的快餐应包括不加盐的饼干、百吉饼、葡萄干、密封的奶酪、大块的西瓜，或一袋谷碎。带一些各种各样的食品。</p> 
+ <p>　　・ 如果你的孩子一岁多了， 可带上一罐花生酱。 (对于还在学习吃固体食物的小一些的孩子，花生酱可能导致窒息危险。 ) 至于供涂抹花生酱的面包，你在这世界的不论什么地方都可以找到。</p> 
+ <p>　　・ 如果你的孩子早上不耐烦吃早餐，可以考虑在旅馆里喂他吃通常所吃的早餐。这样你可以有更多的时间以更放松的方式来吃你自己的早餐。</p> 
+ <p>　　<strong>衣物</strong></p> 
+ <p>　　・ 随身应为婴儿至少携带两套衣服，以便能迅速更换。</p> 
+ <p>　　・ 带两个大塑料口水兜，以便处理婴儿的污物。容易晕车的儿童只要汽车、飞机或火车在开动时，都要戴上。</p> 
+ <p>　　・ 带上足够两天，甚至更长时间用的一次性纸尿裤，以免到时麻烦。</p> 
+ <p>　　・ 如果你是往水边去，带上一个适合你孩子的救生衣。别指望到了目的地可以找到合适尺码的救生衣。</p> 
+ <p>　　・ 给所有的孩子都带上一顶帽子，涂上防晒油，还应为刚会走的孩子带上太阳镜。</p> 
+ <p>　　・ 核实一下目的地的天气情况。有些地区气候多变，所以你或许应考虑将冷暖衣物都带上。如果你想要行李袋轻一些，可带上少量的洗衣皂。</p> 
+ <p>　　<strong>装备</strong></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>&gt; </p>
+ <p>　　・ 带上孩子的“宠物”：一条他特别喜欢的毛毯或玩具填充动物。如果可能，还可以带上一个备用品，以防它丢失。</p> 
+ <p>　　・ 在汽车座位上铺上可洗的外套或毛巾。</p> 
+ <p>　　・ 带上轻便儿童车。虽然这种车容易翻倒，但是伞式儿童车比那些较重的车更方便。</p> 
+ <p>　　・ 前置式婴儿兜可放开你的双手，并且使陌生人的细菌不接触她的面部。带有扣带的后置式婴儿兜最适于刚会行走的儿童。</p> 
+ <p>　　・ 婴儿擦是旅行中的必备品，不仅在换纸尿裤时非常有用，而且可以擦去你和孩子手上的细菌，这些细菌可导致发生感冒或流感。</p> 
+ <p>　　・ 带上一个换纸尿裤时用的垫子，以便用于没有合适之处可供换纸尿裤的时候和地点。</p> 
+ <p>　　・ 如果你的孩子习惯于用夜间照明灯，应带上一个。</p> 
+ <p>　　・ 提前打电话，在度假地或旅馆预订一个婴儿床。如果他们没有婴儿床，那么一般地说，那就不是一个适于儿童的地方，你或许应当去另外一个地方。否则，你可以携带一个婴儿座或便携式婴儿床。但一定要确保在出行之前，孩子在家里时曾在上面睡过。</p> 
+ <p>　　・ 即便你的孩子有地方可以睡觉，最好还是带上一些孩子通常使用的卧具，比如一条毯子或一个小枕头。</p> 
+ <p>　　・ 可密封的塑料袋能派上许多用场。比如，它们可用来装食品、脏纸尿裤、湿的或沾了泥的衣服，或者，如果肿起个小包的话，还可以将这袋子作为冰袋使用。</p> 
+ <p>　　・ 带上婴儿惯常所用的香皂，因为旅馆里的香皂经常都是太粗糙。</p> 
+ <p>　　・ 下一次你坐飞机时，多拿几个呕吐袋，放在汽车里备用。</p> 
+ <p>　　・ 别忘记带上玩具！带上孩子喜欢的玩具和一些新玩具。适于旅行的玩具是那些只发出很小声响、或不发出声响的玩具，可以用不同方式来玩。这样可使其吸引力维持长久一些。在汽车座位上或是婴儿车上用塑料链绑几个玩具，让孩子可以伸手够着，而玩具又不会丢失。肥皂泡是极好的旅行玩具，因为它可以使几乎所有6个月以上的孩子都觉得好玩，并经常能使他们镇定下来。</p> 
+ <p>　　<strong>医药袋</strong></p> 
+ <p>　　・ 婴儿或儿童退热净。如果你没有的话，应向你的儿保医生核实一下剂量。</p> 
+ <p>　　・ 温度剂</p> 
+ <p>　　・ 解充血药 (用于三个月以上婴儿)</p> 
+ <p>　　・ 用于清洁鼻腔的盐水滴鼻液和滴球，特别用于小婴儿。</p> 
+ <p>　　・ 吐根糖浆</p> 
+ <p>　　・ 防晒油</p> 
+ <p>　　・ 驱虫剂</p> 
+ <p>　　・ 几块塑料粘贴绷带</p> 
+ <p>　　・ 抗生素软膏</p> 
+ <p>　　・ 镊子</p> 
+ <p>　　・ 任何出访药及备份处方，以防丢失或漏出。</p> 
+ <p>　　・ 旅行时应确认自己的健康保险的有关要求是什么。有的要求在非紧急的情况下要打电话。带上孩子的儿保医生的电话号码和孩子的健康记录，如果她有什么特殊的健康问题的话。</p> 
+ <p>　　<strong>关于医药最后说几句：</strong></p> 
+ <p>　　许多家庭都想用镇静剂来让婴儿在旅途中睡觉，但我希望所有家长都能三思而后行。原因如下：</p> 
+ <p>　　・ 镇静剂使得孩子昏昏欲睡，从而丧失了面对旅途中的各种冒险经历时所需要的那种应付能力。他们会烦躁不安，而不是很开心。</p> 
+ <p>　　・ 昏昏欲睡的孩子往往会很执拗，难于安慰。而这与会使你没好脾气。</p> 
+ <p>　　・ 如果孩子真的在镇静剂的作用下而睡着了，让他在第一个晚上睡觉就成了件很麻烦的事。</p> 
+ <p>　　・ 药物有</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>时会有相反效果，因为有些孩子吃镇静剂反而会更兴奋，而不是想睡觉。</p> 
+ <p>　　・ 酒精也不是个好的替代物，因为它对于孩子来说决非是安全的。哪怕很少一点都是危险的。</p> 
+ <p>　　如何在旅行中带孩子，在很多方面都要根据你的旅行方式而定。</p> 
+ <p>　　以下是几点应当记住的事项:</p> 
+ <p>　　<strong>如果你是用汽车旅行:</strong></p> 
+ <p>　　・ 规则一：旅途中始终要让孩子坐在汽车座位。</p> 
+ <p>　　・ 汽车旅行的最重要事项之一是每隔大约两个小时就停下来休息一下。如果你习惯于长途旅行，这对于你来说或许是个很大的改变。但是小孩子需要活动空间和活动时间。</p> 
+ <p>　　・ 到了活动时间一定要停车。切勿在车中设一个儿童用围栏，因为那将十分危险。</p> 
+ <p>　　・ 一天开车时间多于4到6个小时，对孩子来说往往会强度太大了。可以将一段8～12小时的旅途分割开来，在傍晚开4小时车，停下来过夜。然后，在吃过早饭和玩耍过一段时间后，再继续行程。这样，孩子在旅途中可以小睡，然后停车吃午饭，接着再睡一阵，下午就到了。</p> 
+ <p>　　・ 可以在睡眠时间旅行，如果你的孩子能够在车里睡着的话。但是要保证你自己不致于太疲劳。</p> 
+ <p>　　・ 在车里放上一个冰箱，里面装些健康小吃。但是在给孩子吃东西时一定要停车。如果是喂母奶，则没有一个安全的方法可供你喂奶，除非把车停下来，因为孩子必须坐在座位里。对大一点儿的孩子，如果在开车时从瓶子里喝奶的话，她会有哽塞的危险。</p> 
+ <p>　　・ 将驾车与娱乐交替进行，这样大人在抵达时就会精神饱满。为后座上的婴儿当娱乐指导是一件艰苦的工作。</p> 
+ <p>　　・ 带上一顿丰富的野餐食品。在公园或休息地停车和孩子吃野餐比在饭馆里吃饭要容易得多。</p> 
+ <p>　　<strong>如果你是坐飞机旅行:</strong></p> 
+ <p>　　・ 如果你能够负担得起，那么在飞机上放置孩子的最好办法是给她买一个单独的座位，用你的汽车座将她绑在里面。一些大的航空公司最近削减了儿童票价，以鼓励家长采取此项预防措施。可向你所搭乘的航空公司询问。</p> 
+ <p>　　・ 你还可以预定过道尽头的座位，这使得你可以利用地板上的安全座位，并给你更大的地方来照顾婴儿。如同在汽车里一样，婴儿在安全座位上比在你的怀抱里要更安全。</p> 
+ <p>　　・ 可以考虑在非高峰时段旅行，此时空间更大，也没有那么乱。如果飞机上挤满了疲惫不堪的乘客，那紧张程度也会影响到你的孩子。</p> 
+ <p>　　・ 对于好动的孩子来说，分段飞行比直达飞行更好。在机场上可以获得更多的活动时间。因此，虽说转机票要麻烦一些，但也还是值得的。</p> 
+ <p>　　・ 当飞机起降时，吞咽动作有助于还解耳朵里的压力。但婴儿无法在你要她吞咽时就吞咽，所以，在飞机起降时，可以给她一个橡皮奶头或喂她。</p> 
+ <p>　　・ 如果你的孩子最近耳朵疼或有慢性耳疾，应当与你的儿保医生讨论旅行计划，或许你需要将旅行推迟。</p> 
+ <p>　　・ 应当给机场打电话，以确保你的航班没有晚点。带着小孩子在机场不必要地多花时间，对于出游来说意味着一个不顺利的开始。如果航空公司允许带儿童的家庭先登机，应当利用此项优惠。最先或最后登机，可使你免于忙乱。</p> 
+ <p>　　・ 在飞机上获得活动空间可不是件容易的事。不要让你的刚会走的孩子在飞机上到处走。他们在天上就和在家中一样，会立刻遇到麻烦或受伤。如果飞行时间很长，你可以带孩子在过道里稍微走走。如果你要去厕所，可将他们交给空中小姐照管。</p> 
+ <p>　　<strong>如果你是乘火车旅行:</strong></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p></p> 
+ <p>　　・ 如果你有小孩子，乘火车旅行可能是一个不错的选择。在火车上，你可以到处走动，按自己的时间表吃饭喝水。你还可以经常在火车停站时休息。不过，如同在飞机上一橛，不要让刚会行走的孩子到处走动。</p> 
+ <p>　　・ 为获得最大空间，应当选择车厢顶端的座位，如果可能，找一个四人座。</p> 
+ <p>　　・ 带儿童旅行时，必须选择无烟车厢。</p> 
+ <p>　　・ 如果你和孩子都想睡觉，可将孩子绑在汽车座里，放在地板上，那是个安全的地方。</p> 
+ <p>　　・ 你可以带一顿美味的午餐，在座位上享用。或者问乘务员餐车什么时候最安静，这样你可以避开那些忙乱。</p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/127382">小儿脉搏正确测试法</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" >婴儿喂养</A>
+				<A href="/static/menu/sm/yyhl/1" class='thisclass'>婴儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/127755">给宝宝选推车该注意些什么</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127754">尿布小常识</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127753">选择衣物　0-1岁</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127752">让宝宝内衣贴身更贴心</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127751">为10－12月的宝宝选衣服</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"128467"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>

@@ -1,0 +1,496 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+	<HEAD>
+		<TITLE>让孩子多做户外运动-婴儿期-育婴知识学习交流平台</TITLE>
+		<META content="IE=11.0000" http-equiv="X-UA-Compatible">
+		<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<META http-equiv="X-UA-Compatible" content="IE=Edge">
+		<META http-equiv="pragma" content="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache, must-revalidate">
+		<META http-equiv="expires" content="0">
+		<META name="render" content="webkit">
+		<META name="Keywords"
+			content="育婴师，育儿，育婴师知识，育儿知识，育婴知识分享，分享，问答，育婴师交流，育婴交流，育儿交流，学习，育婴师学习，育婴师学习资料，怀孕，胎教，孕妇，辣妈，儿童，产后，婴儿，宝宝，yuyingzhijia，yyzj，yuyingzhijia.cn，育儿问答，育儿计划，育儿资料，小孩，幼儿">
+		<META name="description"
+			content="育婴之家是一个分享交流育儿知识经验的 平台，我们致力于需求最好的育儿知识，通过我们这个平台知识推送到您的手中，让更多的人在育儿方面不再手忙脚乱">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="icon" type="image/gif" href="animated_favicon1.gif">
+		<!--
+		<LINK href="/commons/yuyingshi/css/style5.css" rel="stylesheet" type="text/css">
+		-->
+		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
+		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		<script type="text/javascript" src="/commons/js/0_core.js" ></script>
+		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
+	</HEAD>
+	<script type="text/javascript"> objCore.browserRedirect("p","/static/m_news/128545"); </script>
+	<BODY>
+		<!-- 头部设置 -->
+<script type="text/javascript">
+
+$(function(){
+	// load login user.
+	loadCustomer();
+});
+
+function loadCustomer()
+{
+	$.ajax({
+		url : "/login/loadCustomer.do",
+		type : "post",
+		dataType : "json",
+		async : true,
+		success:function(data){
+			if (data != null && data.lId != null && data.lId > 0)
+			{
+				$("#needLogin").hide();
+				$("#allreadyLogin").show();
+				$("#nickName").html(data.strNickName);
+			}
+			else
+			{
+				$("#needLogin").show();
+			}
+		}
+	});
+}
+	
+</script>
+<DIV class="navi-head" id="navi-head" name="navi-head">
+	<DIV class="navi-con-block">
+		<DIV class="navi-left">
+			<A class="page-title-pic" id="page-title"
+				href="/"></A>
+			<A class="first-page" id="first-self" href="/">首页</A>
+			
+			<!-- 
+			<DIV class="out-block clearfix">
+				<DIV class="discovery nav-item" id="discovery-self" href="#">
+					<LABEL>发现</LABEL>
+
+					<DIV class="navi-pic navi-pic-on4"></DIV>
+					<SPAN class="discovery-block" id="discovery"
+						style="display: none;"><I class="underline"></I>
+						<UL>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://info.ci123.com/brand/list/index.php">用品</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black"
+										href="http://info.ci123.com/brand/list/index.php">用品库</A> <A
+										class="black" href="http://shiyong.ci123.com/">免费试用</A> <A
+										class="black" href="http://info.ci123.com/pingce/">用品评测</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://rs.ci123.com/">资源</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://rs.ci123.com/categories/show/7">胎教音乐</A>
+									<A class="black" href="http://rs.ci123.com/video/section.html">孕育视频</A>
+									<A class="black"
+										href="http://rs.ci123.com/software/section.html">启蒙教育</A> <A
+										class="black" href="http://rs.ci123.com/widget/section.html">育儿工具</A>
+									<A class="black" href="http://rs.ci123.com/apple/section.html">手机应用</A>
+								</DIV>
+							</LI>
+							<LI class="block-con clearfix">
+								<DIV class="line-title">
+									<A href="http://good.ci123.com/tudou/happy.php">其他</A>
+								</DIV>
+								<DIV class="line-con">
+									<A class="black" href="http://good.ci123.com/tudou/happy.php">活动中心</A>
+									<A class="black" href="http://good.ci123.com/tudou/">土豆频道</A>
+									<A class="black" href="http://shiyong.ci123.com/leyun/">乐孕大礼包</A>
+								</DIV>
+							</LI>
+						</UL></SPAN>
+				</DIV>
+			</DIV>
+			 -->
+			<!-- 暂不使用其他菜单 -->
+		</DIV>
+		
+		<div class="navi-right">
+			<div id="needLogin" style="margin-top:4px;display:none;">
+				<a href="https://api.weibo.com/oauth2/authorize?client_id=4148667325&redirect_uri=http://www.yuyingzhijia.cn/sinaLogin.do&response_type=code" class="weibo-sina link-icon-style" title="使用新浪微博登陆"></a>
+				<!-- 
+				<a href="http://user.ci123.com/qq/zone.php?channel=1&back_url=http://ask.ci123.com" class="qq link-icon-style" title="使用QQ登陆"></a>
+				 -->
+				<a href="/front/customer/register.do?projectKey=yuyingzhijia" class="head-register re-lo-style black">注册</a><a href="/jsp/templateOne/login.jsp" target="_self" class="head-login re-lo-style black">登录</a>
+			</div>
+			<div id="allreadyLogin" style="display:none;margin-top:13px;">
+				 <span style="float:left;">欢迎您，</span>
+				 <a href="" id="nickName" style="margin-left:0px;"></a>
+                 <a href="/login/destroyCustomerLogin.do">退出</a>
+			</div>
+			
+		</div>
+	</DIV>
+</DIV>
+<SCRIPT>
+    $(".out-block").hover(function(){$(this).addClass("hover-div")},function(){$(this).removeClass("hover-div")});$(".nav-item").hover(function(){$(this).addClass("hover");$(this).find("span").show()},function(){$(this).removeClass("hover");$(this).find("span").hide()});$(".user-head").hover(function(){$(this).addClass("hover-r");$(this).find("span").show()},function(){$(this).removeClass("hover-r");$(this).find("span").hide()});$(".user-item").hover(function(){$(this).addClass("hover-u");$(this).find("span").show()},function(){$(this).removeClass("hover-u");$(this).find("span").hide()});$(".hold_more").hover(function(){$(".main_more").addClass("hover_more");$(".main_more").find("i").addClass("hover_more");$(".more_block").show()},function(){$(".main_more").removeClass("hover_more");$(".main_more").find("i").removeClass("hover_more");$(".more_block").hide()});$(".mail-remind").hover(function(){$(this).addClass("mail-hover");$(".mail-box").show()},function(){$(this).removeClass("mail-hover");$(".mail-box").hide()});
+</SCRIPT>		
+		<!--gloabl_nav start-->
+<!-- nav 样式 -->
+<LINK href="/commons/yuyingshi/css/index.css" rel="stylesheet" type="text/css">
+
+<DIV class="header lanren">
+	 <DIV class="category_search clearfix">
+		<DIV class="l clearfix" style="width:auto;height:auto;margin-right:70px;">
+			<A
+			style='BACKGROUND-IMAGE: url(/commons/yuyingshi/images/yinger.png)'
+			 href="/static/menu/bm/yinger" alt="婴儿期" target=_self></A>
+			<SPAN><BR></SPAN>
+		</DIV>
+		<DIV class="r clearfix">
+			<DIV class=z>
+				<FORM id=search_form onsubmit="return OnSubmit()" method=post
+					name=search action="/front/yuyingshi/newsSearch.do?lProjectMenuID=93" target=_blank>
+					<DIV class=inside>
+						<INPUT name="searchText" id=keyword class=input_search placeholder="育婴知识搜索">
+					</DIV>
+					<SPAN><INPUT class=n type=submit value="">
+					</SPAN>
+				</FORM>
+			</DIV>
+			<DIV class=y>
+				<UL >
+					<LI class=c_one>
+						<A href="/static/menu/sm/yuerzhishi/1" target="_blank">育儿</A>
+					</LI>
+					<LI class=c_two>
+						<A href="/static/menu/sm/baomazhishi/1" target="_blank">宝妈</A>
+					</LI>
+					<LI  class=c_three>
+						<A href="/static/menu/sm/examinfo/1" target="_blank">育婴师</A>
+					</LI>
+					
+					<LI  class=c_four>
+						<A href="/static/menu/sm/yunqianzhunbei/1" target="_blank">孕前</A>
+					</LI>
+					
+					<LI  class=c_five>
+						<A href="/static/menu/sm/taijiaozhishi/1" target="_blank">胎教</A>
+					</LI>
+					
+					<LI class=c_six>
+						<A href="/static/menu/sm/hangyedongtai/1" target="_blank">动态</A>
+					</LI>
+				</UL>
+			</DIV>
+		</DIV>
+	</DIV>
+	
+	<!--[if lte IE 8]><style>#special_nav{margin-top:93px;}</style><![endif]-->
+	<!-- 导航 start -->
+	<DIV class="index-nav">
+		<UL class="clearfix" id="special_nav">
+			<LI>
+				<A class="small-sub-nav" href='/static/menu/bm/yinger'>首页</A>
+			</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yerfy/1">婴儿发育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/myjz/1">免疫接种</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/czzb/1">成长指标</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jbyf/1">疾病预防</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/hlbj/1">护理保健</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yyys/1">营养饮食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/znk/1">纸尿裤</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/qnkf/1">潜能开发</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/xwyy/1">行为语言</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/jtjy/1">家庭教育</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/yecy/1">婴儿出牙</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/fs/1">婴儿辅食</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav" href="/static/menu/sm/wy/1">婴儿喂养</A>
+				</LI>
+				<LI>
+					<A class="small-sub-nav cur-sub-nav" href="/static/menu/sm/yyhl/1">婴儿护理</A>
+				</LI>
+		</UL>
+	</DIV>
+	<!-- 导航 end -->
+</DIV>		<!--gloabl_nav end -->
+		
+		<!--content start-->
+<DIV class="lanren box-top">
+	<DIV class="search lanren">
+		<DIV style="border:0px solid #f99391;">
+			当前位置：
+			<A href="/front/yuyingshi/index.do?lProjectMenuID=93" rel="nofollow">首页</A>
+			&nbsp;>
+			<A href="/front/yuyingshi/newsList.do?lProjectMenuID=93&menuID=159" rel="nofollow">婴儿护理</A>
+			&nbsp;>
+			正文
+		</DIV>
+	</DIV>
+	
+	<DIV class="pleft">
+		<DIV class="viewbox">
+			<DIV class="title" style="padding:0px;">
+				<H2>
+					让孩子多做户外运动
+				</H2>
+				<DIV class="f12" style="margin:3px;">
+					<SPAN class="l">作者：
+						<A href="/front/yuyingshi/index.do?lProjectMenuID=93" target="_blank">育婴之家</A>&nbsp;&nbsp;(转载请注明出处，并添加链接地址)</SPAN>
+						<SPAN class="r">发布日期：2016-07-01 00:03:41</SPAN>
+						<span class="r">点击次数：1&nbsp;</span>
+				</DIV>
+			</DIV>
+			<!-- /title -->
+			<DIV class="content1">
+				<font size='3'><div class="Newscontent">
+ <p></p>
+ <p>　<strong>　幼儿体能为什么下降</strong></p> 
+ <p>　　近年来，我国婴幼儿身体的各项发育指标都有明显的提高。过去的儿童常见疾病――沙眼、蛔虫、缺铁性贫血，基本上被消灭。可是一到秋冬季，不少幼儿园经常出现一个孩子感冒迅速传染一大片的现象。幼儿抵抗疾病的能力不足，肺活量下降，一些孩子稍微运动一下就累得不行了。据有关调查显示，现阶段幼儿的速度、耐力、灵敏度、协调力等多项体能素质都达不到规定标准。这不得不让人深思：为什么生活水平提高、营养丰富了，孩子长高长胖了，他们的体能却呈下降趋势，原因何在呢？</p> 
+ <p>　　<strong>我们不妨来看看这样几个镜头：</strong></p> 
+ <p>　　镜头之一：小胖冬冬是三代单传。从他一出生，全家人就当宝贝尖供着，走到哪儿都有大人跟着。三四岁的孩子正是淘气、爱活动的时候，可爷爷奶奶、爸爸妈妈总看着他寸步不离。跑跳容易出汗，别累着；踢球容易伤胳膊伤腿，别出意外；滑梯、攀登架容易摔着，太危险不能玩。于是，冬冬只能在家人的羽翼下，做点轻微的活动。</p> 
+ <p>　　镜头之二：欣欣先天体弱多病，出生不久就住过好几次医院。爸爸妈妈对她的政策是保守疗法，成天不让出门，躲在房间里，避免与外界接触，害怕病毒、细菌传染病对她的伤害。为她准备的玩具也是乖乖女玩的洋娃娃、毛毛兔等。在这样与世隔绝的环境里，欣欣根本不知道什么是力量，什么是运动，她也无需运动，一切生活都是父母安排好的。</p> 
+ <p>　　镜头之三：好动的峰峰3岁时，曾摔跤磕掉了牙。父母担心他再出现什么闪失，从此限制他出门，任其在家怎么玩都行。开始峰峰不习惯，房间里有什么可玩的，只能拿玩具枪比比划划，既不能跑又不能跳。时间一长，他也就顺其自然了，反正出不去，看电视玩电脑游戏也很自在。父母正高兴他收收野性，免得闯祸。</p> 
+ <p>　　或许这只是几个特殊例子，从中还是能看出目前幼儿体能为什么会下降的原因。此外，另一个不容忽视的因素是，有的家长认为自家的宝宝身体很壮实，没必要再搞什么体能锻炼；有的家长说，宝宝现在整天在家就动个不停，运动量早就够了。实际上，他们和前面例子中的家长一样都陷入了误区。孩子身体自然的生长及好动的行为，是不能取代户外体育运动的，尤其像奔跑、跳跃、攀爬、骑车等大运动量的活动，能够发展大肌肉的力量和增强身体的协调性，是幼儿成长过程中不可缺少的。因此，必须向家长普及幼儿体能锻炼的知识，纠正父母认为给孩子吃好，长胖长高，不生病，就是身体健康的糊涂认识，切实地加强对体能训练的重视，</p> 
+ <p>　　<strong>了解幼儿体能常识</strong></p> 
+ <p>　　首先，我们应该了解体能主要是指人体器官具备的能力，在身体素质方面包括运动力量、速度、敏捷性、协调性、柔韧性、耐力等，还涉及走、跑、跳、投掷、攀爬等运动的技能。幼儿体能的发展是促进其身体各系统正常发育的基础。</p> 
+ <p>　　儿童体能的发展是有阶段性的。两岁的幼儿已能完成坐、立、行、走、爬、跳等所有基本动作，但上楼梯较为笨拙。这时的幼儿手指运用已接近成熟，能手眼配合灵巧地叠起多块积木。</p> 
+ <p>　　到了3岁，幼儿的大肌肉发展较快，身体动作也比以前协调，一般都喜爱跑、跳和踏三轮车。有一部分刚进入此年龄段的幼儿上、下楼梯时，仍要双脚踏在同一阶梯后，才能继续前进；但3岁半以后，就都能双脚交替前行了。</p> 
+ <p>　　4岁幼儿的手指已较灵活，可以使用画笔或剪刀画简单的圆和做简单的剪贴；也能自己穿脱衣裤、扣钮扣、刷牙、穿鞋袜。此时，他们的体力增长，跑、跳、攀爬、单脚站立、抛接球等基本动作都很熟练，还可以步行较长的一段路。</p> 
+ <p>　　5岁的幼儿能自如地控制手腕，能折纸和纯熟地用剪刀，会使用</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>筷子挟菜吃饭。他们的一些运动速度已与成人类似，行走、跑跳相当稳健，可自如地在一条窄线上行走，不再左右摇摆。同时，他们攀、爬、滑、滚等运动的技巧已相当纯熟。</p> 
+ <p>　　其次，幼儿体能活动的重点在于为他们提供大量的知觉动作经验，促进姿势与动作的发展与成熟，并奠定未来生理成长与功能发展的基础。因此，对幼儿体能训练不能操之过急，要在满一岁其身体基础抗重力肌肉群功能建立之后，再循序渐进地增加刺激与训练。</p> 
+ <p>　　 父母们多抽出些时间，每天和孩子一起到户外做各种运动，双休日带孩子上公园或郊游、爬山，进行耐力和有氧锻炼，是再容易不过的乐事了。家长需要注意的是，不论何种锻炼活动都要遵守幼儿体能发展的顺序。一般来说，儿童动作功能发展的顺序分为：姿势摆位(主要发展时期0-2岁)、粗大动作(主要发展时期2-4岁)、精细动作(主要发展时期4-8岁)、技巧技能(主要发展时期5岁以后)。每一阶段的发展都在为下一阶段打基础，只有基础扎实了，身体素质才能循序渐进得到提高。所以，家长对幼儿体能训练的重点应放在基础姿势和粗动作的发展上，注重量而不要追求质，即保证运动的时间和适当的强度，不必要求多高的技能和技巧，达到提高体能及整体的身体素质就行了。 </p> 
+ <p>　　另外家长带幼儿进行体能活动时，必须注意安全第一。幼童对于自我肢体的认识尚未成熟，运动起来不知深浅，容易出意外。家长进行每项活动时，一定要认真设计正确姿势及方法，保证动作的安全性，避免错误的运动方式误伤了肢体。比如，活动的场地是否安全，活动用具(球、跳绳等)是否存在质量问题，运动器械是否适合幼儿使用(健康路径及儿童游乐场内的器械)，还有家长应在一旁采取哪些保护措施，等等，都在应该重点关注之列。 </p> 
+ <p>　　<strong>心动不如行动</strong></p> 
+ <p>　　有位心理学家的名言说：“动作是智力大厦的砖瓦。”幼儿的肢体动作及体能的发展是其成长的基石。德国奥古斯堡大学教授Helmut・Altenburger博士认为：“如果在童年缺乏运动刺激，那么他将会对运动持消极态度，而且对运动既没有热情亦无技能。这使他们长时间地坐，器官和肌肉长期得不到有效的锻炼，以致体形变坏、运动能力低下。甚至使智力受损。无限制地沉溺于多媒体如电视、电脑和其他静态游戏之中，将减少儿童游戏和运动的时间，同时还会引发社会问题。成人往往按照自己的需要安排孩子的闲暇时间，孩子几乎没有自由游戏的时间。越来越多的孩子们在孤独中成长，社会交往大大减少。单一的、不良的营养和习惯不仅不利于器官发育，还会导致肥胖……儿童渴望运动，运动是他们的基本需要。”</p> 
+ <p>　　既然了解了幼儿体能锻炼的重要性，那么父母们赶快行动吧，切不要错过孩子身体发育成长的最佳期。适合户外的体能锻炼形式多种多样，我们暂且分为徒手运动和借助玩具器械运动两大类。</p> 
+ <p>　　徒手运动最简单，不用任何用具，而是充分发挥你的想象就可以创造出许许多多让孩子喜欢的运动来。例如：</p> 
+ <p>　　“学做快乐的小动物”――低幼的宝宝体能及动作协调能力较差，可以让他模仿鸭子走、兔子跳、鸟儿飞、猴子爬等各种动物的活动，幼儿非常喜欢小动物，模仿起来兴趣很高，既锻炼了四肢的协调、灵敏及柔韧性，又增加了运动量。</p> 
+ <p>　　“前进后退”――在先教会宝宝倒着行走，不跌交的情况下，由家长发口令：“前进”、“后退”，宝宝听口令向前走或向后退着行走，中班以上的孩子可以用跑代替走，加大运动量。为增加趣味性，家长可以和宝宝一同来做动作，也可与宝宝轮流发口令，看谁的反应快、动作敏捷、行进的速度快。</p> 
+ <p>　　“开飞机”――让宝宝模拟一架小飞机，两臂侧平举当作飞机的翅膀，然后开始小跑，时而直身跑，时而弯腰像飞机一</p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div><div class="Newscontent">
+ <p>样下降俯冲。跑的速度因年龄而异，不要太快，以免摔倒。这项运动既锻炼宝宝的身体平衡能力，又锻炼了协调性，增加了肺活量。 </p> 
+ <p>　　“踩石头过河”――用粉笔在地上画两条线当“河”，再画一些圆圈当“石头”，家长和宝宝一前一后踩着“石头”过河，谁掉进“河”里谁就输了。当孩子玩得已经很熟练后，可去掉一些“石头”增加距离。这样可以锻炼孩子身体的平衡性能力，增强跨步的肌力。</p> 
+ <p>　　“斗鸡”――先教会宝宝用左右腿交叉着金鸡独立似的站立，并做到单脚蹦跳。经过一段时间宝宝已能够熟练自如时，再教他把曲着的左脚用右手搬到站立的右腿膝盖前，跳跃着撞击与他同样姿势的家长(大人只能采取被动状态，避免伤着孩子)。这种的锻炼方式有助于增加孩子双脚的耐力、身体的稳定性、协调性和平衡的能力。</p> 
+ <p>　　借助玩具器械运动的种类更是繁多。比如：小皮球、小足球、跳绳、皮筋、哑铃、呼啦圈、小三轮车等。这些可锻炼宝宝身体四肢的大肌肉动作，在进行走、跑、跳、踢、蹬、投、抛、拍击、推拉、爬行等各种运动中发展体能及动作的协调性。另外，手摇铃、积木和积塑、动物玩具、木偶玩具、珠类玩具、画笔等，可锻炼宝宝的小肌肉动作能力，发展孩子的精细动作和大脑的智力。</p> 
+ <p>　　当宝宝五六岁时，父母可带他们到公园或运动场去荡秋千、划船溜冰、游泳。通过这些相对大运动量的体育活动，锻炼全身机能，使肌肉系统紧张度增加，肌纤维增粗，耐力和活动力增强；让呼吸加快加深，增加肺活量，促进呼吸肌发达；使血液循环加速，心脏收缩力加强，改善心血管功能；也让神经系统反应灵活、迅速并且使身体新陈代谢活跃，改善消化功能。幼儿的任何身体活动都是肌肉在神经系统指导下运动，从而牵动骨骼实现的。因此，多做户外运动可以使幼儿身体各个部分得到锻炼，提高全身机能的整体素质。 </p> 
+ <p></p> 
+ <p></p> 
+ <p><strong></strong></p>
+ <p></p>
+</div></font>
+			</DIV>
+			
+			<!-- 分享 start -->
+			<div class="bdsharebuttonbox" style="">
+				<a class="bds_more" href="" data-cmd="more"></a><a title="分享到QQ空间"
+					class="bds_qzone" href="www.baidu.com" data-cmd="qzone"></a><a title="分享到新浪微博"
+					class="bds_tsina" href="#" data-cmd="tsina"></a><a title="分享到腾讯微博"
+					class="bds_tqq" href="#" data-cmd="tqq"></a><a title="分享到人人网"
+					class="bds_renren" href="#" data-cmd="renren"></a><a title="分享到微信"
+					class="bds_weixin" href="#" data-cmd="weixin"></a>
+			</div>
+			<script>
+				window._bd_share_config = {
+					"common" : {
+						"bdSnsKey" : {
+							"tsina" : "育婴之家",
+							"tqq" : "育婴之家",
+							"t163" : "育婴之家",
+							"tsohu" : "育婴之家"
+						},
+						"bdText" : "育婴之家",
+						"bdMini" : "2",
+						"bdMiniList" : false,
+						"bdPic" : "育婴之家",
+						"bdStyle" : "0",
+						"bdSize" : "16"
+					},
+					"share" : {},
+					"image" : {
+						"viewList" : [ "qzone", "tsina", "tqq", "renren", "weixin" ],
+						"viewText" : "分享到：",
+						"viewSize" : "16"
+					},
+					"selectShare" : {
+						"bdContainerClass" : null,
+						"bdSelectMiniList" : [ "qzone", "tsina", "tqq", "renren",
+								"weixin" ]
+					}
+				};
+				with (document)
+					0[(getElementsByTagName('head')[0] || body)
+							.appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='
+							+ ~(-new Date() / 36e5)];
+			</script>
+			<!-- 分享 end -->
+			<DIV class="handle">
+				<DIV class="context">
+					<UL>
+						<LI>
+								上一篇：
+								<A href="/static/news/128491">冬季，不宜给宝宝常泡脚</A>
+						</LI>
+						<LI>
+							下一篇：
+								没有了
+						</LI>
+					</UL>
+				</DIV>
+				<!-- /context -->
+				<!-- 
+				<DIV class="actbox">
+					<UL class="downurllist">
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417"
+								target="_blank" rel="nofollow">在线预览</A>
+						</LI>
+
+						<LI>
+							<A href="http://d.lanrenzhijia.com/2015/scale0417/scale0417.rar">本地下载</A>
+						</LI>
+					</UL>
+				</DIV>
+				 -->
+				<!-- /actbox -->
+			</DIV>
+			<!-- /handle -->
+		</DIV>
+	</DIV>
+	<!-- /pleft -->
+
+	<DIV class="list-js">
+		<DIV class="top">
+			<SPAN class="l">标签墙</SPAN><SPAN class="r">
+			<!-- 
+			<A
+				href="http://www.lanrenzhijia.com/js/" target="_blank"><IMG
+						width="26" height="26" alt="育婴之家"
+						src="/commons/yuyingshi/images/more.png">
+			</A>
+			 --> </SPAN>
+		</DIV>
+		<!-- 详细页右侧导航begin -->
+		<DIV class="nav-sub">
+				<A href="/static/menu/sm/yerfy/1" >婴儿发育</A>
+				<A href="/static/menu/sm/myjz/1" >免疫接种</A>
+				<A href="/static/menu/sm/czzb/1" >成长指标</A>
+				<A href="/static/menu/sm/jbyf/1" >疾病预防</A>
+				<A href="/static/menu/sm/hlbj/1" >护理保健</A>
+				<A href="/static/menu/sm/yyys/1" >营养饮食</A>
+				<A href="/static/menu/sm/znk/1" >纸尿裤</A>
+				<A href="/static/menu/sm/qnkf/1" >潜能开发</A>
+				<A href="/static/menu/sm/xwyy/1" >行为语言</A>
+				<A href="/static/menu/sm/jtjy/1" >家庭教育</A>
+				<A href="/static/menu/sm/yecy/1" >婴儿出牙</A>
+				<A href="/static/menu/sm/fs/1" >婴儿辅食</A>
+				<A href="/static/menu/sm/wy/1" >婴儿喂养</A>
+				<A href="/static/menu/sm/yyhl/1" class='thisclass'>婴儿护理</A>
+		</DIV>
+		<!-- 详细页右侧导航end -->
+		
+		<DIV class="ads_right">
+			<DIV class="top">
+				<SPAN class="l">最新更新</SPAN><SPAN class="r"><A
+					href="/front/yuyingshi/newsListByTag.do?lProjectMenuID=93&newsTag=1"><IMG
+							width="26" height="26" alt="育婴之家"
+							src="/commons/yuyingshi/images/more.png">
+				</A> </SPAN>
+			</DIV>
+			<UL class="box" id="all2">
+					<LI>
+						<A href="/static/news/127755">给宝宝选推车该注意些什么</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127754">尿布小常识</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127753">选择衣物　0-1岁</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127752">让宝宝内衣贴身更贴心</A><EM></EM>
+					</LI>
+					<LI>
+						<A href="/static/news/127751">为10－12月的宝宝选衣服</A><EM></EM>
+					</LI>
+			</UL>
+		</DIV>
+		
+		<DIV class="hot">
+			<DL>
+				<DT>
+					推荐阅读
+				</DT>
+						<DD>
+							<A href="/static/news/51479"
+								target="_blank">哪些食品是孕妇补钙好帮手</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49963"
+								target="_blank">准妈妈的待产包</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49962"
+								target="_blank">孕期留长发会和胎儿抢营养吗</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49959"
+								target="_blank">手足口病高发 爸妈必知这些事儿</A>
+						</DD>
+						<DD>
+							<A href="/static/news/49957"
+								target="_blank">给宝宝捏鼻梁会变挺？</A>
+						</DD>
+			</DL>
+		</DIV>
+	</DIV>
+</DIV>
+<script>$.ajax( { url:"/front/index/setReadNum.do", type:"post",  data:{"newsID":"128545"}, dataType:"text",  async: true });</script>
+		<!--content end -->
+		
+		<!--wrapper-->
+		<DIV id="wrapper" style="padding-top: 9px;"></DIV>
+		<!-- 底部版权信息begin -->
+<DIV class="lanren footer" style="margin-top: 20px;">
+	广告联系&nbsp;&nbsp;|&nbsp;&nbsp;关于我们&nbsp;&nbsp;|&nbsp;&nbsp;在线QQ：
+	2496664615&nbsp;&nbsp; 鲁ICP备14027307号-1
+	<SPAN style="">
+		<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254920361'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1254920361%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+	</SPAN>
+</DIV>
+<!-- 访问日志 -->
+<script type="text/javascript">$.ajax({  url:"/front/index/visitLog.do",  type:"post", data:{"refer":document.referrer,"thisPage":location.href },  dataType:"text", async: true});</script>		<!-- 底部版权信息end -->
+	</BODY>
+</HTML>
