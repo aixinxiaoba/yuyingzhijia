@@ -6,7 +6,7 @@ li {
 }
 body {
 	font: 12px/normal Verdana, Arial, Tahoma;
-	background: url("../images/bg.gif") repeat-x;  text-align: left; color: rgb(68, 68, 68); font-size-adjust: none; font-stretch: normal;
+	/*background: url("../images/bg.gif") repeat-x;*/  text-align: left; color: rgb(68, 68, 68); font-size-adjust: none; font-stretch: normal;
 }
 a {
 	color: rgb(68, 68, 68); text-decoration: none;
@@ -125,7 +125,7 @@ button {
 	width: 340px; height: auto; overflow: hidden; padding-top: 12px; float: left;
 }
 .lanren .texiao .content .top {
-	background: url("../images/list2.gif") no-repeat bottom;
+	/*background: url("../images/list2.gif") no-repeat bottom;*/
 }
 .lanren .texiao .content .top a {
 	color: rgb(136, 136, 136);
