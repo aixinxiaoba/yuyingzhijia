@@ -342,9 +342,34 @@ public class YuYingShiManageAtion extends BaseStruts2Action {
 			
 			for (ProjectMenu parentProjectMenu : lstProjectMenu)
 			{
+				String strNewsID = "";
 				
+				// 获取两个带图片的新闻
+				List<News> lstImageNews = objNewsService.listBySql(" select * from News where mid=" + parentProjectMenu.getlId() + " and imageurl is not null and imageurl !='' ORDER BY id desc LIMIT 1");
+				
+				if (lstImageNews != null && lstImageNews.size() > 0)
+				{
+					parentProjectMenu.setLstImageNews(lstImageNews);
+					strNewsID += " and id not in ";
+					for (int i = 0; i < lstImageNews.size(); i++)
+					{
+						if (i == 0)
+						{
+							strNewsID += "(" + lstImageNews.get(i).getlId();
+						}
+						else
+						{
+							strNewsID += "," + lstImageNews.get(i).getlId();
+						}
+					}
+					strNewsID+=")";
+				}
+				
+				// 获取7条数据封装到 边缘菜单中
+				lstCurNews = objNewsService.listBySql(" select * from News where mid=" + parentProjectMenu.getlId() + strNewsID +" ORDER BY id desc LIMIT " + Pagination.PAGE_SIZE_CONTENT);
+//				objCurProjectMenu.setLstNews(new HashSet<News>(lstCurNews));
 				// 获取7条数据封装到
-				lstCurNews = objNewsService.listBySql(" select " + DBSql.getNewsColumnWithOutContent() + " from News where mid=" + parentProjectMenu.getlId() + " ORDER BY id desc LIMIT " + Pagination.PAGE_SIZE_CONTENT);
+//				lstCurNews = objNewsService.listBySql(" select " + DBSql.getNewsColumnWithOutContent() + " from News where mid=" + parentProjectMenu.getlId() + " ORDER BY id desc LIMIT " + Pagination.PAGE_SIZE_CONTENT);
 				parentProjectMenu.setLstNews(new HashSet<News>(lstCurNews));
 //				if (parentProjectMenu.getShowIndex() == 1)
 //				{

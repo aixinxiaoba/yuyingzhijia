@@ -19,8 +19,10 @@
 		<link rel="shortcut icon" href="/favicon.ico?version=3">
 		<LINK href="/commons/yuyingshi/css/style.css" rel="stylesheet" type="text/css">
 		<LINK href="/commons/yuyingshi/css/content.css" rel="stylesheet" type="text/css">
+		
 		<META name="GENERATOR" content="MSHTML 11.00.9600.17690">
 		<script type="text/javascript" src="/commons/js/jquery/jquery-1.7.2.min.js" ></script>
+		
 	</HEAD>
 	<BODY>
 		<!-- 头部设置 -->

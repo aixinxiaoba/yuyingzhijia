@@ -71,6 +71,9 @@ public class ProjectMenu extends BaseEntity {
 	@Column(name = "m_menuName")
 	private String mobileMenuName; // 移动端显示名称
 	
+	@Column(name = "subShowIndex")
+	private Integer subShowIndex; //子菜单显示标志,1在子菜单中显示；0在子菜单中不显示
+	
 	@Transient
 	private String strParentMenuKey;
 	
@@ -213,6 +216,16 @@ public class ProjectMenu extends BaseEntity {
 	public void setLstManualNews(List<News> lstManualNews) {
 		this.lstManualNews = lstManualNews;
 	}
+
+	public Integer getSubShowIndex() {
+		return subShowIndex;
+	}
+
+	public void setSubShowIndex(Integer subShowIndex) {
+		this.subShowIndex = subShowIndex;
+	}
+
+	
 
 	
 	

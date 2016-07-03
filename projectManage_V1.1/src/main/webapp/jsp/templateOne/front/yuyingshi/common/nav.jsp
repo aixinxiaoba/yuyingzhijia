@@ -59,9 +59,11 @@
 				<A class="small-sub-nav<s:if test="strCurMenu == 'index'"> cur-sub-nav</s:if>" href='/front/yuyingshi/index.do?lProjectMenuID=${objProjectMenu.lId}'>首页</A>
 			</LI>
 			<s:iterator value="lstProjectMenu" id="projectMenu" >
-				<LI>
-					<A class="small-sub-nav<s:if test="strCurMenu == menuKey"> cur-sub-nav</s:if>" href="/front/yuyingshi/newsList.do?lProjectMenuID=${objProjectMenu.lId}&menuID=${lId}"><s:property value="strMenuName"/></A>
-				</LI>
+				<s:if test="#projectMenu.subShowIndex == 1">
+					<LI>
+						<A class="small-sub-nav<s:if test="strCurMenu == menuKey"> cur-sub-nav</s:if>" href="/front/yuyingshi/newsList.do?lProjectMenuID=${objProjectMenu.lId}&menuID=${lId}"><s:property value="strMenuName"/></A>
+					</LI>
+				</s:if>
 			</s:iterator>
 		</UL>
 	</DIV>
