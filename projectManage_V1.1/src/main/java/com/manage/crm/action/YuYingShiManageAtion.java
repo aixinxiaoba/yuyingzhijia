@@ -1290,6 +1290,7 @@ public class YuYingShiManageAtion extends BaseStruts2Action {
 	{
 		// 加载育婴师最新发布动态 获取前9个
 		// this.lstNewestMessage = objNewsService.listBySql(" select a.* from News a,projectmenu b where a.mid=b.id and b.parid=" + this.lProjectMenuID + " ORDER BY a.id desc LIMIT " + Pagination.PAGE_SIZE_9);
+		
 		this.lstNewestMessage = objNewsService.listBySql(" select " + DBSql.getNewsColumnWithOutContent() + " from newstemp a  where a.parmid=" + this.lProjectMenuID + " ORDER BY a.id desc LIMIT " + num);
 	}
 	

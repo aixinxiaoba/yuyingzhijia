@@ -47,6 +47,10 @@ function pageStatic(strUrl)
 			<ul style="line-height:35px;">
 			    <li>1、PC端首页静态化：<input type="button" value="执行" onclick="pageStatic('/front/index/indexStatic.do')"/></li>
 			    <li>2、PC端汇总最新数据：<input type="button" value="执行" onclick="pageStatic('/front/yuyingshi/gatherlatestNews.do')"/></li>
+			    
+			    <li>3、PC端二级菜单分类静态化：<input type="button" value="执行" onclick="pageStatic('/front/m/pcStatic/subMenuIndexStatic.do')"/></li>
+			    
+			    <li>4、PC端所有三级菜单列表静态化：<input type="button" value="执行" onclick="pageStatic('/front/front/yuyingshi/gatherlatestNews.do')"/></li>
 			</ul>
 		</div>
 	</div>

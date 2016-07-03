@@ -56,9 +56,11 @@
 				<A class="small-sub-nav<#if strCurMenu == 'index'> cur-sub-nav</#if>" href='/static/menu/bm/${objProjectMenu.menuKey}'>首页</A>
 			</LI>
 			<#list lstProjectMenu as projectMenu>
+				<#if projectMenu.subShowIndex == 1>
 				<LI>
 					<A class="small-sub-nav<#if strCurMenu == projectMenu.menuKey> cur-sub-nav</#if>" href="/static/menu/sm/${projectMenu.menuKey}/1">${projectMenu.strMenuName}</A>
 				</LI>
+				</#if>
 			</#list>
 		</UL>
 	</DIV>

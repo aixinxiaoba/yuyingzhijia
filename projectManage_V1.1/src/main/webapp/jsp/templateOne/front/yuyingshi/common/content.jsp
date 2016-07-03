@@ -246,9 +246,11 @@
 							<DIV class="content">
 								<DIV class="top">
 									<SPAN class="l"><s:property value="strMenuName"/></SPAN><SPAN class="r"><A
-										href="/front/yuyingshi/newsList.do?lProjectMenuID=${objProjectMenu.lId}&menuID=${lId }" target="_blank">更多&gt;&gt;</A>
+										href="/front/yuyingshi/newsList.do?lProjectMenuID=${parentProjectMenu.lId}&menuID=${childProjectMenu.lId }" target="_blank">更多&gt;&gt;</A>
 									</SPAN>
 								</DIV>
+								
+								<!-- 图文展示 -->
 								<ul class="u1">
 									<s:iterator value="#projectMenu.lstImageNews" id="news" status="myStatus">
 										<LI style="float:left;width:100%;" onclick="javascript:window.open('/front/yuyingshi/detail.do?lProjectMenuID=${objProjectMenu.objParentProjectMenu.lId }&newsID=${news.lId}')">
@@ -267,7 +269,7 @@
 									 -->												
 								</ul>
 								<UL class="box" id="all3">
-									<s:iterator value="lstNews" id="news" status="myStatus">
+									<s:iterator value="#projectMenu.lstNews" id="news" status="myStatus">
 										<s:if test="#myStatus.index < 7">
 											<LI>
 												<A href="/front/yuyingshi/detail.do?lProjectMenuID=${objProjectMenu.objParentProjectMenu.lId }&newsID=<s:property value='lId'/>"
@@ -278,15 +280,30 @@
 								</UL>
 							</DIV>
 						</s:if>
-						<!-- 2 -->
 						<s:else>
 							<!-- 第二列 begin -->
 							<DIV class="content line">
 								<DIV class="top">
 									<SPAN class="l"><s:property value="strMenuName"/></SPAN><SPAN class="r"><A
-										href="/front/yuyingshi/newsList.do?lProjectMenuID=${objProjectMenu.lId}&menuID=${lId }" target="_blank">更多&gt;&gt;</A>
+										href="/front/yuyingshi/newsList.do?lProjectMenuID=${parentProjectMenu.lId}&menuID=${childProjectMenu.lId }" target="_blank">更多&gt;&gt;</A>
 									</SPAN>
 								</DIV>
+								<!-- 图文展示 -->
+								<ul class="u1">
+									<s:iterator value="#projectMenu.lstImageNews" id="news" status="myStatus">
+										<LI style="float:left;width:100%;" onclick="javascript:window.open('/front/yuyingshi/detail.do?lProjectMenuID=${objProjectMenu.objParentProjectMenu.lId }&newsID=${news.lId}')">
+												<img alt="${news.strTitle13 }" src="${news.imageUrl }" width="342" height="140" />
+												<h2>${news.strTitle13 }</h2>
+<%-- 														<a href="/front/yuyingshi/detail.do?lProjectMenuID=${objProjectMenu.objParentProjectMenu.lId }&newsID=${news.lId}" style="text-decoration:none;font-size:14px;"> --%>
+<%-- 															<img alt="${news.strTitle13 }" src="${news.imageUrl }" style="width:100%;height:140px;"> --%>
+<!-- 														</a> -->
+<!-- 														<br/> -->
+<%-- 														<A href="/front/yuyingshi/detail.do?lProjectMenuID=${objProjectMenu.objParentProjectMenu.lId }&newsID=${news.lId}" target="_blank" style=""> --%>
+<%-- 															${news.strTitle13 } --%>
+<!-- 														</A> -->
+										</li>
+									</s:iterator>
+								</ul>
 								<UL class="box" id="all3">
 									<s:iterator value="lstNews" id="news" status="myStatus">
 										<s:if test="#myStatus.index < 7">
