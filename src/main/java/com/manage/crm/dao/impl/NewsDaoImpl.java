@@ -63,7 +63,8 @@ public class NewsDaoImpl extends BaseDaoImpl<News> implements NewsDao {
 	 */
 	public List<News> lstNewsMostReadingBySubMenuId(Long menuId, int nNewsNum) {
 		// 加载育婴师 阅读排行
-		return this.listBySql(" select * from News where mid=" + menuId  + " and imageurl is not null and imageurl !='' ORDER BY id desc LIMIT " + nNewsNum);
+		return this.listBySql(" select a.* from News a,projectmenu b where a.mid=b.id and b.parid=" + menuId + " ORDER BY readNum desc LIMIT " + nNewsNum);
+//		return this.listBySql(" select * from News where mid=" + menuId  + " and imageurl is not null and imageurl !='' ORDER BY id desc LIMIT " + nNewsNum);
 	}
 	
 	/**
