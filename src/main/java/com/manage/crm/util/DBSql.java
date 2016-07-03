@@ -59,7 +59,6 @@ public class DBSql
     	sbuf.append("  `shortURL`,");
     	sbuf.append("  `staticFlag`,");
     	sbuf.append("  `imageurl` ");
-    	
     	return sbuf.toString();
     }
 	
@@ -87,7 +86,6 @@ public class DBSql
     	sbuf.append("  a.shortURL,");
     	sbuf.append("  a.staticFlag,");
     	sbuf.append("  a.imageurl ");
-    	
     	return sbuf.toString();
     }
 	
@@ -118,7 +116,6 @@ public class DBSql
     	sbuf.append("  `imageurl` ");
     	sbuf.append("FROM");
     	sbuf.append("  newstemp s  ");
-    	
     	return sbuf.toString();
     }
     

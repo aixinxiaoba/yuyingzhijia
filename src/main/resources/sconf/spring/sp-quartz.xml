@@ -32,7 +32,7 @@
   	<!-- =====================页面静态化=======================	start -->
   	<bean id="topUpInquireTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
  		<property name="jobDetail" ref="topUpInquireTask" />
- 		<property name="cronExpression" value="0 0 0 * * ?" />
+ 		<property name="cronExpression" value="0 0 0 1 * ?" />
  	</bean>
  	<!-- Task -->
 	<bean name="topUpInquireTask" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
