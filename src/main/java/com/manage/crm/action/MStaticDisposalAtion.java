@@ -6,7 +6,6 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.URL;
 import java.net.URLConnection;
-import java.text.SimpleDateFormat;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -77,41 +76,19 @@ public class MStaticDisposalAtion extends BaseStruts2Action {
 
 	private List<ProjectMenu> lstProjectMenu;
 
-	private List<ProjectMenu> lstMainProjectMenu;
-
 	private List<ProjectMenu> lstChildMenu; // 所有子菜单(边缘显示菜单)
-
-	private Integer newsSize; // 显示的新闻数量。
-
-	// 菜单id。
-	private Long menuID;
 
 	// 最新公告。
 	private List<News> lstNewestMessage;
 
-	private NewsTag objNewsTag; // 标签
-
 	private ProjectMenu objSubProjectMenu;
 
-	private String projectKey;
-	private String projectMenuKey;
 	private Long projectMenuID;
 
 	private News objNews;
 	private Long newsID;
 
-	private int moodType; // 心情类型。
-
-	private String menuKey;
-
-	private Long lProjectID;
-
-	private Pagination<News> objGPagination;
-
 	private String strCurMenu; // 选中菜单
-
-	// 标签id。
-	private Long newsTag;
 
 	private News objUpNews;
 
@@ -123,16 +100,6 @@ public class MStaticDisposalAtion extends BaseStruts2Action {
 	private List<News> lstTopOfReading; // 阅读排行
 
 	private List<News> lstRollingOfReading; // 滚动新闻。
-
-	private List<News> lstYuErZiXun; // 滚动新闻。
-
-	private String searchText; // 查询条件
-
-	// 热点推荐。
-	private List<News> lstHotSuggest;
-
-	// 育婴技能。
-	private List<News> lstYuYingSkill;
 	
 	private Long lProjectMenuID;
 	

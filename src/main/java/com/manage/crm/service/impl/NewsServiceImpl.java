@@ -316,4 +316,29 @@ public class NewsServiceImpl extends BaseServiceImpl<News> implements
 			
 		}
 	}
+
+	@Override
+	public List<News> lstNewestNewsByMenuId(Long menuID, int nNewsNum) {
+		return objNewsDao.lstNewestNewsByMenuId(menuID, nNewsNum);
+	}
+
+	@Override
+	public List<News> lstNewsByTagId(Long tagId, int nNewsNum) {
+		return objNewsDao.lstNewsByTagId(tagId, nNewsNum);
+	}
+
+	@Override
+	public List<News> lstNewsMostReadingBySubMenuId(Long menuId, int nNewsNum) {
+		return objNewsDao.lstNewsMostReadingBySubMenuId(menuId, nNewsNum);
+	}
+
+	@Override
+	public List<News> lstNewestNewsWithImgBySubMenuId(Long menuId, int nNewsNum) {
+		return objNewsDao.lstNewestNewsWithImgBySubMenuId(menuId, nNewsNum);
+	}
+	
+	@Override
+	public List<News> lstNewestyLevelTwoMenuId(Long menuId, int nNewsNum) {
+		return objNewsDao.lstNewestyLevelTwoMenuId(menuId, nNewsNum);
+	}
 }

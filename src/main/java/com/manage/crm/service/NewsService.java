@@ -28,4 +28,15 @@ public interface NewsService extends BaseService<News> {
 	List<News> lstScrollImgByParMenuId(Long menuID, int nNewsLen);
 
 	void subMenuPageStatic(List<ProjectMenu> lstProjectMenu, FreemarkerUtils objFreemarkerUtils) throws Exception;
+	
+	List<News> lstNewestNewsByMenuId(Long menuID, int nNewsNum);
+	
+	List<News> lstNewsByTagId(Long tagId, int nNewsNum);
+	
+	List<News> lstNewsMostReadingBySubMenuId(Long menuId, int nNewsNum);
+	
+	List<News> lstNewestNewsWithImgBySubMenuId(Long menuId, int nNewsNum);
+	
+	List<News> lstNewestyLevelTwoMenuId(Long menuId, int nNewsNum);
+	
 }

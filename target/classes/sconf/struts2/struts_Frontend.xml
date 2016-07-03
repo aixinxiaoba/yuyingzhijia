@@ -61,10 +61,16 @@
     		<result name="success">/m/static/result.jsp</result>
     	</action>
     	
-    	<!-- 移动端静态化action -->
+    	<!--PC端静态化action -->
+    	<action name="m/pcStatic/*" class="pcStaticDisposalAction" method="{1}">
+    		<result name="success">/m/static/result.jsp</result>
+    	</action>
+    	
+    	<!-- 移动端静态化action
     	<action name="m/statics/*" class="mStaticDisposal" method="{1}">
     		<result name="success">/m/static/result.jsp</result>
     	</action>
+    	 -->
     	
     	<action name="yuyingshi/*" class="yuYingShiManageAction" method="{1}">
     		<result name="index">/jsp/templateOne/front/yuyingshi/index.jsp</result>
