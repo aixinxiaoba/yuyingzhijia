@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="custom-default" location="396,445" size="170,70" />
+  <package name="index" location="26,375" size="280,210">
+    <action name="*" location="65,71" size="150,83">
+      <result name="login">
+        <resourceEdge source="login" routing="0" target="login.jsp" />
+      </result>
+      <result name="downArea">
+        <resourceEdge source="downArea" routing="0" target="downArea.jsp" />
+      </result>
+      <result name="rolidQuerySuccess" />
+    </action>
+  </package>
+  <package name="struts2" location="10,830" size="280,315">
+    <action name="UpLoad" location="65,71" size="150,83">
+      <result name="success" />
+      <result name="error" />
+      <result name="input">
+        <resourceEdge source="input" routing="0" target="shenbaoThird.jsp" />
+      </result>
+    </action>
+    <action name="download/*" location="65,232" size="150,41">
+      <result name="fileDownloadSucces" />
+    </action>
+  </package>
+  <package name="login" location="341,165" size="280,210">
+    <action name="login/*" location="0,0" size="0,0">
+      <result name="userLogin">
+        <resourceEdge source="userLogin" routing="0" target="login.jsp" />
+      </result>
+      <result name="loginSuccess">
+        <resourceEdge source="loginSuccess" routing="0" target="main.jsp" />
+      </result>
+      <result name="destroyLogin">
+        <resourceEdge source="destroyLogin" routing="0" target="login.jsp" />
+      </result>
+      <result name="destroyCustomerLogin" />
+    </action>
+  </package>
+  <webResource name="login.jsp" path="/jsp/MPlatform/login.jsp" location="83,220" size="150,55" />
+  <webResource name="downArea.jsp" path="/jsp/commons/Area/downArea.jsp" location="54,640" size="150,55" />
+  <webResource name="shenbaoThird.jsp" path="/jsp/zhixie/shenbao/shenbaoThird.jsp" location="343,885" size="150,55" />
+  <webResource name="main.jsp" path="/jsp/MPlatform/main.jsp" location="398,10" size="150,55" />
+  <include file="struts_MPlatform.xml" location="686,815" size="150,30" />
+  <include file="struts_Frontend.xml" location="931,815" size="150,30" />
+  <extendsEdge source="index" target="custom-default" routing="0" />
+  <extendsEdge source="login" target="custom-default" routing="0" />
+</Struts2Diagram>
+
