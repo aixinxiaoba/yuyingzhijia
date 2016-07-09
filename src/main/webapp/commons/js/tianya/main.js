@@ -361,7 +361,7 @@ BBSMain.QucickFun = function(t) {
     }
     var e = ['<div class="post-func" id="post_more" style="">', '<ul id="circle_box">', "{items}", "</ul>", '<div class="i-close" id="post_close_btn"></div>', '</div><div class="post-func-close" id="post_more_btn"></div>'].join(""),
     o = {
-        tpl: ['<li><a href="#" class="i-top"><span>页头</span></a></li>', '<li><a href="/front/m/newsSearch.do" class="i-search"><span>搜索</span></a></li>', '<li><a href="#js-footer" class="i-tail"><span>页尾</span></a></li>', '<li><a href="/front/m/index.do" class="i-history"><span>首页</span></a></li>'].join(""),
+        tpl: ['<li><a href="#" class="i-top"><span>页头</span></a></li>', '<li><a href="/front/m/newsSearch.do" class="i-search"><span>搜索</span></a></li>', '<li><a href="#js-footer" class="i-tail"><span>页尾</span></a></li>', '<li><a href="/static/m/index.html" class="i-history"><span>首页</span></a></li>'].join(""),
         firstFunc: function() {},
         openCbk: function() {}
     };
