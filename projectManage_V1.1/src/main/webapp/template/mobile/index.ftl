@@ -89,7 +89,7 @@ $(function(){
 			</ul>
 		</nav>
 		<!-- 1级导航 end -->
-		<div id="slider">
+		<div id="slider" style="display:none;">
 		    <#list lstRollingOfReading as news>
 				<div>
 					<a href="/front/yuyingshi/detail.do?lProjectMenuID=${news.objProjectMenu.objParentProjectMenu.lId }&newsID=${news.lId}"> <img src="${news.imageUrl}">
