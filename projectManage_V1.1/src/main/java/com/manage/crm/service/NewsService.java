@@ -29,6 +29,8 @@ public interface NewsService extends BaseService<News> {
 
 	void subMenuPageStatic(List<ProjectMenu> lstProjectMenu, FreemarkerUtils objFreemarkerUtils) throws Exception;
 	
+	void subMenuPageStatic(ProjectMenu objProjectMenu, FreemarkerUtils objFreemarkerUtils) throws Exception;
+	
 	List<News> lstNewestNewsByMenuId(Long menuID, int nNewsNum);
 	
 	List<News> lstNewsByTagId(Long tagId, int nNewsNum);

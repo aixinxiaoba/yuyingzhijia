@@ -316,6 +316,34 @@ public class NewsServiceImpl extends BaseServiceImpl<News> implements
 			
 		}
 	}
+	
+	public void subMenuPageStatic(ProjectMenu objProjectMenu, FreemarkerUtils objFreemarkerUtils) throws Exception {
+		Map<String, Object> mapInData = new HashMap<String, Object>();
+		List<News> lstCurNews;
+		Pagination<News> objPagination = new Pagination<News>();
+		long pageCount;
+		String nPageSize = "10";
+		
+		pageCount = this.sizeBySql(" select id from news where mid= " + objProjectMenu.getlId());
+		if (pageCount > 0)
+		{
+			objPagination.setTotal(pageCount);
+			objPagination.setPageSize(Integer.parseInt(nPageSize));
+			for (int i = 1; i <= objPagination.getMaxPage(); i++)
+			{
+				objPagination.setPageNo(i);
+				// 组装查询条件。
+				Criterion objSQLCondition = Restrictions.sqlRestriction(" mid =" + objProjectMenu.getlId());
+				lstCurNews = this.listByCriteria(objPagination, new SearchCondition(objSQLCondition, null), Order.desc("strSendDate"));
+				mapInData.put("nextPage", (i+1)<pageCount ? (i+1) + "" : null);
+				mapInData.put("lastPage", i >  1 ? (i-1) + "" : null);
+				mapInData.put("mid", objProjectMenu.getlId());
+				mapInData.put("lstNews", lstCurNews);
+				// 生成静态化文件 文件命名：子菜单+文件名
+				objFreemarkerUtils.createFile("mobile/sub_menu_news_page.ftl", mapInData, "static/m/p/" + objProjectMenu.getlId() + "_" + i + ".html");
+			}
+		}
+	}
 
 	@Override
 	public List<News> lstNewestNewsByMenuId(Long menuID, int nNewsNum) {
