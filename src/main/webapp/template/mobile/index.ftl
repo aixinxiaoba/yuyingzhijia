@@ -115,9 +115,9 @@ $(function(){
 			    	<li>
 			    		<a href="/front/yuyingshi/detail.do?newsID=${news.lId}"> 
 			    		<#if news.imageUrl??>
-							<img src="/commons/images/defaultpic.gif" />
-						<#else>
 							<img src="${news.imageUrl}" alt="${news.strLongTitleTwo}" />
+						<#else>
+							<img src="/commons/images/defaultpic.gif" />
 						</#if>
 						<h4>
 							${news.strLongTitleTwo}
@@ -143,9 +143,9 @@ $(function(){
 			    	<li>
 			    		<a href="/front/yuyingshi/detail.do?newsID=${news.lId}"> 
 			    		<#if news.imageUrl??>
-							<img src="/commons/images/defaultpic.gif" />
-						<#else>
 							<img src="${news.imageUrl}" alt="${news.strLongTitleTwo}" />
+						<#else>
+							<img src="/commons/images/defaultpic.gif" />
 						</#if>
 						<h4>
 							${news.strLongTitleTwo}
