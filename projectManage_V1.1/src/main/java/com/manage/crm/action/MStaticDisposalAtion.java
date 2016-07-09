@@ -123,16 +123,41 @@ public class MStaticDisposalAtion extends BaseStruts2Action {
 			// 设置项目子菜单。
 			lstProjectMenu = objProjectMenuService.lstProjectMenuByProId(this.objProject.getlId());
 			
+//			// 加载最新动态 获取前6个
+//			this.lstNewestMessage = objNewsService.listBySql(" select " + DBSql.getNewsColumnWithOutReadNum() + ",(select a.readnum from news a where a.id=b.id) readnum from NewsTemp b ORDER BY id desc LIMIT " + Pagination.PAGE_SIZE_6);
+//			// 设置推荐阅读栏。
+//			this.lstSuggestReading = objNewsService.listBySql(" select " + DBSql.getNewsColumnWithOutContentOne() + " from News a,newstagrela b where a.id=b.nid and b.ntid=" + NewsTag.G_SUGGESTIONREADING
+//					+ " and a.imageurl is not null and imageurl !='' ORDER BY a.id desc LIMIT " + Pagination.PAGE_SIZE_RIGHT);
+//			// 阅读量排行 加载前六个 -- 本周阅读排行。
+//			this.lstTopOfReading = objNewsService.listBySql(" select " + DBSql.getNewsColumnWithOutContent() + " from News a where a.imageurl is not null and imageurl !='' ORDER BY readNum desc LIMIT " + Pagination.PAGE_SIZE_CONTENT);
+//			// 滚动图片 加载前5个(id倒序)。Rolling
+//			this.lstRollingOfReading = objNewsService.listBySql("  SELECT " + DBSql.getNewsColumnWithOutContent() + " FROM news s WHERE s.`imageurl` IS NOT NULL and s.imageurl != '' ORDER BY s.`ID` DESC LIMIT 5 ");
+
+			// 滚动图片 加载前5个(id倒序)。Rolling 
+			this.lstRollingOfReading = objNewsService.listBySql("  SELECT " + DBSql.getNewsColumnWithOutContent() + " FROM news s WHERE s.`imageurl` IS NOT NULL and s.imageurl != '' ORDER BY s.`readnum` DESC LIMIT 5 ");
+	
+			String strRollImgId = null;
+			
+			if (lstRollingOfReading != null && lstRollingOfReading.size() > 0)
+			{
+				for (int i = 0; i < lstRollingOfReading.size(); i++) {
+					if (strRollImgId == null)
+					{
+						strRollImgId = lstRollingOfReading.get(i).getlId() + "";
+					}
+					else
+					{
+						strRollImgId = strRollImgId + "," + lstRollingOfReading.get(i).getlId();
+					}
+				}
+			}
+			
 			// 加载最新动态 获取前6个
-			this.lstNewestMessage = objNewsService.listBySql(" select " + DBSql.getNewsColumnWithOutReadNum() + ",(select a.readnum from news a where a.id=b.id) readnum from NewsTemp b ORDER BY id desc LIMIT " + Pagination.PAGE_SIZE_6);
-			// 设置推荐阅读栏。
-			this.lstSuggestReading = objNewsService.listBySql(" select " + DBSql.getNewsColumnWithOutContentOne() + " from News a,newstagrela b where a.id=b.nid and b.ntid=" + NewsTag.G_SUGGESTIONREADING
-					+ " and a.imageurl is not null and imageurl !='' ORDER BY a.id desc LIMIT " + Pagination.PAGE_SIZE_RIGHT);
+			this.lstNewestMessage = objNewsService.listBySql(" select " + DBSql.getNewsColumnWithOutContent() + "  from news s where s.id not in (" + strRollImgId + ") and ( s.`imageurl` IS NULL or s.imageurl = '')  ORDER BY id desc LIMIT " + Pagination.PAGE_SIZE_6);
+
 			// 阅读量排行 加载前六个 -- 本周阅读排行。
 			this.lstTopOfReading = objNewsService.listBySql(" select " + DBSql.getNewsColumnWithOutContent() + " from News a where a.imageurl is not null and imageurl !='' ORDER BY readNum desc LIMIT " + Pagination.PAGE_SIZE_CONTENT);
-			// 滚动图片 加载前5个(id倒序)。Rolling
-			this.lstRollingOfReading = objNewsService.listBySql("  SELECT " + DBSql.getNewsColumnWithOutContent() + " FROM news s WHERE s.`imageurl` IS NOT NULL and s.imageurl != '' ORDER BY s.`ID` DESC LIMIT 5 ");
-
+			
 			// 生成静态化文件
 			FreemarkerUtils objFreemarkerUtils = new FreemarkerUtils();
 			objFreemarkerUtils.init(getRequest().getSession().getServletContext());

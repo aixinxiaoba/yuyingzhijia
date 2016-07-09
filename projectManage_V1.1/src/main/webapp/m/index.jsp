@@ -21,10 +21,46 @@
 <LINK rel="stylesheet" href="/commons/css/bbtree/home.css" type="text/css">
 <LINK rel="stylesheet" href="/commons/css/bbtree/slider.css" type="text/css">
 <LINK rel="stylesheet" href="/commons/css/bbtree/slider.default.css" type="text/css">
+<style type="text/css">
+.jnv-rank-list{
+	margin:10px;
+}
+
+.jnv-rank-list a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.jnv-rank-list a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #fe89a0;
+}
+
+.jnv-rank-list a {
+    display: inline-block;
+    font-family: SimSun;
+    height: 22px;
+    line-height: 22px;
+    vertical-align: middle;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #feb4c3;
+}
+
+</style>
 <script src="/commons/js/bbtree/zepto.min.js"></script>
 <script type="text/javascript" src="/commons/js/bbtree/myurchin.js"></script>
 <script type="text/javascript" src="/commons/js/bbtree/asset.js"></script>
 <script>
+	$(function(){
+		$("#slider").show();
+	});
 	//加载新闻列表。
 	function loadNewsList() {
 		var size = $("#size_zxdt").val();
@@ -94,9 +130,9 @@
 			</ul>
 		</nav>
 		<!-- 1级导航 end -->
-		<div id="slider">
+		<div id="slider" style="display:none;">
 			<s:iterator value="lstRollingOfReading" id="news">
-				<div>
+				<div >
 					<a href="/front/yuyingshi/detail.do?lProjectMenuID=${news.objProjectMenu.objParentProjectMenu.lId }&newsID=${news.lId}"> <img src="${news.imageUrl}">
 						<h2 class="gallerytitle">${news.strTitle}</h2>
 					</a>
@@ -142,33 +178,6 @@
 
 		<section name="zixunlist" id="zixunlist" class="homepage-info fn-mt">
 			<h3 class="tab">
-				<span class="item activate">精华推荐</span>
-				<!-- 
-		        <a href="/channel/#pvareaid=100261" class="btn small skip">进入精华推荐<i class="iconfont icon-arrow-right"></i></a>
-		         -->
-			</h3>
-			<ul class="list-info fn-mlr" id="newslist">
-				<s:iterator value="lstSuggestReading" id="news" status="curStatus">
-					<li><a href="/front/yuyingshi/detail.do?lProjectMenuID=${objProjectMenu.objParentProjectMenu.lId }&newsID=<s:property value='lId'/>"> <s:if
-								test="#news.imageUrl == '' || #news.imageUrl == null">
-								<img src="/commons/images/defaultpic.gif" />
-							</s:if> <s:else>
-								<img src="${news.imageUrl}" alt="<s:property value="strLongTitleTwo"/>" />
-							</s:else>
-							<h4>
-								<s:property value="strLongTitleTwo" />
-							</h4> <time>来自育婴知识分享</time> <span class="comment"><strong><s:property value="#news.readNum" /></strong>阅读</span>
-					</a></li>
-				</s:iterator>
-			</ul>
-			<!-- 
-		    <div class="btn full fn-mt-large fn-mb-large fn-mlr" id="NewsloadMore">点击加载20条资讯<i class="iconfont icon-arrow-bottom"></i>
-		    </div>
-		     -->
-		</section>
-
-		<section name="zixunlist" id="zixunlist" class="homepage-info fn-mt">
-			<h3 class="tab">
 				<span class="item activate">阅读排行</span>
 				<!-- <a href="/channel/#pvareaid=100261" class="btn small skip">进入阅读排行<i class="iconfont icon-arrow-right"></i></a> -->
 			</h3>
@@ -194,24 +203,50 @@
 			<!-- <div class="btn full fn-mt-large fn-mb-large fn-mlr" id="NewsloadMore">点击加载20条资讯<i class="iconfont icon-arrow-bottom"></i>
 		    </div> -->
 		</section>
+		
+		<%--
+		<section name="zixunlist" id="zixunlist" class="homepage-info fn-mt">
+			<h3 class="tab">
+				<span class="item activate">精华推荐</span>
+				<!-- 
+		        <a href="/channel/#pvareaid=100261" class="btn small skip">进入精华推荐<i class="iconfont icon-arrow-right"></i></a>
+		         -->
+			</h3>
+			<ul class="list-info fn-mlr" id="newslist">
+				<s:iterator value="lstSuggestReading" id="news" status="curStatus">
+					<li><a href="/front/yuyingshi/detail.do?lProjectMenuID=${objProjectMenu.objParentProjectMenu.lId }&newsID=<s:property value='lId'/>"> <s:if
+								test="#news.imageUrl == '' || #news.imageUrl == null">
+								<img src="/commons/images/defaultpic.gif" />
+							</s:if> <s:else>
+								<img src="${news.imageUrl}" alt="<s:property value="strLongTitleTwo"/>" />
+							</s:else>
+							<h4>
+								<s:property value="strLongTitleTwo" />
+							</h4> <time>来自育婴知识分享</time> <span class="comment"><strong><s:property value="#news.readNum" /></strong>阅读</span>
+					</a></li>
+				</s:iterator>
+			</ul>
+			<!-- 
+		    <div class="btn full fn-mt-large fn-mb-large fn-mlr" id="NewsloadMore">点击加载20条资讯<i class="iconfont icon-arrow-bottom"></i>
+		    </div>
+		     -->
+		</section>
+		 --%>
 
 		<!-- footer.php start here -->
-		<footer>
-			<p>
-				<a href="/">首页</a>|<a href="/static/m/nav.html">网站导航</a><br />
+		<section name="zixunlist" id="zixunlist" class="homepage-info fn-mt">
+			<h3 class="tab">
+				<span class="item activate">阅读导航</span>
+			</h3>
+			<div class="jnv-rank-list">
 				<s:iterator value="lstProjectMenu" id="projectMenu" status="myStatus">
-					<s:if test="#myStatus.index !=0">
-				      |
-				      </s:if>
-					<!-- 
-				      <s:property value="lstProjectMenu.size"/>
-				      <s:property value="#myStatus.index+1"/>
-				       -->
 					<a refcode="wap-nav-group" href="/front/m/subMenuShow.do?lProjectMenuID=${projectMenu.lId }">${mobileMenuName }</a>
 				</s:iterator>
-			</p>
-			<p class="copyright">© 2016 育婴之家 与你同行</p>
-		</footer>
+				<a href="/">首页</a><a href="/static/m/nav.html">全网导航</a>
+			</div>
+			<!-- <div class="btn full fn-mt-large fn-mb-large fn-mlr" id="NewsloadMore">点击加载20条资讯<i class="iconfont icon-arrow-bottom"></i>
+		    </div> -->
+		</section>
 	</div>
 	<!-- end of wrap -->
 	<script type="text/javascript" src="/commons/js/bbtree/come-true.js"></script>
@@ -227,7 +262,8 @@
 	<script type="text/javascript" src="/commons/js/bbtree/widget/slider/dots.min.js"></script>
 	<script type="text/javascript" src="/commons/js/bbtree/widget/slider/touch.min.js"></script>
 	<script type="text/javascript" src="/commons/js/bbtree/main.js"></script>
-	<%@include file="foot.jsp"%>
+	<br />
+	<%@include file="staticFoot.html"%>
 <!-- 
 <script type="text/javascript" src="/commons/js/bbtree/stat.js"></script>
  -->

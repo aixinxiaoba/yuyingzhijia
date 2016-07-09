@@ -19,10 +19,46 @@
 <LINK rel="stylesheet" href="/commons/css/bbtree/home.css" type="text/css">
 <LINK rel="stylesheet" href="/commons/css/bbtree/slider.css" type="text/css">
 <LINK rel="stylesheet" href="/commons/css/bbtree/slider.default.css" type="text/css">
+<style type="text/css">
+.jnv-rank-list{
+	margin:10px;
+}
+
+.jnv-rank-list a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.jnv-rank-list a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #fe89a0;
+}
+
+.jnv-rank-list a {
+    display: inline-block;
+    font-family: SimSun;
+    height: 22px;
+    line-height: 22px;
+    vertical-align: middle;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #feb4c3;
+}
+
+</style>
 <script src="/commons/js/bbtree/zepto.min.js"></script>
 <script type="text/javascript" src="/commons/js/bbtree/myurchin.js"></script>
 <script type="text/javascript" src="/commons/js/bbtree/asset.js"></script>
 <script>
+$(function(){
+		$("#slider").show();
+	});
 </script>
 </head>
 <body>
@@ -79,9 +115,9 @@
 			    	<li>
 			    		<a href="/front/yuyingshi/detail.do?newsID=${news.lId}"> 
 			    		<#if news.imageUrl??>
-							<img src="${news.imageUrl}" alt="${news.strLongTitleTwo}" />
-						<#else>
 							<img src="/commons/images/defaultpic.gif" />
+						<#else>
+							<img src="${news.imageUrl}" alt="${news.strLongTitleTwo}" />
 						</#if>
 						<h4>
 							${news.strLongTitleTwo}
@@ -91,32 +127,7 @@
 			    </#list>
 			</ul>
 		</section>
-
-		<section name="zixunlist" id="zixunlist" class="homepage-info fn-mt">
-			<h3 class="tab">
-				<span class="item activate">精华推荐</span>
-				<!-- 
-		        <a href="/channel/#pvareaid=100261" class="btn small skip">进入精华推荐<i class="iconfont icon-arrow-right"></i></a>
-		         -->
-			</h3>
-			<ul class="list-info fn-mlr" id="newslist">
-			    <#list lstSuggestReading as news>
-			    	<li>
-			    		<a href="/front/yuyingshi/detail.do?newsID=${news.lId}"> 
-			    		<#if news.imageUrl??>
-							<img src="${news.imageUrl}" alt="${news.strLongTitleTwo}" />
-						<#else>
-							<img src="/commons/images/defaultpic.gif" />
-						</#if>
-						<h4>
-							${news.strLongTitleTwo}
-						</h4> <time>来自育婴知识分享</time> <span class="comment"><strong>${news.readNum}</strong>阅读</span>
-						</a>
-					</li>
-			    </#list>
-			</ul>
-		</section>
-
+		
 		<section name="zixunlist" id="zixunlist" class="homepage-info fn-mt">
 			<h3 class="tab">
 				<span class="item activate">阅读排行</span>
@@ -132,9 +143,9 @@
 			    	<li>
 			    		<a href="/front/yuyingshi/detail.do?newsID=${news.lId}"> 
 			    		<#if news.imageUrl??>
-			    			<img src="${news.imageUrl}" alt="${news.strLongTitleTwo}" />
-						<#else>
 							<img src="/commons/images/defaultpic.gif" />
+						<#else>
+							<img src="${news.imageUrl}" alt="${news.strLongTitleTwo}" />
 						</#if>
 						<h4>
 							${news.strLongTitleTwo}
@@ -145,20 +156,26 @@
 			</ul>
 		</section>
 
-		<!-- footer.php start here -->
-		<footer>
-			<p>
-				<a href="/">首页</a>|<a href="/static/m/nav.html">网站导航</a><br />
+		<section name="zixunlist" id="zixunlist" class="homepage-info fn-mt">
+			<h3 class="tab">
+				<span class="item activate">阅读导航</span>
+			</h3>
+			<div class="jnv-rank-list">
 				<#list lstProjectMenu as projectMenu>
-				    <#if projectMenu_index != 0>
-					|			   
-					</#if>
 					<a refcode="wap-nav-group" href="/front/m/subMenuShow.do?lProjectMenuID=${projectMenu.lId }">${projectMenu.mobileMenuName }</a>
 				</#list>
-			</p>
-			<p class="copyright">© 2016 育婴之家 与你同行</p>
-		</footer>
+				<a href="/">首页</a><a href="/static/m/nav.html">全网导航</a>
+			</div>
+			<!-- <div class="btn full fn-mt-large fn-mb-large fn-mlr" id="NewsloadMore">点击加载20条资讯<i class="iconfont icon-arrow-bottom"></i>
+		    </div> -->
+		</section>
 	</div>
+	<br/>
+	<DIV class="footer_main" style="">
+		<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
+			育婴之家网版权所有 | 服务QQ：2496664615
+		</DIV>
+	</DIV>
 	<!-- end of wrap -->
 	<script type="text/javascript" src="/commons/js/bbtree/come-true.js"></script>
 	<script type="text/javascript" src="/commons/js/bbtree/extend/touch.min.js"></script>
