@@ -308,12 +308,20 @@ public class MStaticDisposalAtion extends BaseStruts2Action {
 	 * @throws IOException 
 	 */
 	public void subMenuPageStatic() throws IOException {
+		FreemarkerUtils objFreemarkerUtils = new FreemarkerUtils();
+		
 		try {
-			lstProjectMenu = this.objProjectMenuService.lstValidSubProjectMenu();
-			FreemarkerUtils objFreemarkerUtils = new FreemarkerUtils();
-
 			objFreemarkerUtils.init(getRequest().getSession().getServletContext());
-			objNewsService.subMenuPageStatic(lstProjectMenu, objFreemarkerUtils);
+			if (this.param1 != null)
+			{
+				objProjectMenu = this.objProjectMenuService.getById(Long.parseLong(this.param1));
+				objNewsService.subMenuPageStatic(objProjectMenu, objFreemarkerUtils);
+			}
+			else
+			{
+				lstProjectMenu = this.objProjectMenuService.lstValidSubProjectMenu();
+				objNewsService.subMenuPageStatic(lstProjectMenu, objFreemarkerUtils);
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 			logger.error(e.getMessage());
