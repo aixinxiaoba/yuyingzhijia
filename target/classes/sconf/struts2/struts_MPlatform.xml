@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+		<!-- 后台操作 -->
+        <package name="mplatform" namespace="/mpf" extends="custom-default">
+	        
+	        <!--用户管理 <action name="LoginManage/*" class="loginAction" method="{1}">
+		       	 <result name="userLogin">/jsp/MPlatform/login.jsp</result>
+	        </action>-->
+	        
+	        <!--项目部分 -->
+	        <action name="project/*" class="projectManageAction" method="{1}" >
+		       	 <result name="projectList">/jsp/MPlatform/project/projectList.jsp</result>
+		       	 <result name="projectDetial">/jsp/MPlatform/project/projectDetial.jsp</result>
+		       	 <result name="projectFiledInfoList">/jsp/MPlatform/project/projectFiledInfoList.jsp</result>
+		       	 <result name="userLogin">/jsp/MPlatform/login.jsp</result>
+		       	 <result name="preProjectAdd">/jsp/MPlatform/project/projectDetial.jsp</result>
+	        </action>
+	        
+	        <!-- 项目菜单 -->
+	        <action name="projectMenu/*" class="projectMenuManageAction" method="{1}" >
+		       	 <result name="projectMenuList">/jsp/MPlatform/project/projectMenu/projectMenuList.jsp</result>
+	        </action>
+	        
+	        <action name="customerType/*" class="customerTypeManageAction" method="{1}" >
+		       	 <result name="customerTypeList">/jsp/MPlatform/project/customerType/customerTypeList.jsp</result>
+	        </action>
+	        
+	        <!-- 用户注册部分 -->
+	    	<action name="users/*" class="usersManageAction" method="{1}">
+	    		<!-- 
+	    		<result name="usersProjectList">/jsp/MPlatform/users/projectList.jsp</result>
+	    		<result name="usersList">usersIndex.do</result>
+	    		 -->
+	    		<result name="usersIndex">/jsp/MPlatform/main.jsp</result>
+	    		<result name="userLogin">/jsp/MPlatform/login.jsp</result>
+	    	</action>
+	    	
+	    	<!-- 用户注册部分 -->
+	    	<action name="customer/*" class="customerManageAction" method="{1}">
+	    		<!-- <result name="customerProjectList">/jsp/MPlatform/customer/projectList.jsp</result> -->
+	    		<result name="customerList">/jsp/MPlatform/customer/customerList.jsp</result>
+	    		<result name="customerDetial">/jsp/MPlatform/customer/customerDetial.jsp</result>
+	    		<result name="customerUpdate">/jsp/MPlatform/customer/customerUpdate.jsp</result>
+	    		
+	    		<result name="customerDownDetial">/jsp/MPlatform/customer/personManage/customerDetial.jsp</result>
+	    		<result name="customerDownUpdate">/jsp/MPlatform/customer/personManage/customerUpdate.jsp</result>
+	    		
+	    		
+	    		<result name="customerLogin">/jsp/MPlatform/customer/login.jsp</result>
+	    		<result name="customerIndex">/jsp/MPlatform/customer/main.jsp</result>
+	    		<result name="customerLoginSuccess" type="redirectAction">customer/customerIndex.do</result>
+	    		<result name="customerDownList">/jsp/MPlatform/customer/customerDownList.jsp</result>
+	    		<!-- 下级所有客户展示 -->
+	    	 	<result name="tuiGuangAddress">/jsp/MPlatform/customer/tuiguangPage.jsp</result>
+	    	</action>
+	    	
+	    	<!-- 用户注册部分 -->
+	    	<action name="email/*" class="emailManageAction" method="{1}">
+	    		<!-- <result name="usersProjectList">/jsp/MPlatform/users/projectList.jsp</result> -->
+	    	</action>
+	    	
+	    	<action name="news/*" class="newsManageAction" method="{1}">
+	    		<result name="{1}">/jsp/MPlatform/news/{1}.jsp</result>
+	    		<result name="newsRead">/jsp/MPlatform/news/newsRead.jsp</result>
+	    		<result name="projectNews">/jsp/templateOne/front/news.jsp</result>
+	    	</action>
+	    	
+	    	<!-- 评论 -->
+	    	<action name="comments/*" class="commentsManageAction" method="{1}">
+	    		
+	    	</action>
+        </package>
+</struts>
