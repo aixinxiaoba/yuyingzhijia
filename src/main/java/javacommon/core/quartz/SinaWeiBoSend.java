@@ -121,10 +121,10 @@ public class SinaWeiBoSend {
 			statuses = "【" + objNews.getStrTitle() + "】"+ statuses;
 			// 增加话题
 			statuses = "【育婴知识分享-" + objProjectMenu.getStrMenuName() + "】" + statuses;
-//			if (statuses.length() > 110)
-//			{
-//				statuses = statuses.substring(0, 110);
-//			}
+			if (statuses.length() > 110)
+			{
+				statuses = statuses.substring(0, 110);
+			}
 			statuses = statuses + "..." + strShortURL;
 			tm = new Timeline(access_token);
 			

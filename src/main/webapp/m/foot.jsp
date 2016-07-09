@@ -1,14 +1,16 @@
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <DIV class="footer_main" style="">
+	<!-- 
 	<DIV class="footer" style="text-align: center;">
-			<A href="#" >寻求合作</A> ｜ 
+			<A href="#" >寻求合作</A> 
 			<A href="#" >推广服务</A> 
-			<SPAN class="bookmark"> ｜
+			<SPAN class="bookmark">
 				<A id="bookmark" href="ext:add_favorite" news="">加入书签</A>
 			</SPAN>
 	</DIV>
+	 -->
 	<DIV style="text-align: center; color: rgb(186, 186, 186); font-size: 12px;">
-		育婴之家网版权所有 | 服务QQ：2496664615
+		Copyright © 育婴之家网 | 服务QQ：2496664615
 	</DIV>
 </DIV>
 
