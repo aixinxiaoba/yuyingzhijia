@@ -176,6 +176,9 @@ $(function(){
 			育婴之家网版权所有 | 服务QQ：2496664615
 		</DIV>
 	</DIV>
+	
+	<br/>
+	<br/>
 	<!-- end of wrap -->
 	<script type="text/javascript" src="/commons/js/bbtree/come-true.js"></script>
 	<script type="text/javascript" src="/commons/js/bbtree/extend/touch.min.js"></script>
