@@ -43,7 +43,7 @@
     vertical-align: middle;
     border-radius: 10px;
     padding: 0 10px;
-    margin-right: 10px;
+    margin-right: 13px;
     margin-top: 10px;
     font-size: 13px;
     color: #fff;
@@ -162,7 +162,7 @@ $(function(){
 			</h3>
 			<div class="jnv-rank-list">
 				<#list lstProjectMenu as projectMenu>
-					<a refcode="wap-nav-group" href="/front/m/subMenuShow.do?lProjectMenuID=${projectMenu.lId }">${projectMenu.mobileMenuName }</a>
+					<a refcode="wap-nav-group" href="/static/m/${projectMenu.lId }.html">${projectMenu.mobileMenuName }</a>
 				</#list>
 				<a href="/">首页</a><a href="/static/m/nav.html">全网导航</a>
 			</div>
