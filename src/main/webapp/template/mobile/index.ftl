@@ -111,7 +111,7 @@ $(function(){
 				<span class="item activate">最新动态</span>
 			</h3>
 			<ul class="list-info fn-mlr" id="newslist">
-			    <#list lstRollingOfReading as news>
+			    <#list lstNewestMessage as news>
 			    	<li>
 			    		<a href="/front/yuyingshi/detail.do?newsID=${news.lId}"> 
 			    		<#if news.imageUrl??>
