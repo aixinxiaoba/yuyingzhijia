@@ -497,7 +497,7 @@ function loadComments()
 								</#if>
 							</li>
 						</UL>
-						<!--
+						
 						<DIV class="list_more">
 							<input type="hidden" id="size_similar_n" value="0"/>
 							<!-- 
@@ -508,7 +508,7 @@ function loadComments()
 							 查看更多 ?</A>
 							 <div style="text-align: center;display: none;" id="msg_similar_n">请稍后...</div>
 						</DIV>
-						-->
+						<!---->
 					</DIV>
 				</DIV>
 			</DIV>

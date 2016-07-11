@@ -341,6 +341,8 @@ public class NewsServiceImpl extends BaseServiceImpl<News> implements
 				mapInData.put("lstNews", lstCurNews);
 				// 生成静态化文件 文件命名：子菜单+文件名
 				objFreemarkerUtils.createFile("mobile/sub_menu_news_page.ftl", mapInData, "static/m/p/" + objProjectMenu.getlId() + "_" + i + ".html");
+				// 休息2s
+				Thread.sleep(1000*2);
 			}
 		}
 	}
