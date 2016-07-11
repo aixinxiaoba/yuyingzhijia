@@ -76,7 +76,6 @@
 			友情链接：
 				
 			<a href="http://katong.alihuahua.com" target="_blank">卡通花束</a>
-			<a href="http://www.nikedejia.com" target="_blank">妮可的家儿童摄影</a>
 			
 			<a href="http://www.ahkly.com.cn" target="_blank">男人帮时尚网</a>
 			<a href="http://mlnrc.com" target="_blank">美丽女人</a>
@@ -88,12 +87,8 @@
 			<a href="http://www.sifayuandi.com" target="_blank">思法苑地</a>
 			
 			<a href="http://www.la-dv.com" target="_blank">拉蒂搜索</a>
-			<a href="http://www.whmjyzx.com" target="_blank">武汉整形医院</a>
 			
 			<a href="http://chinacceu.com" target="_blank">中国盆景网</a>
-			
-			<a href="http://bogo.sinaapp.com" target="_blank">女包品牌大全</a>
-			女包品牌大全
 		</DIV>
 		
 		
