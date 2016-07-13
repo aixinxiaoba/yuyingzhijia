@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+    
+<struts>
+	<!--包含的文件-->
+	<include file="sconf/struts2/struts_MPlatform.xml"></include> 
+	<include file="sconf/struts2/struts_Frontend.xml"></include>
+	<include file="sconf/struts2/struts_yuyingzhijia.xml"></include>  
+	 
+	<!-- 配置主题不使用struts2自带的主题样式，主要针对s标签 -->
+	<constant name="struts.ui.theme" value="simple"></constant>
+	
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true" /> 
+	
+	<!-- 基本的常量配置 -->
+    <constant name="struts.devMode" value="false"></constant>
+    
+     <!-- struts的URL扩展名 -->
+ 	<constant name="struts.action.extension" value="do" />
+ 	
+ 	<!-- S2国际化支持 -->
+    <constant name="struts.custom.i18n.resources" value="i18n/messages"/>
+    <constant name="struts.i18n.encoding" value="utf-8" />
+    <constant name="struts.i18n.reload" value="true"/>
+    
+    <!-- 允许访问静态成员变量 -->
+    <constant name="struts.ognl.allowStaticMethodAccess" value="true" />
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.enable.SlashesInActionNames" value="true" />
+    <constant name="struts.objectFactory" value="spring"></constant>
+    
+    <!-- 设置浏览器是否缓存静态内容  -->
+    <constant name="struts.serve.static.browserCache" value="false"></constant>
+    
+    <!-- Whether to reload the XML configuration or not -->
+    <constant name="struts.configuration.xml.reload" value="true"/>
+    
+    <!-- 文件上传临时保存目录 -->
+    <constant name="struts.multipart.saveDir" value="/tep"/>
+    
+    <!-- 文件上传限制文件的大小，S2文件上传默认最大是2M，现在改成20M ，稳定性不好 -->
+    <constant name="struts.multipart.maxSize" value="209715200" />
+    
+    <!-- struts2.3.14中的警告处理：警告: Action [registForm] do not match allowed action names pattern [[a-z]*[A-Z]*[0-9]*[.\-_!/]*], cleaning it up! -->
+    <constant name="struts.allowed.action.names" value="[a-zA-Z0-9._!/\-]*"></constant>
+    
+	<!--基类包，所有包都引用这个就可以:URL访问规则是: /namesapce/Entity/method.do  -->
+    <package name="custom-default" namespace="/" extends="struts-default" >
+    	
+    	<!-- 默认的Action配置 -->
+<!--     	<default-action-ref name="index"></default-action-ref> -->
+	
+		<!-- 通用异常也可以在web.xml中配置-->
+		<global-results>
+			<result name="commonOk">/jsp/commons/backend/ok.jsp</result>
+			<result name="commonError">/commons/jsp/CommonError.jsp</result>
+			<result name="commonMsg">/commons/jsp/CommonMsg.jsp</result>
+			<result name="commonDownLoad" type="redirectAction">
+				<param name="namespace">/</param>
+				<param name="actionName">download/downloadFile.do</param>
+				<param name="strFilePath">${strFilePath}</param>
+			</result>
+		</global-results>
+		
+		<global-exception-mappings>
+			<exception-mapping result="commonError" exception="java.lang.Exception" />
+			<exception-mapping result="commonError" exception="javacommon.core.exception.ActionException"/>
+			<exception-mapping result="commonError" exception="javacommon.core.exception.ServiceException"/>
+			<exception-mapping result="commonError" exception="javacommon.core.exception.DaoException"/>
+		</global-exception-mappings>    		
+    	
+    </package>
+    
+    <!-- 处理一些直接跳转的页面，或不需要验证用户是否已经登陆的情况 -->
+    <!-- 处理一些直接跳转的页面，或不需要验证用户是否已经登陆的情况 -->
+    <package name="index" namespace="/" extends="custom-default">
+    	<!-- 育婴之家 -->
+    	<action name="*" class="indexManageAction" method="index">
+    		<result name="index" type="redirectAction">projectIndex.do?projectKey={1}</result>
+    		<result name="pointURL">/jsp/templateOne/index.jsp</result>
+    		<!-- <result name="customerRegisterSucc" type="redirect">/jsp/moban/${objProject.lId}/result.html</result> -->
+    		<result name="customerRegisterSucc">/jsp/front/customer/registerSucc.jsp</result>
+    	</action>
+    	<action name="projectIndex" class="indexManageAction" method="projectIndex">
+    		<result name="toIndex">/jsp/templateOne/index.jsp</result>
+    	</action>
+    </package>
+    
+    <!-- 处理系统公共上传和下载部分的功能:目前只实现单个文件上传，以后要实现多文件的上传 -->
+    <package name="struts2" namespace="/" extends="json-default">
+    	<!-- 上传部分 -->
+        <action name="UpLoad" class="net.pthl.core.action.UpLoadAction" method="shenbaoUpload">
+	        <!-- 配置S2文件上传默认的拦截器 -->
+	        <interceptor-ref name="defaultStack" />
+	        
+            <result type="json" name="success">
+                <param name="contentType">text/html</param>
+            </result>
+            
+            <result type="json" name="error">
+                <param name="contentType">text/html</param>
+            </result>
+            
+            <result name="input">/jsp/zhixie/shenbao/shenbaoThird.jsp</result>
+        </action>
+        
+        <!-- 下载部分 -->
+        <action name="download/*" class="downloadAction" method="{1}">
+			<result name="fileDownloadSucces" type="stream">
+				<!-- 
+					<param name="contentType">application/octet-stream</param>  
+				 -->
+				<param name="contentDisposition">attachment;filename="${strFileName}"</param>
+				<param name="inputName">downloadFile</param>
+				<param name="bufferSize">2048</param>
+			</result>
+		</action>
+		
+    </package>
+    
+    <!--登陆处理 -->
+    <package name="login" namespace="/" extends="custom-default">
+		<action name="login/*" class="loginAction" method="{1}">
+			 <!-- 管理平台登陆 -->
+			 <result name="userLogin">/jsp/MPlatform/login.jsp</result>
+			 
+			 <!-- 模板一平台登陆 -->
+			 <result name="tamplateOneLogin">/jsp/templateOne/login.jsp</result>
+			 
+			 <!-- 登陆成功 -->
+			 <result name="loginSuccess" type="redirectAction">login/usersIndex.do</result>
+			 
+			 <result name="index" type="redirectAction">projectIndex.do?projectKey={1}</result>
+			 <!-- 模板一平台登陆成功 -->
+			 <result name="tamplateOneLoginSuccess" type="redirect">/</result>
+			 <result name="usersIndex">/jsp/MPlatform/main.jsp</result>
+			 
+			 <result name="destroyLogin">/jsp/MPlatform/login.jsp</result>
+			 <!-- 注销考生登录 -->
+			 <result name="destroyCustomerLogin" type="redirect">/</result>
+		</action>
+    </package>
+    
+    <!-- 异常处理 -->
+    <!-- 
+    <package name="ssh2" extends="struts-default">
+		<global-results>
+			<result name="sql">/exception.jsp</result>
+			<result name="root">/exception.jsp</result>
+		</global-results>
+		<global-exception-mappings>
+			<exception-mapping exception="java.sql.SQLException"
+				result="sql" />
+			<exception-mapping exception="java.lang.Exception"
+				result="root" />
+		</global-exception-mappings>
+		<action name="login" class="loginAction">
+			<result>/welcome.jsp</result>
+			<result name="nullPointer">/nullPointer.jsp</result>
+			<exception-mapping exception="java.lang.NullPointerException"
+				result="nullPointer" />
+		</action>
+	</package>
+	
+	<package name="ssh2" extends="struts-default">
+		<global-results>
+			<result name="sql">/exception.jsp</result>
+			<result name="root">/exception.jsp</result>
+		</global-results>
+		<global-exception-mappings>
+			<exception-mapping exception="java.sql.SQLException"
+				result="sql" />
+			<exception-mapping exception="java.lang.Exception"
+				result="root" />
+		</global-exception-mappings>
+		<action name="login" class="loginAction">
+			<result>/welcome.jsp</result>
+			<result name="nullPointer">/nullPointer.jsp</result>
+			<exception-mapping exception="java.lang.NullPointerException"
+				result="nullPointer" />
+		</action>
+	</package>
+	
+	<package name="struts2" extends="struts-default">
+		<global-results>
+			<result name="myexception1">/commons/jsp/CommonError.jsp</result>
+		</global-results>
+		<global-exception-mappings>
+			<exception-mapping result="myexception1"
+				exception="com.manage.core.action.MyException">
+			</exception-mapping>
+		</global-exception-mappings>
+	</package>
+    
+     -->
+     
+     
+     
+       
+    
+    
+</struts>
