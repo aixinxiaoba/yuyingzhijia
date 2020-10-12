@@ -11,7 +11,7 @@
 	<properties>
 		<!-- （项目构建源码编码方式），可设置为 UTF-8，可防止中文乱码 -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<junit.version>4.11</junit.version>
+		<junit.version>4.13.1</junit.version>
 		<springframework.version>3.2.0.RELEASE</springframework.version>
 		<freemarker.version>2.3.20</freemarker.version>
 		<modelmapper.version>0.7.2</modelmapper.version>
